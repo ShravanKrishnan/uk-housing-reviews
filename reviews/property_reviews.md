@@ -52,38 +52,33 @@ Evaluated **11** properties against Core Quality Parameters and Deep Modernizati
 | **Tenure & Legal** | **15.0** | 15 | Freehold |
 | **EPC & Thermal Baseline** | **7.0** | 10 | Band C |
 | **Planning & Expansion** | **7.0** | 10 | Permissions / STPP potential |
-| **Heating & Invisible Services** | **0.0** | 30 | Wet UFH, Megaflo, MDPE mains, 3-Phase/RCBO |
-| **Structural & Building Envelope** | **0.0** | 35 | Subfloor slab, RSJs, roof membrane, wall insul |
-| **Garden Aspect & Spatial Micro-Features** | **12.0** | 20 | Solar path, flank wall shadows, side access |
-| **Architectural Glazing & Spec** | **6.0** | 15 | Bi-folds, roof lanterns, high-spec kitchen |
 
-### Technical Modernization & Invisible Systems Analysis
+### Where the modernization score comes from
 
-Under London valuation practice, estate agents typically price off raw bedroom counts and cosmetic styling (new kitchen, fresh paint). True long-term comfort and capital efficiency lie in the **unseen infrastructure**:
+The modernization total is the sum of four evidence-scored components:
 
-**Image Analysis (local Qwen3-VL, from listing photographs):**
+| Modernization component | Score | Maximum |
+| :--- | :---: | :---: |
+| Heating & services | **0.0** | 30 |
+| Structural envelope | **0.0** | 35 |
+| Garden & spatial | **12.0** | 20 |
+| Architectural glazing & specification | **6.0** | 15 |
+| **Total** | **18.0** | 100 |
+
+Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
+
+**Scored modernization evidence:**
+- [x] EPC assessed-systems table too old to score (or undated)
+- [x] Gated side access / independent rear pathway (essential for bikes, garden waste, and renovation logistics)
+- [x] Dedicated outbuilding / garden studio structure
+
+**Photographic evidence reviewed for the score:**
 - 22 property photo(s) analysed by local vision model (Qwen3-VL)
 - Photographic-evidence score: 58.0/100 (high confidence; condition 30/35, kitchen/bath 6/20, glazing 13/20, structure 0/15, legibility 9/10)
 - Floor-plan total read from the plan: 2,340 sq ft
 - Condition tier inferred from photos: refurbished
 - Glazing glimpsed in photos: uPVC double glazing
 - Not captured in the photos: roof, garden aspect, extension evidence, side access, roof, garden aspect (…)
-
-**Confirmed / Advertised Modernization Indicators:**
-- [x] EPC assessed-systems table too old to score (or undated)
-- [x] Gated side access / independent rear pathway (essential for bikes, garden waste, and renovation logistics)
-- [x] Dedicated outbuilding / garden studio structure
-
-**Critical Invisible Points to Verify on Viewing:**
-- [ ] Heating Delivery: Appears to rely on standard wall radiators; check flow temperature compatibility
-- [ ] Plumbing Topology: Check for Megaflo unvented cylinder vs combi-boiler pressure drop when multiple taps run
-- [ ] Consumer Unit: Inspect fuseboard on viewing — metal RCBO unit with Type 2 SPD vs dated plastic unit
-- [ ] Ground Floor Void: Check skirtings and floor vents for cold draughts from uninsulated suspended timber joists
-- [ ] Chimney Stacks: If ground floor is open-plan, verify structural RSJ supports under upper breast and Building Regs cert
-- [ ] Roof Sub-structure: Check in loft if roof has breathable felt or 80-year-old degraded torching/bitumen
-- [ ] Wall Thermal Performance: Standard period solid-brick walls (check EPC recommendation for internal wall insulation)
-- [ ] Extension Drainage: For rear/side extensions, confirm Thames Water Build-Over Agreement and access chamber placement
-- [ ] Garden Aspect: Verify rear orientation on compass and check for overshadowing from tall neighbouring walls
 
 ### Land Registry Transaction History
 
@@ -99,21 +94,6 @@ Under London valuation practice, estate agents typically price off raw bedroom c
 
 **Risks & Nuances:**
 - Size Discrepancy: Floor-plan total does not match advertised size (2,340.0 vs 2,088 sq ft advertised) — confirm which basis the agent used
-
-### In-Person Viewing & Surveyor Inspection Checklist
-
-Take this technical checklist to the viewing to look past the staging:
-
-1. **Incoming Water Supply**: Inspect pipe beneath kitchen sink/stopcock. Look for 25mm/32mm blue MDPE pipe (upgraded) vs dull grey lead pipe (restricted pressure).
-1. **Hot Water & Showers**: Locate the cylinder. Confirm if there is an unvented Megaflo cylinder delivering mains-pressure showers, or an old gravity-fed header tank in the attic.
-1. **Consumer Unit & Electricals**: Open the fuse box. Verify whether it is a modern 18th-edition metal enclosure with RCBOs, Type 2 Surge Protection (SPD), and a 100A main fuse.
-1. **Underfloor Heating Manifold**: If UFH is claimed, ask to see the hydraulic mixing manifold. A wall thermostat alone often indicates cheap, high-running-cost electric matting.
-1. **Subfloor & Thermal Draughts**: Walk the ground floor perimeter. Feel skirtings and air vents for draughts indicating uninsulated suspended timber voids.
-1. **Roof Sub-structure**: Inspect the loft space. Check for breathable felt (e.g. Tyvek) and at least 270mm of mineral wool insulation vs rotting timber lath and torching.
-1. **Structural Alterations & RSJs**: For opened-up spaces or removed chimney breasts, request the structural engineer's calculations and Building Regulations Completion Certificate.
-1. **Drainage & Build-Over**: If extended to the rear, verify if a Thames Water Build-Over Agreement was executed for any public sewers crossing the plot.
-1. **Garden Solar Path & Boundary Shadows**: Check the rear garden with a sun-tracking compass; check if neighbouring two- or three-storey gables cast permanent flank shadows.
-1. **Side Access Rights**: Confirm uninterrupted private title access from front to back garden without crossing third-party land.
 
 
 ---
@@ -156,36 +136,32 @@ Take this technical checklist to the viewing to look past the staging:
 | **Tenure & Legal** | **15.0** | 15 | Freehold |
 | **EPC & Thermal Baseline** | **4.5** | 10 | Band D |
 | **Planning & Expansion** | **5.0** | 10 | Permissions / STPP potential |
-| **Heating & Invisible Services** | **4.0** | 30 | Wet UFH, Megaflo, MDPE mains, 3-Phase/RCBO |
-| **Structural & Building Envelope** | **12.0** | 35 | Subfloor slab, RSJs, roof membrane, wall insul |
-| **Garden Aspect & Spatial Micro-Features** | **4.0** | 20 | Solar path, flank wall shadows, side access |
-| **Architectural Glazing & Spec** | **0.0** | 15 | Bi-folds, roof lanterns, high-spec kitchen |
 
-### Technical Modernization & Invisible Systems Analysis
+### Where the modernization score comes from
 
-Under London valuation practice, estate agents typically price off raw bedroom counts and cosmetic styling (new kitchen, fresh paint). True long-term comfort and capital efficiency lie in the **unseen infrastructure**:
+The modernization total is the sum of four evidence-scored components:
 
-**Image Analysis (local Qwen3-VL, from listing photographs):**
+| Modernization component | Score | Maximum |
+| :--- | :---: | :---: |
+| Heating & services | **4.0** | 30 |
+| Structural envelope | **12.0** | 35 |
+| Garden & spatial | **4.0** | 20 |
+| Architectural glazing & specification | **0.0** | 15 |
+| **Total** | **20.0** | 100 |
+
+Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
+
+**Scored modernization evidence:**
+- [x] EPC: no secondary heating (no dated room heaters)
+- [x] EPC: insulated roof (pitched, 270 mm loft insulation)
+
+**Photographic evidence reviewed for the score:**
 - 17 property photo(s) analysed by local vision model (Qwen3-VL)
 - Photographic-evidence score: 37.7/100 (high confidence; condition 22/35, kitchen/bath 4/20, glazing 3/20, structure 0/15, legibility 8.7/10)
 - Floor-plan total read from the plan: 2,224 sq ft
 - Condition tier inferred from photos: partially modernised
 - Glazing glimpsed in photos: uPVC double glazing
 - Not captured in the photos: extension evidence, garden aspect, roof, side access
-
-**Confirmed / Advertised Modernization Indicators:**
-- [x] EPC: no secondary heating (no dated room heaters)
-- [x] EPC: insulated roof (pitched, 270 mm loft insulation)
-
-**Critical Invisible Points to Verify on Viewing:**
-- [ ] Heating Delivery: Appears to rely on standard wall radiators; check flow temperature compatibility
-- [ ] Plumbing Topology: Check for Megaflo unvented cylinder vs combi-boiler pressure drop when multiple taps run
-- [ ] Consumer Unit: Inspect fuseboard on viewing — metal RCBO unit with Type 2 SPD vs dated plastic unit
-- [ ] Ground Floor Void: Check skirtings and floor vents for cold draughts from uninsulated suspended timber joists
-- [ ] Chimney Stacks: If ground floor is open-plan, verify structural RSJ supports under upper breast and Building Regs cert
-- [ ] Roof Sub-structure: Check in loft if roof has breathable felt or 80-year-old degraded torching/bitumen
-- [ ] Wall Thermal Performance: Standard period solid-brick walls (check EPC recommendation for internal wall insulation)
-- [ ] Garden Aspect: Verify rear orientation on compass and check for overshadowing from tall neighbouring walls
 
 ### Land Registry Transaction History
 
@@ -202,21 +178,6 @@ Under London valuation practice, estate agents typically price off raw bedroom c
 
 **Risks & Nuances:**
 - Size Discrepancy: Floor-plan total does not match advertised size (2,223.8 vs 2,566 sq ft advertised) — confirm which basis the agent used
-
-### In-Person Viewing & Surveyor Inspection Checklist
-
-Take this technical checklist to the viewing to look past the staging:
-
-1. **Incoming Water Supply**: Inspect pipe beneath kitchen sink/stopcock. Look for 25mm/32mm blue MDPE pipe (upgraded) vs dull grey lead pipe (restricted pressure).
-1. **Hot Water & Showers**: Locate the cylinder. Confirm if there is an unvented Megaflo cylinder delivering mains-pressure showers, or an old gravity-fed header tank in the attic.
-1. **Consumer Unit & Electricals**: Open the fuse box. Verify whether it is a modern 18th-edition metal enclosure with RCBOs, Type 2 Surge Protection (SPD), and a 100A main fuse.
-1. **Underfloor Heating Manifold**: If UFH is claimed, ask to see the hydraulic mixing manifold. A wall thermostat alone often indicates cheap, high-running-cost electric matting.
-1. **Subfloor & Thermal Draughts**: Walk the ground floor perimeter. Feel skirtings and air vents for draughts indicating uninsulated suspended timber voids.
-1. **Roof Sub-structure**: Inspect the loft space. Check for breathable felt (e.g. Tyvek) and at least 270mm of mineral wool insulation vs rotting timber lath and torching.
-1. **Structural Alterations & RSJs**: For opened-up spaces or removed chimney breasts, request the structural engineer's calculations and Building Regulations Completion Certificate.
-1. **Drainage & Build-Over**: If extended to the rear, verify if a Thames Water Build-Over Agreement was executed for any public sewers crossing the plot.
-1. **Garden Solar Path & Boundary Shadows**: Check the rear garden with a sun-tracking compass; check if neighbouring two- or three-storey gables cast permanent flank shadows.
-1. **Side Access Rights**: Confirm uninterrupted private title access from front to back garden without crossing third-party land.
 
 
 ---
@@ -254,38 +215,34 @@ Take this technical checklist to the viewing to look past the staging:
 | **Tenure & Legal** | **15.0** | 15 | Freehold |
 | **EPC & Thermal Baseline** | **4.5** | 10 | Band D |
 | **Planning & Expansion** | **5.0** | 10 | Permissions / STPP potential |
-| **Heating & Invisible Services** | **16.0** | 30 | Wet UFH, Megaflo, MDPE mains, 3-Phase/RCBO |
-| **Structural & Building Envelope** | **12.0** | 35 | Subfloor slab, RSJs, roof membrane, wall insul |
-| **Garden Aspect & Spatial Micro-Features** | **8.0** | 20 | Solar path, flank wall shadows, side access |
-| **Architectural Glazing & Spec** | **0.0** | 15 | Bi-folds, roof lanterns, high-spec kitchen |
 
-### Technical Modernization & Invisible Systems Analysis
+### Where the modernization score comes from
 
-Under London valuation practice, estate agents typically price off raw bedroom counts and cosmetic styling (new kitchen, fresh paint). True long-term comfort and capital efficiency lie in the **unseen infrastructure**:
+The modernization total is the sum of four evidence-scored components:
 
-**Image Analysis (local Qwen3-VL, from listing photographs):**
+| Modernization component | Score | Maximum |
+| :--- | :---: | :---: |
+| Heating & services | **16.0** | 30 |
+| Structural envelope | **12.0** | 35 |
+| Garden & spatial | **8.0** | 20 |
+| Architectural glazing & specification | **0.0** | 15 |
+| **Total** | **36.0** | 100 |
+
+Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
+
+**Scored modernization evidence:**
+- [x] EPC: underfloor heating recorded as heating delivery
+- [x] EPC: no secondary heating (no dated room heaters)
+- [x] EPC: insulated roof (pitched, 100 mm loft insulation)
+- [x] Gated side access / independent rear pathway (essential for bikes, garden waste, and renovation logistics)
+
+**Photographic evidence reviewed for the score:**
 - 32 property photo(s) analysed by local vision model (Qwen3-VL)
 - Photographic-evidence score: 40.0/100 (high confidence; condition 30/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 7/10)
 - Floor-plan total read from the plan: 2,175 sq ft
 - Condition tier inferred from photos: refurbished
 - Glazing glimpsed in photos: double glazed windows
 - Not captured in the photos: bathroom, bathrooms, bedrooms, extension evidence, garden aspect, kitchen (…)
-
-**Confirmed / Advertised Modernization Indicators:**
-- [x] EPC: underfloor heating recorded as heating delivery
-- [x] EPC: no secondary heating (no dated room heaters)
-- [x] EPC: insulated roof (pitched, 100 mm loft insulation)
-- [x] Gated side access / independent rear pathway (essential for bikes, garden waste, and renovation logistics)
-
-**Critical Invisible Points to Verify on Viewing:**
-- [ ] UFH Type: Confirm if wet hydronic system (manifold in cupboard) or electric wire mat
-- [ ] Plumbing Topology: Check for Megaflo unvented cylinder vs combi-boiler pressure drop when multiple taps run
-- [ ] Consumer Unit: Inspect fuseboard on viewing — metal RCBO unit with Type 2 SPD vs dated plastic unit
-- [ ] Ground Floor Void: Check skirtings and floor vents for cold draughts from uninsulated suspended timber joists
-- [ ] Chimney Stacks: If ground floor is open-plan, verify structural RSJ supports under upper breast and Building Regs cert
-- [ ] Roof Sub-structure: Check in loft if roof has breathable felt or 80-year-old degraded torching/bitumen
-- [ ] Wall Thermal Performance: Standard period solid-brick walls (check EPC recommendation for internal wall insulation)
-- [ ] Garden Aspect: Verify rear orientation on compass and check for overshadowing from tall neighbouring walls
 
 ### Land Registry Transaction History
 
@@ -302,21 +259,6 @@ Under London valuation practice, estate agents typically price off raw bedroom c
 
 **Risks & Nuances:**
 - No immediate red flags detected in listing data; verify invisible mechanical and structural items during survey.
-
-### In-Person Viewing & Surveyor Inspection Checklist
-
-Take this technical checklist to the viewing to look past the staging:
-
-1. **Incoming Water Supply**: Inspect pipe beneath kitchen sink/stopcock. Look for 25mm/32mm blue MDPE pipe (upgraded) vs dull grey lead pipe (restricted pressure).
-1. **Hot Water & Showers**: Locate the cylinder. Confirm if there is an unvented Megaflo cylinder delivering mains-pressure showers, or an old gravity-fed header tank in the attic.
-1. **Consumer Unit & Electricals**: Open the fuse box. Verify whether it is a modern 18th-edition metal enclosure with RCBOs, Type 2 Surge Protection (SPD), and a 100A main fuse.
-1. **Underfloor Heating Manifold**: If UFH is claimed, ask to see the hydraulic mixing manifold. A wall thermostat alone often indicates cheap, high-running-cost electric matting.
-1. **Subfloor & Thermal Draughts**: Walk the ground floor perimeter. Feel skirtings and air vents for draughts indicating uninsulated suspended timber voids.
-1. **Roof Sub-structure**: Inspect the loft space. Check for breathable felt (e.g. Tyvek) and at least 270mm of mineral wool insulation vs rotting timber lath and torching.
-1. **Structural Alterations & RSJs**: For opened-up spaces or removed chimney breasts, request the structural engineer's calculations and Building Regulations Completion Certificate.
-1. **Drainage & Build-Over**: If extended to the rear, verify if a Thames Water Build-Over Agreement was executed for any public sewers crossing the plot.
-1. **Garden Solar Path & Boundary Shadows**: Check the rear garden with a sun-tracking compass; check if neighbouring two- or three-storey gables cast permanent flank shadows.
-1. **Side Access Rights**: Confirm uninterrupted private title access from front to back garden without crossing third-party land.
 
 
 ---
@@ -359,37 +301,33 @@ Take this technical checklist to the viewing to look past the staging:
 | **Tenure & Legal** | **15.0** | 15 | Freehold |
 | **EPC & Thermal Baseline** | **7.0** | 10 | Band C |
 | **Planning & Expansion** | **5.0** | 10 | Permissions / STPP potential |
-| **Heating & Invisible Services** | **0.0** | 30 | Wet UFH, Megaflo, MDPE mains, 3-Phase/RCBO |
-| **Structural & Building Envelope** | **24.0** | 35 | Subfloor slab, RSJs, roof membrane, wall insul |
-| **Garden Aspect & Spatial Micro-Features** | **8.0** | 20 | Solar path, flank wall shadows, side access |
-| **Architectural Glazing & Spec** | **0.0** | 15 | Bi-folds, roof lanterns, high-spec kitchen |
 
-### Technical Modernization & Invisible Systems Analysis
+### Where the modernization score comes from
 
-Under London valuation practice, estate agents typically price off raw bedroom counts and cosmetic styling (new kitchen, fresh paint). True long-term comfort and capital efficiency lie in the **unseen infrastructure**:
+The modernization total is the sum of four evidence-scored components:
 
-**Image Analysis (local Qwen3-VL, from listing photographs):**
-- 29 property photo(s) analysed by local vision model (Qwen3-VL)
-- Photographic-evidence score: 29.0/100 (medium confidence; condition 22/35, kitchen/bath 0/20, glazing 0/20, structure 0/15, legibility 7/10)
-- Floor-plan total read from the plan: 2,471 sq ft
-- Condition tier inferred from photos: partially modernised
-- Not captured in the photos: roof, garden aspect, extension evidence, side access, roof, render (…)
+| Modernization component | Score | Maximum |
+| :--- | :---: | :---: |
+| Heating & services | **0.0** | 30 |
+| Structural envelope | **24.0** | 35 |
+| Garden & spatial | **8.0** | 20 |
+| Architectural glazing & specification | **0.0** | 15 |
+| **Total** | **32.0** | 100 |
 
-**Confirmed / Advertised Modernization Indicators:**
+Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
+
+**Scored modernization evidence:**
 - [x] EPC: secondary heating present (room heaters, mains gas)
 - [x] EPC: wall insulation recorded (cavity wall, as built, partial insulation (assumed))
 - [x] EPC: insulated roof (pitched, 75 mm loft insulation)
 - [x] Gated side access / independent rear pathway (essential for bikes, garden waste, and renovation logistics)
 
-**Critical Invisible Points to Verify on Viewing:**
-- [ ] Heating Delivery: Appears to rely on standard wall radiators; check flow temperature compatibility
-- [ ] Plumbing Topology: Check for Megaflo unvented cylinder vs combi-boiler pressure drop when multiple taps run
-- [ ] Consumer Unit: Inspect fuseboard on viewing — metal RCBO unit with Type 2 SPD vs dated plastic unit
-- [ ] Ground Floor Void: Check skirtings and floor vents for cold draughts from uninsulated suspended timber joists
-- [ ] Chimney Stacks: If ground floor is open-plan, verify structural RSJ supports under upper breast and Building Regs cert
-- [ ] Roof Sub-structure: Check in loft if roof has breathable felt or 80-year-old degraded torching/bitumen
-- [ ] Wall Thermal Performance: Standard period solid-brick walls (check EPC recommendation for internal wall insulation)
-- [ ] Garden Aspect: Verify rear orientation on compass and check for overshadowing from tall neighbouring walls
+**Photographic evidence reviewed for the score:**
+- 29 property photo(s) analysed by local vision model (Qwen3-VL)
+- Photographic-evidence score: 29.0/100 (medium confidence; condition 22/35, kitchen/bath 0/20, glazing 0/20, structure 0/15, legibility 7/10)
+- Floor-plan total read from the plan: 2,471 sq ft
+- Condition tier inferred from photos: partially modernised
+- Not captured in the photos: roof, garden aspect, extension evidence, side access, roof, render (…)
 
 ### Land Registry Transaction History
 
@@ -406,21 +344,6 @@ Under London valuation practice, estate agents typically price off raw bedroom c
 
 **Risks & Nuances:**
 - No immediate red flags detected in listing data; verify invisible mechanical and structural items during survey.
-
-### In-Person Viewing & Surveyor Inspection Checklist
-
-Take this technical checklist to the viewing to look past the staging:
-
-1. **Incoming Water Supply**: Inspect pipe beneath kitchen sink/stopcock. Look for 25mm/32mm blue MDPE pipe (upgraded) vs dull grey lead pipe (restricted pressure).
-1. **Hot Water & Showers**: Locate the cylinder. Confirm if there is an unvented Megaflo cylinder delivering mains-pressure showers, or an old gravity-fed header tank in the attic.
-1. **Consumer Unit & Electricals**: Open the fuse box. Verify whether it is a modern 18th-edition metal enclosure with RCBOs, Type 2 Surge Protection (SPD), and a 100A main fuse.
-1. **Underfloor Heating Manifold**: If UFH is claimed, ask to see the hydraulic mixing manifold. A wall thermostat alone often indicates cheap, high-running-cost electric matting.
-1. **Subfloor & Thermal Draughts**: Walk the ground floor perimeter. Feel skirtings and air vents for draughts indicating uninsulated suspended timber voids.
-1. **Roof Sub-structure**: Inspect the loft space. Check for breathable felt (e.g. Tyvek) and at least 270mm of mineral wool insulation vs rotting timber lath and torching.
-1. **Structural Alterations & RSJs**: For opened-up spaces or removed chimney breasts, request the structural engineer's calculations and Building Regulations Completion Certificate.
-1. **Drainage & Build-Over**: If extended to the rear, verify if a Thames Water Build-Over Agreement was executed for any public sewers crossing the plot.
-1. **Garden Solar Path & Boundary Shadows**: Check the rear garden with a sun-tracking compass; check if neighbouring two- or three-storey gables cast permanent flank shadows.
-1. **Side Access Rights**: Confirm uninterrupted private title access from front to back garden without crossing third-party land.
 
 
 ---
@@ -463,37 +386,32 @@ Take this technical checklist to the viewing to look past the staging:
 | **Tenure & Legal** | **15.0** | 15 | Freehold |
 | **EPC & Thermal Baseline** | **2.5** | 10 | Band E |
 | **Planning & Expansion** | **5.0** | 10 | Permissions / STPP potential |
-| **Heating & Invisible Services** | **0.0** | 30 | Wet UFH, Megaflo, MDPE mains, 3-Phase/RCBO |
-| **Structural & Building Envelope** | **12.0** | 35 | Subfloor slab, RSJs, roof membrane, wall insul |
-| **Garden Aspect & Spatial Micro-Features** | **8.0** | 20 | Solar path, flank wall shadows, side access |
-| **Architectural Glazing & Spec** | **0.0** | 15 | Bi-folds, roof lanterns, high-spec kitchen |
 
-### Technical Modernization & Invisible Systems Analysis
+### Where the modernization score comes from
 
-Under London valuation practice, estate agents typically price off raw bedroom counts and cosmetic styling (new kitchen, fresh paint). True long-term comfort and capital efficiency lie in the **unseen infrastructure**:
+The modernization total is the sum of four evidence-scored components:
 
-**Image Analysis (local Qwen3-VL, from listing photographs):**
+| Modernization component | Score | Maximum |
+| :--- | :---: | :---: |
+| Heating & services | **0.0** | 30 |
+| Structural envelope | **12.0** | 35 |
+| Garden & spatial | **8.0** | 20 |
+| Architectural glazing & specification | **0.0** | 15 |
+| **Total** | **20.0** | 100 |
+
+Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
+
+**Scored modernization evidence:**
+- [x] EPC: secondary heating present (room heaters, mains gas)
+- [x] EPC: insulated roof (pitched, insulated (assumed))
+- [x] Gated side access / independent rear pathway (essential for bikes, garden waste, and renovation logistics)
+
+**Photographic evidence reviewed for the score:**
 - 21 property photo(s) analysed by local vision model (Qwen3-VL)
 - Photographic-evidence score: 23.0/100 (high confidence; condition 12/35, kitchen/bath 2/20, glazing 0/20, structure 0/15, legibility 9/10)
 - Floor-plan total read from the plan: 2,514 sq ft
 - Condition tier inferred from photos: dated
 - Not captured in the photos: roof, garden aspect, extension evidence, side access, roof, garden aspect (…)
-
-**Confirmed / Advertised Modernization Indicators:**
-- [x] EPC: secondary heating present (room heaters, mains gas)
-- [x] EPC: insulated roof (pitched, insulated (assumed))
-- [x] Gated side access / independent rear pathway (essential for bikes, garden waste, and renovation logistics)
-
-**Critical Invisible Points to Verify on Viewing:**
-- [ ] Heating Delivery: Appears to rely on standard wall radiators; check flow temperature compatibility
-- [ ] Plumbing Topology: Check for Megaflo unvented cylinder vs combi-boiler pressure drop when multiple taps run
-- [ ] Consumer Unit: Inspect fuseboard on viewing — metal RCBO unit with Type 2 SPD vs dated plastic unit
-- [ ] EPC Band E: Substandard thermal envelope — high risk of uninsulated solid walls, single glazing, or draughty floor voids
-- [ ] Ground Floor Void: Check skirtings and floor vents for cold draughts from uninsulated suspended timber joists
-- [ ] Chimney Stacks: If ground floor is open-plan, verify structural RSJ supports under upper breast and Building Regs cert
-- [ ] Roof Sub-structure: Check in loft if roof has breathable felt or 80-year-old degraded torching/bitumen
-- [ ] Wall Thermal Performance: Standard period solid-brick walls (check EPC recommendation for internal wall insulation)
-- [ ] Garden Aspect: Verify rear orientation on compass and check for overshadowing from tall neighbouring walls
 
 ### Land Registry Transaction History
 
@@ -511,21 +429,6 @@ Under London valuation practice, estate agents typically price off raw bedroom c
 **Risks & Nuances:**
 - Requires substantial capital budget (£100k-£200k+) for complete rewiring, plumbing, and thermal retrofit
 - Low EPC rating (Band E) indicates uninsulated solid walls or roof heat loss
-
-### In-Person Viewing & Surveyor Inspection Checklist
-
-Take this technical checklist to the viewing to look past the staging:
-
-1. **Incoming Water Supply**: Inspect pipe beneath kitchen sink/stopcock. Look for 25mm/32mm blue MDPE pipe (upgraded) vs dull grey lead pipe (restricted pressure).
-1. **Hot Water & Showers**: Locate the cylinder. Confirm if there is an unvented Megaflo cylinder delivering mains-pressure showers, or an old gravity-fed header tank in the attic.
-1. **Consumer Unit & Electricals**: Open the fuse box. Verify whether it is a modern 18th-edition metal enclosure with RCBOs, Type 2 Surge Protection (SPD), and a 100A main fuse.
-1. **Underfloor Heating Manifold**: If UFH is claimed, ask to see the hydraulic mixing manifold. A wall thermostat alone often indicates cheap, high-running-cost electric matting.
-1. **Subfloor & Thermal Draughts**: Walk the ground floor perimeter. Feel skirtings and air vents for draughts indicating uninsulated suspended timber voids.
-1. **Roof Sub-structure**: Inspect the loft space. Check for breathable felt (e.g. Tyvek) and at least 270mm of mineral wool insulation vs rotting timber lath and torching.
-1. **Structural Alterations & RSJs**: For opened-up spaces or removed chimney breasts, request the structural engineer's calculations and Building Regulations Completion Certificate.
-1. **Drainage & Build-Over**: If extended to the rear, verify if a Thames Water Build-Over Agreement was executed for any public sewers crossing the plot.
-1. **Garden Solar Path & Boundary Shadows**: Check the rear garden with a sun-tracking compass; check if neighbouring two- or three-storey gables cast permanent flank shadows.
-1. **Side Access Rights**: Confirm uninterrupted private title access from front to back garden without crossing third-party land.
 
 
 ---
@@ -568,36 +471,32 @@ Take this technical checklist to the viewing to look past the staging:
 | **Tenure & Legal** | **15.0** | 15 | Freehold |
 | **EPC & Thermal Baseline** | **4.5** | 10 | Band D |
 | **Planning & Expansion** | **5.0** | 10 | Permissions / STPP potential |
-| **Heating & Invisible Services** | **0.0** | 30 | Wet UFH, Megaflo, MDPE mains, 3-Phase/RCBO |
-| **Structural & Building Envelope** | **0.0** | 35 | Subfloor slab, RSJs, roof membrane, wall insul |
-| **Garden Aspect & Spatial Micro-Features** | **12.0** | 20 | Solar path, flank wall shadows, side access |
-| **Architectural Glazing & Spec** | **0.0** | 15 | Bi-folds, roof lanterns, high-spec kitchen |
 
-### Technical Modernization & Invisible Systems Analysis
+### Where the modernization score comes from
 
-Under London valuation practice, estate agents typically price off raw bedroom counts and cosmetic styling (new kitchen, fresh paint). True long-term comfort and capital efficiency lie in the **unseen infrastructure**:
+The modernization total is the sum of four evidence-scored components:
 
-**Image Analysis (local Qwen3-VL, from listing photographs):**
+| Modernization component | Score | Maximum |
+| :--- | :---: | :---: |
+| Heating & services | **0.0** | 30 |
+| Structural envelope | **0.0** | 35 |
+| Garden & spatial | **12.0** | 20 |
+| Architectural glazing & specification | **0.0** | 15 |
+| **Total** | **12.0** | 100 |
+
+Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
+
+**Scored modernization evidence:**
+- [x] EPC assessed-systems table too old to score (or undated)
+- [x] Gated side access / independent rear pathway (essential for bikes, garden waste, and renovation logistics)
+- [x] Dedicated outbuilding / garden studio structure
+
+**Photographic evidence reviewed for the score:**
 - 25 property photo(s) analysed by local vision model (Qwen3-VL)
 - Photographic-evidence score: 10.0/100 (medium confidence; condition 0/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 7/10)
 - Floor-plan total read from the plan: 1,760 sq ft
 - Glazing glimpsed in photos: uPVC double glazing
 - Not captured in the photos: roof, garden aspect, extension evidence, side access, roof, render (…)
-
-**Confirmed / Advertised Modernization Indicators:**
-- [x] EPC assessed-systems table too old to score (or undated)
-- [x] Gated side access / independent rear pathway (essential for bikes, garden waste, and renovation logistics)
-- [x] Dedicated outbuilding / garden studio structure
-
-**Critical Invisible Points to Verify on Viewing:**
-- [ ] Heating Delivery: Appears to rely on standard wall radiators; check flow temperature compatibility
-- [ ] Plumbing Topology: Check for Megaflo unvented cylinder vs combi-boiler pressure drop when multiple taps run
-- [ ] Consumer Unit: Inspect fuseboard on viewing — metal RCBO unit with Type 2 SPD vs dated plastic unit
-- [ ] Ground Floor Void: Check skirtings and floor vents for cold draughts from uninsulated suspended timber joists
-- [ ] Chimney Stacks: If ground floor is open-plan, verify structural RSJ supports under upper breast and Building Regs cert
-- [ ] Roof Sub-structure: Check in loft if roof has breathable felt or 80-year-old degraded torching/bitumen
-- [ ] Wall Thermal Performance: Standard period solid-brick walls (check EPC recommendation for internal wall insulation)
-- [ ] Garden Aspect: Verify rear orientation on compass and check for overshadowing from tall neighbouring walls
 
 ### Land Registry Transaction History
 
@@ -612,21 +511,6 @@ Under London valuation practice, estate agents typically price off raw bedroom c
 
 **Risks & Nuances:**
 - No immediate red flags detected in listing data; verify invisible mechanical and structural items during survey.
-
-### In-Person Viewing & Surveyor Inspection Checklist
-
-Take this technical checklist to the viewing to look past the staging:
-
-1. **Incoming Water Supply**: Inspect pipe beneath kitchen sink/stopcock. Look for 25mm/32mm blue MDPE pipe (upgraded) vs dull grey lead pipe (restricted pressure).
-1. **Hot Water & Showers**: Locate the cylinder. Confirm if there is an unvented Megaflo cylinder delivering mains-pressure showers, or an old gravity-fed header tank in the attic.
-1. **Consumer Unit & Electricals**: Open the fuse box. Verify whether it is a modern 18th-edition metal enclosure with RCBOs, Type 2 Surge Protection (SPD), and a 100A main fuse.
-1. **Underfloor Heating Manifold**: If UFH is claimed, ask to see the hydraulic mixing manifold. A wall thermostat alone often indicates cheap, high-running-cost electric matting.
-1. **Subfloor & Thermal Draughts**: Walk the ground floor perimeter. Feel skirtings and air vents for draughts indicating uninsulated suspended timber voids.
-1. **Roof Sub-structure**: Inspect the loft space. Check for breathable felt (e.g. Tyvek) and at least 270mm of mineral wool insulation vs rotting timber lath and torching.
-1. **Structural Alterations & RSJs**: For opened-up spaces or removed chimney breasts, request the structural engineer's calculations and Building Regulations Completion Certificate.
-1. **Drainage & Build-Over**: If extended to the rear, verify if a Thames Water Build-Over Agreement was executed for any public sewers crossing the plot.
-1. **Garden Solar Path & Boundary Shadows**: Check the rear garden with a sun-tracking compass; check if neighbouring two- or three-storey gables cast permanent flank shadows.
-1. **Side Access Rights**: Confirm uninterrupted private title access from front to back garden without crossing third-party land.
 
 
 ---
@@ -664,36 +548,32 @@ Take this technical checklist to the viewing to look past the staging:
 | **Tenure & Legal** | **15.0** | 15 | Freehold |
 | **EPC & Thermal Baseline** | **4.5** | 10 | Band D |
 | **Planning & Expansion** | **5.0** | 10 | Permissions / STPP potential |
-| **Heating & Invisible Services** | **0.0** | 30 | Wet UFH, Megaflo, MDPE mains, 3-Phase/RCBO |
-| **Structural & Building Envelope** | **0.0** | 35 | Subfloor slab, RSJs, roof membrane, wall insul |
-| **Garden Aspect & Spatial Micro-Features** | **8.0** | 20 | Solar path, flank wall shadows, side access |
-| **Architectural Glazing & Spec** | **0.0** | 15 | Bi-folds, roof lanterns, high-spec kitchen |
 
-### Technical Modernization & Invisible Systems Analysis
+### Where the modernization score comes from
 
-Under London valuation practice, estate agents typically price off raw bedroom counts and cosmetic styling (new kitchen, fresh paint). True long-term comfort and capital efficiency lie in the **unseen infrastructure**:
+The modernization total is the sum of four evidence-scored components:
 
-**Image Analysis (local Qwen3-VL, from listing photographs):**
+| Modernization component | Score | Maximum |
+| :--- | :---: | :---: |
+| Heating & services | **0.0** | 30 |
+| Structural envelope | **0.0** | 35 |
+| Garden & spatial | **8.0** | 20 |
+| Architectural glazing & specification | **0.0** | 15 |
+| **Total** | **8.0** | 100 |
+
+Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
+
+**Scored modernization evidence:**
+- [x] EPC assessed-systems table too old to score (or undated)
+- [x] Gated side access / independent rear pathway (essential for bikes, garden waste, and renovation logistics)
+
+**Photographic evidence reviewed for the score:**
 - 20 property photo(s) analysed by local vision model (Qwen3-VL)
 - Photographic-evidence score: 40.0/100 (high confidence; condition 30/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 7/10)
 - Floor-plan total read from the plan: 2,611 sq ft
 - Condition tier inferred from photos: refurbished
 - Glazing glimpsed in photos: uPVC double glazing
 - Not captured in the photos: roof, garden aspect, side access, roof, render, garden aspect (…)
-
-**Confirmed / Advertised Modernization Indicators:**
-- [x] EPC assessed-systems table too old to score (or undated)
-- [x] Gated side access / independent rear pathway (essential for bikes, garden waste, and renovation logistics)
-
-**Critical Invisible Points to Verify on Viewing:**
-- [ ] Heating Delivery: Appears to rely on standard wall radiators; check flow temperature compatibility
-- [ ] Plumbing Topology: Check for Megaflo unvented cylinder vs combi-boiler pressure drop when multiple taps run
-- [ ] Consumer Unit: Inspect fuseboard on viewing — metal RCBO unit with Type 2 SPD vs dated plastic unit
-- [ ] Ground Floor Void: Check skirtings and floor vents for cold draughts from uninsulated suspended timber joists
-- [ ] Chimney Stacks: If ground floor is open-plan, verify structural RSJ supports under upper breast and Building Regs cert
-- [ ] Roof Sub-structure: Check in loft if roof has breathable felt or 80-year-old degraded torching/bitumen
-- [ ] Wall Thermal Performance: Standard period solid-brick walls (check EPC recommendation for internal wall insulation)
-- [ ] Garden Aspect: Verify rear orientation on compass and check for overshadowing from tall neighbouring walls
 
 ### Land Registry Transaction History
 
@@ -710,21 +590,6 @@ Under London valuation practice, estate agents typically price off raw bedroom c
 
 **Risks & Nuances:**
 - No immediate red flags detected in listing data; verify invisible mechanical and structural items during survey.
-
-### In-Person Viewing & Surveyor Inspection Checklist
-
-Take this technical checklist to the viewing to look past the staging:
-
-1. **Incoming Water Supply**: Inspect pipe beneath kitchen sink/stopcock. Look for 25mm/32mm blue MDPE pipe (upgraded) vs dull grey lead pipe (restricted pressure).
-1. **Hot Water & Showers**: Locate the cylinder. Confirm if there is an unvented Megaflo cylinder delivering mains-pressure showers, or an old gravity-fed header tank in the attic.
-1. **Consumer Unit & Electricals**: Open the fuse box. Verify whether it is a modern 18th-edition metal enclosure with RCBOs, Type 2 Surge Protection (SPD), and a 100A main fuse.
-1. **Underfloor Heating Manifold**: If UFH is claimed, ask to see the hydraulic mixing manifold. A wall thermostat alone often indicates cheap, high-running-cost electric matting.
-1. **Subfloor & Thermal Draughts**: Walk the ground floor perimeter. Feel skirtings and air vents for draughts indicating uninsulated suspended timber voids.
-1. **Roof Sub-structure**: Inspect the loft space. Check for breathable felt (e.g. Tyvek) and at least 270mm of mineral wool insulation vs rotting timber lath and torching.
-1. **Structural Alterations & RSJs**: For opened-up spaces or removed chimney breasts, request the structural engineer's calculations and Building Regulations Completion Certificate.
-1. **Drainage & Build-Over**: If extended to the rear, verify if a Thames Water Build-Over Agreement was executed for any public sewers crossing the plot.
-1. **Garden Solar Path & Boundary Shadows**: Check the rear garden with a sun-tracking compass; check if neighbouring two- or three-storey gables cast permanent flank shadows.
-1. **Side Access Rights**: Confirm uninterrupted private title access from front to back garden without crossing third-party land.
 
 
 ---
@@ -767,38 +632,34 @@ Take this technical checklist to the viewing to look past the staging:
 | **Tenure & Legal** | **15.0** | 15 | Freehold |
 | **EPC & Thermal Baseline** | **7.0** | 10 | Band C |
 | **Planning & Expansion** | **5.0** | 10 | Permissions / STPP potential |
-| **Heating & Invisible Services** | **16.0** | 30 | Wet UFH, Megaflo, MDPE mains, 3-Phase/RCBO |
-| **Structural & Building Envelope** | **24.0** | 35 | Subfloor slab, RSJs, roof membrane, wall insul |
-| **Garden Aspect & Spatial Micro-Features** | **4.0** | 20 | Solar path, flank wall shadows, side access |
-| **Architectural Glazing & Spec** | **0.0** | 15 | Bi-folds, roof lanterns, high-spec kitchen |
 
-### Technical Modernization & Invisible Systems Analysis
+### Where the modernization score comes from
 
-Under London valuation practice, estate agents typically price off raw bedroom counts and cosmetic styling (new kitchen, fresh paint). True long-term comfort and capital efficiency lie in the **unseen infrastructure**:
+The modernization total is the sum of four evidence-scored components:
 
-**Image Analysis (local Qwen3-VL, from listing photographs):**
+| Modernization component | Score | Maximum |
+| :--- | :---: | :---: |
+| Heating & services | **16.0** | 30 |
+| Structural envelope | **24.0** | 35 |
+| Garden & spatial | **4.0** | 20 |
+| Architectural glazing & specification | **0.0** | 15 |
+| **Total** | **44.0** | 100 |
+
+Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
+
+**Scored modernization evidence:**
+- [x] EPC: underfloor heating recorded as heating delivery
+- [x] EPC: no secondary heating (no dated room heaters)
+- [x] EPC: wall insulation recorded (solid brick, with external insulation)
+- [x] EPC: insulated roof (pitched, 250 mm loft insulation)
+
+**Photographic evidence reviewed for the score:**
 - 26 property photo(s) analysed by local vision model (Qwen3-VL)
 - Photographic-evidence score: 38.0/100 (medium confidence; condition 22/35, kitchen/bath 4/20, glazing 3/20, structure 0/15, legibility 9/10)
 - Floor-plan total read from the plan: 2,471 sq ft
 - Condition tier inferred from photos: partially modernised
 - Glazing glimpsed in photos: uPVC double glazing
 - Not captured in the photos: roof, garden aspect, extension evidence, side access, roof, garden aspect (…)
-
-**Confirmed / Advertised Modernization Indicators:**
-- [x] EPC: underfloor heating recorded as heating delivery
-- [x] EPC: no secondary heating (no dated room heaters)
-- [x] EPC: wall insulation recorded (solid brick, with external insulation)
-- [x] EPC: insulated roof (pitched, 250 mm loft insulation)
-
-**Critical Invisible Points to Verify on Viewing:**
-- [ ] UFH Type: Confirm if wet hydronic system (manifold in cupboard) or electric wire mat
-- [ ] Plumbing Topology: Check for Megaflo unvented cylinder vs combi-boiler pressure drop when multiple taps run
-- [ ] Consumer Unit: Inspect fuseboard on viewing — metal RCBO unit with Type 2 SPD vs dated plastic unit
-- [ ] Ground Floor Void: Check skirtings and floor vents for cold draughts from uninsulated suspended timber joists
-- [ ] Chimney Stacks: If ground floor is open-plan, verify structural RSJ supports under upper breast and Building Regs cert
-- [ ] Roof Sub-structure: Check in loft if roof has breathable felt or 80-year-old degraded torching/bitumen
-- [ ] Wall Thermal Performance: Standard period solid-brick walls (check EPC recommendation for internal wall insulation)
-- [ ] Garden Aspect: Verify rear orientation on compass and check for overshadowing from tall neighbouring walls
 
 ### Land Registry Transaction History
 
@@ -813,21 +674,6 @@ Under London valuation practice, estate agents typically price off raw bedroom c
 
 **Risks & Nuances:**
 - No immediate red flags detected in listing data; verify invisible mechanical and structural items during survey.
-
-### In-Person Viewing & Surveyor Inspection Checklist
-
-Take this technical checklist to the viewing to look past the staging:
-
-1. **Incoming Water Supply**: Inspect pipe beneath kitchen sink/stopcock. Look for 25mm/32mm blue MDPE pipe (upgraded) vs dull grey lead pipe (restricted pressure).
-1. **Hot Water & Showers**: Locate the cylinder. Confirm if there is an unvented Megaflo cylinder delivering mains-pressure showers, or an old gravity-fed header tank in the attic.
-1. **Consumer Unit & Electricals**: Open the fuse box. Verify whether it is a modern 18th-edition metal enclosure with RCBOs, Type 2 Surge Protection (SPD), and a 100A main fuse.
-1. **Underfloor Heating Manifold**: If UFH is claimed, ask to see the hydraulic mixing manifold. A wall thermostat alone often indicates cheap, high-running-cost electric matting.
-1. **Subfloor & Thermal Draughts**: Walk the ground floor perimeter. Feel skirtings and air vents for draughts indicating uninsulated suspended timber voids.
-1. **Roof Sub-structure**: Inspect the loft space. Check for breathable felt (e.g. Tyvek) and at least 270mm of mineral wool insulation vs rotting timber lath and torching.
-1. **Structural Alterations & RSJs**: For opened-up spaces or removed chimney breasts, request the structural engineer's calculations and Building Regulations Completion Certificate.
-1. **Drainage & Build-Over**: If extended to the rear, verify if a Thames Water Build-Over Agreement was executed for any public sewers crossing the plot.
-1. **Garden Solar Path & Boundary Shadows**: Check the rear garden with a sun-tracking compass; check if neighbouring two- or three-storey gables cast permanent flank shadows.
-1. **Side Access Rights**: Confirm uninterrupted private title access from front to back garden without crossing third-party land.
 
 
 ---
@@ -865,24 +711,22 @@ Take this technical checklist to the viewing to look past the staging:
 | **Tenure & Legal** | **15.0** | 15 | Freehold |
 | **EPC & Thermal Baseline** | **9.0** | 10 | Band B |
 | **Planning & Expansion** | **5.0** | 10 | Permissions / STPP potential |
-| **Heating & Invisible Services** | **3.0** | 30 | Wet UFH, Megaflo, MDPE mains, 3-Phase/RCBO |
-| **Structural & Building Envelope** | **6.9** | 35 | Subfloor slab, RSJs, roof membrane, wall insul |
-| **Garden Aspect & Spatial Micro-Features** | **8.0** | 20 | Solar path, flank wall shadows, side access |
-| **Architectural Glazing & Spec** | **6.0** | 15 | Bi-folds, roof lanterns, high-spec kitchen |
 
-### Technical Modernization & Invisible Systems Analysis
+### Where the modernization score comes from
 
-Under London valuation practice, estate agents typically price off raw bedroom counts and cosmetic styling (new kitchen, fresh paint). True long-term comfort and capital efficiency lie in the **unseen infrastructure**:
+The modernization total is the sum of four evidence-scored components:
 
-**Image Analysis (local Qwen3-VL, from listing photographs):**
-- 24 property photo(s) analysed by local vision model (Qwen3-VL)
-- Photographic-evidence score: 58.0/100 (high confidence; condition 30/35, kitchen/bath 6/20, glazing 13/20, structure 0/15, legibility 9/10)
-- Floor-plan total read from the plan: 1,982 sq ft
-- Condition tier inferred from photos: refurbished
-- Glazing glimpsed in photos: uPVC double glazing
-- Not captured in the photos: roof, garden aspect, extension evidence, side access, roof, render (…)
+| Modernization component | Score | Maximum |
+| :--- | :---: | :---: |
+| Heating & services | **3.0** | 30 |
+| Structural envelope | **6.9** | 35 |
+| Garden & spatial | **8.0** | 20 |
+| Architectural glazing & specification | **6.0** | 15 |
+| **Total** | **23.9** | 100 |
 
-**Confirmed / Advertised Modernization Indicators:**
+Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
+
+**Scored modernization evidence:**
 - [x] EPC evidence discounted to 30% (certificate age)
 - [x] EPC: no secondary heating (no dated room heaters)
 - [x] EPC: time and temperature zone control
@@ -891,15 +735,13 @@ Under London valuation practice, estate agents typically price off raw bedroom c
 - [x] EPC: high performance glazing (high performance glazing)
 - [x] Gated side access / independent rear pathway (essential for bikes, garden waste, and renovation logistics)
 
-**Critical Invisible Points to Verify on Viewing:**
-- [ ] Heating Delivery: Appears to rely on standard wall radiators; check flow temperature compatibility
-- [ ] Plumbing Topology: Check for Megaflo unvented cylinder vs combi-boiler pressure drop when multiple taps run
-- [ ] Consumer Unit: Inspect fuseboard on viewing — metal RCBO unit with Type 2 SPD vs dated plastic unit
-- [ ] Ground Floor Void: Check skirtings and floor vents for cold draughts from uninsulated suspended timber joists
-- [ ] Chimney Stacks: If ground floor is open-plan, verify structural RSJ supports under upper breast and Building Regs cert
-- [ ] Roof Sub-structure: Check in loft if roof has breathable felt or 80-year-old degraded torching/bitumen
-- [ ] Wall Thermal Performance: Standard period solid-brick walls (check EPC recommendation for internal wall insulation)
-- [ ] Garden Aspect: Verify rear orientation on compass and check for overshadowing from tall neighbouring walls
+**Photographic evidence reviewed for the score:**
+- 24 property photo(s) analysed by local vision model (Qwen3-VL)
+- Photographic-evidence score: 58.0/100 (high confidence; condition 30/35, kitchen/bath 6/20, glazing 13/20, structure 0/15, legibility 9/10)
+- Floor-plan total read from the plan: 1,982 sq ft
+- Condition tier inferred from photos: refurbished
+- Glazing glimpsed in photos: uPVC double glazing
+- Not captured in the photos: roof, garden aspect, extension evidence, side access, roof, render (…)
 
 ### Land Registry Transaction History
 
@@ -916,21 +758,6 @@ Under London valuation practice, estate agents typically price off raw bedroom c
 
 **Risks & Nuances:**
 - Size Discrepancy: Size taken from floor-plan via image analysis
-
-### In-Person Viewing & Surveyor Inspection Checklist
-
-Take this technical checklist to the viewing to look past the staging:
-
-1. **Incoming Water Supply**: Inspect pipe beneath kitchen sink/stopcock. Look for 25mm/32mm blue MDPE pipe (upgraded) vs dull grey lead pipe (restricted pressure).
-1. **Hot Water & Showers**: Locate the cylinder. Confirm if there is an unvented Megaflo cylinder delivering mains-pressure showers, or an old gravity-fed header tank in the attic.
-1. **Consumer Unit & Electricals**: Open the fuse box. Verify whether it is a modern 18th-edition metal enclosure with RCBOs, Type 2 Surge Protection (SPD), and a 100A main fuse.
-1. **Underfloor Heating Manifold**: If UFH is claimed, ask to see the hydraulic mixing manifold. A wall thermostat alone often indicates cheap, high-running-cost electric matting.
-1. **Subfloor & Thermal Draughts**: Walk the ground floor perimeter. Feel skirtings and air vents for draughts indicating uninsulated suspended timber voids.
-1. **Roof Sub-structure**: Inspect the loft space. Check for breathable felt (e.g. Tyvek) and at least 270mm of mineral wool insulation vs rotting timber lath and torching.
-1. **Structural Alterations & RSJs**: For opened-up spaces or removed chimney breasts, request the structural engineer's calculations and Building Regulations Completion Certificate.
-1. **Drainage & Build-Over**: If extended to the rear, verify if a Thames Water Build-Over Agreement was executed for any public sewers crossing the plot.
-1. **Garden Solar Path & Boundary Shadows**: Check the rear garden with a sun-tracking compass; check if neighbouring two- or three-storey gables cast permanent flank shadows.
-1. **Side Access Rights**: Confirm uninterrupted private title access from front to back garden without crossing third-party land.
 
 
 ---
@@ -968,24 +795,22 @@ Take this technical checklist to the viewing to look past the staging:
 | **Tenure & Legal** | **15.0** | 15 | Freehold |
 | **EPC & Thermal Baseline** | **9.0** | 10 | Band B |
 | **Planning & Expansion** | **5.0** | 10 | Permissions / STPP potential |
-| **Heating & Invisible Services** | **15.0** | 30 | Wet UFH, Megaflo, MDPE mains, 3-Phase/RCBO |
-| **Structural & Building Envelope** | **6.9** | 35 | Subfloor slab, RSJs, roof membrane, wall insul |
-| **Garden Aspect & Spatial Micro-Features** | **12.0** | 20 | Solar path, flank wall shadows, side access |
-| **Architectural Glazing & Spec** | **6.0** | 15 | Bi-folds, roof lanterns, high-spec kitchen |
 
-### Technical Modernization & Invisible Systems Analysis
+### Where the modernization score comes from
 
-Under London valuation practice, estate agents typically price off raw bedroom counts and cosmetic styling (new kitchen, fresh paint). True long-term comfort and capital efficiency lie in the **unseen infrastructure**:
+The modernization total is the sum of four evidence-scored components:
 
-**Image Analysis (local Qwen3-VL, from listing photographs):**
-- 21 property photo(s) analysed by local vision model (Qwen3-VL)
-- Photographic-evidence score: 34.0/100 (high confidence; condition 22/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 9/10)
-- Floor-plan total read from the plan: 3,099 sq ft
-- Condition tier inferred from photos: partially modernised
-- Glazing glimpsed in photos: uPVC double glazing
-- Not captured in the photos: roof, render, garden aspect, side access, extension evidence, bathrooms (…)
+| Modernization component | Score | Maximum |
+| :--- | :---: | :---: |
+| Heating & services | **15.0** | 30 |
+| Structural envelope | **6.9** | 35 |
+| Garden & spatial | **12.0** | 20 |
+| Architectural glazing & specification | **6.0** | 15 |
+| **Total** | **39.9** | 100 |
 
-**Confirmed / Advertised Modernization Indicators:**
+Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
+
+**Scored modernization evidence:**
 - [x] EPC: underfloor heating recorded as heating delivery
 - [x] EPC evidence discounted to 30% (certificate age)
 - [x] EPC: no secondary heating (no dated room heaters)
@@ -997,15 +822,13 @@ Under London valuation practice, estate agents typically price off raw bedroom c
 - [x] Dedicated outbuilding / garden studio structure
 - [x] Architectural glazing (bi-folds / roof lanterns / seamless indoor-outdoor transition)
 
-**Critical Invisible Points to Verify on Viewing:**
-- [ ] UFH Type: Confirm if wet hydronic system (manifold in cupboard) or electric wire mat
-- [ ] Plumbing Topology: Check for Megaflo unvented cylinder vs combi-boiler pressure drop when multiple taps run
-- [ ] Consumer Unit: Inspect fuseboard on viewing — metal RCBO unit with Type 2 SPD vs dated plastic unit
-- [ ] Ground Floor Void: Check skirtings and floor vents for cold draughts from uninsulated suspended timber joists
-- [ ] Chimney Stacks: If ground floor is open-plan, verify structural RSJ supports under upper breast and Building Regs cert
-- [ ] Roof Sub-structure: Check in loft if roof has breathable felt or 80-year-old degraded torching/bitumen
-- [ ] Wall Thermal Performance: Standard period solid-brick walls (check EPC recommendation for internal wall insulation)
-- [ ] Garden Aspect: Verify rear orientation on compass and check for overshadowing from tall neighbouring walls
+**Photographic evidence reviewed for the score:**
+- 21 property photo(s) analysed by local vision model (Qwen3-VL)
+- Photographic-evidence score: 34.0/100 (high confidence; condition 22/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 9/10)
+- Floor-plan total read from the plan: 3,099 sq ft
+- Condition tier inferred from photos: partially modernised
+- Glazing glimpsed in photos: uPVC double glazing
+- Not captured in the photos: roof, render, garden aspect, side access, extension evidence, bathrooms (…)
 
 ### Land Registry Transaction History
 
@@ -1024,21 +847,6 @@ Under London valuation practice, estate agents typically price off raw bedroom c
 
 **Risks & Nuances:**
 - No immediate red flags detected in listing data; verify invisible mechanical and structural items during survey.
-
-### In-Person Viewing & Surveyor Inspection Checklist
-
-Take this technical checklist to the viewing to look past the staging:
-
-1. **Incoming Water Supply**: Inspect pipe beneath kitchen sink/stopcock. Look for 25mm/32mm blue MDPE pipe (upgraded) vs dull grey lead pipe (restricted pressure).
-1. **Hot Water & Showers**: Locate the cylinder. Confirm if there is an unvented Megaflo cylinder delivering mains-pressure showers, or an old gravity-fed header tank in the attic.
-1. **Consumer Unit & Electricals**: Open the fuse box. Verify whether it is a modern 18th-edition metal enclosure with RCBOs, Type 2 Surge Protection (SPD), and a 100A main fuse.
-1. **Underfloor Heating Manifold**: If UFH is claimed, ask to see the hydraulic mixing manifold. A wall thermostat alone often indicates cheap, high-running-cost electric matting.
-1. **Subfloor & Thermal Draughts**: Walk the ground floor perimeter. Feel skirtings and air vents for draughts indicating uninsulated suspended timber voids.
-1. **Roof Sub-structure**: Inspect the loft space. Check for breathable felt (e.g. Tyvek) and at least 270mm of mineral wool insulation vs rotting timber lath and torching.
-1. **Structural Alterations & RSJs**: For opened-up spaces or removed chimney breasts, request the structural engineer's calculations and Building Regulations Completion Certificate.
-1. **Drainage & Build-Over**: If extended to the rear, verify if a Thames Water Build-Over Agreement was executed for any public sewers crossing the plot.
-1. **Garden Solar Path & Boundary Shadows**: Check the rear garden with a sun-tracking compass; check if neighbouring two- or three-storey gables cast permanent flank shadows.
-1. **Side Access Rights**: Confirm uninterrupted private title access from front to back garden without crossing third-party land.
 
 
 ---
@@ -1081,36 +889,32 @@ Take this technical checklist to the viewing to look past the staging:
 | **Tenure & Legal** | **15.0** | 15 | Freehold |
 | **EPC & Thermal Baseline** | **4.5** | 10 | Band D |
 | **Planning & Expansion** | **5.0** | 10 | Permissions / STPP potential |
-| **Heating & Invisible Services** | **4.0** | 30 | Wet UFH, Megaflo, MDPE mains, 3-Phase/RCBO |
-| **Structural & Building Envelope** | **4.0** | 35 | Subfloor slab, RSJs, roof membrane, wall insul |
-| **Garden Aspect & Spatial Micro-Features** | **12.0** | 20 | Solar path, flank wall shadows, side access |
-| **Architectural Glazing & Spec** | **0.0** | 15 | Bi-folds, roof lanterns, high-spec kitchen |
 
-### Technical Modernization & Invisible Systems Analysis
+### Where the modernization score comes from
 
-Under London valuation practice, estate agents typically price off raw bedroom counts and cosmetic styling (new kitchen, fresh paint). True long-term comfort and capital efficiency lie in the **unseen infrastructure**:
+The modernization total is the sum of four evidence-scored components:
 
-**Image Analysis (local Qwen3-VL, from listing photographs):**
+| Modernization component | Score | Maximum |
+| :--- | :---: | :---: |
+| Heating & services | **4.0** | 30 |
+| Structural envelope | **4.0** | 35 |
+| Garden & spatial | **12.0** | 20 |
+| Architectural glazing & specification | **0.0** | 15 |
+| **Total** | **20.0** | 100 |
+
+Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
+
+**Scored modernization evidence:**
+- [x] EPC: no secondary heating (no dated room heaters)
+- [x] South / South-West facing rear garden (optimum solar gain)
+
+**Photographic evidence reviewed for the score:**
 - 35 property photo(s) analysed by local vision model (Qwen3-VL)
 - Photographic-evidence score: 34.0/100 (medium confidence; condition 22/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 9/10)
 - Floor-plan total read from the plan: 1,271 sq ft
 - Condition tier inferred from photos: partially modernised
 - Glazing glimpsed in photos: uPVC double glazing
 - Not captured in the photos: roof, garden aspect, extension evidence, side access, roof, render (…)
-
-**Confirmed / Advertised Modernization Indicators:**
-- [x] EPC: no secondary heating (no dated room heaters)
-- [x] South / South-West facing rear garden (optimum solar gain)
-
-**Critical Invisible Points to Verify on Viewing:**
-- [ ] Heating Delivery: Appears to rely on standard wall radiators; check flow temperature compatibility
-- [ ] Plumbing Topology: Check for Megaflo unvented cylinder vs combi-boiler pressure drop when multiple taps run
-- [ ] Consumer Unit: Inspect fuseboard on viewing — metal RCBO unit with Type 2 SPD vs dated plastic unit
-- [ ] Ground Floor Void: Check skirtings and floor vents for cold draughts from uninsulated suspended timber joists
-- [ ] Chimney Stacks: If ground floor is open-plan, verify structural RSJ supports under upper breast and Building Regs cert
-- [ ] Roof Sub-structure: Check in loft if roof has breathable felt or 80-year-old degraded torching/bitumen
-- [ ] Wall Thermal Performance: Standard period solid-brick walls (check EPC recommendation for internal wall insulation)
-- [ ] Extension Drainage: For rear/side extensions, confirm Thames Water Build-Over Agreement and access chamber placement
 
 ### Land Registry Transaction History
 
@@ -1125,18 +929,3 @@ Under London valuation practice, estate agents typically price off raw bedroom c
 
 **Risks & Nuances:**
 - No immediate red flags detected in listing data; verify invisible mechanical and structural items during survey.
-
-### In-Person Viewing & Surveyor Inspection Checklist
-
-Take this technical checklist to the viewing to look past the staging:
-
-1. **Incoming Water Supply**: Inspect pipe beneath kitchen sink/stopcock. Look for 25mm/32mm blue MDPE pipe (upgraded) vs dull grey lead pipe (restricted pressure).
-1. **Hot Water & Showers**: Locate the cylinder. Confirm if there is an unvented Megaflo cylinder delivering mains-pressure showers, or an old gravity-fed header tank in the attic.
-1. **Consumer Unit & Electricals**: Open the fuse box. Verify whether it is a modern 18th-edition metal enclosure with RCBOs, Type 2 Surge Protection (SPD), and a 100A main fuse.
-1. **Underfloor Heating Manifold**: If UFH is claimed, ask to see the hydraulic mixing manifold. A wall thermostat alone often indicates cheap, high-running-cost electric matting.
-1. **Subfloor & Thermal Draughts**: Walk the ground floor perimeter. Feel skirtings and air vents for draughts indicating uninsulated suspended timber voids.
-1. **Roof Sub-structure**: Inspect the loft space. Check for breathable felt (e.g. Tyvek) and at least 270mm of mineral wool insulation vs rotting timber lath and torching.
-1. **Structural Alterations & RSJs**: For opened-up spaces or removed chimney breasts, request the structural engineer's calculations and Building Regulations Completion Certificate.
-1. **Drainage & Build-Over**: If extended to the rear, verify if a Thames Water Build-Over Agreement was executed for any public sewers crossing the plot.
-1. **Garden Solar Path & Boundary Shadows**: Check the rear garden with a sun-tracking compass; check if neighbouring two- or three-storey gables cast permanent flank shadows.
-1. **Side Access Rights**: Confirm uninterrupted private title access from front to back garden without crossing third-party land.

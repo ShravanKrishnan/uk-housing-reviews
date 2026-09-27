@@ -2,6 +2,8 @@
 
 Public, generated-only snapshot of reviewed UK residential properties.
 
+Live site: <https://shravankrishnan.github.io/uk-housing-reviews/>
+
 - `docs/` is the static GitHub Pages site: property map, rankings, scores, and one detail page per property.
 - `reviews/property_reviews.json` is the machine-readable review bundle used to generate the site.
 - `reviews/property_reviews.md` is the human-readable ranking table and per-property reviews.
