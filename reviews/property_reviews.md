@@ -4,14 +4,14 @@ Evaluated **11** properties against Core Quality Parameters and Deep Modernizati
 
 | Rank | Address | Price | Size | £/sqft | EPC | General Score | Modernization Score | Classification |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| 1 | **Well Grove** | £1,450,000 | 3,099.0 | £468 | B | **84.0** | **30.0** | `Partially Modernized Period Home` |
+| 1 | **Well Grove** | £1,450,000 | 3,099.0 | £468 | B | **84.0** | **61.5** | `Capital-Modernized Gem` |
 | 2 | **Rolfe Close** | £1,000,000 | 2,566.0 | £390 | D | **81.5** | **22.5** | `Partially Modernized Period Home` |
 | 3 | **Park Road** | £1,300,000 | 2,471.0 | £526 | C | **81.0** | **30.5** | `Partially Modernized Period Home` |
-| 4 | **Burlington Rise** | £1,175,000 | 2,088.0 | £563 | C | **76.0** | **24.1** | `Partially Modernized Period Home` |
-| 5 | **Hadley Road** | £1,300,000 | 2,611.0 | £498 | D | **76.0** | **13.5** | `Partially Modernized Period Home` |
+| 4 | **Burlington Rise** | £1,175,000 | 2,088.0 | £563 | C | **76.0** | **37.7** | `Cosmetic Flip / Surface Renovation` |
+| 5 | **Hadley Road** | £1,300,000 | 2,611.0 | £498 | D | **76.0** | **24.7** | `Partially Modernized Period Home` |
 | 6 | **Maryrose Way** | £1,150,000 | 2,514.0 | £457 | E | **76.0** | **12.0** | `Raw Potential / Unmodernized Fixer-Upper` |
-| 7 | **Ainsworth Close** | £1,375,000 | 1,982.0 | £694 | B | **72.5** | **27.6** | `Partially Modernized Period Home` |
-| 8 | **Gloucester Road** | £1,250,000 | 1,894.0 | £660 | D | **72.0** | **8.8** | `Standard Period / Unmodernized Baseline` |
+| 7 | **Ainsworth Close** | £1,375,000 | 1,982.0 | £694 | B | **72.5** | **50.7** | `Capital-Modernized Gem` |
+| 8 | **Gloucester Road** | £1,250,000 | 1,894.0 | £660 | D | **72.0** | **28.0** | `Partially Modernized Period Home` |
 | 9 | **Belmont Avenue** | £1,250,000 | 2,175.0 | £575 | D | **70.5** | **39.7** | `Capital-Modernized Gem` |
 | 10 | **Manor Road** | £1,450,000 | 2,352.0 | £616 | C | **64.5** | **46.5** | `Capital-Modernized Gem` |
 | 11 | **Meadway** | £750,000 | 1,271.0 | £590 | D | **63.5** | **14.5** | `Partially Modernized Period Home` |
@@ -21,8 +21,8 @@ Evaluated **11** properties against Core Quality Parameters and Deep Modernizati
 
 ## Property Review: Burlington Rise, East Barnet EN4
 
-> **Verdict**: Solid Contender: Well-balanced property, but verify invisible mechanical infrastructure during survey.
-> **Modernization Profile**: `Partially Modernized Period Home`
+> **Verdict**: Proceed with Caution (Cosmetic Risk): Staged aesthetics may mask outdated wiring, plumbing, and uninsulated floors.
+> **Modernization Profile**: `Cosmetic Flip / Surface Renovation`
 
 ### Key Property Metrics
 
@@ -39,7 +39,7 @@ Evaluated **11** properties against Core Quality Parameters and Deep Modernizati
 
 ```text
   General Property Quality : [##################------]  76.0 / 100
-  Technical Modernization  : [######------------------]  24.1 / 100
+  Technical Modernization  : [#########---------------]  37.7 / 100
 ```
 
 #### Score Breakdown
@@ -59,17 +59,17 @@ The modernization total is the sum of four evidence-scored components:
 
 | Modernization component | Score | Maximum |
 | :--- | :---: | :---: |
-| Heating & services | **0.0** | 30 |
-| Structural envelope | **2.4** | 35 |
+| Heating & services | **4.0** | 30 |
+| Structural envelope | **12.0** | 35 |
 | Garden & spatial | **4.0** | 20 |
 | Architectural glazing & specification | **6.0** | 15 |
 | Observed presentation (photos) | **11.7** | 15 |
-| **Total** | **24.1** | 100 |
+| **Total** | **37.7** | 100 |
 
 Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
 
 **Scored modernization evidence:**
-- [x] EPC assessed 2015-03-09: heating claims expired; persistent fabric scored at 20%
+- [x] EPC assessed 2015-03-09: certificate expired — points scored as stated
 - [x] EPC: no secondary heating (no dated room heaters)
 - [x] EPC: insulated roof (pitched, 350 mm loft insulation)
 - [x] Dedicated outbuilding / garden studio structure
@@ -97,6 +97,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - Clear Freehold tenure
 
 **Risks & Nuances:**
+- Appears cosmetically refreshed without confirmed deep mechanical or subfloor insulation upgrades
 - Size Discrepancy: Floor-plan total does not match advertised size (2,340.0 vs 2,088 sq ft advertised) — confirm which basis the agent used
 
 
@@ -444,7 +445,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 ## Property Review: Gloucester Road, Barnet EN5
 
 > **Verdict**: Solid Contender: Well-balanced property, but verify invisible mechanical infrastructure during survey.
-> **Modernization Profile**: `Standard Period / Unmodernized Baseline`
+> **Modernization Profile**: `Partially Modernized Period Home`
 
 > **⚠️ Missing Data** — review scored with incomplete source data:
 >
@@ -466,7 +467,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 
 ```text
   General Property Quality : [#################-------]  72.0 / 100
-  Technical Modernization  : [##----------------------]   8.8 / 100
+  Technical Modernization  : [#######-----------------]  28.0 / 100
 ```
 
 #### Score Breakdown
@@ -487,16 +488,16 @@ The modernization total is the sum of four evidence-scored components:
 | Modernization component | Score | Maximum |
 | :--- | :---: | :---: |
 | Heating & services | **0.0** | 30 |
-| Structural envelope | **4.8** | 35 |
+| Structural envelope | **24.0** | 35 |
 | Garden & spatial | **4.0** | 20 |
 | Architectural glazing & specification | **0.0** | 15 |
 | Observed presentation (photos) | **0.0** | 15 |
-| **Total** | **8.8** | 100 |
+| **Total** | **28.0** | 100 |
 
 Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
 
 **Scored modernization evidence:**
-- [x] EPC assessed 31 July 2009: heating claims expired; persistent fabric scored at 20%
+- [x] EPC assessed 31 July 2009: certificate expired — points scored as stated
 - [x] EPC: secondary heating present (room heaters, mains gas)
 - [x] EPC: wall insulation recorded (cavity wall, as built, insulated (assumed))
 - [x] EPC: insulated roof (pitched, 300 mm loft insulation)
@@ -546,7 +547,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 
 ```text
   General Property Quality : [##################------]  76.0 / 100
-  Technical Modernization  : [###---------------------]  13.5 / 100
+  Technical Modernization  : [######------------------]  24.7 / 100
 ```
 
 #### Score Breakdown
@@ -566,17 +567,17 @@ The modernization total is the sum of four evidence-scored components:
 
 | Modernization component | Score | Maximum |
 | :--- | :---: | :---: |
-| Heating & services | **0.0** | 30 |
-| Structural envelope | **1.8** | 35 |
+| Heating & services | **4.0** | 30 |
+| Structural envelope | **9.0** | 35 |
 | Garden & spatial | **0.0** | 20 |
 | Architectural glazing & specification | **0.0** | 15 |
 | Observed presentation (photos) | **11.7** | 15 |
-| **Total** | **13.5** | 100 |
+| **Total** | **24.7** | 100 |
 
 Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
 
 **Scored modernization evidence:**
-- [x] EPC assessed 2016-05-26: heating claims expired; persistent fabric scored at 20%
+- [x] EPC assessed 2016-05-26: certificate expired — points scored as stated
 - [x] EPC: no secondary heating (no dated room heaters)
 - [x] EPC: insulated roof (pitched, 100 mm loft insulation)
 - [x] EPC: partial double glazing (partial double glazing)
@@ -698,7 +699,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 ## Property Review: Ainsworth Close, Whetstone N20
 
 > **Verdict**: Solid Contender: Well-balanced property, but verify invisible mechanical infrastructure during survey.
-> **Modernization Profile**: `Partially Modernized Period Home`
+> **Modernization Profile**: `Capital-Modernized Gem`
 
 ### Key Property Metrics
 
@@ -715,7 +716,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 
 ```text
   General Property Quality : [#################-------]  72.5 / 100
-  Technical Modernization  : [#######-----------------]  27.6 / 100
+  Technical Modernization  : [############------------]  50.7 / 100
 ```
 
 #### Score Breakdown
@@ -735,17 +736,16 @@ The modernization total is the sum of four evidence-scored components:
 
 | Modernization component | Score | Maximum |
 | :--- | :---: | :---: |
-| Heating & services | **3.0** | 30 |
-| Structural envelope | **6.9** | 35 |
+| Heating & services | **10.0** | 30 |
+| Structural envelope | **23.0** | 35 |
 | Garden & spatial | **0.0** | 20 |
 | Architectural glazing & specification | **6.0** | 15 |
 | Observed presentation (photos) | **11.7** | 15 |
-| **Total** | **27.6** | 100 |
+| **Total** | **50.7** | 100 |
 
 Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
 
 **Scored modernization evidence:**
-- [x] EPC evidence discounted to 30% (assessed 2021-03-23)
 - [x] EPC: no secondary heating (no dated room heaters)
 - [x] EPC: time and temperature zone control
 - [x] EPC: insulated roof (average thermal transmittance 0.13 w/m²k)
@@ -772,6 +772,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 **Strengths:**
 - Easy King's Cross St Pancras commute (~31 mins via Oakleigh Park)
 - Fast Liverpool Street commute (~42 mins door-to-concourse via Oakleigh Park)
+- High capital investment in invisible infrastructure (underfloor heating / mechanicals)
 - High EPC efficiency (Band B) translates to lower operating costs
 - Clear Freehold tenure
 
@@ -783,8 +784,8 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 
 ## Property Review: Well Grove, Whetstone N20
 
-> **Verdict**: Solid Contender: Well-balanced property, but verify invisible mechanical infrastructure during survey.
-> **Modernization Profile**: `Partially Modernized Period Home`
+> **Verdict**: Top Tier Prime Candidate: Strong fundamentals paired with genuine technical upgrades.
+> **Modernization Profile**: `Capital-Modernized Gem`
 
 ### Key Property Metrics
 
@@ -801,7 +802,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 
 ```text
   General Property Quality : [####################----]  84.0 / 100
-  Technical Modernization  : [#######-----------------]  30.0 / 100
+  Technical Modernization  : [###############---------]  61.5 / 100
 ```
 
 #### Score Breakdown
@@ -821,18 +822,17 @@ The modernization total is the sum of four evidence-scored components:
 
 | Modernization component | Score | Maximum |
 | :--- | :---: | :---: |
-| Heating & services | **6.6** | 30 |
-| Structural envelope | **6.9** | 35 |
+| Heating & services | **22.0** | 30 |
+| Structural envelope | **23.0** | 35 |
 | Garden & spatial | **4.0** | 20 |
 | Architectural glazing & specification | **6.0** | 15 |
 | Observed presentation (photos) | **6.5** | 15 |
-| **Total** | **30.0** | 100 |
+| **Total** | **61.5** | 100 |
 
 Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
 
 **Scored modernization evidence:**
 - [x] EPC: underfloor heating recorded as heating delivery
-- [x] EPC evidence discounted to 30% (assessed 2017-09-07)
 - [x] EPC: no secondary heating (no dated room heaters)
 - [x] EPC: time and temperature zone control
 - [x] EPC: insulated roof (average thermal transmittance 0.12 w/m²k)
@@ -861,6 +861,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - Easy King's Cross St Pancras commute (~25 mins via Oakleigh Park)
 - Prime Liverpool Street commute (~36 mins door-to-concourse via Oakleigh Park)
 - Highly competitive price-per-square-foot (£468/sq ft)
+- High capital investment in invisible infrastructure (underfloor heating / mechanicals)
 - High EPC efficiency (Band B) translates to lower operating costs
 - Clear Freehold tenure
 
