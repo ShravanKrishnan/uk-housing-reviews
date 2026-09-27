@@ -4,17 +4,17 @@ Evaluated **11** properties against Core Quality Parameters and Deep Modernizati
 
 | Rank | Address | Price | Size | £/sqft | EPC | General Score | Modernization Score | Classification |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| 1 | **Well Grove** | £1,450,000 | 3,099.0 | £468 | B | **84.0** | **39.9** | `Capital-Modernized Gem` |
-| 2 | **Rolfe Close** | £1,000,000 | 2,566.0 | £390 | D | **81.5** | **20.0** | `Partially Modernized Period Home` |
-| 3 | **Park Road** | £1,300,000 | 2,471.0 | £526 | C | **81.0** | **32.0** | `Partially Modernized Period Home` |
-| 4 | **Maryrose Way** | £1,150,000 | 2,514.0 | £457 | E | **76.0** | **20.0** | `Raw Potential / Unmodernized Fixer-Upper` |
-| 5 | **Burlington Rise** | £1,175,000 | 2,088.0 | £563 | C | **76.0** | **18.0** | `Standard Period / Unmodernized Baseline` |
-| 6 | **Hadley Road** | £1,300,000 | 2,611.0 | £498 | D | **76.0** | **8.0** | `Standard Period / Unmodernized Baseline` |
-| 7 | **Ainsworth Close** | £1,375,000 | 1,982.0 | £694 | B | **72.5** | **23.9** | `Partially Modernized Period Home` |
-| 8 | **Gloucester Road** | £1,250,000 | 1,894.0 | £660 | D | **72.0** | **12.0** | `Standard Period / Unmodernized Baseline` |
-| 9 | **Belmont Avenue** | £1,250,000 | 2,175.0 | £575 | D | **70.5** | **36.0** | `Capital-Modernized Gem` |
-| 10 | **Manor Road** | £1,450,000 | 2,352.0 | £616 | C | **64.5** | **44.0** | `Capital-Modernized Gem` |
-| 11 | **Meadway** | £750,000 | 1,271.0 | £590 | D | **63.5** | **20.0** | `Partially Modernized Period Home` |
+| 1 | **Well Grove** | £1,450,000 | 3,099.0 | £468 | B | **84.0** | **23.5** | `Partially Modernized Period Home` |
+| 2 | **Rolfe Close** | £1,000,000 | 2,566.0 | £390 | D | **81.5** | **16.0** | `Partially Modernized Period Home` |
+| 3 | **Park Road** | £1,300,000 | 2,471.0 | £526 | C | **81.0** | **24.0** | `Partially Modernized Period Home` |
+| 4 | **Burlington Rise** | £1,175,000 | 2,088.0 | £563 | C | **76.0** | **12.4** | `Partially Modernized Period Home` |
+| 5 | **Maryrose Way** | £1,150,000 | 2,514.0 | £457 | E | **76.0** | **12.0** | `Raw Potential / Unmodernized Fixer-Upper` |
+| 6 | **Hadley Road** | £1,300,000 | 2,611.0 | £498 | D | **76.0** | **1.8** | `Standard Period / Unmodernized Baseline` |
+| 7 | **Ainsworth Close** | £1,375,000 | 1,982.0 | £694 | B | **72.5** | **15.9** | `Partially Modernized Period Home` |
+| 8 | **Gloucester Road** | £1,250,000 | 1,894.0 | £660 | D | **72.0** | **8.8** | `Standard Period / Unmodernized Baseline` |
+| 9 | **Belmont Avenue** | £1,250,000 | 2,175.0 | £575 | D | **70.5** | **28.0** | `Capital-Modernized Gem` |
+| 10 | **Manor Road** | £1,450,000 | 2,352.0 | £616 | C | **64.5** | **40.0** | `Capital-Modernized Gem` |
+| 11 | **Meadway** | £750,000 | 1,271.0 | £590 | D | **63.5** | **8.0** | `Standard Period / Unmodernized Baseline` |
 
 
 ---
@@ -22,7 +22,7 @@ Evaluated **11** properties against Core Quality Parameters and Deep Modernizati
 ## Property Review: Burlington Rise, East Barnet EN4
 
 > **Verdict**: Solid Contender: Well-balanced property, but verify invisible mechanical infrastructure during survey.
-> **Modernization Profile**: `Standard Period / Unmodernized Baseline`
+> **Modernization Profile**: `Partially Modernized Period Home`
 
 ### Key Property Metrics
 
@@ -39,7 +39,7 @@ Evaluated **11** properties against Core Quality Parameters and Deep Modernizati
 
 ```text
   General Property Quality : [##################------]  76.0 / 100
-  Technical Modernization  : [####--------------------]  18.0 / 100
+  Technical Modernization  : [###---------------------]  12.4 / 100
 ```
 
 #### Score Breakdown
@@ -60,16 +60,17 @@ The modernization total is the sum of four evidence-scored components:
 | Modernization component | Score | Maximum |
 | :--- | :---: | :---: |
 | Heating & services | **0.0** | 30 |
-| Structural envelope | **0.0** | 35 |
-| Garden & spatial | **12.0** | 20 |
+| Structural envelope | **2.4** | 35 |
+| Garden & spatial | **4.0** | 20 |
 | Architectural glazing & specification | **6.0** | 15 |
-| **Total** | **18.0** | 100 |
+| **Total** | **12.4** | 100 |
 
 Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
 
 **Scored modernization evidence:**
-- [x] EPC assessed-systems table too old to score (or undated)
-- [x] Gated side access / independent rear pathway (essential for bikes, garden waste, and renovation logistics)
+- [x] EPC assessed 2015-03-09: heating claims expired; persistent fabric scored at 20%
+- [x] EPC: no secondary heating (no dated room heaters)
+- [x] EPC: insulated roof (pitched, 350 mm loft insulation)
 - [x] Dedicated outbuilding / garden studio structure
 - [x] Architectural glazing / roof lantern visible in photos (image analysis)
 
@@ -124,7 +125,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 
 ```text
   General Property Quality : [####################----]  81.5 / 100
-  Technical Modernization  : [#####-------------------]  20.0 / 100
+  Technical Modernization  : [####--------------------]  16.0 / 100
 ```
 
 #### Score Breakdown
@@ -146,9 +147,9 @@ The modernization total is the sum of four evidence-scored components:
 | :--- | :---: | :---: |
 | Heating & services | **4.0** | 30 |
 | Structural envelope | **12.0** | 35 |
-| Garden & spatial | **4.0** | 20 |
+| Garden & spatial | **0.0** | 20 |
 | Architectural glazing & specification | **0.0** | 15 |
-| **Total** | **20.0** | 100 |
+| **Total** | **16.0** | 100 |
 
 Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
 
@@ -203,7 +204,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 
 ```text
   General Property Quality : [#################-------]  70.5 / 100
-  Technical Modernization  : [#########---------------]  36.0 / 100
+  Technical Modernization  : [#######-----------------]  28.0 / 100
 ```
 
 #### Score Breakdown
@@ -225,9 +226,9 @@ The modernization total is the sum of four evidence-scored components:
 | :--- | :---: | :---: |
 | Heating & services | **16.0** | 30 |
 | Structural envelope | **12.0** | 35 |
-| Garden & spatial | **8.0** | 20 |
+| Garden & spatial | **0.0** | 20 |
 | Architectural glazing & specification | **0.0** | 15 |
-| **Total** | **36.0** | 100 |
+| **Total** | **28.0** | 100 |
 
 Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
 
@@ -235,7 +236,6 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - [x] EPC: underfloor heating recorded as heating delivery
 - [x] EPC: no secondary heating (no dated room heaters)
 - [x] EPC: insulated roof (pitched, 100 mm loft insulation)
-- [x] Gated side access / independent rear pathway (essential for bikes, garden waste, and renovation logistics)
 
 **Photographic evidence reviewed for the score:**
 - 32 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -289,7 +289,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 
 ```text
   General Property Quality : [###################-----]  81.0 / 100
-  Technical Modernization  : [########----------------]  32.0 / 100
+  Technical Modernization  : [######------------------]  24.0 / 100
 ```
 
 #### Score Breakdown
@@ -311,9 +311,9 @@ The modernization total is the sum of four evidence-scored components:
 | :--- | :---: | :---: |
 | Heating & services | **0.0** | 30 |
 | Structural envelope | **24.0** | 35 |
-| Garden & spatial | **8.0** | 20 |
+| Garden & spatial | **0.0** | 20 |
 | Architectural glazing & specification | **0.0** | 15 |
-| **Total** | **32.0** | 100 |
+| **Total** | **24.0** | 100 |
 
 Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
 
@@ -321,7 +321,6 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - [x] EPC: secondary heating present (room heaters, mains gas)
 - [x] EPC: wall insulation recorded (cavity wall, as built, partial insulation (assumed))
 - [x] EPC: insulated roof (pitched, 75 mm loft insulation)
-- [x] Gated side access / independent rear pathway (essential for bikes, garden waste, and renovation logistics)
 
 **Photographic evidence reviewed for the score:**
 - 29 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -374,7 +373,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 
 ```text
   General Property Quality : [##################------]  76.0 / 100
-  Technical Modernization  : [#####-------------------]  20.0 / 100
+  Technical Modernization  : [###---------------------]  12.0 / 100
 ```
 
 #### Score Breakdown
@@ -396,16 +395,15 @@ The modernization total is the sum of four evidence-scored components:
 | :--- | :---: | :---: |
 | Heating & services | **0.0** | 30 |
 | Structural envelope | **12.0** | 35 |
-| Garden & spatial | **8.0** | 20 |
+| Garden & spatial | **0.0** | 20 |
 | Architectural glazing & specification | **0.0** | 15 |
-| **Total** | **20.0** | 100 |
+| **Total** | **12.0** | 100 |
 
 Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
 
 **Scored modernization evidence:**
 - [x] EPC: secondary heating present (room heaters, mains gas)
 - [x] EPC: insulated roof (pitched, insulated (assumed))
-- [x] Gated side access / independent rear pathway (essential for bikes, garden waste, and renovation logistics)
 
 **Photographic evidence reviewed for the score:**
 - 21 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -459,7 +457,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 
 ```text
   General Property Quality : [#################-------]  72.0 / 100
-  Technical Modernization  : [###---------------------]  12.0 / 100
+  Technical Modernization  : [##----------------------]   8.8 / 100
 ```
 
 #### Score Breakdown
@@ -480,16 +478,18 @@ The modernization total is the sum of four evidence-scored components:
 | Modernization component | Score | Maximum |
 | :--- | :---: | :---: |
 | Heating & services | **0.0** | 30 |
-| Structural envelope | **0.0** | 35 |
-| Garden & spatial | **12.0** | 20 |
+| Structural envelope | **4.8** | 35 |
+| Garden & spatial | **4.0** | 20 |
 | Architectural glazing & specification | **0.0** | 15 |
-| **Total** | **12.0** | 100 |
+| **Total** | **8.8** | 100 |
 
 Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
 
 **Scored modernization evidence:**
-- [x] EPC assessed-systems table too old to score (or undated)
-- [x] Gated side access / independent rear pathway (essential for bikes, garden waste, and renovation logistics)
+- [x] EPC assessed 31 July 2009: heating claims expired; persistent fabric scored at 20%
+- [x] EPC: secondary heating present (room heaters, mains gas)
+- [x] EPC: wall insulation recorded (cavity wall, as built, insulated (assumed))
+- [x] EPC: insulated roof (pitched, 300 mm loft insulation)
 - [x] Dedicated outbuilding / garden studio structure
 
 **Photographic evidence reviewed for the score:**
@@ -536,7 +536,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 
 ```text
   General Property Quality : [##################------]  76.0 / 100
-  Technical Modernization  : [##----------------------]   8.0 / 100
+  Technical Modernization  : [------------------------]   1.8 / 100
 ```
 
 #### Score Breakdown
@@ -557,16 +557,18 @@ The modernization total is the sum of four evidence-scored components:
 | Modernization component | Score | Maximum |
 | :--- | :---: | :---: |
 | Heating & services | **0.0** | 30 |
-| Structural envelope | **0.0** | 35 |
-| Garden & spatial | **8.0** | 20 |
+| Structural envelope | **1.8** | 35 |
+| Garden & spatial | **0.0** | 20 |
 | Architectural glazing & specification | **0.0** | 15 |
-| **Total** | **8.0** | 100 |
+| **Total** | **1.8** | 100 |
 
 Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
 
 **Scored modernization evidence:**
-- [x] EPC assessed-systems table too old to score (or undated)
-- [x] Gated side access / independent rear pathway (essential for bikes, garden waste, and renovation logistics)
+- [x] EPC assessed 2016-05-26: heating claims expired; persistent fabric scored at 20%
+- [x] EPC: no secondary heating (no dated room heaters)
+- [x] EPC: insulated roof (pitched, 100 mm loft insulation)
+- [x] EPC: partial double glazing (partial double glazing)
 
 **Photographic evidence reviewed for the score:**
 - 20 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -620,7 +622,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 
 ```text
   General Property Quality : [###############---------]  64.5 / 100
-  Technical Modernization  : [###########-------------]  44.0 / 100
+  Technical Modernization  : [##########--------------]  40.0 / 100
 ```
 
 #### Score Breakdown
@@ -642,9 +644,9 @@ The modernization total is the sum of four evidence-scored components:
 | :--- | :---: | :---: |
 | Heating & services | **16.0** | 30 |
 | Structural envelope | **24.0** | 35 |
-| Garden & spatial | **4.0** | 20 |
+| Garden & spatial | **0.0** | 20 |
 | Architectural glazing & specification | **0.0** | 15 |
-| **Total** | **44.0** | 100 |
+| **Total** | **40.0** | 100 |
 
 Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
 
@@ -699,7 +701,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 
 ```text
   General Property Quality : [#################-------]  72.5 / 100
-  Technical Modernization  : [######------------------]  23.9 / 100
+  Technical Modernization  : [####--------------------]  15.9 / 100
 ```
 
 #### Score Breakdown
@@ -721,20 +723,19 @@ The modernization total is the sum of four evidence-scored components:
 | :--- | :---: | :---: |
 | Heating & services | **3.0** | 30 |
 | Structural envelope | **6.9** | 35 |
-| Garden & spatial | **8.0** | 20 |
+| Garden & spatial | **0.0** | 20 |
 | Architectural glazing & specification | **6.0** | 15 |
-| **Total** | **23.9** | 100 |
+| **Total** | **15.9** | 100 |
 
 Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
 
 **Scored modernization evidence:**
-- [x] EPC evidence discounted to 30% (certificate age)
+- [x] EPC evidence discounted to 30% (assessed 2021-03-23)
 - [x] EPC: no secondary heating (no dated room heaters)
 - [x] EPC: time and temperature zone control
 - [x] EPC: insulated roof (average thermal transmittance 0.13 w/m²k)
 - [x] EPC: insulated floor (average thermal transmittance 0.12 w/m²k)
 - [x] EPC: high performance glazing (high performance glazing)
-- [x] Gated side access / independent rear pathway (essential for bikes, garden waste, and renovation logistics)
 - [x] Architectural glazing / roof lantern visible in photos (image analysis)
 
 **Photographic evidence reviewed for the score:**
@@ -767,7 +768,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 ## Property Review: Well Grove, Whetstone N20
 
 > **Verdict**: Solid Contender: Well-balanced property, but verify invisible mechanical infrastructure during survey.
-> **Modernization Profile**: `Capital-Modernized Gem`
+> **Modernization Profile**: `Partially Modernized Period Home`
 
 ### Key Property Metrics
 
@@ -784,7 +785,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 
 ```text
   General Property Quality : [####################----]  84.0 / 100
-  Technical Modernization  : [##########--------------]  39.9 / 100
+  Technical Modernization  : [######------------------]  23.5 / 100
 ```
 
 #### Score Breakdown
@@ -804,23 +805,22 @@ The modernization total is the sum of four evidence-scored components:
 
 | Modernization component | Score | Maximum |
 | :--- | :---: | :---: |
-| Heating & services | **15.0** | 30 |
+| Heating & services | **6.6** | 30 |
 | Structural envelope | **6.9** | 35 |
-| Garden & spatial | **12.0** | 20 |
+| Garden & spatial | **4.0** | 20 |
 | Architectural glazing & specification | **6.0** | 15 |
-| **Total** | **39.9** | 100 |
+| **Total** | **23.5** | 100 |
 
 Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
 
 **Scored modernization evidence:**
 - [x] EPC: underfloor heating recorded as heating delivery
-- [x] EPC evidence discounted to 30% (certificate age)
+- [x] EPC evidence discounted to 30% (assessed 2017-09-07)
 - [x] EPC: no secondary heating (no dated room heaters)
 - [x] EPC: time and temperature zone control
 - [x] EPC: insulated roof (average thermal transmittance 0.12 w/m²k)
 - [x] EPC: insulated floor (average thermal transmittance 0.11 w/m²k)
 - [x] EPC: high performance glazing (high performance glazing)
-- [x] Gated side access / independent rear pathway (essential for bikes, garden waste, and renovation logistics)
 - [x] Dedicated outbuilding / garden studio structure
 - [x] Architectural glazing (bi-folds / roof lanterns / seamless indoor-outdoor transition)
 
@@ -843,7 +843,6 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - Easy King's Cross St Pancras commute (~25 mins via Oakleigh Park)
 - Prime Liverpool Street commute (~36 mins door-to-concourse via Oakleigh Park)
 - Highly competitive price-per-square-foot (£468/sq ft)
-- High capital investment in invisible infrastructure (underfloor heating / mechanicals)
 - High EPC efficiency (Band B) translates to lower operating costs
 - Clear Freehold tenure
 
@@ -856,7 +855,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 ## Property Review: Meadway, Barnet EN5
 
 > **Verdict**: Secondary Assessment Needed: Moderate scores across space, transit, or condition.
-> **Modernization Profile**: `Partially Modernized Period Home`
+> **Modernization Profile**: `Standard Period / Unmodernized Baseline`
 
 > **⚠️ Missing Data** — review scored with incomplete source data:
 >
@@ -878,7 +877,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 
 ```text
   General Property Quality : [###############---------]  63.5 / 100
-  Technical Modernization  : [#####-------------------]  20.0 / 100
+  Technical Modernization  : [##----------------------]   8.0 / 100
 ```
 
 #### Score Breakdown
@@ -900,15 +899,14 @@ The modernization total is the sum of four evidence-scored components:
 | :--- | :---: | :---: |
 | Heating & services | **4.0** | 30 |
 | Structural envelope | **4.0** | 35 |
-| Garden & spatial | **12.0** | 20 |
+| Garden & spatial | **0.0** | 20 |
 | Architectural glazing & specification | **0.0** | 15 |
-| **Total** | **20.0** | 100 |
+| **Total** | **8.0** | 100 |
 
 Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
 
 **Scored modernization evidence:**
 - [x] EPC: no secondary heating (no dated room heaters)
-- [x] South / South-West facing rear garden (optimum solar gain)
 
 **Photographic evidence reviewed for the score:**
 - 35 property photo(s) analysed by local vision model (Qwen3-VL)

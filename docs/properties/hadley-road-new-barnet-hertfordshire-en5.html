@@ -20,11 +20,11 @@
     <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between">
       <div>
         <span class="pill" style="background:#4a9d3f">76.0 General quality</span>
-        <span class="pill" style="background:#a8322d">8.0 Modernization</span>
+        <span class="pill" style="background:#a8322d">1.8 Modernization</span>
         <span class="badge baseline" style="margin-left:6px">Standard Period / Unmodernized Baseline</span>
       </div>
       <div style="font-size:13px;color:var(--muted)">
-        6 of 11 &middot; combined 42.0
+        6 of 11 &middot; combined 38.9
       </div>
     </div>
     <div class="verdict">Solid Contender: Well-balanced property, but verify invisible mechanical infrastructure during survey.</div>
@@ -47,8 +47,8 @@
     <div class="panel">
       <h2>General property quality — 76.0/100</h2>
       <div class="bar-row"><span class="lbl">Location &amp; transport</span><span class="bar"><i style="width:80.0%;background:#a8322d"></i></span><span class="num">16.0</span></div><div class="bar-row"><span class="lbl">Space, scale &amp; layout</span><span class="bar"><i style="width:76.0%;background:#a8322d"></i></span><span class="num">19.0</span></div><div class="bar-row"><span class="lbl">Financial efficiency</span><span class="bar"><i style="width:82.5%;background:#a8322d"></i></span><span class="num">16.5</span></div><div class="bar-row"><span class="lbl">Tenure &amp; legal stability</span><span class="bar"><i style="width:100.0%;background:#a8322d"></i></span><span class="num">15.0</span></div><div class="bar-row"><span class="lbl">EPC baseline</span><span class="bar"><i style="width:45.0%;background:#a8322d"></i></span><span class="num">4.5</span></div><div class="bar-row"><span class="lbl">Planning potential</span><span class="bar"><i style="width:50.0%;background:#a8322d"></i></span><span class="num">5.0</span></div>
-      <h3>Technical modernization — 8.0/100</h3>
-      <div class="bar-row"><span class="lbl">Structural envelope</span><span class="bar"><i style="width:0.0%;background:#a8322d"></i></span><span class="num">0.0</span></div><div class="bar-row"><span class="lbl">Heating &amp; services</span><span class="bar"><i style="width:0.0%;background:#a8322d"></i></span><span class="num">0.0</span></div><div class="bar-row"><span class="lbl">Glazing</span><span class="bar"><i style="width:0.0%;background:#a8322d"></i></span><span class="num">0.0</span></div><div class="bar-row"><span class="lbl">Garden &amp; spatial</span><span class="bar"><i style="width:53.3%;background:#a8322d"></i></span><span class="num">8.0</span></div>
+      <h3>Technical modernization — 1.8/100</h3>
+      <div class="bar-row"><span class="lbl">Structural envelope</span><span class="bar"><i style="width:6.0%;background:#a8322d"></i></span><span class="num">1.8</span></div><div class="bar-row"><span class="lbl">Heating &amp; services</span><span class="bar"><i style="width:0.0%;background:#a8322d"></i></span><span class="num">0.0</span></div><div class="bar-row"><span class="lbl">Glazing</span><span class="bar"><i style="width:0.0%;background:#a8322d"></i></span><span class="num">0.0</span></div><div class="bar-row"><span class="lbl">Garden &amp; spatial</span><span class="bar"><i style="width:0.0%;background:#a8322d"></i></span><span class="num">0.0</span></div>
       <p class="note">Both axes are scored 0–100 by the review evaluator. The
       modernization axis rewards only detected evidence of upgraded fabric and
       services, not finish quality alone.</p>
@@ -80,7 +80,7 @@
       <h3>Risks &amp; drawbacks</h3>
       <p class="note">None recorded.</p>
     </div>
-    <div class="panel"><h2>Where the modernization score comes from</h2><p class="note">Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.</p><h3>Scored modernization evidence</h3><ul class="ticks"><li>EPC assessed-systems table too old to score (or undated)</li><li>Gated side access / independent rear pathway (essential for bikes, garden waste, and renovation logistics)</li></ul><h3>Photographic evidence reviewed for the score</h3><ul class="ticks"><li>20 property photo(s) analysed by local vision model (Qwen3-VL)</li><li>Photographic-evidence score: 40.0/100 (high confidence; condition 30/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 7/10)</li><li>Floor-plan total read from the plan: 2,611 sq ft</li><li>Condition tier inferred from photos: refurbished</li><li>Glazing glimpsed in photos: uPVC double glazing</li><li>Not captured in the photos: roof, garden aspect, side access, roof, render, garden aspect (…)</li></ul></div>
+    <div class="panel"><h2>Where the modernization score comes from</h2><p class="note">Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.</p><h3>Scored modernization evidence</h3><ul class="ticks"><li>EPC assessed 2016-05-26: heating claims expired; persistent fabric scored at 20%</li><li>EPC: no secondary heating (no dated room heaters)</li><li>EPC: insulated roof (pitched, 100 mm loft insulation)</li><li>EPC: partial double glazing (partial double glazing)</li></ul><h3>Photographic evidence reviewed for the score</h3><ul class="ticks"><li>20 property photo(s) analysed by local vision model (Qwen3-VL)</li><li>Photographic-evidence score: 40.0/100 (high confidence; condition 30/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 7/10)</li><li>Floor-plan total read from the plan: 2,611 sq ft</li><li>Condition tier inferred from photos: refurbished</li><li>Glazing glimpsed in photos: uPVC double glazing</li><li>Not captured in the photos: roof, garden aspect, side access, roof, render, garden aspect (…)</li></ul></div>
   </div>
 
   
@@ -606,13 +606,15 @@
     &quot;architectural_glazing&quot;: 0.0,
     &quot;classification&quot;: &quot;Standard Period / Unmodernized Baseline&quot;,
     &quot;detected_features&quot;: [
-      &quot;EPC assessed-systems table too old to score (or undated)&quot;,
-      &quot;Gated side access / independent rear pathway (essential for bikes, garden waste, and renovation logistics)&quot;
+      &quot;EPC assessed 2016-05-26: heating claims expired; persistent fabric scored at 20%&quot;,
+      &quot;EPC: no secondary heating (no dated room heaters)&quot;,
+      &quot;EPC: insulated roof (pitched, 100 mm loft insulation)&quot;,
+      &quot;EPC: partial double glazing (partial double glazing)&quot;
     ],
-    &quot;garden_spatial&quot;: 8.0,
+    &quot;garden_spatial&quot;: 0.0,
     &quot;heating_services&quot;: 0.0,
-    &quot;structural_envelope&quot;: 0.0,
-    &quot;total_score&quot;: 8.0,
+    &quot;structural_envelope&quot;: 1.8,
+    &quot;total_score&quot;: 1.8,
     &quot;vision_facts&quot;: [
       &quot;20 property photo(s) analysed by local vision model (Qwen3-VL)&quot;,
       &quot;Photographic-evidence score: 40.0/100 (high confidence; condition 30/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 7/10)&quot;,
@@ -664,7 +666,7 @@
 }</pre>
   </details>
 
-  <div class="foot"><div><a href="burlington-rise-east-barnet-en4.html">← Burlington Rise</a></div><div><a href="ainsworth-close-whetstone-n20.html">→ Ainsworth Close</a></div></div>
+  <div class="foot"><div><a href="maryrose-way-oakleigh-park-n20.html">← Maryrose Way</a></div><div><a href="ainsworth-close-whetstone-n20.html">→ Ainsworth Close</a></div></div>
 
   <p class="note" style="margin-top:26px">Generated 2026-09-27 from
   <code>reviews/property_reviews.json</code>. Map data &copy;
@@ -672,7 +674,7 @@
 </div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
-<script>window.__PINS__ = [{"id": "70593927", "lat": 51.656282, "lon": -0.182966, "addr": "Hadley Road", "price": "\u00a31,300,000", "sqft": "2,611", "epc": "D", "general": 76.0, "modern": 8.0, "combined": 42.0, "colour": "#a8322d", "href": "#"}];</script>
+<script>window.__PINS__ = [{"id": "70593927", "lat": 51.656282, "lon": -0.182966, "addr": "Hadley Road", "price": "\u00a31,300,000", "sqft": "2,611", "epc": "D", "general": 76.0, "modern": 1.8, "combined": 38.9, "colour": "#a8322d", "href": "#"}];</script>
 <script>
 (function () {
   var el = document.getElementById('map');
