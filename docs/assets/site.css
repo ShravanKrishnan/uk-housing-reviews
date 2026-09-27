@@ -94,6 +94,21 @@ tr.hi { background: #f0f7f4; }
 .stat .k { font-size: 11.5px; color: var(--muted); text-transform: uppercase;
            letter-spacing: .04em; }
 .stat .v { font-size: 16px; font-weight: 600; margin-top: 2px; }
+.stat.wide { grid-column: 1 / -1; }
+.stat.wide .v { font-weight: 500; }
+table.nice { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+table.nice th { text-align: left; font-size: 11.5px; text-transform: uppercase;
+               letter-spacing: .04em; color: var(--muted); padding: 6px 10px;
+               border-bottom: 1px solid var(--line); }
+table.nice td { padding: 8px 10px; border-bottom: 1px solid var(--line);
+                vertical-align: top; }
+table.nice tr:last-child td { border-bottom: none; }
+.nh-status { display: inline-block; padding: 2px 8px; border-radius: 10px;
+             font-size: 11.5px; font-weight: 600; white-space: nowrap; }
+.nh-stated { color: #1a7f5a; background: #eaf6f1; }
+.nh-plan_verified { color: #2b6cb0; background: #ebf3fb; }
+.nh-photo_hint { color: #8a5cf6; background: #f2edfe; }
+.nh-not_stated { color: #666; background: #f0f0f0; }
 .verdict {
   border-left: 4px solid var(--accent); background: var(--panel);
   padding: 14px 16px; border-radius: 0 8px 8px 0; margin: 16px 0;

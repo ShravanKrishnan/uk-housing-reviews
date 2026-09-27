@@ -35,6 +35,17 @@ Evaluated **11** properties against Core Quality Parameters and Deep Modernizati
 | **Liverpool St Commute** | ~34 mins via Oakleigh Park (door-to-concourse) | **King's Cross Commute** | ~23 mins via Oakleigh Park (door-to-concourse) |
 | **Nearest Station** | Oakleigh Park (0.3 mi, ~6 min walk) | **Zoopla ID** | [74320154](https://www.zoopla.co.uk/for-sale/details/74320154/) |
 
+### Nice-to-Haves
+
+| Signal | Status | Detail |
+| :--- | :--- | :--- |
+| **Air conditioning** | not-stated | Not mentioned; UK EPCs do not record domestic cooling |
+| **Underfloor heating** | not-stated | Not mentioned in the listing or EPC |
+| **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden south (listing silent) |
+| **Sun roof / lantern in living areas** | photo-hint | skylight seen in a living-area photo (room unverified) |
+| **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
+| **Wide living room** | stated | Kitchen / Dining Room measures 27.8 ft at its widest (floor-plan) — clears the 15 ft mark |
+
 ### Dual Scoring Matrix
 
 ```text
@@ -83,7 +94,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - Floor-plan total read from the plan: 2,340 sq ft
 - Condition tier inferred from photos: refurbished
 - Glazing glimpsed in photos: uPVC double glazing
-- Not captured in the photos: roof, garden aspect, extension evidence, side access, roof, garden aspect (…)
+- Not captured in the photos: extension evidence, garden aspect, roof, side access
 
 ### Land Registry Transaction History
 
@@ -124,6 +135,17 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 | **Total Floor Area** | 2,566.0 sq ft | **EPC Rating** | Band D |
 | **Liverpool St Commute** | ~42 mins via New Barnet (door-to-concourse) | **King's Cross Commute** | ~31 mins via New Barnet (door-to-concourse) |
 | **Nearest Station** | Cockfosters (0.5 mi, ~10 min walk) | **Zoopla ID** | [69666381](https://www.zoopla.co.uk/for-sale/details/69666381/) |
+
+### Nice-to-Haves
+
+| Signal | Status | Detail |
+| :--- | :--- | :--- |
+| **Air conditioning** | not-stated | Not mentioned; UK EPCs do not record domestic cooling |
+| **Underfloor heating** | not-stated | Not mentioned in the listing or EPC |
+| **South-facing garden** | photo-hint | Photos suggest south — confirm with a compass |
+| **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
+| **Ground-floor bedroom** | stated | Bungalow — every bedroom is on the ground floor |
+| **Wide living room** | stated | Lounge measures 23.8 ft at its widest (floor-plan) — clears the 15 ft mark |
 
 ### Dual Scoring Matrix
 
@@ -170,7 +192,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - Floor-plan total read from the plan: 2,224 sq ft
 - Condition tier inferred from photos: partially modernised
 - Glazing glimpsed in photos: uPVC double glazing
-- Not captured in the photos: extension evidence, garden aspect, roof, side access
+- Not captured in the photos: bathrooms, extension evidence, garden aspect, roof, side access
 
 ### Land Registry Transaction History
 
@@ -206,6 +228,17 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 | **Total Floor Area** | 2,175.0 sq ft | **EPC Rating** | Band D |
 | **Liverpool St Commute** | ~44 mins via New Barnet (door-to-concourse) | **King's Cross Commute** | ~33 mins via New Barnet (door-to-concourse) |
 | **Nearest Station** | Cockfosters (0.4 mi, ~8 min walk) | **Zoopla ID** | [72600343](https://www.zoopla.co.uk/for-sale/details/72600343/) |
+
+### Nice-to-Haves
+
+| Signal | Status | Detail |
+| :--- | :--- | :--- |
+| **Air conditioning** | stated | Mentioned in the listing |
+| **Underfloor heating** | stated | Attested on the EPC certificate |
+| **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden north (not south) |
+| **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
+| **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
+| **Wide living room** | stated | Dining Room measures 19.0 ft at its widest (floor-plan) — clears the 15 ft mark |
 
 ### Dual Scoring Matrix
 
@@ -252,8 +285,8 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - Photographic-evidence score: 40.0/100 (high confidence; condition 30/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 7/10)
 - Floor-plan total read from the plan: 2,175 sq ft
 - Condition tier inferred from photos: refurbished
-- Glazing glimpsed in photos: double glazed windows
-- Not captured in the photos: bathroom, bathrooms, bedrooms, extension evidence, garden aspect, kitchen (…)
+- Glazing glimpsed in photos: double glazed windows with shutters
+- Not captured in the photos: bathroom, bathrooms, bedrooms, extension evidence, garden aspect, highlights (…)
 
 ### Land Registry Transaction History
 
@@ -294,6 +327,17 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 | **Total Floor Area** | 2,471.0 sq ft | **EPC Rating** | Band C |
 | **Liverpool St Commute** | ~40 mins via New Barnet (door-to-concourse) | **King's Cross Commute** | ~29 mins via New Barnet (door-to-concourse) |
 | **Nearest Station** | New Barnet (0.5 mi, ~10 min walk) | **Zoopla ID** | [73581926](https://www.zoopla.co.uk/for-sale/details/73581926/) |
+
+### Nice-to-Haves
+
+| Signal | Status | Detail |
+| :--- | :--- | :--- |
+| **Air conditioning** | not-stated | Not mentioned; UK EPCs do not record domestic cooling |
+| **Underfloor heating** | not-stated | Not mentioned in the listing or EPC |
+| **South-facing garden** | photo-hint | Photos suggest south — confirm with a compass |
+| **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
+| **Ground-floor bedroom** | stated | No ground-floor bedroom stated, but a convertible playroom is mentioned |
+| **Wide living room** | stated | Living/Dining Room measures 27.5 ft at its widest (floor-plan) — clears the 15 ft mark |
 
 ### Dual Scoring Matrix
 
@@ -337,10 +381,11 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 
 **Photographic evidence reviewed for the score:**
 - 29 property photo(s) analysed by local vision model (Qwen3-VL)
-- Photographic-evidence score: 29.0/100 (medium confidence; condition 22/35, kitchen/bath 0/20, glazing 0/20, structure 0/15, legibility 7/10)
+- Photographic-evidence score: 32.0/100 (medium confidence; condition 22/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 7/10)
 - Floor-plan total read from the plan: 2,471 sq ft
 - Condition tier inferred from photos: partially modernised
-- Not captured in the photos: roof, garden aspect, extension evidence, side access, roof, render (…)
+- Glazing glimpsed in photos: uPVC double glazing
+- Not captured in the photos: bathrooms, extension evidence, garden aspect, kitchen, other bathrooms, other bedrooms (…)
 
 ### Land Registry Transaction History
 
@@ -381,6 +426,17 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 | **Total Floor Area** | 2,514.0 sq ft | **EPC Rating** | Band E |
 | **Liverpool St Commute** | ~32 mins via Oakleigh Park (door-to-concourse) | **King's Cross Commute** | ~21 mins via Oakleigh Park (door-to-concourse) |
 | **Nearest Station** | Oakleigh Park (0.2 mi, ~4 min walk) | **Zoopla ID** | [71526117](https://www.zoopla.co.uk/for-sale/details/71526117/) |
+
+### Nice-to-Haves
+
+| Signal | Status | Detail |
+| :--- | :--- | :--- |
+| **Air conditioning** | not-stated | Not mentioned; UK EPCs do not record domestic cooling |
+| **Underfloor heating** | not-stated | Not mentioned in the listing or EPC |
+| **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden west (not south) |
+| **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
+| **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
+| **Wide living room** | stated | Sitting Room measures 25.9 ft at its widest (floor-plan) — clears the 15 ft mark |
 
 ### Dual Scoring Matrix
 
@@ -425,7 +481,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - Photographic-evidence score: 23.0/100 (high confidence; condition 12/35, kitchen/bath 2/20, glazing 0/20, structure 0/15, legibility 9/10)
 - Floor-plan total read from the plan: 2,514 sq ft
 - Condition tier inferred from photos: dated
-- Not captured in the photos: roof, garden aspect, extension evidence, side access, roof, garden aspect (…)
+- Not captured in the photos: bedrooms, extension evidence, garden aspect, kitchen, parking, receptions (…)
 
 ### Land Registry Transaction History
 
@@ -467,6 +523,17 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 | **Total Floor Area** | 1,894.0 sq ft | **EPC Rating** | Band D |
 | **Liverpool St Commute** | ~38 mins via New Barnet (door-to-concourse) | **King's Cross Commute** | ~27 mins via New Barnet (door-to-concourse) |
 | **Nearest Station** | New Barnet (0.4 mi, ~8 min walk) | **Zoopla ID** | [74071974](https://www.zoopla.co.uk/for-sale/details/74071974/) |
+
+### Nice-to-Haves
+
+| Signal | Status | Detail |
+| :--- | :--- | :--- |
+| **Air conditioning** | not-stated | Not mentioned; UK EPCs do not record domestic cooling |
+| **Underfloor heating** | not-stated | Not mentioned in the listing or EPC |
+| **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden south (listing silent) |
+| **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
+| **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
+| **Wide living room** | stated | Living Room measures 19.6 ft at its widest (floor-plan) — clears the 15 ft mark |
 
 ### Dual Scoring Matrix
 
@@ -514,7 +581,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - Photographic-evidence score: 10.0/100 (medium confidence; condition 0/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 7/10)
 - Floor-plan total read from the plan: 1,760 sq ft
 - Glazing glimpsed in photos: uPVC double glazing
-- Not captured in the photos: roof, garden aspect, extension evidence, side access, roof, render (…)
+- Not captured in the photos: bathroom, bathrooms, bedrooms, extension evidence, garden aspect, kitchen (…)
 
 ### Land Registry Transaction History
 
@@ -548,6 +615,17 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 | **Total Floor Area** | 2,611.0 sq ft | **EPC Rating** | Band D |
 | **Liverpool St Commute** | ~44 mins via New Barnet (door-to-concourse) | **King's Cross Commute** | ~33 mins via New Barnet (door-to-concourse) |
 | **Nearest Station** | High Barnet (0.6 mi, ~12 min walk) | **Zoopla ID** | [70593927](https://www.zoopla.co.uk/for-sale/details/70593927/) |
+
+### Nice-to-Haves
+
+| Signal | Status | Detail |
+| :--- | :--- | :--- |
+| **Air conditioning** | stated | Mentioned in the listing |
+| **Underfloor heating** | not-stated | Not mentioned in the listing or EPC |
+| **South-facing garden** | photo-hint | Photos suggest south — confirm with a compass |
+| **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
+| **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
+| **Wide living room** | stated | Lounge/Basement measures 21.7 ft at its widest (floor-plan) — clears the 15 ft mark |
 
 ### Dual Scoring Matrix
 
@@ -595,7 +673,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - Floor-plan total read from the plan: 2,611 sq ft
 - Condition tier inferred from photos: refurbished
 - Glazing glimpsed in photos: uPVC double glazing
-- Not captured in the photos: roof, garden aspect, side access, roof, render, garden aspect (…)
+- Not captured in the photos: bathroom, bathrooms, bedrooms, extension evidence, garden aspect, kitchen (…)
 
 ### Land Registry Transaction History
 
@@ -636,6 +714,17 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 | **Total Floor Area** | 2,352.0 sq ft | **EPC Rating** | Band C |
 | **Liverpool St Commute** | ~50 mins via High Barnet (door-to-concourse) | **King's Cross Commute** | ~42 mins via High Barnet (door-to-concourse) |
 | **Nearest Station** | High Barnet (0.5 mi, ~10 min walk) | **Zoopla ID** | [73884950](https://www.zoopla.co.uk/for-sale/details/73884950/) |
+
+### Nice-to-Haves
+
+| Signal | Status | Detail |
+| :--- | :--- | :--- |
+| **Air conditioning** | not-stated | Not mentioned; UK EPCs do not record domestic cooling |
+| **Underfloor heating** | stated | Attested on the EPC certificate |
+| **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden south (listing silent) |
+| **Sun roof / lantern in living areas** | photo-hint | skylight seen in a living-area photo (room unverified) |
+| **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
+| **Wide living room** | stated | Reception Room measures 20.3 ft at its widest (floor-plan) — clears the 15 ft mark |
 
 ### Dual Scoring Matrix
 
@@ -680,11 +769,11 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 
 **Photographic evidence reviewed for the score:**
 - 26 property photo(s) analysed by local vision model (Qwen3-VL)
-- Photographic-evidence score: 38.0/100 (medium confidence; condition 22/35, kitchen/bath 4/20, glazing 3/20, structure 0/15, legibility 9/10)
+- Photographic-evidence score: 38.0/100 (high confidence; condition 22/35, kitchen/bath 4/20, glazing 3/20, structure 0/15, legibility 9/10)
 - Floor-plan total read from the plan: 2,471 sq ft
 - Condition tier inferred from photos: partially modernised
 - Glazing glimpsed in photos: uPVC double glazing
-- Not captured in the photos: roof, garden aspect, extension evidence, side access, roof, garden aspect (…)
+- Not captured in the photos: extension evidence, formal dining room, front reception room, garden aspect, highlights, kitchen (…)
 
 ### Land Registry Transaction History
 
@@ -718,6 +807,17 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 | **Total Floor Area** | 1,982.0 sq ft | **EPC Rating** | Band B |
 | **Liverpool St Commute** | ~42 mins via Oakleigh Park (door-to-concourse) | **King's Cross Commute** | ~31 mins via Oakleigh Park (door-to-concourse) |
 | **Nearest Station** | Totteridge & Whetstone (0.4 mi, ~8 min walk) | **Zoopla ID** | [74164010](https://www.zoopla.co.uk/for-sale/details/74164010/) |
+
+### Nice-to-Haves
+
+| Signal | Status | Detail |
+| :--- | :--- | :--- |
+| **Air conditioning** | not-stated | Not mentioned; UK EPCs do not record domestic cooling |
+| **Underfloor heating** | not-stated | Not mentioned in the listing or EPC |
+| **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden south (listing silent) |
+| **Sun roof / lantern in living areas** | photo-hint | Glazing seen in photos (room unverified) |
+| **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
+| **Wide living room** | stated | Kitchen measures 26.3 ft at its widest (floor-plan) — clears the 15 ft mark |
 
 ### Dual Scoring Matrix
 
@@ -767,7 +867,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - Floor-plan total read from the plan: 1,982 sq ft
 - Condition tier inferred from photos: refurbished
 - Glazing glimpsed in photos: uPVC double glazing
-- Not captured in the photos: roof, garden aspect, extension evidence, side access, roof, render (…)
+- Not captured in the photos: bedrooms, extension evidence, garden aspect, kitchen, other bathrooms, parking (…)
 
 ### Land Registry Transaction History
 
@@ -804,6 +904,17 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 | **Total Floor Area** | 3,099.0 sq ft | **EPC Rating** | Band B |
 | **Liverpool St Commute** | ~36 mins via Oakleigh Park (door-to-concourse) | **King's Cross Commute** | ~25 mins via Oakleigh Park (door-to-concourse) |
 | **Nearest Station** | Oakleigh Park (0.4 mi, ~8 min walk) | **Zoopla ID** | [73000012](https://www.zoopla.co.uk/for-sale/details/73000012/) |
+
+### Nice-to-Haves
+
+| Signal | Status | Detail |
+| :--- | :--- | :--- |
+| **Air conditioning** | not-stated | Not mentioned; UK EPCs do not record domestic cooling |
+| **Underfloor heating** | stated | Attested on the EPC certificate |
+| **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden south (listing silent) |
+| **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
+| **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
+| **Wide living room** | stated | Sitting Room measures 25.5 ft at its widest (floor-plan) — clears the 15 ft mark |
 
 ### Dual Scoring Matrix
 
@@ -851,11 +962,11 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 
 **Photographic evidence reviewed for the score:**
 - 21 property photo(s) analysed by local vision model (Qwen3-VL)
-- Photographic-evidence score: 34.0/100 (high confidence; condition 22/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 9/10)
+- Photographic-evidence score: 32.0/100 (high confidence; condition 22/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 7/10)
 - Floor-plan total read from the plan: 3,099 sq ft
 - Condition tier inferred from photos: partially modernised
 - Glazing glimpsed in photos: uPVC double glazing
-- Not captured in the photos: roof, render, garden aspect, side access, extension evidence, bathrooms (…)
+- Not captured in the photos: extension evidence, garden aspect, render, roof, side access
 
 ### Land Registry Transaction History
 
@@ -898,6 +1009,17 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 | **Total Floor Area** | 1,271.0 sq ft | **EPC Rating** | Band D |
 | **Liverpool St Commute** | ~46 mins via High Barnet (door-to-concourse) | **King's Cross Commute** | ~35 mins via New Barnet (door-to-concourse) |
 | **Nearest Station** | High Barnet (0.3 mi, ~6 min walk) | **Zoopla ID** | [73341394](https://www.zoopla.co.uk/for-sale/details/73341394/) |
+
+### Nice-to-Haves
+
+| Signal | Status | Detail |
+| :--- | :--- | :--- |
+| **Air conditioning** | not-stated | Not mentioned; UK EPCs do not record domestic cooling |
+| **Underfloor heating** | not-stated | Not mentioned in the listing or EPC |
+| **South-facing garden** | plan-verified | Listing says south-east-facing; the floor-plan north arrow agrees |
+| **Sun roof / lantern in living areas** | photo-hint | skylight seen in a living-area photo (room unverified) |
+| **Ground-floor bedroom** | stated | Bungalow — every bedroom is on the ground floor |
+| **Wide living room** | stated | Reception measures 21.3 ft at its widest (floor-plan) — clears the 15 ft mark |
 
 ### Dual Scoring Matrix
 
@@ -943,7 +1065,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - Floor-plan total read from the plan: 1,271 sq ft
 - Condition tier inferred from photos: partially modernised
 - Glazing glimpsed in photos: uPVC double glazing
-- Not captured in the photos: roof, garden aspect, extension evidence, side access, roof, render (…)
+- Not captured in the photos: bathroom, extension evidence, garden aspect, interior layout, kitchen, living room (…)
 
 ### Land Registry Transaction History
 
