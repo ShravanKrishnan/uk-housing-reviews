@@ -1,0 +1,662 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meadway — review</title>
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <h1>Meadway</h1>
+  <p class="sub">Meadway, Barnet EN5</p>
+  <nav class="crumbs"><a href="../index.html">← Back to the map</a> &middot;
+  <a href="../index.html#rank-11">Rank #11 of portfolio</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="panel">
+    <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between">
+      <div>
+        <span class="pill" style="background:#c2760a">63.5 General quality</span>
+        <span class="pill" style="background:#a8322d">20.0 Modernization</span>
+        <span class="badge partly" style="margin-left:6px">Partially Modernized Period Home</span>
+      </div>
+      <div style="font-size:13px;color:var(--muted)">
+        11 of 11 &middot; combined 41.8
+      </div>
+    </div>
+    <div class="verdict">Secondary Assessment Needed: Moderate scores across space, transit, or condition.</div>
+  </div>
+
+  <h3>At a glance</h3>
+  <div class="grid"><div class="stat"><div class="k">Asking price</div><div class="v">£750,000</div></div><div class="stat"><div class="k">Property type</div><div class="v">3 bed bungalow for sale</div></div><div class="stat"><div class="k">Tenure</div><div class="v">Freehold</div></div><div class="stat"><div class="k">Size</div><div class="v">1,271 sq ft / 118.1 m²</div></div><div class="stat"><div class="k">Price per sq ft</div><div class="v">£590.1</div></div><div class="stat"><div class="k">Bedrooms</div><div class="v">3</div></div><div class="stat"><div class="k">Bathrooms</div><div class="v">0</div></div><div class="stat"><div class="k">Living rooms</div><div class="v">0</div></div><div class="stat"><div class="k">EPC (current / potential)</div><div class="v">D / C</div></div><div class="stat"><div class="k">Nearest station</div><div class="v">High Barnet · 0.3 mi · 6 min walk</div></div><div class="stat"><div class="k">Commute to Liverpool St</div><div class="v">46 min (Northern line (Bank branch) direct to Moorgate (36 min) + 4 min Elizabeth line link to Liverpool St)</div></div><div class="stat"><div class="k">Commute to King&#x27;s Cross</div><div class="v">35 min (Great Northern direct to King&#x27;s Cross St Pancras (19 min))</div></div></div>
+
+  <div class="layout" style="margin-top:22px">
+    <div class="panel">
+      <h2>Where it is</h2>
+      <div id="map" style="height:230px;border-radius:8px"></div>
+      <p class="note" style="margin-top:10px">
+        Pin is the listing's own coordinates.
+        <a href="https://www.openstreetmap.org/?mlat=51.653017&amp;mlon=-0.189797#map=18/51.653017/-0.189797" rel="noopener">Open in OpenStreetMap →</a>
+        &middot; <a href="https://www.zoopla.co.uk/property/73341394/" rel="noopener">Zoopla listing →</a>
+      </p>
+    </div>
+
+    <div class="panel">
+      <h2>General property quality — 63.5/100</h2>
+      <div class="bar-row"><span class="lbl">Location &amp; transport</span><span class="bar"><i style="width:80.0%;background:#a8322d"></i></span><span class="num">16.0</span></div><div class="bar-row"><span class="lbl">Space, scale &amp; layout</span><span class="bar"><i style="width:40.0%;background:#a8322d"></i></span><span class="num">10.0</span></div><div class="bar-row"><span class="lbl">Financial efficiency</span><span class="bar"><i style="width:65.0%;background:#a8322d"></i></span><span class="num">13.0</span></div><div class="bar-row"><span class="lbl">Tenure &amp; legal stability</span><span class="bar"><i style="width:100.0%;background:#a8322d"></i></span><span class="num">15.0</span></div><div class="bar-row"><span class="lbl">EPC baseline</span><span class="bar"><i style="width:45.0%;background:#a8322d"></i></span><span class="num">4.5</span></div><div class="bar-row"><span class="lbl">Planning potential</span><span class="bar"><i style="width:50.0%;background:#a8322d"></i></span><span class="num">5.0</span></div>
+      <h3>Technical modernization — 20.0/100</h3>
+      <div class="bar-row"><span class="lbl">Structural envelope</span><span class="bar"><i style="width:13.3%;background:#a8322d"></i></span><span class="num">4.0</span></div><div class="bar-row"><span class="lbl">Heating &amp; services</span><span class="bar"><i style="width:16.0%;background:#a8322d"></i></span><span class="num">4.0</span></div><div class="bar-row"><span class="lbl">Glazing</span><span class="bar"><i style="width:0.0%;background:#a8322d"></i></span><span class="num">0.0</span></div><div class="bar-row"><span class="lbl">Garden &amp; spatial</span><span class="bar"><i style="width:80.0%;background:#a8322d"></i></span><span class="num">12.0</span></div>
+      <p class="note">Both axes are scored 0–100 by the review evaluator. The
+      modernization axis rewards evidence of upgraded fabric and services, not
+      finish quality alone; features only visible on site stay in
+      <em>unverified checks</em> below.</p>
+    </div>
+  </div>
+
+  <h3>Land Registry</h3>
+  <div class="panel">
+    <p><strong>No sale attributed to this address — a house number is known, but no Land Registry record matches it, i.e. the house has not transacted.</strong></p>
+    <p>£465/sq ft median (range £71–£697), from 11 of 28 local sales (39% priced). <span class="note">Floor area is borrowed from the EPC extract (epc_bulk total_floor_area) because sale records carry none; small samples are heavy-tailed, so the median is used and withheld below 5 priced sales.</span></p>
+    <p class="note">28 raw sale record(s) exist in this postcode. They are the neighbourhood's history, not this home's, and are deliberately not presented as its own.</p>
+    <p class="note">Scope <code>address_no_sale</code> — sale history is only ever
+    attributed to this home when a house number was derived and matched.</p>
+  </div>
+
+  <h3>Planning</h3>
+  <div class="panel"><p class="note">5 planning record(s) matched this address:</p><ul class="ticks"><li><a href="https://publicaccess.barnet.gov.uk/online-applications/propertyDetails.do?activeTab=printPreview&amp;keyVal=NC1XUR00DT007" rel="noopener"></a></li><li><a href="https://publicaccess.barnet.gov.uk/online-applications/propertyDetails.do?activeTab=summary&amp;keyVal=NC1XUR00DT007" rel="noopener">Address</a></li><li><a href="https://publicaccess.barnet.gov.uk/online-applications/propertyDetails.do?activeTab=relatedCases&amp;keyVal=NC1XUR00DT007" rel="noopener">Property History
+                            
+                                
+                                (5)</a></li><li><a href="https://publicaccess.barnet.gov.uk/online-applications/propertyDetails.do?activeTab=constraints&amp;keyVal=NC1XUR00DT007" rel="noopener">Constraints
+                            
+                                
+                                (3)</a></li><li><a href="https://publicaccess.barnet.gov.uk/online-applications/propertyDetails.do?activeTab=map&amp;keyVal=NC1XUR00DT007" rel="noopener">Map</a></li></ul></div>
+
+  <div class="layout" style="margin-top:22px">
+    <div class="panel">
+      <h2>Key strengths</h2>
+      <ul class="ticks"><li>Easy King&#x27;s Cross St Pancras commute (~35 mins via New Barnet)</li><li>Clear Freehold tenure</li></ul>
+      <h3>Risks &amp; drawbacks</h3>
+      <p class="note">None recorded.</p>
+    </div>
+    <div class="panel">
+      <h2>Viewing &amp; surveyor checklist</h2>
+      <ul class="ticks"><li><strong>Incoming Water Supply</strong>: Inspect pipe beneath kitchen sink/stopcock. Look for 25mm/32mm blue MDPE pipe (upgraded) vs dull grey lead pipe (restricted pressure).</li><li><strong>Hot Water &amp; Showers</strong>: Locate the cylinder. Confirm if there is an unvented Megaflo cylinder delivering mains-pressure showers, or an old gravity-fed header tank in the attic.</li><li><strong>Consumer Unit &amp; Electricals</strong>: Open the fuse box. Verify whether it is a modern 18th-edition metal enclosure with RCBOs, Type 2 Surge Protection (SPD), and a 100A main fuse.</li><li><strong>Underfloor Heating Manifold</strong>: If UFH is claimed, ask to see the hydraulic mixing manifold. A wall thermostat alone often indicates cheap, high-running-cost electric matting.</li><li><strong>Subfloor &amp; Thermal Draughts</strong>: Walk the ground floor perimeter. Feel skirtings and air vents for draughts indicating uninsulated suspended timber voids.</li><li><strong>Roof Sub-structure</strong>: Inspect the loft space. Check for breathable felt (e.g. Tyvek) and at least 270mm of mineral wool insulation vs rotting timber lath and torching.</li><li><strong>Structural Alterations &amp; RSJs</strong>: For opened-up spaces or removed chimney breasts, request the structural engineer&#x27;s calculations and Building Regulations Completion Certificate.</li><li><strong>Drainage &amp; Build-Over</strong>: If extended to the rear, verify if a Thames Water Build-Over Agreement was executed for any public sewers crossing the plot.</li><li><strong>Garden Solar Path &amp; Boundary Shadows</strong>: Check the rear garden with a sun-tracking compass; check if neighbouring two- or three-storey gables cast permanent flank shadows.</li><li><strong>Side Access Rights</strong>: Confirm uninterrupted private title access from front to back garden without crossing third-party land.</li></ul>
+    </div>
+  </div>
+
+  <h3>Unverified on-site checks</h3>
+  <div class="panel">
+    <ul class="ticks"><li>Heating Delivery: Appears to rely on standard wall radiators; check flow temperature compatibility</li><li>Plumbing Topology: Check for Megaflo unvented cylinder vs combi-boiler pressure drop when multiple taps run</li><li>Consumer Unit: Inspect fuseboard on viewing — metal RCBO unit with Type 2 SPD vs dated plastic unit</li><li>Ground Floor Void: Check skirtings and floor vents for cold draughts from uninsulated suspended timber joists</li><li>Chimney Stacks: If ground floor is open-plan, verify structural RSJ supports under upper breast and Building Regs cert</li><li>Roof Sub-structure: Check in loft if roof has breathable felt or 80-year-old degraded torching/bitumen</li><li>Wall Thermal Performance: Standard period solid-brick walls (check EPC recommendation for internal wall insulation)</li><li>Extension Drainage: For rear/side extensions, confirm Thames Water Build-Over Agreement and access chamber placement</li></ul>
+    <p class="note" style="margin-top:10px">Photo evidence: 35 property photo(s) analysed by local vision model (Qwen3-VL); Photographic-evidence score: 34.0/100 (medium confidence; condition 22/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 9/10); Floor-plan total read from the plan: 1,271 sq ft; Condition tier inferred from photos: partially modernised; Glazing glimpsed in photos: uPVC double glazing; Not captured in the photos: roof, garden aspect, extension evidence, side access, roof, render (…)</p>
+  </div>
+
+  <div class="gaps"><strong>What is not verified here</strong><ul><li>No Land Registry sale recorded for this address in the price-paid window — the house has not transacted, so there is no comparable sale history</li></ul></div>
+
+  <details class="raw">
+    <summary>Raw review record (JSON)</summary>
+    <pre>{
+  &quot;asking_price&quot;: 750000,
+  &quot;bathrooms&quot;: 0,
+  &quot;bedrooms&quot;: 3,
+  &quot;data_gaps&quot;: [
+    &quot;No Land Registry sale recorded for this address in the price-paid window \u2014 the house has not transacted, so there is no comparable sale history&quot;
+  ],
+  &quot;epc_potential&quot;: &quot;C&quot;,
+  &quot;epc_rating&quot;: &quot;D&quot;,
+  &quot;full_address&quot;: &quot;Meadway, Barnet EN5&quot;,
+  &quot;general_score&quot;: {
+    &quot;epc_efficiency&quot;: 4.5,
+    &quot;financial_efficiency&quot;: 13.0,
+    &quot;location_transport&quot;: 16.0,
+    &quot;notes&quot;: [
+      &quot;Good Liverpool St commute: ~46 mins door-to-concourse via High Barnet (6m walk + 36m rail)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~35 mins via New Barnet (+2)&quot;,
+      &quot;2 stations within 0.8 mi \u2014 commuting resilience (+1)&quot;,
+      &quot;Night Tube / 24h service within walking distance (+1)&quot;,
+      &quot;2 transit lines within walk \u2014 broad Central London access (+0.5)&quot;,
+      &quot;Standard room sizing: 1,271.0 sq ft total (424 sq ft/bed)&quot;,
+      &quot;Under-bathroomed (1 bath for 3 beds - morning bottlenecks likely)&quot;,
+      &quot;Ground floor guest WC present&quot;,
+      &quot;Upper-middle valuation: \u00a3590/sq ft&quot;,
+      &quot;Freehold title (maximum autonomy and no ground rent)&quot;,
+      &quot;EPC Band D&quot;
+    ],
+    &quot;planning_potential&quot;: 5.0,
+    &quot;space_layout&quot;: 10.0,
+    &quot;tenure_legal&quot;: 15.0,
+    &quot;total_score&quot;: 63.5
+  },
+  &quot;key_strengths&quot;: [
+    &quot;Easy King&#x27;s Cross St Pancras commute (~35 mins via New Barnet)&quot;,
+    &quot;Clear Freehold tenure&quot;
+  ],
+  &quot;kings_cross_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Top Tier (&lt;35m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 19,
+    &quot;route_summary&quot;: &quot;Great Northern direct to King&#x27;s Cross St Pancras (19 min)&quot;,
+    &quot;secondary_route&quot;: &quot;High Barnet (0.3 mi, ~6m walk) \u2794 London Underground (Northern line - Bank branch) (32m rail) = ~38m total&quot;,
+    &quot;station_distance_miles&quot;: 0.8,
+    &quot;station_name&quot;: &quot;New Barnet&quot;,
+    &quot;total_commute_minutes&quot;: 35,
+    &quot;transfer_minutes&quot;: 0,
+    &quot;transit_line&quot;: &quot;Great Northern (National Rail)&quot;,
+    &quot;walk_time_minutes&quot;: 16
+  },
+  &quot;land_registry_summary&quot;: {
+    &quot;area_benchmark&quot;: {
+      &quot;area_source&quot;: &quot;epc_bulk total_floor_area&quot;,
+      &quot;coverage_pct&quot;: 39,
+      &quot;high_gbp_sqft&quot;: 697,
+      &quot;low_gbp_sqft&quot;: 71,
+      &quot;median_gbp_sqft&quot;: 465,
+      &quot;of_sales&quot;: 28,
+      &quot;sample&quot;: 11
+    },
+    &quot;number_known&quot;: true,
+    &quot;postcode_sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1995-09-29&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;105&quot;,
+        &quot;postcode&quot;: &quot;EN5 5JZ&quot;,
+        &quot;price&quot;: 145000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MEADWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;BDE38B6C-D835-4261-9F4E-D4423B598012&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1996-02-17&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;57&quot;,
+        &quot;postcode&quot;: &quot;EN5 5JZ&quot;,
+        &quot;price&quot;: 102500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MEADWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;32BAEB06-855D-4968-8E15-89FBA507357F&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1996-11-14&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;89&quot;,
+        &quot;postcode&quot;: &quot;EN5 5JZ&quot;,
+        &quot;price&quot;: 117000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MEADWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;7FE7E807-2D04-4789-89C5-C025E246DD67&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1996-12-31&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;93&quot;,
+        &quot;postcode&quot;: &quot;EN5 5JZ&quot;,
+        &quot;price&quot;: 30000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MEADWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;2A289E9E-1A58-CDC8-E050-A8C063054829&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1998-03-05&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;55&quot;,
+        &quot;postcode&quot;: &quot;EN5 5JZ&quot;,
+        &quot;price&quot;: 126000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MEADWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;A42C8802-F598-4FF6-A8D9-5F0C812040DD&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1999-01-19&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;55&quot;,
+        &quot;postcode&quot;: &quot;EN5 5JZ&quot;,
+        &quot;price&quot;: 130000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MEADWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;B974B996-6C13-4028-B789-C36B427865D5&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1999-06-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;71&quot;,
+        &quot;postcode&quot;: &quot;EN5 5JZ&quot;,
+        &quot;price&quot;: 185000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MEADWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;9807400C-1EB9-4FAB-B593-9CEABE9EF90F&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1999-11-19&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;91&quot;,
+        &quot;postcode&quot;: &quot;EN5 5JZ&quot;,
+        &quot;price&quot;: 230000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MEADWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;D25A499C-7023-494F-9F88-706757A51AB9&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2001-10-31&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;63&quot;,
+        &quot;postcode&quot;: &quot;EN5 5JZ&quot;,
+        &quot;price&quot;: 217500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MEADWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;DC8685E4-F5E2-4EDF-989A-7C70B90EF955&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2002-05-09&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;101&quot;,
+        &quot;postcode&quot;: &quot;EN5 5JZ&quot;,
+        &quot;price&quot;: 348500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MEADWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;DB40D1BB-6EBD-407F-AF80-7951CCD0D5AD&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2002-06-27&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;107&quot;,
+        &quot;postcode&quot;: &quot;EN5 5JZ&quot;,
+        &quot;price&quot;: 320000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MEADWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;977223B4-2AAC-43D6-A81F-42B38E35B2C9&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2004-03-05&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;71&quot;,
+        &quot;postcode&quot;: &quot;EN5 5JZ&quot;,
+        &quot;price&quot;: 339000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MEADWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;7E9DC093-437E-414A-A5DE-47708F617E01&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2005-03-31&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;81&quot;,
+        &quot;postcode&quot;: &quot;EN5 5JZ&quot;,
+        &quot;price&quot;: 335000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MEADWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;00164A85-FF8F-4989-9422-339FC01DD6E6&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2006-10-16&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;95&quot;,
+        &quot;postcode&quot;: &quot;EN5 5JZ&quot;,
+        &quot;price&quot;: 370000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MEADWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;B9195D29-BE45-4664-B48F-AAF01414BAF9&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2008-01-29&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;101&quot;,
+        &quot;postcode&quot;: &quot;EN5 5JZ&quot;,
+        &quot;price&quot;: 465000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MEADWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;C34A7290-221E-45BC-A2DA-1CCED3C59A30&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2012-02-02&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;73&quot;,
+        &quot;postcode&quot;: &quot;EN5 5JZ&quot;,
+        &quot;price&quot;: 430000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MEADWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;3CDB351A-2D71-4C01-98E3-C078AF9A5B0B&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2012-11-02&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;97&quot;,
+        &quot;postcode&quot;: &quot;EN5 5JZ&quot;,
+        &quot;price&quot;: 465000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MEADWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;1FDBE8E8-DC2C-4CF7-8C42-4E057985751A&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2014-07-18&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;83&quot;,
+        &quot;postcode&quot;: &quot;EN5 5JZ&quot;,
+        &quot;price&quot;: 540000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MEADWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;CD5AAD36-A58B-4CC4-A8B5-B2B6619A9C9F&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Additional price paid transaction&quot;,
+        &quot;date&quot;: &quot;2015-01-19&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;59&quot;,
+        &quot;postcode&quot;: &quot;EN5 5JZ&quot;,
+        &quot;price&quot;: 455000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MEADWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;21E5FEB6-F2EA-2439-E050-A8C06205342E&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2015-07-15&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;109&quot;,
+        &quot;postcode&quot;: &quot;EN5 5JZ&quot;,
+        &quot;price&quot;: 685000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MEADWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;B00A6B4A-C53C-4A61-963E-7874BB6E12E1&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2015-12-14&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;59&quot;,
+        &quot;postcode&quot;: &quot;EN5 5JZ&quot;,
+        &quot;price&quot;: 820000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MEADWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;288DCE29-95DE-E510-E050-A8C06205480E&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Additional price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-06-23&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;61&quot;,
+        &quot;postcode&quot;: &quot;EN5 5JZ&quot;,
+        &quot;price&quot;: 540000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MEADWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;55BDCAE6-C6AF-521D-E053-6B04A8C0DD7A&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-08-25&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;61&quot;,
+        &quot;postcode&quot;: &quot;EN5 5JZ&quot;,
+        &quot;price&quot;: 560000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MEADWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;5F54B81C-A1F5-2B45-E053-6B04A8C01FB0&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2020-07-06&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;67&quot;,
+        &quot;postcode&quot;: &quot;EN5 5JZ&quot;,
+        &quot;price&quot;: 640000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MEADWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;AE4D86D4-510A-4619-E053-6C04A8C03CD0&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2020-09-07&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;57&quot;,
+        &quot;postcode&quot;: &quot;EN5 5JZ&quot;,
+        &quot;price&quot;: 742500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MEADWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;B32EBB13-3A64-3C99-E053-6C04A8C09CA1&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2021-01-11&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;85&quot;,
+        &quot;postcode&quot;: &quot;EN5 5JZ&quot;,
+        &quot;price&quot;: 670000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MEADWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;C6209F5F-94EC-295E-E053-6C04A8C0DDCC&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2023-06-12&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;89&quot;,
+        &quot;postcode&quot;: &quot;EN5 5JZ&quot;,
+        &quot;price&quot;: 895000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MEADWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;045A1898-4169-9A24-E063-4804A8C048EA&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2025-02-10&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;99&quot;,
+        &quot;postcode&quot;: &quot;EN5 5JZ&quot;,
+        &quot;price&quot;: 735000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MEADWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;31C68072-5AAC-FEE3-E063-4804A8C04F37&quot;
+      }
+    ],
+    &quot;sales&quot;: [],
+    &quot;scope&quot;: &quot;address_no_sale&quot;,
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;latitude&quot;: 51.653017,
+  &quot;liverpool_st_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Moderate (45-55m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 36,
+    &quot;route_summary&quot;: &quot;Northern line (Bank branch) direct to Moorgate (36 min) + 4 min Elizabeth line link to Liverpool St&quot;,
+    &quot;secondary_route&quot;: &quot;New Barnet (0.8 mi, ~16m walk) \u2794 Great Northern (National Rail) (26m rail) = ~46m total&quot;,
+    &quot;station_distance_miles&quot;: 0.3,
+    &quot;station_name&quot;: &quot;High Barnet&quot;,
+    &quot;total_commute_minutes&quot;: 46,
+    &quot;transfer_minutes&quot;: 4,
+    &quot;transit_line&quot;: &quot;London Underground (Northern line - Bank branch)&quot;,
+    &quot;walk_time_minutes&quot;: 6
+  },
+  &quot;living_rooms&quot;: 0,
+  &quot;longitude&quot;: -0.189797,
+  &quot;modernization_score&quot;: {
+    &quot;architectural_glazing&quot;: 0.0,
+    &quot;classification&quot;: &quot;Partially Modernized Period Home&quot;,
+    &quot;detected_features&quot;: [
+      &quot;EPC: no secondary heating (no dated room heaters)&quot;,
+      &quot;South / South-West facing rear garden (optimum solar gain)&quot;
+    ],
+    &quot;garden_spatial&quot;: 12.0,
+    &quot;heating_services&quot;: 4.0,
+    &quot;structural_envelope&quot;: 4.0,
+    &quot;total_score&quot;: 20.0,
+    &quot;unverified_checks&quot;: [
+      &quot;Heating Delivery: Appears to rely on standard wall radiators; check flow temperature compatibility&quot;,
+      &quot;Plumbing Topology: Check for Megaflo unvented cylinder vs combi-boiler pressure drop when multiple taps run&quot;,
+      &quot;Consumer Unit: Inspect fuseboard on viewing \u2014 metal RCBO unit with Type 2 SPD vs dated plastic unit&quot;,
+      &quot;Ground Floor Void: Check skirtings and floor vents for cold draughts from uninsulated suspended timber joists&quot;,
+      &quot;Chimney Stacks: If ground floor is open-plan, verify structural RSJ supports under upper breast and Building Regs cert&quot;,
+      &quot;Roof Sub-structure: Check in loft if roof has breathable felt or 80-year-old degraded torching/bitumen&quot;,
+      &quot;Wall Thermal Performance: Standard period solid-brick walls (check EPC recommendation for internal wall insulation)&quot;,
+      &quot;Extension Drainage: For rear/side extensions, confirm Thames Water Build-Over Agreement and access chamber placement&quot;
+    ],
+    &quot;vision_facts&quot;: [
+      &quot;35 property photo(s) analysed by local vision model (Qwen3-VL)&quot;,
+      &quot;Photographic-evidence score: 34.0/100 (medium confidence; condition 22/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 9/10)&quot;,
+      &quot;Floor-plan total read from the plan: 1,271 sq ft&quot;,
+      &quot;Condition tier inferred from photos: partially modernised&quot;,
+      &quot;Glazing glimpsed in photos: uPVC double glazing&quot;,
+      &quot;Not captured in the photos: roof, garden aspect, extension evidence, side access, roof, render (\u2026)&quot;
+    ]
+  },
+  &quot;nearest_station&quot;: &quot;High Barnet&quot;,
+  &quot;overall_verdict&quot;: &quot;Secondary Assessment Needed: Moderate scores across space, transit, or condition.&quot;,
+  &quot;planning_summary&quot;: {
+    &quot;_cache&quot;: true,
+    &quot;applications&quot;: [],
+    &quot;properties&quot;: [
+      {
+        &quot;text&quot;: &quot;&quot;,
+        &quot;url&quot;: &quot;https://publicaccess.barnet.gov.uk/online-applications/propertyDetails.do?activeTab=printPreview&amp;keyVal=NC1XUR00DT007&quot;
+      },
+      {
+        &quot;text&quot;: &quot;Address&quot;,
+        &quot;url&quot;: &quot;https://publicaccess.barnet.gov.uk/online-applications/propertyDetails.do?activeTab=summary&amp;keyVal=NC1XUR00DT007&quot;
+      },
+      {
+        &quot;text&quot;: &quot;Property History\r\n                            \r\n                                \r\n                                (5)&quot;,
+        &quot;url&quot;: &quot;https://publicaccess.barnet.gov.uk/online-applications/propertyDetails.do?activeTab=relatedCases&amp;keyVal=NC1XUR00DT007&quot;
+      },
+      {
+        &quot;text&quot;: &quot;Constraints\r\n                            \r\n                                \r\n                                (3)&quot;,
+        &quot;url&quot;: &quot;https://publicaccess.barnet.gov.uk/online-applications/propertyDetails.do?activeTab=constraints&amp;keyVal=NC1XUR00DT007&quot;
+      },
+      {
+        &quot;text&quot;: &quot;Map&quot;,
+        &quot;url&quot;: &quot;https://publicaccess.barnet.gov.uk/online-applications/propertyDetails.do?activeTab=map&amp;keyVal=NC1XUR00DT007&quot;
+      }
+    ],
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;price_display&quot;: &quot;\u00a3750,000&quot;,
+  &quot;price_per_sq_ft&quot;: 590.1,
+  &quot;property_id&quot;: &quot;73341394&quot;,
+  &quot;property_type&quot;: &quot;3 bed bungalow for sale&quot;,
+  &quot;risks_and_drawbacks&quot;: [],
+  &quot;size_sq_ft&quot;: 1271.0,
+  &quot;size_sq_m&quot;: 118.1,
+  &quot;station_distance_miles&quot;: 0.3,
+  &quot;tenure&quot;: &quot;Freehold&quot;,
+  &quot;viewing_inspection_checklist&quot;: [
+    &quot;**Incoming Water Supply**: Inspect pipe beneath kitchen sink/stopcock. Look for 25mm/32mm blue MDPE pipe (upgraded) vs dull grey lead pipe (restricted pressure).&quot;,
+    &quot;**Hot Water &amp; Showers**: Locate the cylinder. Confirm if there is an unvented Megaflo cylinder delivering mains-pressure showers, or an old gravity-fed header tank in the attic.&quot;,
+    &quot;**Consumer Unit &amp; Electricals**: Open the fuse box. Verify whether it is a modern 18th-edition metal enclosure with RCBOs, Type 2 Surge Protection (SPD), and a 100A main fuse.&quot;,
+    &quot;**Underfloor Heating Manifold**: If UFH is claimed, ask to see the hydraulic mixing manifold. A wall thermostat alone often indicates cheap, high-running-cost electric matting.&quot;,
+    &quot;**Subfloor &amp; Thermal Draughts**: Walk the ground floor perimeter. Feel skirtings and air vents for draughts indicating uninsulated suspended timber voids.&quot;,
+    &quot;**Roof Sub-structure**: Inspect the loft space. Check for breathable felt (e.g. Tyvek) and at least 270mm of mineral wool insulation vs rotting timber lath and torching.&quot;,
+    &quot;**Structural Alterations &amp; RSJs**: For opened-up spaces or removed chimney breasts, request the structural engineer&#x27;s calculations and Building Regulations Completion Certificate.&quot;,
+    &quot;**Drainage &amp; Build-Over**: If extended to the rear, verify if a Thames Water Build-Over Agreement was executed for any public sewers crossing the plot.&quot;,
+    &quot;**Garden Solar Path &amp; Boundary Shadows**: Check the rear garden with a sun-tracking compass; check if neighbouring two- or three-storey gables cast permanent flank shadows.&quot;,
+    &quot;**Side Access Rights**: Confirm uninterrupted private title access from front to back garden without crossing third-party land.&quot;
+  ],
+  &quot;walk_time_minutes&quot;: 6
+}</pre>
+  </details>
+
+  <div class="foot"><div><a href="hadley-road-new-barnet-hertfordshire-en5.html">← Hadley Road</a></div><div><span></span></div></div>
+
+  <p class="note" style="margin-top:26px">Generated 2026-09-27 from
+  <code>reviews/property_reviews.json</code>. Map data &copy;
+  <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</p>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
+<script>window.__PINS__ = [{"id": "73341394", "lat": 51.653017, "lon": -0.189797, "addr": "Meadway", "price": "\u00a3750,000", "sqft": "1,271", "epc": "D", "general": 63.5, "modern": 20.0, "combined": 41.75, "colour": "#2b6cb0", "href": "#"}];</script>
+<script>
+(function () {
+  var el = document.getElementById('map');
+  if (!el || typeof L === 'undefined') { return; }
+  var data = window.__PINS__ || [];
+  if (!data.length || data[0].lat === null) { el.style.display = 'none'; return; }
+  var map = L.map('map', { scrollWheelZoom: false, dragging: false,
+                           doubleClickZoom: false, boxZoom: false,
+                           keyboard: false, zoomControl: false });
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  var group = L.featureGroup().addTo(map);
+  data.forEach(function (p) {
+    if (p.lat === null) { return; }
+    L.circleMarker([p.lat, p.lon], { radius: 10, color: '#ffffff', weight: 3,
+                                     fillColor: p.colour, fillOpacity: 0.95 }).addTo(group);
+  });
+  if (group.getBounds().isValid()) { map.fitBounds(group.getBounds().pad(0.35)); }
+  L.control.attribution({ prefix: false }).addTo(map);
+})();
+</script>
+</body></html>

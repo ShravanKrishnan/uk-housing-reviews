@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Property review map</title>
+<link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <h1>Property review map</h1>
+  <p class="sub"><strong>11</strong> properties &middot; asking £750,000–£1,450,000 &middot; 11 mapped &middot; generated 2026-09-27</p>
+</div></header>
+
+<div class="wrap">
+  <div id="map" role="application" aria-label="Map of reviewed properties"></div>
+  <div class="legend"><span><i class="swatch" style="background:#2b6cb0"></i>Partly Modernized (4)</span><span><i class="swatch" style="background:#1a7f5a"></i>Capital-Modernized (3)</span><span><i class="swatch" style="background:#a8322d"></i>Unmodernized (3)</span><span><i class="swatch" style="background:#c2760a"></i>Raw Potential (1)</span></div>
+
+  <div class="layout" style="margin-top:22px">
+    <div class="panel">
+      <h2>Ranked portfolio</h2>
+      <p class="note" style="margin-top:-6px">Q = general quality, M = modernization,
+         both out of 100. Click a row for the full review.</p>
+      <ul class="plist"><li id="rank-1" data-pin="73000012"><a class="row" href="properties/well-grove-whetstone-n20.html"><span class="scores"><span class="pill" style="background:#1a7f5a">84.0 Q</span> <span class="pill" style="background:#a8322d">39.9 M</span></span><span class="rank">#1</span><span class="addr">Well Grove</span><span class="meta">£1,450,000 &middot; 3,099 sq ft &middot; £467.9/sq ft &middot; EPC B</span><span class="meta"><span class="badge gem">Capital-Modernized</span></span></a></li><li id="rank-2" data-pin="73581926"><a class="row" href="properties/park-road-new-barnet-en4.html"><span class="scores"><span class="pill" style="background:#1a7f5a">81.0 Q</span> <span class="pill" style="background:#a8322d">32.0 M</span></span><span class="rank">#2</span><span class="addr">Park Road</span><span class="meta">£1,300,000 &middot; 2,471 sq ft &middot; £526.1/sq ft &middot; EPC C</span><span class="meta"><span class="badge partly">Partly Modernized</span></span></a></li><li id="rank-3" data-pin="73884950"><a class="row" href="properties/manor-road-barnet-en5.html"><span class="scores"><span class="pill" style="background:#c2760a">64.5 Q</span> <span class="pill" style="background:#a8322d">44.0 M</span></span><span class="rank">#3</span><span class="addr">Manor Road</span><span class="meta">£1,450,000 &middot; 2,352 sq ft &middot; £616.5/sq ft &middot; EPC C</span><span class="meta"><span class="badge gem">Capital-Modernized</span></span></a></li><li id="rank-4" data-pin="72600343"><a class="row" href="properties/belmont-avenue-cockfosters-en4.html"><span class="scores"><span class="pill" style="background:#4a9d3f">70.5 Q</span> <span class="pill" style="background:#a8322d">36.0 M</span></span><span class="rank">#4</span><span class="addr">Belmont Avenue</span><span class="meta">£1,250,000 &middot; 2,175 sq ft &middot; £574.7/sq ft &middot; EPC D</span><span class="meta"><span class="badge gem">Capital-Modernized</span></span></a></li><li id="rank-5" data-pin="69666381"><a class="row" href="properties/rolfe-close-barnet-en4.html"><span class="scores"><span class="pill" style="background:#1a7f5a">81.5 Q</span> <span class="pill" style="background:#a8322d">20.0 M</span></span><span class="rank">#5</span><span class="addr">Rolfe Close</span><span class="meta">£1,000,000 &middot; 2,566 sq ft &middot; £389.7/sq ft &middot; EPC D</span><span class="meta"><span class="badge partly">Partly Modernized</span></span></a></li><li id="rank-6" data-pin="74164010"><a class="row" href="properties/ainsworth-close-whetstone-n20.html"><span class="scores"><span class="pill" style="background:#4a9d3f">72.5 Q</span> <span class="pill" style="background:#a8322d">23.9 M</span></span><span class="rank">#6</span><span class="addr">Ainsworth Close</span><span class="meta">£1,375,000 &middot; 1,982 sq ft &middot; £693.7/sq ft &middot; EPC B</span><span class="meta"><span class="badge partly">Partly Modernized</span></span></a></li><li id="rank-7" data-pin="71526117"><a class="row" href="properties/maryrose-way-oakleigh-park-n20.html"><span class="scores"><span class="pill" style="background:#4a9d3f">76.0 Q</span> <span class="pill" style="background:#a8322d">20.0 M</span></span><span class="rank">#7</span><span class="addr">Maryrose Way</span><span class="meta">£1,150,000 &middot; 2,514 sq ft &middot; £457.4/sq ft &middot; EPC E</span><span class="meta"><span class="badge raw">Raw Potential</span></span></a></li><li id="rank-8" data-pin="74320154"><a class="row" href="properties/burlington-rise-east-barnet-en4.html"><span class="scores"><span class="pill" style="background:#4a9d3f">76.0 Q</span> <span class="pill" style="background:#a8322d">18.0 M</span></span><span class="rank">#8</span><span class="addr">Burlington Rise</span><span class="meta">£1,175,000 &middot; 2,088 sq ft &middot; £562.7/sq ft &middot; EPC C</span><span class="meta"><span class="badge baseline">Unmodernized</span></span></a></li><li id="rank-9" data-pin="74071974"><a class="row" href="properties/gloucester-road-barnet-en5.html"><span class="scores"><span class="pill" style="background:#4a9d3f">72.0 Q</span> <span class="pill" style="background:#a8322d">12.0 M</span></span><span class="rank">#9</span><span class="addr">Gloucester Road</span><span class="meta">£1,250,000 &middot; 1,894 sq ft &middot; £660/sq ft &middot; EPC D</span><span class="meta"><span class="badge baseline">Unmodernized</span></span></a></li><li id="rank-10" data-pin="70593927"><a class="row" href="properties/hadley-road-new-barnet-hertfordshire-en5.html"><span class="scores"><span class="pill" style="background:#4a9d3f">76.0 Q</span> <span class="pill" style="background:#a8322d">8.0 M</span></span><span class="rank">#10</span><span class="addr">Hadley Road</span><span class="meta">£1,300,000 &middot; 2,611 sq ft &middot; £497.9/sq ft &middot; EPC D</span><span class="meta"><span class="badge baseline">Unmodernized</span></span></a></li><li id="rank-11" data-pin="73341394"><a class="row" href="properties/meadway-barnet-en5.html"><span class="scores"><span class="pill" style="background:#c2760a">63.5 Q</span> <span class="pill" style="background:#a8322d">20.0 M</span></span><span class="rank">#11</span><span class="addr">Meadway</span><span class="meta">£750,000 &middot; 1,271 sq ft &middot; £590.1/sq ft &middot; EPC D</span><span class="meta"><span class="badge partly">Partly Modernized</span></span></a></li></ul>
+    </div>
+
+    <div class="panel">
+      <h2>All properties</h2>
+      <table>
+        <thead><tr>
+          <th class="num">#</th><th>Property</th><th>Price</th>
+          <th class="num">Sq ft</th><th class="num">£/sq ft</th><th>EPC</th>
+          <th class="num">Quality</th><th class="num">Modern.</th><th>Profile</th>
+        </tr></thead>
+        <tbody><tr><td class="num">1</td><td><a href="properties/well-grove-whetstone-n20.html">Well Grove</a><br><span class="note">Well Grove, Whetstone N20</span></td><td>£1,450,000</td><td class="num">3,099</td><td class="num">467.9</td><td>B</td><td class="num">84.0</td><td class="num">39.9</td><td>Capital-Modernized</td></tr><tr><td class="num">2</td><td><a href="properties/park-road-new-barnet-en4.html">Park Road</a><br><span class="note">Park Road, New Barnet EN4</span></td><td>£1,300,000</td><td class="num">2,471</td><td class="num">526.1</td><td>C</td><td class="num">81.0</td><td class="num">32.0</td><td>Partly Modernized</td></tr><tr><td class="num">3</td><td><a href="properties/manor-road-barnet-en5.html">Manor Road</a><br><span class="note">Manor Road, Barnet EN5</span></td><td>£1,450,000</td><td class="num">2,352</td><td class="num">616.5</td><td>C</td><td class="num">64.5</td><td class="num">44.0</td><td>Capital-Modernized</td></tr><tr><td class="num">4</td><td><a href="properties/belmont-avenue-cockfosters-en4.html">Belmont Avenue</a><br><span class="note">Belmont Avenue, Cockfosters EN4</span></td><td>£1,250,000</td><td class="num">2,175</td><td class="num">574.7</td><td>D</td><td class="num">70.5</td><td class="num">36.0</td><td>Capital-Modernized</td></tr><tr><td class="num">5</td><td><a href="properties/rolfe-close-barnet-en4.html">Rolfe Close</a><br><span class="note">Rolfe Close, Barnet EN4</span></td><td>£1,000,000</td><td class="num">2,566</td><td class="num">389.7</td><td>D</td><td class="num">81.5</td><td class="num">20.0</td><td>Partly Modernized</td></tr><tr><td class="num">6</td><td><a href="properties/ainsworth-close-whetstone-n20.html">Ainsworth Close</a><br><span class="note">Ainsworth Close, Whetstone N20</span></td><td>£1,375,000</td><td class="num">1,982</td><td class="num">693.7</td><td>B</td><td class="num">72.5</td><td class="num">23.9</td><td>Partly Modernized</td></tr><tr><td class="num">7</td><td><a href="properties/maryrose-way-oakleigh-park-n20.html">Maryrose Way</a><br><span class="note">Maryrose Way, Oakleigh Park N20</span></td><td>£1,150,000</td><td class="num">2,514</td><td class="num">457.4</td><td>E</td><td class="num">76.0</td><td class="num">20.0</td><td>Raw Potential</td></tr><tr><td class="num">8</td><td><a href="properties/burlington-rise-east-barnet-en4.html">Burlington Rise</a><br><span class="note">Burlington Rise, East Barnet EN4</span></td><td>£1,175,000</td><td class="num">2,088</td><td class="num">562.7</td><td>C</td><td class="num">76.0</td><td class="num">18.0</td><td>Unmodernized</td></tr><tr><td class="num">9</td><td><a href="properties/gloucester-road-barnet-en5.html">Gloucester Road</a><br><span class="note">Gloucester Road, Barnet EN5</span></td><td>£1,250,000</td><td class="num">1,894</td><td class="num">660</td><td>D</td><td class="num">72.0</td><td class="num">12.0</td><td>Unmodernized</td></tr><tr><td class="num">10</td><td><a href="properties/hadley-road-new-barnet-hertfordshire-en5.html">Hadley Road</a><br><span class="note">Hadley Road, New Barnet, Hertfordshire EN5</span></td><td>£1,300,000</td><td class="num">2,611</td><td class="num">497.9</td><td>D</td><td class="num">76.0</td><td class="num">8.0</td><td>Unmodernized</td></tr><tr><td class="num">11</td><td><a href="properties/meadway-barnet-en5.html">Meadway</a><br><span class="note">Meadway, Barnet EN5</span></td><td>£750,000</td><td class="num">1,271</td><td class="num">590.1</td><td>D</td><td class="num">63.5</td><td class="num">20.0</td><td>Partly Modernized</td></tr></tbody>
+      </table>
+      
+    </div>
+  </div>
+
+  <p class="note" style="margin-top:26px">
+    Scores are the two published axes from the review evaluator; the map is a
+    navigation aid, not a valuation. Map data &copy;
+    <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.
+    Every figure traces to <code>reviews/property_reviews.json</code>.
+  </p>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
+<script>window.__PINS__ = [{"id": "73000012", "lat": 51.635945, "lon": -0.173912, "addr": "Well Grove", "price": "\u00a31,450,000", "sqft": "3,099", "epc": "B", "general": 84.0, "modern": 39.9, "combined": 61.95, "colour": "#1a7f5a", "href": "properties/well-grove-whetstone-n20.html"}, {"id": "73581926", "lat": 51.64765, "lon": -0.161129, "addr": "Park Road", "price": "\u00a31,300,000", "sqft": "2,471", "epc": "C", "general": 81.0, "modern": 32.0, "combined": 56.5, "colour": "#2b6cb0", "href": "properties/park-road-new-barnet-en4.html"}, {"id": "73884950", "lat": 51.647872, "lon": -0.204408, "addr": "Manor Road", "price": "\u00a31,450,000", "sqft": "2,352", "epc": "C", "general": 64.5, "modern": 44.0, "combined": 54.25, "colour": "#1a7f5a", "href": "properties/manor-road-barnet-en5.html"}, {"id": "72600343", "lat": 51.647075, "lon": -0.15618, "addr": "Belmont Avenue", "price": "\u00a31,250,000", "sqft": "2,175", "epc": "D", "general": 70.5, "modern": 36.0, "combined": 53.25, "colour": "#1a7f5a", "href": "properties/belmont-avenue-cockfosters-en4.html"}, {"id": "69666381", "lat": 51.648769, "lon": -0.160016, "addr": "Rolfe Close", "price": "\u00a31,000,000", "sqft": "2,566", "epc": "D", "general": 81.5, "modern": 20.0, "combined": 50.75, "colour": "#2b6cb0", "href": "properties/rolfe-close-barnet-en4.html"}, {"id": "74164010", "lat": 51.627502, "lon": -0.171657, "addr": "Ainsworth Close", "price": "\u00a31,375,000", "sqft": "1,982", "epc": "B", "general": 72.5, "modern": 23.9, "combined": 48.2, "colour": "#2b6cb0", "href": "properties/ainsworth-close-whetstone-n20.html"}, {"id": "71526117", "lat": 51.634903, "lon": -0.16875, "addr": "Maryrose Way", "price": "\u00a31,150,000", "sqft": "2,514", "epc": "E", "general": 76.0, "modern": 20.0, "combined": 48.0, "colour": "#c2760a", "href": "properties/maryrose-way-oakleigh-park-n20.html"}, {"id": "74320154", "lat": 51.635481, "lon": -0.158863, "addr": "Burlington Rise", "price": "\u00a31,175,000", "sqft": "2,088", "epc": "C", "general": 76.0, "modern": 18.0, "combined": 47.0, "colour": "#a8322d", "href": "properties/burlington-rise-east-barnet-en4.html"}, {"id": "74071974", "lat": 51.647324, "lon": -0.183083, "addr": "Gloucester Road", "price": "\u00a31,250,000", "sqft": "1,894", "epc": "D", "general": 72.0, "modern": 12.0, "combined": 42.0, "colour": "#a8322d", "href": "properties/gloucester-road-barnet-en5.html"}, {"id": "70593927", "lat": 51.656282, "lon": -0.182966, "addr": "Hadley Road", "price": "\u00a31,300,000", "sqft": "2,611", "epc": "D", "general": 76.0, "modern": 8.0, "combined": 42.0, "colour": "#a8322d", "href": "properties/hadley-road-new-barnet-hertfordshire-en5.html"}, {"id": "73341394", "lat": 51.653017, "lon": -0.189797, "addr": "Meadway", "price": "\u00a3750,000", "sqft": "1,271", "epc": "D", "general": 63.5, "modern": 20.0, "combined": 41.75, "colour": "#2b6cb0", "href": "properties/meadway-barnet-en5.html"}];</script>
+<script>
+(function () {
+  var el = document.getElementById('map');
+  if (!el || typeof L === 'undefined') { return; }
+  var data = window.__PINS__ || [];
+  var map = L.map('map', { scrollWheelZoom: false });
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  var group = L.featureGroup().addTo(map);
+  var markers = {};
+  data.forEach(function (p) {
+    var m = L.circleMarker([p.lat, p.lon], {
+      radius: 8 + (p.combined / 100) * 8,
+      color: '#ffffff', weight: 2, fillColor: p.colour, fillOpacity: 0.92
+    }).addTo(group);
+    m.bindPopup(
+      '<div class="p-addr">' + p.addr + '</div>' +
+      '<div class="p-meta">' + p.price + ' &middot; ' + p.sqft + ' sq ft &middot; EPC ' + p.epc + '</div>' +
+      '<div class="p-meta">Quality ' + p.general.toFixed(1) + ' &middot; Modernization ' + p.modern.toFixed(1) + '</div>' +
+      '<p><a href="' + p.href + '">Read the full review &rarr;</a></p>'
+    );
+    markers[p.id] = m;
+  });
+  if (data.length) { map.fitBounds(group.getBounds().pad(0.18)); }
+  // Keep the sidebar in sync: hovering a row highlights its pin.
+  Object.keys(markers).forEach(function (id) {
+    var row = document.querySelector('[data-pin="' + id + '"]');
+    if (!row) { return; }
+    row.addEventListener('mouseenter', function () { markers[id].setStyle({ weight: 4 }); });
+    row.addEventListener('mouseleave', function () { markers[id].setStyle({ weight: 2 }); });
+  });
+})();
+</script>
+</body></html>
