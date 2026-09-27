@@ -72,6 +72,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - [x] EPC assessed 2015-03-09: certificate expired — points scored as stated
 - [x] EPC: no secondary heating (no dated room heaters)
 - [x] EPC: insulated roof (pitched, 350 mm loft insulation)
+- [x] EPC: double glazing recorded (fully double glazed)
 - [x] Dedicated outbuilding / garden studio structure
 - [x] Presented finish observed as refurbished in listing photographs (image analysis)
 - [x] Architectural glazing / roof lantern visible in photos (image analysis)
@@ -160,6 +161,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 **Scored modernization evidence:**
 - [x] EPC: no secondary heating (no dated room heaters)
 - [x] EPC: insulated roof (pitched, 270 mm loft insulation)
+- [x] EPC: double glazing recorded (fully double glazed)
 - [x] Presented finish observed as partially modernised in listing photographs (image analysis)
 
 **Photographic evidence reviewed for the score:**
@@ -242,6 +244,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - [x] EPC: underfloor heating recorded as heating delivery
 - [x] EPC: no secondary heating (no dated room heaters)
 - [x] EPC: insulated roof (pitched, 100 mm loft insulation)
+- [x] EPC: double glazing recorded (fully double glazed)
 - [x] Presented finish observed as refurbished in listing photographs (image analysis)
 
 **Photographic evidence reviewed for the score:**
@@ -329,6 +332,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - [x] EPC: secondary heating present (room heaters, mains gas)
 - [x] EPC: wall insulation recorded (cavity wall, as built, partial insulation (assumed))
 - [x] EPC: insulated roof (pitched, 75 mm loft insulation)
+- [x] EPC: double glazing recorded (fully double glazed)
 - [x] Presented finish observed as partially modernised in listing photographs (image analysis)
 
 **Photographic evidence reviewed for the score:**
@@ -414,6 +418,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 **Scored modernization evidence:**
 - [x] EPC: secondary heating present (room heaters, mains gas)
 - [x] EPC: insulated roof (pitched, insulated (assumed))
+- [x] EPC: double glazing recorded (fully double glazed)
 
 **Photographic evidence reviewed for the score:**
 - 21 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -501,6 +506,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - [x] EPC: secondary heating present (room heaters, mains gas)
 - [x] EPC: wall insulation recorded (cavity wall, as built, insulated (assumed))
 - [x] EPC: insulated roof (pitched, 300 mm loft insulation)
+- [x] EPC: double glazing recorded (fully double glazed)
 - [x] Dedicated outbuilding / garden studio structure
 
 **Photographic evidence reviewed for the score:**
@@ -669,6 +675,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - [x] EPC: no secondary heating (no dated room heaters)
 - [x] EPC: wall insulation recorded (solid brick, with external insulation)
 - [x] EPC: insulated roof (pitched, 250 mm loft insulation)
+- [x] EPC: double glazing recorded (fully double glazed)
 - [x] Presented finish observed as partially modernised in listing photographs (image analysis)
 
 **Photographic evidence reviewed for the score:**
@@ -927,6 +934,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 
 **Scored modernization evidence:**
 - [x] EPC: no secondary heating (no dated room heaters)
+- [x] EPC: double glazing recorded (fully double glazed)
 - [x] Presented finish observed as partially modernised in listing photographs (image analysis)
 
 **Photographic evidence reviewed for the score:**
