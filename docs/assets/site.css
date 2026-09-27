@@ -69,13 +69,14 @@ ul.plist { list-style: none; margin: 0; padding: 0; }
 ul.plist li { border-bottom: 1px solid var(--line); }
 ul.plist li:last-child { border-bottom: 0; }
 ul.plist a.row {
-  display: block; padding: 11px 2px; text-decoration: none; color: inherit;
+  display: block; padding: 14px 4px; text-decoration: none; color: inherit;
 }
 ul.plist a.row:hover { background: #f0f7f4; }
-.plist .addr { font-weight: 600; font-size: 14px; }
-.plist .meta { font-size: 12.5px; color: var(--muted); margin-top: 2px; }
-.plist .scores { float: right; text-align: right; white-space: nowrap; }
-.rank { color: var(--muted); font-size: 12px; margin-right: 5px; }
+.plist .addr { font-weight: 650; font-size: 15px; }
+.plist .meta { display: block; font-size: 13px; color: var(--muted); margin-top: 5px; }
+.plist .scores { float: right; text-align: right; white-space: nowrap; margin: 2px 0 8px 12px; }
+.plist .scores .pill + .pill { margin-left: 6px; }
+.rank { color: var(--muted); font-size: 12px; margin-right: 8px; }
 
 /* ---- table ---- */
 table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
