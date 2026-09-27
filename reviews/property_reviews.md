@@ -71,6 +71,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - [x] EPC assessed-systems table too old to score (or undated)
 - [x] Gated side access / independent rear pathway (essential for bikes, garden waste, and renovation logistics)
 - [x] Dedicated outbuilding / garden studio structure
+- [x] Architectural glazing / roof lantern visible in photos (image analysis)
 
 **Photographic evidence reviewed for the score:**
 - 22 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -734,6 +735,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - [x] EPC: insulated floor (average thermal transmittance 0.12 w/m²k)
 - [x] EPC: high performance glazing (high performance glazing)
 - [x] Gated side access / independent rear pathway (essential for bikes, garden waste, and renovation logistics)
+- [x] Architectural glazing / roof lantern visible in photos (image analysis)
 
 **Photographic evidence reviewed for the score:**
 - 24 property photo(s) analysed by local vision model (Qwen3-VL)
