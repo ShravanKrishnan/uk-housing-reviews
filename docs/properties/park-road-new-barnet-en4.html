@@ -37,7 +37,7 @@
   <div class="panel">
     <table class="nice">
       <thead><tr><th>Signal</th><th>Status</th><th>Detail</th></tr></thead>
-      <tbody><tr><td>Air conditioning</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned; UK EPCs do not record domestic cooling</td></tr><tr><td>Underfloor heating</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned in the listing or EPC</td></tr><tr><td>South-facing garden</td><td><span class="nh-status nh-photo_hint">photo-hint</span></td><td>Photos suggest south — confirm with a compass</td></tr><tr><td>Sun roof / lantern in living areas</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned and no overhead glazing seen in photos</td></tr><tr><td>Ground-floor bedroom</td><td><span class="nh-status nh-stated">stated</span></td><td>No ground-floor bedroom stated, but a convertible playroom is mentioned</td></tr><tr><td>Wide living room</td><td><span class="nh-status nh-stated">stated</span></td><td>Living/Dining Room measures 27.5 ft at its widest (floor-plan) — clears the 15 ft mark</td></tr></tbody>
+      <tbody><tr><td>Air conditioning</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned; UK EPCs do not record domestic cooling</td></tr><tr><td>Underfloor heating</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned in the listing or EPC</td></tr><tr><td>South-facing garden</td><td><span class="nh-status nh-photo_hint">photo-hint</span></td><td>Photos suggest south — confirm with a compass</td></tr><tr><td>Sun roof / lantern in living areas</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned and no overhead glazing seen in photos</td></tr><tr><td>Ground-floor bedroom</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Floorplan shows a bedroom on the ground floor</td></tr><tr><td>Wide living room</td><td><span class="nh-status nh-stated">stated</span></td><td>Largest living area is 12.8 ft (Living/Dining Room, floor-plan) — below the 15 ft mark</td></tr></tbody>
     </table>
   </div>
 
@@ -82,7 +82,7 @@
       <h3>Risks &amp; drawbacks</h3>
       <p class="note">None recorded.</p>
     </div>
-    <div class="panel"><h2>Where the modernization score comes from</h2><p class="note">Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.</p><h3>Scored modernization evidence</h3><ul class="ticks"><li>EPC: secondary heating present (room heaters, mains gas)</li><li>EPC: wall insulation recorded (cavity wall, as built, partial insulation (assumed))</li><li>EPC: insulated roof (pitched, 75 mm loft insulation)</li><li>EPC: double glazing recorded (fully double glazed)</li><li>Presented finish observed as partially modernised in listing photographs (image analysis)</li></ul><h3>Photographic evidence reviewed for the score</h3><ul class="ticks"><li>29 property photo(s) analysed by local vision model (Qwen3-VL)</li><li>Photographic-evidence score: 32.0/100 (medium confidence; condition 22/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 7/10)</li><li>Floor-plan total read from the plan: 2,471 sq ft</li><li>Condition tier inferred from photos: partially modernised</li><li>Glazing glimpsed in photos: uPVC double glazing</li><li>Not captured in the photos: bathrooms, extension evidence, garden aspect, kitchen, other bathrooms, other bedrooms (…)</li></ul></div>
+    <div class="panel"><h2>Where the modernization score comes from</h2><p class="note">Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.</p><h3>Scored modernization evidence</h3><ul class="ticks"><li>EPC: secondary heating present (room heaters, mains gas)</li><li>EPC: wall insulation recorded (cavity wall, as built, partial insulation (assumed))</li><li>EPC: insulated roof (pitched, 75 mm loft insulation)</li><li>EPC: double glazing recorded (fully double glazed)</li><li>Presented finish observed as partially modernised in listing photographs (image analysis)</li></ul><h3>Photographic evidence reviewed for the score</h3><ul class="ticks"><li>29 property photo(s) analysed by local vision model (Qwen3-VL)</li><li>Photographic-evidence score: 32.0/100 (medium confidence; condition 22/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 7/10)</li><li>Floor-plan total read from the plan: 2,471 sq ft</li><li>Condition tier inferred from photos: partially modernised</li><li>Glazing glimpsed in photos: uPVC double glazing</li><li>Not captured in the photos: extension evidence, garden aspect, kitchen, living roof glazing, parking, render (…)</li></ul></div>
   </div>
 
   <div class="gaps"><strong>What is not verified here</strong><ul><li>No Land Registry sale recorded for this address in the price-paid window — the house has not transacted, so there is no comparable sale history</li></ul></div>
@@ -312,7 +312,7 @@
       &quot;Floor-plan total read from the plan: 2,471 sq ft&quot;,
       &quot;Condition tier inferred from photos: partially modernised&quot;,
       &quot;Glazing glimpsed in photos: uPVC double glazing&quot;,
-      &quot;Not captured in the photos: bathrooms, extension evidence, garden aspect, kitchen, other bathrooms, other bedrooms (\u2026)&quot;
+      &quot;Not captured in the photos: extension evidence, garden aspect, kitchen, living roof glazing, parking, render (\u2026)&quot;
     ]
   },
   &quot;nearest_station&quot;: &quot;New Barnet&quot;,
@@ -338,12 +338,12 @@
       &quot;status&quot;: &quot;not-stated&quot;
     },
     {
-      &quot;detail&quot;: &quot;No ground-floor bedroom stated, but a convertible playroom is mentioned&quot;,
+      &quot;detail&quot;: &quot;Floorplan shows a bedroom on the ground floor&quot;,
       &quot;label&quot;: &quot;Ground-floor bedroom&quot;,
-      &quot;status&quot;: &quot;stated&quot;
+      &quot;status&quot;: &quot;plan-verified&quot;
     },
     {
-      &quot;detail&quot;: &quot;Living/Dining Room measures 27.5 ft at its widest (floor-plan) \u2014 clears the 15 ft mark&quot;,
+      &quot;detail&quot;: &quot;Largest living area is 12.8 ft (Living/Dining Room, floor-plan) \u2014 below the 15 ft mark&quot;,
       &quot;label&quot;: &quot;Wide living room&quot;,
       &quot;status&quot;: &quot;stated&quot;
     }
@@ -376,7 +376,7 @@
 
   <div class="foot"><div><a href="rolfe-close-barnet-en4.html">← Rolfe Close</a></div><div><a href="burlington-rise-east-barnet-en4.html">→ Burlington Rise</a></div></div>
 
-  <p class="note" style="margin-top:26px">Generated 2026-09-27 from
+  <p class="note" style="margin-top:26px">Generated 2026-09-28 from
   <code>reviews/property_reviews.json</code>. Map data &copy;
   <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</p>
 </div>

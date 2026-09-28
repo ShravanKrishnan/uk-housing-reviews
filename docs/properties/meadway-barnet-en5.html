@@ -37,7 +37,7 @@
   <div class="panel">
     <table class="nice">
       <thead><tr><th>Signal</th><th>Status</th><th>Detail</th></tr></thead>
-      <tbody><tr><td>Air conditioning</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned; UK EPCs do not record domestic cooling</td></tr><tr><td>Underfloor heating</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned in the listing or EPC</td></tr><tr><td>South-facing garden</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Listing says south-east-facing; the floor-plan north arrow agrees</td></tr><tr><td>Sun roof / lantern in living areas</td><td><span class="nh-status nh-photo_hint">photo-hint</span></td><td>skylight seen in a living-area photo (room unverified)</td></tr><tr><td>Ground-floor bedroom</td><td><span class="nh-status nh-stated">stated</span></td><td>Bungalow — every bedroom is on the ground floor</td></tr><tr><td>Wide living room</td><td><span class="nh-status nh-stated">stated</span></td><td>Reception measures 21.3 ft at its widest (floor-plan) — clears the 15 ft mark</td></tr></tbody>
+      <tbody><tr><td>Air conditioning</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned; UK EPCs do not record domestic cooling</td></tr><tr><td>Underfloor heating</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned in the listing or EPC</td></tr><tr><td>South-facing garden</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Listing says south-east-facing; the floor-plan north arrow agrees</td></tr><tr><td>Sun roof / lantern in living areas</td><td><span class="nh-status nh-photo_hint">photo-hint</span></td><td>skylight seen in a living-area photo (room unverified)</td></tr><tr><td>Ground-floor bedroom</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Floorplan shows a bedroom on the ground floor</td></tr><tr><td>Wide living room</td><td><span class="nh-status nh-stated">stated</span></td><td>Largest living area is 13.2 ft (Reception, floor-plan) — below the 15 ft mark</td></tr></tbody>
     </table>
   </div>
 
@@ -88,7 +88,7 @@
       <h3>Risks &amp; drawbacks</h3>
       <p class="note">None recorded.</p>
     </div>
-    <div class="panel"><h2>Where the modernization score comes from</h2><p class="note">Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.</p><h3>Scored modernization evidence</h3><ul class="ticks"><li>EPC: no secondary heating (no dated room heaters)</li><li>EPC: double glazing recorded (fully double glazed)</li><li>Presented finish observed as partially modernised in listing photographs (image analysis)</li></ul><h3>Photographic evidence reviewed for the score</h3><ul class="ticks"><li>35 property photo(s) analysed by local vision model (Qwen3-VL)</li><li>Photographic-evidence score: 34.0/100 (medium confidence; condition 22/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 9/10)</li><li>Floor-plan total read from the plan: 1,271 sq ft</li><li>Condition tier inferred from photos: partially modernised</li><li>Glazing glimpsed in photos: uPVC double glazing</li><li>Not captured in the photos: bathroom, extension evidence, garden aspect, interior layout, kitchen, living room (…)</li></ul></div>
+    <div class="panel"><h2>Where the modernization score comes from</h2><p class="note">Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.</p><h3>Scored modernization evidence</h3><ul class="ticks"><li>EPC: no secondary heating (no dated room heaters)</li><li>EPC: double glazing recorded (fully double glazed)</li><li>Presented finish observed as partially modernised in listing photographs (image analysis)</li></ul><h3>Photographic evidence reviewed for the score</h3><ul class="ticks"><li>35 property photo(s) analysed by local vision model (Qwen3-VL)</li><li>Photographic-evidence score: 34.0/100 (medium confidence; condition 22/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 9/10)</li><li>Floor-plan total read from the plan: 1,271 sq ft</li><li>Condition tier inferred from photos: partially modernised</li><li>Glazing glimpsed in photos: uPVC double glazing</li><li>Not captured in the photos: appliance brands, bathroom, extension evidence, garden aspect, internal layout, kitchen (…)</li></ul></div>
   </div>
 
   <div class="gaps"><strong>What is not verified here</strong><ul><li>No Land Registry sale recorded for this address in the price-paid window — the house has not transacted, so there is no comparable sale history</li></ul></div>
@@ -560,7 +560,7 @@
       &quot;Floor-plan total read from the plan: 1,271 sq ft&quot;,
       &quot;Condition tier inferred from photos: partially modernised&quot;,
       &quot;Glazing glimpsed in photos: uPVC double glazing&quot;,
-      &quot;Not captured in the photos: bathroom, extension evidence, garden aspect, interior layout, kitchen, living room (\u2026)&quot;
+      &quot;Not captured in the photos: appliance brands, bathroom, extension evidence, garden aspect, internal layout, kitchen (\u2026)&quot;
     ]
   },
   &quot;nearest_station&quot;: &quot;High Barnet&quot;,
@@ -586,12 +586,12 @@
       &quot;status&quot;: &quot;photo-hint&quot;
     },
     {
-      &quot;detail&quot;: &quot;Bungalow \u2014 every bedroom is on the ground floor&quot;,
+      &quot;detail&quot;: &quot;Floorplan shows a bedroom on the ground floor&quot;,
       &quot;label&quot;: &quot;Ground-floor bedroom&quot;,
-      &quot;status&quot;: &quot;stated&quot;
+      &quot;status&quot;: &quot;plan-verified&quot;
     },
     {
-      &quot;detail&quot;: &quot;Reception measures 21.3 ft at its widest (floor-plan) \u2014 clears the 15 ft mark&quot;,
+      &quot;detail&quot;: &quot;Largest living area is 13.2 ft (Reception, floor-plan) \u2014 below the 15 ft mark&quot;,
       &quot;label&quot;: &quot;Wide living room&quot;,
       &quot;status&quot;: &quot;stated&quot;
     }
@@ -639,7 +639,7 @@
 
   <div class="foot"><div><a href="manor-road-barnet-en5.html">← Manor Road</a></div><div><span></span></div></div>
 
-  <p class="note" style="margin-top:26px">Generated 2026-09-27 from
+  <p class="note" style="margin-top:26px">Generated 2026-09-28 from
   <code>reviews/property_reviews.json</code>. Map data &copy;
   <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</p>
 </div>

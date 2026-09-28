@@ -11,7 +11,7 @@ Evaluated **11** properties against Core Quality Parameters and Deep Modernizati
 | 5 | **Hadley Road** | £1,300,000 | 2,611.0 | £498 | D | **76.0** | **24.7** | `Partially Modernized Period Home` |
 | 6 | **Maryrose Way** | £1,150,000 | 2,514.0 | £457 | E | **76.0** | **12.0** | `Raw Potential / Unmodernized Fixer-Upper` |
 | 7 | **Ainsworth Close** | £1,375,000 | 1,982.0 | £694 | B | **72.5** | **50.7** | `Capital-Modernized Gem` |
-| 8 | **Gloucester Road** | £1,250,000 | 1,894.0 | £660 | D | **72.0** | **28.0** | `Partially Modernized Period Home` |
+| 8 | **Gloucester Road** | £1,250,000 | 1,894.0 | £660 | D | **72.0** | **34.5** | `Partially Modernized Period Home` |
 | 9 | **Belmont Avenue** | £1,250,000 | 2,175.0 | £575 | D | **70.5** | **39.7** | `Capital-Modernized Gem` |
 | 10 | **Manor Road** | £1,450,000 | 2,352.0 | £616 | C | **64.5** | **46.5** | `Capital-Modernized Gem` |
 | 11 | **Meadway** | £750,000 | 1,271.0 | £590 | D | **63.5** | **14.5** | `Partially Modernized Period Home` |
@@ -44,7 +44,7 @@ Evaluated **11** properties against Core Quality Parameters and Deep Modernizati
 | **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden south (listing silent) |
 | **Sun roof / lantern in living areas** | photo-hint | skylight seen in a living-area photo (room unverified) |
 | **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
-| **Wide living room** | stated | Kitchen / Dining Room measures 27.8 ft at its widest (floor-plan) — clears the 15 ft mark |
+| **Wide living room** | stated | Kitchen / Dining Room measures 15.0 ft at its widest (floor-plan) — clears the 15 ft mark |
 
 ### Dual Scoring Matrix
 
@@ -94,7 +94,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - Floor-plan total read from the plan: 2,340 sq ft
 - Condition tier inferred from photos: refurbished
 - Glazing glimpsed in photos: uPVC double glazing
-- Not captured in the photos: extension evidence, garden aspect, roof, side access
+- Not captured in the photos: bedrooms, extension evidence, garden aspect, other bathrooms, parking, reception rooms (…)
 
 ### Land Registry Transaction History
 
@@ -144,8 +144,8 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 | **Underfloor heating** | not-stated | Not mentioned in the listing or EPC |
 | **South-facing garden** | photo-hint | Photos suggest south — confirm with a compass |
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
-| **Ground-floor bedroom** | stated | Bungalow — every bedroom is on the ground floor |
-| **Wide living room** | stated | Lounge measures 23.8 ft at its widest (floor-plan) — clears the 15 ft mark |
+| **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
+| **Wide living room** | stated | Largest living area is 12.8 ft (Lounge, floor-plan) — below the 15 ft mark |
 
 ### Dual Scoring Matrix
 
@@ -192,7 +192,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - Floor-plan total read from the plan: 2,224 sq ft
 - Condition tier inferred from photos: partially modernised
 - Glazing glimpsed in photos: uPVC double glazing
-- Not captured in the photos: bathrooms, extension evidence, garden aspect, roof, side access
+- Not captured in the photos: bathrooms, extension evidence, garden aspect, roof, roof glazing, side access
 
 ### Land Registry Transaction History
 
@@ -238,7 +238,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 | **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden north (not south) |
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
-| **Wide living room** | stated | Dining Room measures 19.0 ft at its widest (floor-plan) — clears the 15 ft mark |
+| **Wide living room** | stated | Largest living area is 14.5 ft (Lounge, floor-plan) — below the 15 ft mark |
 
 ### Dual Scoring Matrix
 
@@ -285,8 +285,8 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - Photographic-evidence score: 40.0/100 (high confidence; condition 30/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 7/10)
 - Floor-plan total read from the plan: 2,175 sq ft
 - Condition tier inferred from photos: refurbished
-- Glazing glimpsed in photos: double glazed windows with shutters
-- Not captured in the photos: bathroom, bathrooms, bedrooms, extension evidence, garden aspect, highlights (…)
+- Glazing glimpsed in photos: double glazed windows
+- Not captured in the photos: bathroom, bathrooms, bedrooms, extension evidence, garden aspect, kitchen (…)
 
 ### Land Registry Transaction History
 
@@ -336,8 +336,8 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 | **Underfloor heating** | not-stated | Not mentioned in the listing or EPC |
 | **South-facing garden** | photo-hint | Photos suggest south — confirm with a compass |
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
-| **Ground-floor bedroom** | stated | No ground-floor bedroom stated, but a convertible playroom is mentioned |
-| **Wide living room** | stated | Living/Dining Room measures 27.5 ft at its widest (floor-plan) — clears the 15 ft mark |
+| **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
+| **Wide living room** | stated | Largest living area is 12.8 ft (Living/Dining Room, floor-plan) — below the 15 ft mark |
 
 ### Dual Scoring Matrix
 
@@ -385,7 +385,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - Floor-plan total read from the plan: 2,471 sq ft
 - Condition tier inferred from photos: partially modernised
 - Glazing glimpsed in photos: uPVC double glazing
-- Not captured in the photos: bathrooms, extension evidence, garden aspect, kitchen, other bathrooms, other bedrooms (…)
+- Not captured in the photos: extension evidence, garden aspect, kitchen, living roof glazing, parking, render (…)
 
 ### Land Registry Transaction History
 
@@ -433,10 +433,10 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 | :--- | :--- | :--- |
 | **Air conditioning** | not-stated | Not mentioned; UK EPCs do not record domestic cooling |
 | **Underfloor heating** | not-stated | Not mentioned in the listing or EPC |
-| **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden west (not south) |
+| **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden south (listing silent) |
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
-| **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
-| **Wide living room** | stated | Sitting Room measures 25.9 ft at its widest (floor-plan) — clears the 15 ft mark |
+| **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
+| **Wide living room** | stated | Sitting Room measures 17.8 ft at its widest (floor-plan) — clears the 15 ft mark |
 
 ### Dual Scoring Matrix
 
@@ -481,7 +481,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - Photographic-evidence score: 23.0/100 (high confidence; condition 12/35, kitchen/bath 2/20, glazing 0/20, structure 0/15, legibility 9/10)
 - Floor-plan total read from the plan: 2,514 sq ft
 - Condition tier inferred from photos: dated
-- Not captured in the photos: bedrooms, extension evidence, garden aspect, kitchen, parking, receptions (…)
+- Not captured in the photos: bathrooms, bedrooms, extension evidence, garden aspect, kitchen, parking (…)
 
 ### Land Registry Transaction History
 
@@ -533,13 +533,13 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 | **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden south (listing silent) |
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
-| **Wide living room** | stated | Living Room measures 19.6 ft at its widest (floor-plan) — clears the 15 ft mark |
+| **Wide living room** | stated | Living Room measures 16.7 ft at its widest (floor-plan) — clears the 15 ft mark |
 
 ### Dual Scoring Matrix
 
 ```text
   General Property Quality : [#################-------]  72.0 / 100
-  Technical Modernization  : [#######-----------------]  28.0 / 100
+  Technical Modernization  : [########----------------]  34.5 / 100
 ```
 
 #### Score Breakdown
@@ -563,8 +563,8 @@ The modernization total is the sum of four evidence-scored components:
 | Structural envelope | **24.0** | 35 |
 | Garden & spatial | **4.0** | 20 |
 | Architectural glazing & specification | **0.0** | 15 |
-| Observed presentation (photos) | **0.0** | 15 |
-| **Total** | **28.0** | 100 |
+| Observed presentation (photos) | **6.5** | 15 |
+| **Total** | **34.5** | 100 |
 
 Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
 
@@ -575,11 +575,13 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - [x] EPC: insulated roof (pitched, 300 mm loft insulation)
 - [x] EPC: double glazing recorded (fully double glazed)
 - [x] Dedicated outbuilding / garden studio structure
+- [x] Presented finish observed as partially modernised in listing photographs (image analysis)
 
 **Photographic evidence reviewed for the score:**
 - 25 property photo(s) analysed by local vision model (Qwen3-VL)
-- Photographic-evidence score: 10.0/100 (medium confidence; condition 0/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 7/10)
+- Photographic-evidence score: 32.0/100 (medium confidence; condition 22/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 7/10)
 - Floor-plan total read from the plan: 1,760 sq ft
+- Condition tier inferred from photos: partially modernised
 - Glazing glimpsed in photos: uPVC double glazing
 - Not captured in the photos: bathroom, bathrooms, bedrooms, extension evidence, garden aspect, kitchen (…)
 
@@ -624,8 +626,8 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 | **Underfloor heating** | not-stated | Not mentioned in the listing or EPC |
 | **South-facing garden** | photo-hint | Photos suggest south — confirm with a compass |
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
-| **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
-| **Wide living room** | stated | Lounge/Basement measures 21.7 ft at its widest (floor-plan) — clears the 15 ft mark |
+| **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
+| **Wide living room** | stated | Largest living area is 11.8 ft (Living Room, floor-plan) — below the 15 ft mark |
 
 ### Dual Scoring Matrix
 
@@ -673,7 +675,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - Floor-plan total read from the plan: 2,611 sq ft
 - Condition tier inferred from photos: refurbished
 - Glazing glimpsed in photos: uPVC double glazing
-- Not captured in the photos: bathroom, bathrooms, bedrooms, extension evidence, garden aspect, kitchen (…)
+- Not captured in the photos: extension evidence, garden aspect, glazing types, kitchen, parking, render (…)
 
 ### Land Registry Transaction History
 
@@ -724,7 +726,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 | **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden south (listing silent) |
 | **Sun roof / lantern in living areas** | photo-hint | skylight seen in a living-area photo (room unverified) |
 | **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
-| **Wide living room** | stated | Reception Room measures 20.3 ft at its widest (floor-plan) — clears the 15 ft mark |
+| **Wide living room** | stated | Reception Room measures 19.5 ft at its widest (floor-plan) — clears the 15 ft mark |
 
 ### Dual Scoring Matrix
 
@@ -773,7 +775,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - Floor-plan total read from the plan: 2,471 sq ft
 - Condition tier inferred from photos: partially modernised
 - Glazing glimpsed in photos: uPVC double glazing
-- Not captured in the photos: extension evidence, formal dining room, front reception room, garden aspect, highlights, kitchen (…)
+- Not captured in the photos: bathrooms, bedrooms, extension evidence, formal dining room, front reception room, garden aspect (…)
 
 ### Land Registry Transaction History
 
@@ -817,7 +819,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 | **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden south (listing silent) |
 | **Sun roof / lantern in living areas** | photo-hint | Glazing seen in photos (room unverified) |
 | **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
-| **Wide living room** | stated | Kitchen measures 26.3 ft at its widest (floor-plan) — clears the 15 ft mark |
+| **Wide living room** | stated | Largest living area is 11.7 ft (Reception Room, floor-plan) — below the 15 ft mark |
 
 ### Dual Scoring Matrix
 
@@ -913,7 +915,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 | **Underfloor heating** | stated | Attested on the EPC certificate |
 | **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden south (listing silent) |
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
-| **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
+| **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
 | **Wide living room** | stated | Sitting Room measures 25.5 ft at its widest (floor-plan) — clears the 15 ft mark |
 
 ### Dual Scoring Matrix
@@ -966,7 +968,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - Floor-plan total read from the plan: 3,099 sq ft
 - Condition tier inferred from photos: partially modernised
 - Glazing glimpsed in photos: uPVC double glazing
-- Not captured in the photos: extension evidence, garden aspect, render, roof, side access
+- Not captured in the photos: bathrooms, bedrooms, extension evidence, garden aspect, render, roof (…)
 
 ### Land Registry Transaction History
 
@@ -1018,8 +1020,8 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 | **Underfloor heating** | not-stated | Not mentioned in the listing or EPC |
 | **South-facing garden** | plan-verified | Listing says south-east-facing; the floor-plan north arrow agrees |
 | **Sun roof / lantern in living areas** | photo-hint | skylight seen in a living-area photo (room unverified) |
-| **Ground-floor bedroom** | stated | Bungalow — every bedroom is on the ground floor |
-| **Wide living room** | stated | Reception measures 21.3 ft at its widest (floor-plan) — clears the 15 ft mark |
+| **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
+| **Wide living room** | stated | Largest living area is 13.2 ft (Reception, floor-plan) — below the 15 ft mark |
 
 ### Dual Scoring Matrix
 
@@ -1065,7 +1067,7 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - Floor-plan total read from the plan: 1,271 sq ft
 - Condition tier inferred from photos: partially modernised
 - Glazing glimpsed in photos: uPVC double glazing
-- Not captured in the photos: bathroom, extension evidence, garden aspect, interior layout, kitchen, living room (…)
+- Not captured in the photos: appliance brands, bathroom, extension evidence, garden aspect, internal layout, kitchen (…)
 
 ### Land Registry Transaction History
 
