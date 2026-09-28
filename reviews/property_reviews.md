@@ -1,28 +1,28 @@
 # UK Property Portfolio Comparative Review
 
-Evaluated **11** properties against Core Quality Parameters and Deep Modernization Indicators.
+Evaluated **11** properties against combined quality and technical indicators.
 
-| Rank | Address | Price | Size | £/sqft | EPC | General Score | Modernization Score | Classification |
-| :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| 1 | **Well Grove** | £1,450,000 | 3,099.0 | £468 | B | **84.0** | **61.5** | `Capital-Modernized Gem` |
-| 2 | **Rolfe Close** | £1,000,000 | 2,566.0 | £390 | D | **81.5** | **22.5** | `Partially Modernized Period Home` |
-| 3 | **Park Road** | £1,300,000 | 2,471.0 | £526 | C | **81.0** | **30.5** | `Partially Modernized Period Home` |
-| 4 | **Burlington Rise** | £1,175,000 | 2,088.0 | £563 | C | **76.0** | **37.7** | `Cosmetic Flip / Surface Renovation` |
-| 5 | **Hadley Road** | £1,300,000 | 2,611.0 | £498 | D | **76.0** | **24.7** | `Partially Modernized Period Home` |
-| 6 | **Maryrose Way** | £1,150,000 | 2,514.0 | £457 | E | **76.0** | **12.0** | `Raw Potential / Unmodernized Fixer-Upper` |
-| 7 | **Ainsworth Close** | £1,375,000 | 1,982.0 | £694 | B | **72.5** | **50.7** | `Capital-Modernized Gem` |
-| 8 | **Gloucester Road** | £1,250,000 | 1,894.0 | £660 | D | **72.0** | **34.5** | `Partially Modernized Period Home` |
-| 9 | **Belmont Avenue** | £1,250,000 | 2,175.0 | £575 | D | **70.5** | **39.7** | `Capital-Modernized Gem` |
-| 10 | **Manor Road** | £1,450,000 | 2,352.0 | £616 | C | **64.5** | **46.5** | `Capital-Modernized Gem` |
-| 11 | **Meadway** | £750,000 | 1,271.0 | £590 | D | **63.5** | **14.5** | `Partially Modernized Period Home` |
+| Rank | Address | Price | Size | £/sqft | EPC | Score | Classification |
+| :---: | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| 1 | **Burlington Rise** | £1,175,000 | 2,088.0 | £563 | C | **80.7** | `Capital-Modernized Gem` |
+| 2 | **Well Grove** | £1,450,000 | 3,099.0 | £468 | B | **72.5** | `Partially Modernized` |
+| 3 | **Hadley Road** | £1,300,000 | 2,611.0 | £498 | D | **71.7** | `Partially Modernized` |
+| 4 | **Belmont Avenue** | £1,250,000 | 2,175.0 | £575 | D | **71.2** | `Partially Modernized` |
+| 5 | **Manor Road** | £1,450,000 | 2,352.0 | £616 | C | **68.0** | `Partially Modernized` |
+| 6 | **Meadway** | £750,000 | 1,271.0 | £590 | D | **67.5** | `Partially Modernized` |
+| 7 | **Gloucester Road** | £1,250,000 | 1,894.0 | £660 | D | **66.5** | `Partially Modernized` |
+| 8 | **Rolfe Close** | £1,000,000 | 2,566.0 | £390 | D | **65.5** | `Partially Modernized` |
+| 9 | **Ainsworth Close** | £1,375,000 | 1,982.0 | £694 | B | **65.2** | `Partially Modernized` |
+| 10 | **Park Road** | £1,300,000 | 2,471.0 | £526 | C | **61.5** | `Partially Modernized` |
+| 11 | **Maryrose Way** | £1,150,000 | 2,514.0 | £457 | E | **61.0** | `Partially Modernized` |
 
 
 ---
 
 ## Property Review: Burlington Rise, East Barnet EN4
 
-> **Verdict**: Proceed with Caution (Cosmetic Risk): Staged aesthetics may mask outdated wiring, plumbing, and uninsulated floors.
-> **Modernization Profile**: `Cosmetic Flip / Surface Renovation`
+> **Verdict**: Top Tier Prime Candidate: Strong fundamentals paired with genuine technical upgrades.
+> **Classification**: `Capital-Modernized Gem`
 
 ### Key Property Metrics
 
@@ -46,54 +46,27 @@ Evaluated **11** properties against Core Quality Parameters and Deep Modernizati
 | **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
 | **Wide living room** | stated | Kitchen / Dining Room measures 15.0 ft at its widest (floor-plan) — clears the 15 ft mark |
 
-### Dual Scoring Matrix
+### Score Breakdown
 
 ```text
-  General Property Quality : [##################------]  76.0 / 100
-  Technical Modernization  : [#########---------------]  37.7 / 100
+  Combined Property Score : [###################-----]  80.7 / 100
 ```
 
-#### Score Breakdown
-
-| Dimension | Score | Max | Key Indicators / Context |
+| Component | Score | Max | Key evidence |
 | :--- | :---: | :---: | :--- |
-| **Location & Transport** | **17.5** | 20 | Oakleigh Park (0.3 mi, ~6 min walk); <br/> LS ~34 mins via Oakleigh Park; <br/> King's X ~23 mins via Oakleigh Park |
-| **Space, Scale & Layout** | **16.5** | 25 | 2,088.0 sq ft, 4 beds, 3 baths |
-| **Financial Efficiency** | **13.0** | 20 | £563/sq ft |
-| **Tenure & Legal** | **15.0** | 15 | Freehold |
-| **EPC & Thermal Baseline** | **7.0** | 10 | Band C |
-| **Planning & Expansion** | **7.0** | 10 | Permissions / STPP potential |
-
-### Where the modernization score comes from
-
-The modernization total is the sum of four evidence-scored components:
-
-| Modernization component | Score | Maximum |
-| :--- | :---: | :---: |
-| Heating & services | **4.0** | 30 |
-| Structural envelope | **12.0** | 35 |
-| Garden & spatial | **4.0** | 20 |
-| Architectural glazing & specification | **6.0** | 15 |
-| Observed presentation (photos) | **11.7** | 15 |
-| **Total** | **37.7** | 100 |
-
-Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
-
-**Scored modernization evidence:**
-- [x] EPC assessed 2015-03-09: certificate expired — points scored as stated
-- [x] EPC: no secondary heating (no dated room heaters)
-- [x] EPC: insulated roof (pitched, 350 mm loft insulation)
-- [x] EPC: double glazing recorded (fully double glazed)
-- [x] Dedicated outbuilding / garden studio structure
-- [x] Presented finish observed as refurbished in listing photographs (image analysis)
-- [x] Architectural glazing / roof lantern visible in photos (image analysis)
+| **Location & transport** | **15.0** | 15 | ~34 mins via Oakleigh Park via Oakleigh Park |
+| **Space, scale & layout** | **20.0** | 20 | 2,088.0 sq ft, 4 beds, 3 baths |
+| **Financial efficiency** | **9.0** | 15 | £563/sq ft, £1,175,000 total |
+| **Technical & EPC** | **18.0** | 25 | Band C, Wide living room: Kitchen / Dining Room 15.0 ft (floorplan), EPC assessed 2015-03-09: certificate expired — points scored as stated, EPC: no secondary heating (no dated room heaters) |
+| **Observed presentation** | **11.7** | 15 | Photo condition tier |
+| **Garden & outdoor** | **7.0** | 10 | Garden aspect, side access |
+| **Total** | **80.7** | 100 | |
 
 **Photographic evidence reviewed for the score:**
 - 22 property photo(s) analysed by local vision model (Qwen3-VL)
 - Photographic-evidence score: 58.0/100 (high confidence; condition 30/35, kitchen/bath 6/20, glazing 13/20, structure 0/15, legibility 9/10)
 - Floor-plan total read from the plan: 2,340 sq ft
 - Condition tier inferred from photos: refurbished
-- Glazing glimpsed in photos: uPVC double glazing
 - Not captured in the photos: bedrooms, extension evidence, garden aspect, other bathrooms, parking, reception rooms (…)
 
 ### Land Registry Transaction History
@@ -101,24 +74,13 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - **Last Recorded Sale**: £529,000 on `2015-10-09`
 - **Local Neighbourhood Benchmark**: £433/sq ft across 13 sales with a known floor area; this property is £563/sq ft (+30% vs the median)
 
-### Strategic Strengths & Considerations
-
-**Strengths:**
-- Easy King's Cross St Pancras commute (~23 mins via Oakleigh Park)
-- Prime Liverpool Street commute (~34 mins door-to-concourse via Oakleigh Park)
-- Clear Freehold tenure
-
-**Risks & Nuances:**
-- Appears cosmetically refreshed without confirmed deep mechanical or subfloor insulation upgrades
-- Size Discrepancy: Floor-plan total does not match advertised size (2,340.0 vs 2,088 sq ft advertised) — confirm which basis the agent used
-
 
 ---
 
 ## Property Review: Rolfe Close, Barnet EN4
 
-> **Verdict**: Solid Contender: Well-balanced property, but verify invisible mechanical infrastructure during survey.
-> **Modernization Profile**: `Partially Modernized Period Home`
+> **Verdict**: Solid Contender: Well-balanced property with good technical credentials.
+> **Classification**: `Partially Modernized`
 
 > **⚠️ Missing Data** — review scored with incomplete source data:
 >
@@ -147,51 +109,27 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 | **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
 | **Wide living room** | stated | Largest living area is 12.8 ft (Lounge, floor-plan) — below the 15 ft mark |
 
-### Dual Scoring Matrix
+### Score Breakdown
 
 ```text
-  General Property Quality : [####################----]  81.5 / 100
-  Technical Modernization  : [#####-------------------]  22.5 / 100
+  Combined Property Score : [################--------]  65.5 / 100
 ```
 
-#### Score Breakdown
-
-| Dimension | Score | Max | Key Indicators / Context |
+| Component | Score | Max | Key evidence |
 | :--- | :---: | :---: | :--- |
-| **Location & Transport** | **18.5** | 20 | Cockfosters (0.5 mi, ~10 min walk); <br/> LS ~42 mins via New Barnet; <br/> King's X ~31 mins via New Barnet |
-| **Space, Scale & Layout** | **19.5** | 25 | 2,566.0 sq ft, 3 beds, 2 baths |
-| **Financial Efficiency** | **19.0** | 20 | £390/sq ft |
-| **Tenure & Legal** | **15.0** | 15 | Freehold |
-| **EPC & Thermal Baseline** | **4.5** | 10 | Band D |
-| **Planning & Expansion** | **5.0** | 10 | Permissions / STPP potential |
-
-### Where the modernization score comes from
-
-The modernization total is the sum of four evidence-scored components:
-
-| Modernization component | Score | Maximum |
-| :--- | :---: | :---: |
-| Heating & services | **4.0** | 30 |
-| Structural envelope | **12.0** | 35 |
-| Garden & spatial | **0.0** | 20 |
-| Architectural glazing & specification | **0.0** | 15 |
-| Observed presentation (photos) | **6.5** | 15 |
-| **Total** | **22.5** | 100 |
-
-Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
-
-**Scored modernization evidence:**
-- [x] EPC: no secondary heating (no dated room heaters)
-- [x] EPC: insulated roof (pitched, 270 mm loft insulation)
-- [x] EPC: double glazing recorded (fully double glazed)
-- [x] Presented finish observed as partially modernised in listing photographs (image analysis)
+| **Location & transport** | **15.0** | 15 | ~42 mins via New Barnet via New Barnet |
+| **Space, scale & layout** | **20.0** | 20 | 2,566.0 sq ft, 3 beds, 2 baths |
+| **Financial efficiency** | **14.0** | 15 | £390/sq ft, £1,000,000 total |
+| **Technical & EPC** | **10.0** | 25 | Band D, Living room width: 12.8 ft (below 15 ft), Ground-floor bedroom confirmed on floorplan, EPC: no secondary heating (no dated room heaters) |
+| **Observed presentation** | **6.5** | 15 | Photo condition tier |
+| **Garden & outdoor** | **0.0** | 10 | Garden aspect, side access |
+| **Total** | **65.5** | 100 | |
 
 **Photographic evidence reviewed for the score:**
 - 17 property photo(s) analysed by local vision model (Qwen3-VL)
 - Photographic-evidence score: 37.7/100 (high confidence; condition 22/35, kitchen/bath 4/20, glazing 3/20, structure 0/15, legibility 8.7/10)
 - Floor-plan total read from the plan: 2,224 sq ft
 - Condition tier inferred from photos: partially modernised
-- Glazing glimpsed in photos: uPVC double glazing
 - Not captured in the photos: bathrooms, extension evidence, garden aspect, roof, roof glazing, side access
 
 ### Land Registry Transaction History
@@ -199,24 +137,13 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - **No recorded sale** in the Land Registry price-paid window for this address
 - **Local Neighbourhood Benchmark**: £488/sq ft across 6 sales with a known floor area; this property is £390/sq ft (-20% vs the median)
 
-### Strategic Strengths & Considerations
-
-**Strengths:**
-- Easy King's Cross St Pancras commute (~31 mins via New Barnet)
-- Fast Liverpool Street commute (~42 mins door-to-concourse via New Barnet)
-- Highly competitive price-per-square-foot (£390/sq ft)
-- Clear Freehold tenure
-
-**Risks & Nuances:**
-- Size Discrepancy: Floor-plan total does not match advertised size (2,223.8 vs 2,566 sq ft advertised) — confirm which basis the agent used
-
 
 ---
 
 ## Property Review: Belmont Avenue, Cockfosters EN4
 
-> **Verdict**: Solid Contender: Well-balanced property, but verify invisible mechanical infrastructure during survey.
-> **Modernization Profile**: `Capital-Modernized Gem`
+> **Verdict**: Solid Contender: Well-balanced property with good technical credentials.
+> **Classification**: `Partially Modernized`
 
 ### Key Property Metrics
 
@@ -240,52 +167,27 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 | **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
 | **Wide living room** | stated | Largest living area is 14.5 ft (Lounge, floor-plan) — below the 15 ft mark |
 
-### Dual Scoring Matrix
+### Score Breakdown
 
 ```text
-  General Property Quality : [#################-------]  70.5 / 100
-  Technical Modernization  : [##########--------------]  39.7 / 100
+  Combined Property Score : [#################-------]  71.2 / 100
 ```
 
-#### Score Breakdown
-
-| Dimension | Score | Max | Key Indicators / Context |
+| Component | Score | Max | Key evidence |
 | :--- | :---: | :---: | :--- |
-| **Location & Transport** | **16.5** | 20 | Cockfosters (0.4 mi, ~8 min walk); <br/> LS ~44 mins via New Barnet; <br/> King's X ~33 mins via New Barnet |
-| **Space, Scale & Layout** | **16.5** | 25 | 2,175.0 sq ft, 4 beds, 3 baths |
-| **Financial Efficiency** | **13.0** | 20 | £575/sq ft |
-| **Tenure & Legal** | **15.0** | 15 | Freehold |
-| **EPC & Thermal Baseline** | **4.5** | 10 | Band D |
-| **Planning & Expansion** | **5.0** | 10 | Permissions / STPP potential |
-
-### Where the modernization score comes from
-
-The modernization total is the sum of four evidence-scored components:
-
-| Modernization component | Score | Maximum |
-| :--- | :---: | :---: |
-| Heating & services | **16.0** | 30 |
-| Structural envelope | **12.0** | 35 |
-| Garden & spatial | **0.0** | 20 |
-| Architectural glazing & specification | **0.0** | 15 |
-| Observed presentation (photos) | **11.7** | 15 |
-| **Total** | **39.7** | 100 |
-
-Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
-
-**Scored modernization evidence:**
-- [x] EPC: underfloor heating recorded as heating delivery
-- [x] EPC: no secondary heating (no dated room heaters)
-- [x] EPC: insulated roof (pitched, 100 mm loft insulation)
-- [x] EPC: double glazing recorded (fully double glazed)
-- [x] Presented finish observed as refurbished in listing photographs (image analysis)
+| **Location & transport** | **15.0** | 15 | ~44 mins via New Barnet via New Barnet |
+| **Space, scale & layout** | **16.5** | 20 | 2,175.0 sq ft, 4 beds, 3 baths |
+| **Financial efficiency** | **8.0** | 15 | £575/sq ft, £1,250,000 total |
+| **Technical & EPC** | **20.0** | 25 | Band D, Living room width: 14.5 ft (below 15 ft), EPC: no secondary heating (no dated room heaters), EPC: insulated roof (pitched, 100 mm loft insulation) |
+| **Observed presentation** | **11.7** | 15 | Photo condition tier |
+| **Garden & outdoor** | **0.0** | 10 | Garden aspect, side access |
+| **Total** | **71.2** | 100 | |
 
 **Photographic evidence reviewed for the score:**
 - 32 property photo(s) analysed by local vision model (Qwen3-VL)
 - Photographic-evidence score: 40.0/100 (high confidence; condition 30/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 7/10)
 - Floor-plan total read from the plan: 2,175 sq ft
 - Condition tier inferred from photos: refurbished
-- Glazing glimpsed in photos: double glazed windows
 - Not captured in the photos: bathroom, bathrooms, bedrooms, extension evidence, garden aspect, kitchen (…)
 
 ### Land Registry Transaction History
@@ -293,24 +195,13 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - **Last Recorded Sale**: £131,000 on `1995-12-11`
 - **Local Neighbourhood Benchmark**: £386/sq ft across 18 sales with a known floor area; this property is £575/sq ft (+49% vs the median)
 
-### Strategic Strengths & Considerations
-
-**Strengths:**
-- Easy King's Cross St Pancras commute (~33 mins via New Barnet)
-- Fast Liverpool Street commute (~44 mins door-to-concourse via New Barnet)
-- High capital investment in invisible infrastructure (underfloor heating / mechanicals)
-- Clear Freehold tenure
-
-**Risks & Nuances:**
-- No immediate red flags detected in listing data; verify invisible mechanical and structural items during survey.
-
 
 ---
 
 ## Property Review: Park Road, New Barnet EN4
 
-> **Verdict**: Solid Contender: Well-balanced property, but verify invisible mechanical infrastructure during survey.
-> **Modernization Profile**: `Partially Modernized Period Home`
+> **Verdict**: Solid Contender: Well-balanced property with good technical credentials.
+> **Classification**: `Partially Modernized`
 
 > **⚠️ Missing Data** — review scored with incomplete source data:
 >
@@ -339,52 +230,27 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 | **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
 | **Wide living room** | stated | Largest living area is 12.8 ft (Living/Dining Room, floor-plan) — below the 15 ft mark |
 
-### Dual Scoring Matrix
+### Score Breakdown
 
 ```text
-  General Property Quality : [###################-----]  81.0 / 100
-  Technical Modernization  : [#######-----------------]  30.5 / 100
+  Combined Property Score : [###############---------]  61.5 / 100
 ```
 
-#### Score Breakdown
-
-| Dimension | Score | Max | Key Indicators / Context |
+| Component | Score | Max | Key evidence |
 | :--- | :---: | :---: | :--- |
-| **Location & Transport** | **18.5** | 20 | New Barnet (0.5 mi, ~10 min walk); <br/> LS ~40 mins via New Barnet; <br/> King's X ~29 mins via New Barnet |
-| **Space, Scale & Layout** | **19.0** | 25 | 2,471.0 sq ft, 5 beds, 3 baths |
-| **Financial Efficiency** | **16.5** | 20 | £526/sq ft |
-| **Tenure & Legal** | **15.0** | 15 | Freehold |
-| **EPC & Thermal Baseline** | **7.0** | 10 | Band C |
-| **Planning & Expansion** | **5.0** | 10 | Permissions / STPP potential |
-
-### Where the modernization score comes from
-
-The modernization total is the sum of four evidence-scored components:
-
-| Modernization component | Score | Maximum |
-| :--- | :---: | :---: |
-| Heating & services | **0.0** | 30 |
-| Structural envelope | **24.0** | 35 |
-| Garden & spatial | **0.0** | 20 |
-| Architectural glazing & specification | **0.0** | 15 |
-| Observed presentation (photos) | **6.5** | 15 |
-| **Total** | **30.5** | 100 |
-
-Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
-
-**Scored modernization evidence:**
-- [x] EPC: secondary heating present (room heaters, mains gas)
-- [x] EPC: wall insulation recorded (cavity wall, as built, partial insulation (assumed))
-- [x] EPC: insulated roof (pitched, 75 mm loft insulation)
-- [x] EPC: double glazing recorded (fully double glazed)
-- [x] Presented finish observed as partially modernised in listing photographs (image analysis)
+| **Location & transport** | **15.0** | 15 | ~40 mins via New Barnet via New Barnet |
+| **Space, scale & layout** | **20.0** | 20 | 2,471.0 sq ft, 5 beds, 3 baths |
+| **Financial efficiency** | **10.0** | 15 | £526/sq ft, £1,300,000 total |
+| **Technical & EPC** | **10.0** | 25 | Band C, Living room width: 12.8 ft (below 15 ft), Ground-floor bedroom confirmed on floorplan, EPC: secondary heating present (room heaters, mains gas) |
+| **Observed presentation** | **6.5** | 15 | Photo condition tier |
+| **Garden & outdoor** | **0.0** | 10 | Garden aspect, side access |
+| **Total** | **61.5** | 100 | |
 
 **Photographic evidence reviewed for the score:**
 - 29 property photo(s) analysed by local vision model (Qwen3-VL)
 - Photographic-evidence score: 32.0/100 (medium confidence; condition 22/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 7/10)
 - Floor-plan total read from the plan: 2,471 sq ft
 - Condition tier inferred from photos: partially modernised
-- Glazing glimpsed in photos: uPVC double glazing
 - Not captured in the photos: extension evidence, garden aspect, kitchen, living roof glazing, parking, render (…)
 
 ### Land Registry Transaction History
@@ -392,24 +258,13 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - **No recorded sale** in the Land Registry price-paid window for this address
 - **Local Neighbourhood Benchmark**: £528/sq ft across 6 sales with a known floor area; this property is £526/sq ft (+0% vs the median)
 
-### Strategic Strengths & Considerations
-
-**Strengths:**
-- Easy King's Cross St Pancras commute (~29 mins via New Barnet)
-- Fast Liverpool Street commute (~40 mins door-to-concourse via New Barnet)
-- Highly competitive price-per-square-foot (£526/sq ft)
-- Clear Freehold tenure
-
-**Risks & Nuances:**
-- No immediate red flags detected in listing data; verify invisible mechanical and structural items during survey.
-
 
 ---
 
 ## Property Review: Maryrose Way, Oakleigh Park N20
 
-> **Verdict**: High-Upside Fixer-Upper: Superb spatial and locational bones ripe for full architectural modernization.
-> **Modernization Profile**: `Raw Potential / Unmodernized Fixer-Upper`
+> **Verdict**: Solid Contender: Well-balanced property with good technical credentials.
+> **Classification**: `Partially Modernized`
 
 > **⚠️ Missing Data** — review scored with incomplete source data:
 >
@@ -438,43 +293,21 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 | **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
 | **Wide living room** | stated | Sitting Room measures 17.8 ft at its widest (floor-plan) — clears the 15 ft mark |
 
-### Dual Scoring Matrix
+### Score Breakdown
 
 ```text
-  General Property Quality : [##################------]  76.0 / 100
-  Technical Modernization  : [###---------------------]  12.0 / 100
+  Combined Property Score : [###############---------]  61.0 / 100
 ```
 
-#### Score Breakdown
-
-| Dimension | Score | Max | Key Indicators / Context |
+| Component | Score | Max | Key evidence |
 | :--- | :---: | :---: | :--- |
-| **Location & Transport** | **19.5** | 20 | Oakleigh Park (0.2 mi, ~4 min walk); <br/> LS ~32 mins via Oakleigh Park; <br/> King's X ~21 mins via Oakleigh Park |
-| **Space, Scale & Layout** | **17.5** | 25 | 2,514.0 sq ft, 3 beds, 2 baths |
-| **Financial Efficiency** | **16.5** | 20 | £457/sq ft |
-| **Tenure & Legal** | **15.0** | 15 | Freehold |
-| **EPC & Thermal Baseline** | **2.5** | 10 | Band E |
-| **Planning & Expansion** | **5.0** | 10 | Permissions / STPP potential |
-
-### Where the modernization score comes from
-
-The modernization total is the sum of four evidence-scored components:
-
-| Modernization component | Score | Maximum |
-| :--- | :---: | :---: |
-| Heating & services | **0.0** | 30 |
-| Structural envelope | **12.0** | 35 |
-| Garden & spatial | **0.0** | 20 |
-| Architectural glazing & specification | **0.0** | 15 |
-| Observed presentation (photos) | **0.0** | 15 |
-| **Total** | **12.0** | 100 |
-
-Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
-
-**Scored modernization evidence:**
-- [x] EPC: secondary heating present (room heaters, mains gas)
-- [x] EPC: insulated roof (pitched, insulated (assumed))
-- [x] EPC: double glazing recorded (fully double glazed)
+| **Location & transport** | **15.0** | 15 | ~32 mins via Oakleigh Park via Oakleigh Park |
+| **Space, scale & layout** | **20.0** | 20 | 2,514.0 sq ft, 3 beds, 2 baths |
+| **Financial efficiency** | **11.0** | 15 | £457/sq ft, £1,150,000 total |
+| **Technical & EPC** | **10.0** | 25 | Band E, Wide living room: Sitting Room 17.8 ft (floorplan), Ground-floor bedroom confirmed on floorplan, EPC: secondary heating present (room heaters, mains gas) |
+| **Observed presentation** | **0.0** | 15 | Photo condition tier |
+| **Garden & outdoor** | **5.0** | 10 | Garden aspect, side access |
+| **Total** | **61.0** | 100 | |
 
 **Photographic evidence reviewed for the score:**
 - 21 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -487,26 +320,13 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 
 - **No recorded sale** in the Land Registry price-paid window for this address
 
-### Strategic Strengths & Considerations
-
-**Strengths:**
-- Easy King's Cross St Pancras commute (~21 mins via Oakleigh Park)
-- Prime Liverpool Street commute (~32 mins door-to-concourse via Oakleigh Park)
-- Highly competitive price-per-square-foot (£457/sq ft)
-- Unmodernized baseline offers opportunity to upgrade invisible systems correctly from scratch
-- Clear Freehold tenure
-
-**Risks & Nuances:**
-- Requires substantial capital budget (£100k-£200k+) for complete rewiring, plumbing, and thermal retrofit
-- Low EPC rating (Band E) indicates uninsulated solid walls or roof heat loss
-
 
 ---
 
 ## Property Review: Gloucester Road, Barnet EN5
 
-> **Verdict**: Solid Contender: Well-balanced property, but verify invisible mechanical infrastructure during survey.
-> **Modernization Profile**: `Partially Modernized Period Home`
+> **Verdict**: Solid Contender: Well-balanced property with good technical credentials.
+> **Classification**: `Partially Modernized`
 
 > **⚠️ Missing Data** — review scored with incomplete source data:
 >
@@ -535,77 +355,40 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 | **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
 | **Wide living room** | stated | Living Room measures 16.7 ft at its widest (floor-plan) — clears the 15 ft mark |
 
-### Dual Scoring Matrix
+### Score Breakdown
 
 ```text
-  General Property Quality : [#################-------]  72.0 / 100
-  Technical Modernization  : [########----------------]  34.5 / 100
+  Combined Property Score : [################--------]  66.5 / 100
 ```
 
-#### Score Breakdown
-
-| Dimension | Score | Max | Key Indicators / Context |
+| Component | Score | Max | Key evidence |
 | :--- | :---: | :---: | :--- |
-| **Location & Transport** | **18.0** | 20 | New Barnet (0.4 mi, ~8 min walk); <br/> LS ~38 mins via New Barnet; <br/> King's X ~27 mins via New Barnet |
-| **Space, Scale & Layout** | **16.5** | 25 | 1,894.0 sq ft, 4 beds, 1 baths |
-| **Financial Efficiency** | **13.0** | 20 | £660/sq ft |
-| **Tenure & Legal** | **15.0** | 15 | Freehold |
-| **EPC & Thermal Baseline** | **4.5** | 10 | Band D |
-| **Planning & Expansion** | **5.0** | 10 | Permissions / STPP potential |
-
-### Where the modernization score comes from
-
-The modernization total is the sum of four evidence-scored components:
-
-| Modernization component | Score | Maximum |
-| :--- | :---: | :---: |
-| Heating & services | **0.0** | 30 |
-| Structural envelope | **24.0** | 35 |
-| Garden & spatial | **4.0** | 20 |
-| Architectural glazing & specification | **0.0** | 15 |
-| Observed presentation (photos) | **6.5** | 15 |
-| **Total** | **34.5** | 100 |
-
-Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
-
-**Scored modernization evidence:**
-- [x] EPC assessed 31 July 2009: certificate expired — points scored as stated
-- [x] EPC: secondary heating present (room heaters, mains gas)
-- [x] EPC: wall insulation recorded (cavity wall, as built, insulated (assumed))
-- [x] EPC: insulated roof (pitched, 300 mm loft insulation)
-- [x] EPC: double glazing recorded (fully double glazed)
-- [x] Dedicated outbuilding / garden studio structure
-- [x] Presented finish observed as partially modernised in listing photographs (image analysis)
+| **Location & transport** | **15.0** | 15 | ~38 mins via New Barnet via New Barnet |
+| **Space, scale & layout** | **20.0** | 20 | 1,894.0 sq ft, 4 beds, 1 baths |
+| **Financial efficiency** | **8.0** | 15 | £660/sq ft, £1,250,000 total |
+| **Technical & EPC** | **10.0** | 25 | Band D, Wide living room: Living Room 16.7 ft (floorplan), EPC assessed 31 July 2009: certificate expired — points scored as stated, EPC: secondary heating present (room heaters, mains gas) |
+| **Observed presentation** | **6.5** | 15 | Photo condition tier |
+| **Garden & outdoor** | **7.0** | 10 | Garden aspect, side access |
+| **Total** | **66.5** | 100 | |
 
 **Photographic evidence reviewed for the score:**
 - 25 property photo(s) analysed by local vision model (Qwen3-VL)
 - Photographic-evidence score: 32.0/100 (medium confidence; condition 22/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 7/10)
 - Floor-plan total read from the plan: 1,760 sq ft
 - Condition tier inferred from photos: partially modernised
-- Glazing glimpsed in photos: uPVC double glazing
 - Not captured in the photos: bathroom, bathrooms, bedrooms, extension evidence, garden aspect, kitchen (…)
 
 ### Land Registry Transaction History
 
 - **Last Recorded Sale**: £660,000 on `2010-09-23`
 
-### Strategic Strengths & Considerations
-
-**Strengths:**
-- Easy King's Cross St Pancras commute (~27 mins via New Barnet)
-- Fast Liverpool Street commute (~38 mins door-to-concourse via New Barnet)
-- Clear Freehold tenure
-
-**Risks & Nuances:**
-- No immediate red flags detected in listing data; verify invisible mechanical and structural items during survey.
-
 
 ---
 
 ## Property Review: Hadley Road, New Barnet, Hertfordshire EN5
 
-> **Verdict**: Solid Contender: Well-balanced property, but verify invisible mechanical infrastructure during survey.
-> **Modernization Profile**: `Partially Modernized Period Home`
+> **Verdict**: Solid Contender: Well-balanced property with good technical credentials.
+> **Classification**: `Partially Modernized`
 
 ### Key Property Metrics
 
@@ -629,52 +412,27 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 | **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
 | **Wide living room** | stated | Largest living area is 11.8 ft (Living Room, floor-plan) — below the 15 ft mark |
 
-### Dual Scoring Matrix
+### Score Breakdown
 
 ```text
-  General Property Quality : [##################------]  76.0 / 100
-  Technical Modernization  : [######------------------]  24.7 / 100
+  Combined Property Score : [#################-------]  71.7 / 100
 ```
 
-#### Score Breakdown
-
-| Dimension | Score | Max | Key Indicators / Context |
+| Component | Score | Max | Key evidence |
 | :--- | :---: | :---: | :--- |
-| **Location & Transport** | **16.0** | 20 | High Barnet (0.6 mi, ~12 min walk); <br/> LS ~44 mins via New Barnet; <br/> King's X ~33 mins via New Barnet |
-| **Space, Scale & Layout** | **19.0** | 25 | 2,611.0 sq ft, 3 beds, 3 baths |
-| **Financial Efficiency** | **16.5** | 20 | £498/sq ft |
-| **Tenure & Legal** | **15.0** | 15 | Freehold |
-| **EPC & Thermal Baseline** | **4.5** | 10 | Band D |
-| **Planning & Expansion** | **5.0** | 10 | Permissions / STPP potential |
-
-### Where the modernization score comes from
-
-The modernization total is the sum of four evidence-scored components:
-
-| Modernization component | Score | Maximum |
-| :--- | :---: | :---: |
-| Heating & services | **4.0** | 30 |
-| Structural envelope | **9.0** | 35 |
-| Garden & spatial | **0.0** | 20 |
-| Architectural glazing & specification | **0.0** | 15 |
-| Observed presentation (photos) | **11.7** | 15 |
-| **Total** | **24.7** | 100 |
-
-Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
-
-**Scored modernization evidence:**
-- [x] EPC assessed 2016-05-26: certificate expired — points scored as stated
-- [x] EPC: no secondary heating (no dated room heaters)
-- [x] EPC: insulated roof (pitched, 100 mm loft insulation)
-- [x] EPC: partial double glazing (partial double glazing)
-- [x] Presented finish observed as refurbished in listing photographs (image analysis)
+| **Location & transport** | **15.0** | 15 | ~44 mins via New Barnet via New Barnet |
+| **Space, scale & layout** | **20.0** | 20 | 2,611.0 sq ft, 3 beds, 3 baths |
+| **Financial efficiency** | **10.0** | 15 | £498/sq ft, £1,300,000 total |
+| **Technical & EPC** | **15.0** | 25 | Band D, Living room width: 11.8 ft (below 15 ft), Ground-floor bedroom confirmed on floorplan, EPC assessed 2016-05-26: certificate expired — points scored as stated |
+| **Observed presentation** | **11.7** | 15 | Photo condition tier |
+| **Garden & outdoor** | **0.0** | 10 | Garden aspect, side access |
+| **Total** | **71.7** | 100 | |
 
 **Photographic evidence reviewed for the score:**
 - 20 property photo(s) analysed by local vision model (Qwen3-VL)
 - Photographic-evidence score: 40.0/100 (high confidence; condition 30/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 7/10)
 - Floor-plan total read from the plan: 2,611 sq ft
 - Condition tier inferred from photos: refurbished
-- Glazing glimpsed in photos: uPVC double glazing
 - Not captured in the photos: extension evidence, garden aspect, glazing types, kitchen, parking, render (…)
 
 ### Land Registry Transaction History
@@ -682,24 +440,13 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - **Last Recorded Sale**: £499,999 on `2002-05-02`
 - **Local Neighbourhood Benchmark**: £307/sq ft across 25 sales with a known floor area; this property is £498/sq ft (+62% vs the median)
 
-### Strategic Strengths & Considerations
-
-**Strengths:**
-- Easy King's Cross St Pancras commute (~33 mins via New Barnet)
-- Fast Liverpool Street commute (~44 mins door-to-concourse via New Barnet)
-- Highly competitive price-per-square-foot (£498/sq ft)
-- Clear Freehold tenure
-
-**Risks & Nuances:**
-- No immediate red flags detected in listing data; verify invisible mechanical and structural items during survey.
-
 
 ---
 
 ## Property Review: Manor Road, Barnet EN5
 
-> **Verdict**: Secondary Assessment Needed: Moderate scores across space, transit, or condition.
-> **Modernization Profile**: `Capital-Modernized Gem`
+> **Verdict**: Solid Contender: Well-balanced property with good technical credentials.
+> **Classification**: `Partially Modernized`
 
 > **⚠️ Missing Data** — review scored with incomplete source data:
 >
@@ -728,53 +475,27 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 | **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
 | **Wide living room** | stated | Reception Room measures 19.5 ft at its widest (floor-plan) — clears the 15 ft mark |
 
-### Dual Scoring Matrix
+### Score Breakdown
 
 ```text
-  General Property Quality : [###############---------]  64.5 / 100
-  Technical Modernization  : [###########-------------]  46.5 / 100
+  Combined Property Score : [################--------]  68.0 / 100
 ```
 
-#### Score Breakdown
-
-| Dimension | Score | Max | Key Indicators / Context |
+| Component | Score | Max | Key evidence |
 | :--- | :---: | :---: | :--- |
-| **Location & Transport** | **12.0** | 20 | High Barnet (0.5 mi, ~10 min walk); <br/> LS ~50 mins via High Barnet; <br/> King's X ~42 mins via High Barnet |
-| **Space, Scale & Layout** | **12.5** | 25 | 2,352.0 sq ft, 5 beds, 2 baths |
-| **Financial Efficiency** | **13.0** | 20 | £616/sq ft |
-| **Tenure & Legal** | **15.0** | 15 | Freehold |
-| **EPC & Thermal Baseline** | **7.0** | 10 | Band C |
-| **Planning & Expansion** | **5.0** | 10 | Permissions / STPP potential |
-
-### Where the modernization score comes from
-
-The modernization total is the sum of four evidence-scored components:
-
-| Modernization component | Score | Maximum |
-| :--- | :---: | :---: |
-| Heating & services | **16.0** | 30 |
-| Structural envelope | **24.0** | 35 |
-| Garden & spatial | **0.0** | 20 |
-| Architectural glazing & specification | **0.0** | 15 |
-| Observed presentation (photos) | **6.5** | 15 |
-| **Total** | **46.5** | 100 |
-
-Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
-
-**Scored modernization evidence:**
-- [x] EPC: underfloor heating recorded as heating delivery
-- [x] EPC: no secondary heating (no dated room heaters)
-- [x] EPC: wall insulation recorded (solid brick, with external insulation)
-- [x] EPC: insulated roof (pitched, 250 mm loft insulation)
-- [x] EPC: double glazing recorded (fully double glazed)
-- [x] Presented finish observed as partially modernised in listing photographs (image analysis)
+| **Location & transport** | **12.0** | 15 | ~50 mins via High Barnet via High Barnet |
+| **Space, scale & layout** | **17.5** | 20 | 2,352.0 sq ft, 5 beds, 2 baths |
+| **Financial efficiency** | **7.0** | 15 | £616/sq ft, £1,450,000 total |
+| **Technical & EPC** | **20.0** | 25 | Band C, Wide living room: Reception Room 19.5 ft (floorplan), EPC: no secondary heating (no dated room heaters), EPC: wall insulation recorded (solid brick, with external insulation) |
+| **Observed presentation** | **6.5** | 15 | Photo condition tier |
+| **Garden & outdoor** | **5.0** | 10 | Garden aspect, side access |
+| **Total** | **68.0** | 100 | |
 
 **Photographic evidence reviewed for the score:**
 - 26 property photo(s) analysed by local vision model (Qwen3-VL)
 - Photographic-evidence score: 38.0/100 (high confidence; condition 22/35, kitchen/bath 4/20, glazing 3/20, structure 0/15, legibility 9/10)
 - Floor-plan total read from the plan: 2,471 sq ft
 - Condition tier inferred from photos: partially modernised
-- Glazing glimpsed in photos: uPVC double glazing
 - Not captured in the photos: bathrooms, bedrooms, extension evidence, formal dining room, front reception room, garden aspect (…)
 
 ### Land Registry Transaction History
@@ -782,22 +503,13 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - **No recorded sale** in the Land Registry price-paid window for this address
 - **Local Neighbourhood Benchmark**: £423/sq ft across 9 sales with a known floor area; this property is £616/sq ft (+46% vs the median)
 
-### Strategic Strengths & Considerations
-
-**Strengths:**
-- High capital investment in invisible infrastructure (underfloor heating / mechanicals)
-- Clear Freehold tenure
-
-**Risks & Nuances:**
-- No immediate red flags detected in listing data; verify invisible mechanical and structural items during survey.
-
 
 ---
 
 ## Property Review: Ainsworth Close, Whetstone N20
 
-> **Verdict**: Solid Contender: Well-balanced property, but verify invisible mechanical infrastructure during survey.
-> **Modernization Profile**: `Capital-Modernized Gem`
+> **Verdict**: Solid Contender: Well-balanced property with good technical credentials.
+> **Classification**: `Partially Modernized`
 
 ### Key Property Metrics
 
@@ -821,54 +533,27 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 | **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
 | **Wide living room** | stated | Largest living area is 11.7 ft (Reception Room, floor-plan) — below the 15 ft mark |
 
-### Dual Scoring Matrix
+### Score Breakdown
 
 ```text
-  General Property Quality : [#################-------]  72.5 / 100
-  Technical Modernization  : [############------------]  50.7 / 100
+  Combined Property Score : [################--------]  65.2 / 100
 ```
 
-#### Score Breakdown
-
-| Dimension | Score | Max | Key Indicators / Context |
+| Component | Score | Max | Key evidence |
 | :--- | :---: | :---: | :--- |
-| **Location & Transport** | **18.0** | 20 | Totteridge & Whetstone (0.4 mi, ~8 min walk); <br/> LS ~42 mins via Oakleigh Park; <br/> King's X ~31 mins via Oakleigh Park |
-| **Space, Scale & Layout** | **12.5** | 25 | 1,982.0 sq ft, 5 beds, 3 baths |
-| **Financial Efficiency** | **13.0** | 20 | £694/sq ft |
-| **Tenure & Legal** | **15.0** | 15 | Freehold |
-| **EPC & Thermal Baseline** | **9.0** | 10 | Band B |
-| **Planning & Expansion** | **5.0** | 10 | Permissions / STPP potential |
-
-### Where the modernization score comes from
-
-The modernization total is the sum of four evidence-scored components:
-
-| Modernization component | Score | Maximum |
-| :--- | :---: | :---: |
-| Heating & services | **10.0** | 30 |
-| Structural envelope | **23.0** | 35 |
-| Garden & spatial | **0.0** | 20 |
-| Architectural glazing & specification | **6.0** | 15 |
-| Observed presentation (photos) | **11.7** | 15 |
-| **Total** | **50.7** | 100 |
-
-Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
-
-**Scored modernization evidence:**
-- [x] EPC: no secondary heating (no dated room heaters)
-- [x] EPC: time and temperature zone control
-- [x] EPC: insulated roof (average thermal transmittance 0.13 w/m²k)
-- [x] EPC: insulated floor (average thermal transmittance 0.12 w/m²k)
-- [x] EPC: high performance glazing (high performance glazing)
-- [x] Presented finish observed as refurbished in listing photographs (image analysis)
-- [x] Architectural glazing / roof lantern visible in photos (image analysis)
+| **Location & transport** | **15.0** | 15 | ~42 mins via Oakleigh Park via Oakleigh Park |
+| **Space, scale & layout** | **12.5** | 20 | 1,982.0 sq ft, 5 beds, 3 baths |
+| **Financial efficiency** | **8.0** | 15 | £694/sq ft, £1,375,000 total |
+| **Technical & EPC** | **13.0** | 25 | Band B, Living room width: 11.7 ft (below 15 ft), EPC: no secondary heating (no dated room heaters), EPC: time and temperature zone control |
+| **Observed presentation** | **11.7** | 15 | Photo condition tier |
+| **Garden & outdoor** | **5.0** | 10 | Garden aspect, side access |
+| **Total** | **65.2** | 100 | |
 
 **Photographic evidence reviewed for the score:**
 - 24 property photo(s) analysed by local vision model (Qwen3-VL)
 - Photographic-evidence score: 58.0/100 (high confidence; condition 30/35, kitchen/bath 6/20, glazing 13/20, structure 0/15, legibility 9/10)
 - Floor-plan total read from the plan: 1,982 sq ft
 - Condition tier inferred from photos: refurbished
-- Glazing glimpsed in photos: uPVC double glazing
 - Not captured in the photos: bedrooms, extension evidence, garden aspect, kitchen, other bathrooms, parking (…)
 
 ### Land Registry Transaction History
@@ -876,25 +561,13 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - **Last Recorded Sale**: £1,063,722 on `2021-04-21`
 - **Local Neighbourhood Benchmark**: £587/sq ft across 10 sales with a known floor area; this property is £694/sq ft (+18% vs the median)
 
-### Strategic Strengths & Considerations
-
-**Strengths:**
-- Easy King's Cross St Pancras commute (~31 mins via Oakleigh Park)
-- Fast Liverpool Street commute (~42 mins door-to-concourse via Oakleigh Park)
-- High capital investment in invisible infrastructure (underfloor heating / mechanicals)
-- High EPC efficiency (Band B) translates to lower operating costs
-- Clear Freehold tenure
-
-**Risks & Nuances:**
-- Size Discrepancy: Size taken from floor-plan via image analysis
-
 
 ---
 
 ## Property Review: Well Grove, Whetstone N20
 
-> **Verdict**: Top Tier Prime Candidate: Strong fundamentals paired with genuine technical upgrades.
-> **Modernization Profile**: `Capital-Modernized Gem`
+> **Verdict**: Solid Contender: Well-balanced property with good technical credentials.
+> **Classification**: `Partially Modernized`
 
 ### Key Property Metrics
 
@@ -918,56 +591,27 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 | **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
 | **Wide living room** | stated | Sitting Room measures 25.5 ft at its widest (floor-plan) — clears the 15 ft mark |
 
-### Dual Scoring Matrix
+### Score Breakdown
 
 ```text
-  General Property Quality : [####################----]  84.0 / 100
-  Technical Modernization  : [###############---------]  61.5 / 100
+  Combined Property Score : [#################-------]  72.5 / 100
 ```
 
-#### Score Breakdown
-
-| Dimension | Score | Max | Key Indicators / Context |
+| Component | Score | Max | Key evidence |
 | :--- | :---: | :---: | :--- |
-| **Location & Transport** | **19.5** | 20 | Oakleigh Park (0.4 mi, ~8 min walk); <br/> LS ~36 mins via Oakleigh Park; <br/> King's X ~25 mins via Oakleigh Park |
-| **Space, Scale & Layout** | **19.0** | 25 | 3,099.0 sq ft, 4 beds, 3 baths |
-| **Financial Efficiency** | **16.5** | 20 | £468/sq ft |
-| **Tenure & Legal** | **15.0** | 15 | Freehold |
-| **EPC & Thermal Baseline** | **9.0** | 10 | Band B |
-| **Planning & Expansion** | **5.0** | 10 | Permissions / STPP potential |
-
-### Where the modernization score comes from
-
-The modernization total is the sum of four evidence-scored components:
-
-| Modernization component | Score | Maximum |
-| :--- | :---: | :---: |
-| Heating & services | **22.0** | 30 |
-| Structural envelope | **23.0** | 35 |
-| Garden & spatial | **4.0** | 20 |
-| Architectural glazing & specification | **6.0** | 15 |
-| Observed presentation (photos) | **6.5** | 15 |
-| **Total** | **61.5** | 100 |
-
-Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
-
-**Scored modernization evidence:**
-- [x] EPC: underfloor heating recorded as heating delivery
-- [x] EPC: no secondary heating (no dated room heaters)
-- [x] EPC: time and temperature zone control
-- [x] EPC: insulated roof (average thermal transmittance 0.12 w/m²k)
-- [x] EPC: insulated floor (average thermal transmittance 0.11 w/m²k)
-- [x] EPC: high performance glazing (high performance glazing)
-- [x] Dedicated outbuilding / garden studio structure
-- [x] Architectural glazing (bi-folds / roof lanterns / seamless indoor-outdoor transition)
-- [x] Presented finish observed as partially modernised in listing photographs (image analysis)
+| **Location & transport** | **15.0** | 15 | ~36 mins via Oakleigh Park via Oakleigh Park |
+| **Space, scale & layout** | **20.0** | 20 | 3,099.0 sq ft, 4 beds, 3 baths |
+| **Financial efficiency** | **9.0** | 15 | £468/sq ft, £1,450,000 total |
+| **Technical & EPC** | **15.0** | 25 | Band B, Wide living room: Sitting Room 25.5 ft (floorplan), Ground-floor bedroom confirmed on floorplan, EPC: no secondary heating (no dated room heaters) |
+| **Observed presentation** | **6.5** | 15 | Photo condition tier |
+| **Garden & outdoor** | **7.0** | 10 | Garden aspect, side access |
+| **Total** | **72.5** | 100 | |
 
 **Photographic evidence reviewed for the score:**
 - 21 property photo(s) analysed by local vision model (Qwen3-VL)
 - Photographic-evidence score: 32.0/100 (high confidence; condition 22/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 7/10)
 - Floor-plan total read from the plan: 3,099 sq ft
 - Condition tier inferred from photos: partially modernised
-- Glazing glimpsed in photos: uPVC double glazing
 - Not captured in the photos: bathrooms, bedrooms, extension evidence, garden aspect, render, roof (…)
 
 ### Land Registry Transaction History
@@ -975,26 +619,13 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 - **Last Recorded Sale**: £1,100,000 on `2017-09-29`
 - **Local Neighbourhood Benchmark**: £556/sq ft across 60 sales with a known floor area; this property is £468/sq ft (-16% vs the median)
 
-### Strategic Strengths & Considerations
-
-**Strengths:**
-- Easy King's Cross St Pancras commute (~25 mins via Oakleigh Park)
-- Prime Liverpool Street commute (~36 mins door-to-concourse via Oakleigh Park)
-- Highly competitive price-per-square-foot (£468/sq ft)
-- High capital investment in invisible infrastructure (underfloor heating / mechanicals)
-- High EPC efficiency (Band B) translates to lower operating costs
-- Clear Freehold tenure
-
-**Risks & Nuances:**
-- No immediate red flags detected in listing data; verify invisible mechanical and structural items during survey.
-
 
 ---
 
 ## Property Review: Meadway, Barnet EN5
 
-> **Verdict**: Secondary Assessment Needed: Moderate scores across space, transit, or condition.
-> **Modernization Profile**: `Partially Modernized Period Home`
+> **Verdict**: Solid Contender: Well-balanced property with good technical credentials.
+> **Classification**: `Partially Modernized`
 
 > **⚠️ Missing Data** — review scored with incomplete source data:
 >
@@ -1023,62 +654,30 @@ Points are awarded only for detected listing, EPC, or photographic evidence. Sys
 | **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
 | **Wide living room** | stated | Largest living area is 13.2 ft (Reception, floor-plan) — below the 15 ft mark |
 
-### Dual Scoring Matrix
+### Score Breakdown
 
 ```text
-  General Property Quality : [###############---------]  63.5 / 100
-  Technical Modernization  : [###---------------------]  14.5 / 100
+  Combined Property Score : [################--------]  67.5 / 100
 ```
 
-#### Score Breakdown
-
-| Dimension | Score | Max | Key Indicators / Context |
+| Component | Score | Max | Key evidence |
 | :--- | :---: | :---: | :--- |
-| **Location & Transport** | **16.0** | 20 | High Barnet (0.3 mi, ~6 min walk); <br/> LS ~46 mins via High Barnet; <br/> King's X ~35 mins via New Barnet |
-| **Space, Scale & Layout** | **10.0** | 25 | 1,271.0 sq ft, 3 beds, ? baths |
-| **Financial Efficiency** | **13.0** | 20 | £590/sq ft |
-| **Tenure & Legal** | **15.0** | 15 | Freehold |
-| **EPC & Thermal Baseline** | **4.5** | 10 | Band D |
-| **Planning & Expansion** | **5.0** | 10 | Permissions / STPP potential |
-
-### Where the modernization score comes from
-
-The modernization total is the sum of four evidence-scored components:
-
-| Modernization component | Score | Maximum |
-| :--- | :---: | :---: |
-| Heating & services | **4.0** | 30 |
-| Structural envelope | **4.0** | 35 |
-| Garden & spatial | **0.0** | 20 |
-| Architectural glazing & specification | **0.0** | 15 |
-| Observed presentation (photos) | **6.5** | 15 |
-| **Total** | **14.5** | 100 |
-
-Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.
-
-**Scored modernization evidence:**
-- [x] EPC: no secondary heating (no dated room heaters)
-- [x] EPC: double glazing recorded (fully double glazed)
-- [x] Presented finish observed as partially modernised in listing photographs (image analysis)
+| **Location & transport** | **15.0** | 15 | ~46 mins via High Barnet via High Barnet |
+| **Space, scale & layout** | **15.0** | 20 | 1,271.0 sq ft, 3 beds, ? baths |
+| **Financial efficiency** | **11.0** | 15 | £590/sq ft, £750,000 total |
+| **Technical & EPC** | **15.0** | 25 | Band D, Living room width: 13.2 ft (below 15 ft), Ground-floor bedroom confirmed on floorplan, EPC: no secondary heating (no dated room heaters) |
+| **Observed presentation** | **6.5** | 15 | Photo condition tier |
+| **Garden & outdoor** | **5.0** | 10 | Garden aspect, side access |
+| **Total** | **67.5** | 100 | |
 
 **Photographic evidence reviewed for the score:**
 - 35 property photo(s) analysed by local vision model (Qwen3-VL)
 - Photographic-evidence score: 34.0/100 (medium confidence; condition 22/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 9/10)
 - Floor-plan total read from the plan: 1,271 sq ft
 - Condition tier inferred from photos: partially modernised
-- Glazing glimpsed in photos: uPVC double glazing
 - Not captured in the photos: appliance brands, bathroom, extension evidence, garden aspect, internal layout, kitchen (…)
 
 ### Land Registry Transaction History
 
 - **No recorded sale** in the Land Registry price-paid window for this address
 - **Local Neighbourhood Benchmark**: £465/sq ft across 11 sales with a known floor area; this property is £590/sq ft (+27% vs the median)
-
-### Strategic Strengths & Considerations
-
-**Strengths:**
-- Easy King's Cross St Pancras commute (~35 mins via New Barnet)
-- Clear Freehold tenure
-
-**Risks & Nuances:**
-- No immediate red flags detected in listing data; verify invisible mechanical and structural items during survey.
