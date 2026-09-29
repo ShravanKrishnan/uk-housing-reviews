@@ -20,7 +20,7 @@
     <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between">
       <div>
         <span class="pill" style="background:#4a9d3f">68.0 Score</span>
-        <span class="badge unknown" style="margin-left:6px">Partially Modernized</span>
+        <span class="badge partly" style="margin-left:6px">Partially Modernized</span>
       </div>
       <div style="font-size:13px;color:var(--muted)">
         5 of 11 &middot; score 68.0
@@ -72,12 +72,6 @@
   <div class="panel"><p>No planning history matched this address.</p><p class="note">Absence of a match is not proof that no application exists — the portal search is narrow (property search only) and mixed-criteria requests are unverified. Treat this as unverified, not as a clean record.</p></div>
 
   <div class="layout" style="margin-top:22px">
-    <div class="panel">
-      <h2>Score breakdown — 68.0/100</h2>
-      <div class="bar-row"><span class="lbl">Location &amp; transport</span><span class="bar"><i style="width:80.0%;background:#a8322d"></i></span><span class="num">12.0</span></div><div class="bar-row"><span class="lbl">Space, scale &amp; layout</span><span class="bar"><i style="width:87.5%;background:#a8322d"></i></span><span class="num">17.5</span></div><div class="bar-row"><span class="lbl">Financial efficiency</span><span class="bar"><i style="width:46.7%;background:#a8322d"></i></span><span class="num">7.0</span></div><div class="bar-row"><span class="lbl">Technical &amp; EPC</span><span class="bar"><i style="width:80.0%;background:#a8322d"></i></span><span class="num">20.0</span></div><div class="bar-row"><span class="lbl">Observed presentation</span><span class="bar"><i style="width:43.3%;background:#a8322d"></i></span><span class="num">6.5</span></div><div class="bar-row"><span class="lbl">Garden &amp; outdoor</span><span class="bar"><i style="width:50.0%;background:#a8322d"></i></span><span class="num">5.0</span></div>
-      <p class="note">The combined score rewards location, space, financial efficiency,
-      technical specification, observed presentation, and garden quality.</p>
-    </div>
     <div class="panel"><h2>Score evidence</h2><p class="note">Points are awarded only for detected listing, EPC, or photographic evidence. Systems without such evidence score zero and are omitted instead of being listed as inspection tasks.</p><h3>Scored evidence</h3><ul class="ticks"><li>Wide living room: Reception Room 19.5 ft (floorplan)</li><li>EPC: no secondary heating (no dated room heaters)</li><li>EPC: wall insulation recorded (solid brick, with external insulation)</li><li>EPC: insulated roof (pitched, 250 mm loft insulation)</li><li>EPC: double glazing recorded (fully double glazed)</li><li>Underfloor heating present</li><li>Roof glazing seen in photos: skylight</li><li>Presented finish observed as partially modernised in listing photographs (image analysis)</li><li>South-facing garden confirmed</li></ul><h3>Photographic evidence reviewed for the score</h3><ul class="ticks"><li>26 property photo(s) analysed by local vision model (Qwen3-VL)</li><li>Photographic-evidence score: 38.0/100 (high confidence; condition 22/35, kitchen/bath 4/20, glazing 3/20, structure 0/15, legibility 9/10)</li><li>Floor-plan total read from the plan: 2,471 sq ft</li><li>Condition tier inferred from photos: partially modernised</li><li>Not captured in the photos: bathrooms, bedrooms, extension evidence, formal dining room, front reception room, garden aspect (…)</li></ul></div>
   </div>
 
@@ -459,7 +453,7 @@
 </div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
-<script>window.__PINS__ = [{"id": "73884950", "lat": 51.647872, "lon": -0.204408, "addr": "Manor Road", "price": "\u00a31,450,000", "sqft": "2,352", "epc": "C", "score": 68.0, "colour": "#666666", "href": "#"}];</script>
+<script>window.__PINS__ = [{"id": "73884950", "lat": 51.647872, "lon": -0.204408, "addr": "Manor Road", "price": "\u00a31,450,000", "sqft": "2,352", "epc": "C", "score": 68.0, "colour": "#2b6cb0", "href": "#"}];</script>
 <script>
 (function () {
   var el = document.getElementById('map');
