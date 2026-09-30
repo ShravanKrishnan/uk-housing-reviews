@@ -42,7 +42,8 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden south (listing silent) |
 | **Sun roof / lantern in living areas** | photo-hint | skylight seen in a living-area photo (room unverified) |
 | **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
-| **Wide living room** | stated | Kitchen / Dining Room measures 15.0 ft at its widest (floor-plan) — clears the 15 ft mark |
+| **Wide living room** | plan-verified | Kitchen / Dining Room 27'10 x 15' measures 15.0 ft at its widest (floor-plan) — clears the 15 ft mark |
+| **Home theatre potential** | photo-hint | Kitchen / Dining Room 27'10 x 15' measures 27.8 x 15.0 ft (417 sq ft) on the floor plan — room for a smaller screen and fewer seats; at that size it holds a 90-inch screen at 7.5 ft with 10 seats. The full spec needs about 30 x 16 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat sofa (26 ft of frontage)) |
 
 ### Score Breakdown
 
@@ -55,7 +56,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Location & transport** | **15.0** | 15 | ~34 mins via Oakleigh Park via Oakleigh Park |
 | **Space, scale & layout** | **20.0** | 20 | 2,340.0 sq ft, 4 beds, 3 baths |
 | **Financial efficiency** | **11.0** | 15 | £502/sq ft, £1,175,000 total |
-| **Technical & EPC** | **23.0** | 25 | Band C, Wide living room: Kitchen / Dining Room 15.0 ft (floorplan), EPC assessed 2015-03-09: certificate expired — points scored as stated, EPC: no secondary heating (no dated room heaters); EPC: pitched roof with accessible loft (pitched, 350 mm loft insulation) — scope for a simple loft extension (structural survey still required) |
+| **Technical & EPC** | **23.0** | 25 | Band C, Wide living room: Kitchen / Dining Room 27'10 x 15' 15.0 ft (floorplan), EPC assessed 2015-03-09: certificate expired — points scored as stated, EPC: no secondary heating (no dated room heaters); EPC: pitched roof with accessible loft (pitched, 350 mm loft insulation) — scope for a simple loft extension (structural survey still required) |
 | **Observed presentation** | **11.7** | 15 | Photo condition tier |
 | **Garden & outdoor** | **7.0** | 10 | Garden aspect, side access |
 | **Total** | **87.7** | 100 | |
@@ -104,7 +105,8 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **South-facing garden** | photo-hint | Photos suggest south — confirm with a compass |
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
-| **Wide living room** | stated | Largest living area is 12.8 ft (Lounge, floor-plan) — below the 15 ft mark |
+| **Wide living room** | plan-verified | Largest living area is 12.0 ft (Lounge, floor-plan) — below the 15 ft mark |
+| **Home theatre potential** | photo-hint | Lounge measures 23.7 x 12.0 ft (284 sq ft) on the floor plan — room for a smaller screen and fewer seats; at that size it holds a 54-inch screen at 4.5 ft with 9 seats. The full spec needs about 30 x 16 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat sofa (26 ft of frontage)) |
 
 ### Score Breakdown
 
@@ -117,7 +119,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Location & transport** | **15.0** | 15 | ~42 mins via New Barnet via New Barnet |
 | **Space, scale & layout** | **20.0** | 20 | 2,223.8 sq ft, 3 beds, 2 baths |
 | **Financial efficiency** | **14.0** | 15 | £450/sq ft, £1,000,000 total |
-| **Technical & EPC** | **12.0** | 25 | Band D, Living room width: 12.8 ft (below 15 ft), Ground-floor bedroom confirmed on floorplan, EPC: no secondary heating (no dated room heaters); EPC: pitched roof with accessible loft (pitched, 270 mm loft insulation) — scope for a simple loft extension (structural survey still required) |
+| **Technical & EPC** | **12.0** | 25 | Band D, Living room width: 12.0 ft (below 15 ft), Ground-floor bedroom confirmed on floorplan, EPC: no secondary heating (no dated room heaters); EPC: pitched roof with accessible loft (pitched, 270 mm loft insulation) — scope for a simple loft extension (structural survey still required) |
 | **Observed presentation** | **6.5** | 15 | Photo condition tier |
 | **Garden & outdoor** | **0.0** | 10 | Garden aspect, side access |
 | **Total** | **67.5** | 100 | |
@@ -161,7 +163,8 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden north (not south) |
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
-| **Wide living room** | stated | Largest living area is 14.5 ft (Lounge, floor-plan) — below the 15 ft mark |
+| **Wide living room** | plan-verified | Largest living area is 14.5 ft (Lounge, floor-plan) — below the 15 ft mark |
+| **Home theatre potential** | photo-hint | Lounge measures 17.7 x 14.5 ft (257 sq ft) on the floor plan — room for a smaller screen and fewer seats; at that size it holds a 84-inch screen at 7.0 ft with 6 seats. The full spec needs about 30 x 16 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat sofa (26 ft of frontage)) |
 
 ### Score Breakdown
 
@@ -222,7 +225,8 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **South-facing garden** | photo-hint | Photos suggest south — confirm with a compass |
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
-| **Wide living room** | stated | Largest living area is 12.6 ft (Living/Dining Room, floor-plan) — below the 15 ft mark |
+| **Wide living room** | plan-verified | Largest living area is 12.7 ft (Living/Dining Room, floor-plan) — below the 15 ft mark |
+| **Home theatre potential** | photo-hint | Living/Dining Room measures 27.5 x 12.7 ft (349 sq ft) on the floor plan — room for a smaller screen and fewer seats; at that size it holds a 62-inch screen at 5.2 ft with 10 seats. The full spec needs about 30 x 16 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat sofa (26 ft of frontage)) |
 
 ### Score Breakdown
 
@@ -235,7 +239,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Location & transport** | **15.0** | 15 | ~40 mins via New Barnet via New Barnet |
 | **Space, scale & layout** | **20.0** | 20 | 2,471.0 sq ft, 5 beds, 3 baths |
 | **Financial efficiency** | **10.0** | 15 | £526/sq ft, £1,300,000 total |
-| **Technical & EPC** | **12.0** | 25 | Band C, Living room width: 12.6 ft (below 15 ft), Ground-floor bedroom confirmed on floorplan, EPC: secondary heating present (room heaters, mains gas); EPC: pitched roof with accessible loft (pitched, 75 mm loft insulation) — scope for a simple loft extension (structural survey still required) |
+| **Technical & EPC** | **12.0** | 25 | Band C, Living room width: 12.7 ft (below 15 ft), Ground-floor bedroom confirmed on floorplan, EPC: secondary heating present (room heaters, mains gas); EPC: pitched roof with accessible loft (pitched, 75 mm loft insulation) — scope for a simple loft extension (structural survey still required) |
 | **Observed presentation** | **6.5** | 15 | Photo condition tier |
 | **Garden & outdoor** | **0.0** | 10 | Garden aspect, side access |
 | **Total** | **63.5** | 100 | |
@@ -283,7 +287,8 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden south (listing silent) |
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
-| **Wide living room** | stated | Sitting Room measures 17.8 ft at its widest (floor-plan) — clears the 15 ft mark |
+| **Wide living room** | plan-verified | Sitting Room measures 17.9 ft at its widest (floor-plan) — clears the 15 ft mark |
+| **Home theatre potential** | photo-hint | Sitting Room measures 25.2 x 17.9 ft (451 sq ft) on the floor plan — room for a smaller screen and fewer seats; at that size it holds a 125-inch screen at 10.4 ft with 9 seats. The full spec needs about 30 x 16 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat sofa (26 ft of frontage)) |
 
 ### Score Breakdown
 
@@ -296,7 +301,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Location & transport** | **15.0** | 15 | ~32 mins via Oakleigh Park via Oakleigh Park |
 | **Space, scale & layout** | **20.0** | 20 | 2,514.0 sq ft, 3 beds, 2 baths |
 | **Financial efficiency** | **11.0** | 15 | £457/sq ft, £1,150,000 total |
-| **Technical & EPC** | **12.0** | 25 | Band E, Wide living room: Sitting Room 17.8 ft (floorplan), Ground-floor bedroom confirmed on floorplan, EPC: secondary heating present (room heaters, mains gas); EPC: pitched roof with accessible loft (pitched, insulated (assumed)) — scope for a simple loft extension (structural survey still required) |
+| **Technical & EPC** | **12.0** | 25 | Band E, Wide living room: Sitting Room 17.9 ft (floorplan), Ground-floor bedroom confirmed on floorplan, EPC: secondary heating present (room heaters, mains gas); EPC: pitched roof with accessible loft (pitched, insulated (assumed)) — scope for a simple loft extension (structural survey still required) |
 | **Observed presentation** | **0.0** | 15 | Photo condition tier |
 | **Garden & outdoor** | **5.0** | 10 | Garden aspect, side access |
 | **Total** | **63.0** | 100 | |
@@ -343,7 +348,8 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden south (listing silent) |
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
-| **Wide living room** | stated | Living Room measures 16.7 ft at its widest (floor-plan) — clears the 15 ft mark |
+| **Wide living room** | plan-verified | Living Room measures 16.8 ft at its widest (floor-plan) — clears the 15 ft mark |
+| **Home theatre potential** | photo-hint | Living Room measures 19.7 x 16.8 ft (331 sq ft) on the floor plan — room for a smaller screen and fewer seats; at that size it holds a 112-inch screen at 9.3 ft with 7 seats. The full spec needs about 30 x 16 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat sofa (26 ft of frontage)) |
 
 ### Score Breakdown
 
@@ -356,7 +362,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Location & transport** | **15.0** | 15 | ~38 mins via New Barnet via New Barnet |
 | **Space, scale & layout** | **19.0** | 20 | 1,760.0 sq ft, 4 beds, 1 baths |
 | **Financial efficiency** | **6.0** | 15 | £710/sq ft, £1,250,000 total |
-| **Technical & EPC** | **12.0** | 25 | Band D, Wide living room: Living Room 16.7 ft (floorplan), EPC assessed 31 July 2009: certificate expired — points scored as stated, EPC: secondary heating present (room heaters, mains gas); EPC: pitched roof with accessible loft (pitched, 300 mm loft insulation) — scope for a simple loft extension (structural survey still required) |
+| **Technical & EPC** | **12.0** | 25 | Band D, Wide living room: Living Room 16.8 ft (floorplan), EPC assessed 31 July 2009: certificate expired — points scored as stated, EPC: secondary heating present (room heaters, mains gas); EPC: pitched roof with accessible loft (pitched, 300 mm loft insulation) — scope for a simple loft extension (structural survey still required) |
 | **Observed presentation** | **6.5** | 15 | Photo condition tier |
 | **Garden & outdoor** | **7.0** | 10 | Garden aspect, side access |
 | **Total** | **65.5** | 100 | |
@@ -398,7 +404,8 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **South-facing garden** | photo-hint | Photos suggest south — confirm with a compass |
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
-| **Wide living room** | stated | Largest living area is 11.8 ft (Living Room, floor-plan) — below the 15 ft mark |
+| **Wide living room** | plan-verified | Kitchen measures 16.3 ft at its widest (floor-plan) — clears the 15 ft mark |
+| **Home theatre potential** | photo-hint | Kitchen measures 16.5 x 16.3 ft (269 sq ft) on the floor plan — room for a smaller screen and fewer seats; at that size it holds a 106-inch screen at 8.8 ft with 6 seats. The full spec needs about 30 x 16 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat sofa (26 ft of frontage)) |
 
 ### Score Breakdown
 
@@ -411,7 +418,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Location & transport** | **15.0** | 15 | ~44 mins via New Barnet via New Barnet |
 | **Space, scale & layout** | **20.0** | 20 | 2,611.0 sq ft, 3 beds, 3 baths |
 | **Financial efficiency** | **10.0** | 15 | £498/sq ft, £1,300,000 total |
-| **Technical & EPC** | **17.0** | 25 | Band D, Living room width: 11.8 ft (below 15 ft), Ground-floor bedroom confirmed on floorplan, EPC assessed 2016-05-26: certificate expired — points scored as stated; EPC: pitched roof with accessible loft (pitched, 100 mm loft insulation) — scope for a simple loft extension (structural survey still required) |
+| **Technical & EPC** | **17.0** | 25 | Band D, Wide living room: Kitchen 16.3 ft (floorplan), Ground-floor bedroom confirmed on floorplan, EPC assessed 2016-05-26: certificate expired — points scored as stated; EPC: pitched roof with accessible loft (pitched, 100 mm loft insulation) — scope for a simple loft extension (structural survey still required) |
 | **Observed presentation** | **11.7** | 15 | Photo condition tier |
 | **Garden & outdoor** | **0.0** | 10 | Garden aspect, side access |
 | **Total** | **73.7** | 100 | |
@@ -459,7 +466,8 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden south (listing silent) |
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
-| **Wide living room** | stated | Reception Room measures 19.2 ft at its widest (floor-plan) — clears the 15 ft mark |
+| **Wide living room** | plan-verified | Reception Room measures 19.3 ft at its widest (floor-plan) — clears the 15 ft mark |
+| **Home theatre potential** | photo-hint | Reception Room measures 20.4 x 19.3 ft (394 sq ft) on the floor plan — room for a smaller screen and fewer seats; at that size it holds a 142-inch screen at 11.8 ft with 7 seats. The full spec needs about 30 x 16 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat sofa (26 ft of frontage)) |
 
 ### Score Breakdown
 
@@ -472,7 +480,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Location & transport** | **12.0** | 15 | ~50 mins via High Barnet via High Barnet |
 | **Space, scale & layout** | **17.5** | 20 | 2,471.0 sq ft, 5 beds, 2 baths |
 | **Financial efficiency** | **7.0** | 15 | £587/sq ft, £1,450,000 total |
-| **Technical & EPC** | **17.0** | 25 | Band C, Wide living room: Reception Room 19.2 ft (floorplan), EPC: no secondary heating (no dated room heaters), EPC: wall insulation recorded (solid brick, with external insulation); EPC: pitched roof with accessible loft (pitched, 250 mm loft insulation) — scope for a simple loft extension (structural survey still required) |
+| **Technical & EPC** | **17.0** | 25 | Band C, Wide living room: Reception Room 19.3 ft (floorplan), EPC: no secondary heating (no dated room heaters), EPC: wall insulation recorded (solid brick, with external insulation); EPC: pitched roof with accessible loft (pitched, 250 mm loft insulation) — scope for a simple loft extension (structural survey still required) |
 | **Observed presentation** | **6.5** | 15 | Photo condition tier |
 | **Garden & outdoor** | **5.0** | 10 | Garden aspect, side access |
 | **Total** | **65.0** | 100 | |
@@ -515,7 +523,8 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden south (listing silent) |
 | **Sun roof / lantern in living areas** | photo-hint | Glazing seen in photos (room unverified) |
 | **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
-| **Wide living room** | stated | Largest living area is 11.7 ft (Reception Room, floor-plan) — below the 15 ft mark |
+| **Wide living room** | plan-verified | Largest living area is 11.7 ft (Reception Room, floor-plan) — below the 15 ft mark |
+| **Home theatre potential** | photo-hint | Kitchen measures 26.4 x 9.3 ft (246 sq ft) on the floor plan — below the spec; no conventional screen fits the throw behind a sofa. The full spec needs about 30 x 16 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat sofa (26 ft of frontage)) |
 
 ### Score Breakdown
 
@@ -571,7 +580,8 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden south (listing silent) |
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
-| **Wide living room** | stated | Sitting Room measures 25.4 ft at its widest (floor-plan) — clears the 15 ft mark |
+| **Wide living room** | plan-verified | Sitting Room measures 25.5 ft at its widest (floor-plan) — clears the 15 ft mark |
+| **Home theatre potential** | photo-hint | Sitting Room measures 25.7 x 25.5 ft (655 sq ft) on the floor plan — clears the screen but not the seating; at that size it holds a 150-inch screen at 18.0 ft with 9 seats. The full spec needs about 30 x 16 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat sofa (26 ft of frontage)) |
 
 ### Score Breakdown
 
@@ -584,7 +594,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Location & transport** | **15.0** | 15 | ~36 mins via Oakleigh Park via Oakleigh Park |
 | **Space, scale & layout** | **20.0** | 20 | 2,229.0 sq ft, 4 beds, 3 baths |
 | **Financial efficiency** | **7.0** | 15 | £650/sq ft, £1,450,000 total |
-| **Technical & EPC** | **19.0** | 25 | Band B, Wide living room: Sitting Room 25.4 ft (floorplan), Ground-floor bedroom confirmed on floorplan, EPC: no secondary heating (no dated room heaters); EPC: room-in-roof conversion recorded (average thermal transmittance 0.12 w/m²k) |
+| **Technical & EPC** | **19.0** | 25 | Band B, Wide living room: Sitting Room 25.5 ft (floorplan), Ground-floor bedroom confirmed on floorplan, EPC: no secondary heating (no dated room heaters); EPC: room-in-roof conversion recorded (average thermal transmittance 0.12 w/m²k) |
 | **Observed presentation** | **6.5** | 15 | Photo condition tier |
 | **Garden & outdoor** | **7.0** | 10 | Garden aspect, side access |
 | **Total** | **74.5** | 100 | |
@@ -633,7 +643,8 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **South-facing garden** | plan-verified | Listing says south-east-facing; the floor-plan north arrow agrees |
 | **Sun roof / lantern in living areas** | photo-hint | skylight seen in a living-area photo (room unverified) |
 | **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
-| **Wide living room** | stated | Largest living area is 13.2 ft (Reception, floor-plan) — below the 15 ft mark |
+| **Wide living room** | plan-verified | Largest living area is 13.3 ft (Reception, floor-plan) — below the 15 ft mark |
+| **Home theatre potential** | photo-hint | Reception measures 21.3 x 13.3 ft (283 sq ft) on the floor plan — room for a smaller screen and fewer seats; at that size it holds a 70-inch screen at 5.8 ft with 8 seats. The full spec needs about 30 x 16 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat sofa (26 ft of frontage)) |
 
 ### Score Breakdown
 
@@ -646,7 +657,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Location & transport** | **15.0** | 15 | ~46 mins via High Barnet via High Barnet |
 | **Space, scale & layout** | **15.0** | 20 | 1,271.0 sq ft, 3 beds, ? baths |
 | **Financial efficiency** | **11.0** | 15 | £590/sq ft, £750,000 total |
-| **Technical & EPC** | **17.0** | 25 | Band D, Living room width: 13.2 ft (below 15 ft), Ground-floor bedroom confirmed on floorplan, EPC: no secondary heating (no dated room heaters); EPC: pitched roof with accessible loft (pitched, no insulation) — scope for a simple loft extension (structural survey still required) |
+| **Technical & EPC** | **17.0** | 25 | Band D, Living room width: 13.3 ft (below 15 ft), Ground-floor bedroom confirmed on floorplan, EPC: no secondary heating (no dated room heaters); EPC: pitched roof with accessible loft (pitched, no insulation) — scope for a simple loft extension (structural survey still required) |
 | **Observed presentation** | **6.5** | 15 | Photo condition tier |
 | **Garden & outdoor** | **5.0** | 10 | Garden aspect, side access |
 | **Total** | **69.5** | 100 | |
