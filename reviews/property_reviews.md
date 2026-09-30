@@ -42,8 +42,30 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden south (listing silent) |
 | **Sun roof / lantern in living areas** | photo-hint | skylight seen in a living-area photo (room unverified) |
 | **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
-| **Wide living room** | plan-verified | Kitchen / Dining Room 27'10 x 15' measures 15.0 ft at its widest (floor-plan) — clears the 15 ft mark |
-| **Home theatre potential** | photo-hint | Sitting Room 21'1 x 11'5 measures 21.2 x 11.8 ft (250 sq ft) on the floor plan, a separate room from the Kitchen / Dining Room 27'10 x 15' — room for a smaller screen or fewer seats; at that size it holds a 94-inch screen with the front row 7.8 ft from it, 1 recliner row of 7 across (17.7 ft of frontage, a modular sectional run), 7 seats. The target is a 150-inch screen (10.9 x 6.1 ft image) 9 ft from the front row, needing a 13.9 ft wall and 8.6 ft of ceiling; seating is 27 in per recliner across the frontage and 4 ft deep per row with a 3 ft aisle between rows, so 10 across comes to about 26 x 14 ft and every extra row adds 7 ft of depth |
+| **Wide living room** | plan-verified | Kitchen / Dining Room measures 15.0 ft at its widest (floor-plan) — clears the 15 ft mark |
+| **Home theatre potential** | photo-hint | Sitting Room measures 21.2 x 11.8 ft (250 sq ft) on the floor plan, a separate room from the Kitchen / Dining Room — room for a smaller screen or fewer seats; at that size it holds a 94-inch screen with the front row 7.8 ft from it, 1 recliner row of 7 across (17.7 ft of frontage, a modular sectional run), 7 seats |
+
+*Home theatre is measured against a 150-inch 16:9 screen 9 ft from the front row, which needs a 13.9 ft wall and 8.6 ft of ceiling. Seating is variable: 27 in per recliner across the frontage, 4 ft deep per row, and a 3 ft aisle between rows — so 10 across comes to about 26 × 14 ft, and each extra row adds 7 ft of depth. The candidate is always a second room, never the main living room or the kitchen.*
+
+### Floorplan Analysis
+
+![Floor plan for Burlington Rise, East Barnet EN4](https://lid.zoocdn.com/645/430/500e3d7c0b95dbedc0595f3e5e6863ffb8bf9f16.jpg)
+
+*11 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are shown without one.*
+
+| Room | Type | Floor | Dimensions | Area |
+| :--- | :--- | :--- | :---: | ---: |
+| Bedroom | bedroom | first | 9.8 × 9.5 ft | 93 sq ft |
+| Bedroom | bedroom | first | 16.2 × 12.3 ft | 199 sq ft |
+| Bedroom | bedroom | first | 16.2 × 14.3 ft | 232 sq ft |
+| Bedroom | bedroom | first | 13.7 × 9.8 ft | 134 sq ft |
+| Sitting Room | living | ground | 21.2 × 11.8 ft | 250 sq ft |
+| Sitting Room | living | ground | 17.8 × 10.3 ft | 183 sq ft |
+| Utility | utility | ground | not printed | — |
+| Kitchen / Dining Room | kitchen | ground | 27.8 × 15 ft | 417 sq ft |
+| Shed | outbuilding | ground | 24.2 × 10.4 ft | 252 sq ft |
+| Rear Garden | garden | ground | not printed | — |
+| Driveway / Front Garden | garden | ground | not printed | — |
 
 ### Score Breakdown
 
@@ -56,7 +78,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Location & transport** | **15.0** | 15 | ~34 mins via Oakleigh Park via Oakleigh Park |
 | **Space, scale & layout** | **20.0** | 20 | 2,340.0 sq ft, 4 beds, 3 baths |
 | **Financial efficiency** | **11.0** | 15 | £502/sq ft, £1,175,000 total |
-| **Technical & EPC** | **23.0** | 25 | Band C, Wide living room: Kitchen / Dining Room 27'10 x 15' 15.0 ft (floorplan), EPC assessed 2015-03-09: certificate expired — points scored as stated, EPC: no secondary heating (no dated room heaters); EPC: pitched roof with accessible loft (pitched, 350 mm loft insulation) — scope for a simple loft extension (structural survey still required) |
+| **Technical & EPC** | **23.0** | 25 | Band C, Wide living room: Kitchen / Dining Room 15.0 ft (floorplan), EPC assessed 2015-03-09: certificate expired — points scored as stated, EPC: no secondary heating (no dated room heaters); EPC: pitched roof with accessible loft (pitched, 350 mm loft insulation) — scope for a simple loft extension (structural survey still required) |
 | **Observed presentation** | **11.7** | 15 | Photo condition tier |
 | **Garden & outdoor** | **7.0** | 10 | Garden aspect, side access |
 | **Total** | **87.7** | 100 | |
@@ -106,7 +128,30 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
 | **Wide living room** | plan-verified | Largest living area is 12.0 ft (Lounge, floor-plan) — below the 15 ft mark |
-| **Home theatre potential** | photo-hint | Dining Room measures 23.7 x 10.2 ft (242 sq ft) on the floor plan, a separate room from the Lounge — room for a smaller screen or fewer seats; at that size it holds a 74-inch screen with the front row 6.2 ft from it, 1 recliner row of 8 across (20.2 ft of frontage, a modular sectional run), 8 seats. The target is a 150-inch screen (10.9 x 6.1 ft image) 9 ft from the front row, needing a 13.9 ft wall and 8.6 ft of ceiling; seating is 27 in per recliner across the frontage and 4 ft deep per row with a 3 ft aisle between rows, so 10 across comes to about 26 x 14 ft and every extra row adds 7 ft of depth |
+| **Home theatre potential** | photo-hint | Dining Room measures 23.7 x 10.2 ft (242 sq ft) on the floor plan, a separate room from the Lounge — room for a smaller screen or fewer seats; at that size it holds a 74-inch screen with the front row 6.2 ft from it, 1 recliner row of 8 across (20.2 ft of frontage, a modular sectional run), 8 seats |
+
+*Home theatre is measured against a 150-inch 16:9 screen 9 ft from the front row, which needs a 13.9 ft wall and 8.6 ft of ceiling. Seating is variable: 27 in per recliner across the frontage, 4 ft deep per row, and a 3 ft aisle between rows — so 10 across comes to about 26 × 14 ft, and each extra row adds 7 ft of depth. The candidate is always a second room, never the main living room or the kitchen.*
+
+### Floorplan Analysis
+
+![Floor plan for Rolfe Close, Barnet EN4](https://lid.zoocdn.com/645/430/1274e4110be8cec9fa0537b7f12bc95c7baa1875.jpg)
+
+*12 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are shown without one.*
+
+| Room | Type | Floor | Dimensions | Area |
+| :--- | :--- | :--- | :---: | ---: |
+| Double Garage | outbuilding | ground | 20 × 17.1 ft | 342 sq ft |
+| Utility Room | utility | ground | 10.3 × 7.1 ft | 73 sq ft |
+| Office / Study | study | ground | 11.1 × 7.1 ft | 79 sq ft |
+| Bedroom 2 | bedroom | ground | 11.1 × 11 ft | 122 sq ft |
+| Bathroom | bathroom | ground | 9 × 7 ft | 63 sq ft |
+| Kitchen / Breakfast Room | kitchen | ground | 15.5 × 11 ft | 170 sq ft |
+| Conservatory | outbuilding | ground | 13.1 × 12 ft | 157 sq ft |
+| Dining Room | dining | ground | 23.7 × 10.2 ft | 242 sq ft |
+| Lounge | living | ground | 23.7 × 12 ft | 284 sq ft |
+| Master Bedroom | bedroom | first | 15 × 12.5 ft | 188 sq ft |
+| Shower Room | bathroom | first | 7 × 5.2 ft | 36 sq ft |
+| Landing | circulation | first | not printed | — |
 
 ### Score Breakdown
 
@@ -164,7 +209,38 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
 | **Wide living room** | plan-verified | Largest living area is 14.5 ft (Lounge, floor-plan) — below the 15 ft mark |
-| **Home theatre potential** | photo-hint | Dining Room measures 19.1 x 8.3 ft (159 sq ft) on the floor plan, a separate room from the Lounge — room for a smaller screen or fewer seats; at that size it holds a 52-inch screen with the front row 4.3 ft from it, 1 recliner row of 6 across (15.6 ft of frontage, a modular sectional run), 6 seats. The target is a 150-inch screen (10.9 x 6.1 ft image) 9 ft from the front row, needing a 13.9 ft wall and 8.6 ft of ceiling; seating is 27 in per recliner across the frontage and 4 ft deep per row with a 3 ft aisle between rows, so 10 across comes to about 26 x 14 ft and every extra row adds 7 ft of depth |
+| **Home theatre potential** | photo-hint | Dining Room measures 19.1 x 8.3 ft (159 sq ft) on the floor plan, a separate room from the Lounge — room for a smaller screen or fewer seats; at that size it holds a 52-inch screen with the front row 4.3 ft from it, 1 recliner row of 6 across (15.6 ft of frontage, a modular sectional run), 6 seats |
+
+*Home theatre is measured against a 150-inch 16:9 screen 9 ft from the front row, which needs a 13.9 ft wall and 8.6 ft of ceiling. Seating is variable: 27 in per recliner across the frontage, 4 ft deep per row, and a 3 ft aisle between rows — so 10 across comes to about 26 × 14 ft, and each extra row adds 7 ft of depth. The candidate is always a second room, never the main living room or the kitchen.*
+
+### Floorplan Analysis
+
+![Floor plan for Belmont Avenue, Cockfosters EN4](https://lid.zoocdn.com/645/430/17730a551677c7314f6a9ec328085d74846adb9f.jpg)
+
+*20 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are shown without one.*
+
+| Room | Type | Floor | Dimensions | Area |
+| :--- | :--- | :--- | :---: | ---: |
+| Studio | other | ground | 23.1 × 10.2 ft | 236 sq ft |
+| Garden | garden | ground | 59.1 × 24.7 ft | 1,460 sq ft |
+| Dining Room | dining | ground | 19.1 × 8.3 ft | 159 sq ft |
+| Kitchen/Breakfast Room | kitchen | ground | 13.1 × 10.3 ft | 135 sq ft |
+| Lounge | living | ground | 17.7 × 14.5 ft | 257 sq ft |
+| Utility Room | utility | ground | 7.5 × 4.5 ft | 34 sq ft |
+| Office | study | ground | 11.7 × 7.2 ft | 84 sq ft |
+| Hallway | circulation | ground | 15.1 × 8.2 ft | 124 sq ft |
+| W.C. | bathroom | ground | 4.7 × 2.7 ft | 13 sq ft |
+| Bedroom 3 | bedroom | first | 14.8 × 12.1 ft | 179 sq ft |
+| Bedroom 2 | bedroom | first | 14.7 × 14.2 ft | 209 sq ft |
+| Bedroom 4 | bedroom | first | 13.8 × 11.6 ft | 160 sq ft |
+| En-suite | bathroom | first | 6 × 5.2 ft | 31 sq ft |
+| Shower Room | bathroom | first | 7.2 × 5.5 ft | 40 sq ft |
+| W.C. | bathroom | first | 4.3 × 2.2 ft | 9 sq ft |
+| Bedroom 1 | bedroom | second | 15.8 × 15 ft | 237 sq ft |
+| Walk-In Wardrobe | store | second | 13.3 × 7.5 ft | 100 sq ft |
+| En-suite | bathroom | second | 13 × 6.2 ft | 81 sq ft |
+| W.C. | bathroom | second | 4.9 × 4.3 ft | 21 sq ft |
+| Eaves | store | second | not printed | — |
 
 ### Score Breakdown
 
@@ -226,7 +302,35 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
 | **Wide living room** | plan-verified | Largest living area is 12.7 ft (Living/Dining Room, floor-plan) — below the 15 ft mark |
-| **Home theatre potential** | not-stated | No cinema or media room mentioned and no other room on the plan is large enough to be one; the target is a 150-inch screen (10.9 x 6.1 ft image) 9 ft from the front row, needing a 13.9 ft wall and 8.6 ft of ceiling; seating is 27 in per recliner across the frontage and 4 ft deep per row with a 3 ft aisle between rows, so 10 across comes to about 26 x 14 ft and every extra row adds 7 ft of depth |
+| **Home theatre potential** | not-stated | No cinema or media room mentioned, and no other room on the plan is large enough to be one |
+
+*Home theatre is measured against a 150-inch 16:9 screen 9 ft from the front row, which needs a 13.9 ft wall and 8.6 ft of ceiling. Seating is variable: 27 in per recliner across the frontage, 4 ft deep per row, and a 3 ft aisle between rows — so 10 across comes to about 26 × 14 ft, and each extra row adds 7 ft of depth. The candidate is always a second room, never the main living room or the kitchen.*
+
+### Floorplan Analysis
+
+![Floor plan for Park Road, New Barnet EN4](https://lid.zoocdn.com/645/430/7dff4c7fe0983f7468534bfd48bbea5f23468797.jpg)
+
+*17 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are shown without one.*
+
+| Room | Type | Floor | Dimensions | Area |
+| :--- | :--- | :--- | :---: | ---: |
+| Living/Dining Room | living | ground | 27.5 × 12.7 ft | 349 sq ft |
+| Hallway | circulation | ground | 15.3 × 11 ft | 168 sq ft |
+| Bedroom 5 | bedroom | ground | 11 × 7.7 ft | 85 sq ft |
+| W.C. | bathroom | ground | 6.1 × 3.5 ft | 21 sq ft |
+| Kitchen/Breakfast Area | kitchen | ground | 24 × 9.1 ft | 218 sq ft |
+| Utility | utility | ground | 14.1 × 6.9 ft | 97 sq ft |
+| Garage | outbuilding | ground | 18.8 × 15.1 ft | 284 sq ft |
+| Bedroom 2 | bedroom | second | 18 × 17.3 ft | 311 sq ft |
+| Bedroom 4 | bedroom | first | 11.9 × 11.9 ft | 142 sq ft |
+| Bedroom 3 | bedroom | first | 11.9 × 9.8 ft | 117 sq ft |
+| Bedroom 1 | bedroom | first | 15.7 × 15 ft | 236 sq ft |
+| Office/Bedroom 6 | study | first | 12 × 7.1 ft | 85 sq ft |
+| Void | other | first | not printed | — |
+| Bathroom | bathroom | first | 8.6 × 8 ft | 69 sq ft |
+| En-suite | bathroom | first | 8 × 5.6 ft | 45 sq ft |
+| Walk-in Wardrobe | store | first | not printed | — |
+| En-suite | bathroom | second | 10.1 × 5.8 ft | 59 sq ft |
 
 ### Score Breakdown
 
@@ -288,7 +392,28 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
 | **Wide living room** | plan-verified | Sitting Room measures 17.9 ft at its widest (floor-plan) — clears the 15 ft mark |
-| **Home theatre potential** | photo-hint | Tv Room measures 12.5 x 11.2 ft (140 sq ft) on the floor plan, a separate room from the Sitting Room — room for a smaller screen or fewer seats; at that size it holds an 86-inch screen with the front row 7.2 ft from it, 1 recliner row of 4 across (9 ft of frontage, a four-seat family sofa), 4 seats. The target is a 150-inch screen (10.9 x 6.1 ft image) 9 ft from the front row, needing a 13.9 ft wall and 8.6 ft of ceiling; seating is 27 in per recliner across the frontage and 4 ft deep per row with a 3 ft aisle between rows, so 10 across comes to about 26 x 14 ft and every extra row adds 7 ft of depth |
+| **Home theatre potential** | photo-hint | Tv Room measures 12.5 x 11.2 ft (140 sq ft) on the floor plan, a separate room from the Sitting Room — room for a smaller screen or fewer seats; at that size it holds an 86-inch screen with the front row 7.2 ft from it, 1 recliner row of 4 across (9 ft of frontage, a four-seat family sofa), 4 seats |
+
+*Home theatre is measured against a 150-inch 16:9 screen 9 ft from the front row, which needs a 13.9 ft wall and 8.6 ft of ceiling. Seating is variable: 27 in per recliner across the frontage, 4 ft deep per row, and a 3 ft aisle between rows — so 10 across comes to about 26 × 14 ft, and each extra row adds 7 ft of depth. The candidate is always a second room, never the main living room or the kitchen.*
+
+### Floorplan Analysis
+
+![Floor plan for Maryrose Way, Oakleigh Park N20](https://lid.zoocdn.com/645/430/775391af66ad4a678ae5f2248bd0723d74623365.jpg)
+
+*10 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are shown without one.*
+
+| Room | Type | Floor | Dimensions | Area |
+| :--- | :--- | :--- | :---: | ---: |
+| Utility | utility | lower | 13.2 × 10.3 ft | 136 sq ft |
+| Garage | outbuilding | lower | 26.2 × 19.5 ft | 511 sq ft |
+| Driveway | other | lower | not printed | — |
+| Garden | garden | — | 60.4 × 56.5 ft | 3,413 sq ft |
+| Dining Room | dining | ground | 14.3 × 9.8 ft | 140 sq ft |
+| Kitchen | kitchen | ground | 17.2 × 13.9 ft | 239 sq ft |
+| Bedroom | bedroom | ground | 10.6 × 9.1 ft | 96 sq ft |
+| Sitting Room | living | ground | 25.2 × 17.9 ft | 451 sq ft |
+| Tv Room | living | ground | 12.5 × 11.2 ft | 140 sq ft |
+| Bedroom | bedroom | ground | 15.9 × 13.2 ft | 210 sq ft |
 
 ### Score Breakdown
 
@@ -349,7 +474,31 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
 | **Wide living room** | plan-verified | Living Room measures 16.8 ft at its widest (floor-plan) — clears the 15 ft mark |
-| **Home theatre potential** | photo-hint | Lounge measures 10.2 x 9.7 ft (99 sq ft) on the floor plan, a separate room from the Living Room — room for a smaller screen or fewer seats; at that size it holds a 68-inch screen with the front row 5.7 ft from it, 1 recliner row of 2 across (6.7 ft of frontage, a two-seat loveseat), 2 seats. The target is a 150-inch screen (10.9 x 6.1 ft image) 9 ft from the front row, needing a 13.9 ft wall and 8.6 ft of ceiling; seating is 27 in per recliner across the frontage and 4 ft deep per row with a 3 ft aisle between rows, so 10 across comes to about 26 x 14 ft and every extra row adds 7 ft of depth |
+| **Home theatre potential** | photo-hint | Lounge measures 10.2 x 9.7 ft (99 sq ft) on the floor plan, a separate room from the Living Room — room for a smaller screen or fewer seats; at that size it holds a 68-inch screen with the front row 5.7 ft from it, 1 recliner row of 2 across (6.7 ft of frontage, a two-seat loveseat), 2 seats |
+
+*Home theatre is measured against a 150-inch 16:9 screen 9 ft from the front row, which needs a 13.9 ft wall and 8.6 ft of ceiling. Seating is variable: 27 in per recliner across the frontage, 4 ft deep per row, and a 3 ft aisle between rows — so 10 across comes to about 26 × 14 ft, and each extra row adds 7 ft of depth. The candidate is always a second room, never the main living room or the kitchen.*
+
+### Floorplan Analysis
+
+![Floor plan for Gloucester Road, Barnet EN5](https://lid.zoocdn.com/645/430/2f23289a98d6f15a59af5f70b45b3fb275eab603.jpg)
+
+*13 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are shown without one.*
+
+| Room | Type | Floor | Dimensions | Area |
+| :--- | :--- | :--- | :---: | ---: |
+| Gym/ Conservatory | other | ground | 12.7 × 11.9 ft | 151 sq ft |
+| Kitchen | kitchen | ground | 25.9 × 11.5 ft | 298 sq ft |
+| Lounge | living | ground | 10.2 × 9.7 ft | 99 sq ft |
+| Living Room | living | ground | 19.7 × 16.8 ft | 331 sq ft |
+| Hallway | circulation | ground | 11 × 5.9 ft | 65 sq ft |
+| Outbuilding | outbuilding | ground | 12.7 × 10.8 ft | 137 sq ft |
+| Garden | garden | ground | 49.3 × 48.5 ft | 2,391 sq ft |
+| Bedroom 1 | bedroom | first | 16.8 × 10.1 ft | 170 sq ft |
+| Bedroom 2 | bedroom | first | 11.8 × 11.1 ft | 131 sq ft |
+| Bedroom 3 | bedroom | first | 10.4 × 9.1 ft | 95 sq ft |
+| Bedroom 4 | bedroom | first | 10.1 × 8.6 ft | 87 sq ft |
+| Bathroom | bathroom | first | 10.4 × 8.1 ft | 84 sq ft |
+| W.C. | bathroom | ground | 6.7 × 5.9 ft | 40 sq ft |
 
 ### Score Breakdown
 
@@ -405,7 +554,34 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
 | **Wide living room** | plan-verified | Largest living area is 11.1 ft (Dining Room, floor-plan) — below the 15 ft mark |
-| **Home theatre potential** | photo-hint | Living Room measures 17.7 x 11 ft (195 sq ft) on the floor plan, a separate room from the Lounge/Basement — room for a smaller screen or fewer seats; at that size it holds an 84-inch screen with the front row 7 ft from it, 1 recliner row of 6 across (14.2 ft of frontage, a modular sectional run), 6 seats. The target is a 150-inch screen (10.9 x 6.1 ft image) 9 ft from the front row, needing a 13.9 ft wall and 8.6 ft of ceiling; seating is 27 in per recliner across the frontage and 4 ft deep per row with a 3 ft aisle between rows, so 10 across comes to about 26 x 14 ft and every extra row adds 7 ft of depth |
+| **Home theatre potential** | photo-hint | Living Room measures 17.7 x 11 ft (195 sq ft) on the floor plan, a separate room from the Lounge/Basement — room for a smaller screen or fewer seats; at that size it holds an 84-inch screen with the front row 7 ft from it, 1 recliner row of 6 across (14.2 ft of frontage, a modular sectional run), 6 seats |
+
+*Home theatre is measured against a 150-inch 16:9 screen 9 ft from the front row, which needs a 13.9 ft wall and 8.6 ft of ceiling. Seating is variable: 27 in per recliner across the frontage, 4 ft deep per row, and a 3 ft aisle between rows — so 10 across comes to about 26 × 14 ft, and each extra row adds 7 ft of depth. The candidate is always a second room, never the main living room or the kitchen.*
+
+### Floorplan Analysis
+
+![Floor plan for Hadley Road, New Barnet, Hertfordshire EN5](https://lid.zoocdn.com/645/430/217168ddb04449ade462369f32f50403adcabc18.jpg)
+
+*16 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are shown without one.*
+
+| Room | Type | Floor | Dimensions | Area |
+| :--- | :--- | :--- | :---: | ---: |
+| Living Room | living | lower | 15.5 × 10.4 ft | 161 sq ft |
+| Kitchen | kitchen | lower | 16.5 × 16.3 ft | 269 sq ft |
+| Lounge/Basement | living | lower | 21.7 × 11 ft | 239 sq ft |
+| Shower Room | bathroom | lower | 10.4 × 5.4 ft | 56 sq ft |
+| Utility Room | utility | lower | 8.3 × 6.7 ft | 56 sq ft |
+| Store | store | lower | 8.4 × 4.4 ft | 37 sq ft |
+| Bedroom 3 | bedroom | ground | 12.6 × 10.6 ft | 134 sq ft |
+| Bathroom | bathroom | ground | 6.7 × 6.6 ft | 44 sq ft |
+| Conservatory | other | ground | 7.1 × 6.9 ft | 49 sq ft |
+| Dining Room | dining | ground | 11.9 × 11.1 ft | 132 sq ft |
+| Study | study | ground | 8.4 × 8.1 ft | 68 sq ft |
+| Living Room | living | ground | 17.7 × 11 ft | 195 sq ft |
+| Summer House | outbuilding | ground | 16 × 11.5 ft | 184 sq ft |
+| Bedroom 2 | bedroom | first | 12.2 × 11.1 ft | 135 sq ft |
+| Main Bedroom | bedroom | first | 15.1 × 12.1 ft | 183 sq ft |
+| En-suite | bathroom | first | 8.8 × 6 ft | 53 sq ft |
 
 ### Score Breakdown
 
@@ -467,7 +643,46 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
 | **Wide living room** | plan-verified | Reception Room measures 19.3 ft at its widest (floor-plan) — clears the 15 ft mark |
-| **Home theatre potential** | photo-hint | Dining Room measures 14.7 x 13.8 ft (203 sq ft) on the floor plan, a separate room from the Reception Room — room for a smaller screen or fewer seats; at that size it holds a 149-inch screen with the front row 9 ft from it, 1 recliner row of 4 across (11.2 ft of frontage, a four-seat family sofa), 4 seats. The target is a 150-inch screen (10.9 x 6.1 ft image) 9 ft from the front row, needing a 13.9 ft wall and 8.6 ft of ceiling; seating is 27 in per recliner across the frontage and 4 ft deep per row with a 3 ft aisle between rows, so 10 across comes to about 26 x 14 ft and every extra row adds 7 ft of depth |
+| **Home theatre potential** | photo-hint | Dining Room measures 14.7 x 13.8 ft (203 sq ft) on the floor plan, a separate room from the Reception Room — room for a smaller screen or fewer seats; at that size it holds a 149-inch screen with the front row 9 ft from it, 1 recliner row of 4 across (11.2 ft of frontage, a four-seat family sofa), 4 seats |
+
+*Home theatre is measured against a 150-inch 16:9 screen 9 ft from the front row, which needs a 13.9 ft wall and 8.6 ft of ceiling. Seating is variable: 27 in per recliner across the frontage, 4 ft deep per row, and a 3 ft aisle between rows — so 10 across comes to about 26 × 14 ft, and each extra row adds 7 ft of depth. The candidate is always a second room, never the main living room or the kitchen.*
+
+### Floorplan Analysis
+
+![Floor plan for Manor Road, Barnet EN5](https://lid.zoocdn.com/645/430/a6b1653d00cd87f3720ccc001224244c736709ec.jpg)
+
+*28 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are shown without one.*
+
+| Room | Type | Floor | Dimensions | Area |
+| :--- | :--- | :--- | :---: | ---: |
+| Bedroom 1 | bedroom | first | 12.5 × 11.6 ft | 145 sq ft |
+| Bedroom 2 | bedroom | first | 19.1 × 8.6 ft | 164 sq ft |
+| Bedroom 3 | bedroom | first | 12.5 × 11.6 ft | 145 sq ft |
+| Bedroom 4 | bedroom | first | 12.5 × 11.6 ft | 145 sq ft |
+| Bedroom 5 | bedroom | first | 12.5 × 11.6 ft | 145 sq ft |
+| Dressing Room | other | first | not printed | — |
+| Shed | outbuilding | ground | 16 × 7.5 ft | 120 sq ft |
+| Kitchen / Dining Room | kitchen | ground | 15.5 × 11.8 ft | 183 sq ft |
+| Utility | utility | ground | 13.4 × 8.4 ft | 113 sq ft |
+| Reception Room | living | ground | 14.2 × 13.9 ft | 197 sq ft |
+| Dining Room | dining | ground | 14.7 × 13.8 ft | 203 sq ft |
+| Office | study | ground | 13.4 × 6.8 ft | 91 sq ft |
+| Reception Room | living | ground | 14.2 × 13.9 ft | 197 sq ft |
+| Garden | garden | ground | 89.8 × 45.1 ft | 4,050 sq ft |
+| Shed | outbuilding | ground | 16 × 7.5 ft | 120 sq ft |
+| Garden | garden | ground | 89.8 × 45.1 ft | 4,050 sq ft |
+| Utility | utility | ground | 13.4 × 8 ft | 107 sq ft |
+| Kitchen / Dining Room | kitchen | ground | 15.5 × 11.8 ft | 183 sq ft |
+| Reception Room | living | ground | 20.4 × 19.3 ft | 394 sq ft |
+| Reception Room | living | ground | 14.2 × 13.9 ft | 197 sq ft |
+| Dining Room | dining | ground | 14.3 × 13.8 ft | 197 sq ft |
+| Office | study | ground | 13.4 × 6 ft | 80 sq ft |
+| Bedroom 1 | bedroom | first | 12.5 × 11.9 ft | 149 sq ft |
+| Bedroom 2 | bedroom | first | 19.1 × 8.6 ft | 164 sq ft |
+| Bedroom 3 | bedroom | first | 12.5 × 11.9 ft | 149 sq ft |
+| Bedroom 4 | bedroom | first | 10.1 × 8.9 ft | 90 sq ft |
+| Bedroom 5 | bedroom | first | 8.4 × 7.1 ft | 60 sq ft |
+| Dressing Room | other | first | not printed | — |
 
 ### Score Breakdown
 
@@ -524,7 +739,30 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Sun roof / lantern in living areas** | photo-hint | Glazing seen in photos (room unverified) |
 | **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
 | **Wide living room** | plan-verified | Largest living area is 11.7 ft (Reception Room, floor-plan) — below the 15 ft mark |
-| **Home theatre potential** | not-stated | No cinema or media room mentioned and no other room on the plan is large enough to be one; the target is a 150-inch screen (10.9 x 6.1 ft image) 9 ft from the front row, needing a 13.9 ft wall and 8.6 ft of ceiling; seating is 27 in per recliner across the frontage and 4 ft deep per row with a 3 ft aisle between rows, so 10 across comes to about 26 x 14 ft and every extra row adds 7 ft of depth |
+| **Home theatre potential** | not-stated | No cinema or media room mentioned, and no other room on the plan is large enough to be one |
+
+*Home theatre is measured against a 150-inch 16:9 screen 9 ft from the front row, which needs a 13.9 ft wall and 8.6 ft of ceiling. Seating is variable: 27 in per recliner across the frontage, 4 ft deep per row, and a 3 ft aisle between rows — so 10 across comes to about 26 × 14 ft, and each extra row adds 7 ft of depth. The candidate is always a second room, never the main living room or the kitchen.*
+
+### Floorplan Analysis
+
+![Floor plan for Ainsworth Close, Whetstone N20](https://lid.zoocdn.com/645/430/31ca399a5075d87fd4add2b5d2a41eda96d57ec3.jpg)
+
+*12 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are shown without one.*
+
+| Room | Type | Floor | Dimensions | Area |
+| :--- | :--- | :--- | :---: | ---: |
+| Garage | outbuilding | ground | 10 × 10 ft | 100 sq ft |
+| Private Parking | outbuilding | ground | 12.7 × 12.3 ft | 156 sq ft |
+| Reception Room | living | ground | 15 × 11.7 ft | 176 sq ft |
+| Kitchen | kitchen | ground | 26.4 × 9.3 ft | 246 sq ft |
+| Study | study | ground | 9.1 × 7.2 ft | 66 sq ft |
+| Bedroom 1 | bedroom | first | 18.3 × 10.7 ft | 196 sq ft |
+| Bedroom 2 | bedroom | second | 17.7 × 10 ft | 177 sq ft |
+| Bedroom 3 | bedroom | second | 17.6 × 11.9 ft | 209 sq ft |
+| Bedroom 4 | bedroom | first | 12.8 × 7.1 ft | 91 sq ft |
+| Bedroom 5 | bedroom | first | 11.1 × 7 ft | 78 sq ft |
+| Rear Garden | garden | ground | 40 × 12.2 ft | 488 sq ft |
+| Front Garden | garden | ground | 28.3 × 9.1 ft | 258 sq ft |
 
 ### Score Breakdown
 
@@ -581,7 +819,29 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
 | **Wide living room** | plan-verified | Sitting Room measures 25.5 ft at its widest (floor-plan) — clears the 15 ft mark |
-| **Home theatre potential** | not-stated | No cinema or media room mentioned and no other room on the plan is large enough to be one; the target is a 150-inch screen (10.9 x 6.1 ft image) 9 ft from the front row, needing a 13.9 ft wall and 8.6 ft of ceiling; seating is 27 in per recliner across the frontage and 4 ft deep per row with a 3 ft aisle between rows, so 10 across comes to about 26 x 14 ft and every extra row adds 7 ft of depth |
+| **Home theatre potential** | not-stated | No cinema or media room mentioned, and no other room on the plan is large enough to be one |
+
+*Home theatre is measured against a 150-inch 16:9 screen 9 ft from the front row, which needs a 13.9 ft wall and 8.6 ft of ceiling. Seating is variable: 27 in per recliner across the frontage, 4 ft deep per row, and a 3 ft aisle between rows — so 10 across comes to about 26 × 14 ft, and each extra row adds 7 ft of depth. The candidate is always a second room, never the main living room or the kitchen.*
+
+### Floorplan Analysis
+
+![Floor plan for Well Grove, Whetstone N20](https://lid.zoocdn.com/645/430/6d1c25e6857875fc30b7f76184d04e6e834832ae.jpg)
+
+*11 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are shown without one.*
+
+| Room | Type | Floor | Dimensions | Area |
+| :--- | :--- | :--- | :---: | ---: |
+| Garden Room | outbuilding | ground | 15.5 × 11.2 ft | 174 sq ft |
+| Sitting Room | living | ground | 25.7 × 25.5 ft | 655 sq ft |
+| Kitchen | kitchen | ground | 17.2 × 11.7 ft | 201 sq ft |
+| Study | study | ground | not printed | — |
+| Bedroom | bedroom | ground | 18.5 × 10.7 ft | 198 sq ft |
+| Workshop | outbuilding | ground | 34.7 × 22.3 ft | 774 sq ft |
+| Front Garden | garden | ground | 39.7 × 12 ft | 476 sq ft |
+| Rear Garden | garden | ground | 63.5 × 14.5 ft | 921 sq ft |
+| Bedroom | bedroom | first | 12.2 × 10.3 ft | 126 sq ft |
+| Bedroom | bedroom | first | 18 × 11.2 ft | 202 sq ft |
+| Bedroom | bedroom | first | 19.7 × 18.3 ft | 361 sq ft |
 
 ### Score Breakdown
 
@@ -644,7 +904,27 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Sun roof / lantern in living areas** | photo-hint | skylight seen in a living-area photo (room unverified) |
 | **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
 | **Wide living room** | plan-verified | Largest living area is 13.3 ft (Reception, floor-plan) — below the 15 ft mark |
-| **Home theatre potential** | not-stated | No cinema or media room mentioned and no other room on the plan is large enough to be one; the target is a 150-inch screen (10.9 x 6.1 ft image) 9 ft from the front row, needing a 13.9 ft wall and 8.6 ft of ceiling; seating is 27 in per recliner across the frontage and 4 ft deep per row with a 3 ft aisle between rows, so 10 across comes to about 26 x 14 ft and every extra row adds 7 ft of depth |
+| **Home theatre potential** | not-stated | No cinema or media room mentioned, and no other room on the plan is large enough to be one |
+
+*Home theatre is measured against a 150-inch 16:9 screen 9 ft from the front row, which needs a 13.9 ft wall and 8.6 ft of ceiling. Seating is variable: 27 in per recliner across the frontage, 4 ft deep per row, and a 3 ft aisle between rows — so 10 across comes to about 26 × 14 ft, and each extra row adds 7 ft of depth. The candidate is always a second room, never the main living room or the kitchen.*
+
+### Floorplan Analysis
+
+![Floor plan for Meadway, Barnet EN5](https://lid.zoocdn.com/645/430/42104e740e8860ae8dc969e9b0f13941d032d7df.jpg)
+
+*9 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are shown without one.*
+
+| Room | Type | Floor | Dimensions | Area |
+| :--- | :--- | :--- | :---: | ---: |
+| Bedroom | bedroom | ground | 13.5 × 11.5 ft | 155 sq ft |
+| Bedroom | bedroom | ground | 11.5 × 11.5 ft | 132 sq ft |
+| Hall | circulation | ground | not printed | — |
+| Bathroom | bathroom | ground | 13.2 × 5.8 ft | 77 sq ft |
+| Kitchen | kitchen | ground | 16.7 × 9.2 ft | 154 sq ft |
+| Reception | living | ground | 21.3 × 13.3 ft | 283 sq ft |
+| Conservatory | other | ground | 11.8 × 11.2 ft | 132 sq ft |
+| Bedroom | bedroom | first | 17.3 × 9.2 ft | 159 sq ft |
+| Eaves Storage | store | first | not printed | — |
 
 ### Score Breakdown
 
