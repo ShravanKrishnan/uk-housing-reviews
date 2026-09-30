@@ -43,7 +43,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Sun roof / lantern in living areas** | photo-hint | skylight seen in a living-area photo (room unverified) |
 | **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
 | **Wide living room** | plan-verified | Kitchen / Dining Room 27'10 x 15' measures 15.0 ft at its widest (floor-plan) — clears the 15 ft mark |
-| **Home theatre potential** | photo-hint | Kitchen / Dining Room 27'10 x 15' measures 27.8 x 15.0 ft (417 sq ft) on the floor plan — room for a smaller screen and fewer seats; at that size it holds a 138-inch screen at 11.5 ft with 10 seats. The full spec needs about 30 x 12 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat sofa (26 ft of frontage)) |
+| **Home theatre potential** | plan-verified | Kitchen / Dining Room 27'10 x 15' measures 27.8 x 15.0 ft (417 sq ft) on the floor plan — clears the spec: needs about 26 x 12 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat linked row (22.5 ft of frontage)) |
 
 ### Score Breakdown
 
@@ -106,7 +106,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
 | **Wide living room** | plan-verified | Largest living area is 12.0 ft (Lounge, floor-plan) — below the 15 ft mark |
-| **Home theatre potential** | photo-hint | Lounge measures 23.7 x 12.0 ft (284 sq ft) on the floor plan — room for a smaller screen and fewer seats; at that size it holds a 102-inch screen at 8.5 ft with 9 seats. The full spec needs about 30 x 12 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat sofa (26 ft of frontage)) |
+| **Home theatre potential** | photo-hint | Lounge measures 23.7 x 12.0 ft (284 sq ft) on the floor plan — room for a smaller screen and fewer seats; at that size it holds a 102-inch screen at 8.5 ft with 10 seats. The full spec needs about 26 x 12 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat linked row (22.5 ft of frontage)) |
 
 ### Score Breakdown
 
@@ -164,7 +164,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
 | **Wide living room** | plan-verified | Largest living area is 14.5 ft (Lounge, floor-plan) — below the 15 ft mark |
-| **Home theatre potential** | photo-hint | Lounge measures 17.7 x 14.5 ft (257 sq ft) on the floor plan — room for a smaller screen and fewer seats; at that size it holds a 132-inch screen at 11.0 ft with 6 seats. The full spec needs about 30 x 12 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat sofa (26 ft of frontage)) |
+| **Home theatre potential** | photo-hint | Lounge measures 17.7 x 14.5 ft (257 sq ft) on the floor plan — room for a smaller screen and fewer seats; at that size it holds a 132-inch screen at 11.0 ft with 7 seats. The full spec needs about 26 x 12 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat linked row (22.5 ft of frontage)) |
 
 ### Score Breakdown
 
@@ -226,7 +226,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
 | **Wide living room** | plan-verified | Largest living area is 12.7 ft (Living/Dining Room, floor-plan) — below the 15 ft mark |
-| **Home theatre potential** | photo-hint | Living/Dining Room measures 27.5 x 12.7 ft (349 sq ft) on the floor plan — room for a smaller screen and fewer seats; at that size it holds a 110-inch screen at 9.2 ft with 10 seats. The full spec needs about 30 x 12 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat sofa (26 ft of frontage)) |
+| **Home theatre potential** | plan-verified | Living/Dining Room measures 27.5 x 12.7 ft (349 sq ft) on the floor plan — clears the spec: needs about 26 x 12 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat linked row (22.5 ft of frontage)) |
 
 ### Score Breakdown
 
@@ -288,7 +288,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
 | **Wide living room** | plan-verified | Sitting Room measures 17.9 ft at its widest (floor-plan) — clears the 15 ft mark |
-| **Home theatre potential** | photo-hint | Sitting Room measures 25.2 x 17.9 ft (451 sq ft) on the floor plan — clears the screen but not the seating; at that size it holds a 150-inch screen at 14.4 ft with 9 seats. The full spec needs about 30 x 12 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat sofa (26 ft of frontage)) |
+| **Home theatre potential** | photo-hint | Sitting Room measures 25.2 x 17.9 ft (451 sq ft) on the floor plan — room for a smaller screen and fewer seats; at that size it holds a 150-inch screen at 14.4 ft with 11 seats. The full spec needs about 26 x 12 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat linked row (22.5 ft of frontage)) |
 
 ### Score Breakdown
 
@@ -349,7 +349,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
 | **Wide living room** | plan-verified | Living Room measures 16.8 ft at its widest (floor-plan) — clears the 15 ft mark |
-| **Home theatre potential** | photo-hint | Living Room measures 19.7 x 16.8 ft (331 sq ft) on the floor plan — clears the screen but not the seating; at that size it holds a 150-inch screen at 13.3 ft with 7 seats. The full spec needs about 30 x 12 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat sofa (26 ft of frontage)) |
+| **Home theatre potential** | photo-hint | Living Room measures 19.7 x 16.8 ft (331 sq ft) on the floor plan — clears the screen but not the seating; at that size it holds a 150-inch screen at 13.3 ft with 8 seats. The full spec needs about 26 x 12 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat linked row (22.5 ft of frontage)) |
 
 ### Score Breakdown
 
@@ -405,7 +405,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
 | **Wide living room** | plan-verified | Kitchen measures 16.3 ft at its widest (floor-plan) — clears the 15 ft mark |
-| **Home theatre potential** | photo-hint | Kitchen measures 16.5 x 16.3 ft (269 sq ft) on the floor plan — clears the screen but not the seating; at that size it holds a 150-inch screen at 12.8 ft with 6 seats. The full spec needs about 30 x 12 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat sofa (26 ft of frontage)) |
+| **Home theatre potential** | photo-hint | Kitchen measures 16.5 x 16.3 ft (269 sq ft) on the floor plan — clears the screen but not the seating; at that size it holds a 150-inch screen at 12.8 ft with 7 seats. The full spec needs about 26 x 12 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat linked row (22.5 ft of frontage)) |
 
 ### Score Breakdown
 
@@ -467,7 +467,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
 | **Wide living room** | plan-verified | Reception Room measures 19.3 ft at its widest (floor-plan) — clears the 15 ft mark |
-| **Home theatre potential** | photo-hint | Reception Room measures 20.4 x 19.3 ft (394 sq ft) on the floor plan — clears the screen but not the seating; at that size it holds a 150-inch screen at 15.8 ft with 7 seats. The full spec needs about 30 x 12 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat sofa (26 ft of frontage)) |
+| **Home theatre potential** | photo-hint | Reception Room measures 20.4 x 19.3 ft (394 sq ft) on the floor plan — clears the screen but not the seating; at that size it holds a 150-inch screen at 15.8 ft with 9 seats. The full spec needs about 26 x 12 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat linked row (22.5 ft of frontage)) |
 
 ### Score Breakdown
 
@@ -524,7 +524,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Sun roof / lantern in living areas** | photo-hint | Glazing seen in photos (room unverified) |
 | **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
 | **Wide living room** | plan-verified | Largest living area is 11.7 ft (Reception Room, floor-plan) — below the 15 ft mark |
-| **Home theatre potential** | photo-hint | Kitchen measures 26.4 x 9.3 ft (246 sq ft) on the floor plan — below the spec; at that size it holds a 70-inch screen at 5.8 ft with 10 seats. The full spec needs about 30 x 12 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat sofa (26 ft of frontage)) |
+| **Home theatre potential** | photo-hint | Kitchen measures 26.4 x 9.3 ft (246 sq ft) on the floor plan — below the spec; at that size it holds a 70-inch screen at 5.8 ft with 11 seats. The full spec needs about 26 x 12 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat linked row (22.5 ft of frontage)) |
 
 ### Score Breakdown
 
@@ -581,7 +581,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
 | **Wide living room** | plan-verified | Sitting Room measures 25.5 ft at its widest (floor-plan) — clears the 15 ft mark |
-| **Home theatre potential** | photo-hint | Sitting Room measures 25.7 x 25.5 ft (655 sq ft) on the floor plan — clears the screen but not the seating; at that size it holds a 150-inch screen at 22.0 ft with 9 seats. The full spec needs about 30 x 12 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat sofa (26 ft of frontage)) |
+| **Home theatre potential** | photo-hint | Sitting Room measures 25.7 x 25.5 ft (655 sq ft) on the floor plan — room for a smaller screen and fewer seats; at that size it holds a 150-inch screen at 22.0 ft with 11 seats. The full spec needs about 26 x 12 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat linked row (22.5 ft of frontage)) |
 
 ### Score Breakdown
 
@@ -644,7 +644,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Sun roof / lantern in living areas** | photo-hint | skylight seen in a living-area photo (room unverified) |
 | **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
 | **Wide living room** | plan-verified | Largest living area is 13.3 ft (Reception, floor-plan) — below the 15 ft mark |
-| **Home theatre potential** | photo-hint | Reception measures 21.3 x 13.3 ft (283 sq ft) on the floor plan — room for a smaller screen and fewer seats; at that size it holds a 118-inch screen at 9.8 ft with 8 seats. The full spec needs about 30 x 12 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat sofa (26 ft of frontage)) |
+| **Home theatre potential** | photo-hint | Reception measures 21.3 x 13.3 ft (283 sq ft) on the floor plan — room for a smaller screen and fewer seats; at that size it holds a 118-inch screen at 9.8 ft with 9 seats. The full spec needs about 26 x 12 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft (10.9 x 6.1 ft image) with a 10-seat linked row (22.5 ft of frontage)) |
 
 ### Score Breakdown
 
