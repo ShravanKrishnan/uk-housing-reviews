@@ -226,7 +226,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
 | **Wide living room** | plan-verified | Largest living area is 12.7 ft (Living/Dining Room, floor-plan) — below the 15 ft mark |
-| **Home theatre potential** | not-stated | No cinema or media room mentioned and no other room on the plan is large enough to be one — the Living/Dining Room would take a 104-inch screen with the front row 8.7 ft from it, 1 recliner row of 10 across (24 ft of frontage, a modular sectional run), 10 seats if the sofas came out, but that is the room the family sits in; the spec needs about 26 x 14 ft of floor and 9 ft of ceiling height |
+| **Home theatre potential** | not-stated | No cinema or media room mentioned and no other room on the plan is large enough to be one; the spec needs about 26 x 14 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft) |
 
 ### Score Breakdown
 
@@ -524,7 +524,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Sun roof / lantern in living areas** | photo-hint | Glazing seen in photos (room unverified) |
 | **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
 | **Wide living room** | plan-verified | Largest living area is 11.7 ft (Reception Room, floor-plan) — below the 15 ft mark |
-| **Home theatre potential** | not-stated | No cinema or media room mentioned and no other room on the plan is large enough to be one — the Reception Room would take a 92-inch screen with the front row 7.7 ft from it, 1 recliner row of 5 across (11.5 ft of frontage, a modular sectional run), 5 seats if the sofas came out, but that is the room the family sits in; the spec needs about 26 x 14 ft of floor and 9 ft of ceiling height |
+| **Home theatre potential** | not-stated | No cinema or media room mentioned and no other room on the plan is large enough to be one; the spec needs about 26 x 14 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft) |
 
 ### Score Breakdown
 
@@ -581,7 +581,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
 | **Wide living room** | plan-verified | Sitting Room measures 25.5 ft at its widest (floor-plan) — clears the 15 ft mark |
-| **Home theatre potential** | not-stated | No cinema or media room mentioned and no other room on the plan is large enough to be one — the Sitting Room would take a 150-inch screen with the front row 9 ft from it, 2 recliner rows of 9 across (22.2 ft of frontage, a modular sectional run), 18 seats if the sofas came out, but that is the room the family sits in; the spec needs about 26 x 14 ft of floor and 9 ft of ceiling height |
+| **Home theatre potential** | not-stated | No cinema or media room mentioned and no other room on the plan is large enough to be one; the spec needs about 26 x 14 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft) |
 
 ### Score Breakdown
 
@@ -644,7 +644,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Sun roof / lantern in living areas** | photo-hint | skylight seen in a living-area photo (room unverified) |
 | **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
 | **Wide living room** | plan-verified | Largest living area is 13.3 ft (Reception, floor-plan) — below the 15 ft mark |
-| **Home theatre potential** | not-stated | No cinema or media room mentioned and no other room on the plan is large enough to be one — the Reception would take a 144-inch screen with the front row 9 ft from it, 1 recliner row of 7 across (17.8 ft of frontage, a modular sectional run), 7 seats if the sofas came out, but that is the room the family sits in; the spec needs about 26 x 14 ft of floor and 9 ft of ceiling height |
+| **Home theatre potential** | not-stated | No cinema or media room mentioned and no other room on the plan is large enough to be one; the spec needs about 26 x 14 ft of floor and 9 ft of ceiling height (150-inch screen at 9 ft) |
 
 ### Score Breakdown
 
