@@ -11,8 +11,8 @@ Evaluated **11** properties against combined quality and technical indicators.
 | 5 | **Meadway** | £750,000 | 1,271.0 | £590 | D | **69.5** | `Partially Modernized` |
 | 6 | **Ainsworth Close** | £1,375,000 | 1,982.0 | £694 | B | **69.2** | `Partially Modernized` |
 | 7 | **Rolfe Close** | £1,000,000 | 2,223.8 | £450 | D | **67.5** | `Partially Modernized` |
-| 8 | **Gloucester Road** | £1,250,000 | 1,760.0 | £710 | D | **65.5** | `Partially Modernized` |
-| 9 | **Manor Road** | £1,450,000 | 2,471.0 | £587 | C | **65.0** | `Partially Modernized` |
+| 8 | **Manor Road** | £1,450,000 | 2,471.0 | £587 | C | **67.5** | `Partially Modernized` |
+| 9 | **Gloucester Road** | £1,250,000 | 1,760.0 | £710 | D | **66.5** | `Partially Modernized` |
 | 10 | **Park Road** | £1,300,000 | 2,471.0 | £526 | C | **63.5** | `Partially Modernized` |
 | 11 | **Maryrose Way** | £1,150,000 | 2,514.0 | £457 | E | **63.0** | `Partially Modernized` |
 
@@ -41,7 +41,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Underfloor heating** | not-stated | Not mentioned in the listing or EPC |
 | **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden south (listing silent) |
 | **Sun roof / lantern in living areas** | photo-hint | skylight seen in a living-area photo (room unverified) |
-| **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
+| **Second ground-floor sitting room** | plan-verified | No ground-floor bedroom, but the plan shows a second sitting room — Sitting Room, 17.8 x 10.3 ft — which serves the same downstairs space |
 | **Wide living room** | plan-verified | Kitchen / Dining Room measures 15.0 ft at its widest (floor-plan) — clears the 15 ft mark |
 | **Home theatre potential** | photo-hint | Sitting Room measures 17.8 x 10.3 ft (183 sq ft) on the floor plan, a separate room from the Sitting Room — room for a smaller screen or fewer seats; at that size it holds a 76-inch screen with the front row 6.3 ft from it, 1 recliner row of 6 across (14.3 ft of frontage, a modular sectional run), 6 seats |
 
@@ -74,7 +74,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | Component | Score | Max | Evidence that earned it |
 | :--- | :---: | :---: | :--- |
 | **Location & transport** | **15.0** | 15 | • Prime Liverpool St commute: ~34 mins door-to-concourse via Oakleigh Park (6m walk + 24m rail)<br>• King's Cross St Pancras commute ~23 mins via Oakleigh Park (+2)<br>• 2 transit lines within walk — broad Central London access (+0.5) |
-| **Space, scale & layout** | **20.0** | 20 | • Square footage taken from floor plan (image analysis)<br>• Generous proportions: 2,340.0 sq ft total (585 sq ft/bed)<br>• Superb bathroom provision (3 baths for 4 beds)<br>• Wide living room: Kitchen / Dining Room 15.0 ft (floorplan) |
+| **Space, scale & layout** | **20.0** | 20 | • Square footage taken from floor plan (image analysis)<br>• Generous proportions: 2,340.0 sq ft total (585 sq ft/bed)<br>• Superb bathroom provision (3 baths for 4 beds)<br>• Wide living room: Kitchen / Dining Room 15.0 ft (floorplan)<br>• No ground-floor bedroom, but a second ground-floor sitting room (Sitting Room 17.8 x 10.3 ft) gives the same downstairs space |
 | **Financial efficiency** | **11.0** | 15 | • £502 per sq ft on 2,340 sq ft — 8 of 10<br>• £1,175,000 asking price — 3 of 5 |
 | **Technical & EPC** | **23.0** | 25 | • EPC assessed 2015-03-09: certificate expired — points scored as stated<br>• EPC: no secondary heating (no dated room heaters)<br>• EPC: insulated roof (pitched, 350 mm loft insulation)<br>• EPC: double glazing recorded (fully double glazed)<br>• Roof glazing seen in photos: skylight<br>• EPC: pitched roof with accessible loft (pitched, 350 mm loft insulation) — scope for a simple loft extension (structural survey still required)<br>• Architectural glazing / roof lantern visible in photos (image analysis)<br>• Premium high-end kitchen finish evident in photos (image analysis) |
 | **Observed presentation** | **11.7** | 15 | • Presented finish observed as refurbished in listing photographs (image analysis) |
@@ -124,7 +124,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Underfloor heating** | not-stated | Not mentioned in the listing or EPC |
 | **South-facing garden** | photo-hint | Photos suggest south — confirm with a compass |
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
-| **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
+| **Ground-floor bedroom** | plan-verified | Floorplan shows 1 bedroom on the ground floor (Bedroom 2) |
 | **Wide living room** | plan-verified | Largest living area is 12.0 ft (Lounge, floor-plan) — below the 15 ft mark |
 | **Home theatre potential** | photo-hint | Dining Room measures 23.7 x 10.2 ft (242 sq ft) on the floor plan, a separate room from the Lounge — room for a smaller screen or fewer seats; at that size it holds a 74-inch screen with the front row 6.2 ft from it, 1 recliner row of 8 across (20.2 ft of frontage, a modular sectional run), 8 seats |
 
@@ -158,7 +158,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | Component | Score | Max | Evidence that earned it |
 | :--- | :---: | :---: | :--- |
 | **Location & transport** | **15.0** | 15 | • Fast Liverpool St commute: ~42 mins door-to-concourse via New Barnet (12m walk + 26m rail)<br>• King's Cross St Pancras commute ~31 mins via New Barnet (+2)<br>• 3 stations within 0.8 mi — commuting resilience (+2)<br>• Night Tube / 24h service within walking distance (+1)<br>• 3 transit lines within walk — broad Central London access (+1) |
-| **Space, scale & layout** | **20.0** | 20 | • Square footage taken from floor plan (image analysis)<br>• Exceptional volume: 2,223.8 sq ft total (741 sq ft/bed)<br>• Well balanced bathroom ratio (2 baths for 3 beds)<br>• Dedicated utility room present<br>• Living room width: 12.0 ft (below 15 ft)<br>• Ground-floor bedroom confirmed on floorplan |
+| **Space, scale & layout** | **20.0** | 20 | • Square footage taken from floor plan (image analysis)<br>• Exceptional volume: 2,223.8 sq ft total (741 sq ft/bed)<br>• Well balanced bathroom ratio (2 baths for 3 beds)<br>• Dedicated utility room present<br>• Living room width: 12.0 ft (below 15 ft)<br>• Ground-floor bedroom confirmed on floorplan: 1 (Bedroom 2) |
 | **Financial efficiency** | **14.0** | 15 | • £450 per sq ft on 2,224 sq ft — 10 of 10<br>• £1,000,000 asking price — 4 of 5 |
 | **Technical & EPC** | **12.0** | 25 | • EPC: no secondary heating (no dated room heaters)<br>• EPC: insulated roof (pitched, 270 mm loft insulation)<br>• EPC: double glazing recorded (fully double glazed)<br>• EPC: pitched roof with accessible loft (pitched, 270 mm loft insulation) — scope for a simple loft extension (structural survey still required) |
 | **Observed presentation** | **6.5** | 15 | • Presented finish observed as partially modernised in listing photographs (image analysis) |
@@ -294,7 +294,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Underfloor heating** | not-stated | Not mentioned in the listing or EPC |
 | **South-facing garden** | photo-hint | Photos suggest south — confirm with a compass |
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
-| **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
+| **Ground-floor bedroom** | plan-verified | Floorplan shows 1 bedroom on the ground floor (Bedroom 5) |
 | **Wide living room** | plan-verified | Largest living area is 12.7 ft (Living/Dining Room, floor-plan) — below the 15 ft mark |
 | **Home theatre potential** | not-stated | No cinema or media room mentioned, and no other room on the plan is large enough to be one |
 
@@ -333,7 +333,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | Component | Score | Max | Evidence that earned it |
 | :--- | :---: | :---: | :--- |
 | **Location & transport** | **15.0** | 15 | • Fast Liverpool St commute: ~40 mins door-to-concourse via New Barnet (10m walk + 26m rail)<br>• King's Cross St Pancras commute ~29 mins via New Barnet (+2)<br>• 3 stations within 0.8 mi — commuting resilience (+2)<br>• Night Tube / 24h service within walking distance (+1)<br>• 3 transit lines within walk — broad Central London access (+1) |
-| **Space, scale & layout** | **20.0** | 20 | • Square footage taken from floor plan (image analysis)<br>• Generous proportions: 2,471.0 sq ft total (494 sq ft/bed)<br>• Well balanced bathroom ratio (3 baths for 5 beds)<br>• Dedicated utility room present<br>• Ground floor guest WC present<br>• Living room width: 12.7 ft (below 15 ft)<br>• Ground-floor bedroom confirmed on floorplan |
+| **Space, scale & layout** | **20.0** | 20 | • Square footage taken from floor plan (image analysis)<br>• Generous proportions: 2,471.0 sq ft total (494 sq ft/bed)<br>• Well balanced bathroom ratio (3 baths for 5 beds)<br>• Dedicated utility room present<br>• Ground floor guest WC present<br>• Living room width: 12.7 ft (below 15 ft)<br>• Ground-floor bedroom confirmed on floorplan: 1 (Bedroom 5) |
 | **Financial efficiency** | **10.0** | 15 | • £526 per sq ft on 2,471 sq ft — 8 of 10<br>• £1,300,000 asking price — 2 of 5 |
 | **Technical & EPC** | **12.0** | 25 | • EPC: secondary heating present (room heaters, mains gas)<br>• EPC: wall insulation recorded (cavity wall, as built, partial insulation (assumed))<br>• EPC: insulated roof (pitched, 75 mm loft insulation)<br>• EPC: double glazing recorded (fully double glazed)<br>• EPC: pitched roof with accessible loft (pitched, 75 mm loft insulation) — scope for a simple loft extension (structural survey still required) |
 | **Observed presentation** | **6.5** | 15 | • Presented finish observed as partially modernised in listing photographs (image analysis) |
@@ -382,7 +382,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Underfloor heating** | not-stated | Not mentioned in the listing or EPC |
 | **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden south (listing silent) |
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
-| **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
+| **Ground-floor bedroom** | plan-verified | Floorplan shows 2 bedrooms on the ground floor |
 | **Wide living room** | plan-verified | Sitting Room measures 17.9 ft at its widest (floor-plan) — clears the 15 ft mark |
 | **Home theatre potential** | photo-hint | Tv Room measures 12.5 x 11.2 ft (140 sq ft) on the floor plan, a separate room from the Sitting Room — room for a smaller screen or fewer seats; at that size it holds an 86-inch screen with the front row 7.2 ft from it, 1 recliner row of 4 across (9 ft of frontage, a four-seat family sofa), 4 seats |
 
@@ -414,7 +414,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | Component | Score | Max | Evidence that earned it |
 | :--- | :---: | :---: | :--- |
 | **Location & transport** | **15.0** | 15 | • Prime Liverpool St commute: ~32 mins door-to-concourse via Oakleigh Park (4m walk + 24m rail)<br>• King's Cross St Pancras commute ~21 mins via Oakleigh Park (+2)<br>• 2 stations within 0.8 mi — commuting resilience (+1)<br>• Night Tube / 24h service within walking distance (+1)<br>• 2 transit lines within walk — broad Central London access (+0.5) |
-| **Space, scale & layout** | **20.0** | 20 | • Square footage taken from floor plan (image analysis)<br>• Exceptional volume: 2,514.0 sq ft total (838 sq ft/bed)<br>• Well balanced bathroom ratio (2 baths for 3 beds)<br>• Wide living room: Sitting Room 17.9 ft (floorplan)<br>• Ground-floor bedroom confirmed on floorplan |
+| **Space, scale & layout** | **20.0** | 20 | • Square footage taken from floor plan (image analysis)<br>• Exceptional volume: 2,514.0 sq ft total (838 sq ft/bed)<br>• Well balanced bathroom ratio (2 baths for 3 beds)<br>• Wide living room: Sitting Room 17.9 ft (floorplan)<br>• Ground-floor bedrooms confirmed on floorplan: 2 |
 | **Financial efficiency** | **11.0** | 15 | • £457 per sq ft on 2,514 sq ft — 8 of 10<br>• £1,150,000 asking price — 3 of 5 |
 | **Technical & EPC** | **12.0** | 25 | • EPC: secondary heating present (room heaters, mains gas)<br>• EPC: insulated roof (pitched, insulated (assumed))<br>• EPC: double glazing recorded (fully double glazed)<br>• EPC: pitched roof with accessible loft (pitched, insulated (assumed)) — scope for a simple loft extension (structural survey still required) |
 | **Observed presentation** | **0.0** | 15 | _no evidence detected — scores on the absence of contrary findings_ |
@@ -462,7 +462,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Underfloor heating** | not-stated | Not mentioned in the listing or EPC |
 | **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden south (listing silent) |
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
-| **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
+| **Second ground-floor sitting room** | plan-verified | No ground-floor bedroom, but the plan shows a second sitting room — Lounge, 10.2 x 9.7 ft — which serves the same downstairs space |
 | **Wide living room** | plan-verified | Living Room measures 16.8 ft at its widest (floor-plan) — clears the 15 ft mark |
 | **Home theatre potential** | photo-hint | Lounge measures 10.2 x 9.7 ft (99 sq ft) on the floor plan, a separate room from the Living Room — room for a smaller screen or fewer seats; at that size it holds a 68-inch screen with the front row 5.7 ft from it, 1 recliner row of 2 across (6.7 ft of frontage, a two-seat loveseat), 2 seats |
 
@@ -491,18 +491,18 @@ Evaluated **11** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [################--------]  65.5 / 100
+  Combined Property Score : [################--------]  66.5 / 100
 ```
 
 | Component | Score | Max | Evidence that earned it |
 | :--- | :---: | :---: | :--- |
 | **Location & transport** | **15.0** | 15 | • Fast Liverpool St commute: ~38 mins door-to-concourse via New Barnet (8m walk + 26m rail)<br>• King's Cross St Pancras commute ~27 mins via New Barnet (+2)<br>• 2 stations within 0.8 mi — commuting resilience (+1)<br>• Night Tube / 24h service within walking distance (+1)<br>• 2 transit lines within walk — broad Central London access (+0.5) |
-| **Space, scale & layout** | **19.0** | 20 | • Square footage taken from floor plan (image analysis)<br>• Standard room sizing: 1,760.0 sq ft total (440 sq ft/bed)<br>• Under-bathroomed (1 bath for 4 beds - morning bottlenecks likely)<br>• Ground floor guest WC present<br>• Separate garden studio / home office footprint<br>• Wide living room: Living Room 16.8 ft (floorplan) |
+| **Space, scale & layout** | **20.0** | 20 | • Square footage taken from floor plan (image analysis)<br>• Standard room sizing: 1,760.0 sq ft total (440 sq ft/bed)<br>• Under-bathroomed (1 bath for 4 beds - morning bottlenecks likely)<br>• Ground floor guest WC present<br>• Separate garden studio / home office footprint<br>• Wide living room: Living Room 16.8 ft (floorplan)<br>• No ground-floor bedroom, but a second ground-floor sitting room (Lounge 10.2 x 9.7 ft) gives the same downstairs space |
 | **Financial efficiency** | **6.0** | 15 | • £710 per sq ft on 1,760 sq ft — 4 of 10<br>• £1,250,000 asking price — 2 of 5 |
 | **Technical & EPC** | **12.0** | 25 | • EPC assessed 31 July 2009: certificate expired — points scored as stated<br>• EPC: secondary heating present (room heaters, mains gas)<br>• EPC: wall insulation recorded (cavity wall, as built, insulated (assumed))<br>• EPC: insulated roof (pitched, 300 mm loft insulation)<br>• EPC: double glazing recorded (fully double glazed)<br>• EPC: pitched roof with accessible loft (pitched, 300 mm loft insulation) — scope for a simple loft extension (structural survey still required) |
 | **Observed presentation** | **6.5** | 15 | • Presented finish observed as partially modernised in listing photographs (image analysis) |
 | **Garden & outdoor** | **7.0** | 10 | • South-facing garden confirmed<br>• Outbuilding present |
-| **Total** | **65.5** | 100 | 1,760.0 sq ft, 4 beds, band D |
+| **Total** | **66.5** | 100 | 1,760.0 sq ft, 4 beds, band D |
 
 **Photographic evidence reviewed for the score:**
 - 25 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -540,7 +540,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Underfloor heating** | not-stated | Not mentioned in the listing or EPC |
 | **South-facing garden** | photo-hint | Photos suggest south — confirm with a compass |
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
-| **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
+| **Ground-floor bedroom** | plan-verified | Floorplan shows 1 bedroom on the ground floor (Bedroom 3) |
 | **Wide living room** | plan-verified | Largest living area is 11.1 ft (Dining Room, floor-plan) — below the 15 ft mark |
 | **Home theatre potential** | photo-hint | Living Room measures 17.7 x 11 ft (195 sq ft) on the floor plan, a separate room from the Lounge/Basement — room for a smaller screen or fewer seats; at that size it holds an 84-inch screen with the front row 7 ft from it, 1 recliner row of 6 across (14.2 ft of frontage, a modular sectional run), 6 seats |
 
@@ -578,7 +578,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | Component | Score | Max | Evidence that earned it |
 | :--- | :---: | :---: | :--- |
 | **Location & transport** | **15.0** | 15 | • Good Liverpool St commute: ~44 mins door-to-concourse via New Barnet (14m walk + 26m rail)<br>• King's Cross St Pancras commute ~33 mins via New Barnet (+2)<br>• 2 stations within 0.8 mi — commuting resilience (+1)<br>• Night Tube / 24h service within walking distance (+1)<br>• 2 transit lines within walk — broad Central London access (+0.5) |
-| **Space, scale & layout** | **20.0** | 20 | • Square footage taken from floor plan (image analysis)<br>• Exceptional volume: 2,611.0 sq ft total (870 sq ft/bed)<br>• Superb bathroom provision (3 baths for 3 beds)<br>• Living room width: 11.1 ft (below 15 ft)<br>• Ground-floor bedroom confirmed on floorplan |
+| **Space, scale & layout** | **20.0** | 20 | • Square footage taken from floor plan (image analysis)<br>• Exceptional volume: 2,611.0 sq ft total (870 sq ft/bed)<br>• Superb bathroom provision (3 baths for 3 beds)<br>• Living room width: 11.1 ft (below 15 ft)<br>• Ground-floor bedroom confirmed on floorplan: 1 (Bedroom 3) |
 | **Financial efficiency** | **10.0** | 15 | • £498 per sq ft on 2,611 sq ft — 8 of 10<br>• £1,300,000 asking price — 2 of 5 |
 | **Technical & EPC** | **17.0** | 25 | • EPC assessed 2016-05-26: certificate expired — points scored as stated<br>• EPC: no secondary heating (no dated room heaters)<br>• EPC: insulated roof (pitched, 100 mm loft insulation)<br>• EPC: partial double glazing (partial double glazing)<br>• Air conditioning present<br>• EPC: pitched roof with accessible loft (pitched, 100 mm loft insulation) — scope for a simple loft extension (structural survey still required) |
 | **Observed presentation** | **11.7** | 15 | • Presented finish observed as refurbished in listing photographs (image analysis) |
@@ -627,7 +627,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Underfloor heating** | stated | Attested on the EPC certificate |
 | **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden south (listing silent) |
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
-| **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
+| **Second ground-floor sitting room** | plan-verified | No ground-floor bedroom, but the plan shows a second sitting room — Reception Room, 14.2 x 13.9 ft — which serves the same downstairs space |
 | **Wide living room** | plan-verified | Reception Room measures 19.3 ft at its widest (floor-plan) — clears the 15 ft mark |
 | **Home theatre potential** | photo-hint | Dining Room measures 14.7 x 13.8 ft (203 sq ft) on the floor plan, a separate room from the Reception Room — room for a smaller screen or fewer seats; at that size it holds a 149-inch screen with the front row 9 ft from it, 1 recliner row of 4 across (11.2 ft of frontage, a four-seat family sofa), 4 seats |
 
@@ -671,18 +671,18 @@ Evaluated **11** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [################--------]  65.0 / 100
+  Combined Property Score : [################--------]  67.5 / 100
 ```
 
 | Component | Score | Max | Evidence that earned it |
 | :--- | :---: | :---: | :--- |
 | **Location & transport** | **12.0** | 15 | • Moderate Liverpool St commute: ~50 mins door-to-concourse via High Barnet (10m walk + 36m rail)<br>• King's Cross St Pancras commute ~42 mins via High Barnet (+1)<br>• Night Tube / 24h service within walking distance (+1) |
-| **Space, scale & layout** | **17.5** | 20 | • Square footage taken from floor plan (image analysis)<br>• Generous proportions: 2,471.0 sq ft total (494 sq ft/bed)<br>• Under-bathroomed (2 bath for 5 beds - morning bottlenecks likely)<br>• Wide living room: Reception Room 19.3 ft (floorplan) |
+| **Space, scale & layout** | **20.0** | 20 | • Square footage taken from floor plan (image analysis)<br>• Generous proportions: 2,471.0 sq ft total (494 sq ft/bed)<br>• Under-bathroomed (2 bath for 5 beds - morning bottlenecks likely)<br>• Wide living room: Reception Room 19.3 ft (floorplan)<br>• No ground-floor bedroom, but a second ground-floor sitting room (Reception Room 14.2 x 13.9 ft) gives the same downstairs space |
 | **Financial efficiency** | **7.0** | 15 | • £587 per sq ft on 2,471 sq ft — 6 of 10<br>• £1,450,000 asking price — 1 of 5 |
 | **Technical & EPC** | **17.0** | 25 | • EPC: no secondary heating (no dated room heaters)<br>• EPC: wall insulation recorded (solid brick, with external insulation)<br>• EPC: insulated roof (pitched, 250 mm loft insulation)<br>• EPC: double glazing recorded (fully double glazed)<br>• Underfloor heating present<br>• EPC: pitched roof with accessible loft (pitched, 250 mm loft insulation) — scope for a simple loft extension (structural survey still required) |
 | **Observed presentation** | **6.5** | 15 | • Presented finish observed as partially modernised in listing photographs (image analysis) |
 | **Garden & outdoor** | **5.0** | 10 | • South-facing garden confirmed |
-| **Total** | **65.0** | 100 | 2,471.0 sq ft, 5 beds, band C |
+| **Total** | **67.5** | 100 | 2,471.0 sq ft, 5 beds, band C |
 
 **Photographic evidence reviewed for the score:**
 - 26 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -799,7 +799,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Underfloor heating** | stated | Attested on the EPC certificate |
 | **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden south (listing silent) |
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
-| **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
+| **Ground-floor bedroom** | plan-verified | Floorplan shows 1 bedroom on the ground floor (Bedroom) |
 | **Wide living room** | plan-verified | Sitting Room measures 25.5 ft at its widest (floor-plan) — clears the 15 ft mark |
 | **Home theatre potential** | not-stated | No cinema or media room mentioned, and no other room on the plan is large enough to be one |
 
@@ -832,7 +832,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | Component | Score | Max | Evidence that earned it |
 | :--- | :---: | :---: | :--- |
 | **Location & transport** | **15.0** | 15 | • Prime Liverpool St commute: ~36 mins door-to-concourse via Oakleigh Park (8m walk + 24m rail)<br>• King's Cross St Pancras commute ~25 mins via Oakleigh Park (+2)<br>• 2 stations within 0.8 mi — commuting resilience (+1)<br>• Night Tube / 24h service within walking distance (+1)<br>• 2 transit lines within walk — broad Central London access (+0.5) |
-| **Space, scale & layout** | **20.0** | 20 | • Square footage taken from floor plan (image analysis)<br>• Generous proportions: 2,229.0 sq ft total (557 sq ft/bed)<br>• Superb bathroom provision (3 baths for 4 beds)<br>• Wide living room: Sitting Room 25.5 ft (floorplan)<br>• Ground-floor bedroom confirmed on floorplan |
+| **Space, scale & layout** | **20.0** | 20 | • Square footage taken from floor plan (image analysis)<br>• Generous proportions: 2,229.0 sq ft total (557 sq ft/bed)<br>• Superb bathroom provision (3 baths for 4 beds)<br>• Wide living room: Sitting Room 25.5 ft (floorplan)<br>• Ground-floor bedroom confirmed on floorplan: 1 (Bedroom) |
 | **Financial efficiency** | **7.0** | 15 | • £651 per sq ft on 2,229 sq ft — 6 of 10<br>• £1,450,000 asking price — 1 of 5 |
 | **Technical & EPC** | **19.0** | 25 | • EPC: no secondary heating (no dated room heaters)<br>• EPC: time and temperature zone control<br>• EPC: insulated roof (average thermal transmittance 0.12 w/m²k)<br>• EPC: insulated floor (average thermal transmittance 0.11 w/m²k)<br>• EPC: high performance glazing (high performance glazing)<br>• Underfloor heating present<br>• EPC: room-in-roof conversion recorded (average thermal transmittance 0.12 w/m²k) |
 | **Observed presentation** | **6.5** | 15 | • Presented finish observed as partially modernised in listing photographs (image analysis) |
@@ -882,7 +882,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Underfloor heating** | not-stated | Not mentioned in the listing or EPC |
 | **South-facing garden** | plan-verified | Listing says south-east-facing; the floor-plan north arrow agrees |
 | **Sun roof / lantern in living areas** | photo-hint | skylight seen in a living-area photo (room unverified) |
-| **Ground-floor bedroom** | plan-verified | Floorplan shows a bedroom on the ground floor |
+| **Ground-floor bedroom** | plan-verified | Floorplan shows 2 bedrooms on the ground floor |
 | **Wide living room** | plan-verified | Largest living area is 13.3 ft (Reception, floor-plan) — below the 15 ft mark |
 | **Home theatre potential** | not-stated | No cinema or media room mentioned, and no other room on the plan is large enough to be one |
 
@@ -913,7 +913,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | Component | Score | Max | Evidence that earned it |
 | :--- | :---: | :---: | :--- |
 | **Location & transport** | **15.0** | 15 | • Good Liverpool St commute: ~46 mins door-to-concourse via High Barnet (6m walk + 36m rail)<br>• King's Cross St Pancras commute ~35 mins via New Barnet (+2)<br>• 2 stations within 0.8 mi — commuting resilience (+1)<br>• Night Tube / 24h service within walking distance (+1)<br>• 2 transit lines within walk — broad Central London access (+0.5) |
-| **Space, scale & layout** | **15.0** | 20 | • Square footage taken from floor plan (image analysis)<br>• Standard room sizing: 1,271.0 sq ft total (424 sq ft/bed)<br>• Under-bathroomed (1 bath for 3 beds - morning bottlenecks likely)<br>• Ground floor guest WC present<br>• Living room width: 13.3 ft (below 15 ft)<br>• Ground-floor bedroom confirmed on floorplan |
+| **Space, scale & layout** | **15.0** | 20 | • Square footage taken from floor plan (image analysis)<br>• Standard room sizing: 1,271.0 sq ft total (424 sq ft/bed)<br>• Under-bathroomed (1 bath for 3 beds - morning bottlenecks likely)<br>• Ground floor guest WC present<br>• Living room width: 13.3 ft (below 15 ft)<br>• Ground-floor bedrooms confirmed on floorplan: 2 |
 | **Financial efficiency** | **11.0** | 15 | • £590 per sq ft on 1,271 sq ft — 6 of 10<br>• £750,000 asking price — 5 of 5 |
 | **Technical & EPC** | **17.0** | 25 | • EPC: no secondary heating (no dated room heaters)<br>• EPC: double glazing recorded (fully double glazed)<br>• Roof glazing seen in photos: skylight<br>• EPC: pitched roof with accessible loft (pitched, no insulation) — scope for a simple loft extension (structural survey still required) |
 | **Observed presentation** | **6.5** | 15 | • Presented finish observed as partially modernised in listing photographs (image analysis) |
