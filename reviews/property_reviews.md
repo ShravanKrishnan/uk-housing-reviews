@@ -486,7 +486,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 
 | Room | Type | Floor | Dimensions | Area |
 | :--- | :--- | :--- | :---: | ---: |
-| Gym/ Conservatory | other | ground | 12.7 × 11.9 ft | 151 sq ft |
+| Gym/ Conservatory | outbuilding | ground | 12.7 × 11.9 ft | 151 sq ft |
 | Kitchen | kitchen | ground | 25.9 × 11.5 ft | 298 sq ft |
 | Lounge | living | ground | 10.2 × 9.7 ft | 99 sq ft |
 | Living Room | living | ground | 19.7 × 16.8 ft | 331 sq ft |
@@ -574,7 +574,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | Store | store | lower | 8.4 × 4.4 ft | 37 sq ft |
 | Bedroom 3 | bedroom | ground | 12.6 × 10.6 ft | 134 sq ft |
 | Bathroom | bathroom | ground | 6.7 × 6.6 ft | 44 sq ft |
-| Conservatory | other | ground | 7.1 × 6.9 ft | 49 sq ft |
+| Conservatory | outbuilding | ground | 7.1 × 6.9 ft | 49 sq ft |
 | Dining Room | dining | ground | 11.9 × 11.1 ft | 132 sq ft |
 | Study | study | ground | 8.4 × 8.1 ft | 68 sq ft |
 | Living Room | living | ground | 17.7 × 11 ft | 195 sq ft |
@@ -922,7 +922,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | Bathroom | bathroom | ground | 13.2 × 5.8 ft | 77 sq ft |
 | Kitchen | kitchen | ground | 16.7 × 9.2 ft | 154 sq ft |
 | Reception | living | ground | 21.3 × 13.3 ft | 283 sq ft |
-| Conservatory | other | ground | 11.8 × 11.2 ft | 132 sq ft |
+| Conservatory | outbuilding | ground | 11.8 × 11.2 ft | 132 sq ft |
 | Bedroom | bedroom | first | 17.3 × 9.2 ft | 159 sq ft |
 | Eaves Storage | store | first | not printed | — |
 
