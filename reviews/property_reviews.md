@@ -4,17 +4,17 @@ Evaluated **11** properties against combined quality and technical indicators.
 
 | Rank | Address | Price | Size | £/sqft | EPC | Score | Classification |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| 1 | **Burlington Rise** | £1,175,000 | 2,340.0 | £502 | C | **87.7** | `Capital-Modernized Gem` |
-| 2 | **Well Grove** | £1,450,000 | 2,229.0 | £650 | B | **74.5** | `Partially Modernized` |
-| 3 | **Hadley Road** | £1,300,000 | 2,611.0 | £498 | D | **73.7** | `Partially Modernized` |
-| 4 | **Belmont Avenue** | £1,250,000 | 2,175.0 | £575 | D | **73.2** | `Partially Modernized` |
-| 5 | **Ainsworth Close** | £1,375,000 | 1,982.0 | £694 | B | **69.2** | `Partially Modernized` |
-| 6 | **Meadway** | £750,000 | 1,271.0 | £590 | D | **69.0** | `Partially Modernized` |
-| 7 | **Rolfe Close** | £1,000,000 | 2,223.8 | £450 | D | **67.5** | `Partially Modernized` |
-| 8 | **Manor Road** | £1,450,000 | 2,471.0 | £587 | C | **67.5** | `Partially Modernized` |
-| 9 | **Gloucester Road** | £1,250,000 | 1,760.0 | £710 | D | **66.5** | `Partially Modernized` |
-| 10 | **Park Road** | £1,300,000 | 2,471.0 | £526 | C | **63.5** | `Partially Modernized` |
-| 11 | **Maryrose Way** | £1,150,000 | 2,514.0 | £457 | E | **63.0** | `Partially Modernized` |
+| 1 | **Burlington Rise** | £1,175,000 | 2,340.0 | £502 | C | **81.7** | `Capital-Modernized Gem` |
+| 2 | **Well Grove** | £1,450,000 | 2,229.0 | £650 | B | **70.5** | `Partially Modernized` |
+| 3 | **Belmont Avenue** | £1,250,000 | 2,175.0 | £575 | D | **68.2** | `Partially Modernized` |
+| 4 | **Meadway** | £750,000 | 1,271.0 | £590 | D | **66.0** | `Partially Modernized` |
+| 5 | **Gloucester Road** | £1,250,000 | 1,760.0 | £710 | D | **65.5** | `Partially Modernized` |
+| 6 | **Ainsworth Close** | £1,375,000 | 1,982.0 | £694 | B | **65.2** | `Partially Modernized` |
+| 7 | **Hadley Road** | £1,300,000 | 2,611.0 | £498 | D | **63.2** | `Partially Modernized` |
+| 8 | **Maryrose Way** | £1,150,000 | 2,514.0 | £457 | E | **61.5** | `Partially Modernized` |
+| 9 | **Rolfe Close** | £1,000,000 | 2,223.8 | £450 | D | **61.0** | `Partially Modernized` |
+| 10 | **Manor Road** | £1,450,000 | 2,471.0 | £587 | C | **59.5** | `Cosmetic Flip / Surface Renovation` |
+| 11 | **Park Road** | £1,300,000 | 2,471.0 | £526 | C | **58.0** | `Cosmetic Flip / Surface Renovation` |
 
 
 ---
@@ -30,8 +30,8 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Property Type** | 4 bed detached house for sale | **Tenure** | Freehold |
 | **Bedrooms / Baths** | 4 beds / 3 baths | **Living Rooms** | 2 reception(s) |
 | **Total Floor Area** | 2,340.0 sq ft | **EPC Rating** | Band C |
-| **Liverpool St Commute** | ~34 mins via Oakleigh Park (door-to-concourse) | **King's Cross Commute** | ~23 mins via Oakleigh Park (door-to-concourse) |
-| **Nearest Station** | Oakleigh Park (0.3 mi, ~6 min walk) | **Zoopla ID** | [74320154](https://www.zoopla.co.uk/for-sale/details/74320154/) |
+| **Liverpool St Commute** | ~37 mins via Oakleigh Park (door-to-concourse) | **King's Cross Commute** | ~26 mins via Oakleigh Park (door-to-concourse) |
+| **Nearest Station** | Oakleigh Park (0.43 mi, ~9 min walk) | **Zoopla ID** | [74320154](https://www.zoopla.co.uk/for-sale/details/74320154/) |
 
 ### Nice-to-Haves
 
@@ -68,18 +68,18 @@ Evaluated **11** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [#####################---]  87.7 / 100
+  Combined Property Score : [####################----]  81.7 / 100
 ```
 
 | Component | Score | Max | Evidence that earned it |
 | :--- | :---: | :---: | :--- |
-| **Location & transport** | **15.0** | 15 | • Prime Liverpool St commute: ~34 mins door-to-concourse via Oakleigh Park (6m walk + 24m rail)<br>• King's Cross St Pancras commute ~23 mins via Oakleigh Park (+2)<br>• 2 transit lines within walk — Great Northern via Oakleigh Park 8 min walk; Northern via Oakleigh Park 8 min walk — broad Central London access (+0.5) |
+| **Location & transport** | **12.0** | 20 | • Nearest station Oakleigh Park 9 min walk (0.43 mi routed walk) (+5)<br>• Walkable station Oakleigh Park 9 min walk (+1.5)<br>• 1 transit line within walk — Great Northern via Oakleigh Park 9 min walk — broad Central London access (+1)<br>• Fast Liverpool St commute: ~37 mins door-to-concourse via Oakleigh Park (9m walk + 24m rail) (+2.5)<br>• King's Cross St Pancras commute ~26 mins via Oakleigh Park (+2) |
 | **Space, scale & layout** | **20.0** | 20 | • Square footage taken from floor plan (image analysis)<br>• Generous proportions: 2,340.0 sq ft total (585 sq ft/bed)<br>• Superb bathroom provision (3 baths for 4 beds)<br>• Wide living room: Kitchen / Dining Room 15.0 ft (floorplan)<br>• No ground-floor bedroom, but a second ground-floor sitting room (Sitting Room 17.8 x 10.3 ft) gives the same downstairs space |
 | **Financial efficiency** | **11.0** | 15 | • £502 per sq ft on 2,340 sq ft — 8 of 10<br>• £1,175,000 asking price — 3 of 5 |
-| **Technical & EPC** | **23.0** | 25 | • EPC assessed 2015-03-09: certificate expired — points scored as stated<br>• EPC: no secondary heating (no dated room heaters)<br>• EPC: insulated roof (pitched, 350 mm loft insulation)<br>• EPC: double glazing recorded (fully double glazed)<br>• Roof glazing seen in photos: skylight<br>• EPC: pitched roof with accessible loft (pitched, 350 mm loft insulation) — scope for a simple loft extension (structural survey still required)<br>• Architectural glazing / roof lantern visible in photos (image analysis)<br>• Premium high-end kitchen finish evident in photos (image analysis) |
+| **Technical & EPC** | **20.0** | 20 | • EPC assessed 2015-03-09: certificate expired — points scored as stated<br>• EPC: no secondary heating (no dated room heaters)<br>• EPC: insulated roof (pitched, 350 mm loft insulation)<br>• EPC: double glazing recorded (fully double glazed)<br>• Roof glazing seen in photos: skylight<br>• EPC: pitched roof with accessible loft (pitched, 350 mm loft insulation) — scope for a simple loft extension (structural survey still required)<br>• Architectural glazing / roof lantern visible in photos (image analysis)<br>• Premium high-end kitchen finish evident in photos (image analysis) |
 | **Observed presentation** | **11.7** | 15 | • Presented finish observed as refurbished in listing photographs (image analysis) |
 | **Garden & outdoor** | **7.0** | 10 | • South-facing garden confirmed<br>• Outbuilding present |
-| **Total** | **87.7** | 100 | 2,340.0 sq ft, 4 beds, band C |
+| **Total** | **81.7** | 100 | 2,340.0 sq ft, 4 beds, band C |
 
 **Photographic evidence reviewed for the score:**
 - 22 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -113,8 +113,8 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Property Type** | 3 bed bungalow for sale | **Tenure** | Freehold |
 | **Bedrooms / Baths** | 3 beds / 2 baths | **Living Rooms** | 3 reception(s) |
 | **Total Floor Area** | 2,223.8 sq ft | **EPC Rating** | Band D |
-| **Liverpool St Commute** | ~42 mins via New Barnet (door-to-concourse) | **King's Cross Commute** | ~31 mins via New Barnet (door-to-concourse) |
-| **Nearest Station** | Cockfosters (0.5 mi, ~10 min walk) | **Zoopla ID** | [69666381](https://www.zoopla.co.uk/for-sale/details/69666381/) |
+| **Liverpool St Commute** | ~46 mins via New Barnet (door-to-concourse) | **King's Cross Commute** | ~35 mins via New Barnet (door-to-concourse) |
+| **Nearest Station** | Cockfosters (1.1 mi, ~22 min walk) | **Zoopla ID** | [69666381](https://www.zoopla.co.uk/for-sale/details/69666381/) |
 
 ### Nice-to-Haves
 
@@ -152,18 +152,18 @@ Evaluated **11** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [################--------]  67.5 / 100
+  Combined Property Score : [###############---------]  61.0 / 100
 ```
 
 | Component | Score | Max | Evidence that earned it |
 | :--- | :---: | :---: | :--- |
-| **Location & transport** | **15.0** | 15 | • Fast Liverpool St commute: ~42 mins door-to-concourse via New Barnet (12m walk + 26m rail)<br>• King's Cross St Pancras commute ~31 mins via New Barnet (+2)<br>• 2 stations within 0.8 mi — Cockfosters 11 min walk, New Barnet 11 min walk — commuting resilience (+1)<br>• Night Tube / 24h service within walking distance (+1)<br>• 3 transit lines within walk — Piccadilly via Cockfosters 11 min walk; Great Northern via New Barnet 11 min walk; Northern via New Barnet 11 min walk — broad Central London access (+1) |
+| **Location & transport** | **8.5** | 20 | • Nearest station New Barnet 16 min walk (0.76 mi routed walk) (+2)<br>• Walkable station New Barnet 16 min walk (+1.5)<br>• 1 transit line within walk — Great Northern via New Barnet 16 min walk — broad Central London access (+1)<br>• Good Liverpool St commute: ~46 mins door-to-concourse via New Barnet (16m walk + 26m rail) (+2)<br>• King's Cross St Pancras commute ~35 mins via New Barnet (+2) |
 | **Space, scale & layout** | **20.0** | 20 | • Square footage taken from floor plan (image analysis)<br>• Exceptional volume: 2,223.8 sq ft total (741 sq ft/bed)<br>• Well balanced bathroom ratio (2 baths for 3 beds)<br>• Dedicated utility room present<br>• Living room width: 12.0 ft (below 15 ft)<br>• Ground-floor bedroom confirmed on floorplan: 1 (Bedroom 2) |
 | **Financial efficiency** | **14.0** | 15 | • £450 per sq ft on 2,224 sq ft — 10 of 10<br>• £1,000,000 asking price — 4 of 5 |
-| **Technical & EPC** | **12.0** | 25 | • EPC: no secondary heating (no dated room heaters)<br>• EPC: insulated roof (pitched, 270 mm loft insulation)<br>• EPC: double glazing recorded (fully double glazed)<br>• EPC: pitched roof with accessible loft (pitched, 270 mm loft insulation) — scope for a simple loft extension (structural survey still required) |
+| **Technical & EPC** | **12.0** | 20 | • EPC: no secondary heating (no dated room heaters)<br>• EPC: insulated roof (pitched, 270 mm loft insulation)<br>• EPC: double glazing recorded (fully double glazed)<br>• EPC: pitched roof with accessible loft (pitched, 270 mm loft insulation) — scope for a simple loft extension (structural survey still required) |
 | **Observed presentation** | **6.5** | 15 | • Presented finish observed as partially modernised in listing photographs (image analysis) |
 | **Garden & outdoor** | **0.0** | 10 | _no evidence detected — scores on the absence of contrary findings_ |
-| **Total** | **67.5** | 100 | 2,223.8 sq ft, 3 beds, band D |
+| **Total** | **61.0** | 100 | 2,223.8 sq ft, 3 beds, band D |
 
 **Photographic evidence reviewed for the score:**
 - 17 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -192,8 +192,8 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Property Type** | 4 bed detached house for sale | **Tenure** | Freehold |
 | **Bedrooms / Baths** | 4 beds / 3 baths | **Living Rooms** | 3 reception(s) |
 | **Total Floor Area** | 2,175.0 sq ft | **EPC Rating** | Band D |
-| **Liverpool St Commute** | ~44 mins via New Barnet (door-to-concourse) | **King's Cross Commute** | ~33 mins via New Barnet (door-to-concourse) |
-| **Nearest Station** | Cockfosters (0.4 mi, ~8 min walk) | **Zoopla ID** | [72600343](https://www.zoopla.co.uk/for-sale/details/72600343/) |
+| **Liverpool St Commute** | ~48 mins via Oakleigh Park (door-to-concourse) | **King's Cross Commute** | ~37 mins via Oakleigh Park (door-to-concourse) |
+| **Nearest Station** | Cockfosters (0.6 mi, ~12 min walk) | **Zoopla ID** | [72600343](https://www.zoopla.co.uk/for-sale/details/72600343/) |
 
 ### Nice-to-Haves
 
@@ -239,18 +239,18 @@ Evaluated **11** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [##################------]  73.2 / 100
+  Combined Property Score : [################--------]  68.2 / 100
 ```
 
 | Component | Score | Max | Evidence that earned it |
 | :--- | :---: | :---: | :--- |
-| **Location & transport** | **15.0** | 15 | • Good Liverpool St commute: ~44 mins door-to-concourse via New Barnet (14m walk + 26m rail)<br>• King's Cross St Pancras commute ~33 mins via New Barnet (+2)<br>• 3 stations within 0.8 mi — Cockfosters 9 min walk, New Barnet 15 min walk, Oakleigh Park 16 min walk — commuting resilience (+2)<br>• Night Tube / 24h service within walking distance (+1)<br>• 3 transit lines within walk — Piccadilly via Cockfosters 9 min walk; Great Northern via New Barnet 15 min walk, +1 more; Northern via New Barnet 15 min walk, +1 more — broad Central London access (+1) |
+| **Location & transport** | **12.0** | 20 | • Nearest station Cockfosters 12 min walk (0.60 mi routed walk) (+4)<br>• Walkable station Cockfosters 12 min walk (+1.5)<br>• 1 transit line within walk — Piccadilly via Cockfosters 12 min walk — broad Central London access (+1)<br>• Night Tube / 24h service at Cockfosters (+1.5)<br>• Good Liverpool St commute: ~48 mins door-to-concourse via Oakleigh Park (20m walk + 24m rail) (+2)<br>• King's Cross St Pancras commute ~37 mins via Oakleigh Park (+2) |
 | **Space, scale & layout** | **16.5** | 20 | • Square footage taken from floor plan (image analysis)<br>• Generous proportions: 2,175.0 sq ft total (544 sq ft/bed)<br>• Superb bathroom provision (3 baths for 4 beds)<br>• Living room width: 14.5 ft (below 15 ft) |
 | **Financial efficiency** | **8.0** | 15 | • £575 per sq ft on 2,175 sq ft — 6 of 10<br>• £1,250,000 asking price — 2 of 5 |
-| **Technical & EPC** | **22.0** | 25 | • EPC: no secondary heating (no dated room heaters)<br>• EPC: insulated roof (pitched, 100 mm loft insulation)<br>• EPC: double glazing recorded (fully double glazed)<br>• Underfloor heating present<br>• Air conditioning present<br>• EPC: pitched roof with accessible loft (pitched, 100 mm loft insulation) — scope for a simple loft extension (structural survey still required) |
+| **Technical & EPC** | **20.0** | 20 | • EPC: no secondary heating (no dated room heaters)<br>• EPC: insulated roof (pitched, 100 mm loft insulation)<br>• EPC: double glazing recorded (fully double glazed)<br>• Underfloor heating present<br>• Air conditioning present<br>• EPC: pitched roof with accessible loft (pitched, 100 mm loft insulation) — scope for a simple loft extension (structural survey still required) |
 | **Observed presentation** | **11.7** | 15 | • Presented finish observed as refurbished in listing photographs (image analysis) |
 | **Garden & outdoor** | **0.0** | 10 | _no evidence detected — scores on the absence of contrary findings_ |
-| **Total** | **73.2** | 100 | 2,175.0 sq ft, 4 beds, band D |
+| **Total** | **68.2** | 100 | 2,175.0 sq ft, 4 beds, band D |
 
 **Photographic evidence reviewed for the score:**
 - 32 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -268,7 +268,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 ---
 
 ## Property Review: Park Road, New Barnet EN4
-> **Classification**: `Partially Modernized`
+> **Classification**: `Cosmetic Flip / Surface Renovation`
 
 > **⚠️ Missing Data** — review scored with incomplete source data:
 >
@@ -283,8 +283,8 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Property Type** | 5 bed detached house for sale | **Tenure** | Freehold |
 | **Bedrooms / Baths** | 5 beds / 3 baths | **Living Rooms** | 2 reception(s) |
 | **Total Floor Area** | 2,471.0 sq ft | **EPC Rating** | Band C |
-| **Liverpool St Commute** | ~40 mins via New Barnet (door-to-concourse) | **King's Cross Commute** | ~29 mins via New Barnet (door-to-concourse) |
-| **Nearest Station** | New Barnet (0.5 mi, ~10 min walk) | **Zoopla ID** | [73581926](https://www.zoopla.co.uk/for-sale/details/73581926/) |
+| **Liverpool St Commute** | ~45 mins via New Barnet (door-to-concourse) | **King's Cross Commute** | ~34 mins via New Barnet (door-to-concourse) |
+| **Nearest Station** | New Barnet (0.71 mi, ~15 min walk) | **Zoopla ID** | [73581926](https://www.zoopla.co.uk/for-sale/details/73581926/) |
 
 ### Nice-to-Haves
 
@@ -327,18 +327,18 @@ Evaluated **11** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [###############---------]  63.5 / 100
+  Combined Property Score : [##############----------]  58.0 / 100
 ```
 
 | Component | Score | Max | Evidence that earned it |
 | :--- | :---: | :---: | :--- |
-| **Location & transport** | **15.0** | 15 | • Fast Liverpool St commute: ~40 mins door-to-concourse via New Barnet (10m walk + 26m rail)<br>• King's Cross St Pancras commute ~29 mins via New Barnet (+2)<br>• 3 stations within 0.8 mi — New Barnet 10 min walk, Cockfosters 12 min walk, Oakleigh Park 15 min walk — commuting resilience (+2)<br>• Night Tube / 24h service within walking distance (+1)<br>• 3 transit lines within walk — Great Northern via New Barnet 10 min walk, +1 more; Northern via New Barnet 10 min walk, +1 more; Piccadilly via Cockfosters 12 min walk — broad Central London access (+1) |
+| **Location & transport** | **9.5** | 20 | • Nearest station New Barnet 15 min walk (0.71 mi routed walk) (+3)<br>• Walkable station New Barnet 15 min walk (+1.5)<br>• 1 transit line within walk — Great Northern via New Barnet 15 min walk — broad Central London access (+1)<br>• Good Liverpool St commute: ~45 mins door-to-concourse via New Barnet (15m walk + 26m rail) (+2)<br>• King's Cross St Pancras commute ~34 mins via New Barnet (+2) |
 | **Space, scale & layout** | **20.0** | 20 | • Square footage taken from floor plan (image analysis)<br>• Generous proportions: 2,471.0 sq ft total (494 sq ft/bed)<br>• Well balanced bathroom ratio (3 baths for 5 beds)<br>• Dedicated utility room present<br>• Ground floor guest WC present<br>• Living room width: 12.7 ft (below 15 ft)<br>• Ground-floor bedroom confirmed on floorplan: 1 (Bedroom 5) |
 | **Financial efficiency** | **10.0** | 15 | • £526 per sq ft on 2,471 sq ft — 8 of 10<br>• £1,300,000 asking price — 2 of 5 |
-| **Technical & EPC** | **12.0** | 25 | • EPC: secondary heating present (room heaters, mains gas)<br>• EPC: wall insulation recorded (cavity wall, as built, partial insulation (assumed))<br>• EPC: insulated roof (pitched, 75 mm loft insulation)<br>• EPC: double glazing recorded (fully double glazed)<br>• EPC: pitched roof with accessible loft (pitched, 75 mm loft insulation) — scope for a simple loft extension (structural survey still required) |
+| **Technical & EPC** | **12.0** | 20 | • EPC: secondary heating present (room heaters, mains gas)<br>• EPC: wall insulation recorded (cavity wall, as built, partial insulation (assumed))<br>• EPC: insulated roof (pitched, 75 mm loft insulation)<br>• EPC: double glazing recorded (fully double glazed)<br>• EPC: pitched roof with accessible loft (pitched, 75 mm loft insulation) — scope for a simple loft extension (structural survey still required) |
 | **Observed presentation** | **6.5** | 15 | • Presented finish observed as partially modernised in listing photographs (image analysis) |
 | **Garden & outdoor** | **0.0** | 10 | _no evidence detected — scores on the absence of contrary findings_ |
-| **Total** | **63.5** | 100 | 2,471.0 sq ft, 5 beds, band C |
+| **Total** | **58.0** | 100 | 2,471.0 sq ft, 5 beds, band C |
 
 **Photographic evidence reviewed for the score:**
 - 29 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -371,8 +371,8 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Property Type** | 3 bed detached house for sale | **Tenure** | Freehold |
 | **Bedrooms / Baths** | 3 beds / 2 baths | **Living Rooms** | 2 reception(s) |
 | **Total Floor Area** | 2,514.0 sq ft | **EPC Rating** | Band E |
-| **Liverpool St Commute** | ~32 mins via Oakleigh Park (door-to-concourse) | **King's Cross Commute** | ~21 mins via Oakleigh Park (door-to-concourse) |
-| **Nearest Station** | Oakleigh Park (0.2 mi, ~4 min walk) | **Zoopla ID** | [71526117](https://www.zoopla.co.uk/for-sale/details/71526117/) |
+| **Liverpool St Commute** | ~34 mins via Oakleigh Park (door-to-concourse) | **King's Cross Commute** | ~23 mins via Oakleigh Park (door-to-concourse) |
+| **Nearest Station** | Oakleigh Park (0.3 mi, ~6 min walk) | **Zoopla ID** | [71526117](https://www.zoopla.co.uk/for-sale/details/71526117/) |
 
 ### Nice-to-Haves
 
@@ -408,18 +408,18 @@ Evaluated **11** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [###############---------]  63.0 / 100
+  Combined Property Score : [###############---------]  61.5 / 100
 ```
 
 | Component | Score | Max | Evidence that earned it |
 | :--- | :---: | :---: | :--- |
-| **Location & transport** | **15.0** | 15 | • Prime Liverpool St commute: ~32 mins door-to-concourse via Oakleigh Park (4m walk + 24m rail)<br>• King's Cross St Pancras commute ~21 mins via Oakleigh Park (+2)<br>• 2 stations within 0.8 mi — Oakleigh Park 5 min walk, Totteridge & Whetstone 11 min walk — commuting resilience (+1)<br>• Night Tube / 24h service within walking distance (+1)<br>• 2 transit lines within walk — Great Northern via Oakleigh Park 5 min walk; Northern via Oakleigh Park 5 min walk, +1 more — broad Central London access (+0.5) |
+| **Location & transport** | **13.5** | 20 | • Nearest station Oakleigh Park 6 min walk (0.30 mi routed walk) (+6)<br>• Walkable station Oakleigh Park 6 min walk (+1.5)<br>• 1 transit line within walk — Great Northern via Oakleigh Park 6 min walk — broad Central London access (+1)<br>• Prime Liverpool St commute: ~34 mins door-to-concourse via Oakleigh Park (6m walk + 24m rail) (+3)<br>• King's Cross St Pancras commute ~23 mins via Oakleigh Park (+2) |
 | **Space, scale & layout** | **20.0** | 20 | • Square footage taken from floor plan (image analysis)<br>• Exceptional volume: 2,514.0 sq ft total (838 sq ft/bed)<br>• Well balanced bathroom ratio (2 baths for 3 beds)<br>• Wide living room: Sitting Room 17.9 ft (floorplan)<br>• Ground-floor bedrooms confirmed on floorplan: 2 |
 | **Financial efficiency** | **11.0** | 15 | • £457 per sq ft on 2,514 sq ft — 8 of 10<br>• £1,150,000 asking price — 3 of 5 |
-| **Technical & EPC** | **12.0** | 25 | • EPC: secondary heating present (room heaters, mains gas)<br>• EPC: insulated roof (pitched, insulated (assumed))<br>• EPC: double glazing recorded (fully double glazed)<br>• EPC: pitched roof with accessible loft (pitched, insulated (assumed)) — scope for a simple loft extension (structural survey still required) |
+| **Technical & EPC** | **12.0** | 20 | • EPC: secondary heating present (room heaters, mains gas)<br>• EPC: insulated roof (pitched, insulated (assumed))<br>• EPC: double glazing recorded (fully double glazed)<br>• EPC: pitched roof with accessible loft (pitched, insulated (assumed)) — scope for a simple loft extension (structural survey still required) |
 | **Observed presentation** | **0.0** | 15 | _no evidence detected — scores on the absence of contrary findings_ |
 | **Garden & outdoor** | **5.0** | 10 | • South-facing garden confirmed |
-| **Total** | **63.0** | 100 | 2,514.0 sq ft, 3 beds, band E |
+| **Total** | **61.5** | 100 | 2,514.0 sq ft, 3 beds, band E |
 
 **Photographic evidence reviewed for the score:**
 - 21 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -451,8 +451,8 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Property Type** | 4 bed detached house for sale | **Tenure** | Freehold |
 | **Bedrooms / Baths** | 4 beds / 1 baths | **Living Rooms** | 2 reception(s) |
 | **Total Floor Area** | 1,760.0 sq ft | **EPC Rating** | Band D |
-| **Liverpool St Commute** | ~38 mins via New Barnet (door-to-concourse) | **King's Cross Commute** | ~27 mins via New Barnet (door-to-concourse) |
-| **Nearest Station** | New Barnet (0.4 mi, ~8 min walk) | **Zoopla ID** | [74071974](https://www.zoopla.co.uk/for-sale/details/74071974/) |
+| **Liverpool St Commute** | ~43 mins via New Barnet (door-to-concourse) | **King's Cross Commute** | ~32 mins via New Barnet (door-to-concourse) |
+| **Nearest Station** | New Barnet (0.64 mi, ~13 min walk) | **Zoopla ID** | [74071974](https://www.zoopla.co.uk/for-sale/details/74071974/) |
 
 ### Nice-to-Haves
 
@@ -491,18 +491,18 @@ Evaluated **11** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [################--------]  66.5 / 100
+  Combined Property Score : [################--------]  65.5 / 100
 ```
 
 | Component | Score | Max | Evidence that earned it |
 | :--- | :---: | :---: | :--- |
-| **Location & transport** | **15.0** | 15 | • Fast Liverpool St commute: ~38 mins door-to-concourse via New Barnet (8m walk + 26m rail)<br>• King's Cross St Pancras commute ~27 mins via New Barnet (+2)<br>• 2 stations within 0.8 mi — New Barnet 10 min walk, High Barnet 11 min walk — commuting resilience (+1)<br>• Night Tube / 24h service within walking distance (+1)<br>• 2 transit lines within walk — Great Northern via New Barnet 10 min walk; Northern via New Barnet 10 min walk, +1 more — broad Central London access (+0.5) |
+| **Location & transport** | **14.0** | 20 | • Nearest station New Barnet 13 min walk (0.64 mi routed walk) (+3)<br>• 2 stations within 0.8 mi — New Barnet 13 min walk, High Barnet 14 min walk — commuting resilience (+3.5)<br>• 2 transit lines within walk — Great Northern via New Barnet 13 min walk; Northern via High Barnet 14 min walk — broad Central London access (+2)<br>• Night Tube / 24h service at High Barnet (+1.5)<br>• Good Liverpool St commute: ~43 mins door-to-concourse via New Barnet (13m walk + 26m rail) (+2)<br>• King's Cross St Pancras commute ~32 mins via New Barnet (+2) |
 | **Space, scale & layout** | **20.0** | 20 | • Square footage taken from floor plan (image analysis)<br>• Standard room sizing: 1,760.0 sq ft total (440 sq ft/bed)<br>• Under-bathroomed (1 bath for 4 beds - morning bottlenecks likely)<br>• Ground floor guest WC present<br>• Separate garden studio / home office footprint<br>• Wide living room: Living Room 16.8 ft (floorplan)<br>• No ground-floor bedroom, but a second ground-floor sitting room (Lounge 10.2 x 9.7 ft) gives the same downstairs space |
 | **Financial efficiency** | **6.0** | 15 | • £710 per sq ft on 1,760 sq ft — 4 of 10<br>• £1,250,000 asking price — 2 of 5 |
-| **Technical & EPC** | **12.0** | 25 | • EPC assessed 31 July 2009: certificate expired — points scored as stated<br>• EPC: secondary heating present (room heaters, mains gas)<br>• EPC: wall insulation recorded (cavity wall, as built, insulated (assumed))<br>• EPC: insulated roof (pitched, 300 mm loft insulation)<br>• EPC: double glazing recorded (fully double glazed)<br>• EPC: pitched roof with accessible loft (pitched, 300 mm loft insulation) — scope for a simple loft extension (structural survey still required) |
+| **Technical & EPC** | **12.0** | 20 | • EPC assessed 31 July 2009: certificate expired — points scored as stated<br>• EPC: secondary heating present (room heaters, mains gas)<br>• EPC: wall insulation recorded (cavity wall, as built, insulated (assumed))<br>• EPC: insulated roof (pitched, 300 mm loft insulation)<br>• EPC: double glazing recorded (fully double glazed)<br>• EPC: pitched roof with accessible loft (pitched, 300 mm loft insulation) — scope for a simple loft extension (structural survey still required) |
 | **Observed presentation** | **6.5** | 15 | • Presented finish observed as partially modernised in listing photographs (image analysis) |
 | **Garden & outdoor** | **7.0** | 10 | • South-facing garden confirmed<br>• Outbuilding present |
-| **Total** | **66.5** | 100 | 1,760.0 sq ft, 4 beds, band D |
+| **Total** | **65.5** | 100 | 1,760.0 sq ft, 4 beds, band D |
 
 **Photographic evidence reviewed for the score:**
 - 25 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -529,8 +529,8 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Property Type** | 3 bed link detached house for sale | **Tenure** | Freehold |
 | **Bedrooms / Baths** | 3 beds / 3 baths | **Living Rooms** | 4 reception(s) |
 | **Total Floor Area** | 2,611.0 sq ft | **EPC Rating** | Band D |
-| **Liverpool St Commute** | ~44 mins via New Barnet (door-to-concourse) | **King's Cross Commute** | ~33 mins via New Barnet (door-to-concourse) |
-| **Nearest Station** | High Barnet (0.6 mi, ~12 min walk) | **Zoopla ID** | [70593927](https://www.zoopla.co.uk/for-sale/details/70593927/) |
+| **Liverpool St Commute** | ~49 mins via New Barnet (door-to-concourse) | **King's Cross Commute** | ~38 mins via New Barnet (door-to-concourse) |
+| **Nearest Station** | High Barnet (0.95 mi, ~19 min walk) | **Zoopla ID** | [70593927](https://www.zoopla.co.uk/for-sale/details/70593927/) |
 
 ### Nice-to-Haves
 
@@ -572,18 +572,18 @@ Evaluated **11** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [##################------]  73.7 / 100
+  Combined Property Score : [###############---------]  63.2 / 100
 ```
 
 | Component | Score | Max | Evidence that earned it |
 | :--- | :---: | :---: | :--- |
-| **Location & transport** | **15.0** | 15 | • Good Liverpool St commute: ~44 mins door-to-concourse via New Barnet (14m walk + 26m rail)<br>• King's Cross St Pancras commute ~33 mins via New Barnet (+2)<br>• 2 stations within 0.8 mi — High Barnet 13 min walk, New Barnet 15 min walk — commuting resilience (+1)<br>• Night Tube / 24h service within walking distance (+1)<br>• 2 transit lines within walk — Northern via High Barnet 13 min walk, +1 more; Great Northern via New Barnet 15 min walk — broad Central London access (+0.5) |
+| **Location & transport** | **4.5** | 20 | • Nearest station New Barnet 19 min walk (0.91 mi routed walk) (+1)<br>• No station within 0.8 mi walking distance (nearest is 0.91 mi)<br>• Moderate Liverpool St commute: ~49 mins door-to-concourse via New Barnet (19m walk + 26m rail) (+1.5)<br>• King's Cross St Pancras commute ~38 mins via New Barnet (+2) |
 | **Space, scale & layout** | **20.0** | 20 | • Square footage taken from floor plan (image analysis)<br>• Exceptional volume: 2,611.0 sq ft total (870 sq ft/bed)<br>• Superb bathroom provision (3 baths for 3 beds)<br>• Living room width: 11.1 ft (below 15 ft)<br>• Ground-floor bedroom confirmed on floorplan: 1 (Bedroom 3) |
 | **Financial efficiency** | **10.0** | 15 | • £498 per sq ft on 2,611 sq ft — 8 of 10<br>• £1,300,000 asking price — 2 of 5 |
-| **Technical & EPC** | **17.0** | 25 | • EPC assessed 2016-05-26: certificate expired — points scored as stated<br>• EPC: no secondary heating (no dated room heaters)<br>• EPC: insulated roof (pitched, 100 mm loft insulation)<br>• EPC: partial double glazing (partial double glazing)<br>• Air conditioning present<br>• EPC: pitched roof with accessible loft (pitched, 100 mm loft insulation) — scope for a simple loft extension (structural survey still required) |
+| **Technical & EPC** | **17.0** | 20 | • EPC assessed 2016-05-26: certificate expired — points scored as stated<br>• EPC: no secondary heating (no dated room heaters)<br>• EPC: insulated roof (pitched, 100 mm loft insulation)<br>• EPC: partial double glazing (partial double glazing)<br>• Air conditioning present<br>• EPC: pitched roof with accessible loft (pitched, 100 mm loft insulation) — scope for a simple loft extension (structural survey still required) |
 | **Observed presentation** | **11.7** | 15 | • Presented finish observed as refurbished in listing photographs (image analysis) |
 | **Garden & outdoor** | **0.0** | 10 | _no evidence detected — scores on the absence of contrary findings_ |
-| **Total** | **73.7** | 100 | 2,611.0 sq ft, 3 beds, band D |
+| **Total** | **63.2** | 100 | 2,611.0 sq ft, 3 beds, band D |
 
 **Photographic evidence reviewed for the score:**
 - 20 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -601,7 +601,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 ---
 
 ## Property Review: Manor Road, Barnet EN5
-> **Classification**: `Partially Modernized`
+> **Classification**: `Cosmetic Flip / Surface Renovation`
 
 > **⚠️ Missing Data** — review scored with incomplete source data:
 >
@@ -616,8 +616,8 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Property Type** | 5 bed property for sale | **Tenure** | Freehold |
 | **Bedrooms / Baths** | 5 beds / 2 baths | **Living Rooms** | 4 reception(s) |
 | **Total Floor Area** | 2,471.0 sq ft | **EPC Rating** | Band C |
-| **Liverpool St Commute** | ~50 mins via High Barnet (door-to-concourse) | **King's Cross Commute** | ~42 mins via High Barnet (door-to-concourse) |
-| **Nearest Station** | High Barnet (0.5 mi, ~10 min walk) | **Zoopla ID** | [73884950](https://www.zoopla.co.uk/for-sale/details/73884950/) |
+| **Liverpool St Commute** | ~57 mins via High Barnet (door-to-concourse) | **King's Cross Commute** | ~49 mins via High Barnet (door-to-concourse) |
+| **Nearest Station** | High Barnet (0.84 mi, ~17 min walk) | **Zoopla ID** | [73884950](https://www.zoopla.co.uk/for-sale/details/73884950/) |
 
 ### Nice-to-Haves
 
@@ -671,18 +671,18 @@ Evaluated **11** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [################--------]  67.5 / 100
+  Combined Property Score : [##############----------]  59.5 / 100
 ```
 
 | Component | Score | Max | Evidence that earned it |
 | :--- | :---: | :---: | :--- |
-| **Location & transport** | **12.0** | 15 | • Moderate Liverpool St commute: ~50 mins door-to-concourse via High Barnet (10m walk + 36m rail)<br>• King's Cross St Pancras commute ~42 mins via High Barnet (+1)<br>• Night Tube / 24h service within walking distance (+1) |
+| **Location & transport** | **4.0** | 20 | • Nearest station High Barnet 17 min walk (0.84 mi routed walk) (+2)<br>• No station within 0.8 mi walking distance (nearest is 0.84 mi)<br>• Extended Liverpool St commute: ~57 mins door-to-concourse via High Barnet (+1)<br>• King's Cross St Pancras commute ~49 mins via High Barnet (+1) |
 | **Space, scale & layout** | **20.0** | 20 | • Square footage taken from floor plan (image analysis)<br>• Generous proportions: 2,471.0 sq ft total (494 sq ft/bed)<br>• Under-bathroomed (2 bath for 5 beds - morning bottlenecks likely)<br>• Wide living room: Reception Room 19.3 ft (floorplan)<br>• No ground-floor bedroom, but a second ground-floor sitting room (Reception Room 14.2 x 13.9 ft) gives the same downstairs space |
 | **Financial efficiency** | **7.0** | 15 | • £587 per sq ft on 2,471 sq ft — 6 of 10<br>• £1,450,000 asking price — 1 of 5 |
-| **Technical & EPC** | **17.0** | 25 | • EPC: no secondary heating (no dated room heaters)<br>• EPC: wall insulation recorded (solid brick, with external insulation)<br>• EPC: insulated roof (pitched, 250 mm loft insulation)<br>• EPC: double glazing recorded (fully double glazed)<br>• Underfloor heating present<br>• EPC: pitched roof with accessible loft (pitched, 250 mm loft insulation) — scope for a simple loft extension (structural survey still required) |
+| **Technical & EPC** | **17.0** | 20 | • EPC: no secondary heating (no dated room heaters)<br>• EPC: wall insulation recorded (solid brick, with external insulation)<br>• EPC: insulated roof (pitched, 250 mm loft insulation)<br>• EPC: double glazing recorded (fully double glazed)<br>• Underfloor heating present<br>• EPC: pitched roof with accessible loft (pitched, 250 mm loft insulation) — scope for a simple loft extension (structural survey still required) |
 | **Observed presentation** | **6.5** | 15 | • Presented finish observed as partially modernised in listing photographs (image analysis) |
 | **Garden & outdoor** | **5.0** | 10 | • South-facing garden confirmed |
-| **Total** | **67.5** | 100 | 2,471.0 sq ft, 5 beds, band C |
+| **Total** | **59.5** | 100 | 2,471.0 sq ft, 5 beds, band C |
 
 **Photographic evidence reviewed for the score:**
 - 26 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -710,8 +710,8 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Property Type** | 5 bed detached house for sale | **Tenure** | Freehold |
 | **Bedrooms / Baths** | 5 beds / 3 baths | **Living Rooms** | 3 reception(s) |
 | **Total Floor Area** | 1,982.0 sq ft | **EPC Rating** | Band B |
-| **Liverpool St Commute** | ~42 mins via Oakleigh Park (door-to-concourse) | **King's Cross Commute** | ~31 mins via Oakleigh Park (door-to-concourse) |
-| **Nearest Station** | Totteridge & Whetstone (0.4 mi, ~8 min walk) | **Zoopla ID** | [74164010](https://www.zoopla.co.uk/for-sale/details/74164010/) |
+| **Liverpool St Commute** | ~47 mins via Oakleigh Park (door-to-concourse) | **King's Cross Commute** | ~36 mins via Oakleigh Park (door-to-concourse) |
+| **Nearest Station** | Totteridge & Whetstone (0.75 mi, ~15 min walk) | **Zoopla ID** | [74164010](https://www.zoopla.co.uk/for-sale/details/74164010/) |
 
 ### Nice-to-Haves
 
@@ -749,18 +749,18 @@ Evaluated **11** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [#################-------]  69.2 / 100
+  Combined Property Score : [################--------]  65.2 / 100
 ```
 
 | Component | Score | Max | Evidence that earned it |
 | :--- | :---: | :---: | :--- |
-| **Location & transport** | **15.0** | 15 | • Fast Liverpool St commute: ~42 mins door-to-concourse via Oakleigh Park (14m walk + 24m rail)<br>• King's Cross St Pancras commute ~31 mins via Oakleigh Park (+2)<br>• 2 stations within 0.8 mi — Totteridge & Whetstone 8 min walk, Oakleigh Park 15 min walk — commuting resilience (+1)<br>• Night Tube / 24h service within walking distance (+1)<br>• 2 transit lines within walk — Northern via Totteridge & Whetstone 8 min walk, +1 more; Great Northern via Oakleigh Park 15 min walk — broad Central London access (+0.5) |
+| **Location & transport** | **11.0** | 20 | • Nearest station Totteridge & Whetstone 15 min walk (0.75 mi routed walk) (+3)<br>• Walkable station Totteridge & Whetstone 15 min walk (+1.5)<br>• 1 transit line within walk — Northern via Totteridge & Whetstone 15 min walk — broad Central London access (+1)<br>• Night Tube / 24h service at Totteridge & Whetstone (+1.5)<br>• Good Liverpool St commute: ~47 mins door-to-concourse via Oakleigh Park (19m walk + 24m rail) (+2)<br>• King's Cross St Pancras commute ~36 mins via Oakleigh Park (+2) |
 | **Space, scale & layout** | **12.5** | 20 | • Square footage taken from floor plan (image analysis)<br>• Standard room sizing: 1,982.0 sq ft total (396 sq ft/bed)<br>• Well balanced bathroom ratio (3 baths for 5 beds)<br>• Living room width: 11.7 ft (below 15 ft) |
 | **Financial efficiency** | **8.0** | 15 | • £694 per sq ft on 1,982 sq ft — 6 of 10<br>• £1,375,000 asking price — 2 of 5 |
-| **Technical & EPC** | **17.0** | 25 | • EPC: no secondary heating (no dated room heaters)<br>• EPC: time and temperature zone control<br>• EPC: insulated roof (average thermal transmittance 0.13 w/m²k)<br>• EPC: insulated floor (average thermal transmittance 0.12 w/m²k)<br>• EPC: high performance glazing (high performance glazing)<br>• EPC: room-in-roof conversion recorded (average thermal transmittance 0.13 w/m²k)<br>• Architectural glazing / roof lantern visible in photos (image analysis) |
+| **Technical & EPC** | **17.0** | 20 | • EPC: no secondary heating (no dated room heaters)<br>• EPC: time and temperature zone control<br>• EPC: insulated roof (average thermal transmittance 0.13 w/m²k)<br>• EPC: insulated floor (average thermal transmittance 0.12 w/m²k)<br>• EPC: high performance glazing (high performance glazing)<br>• EPC: room-in-roof conversion recorded (average thermal transmittance 0.13 w/m²k)<br>• Architectural glazing / roof lantern visible in photos (image analysis) |
 | **Observed presentation** | **11.7** | 15 | • Presented finish observed as refurbished in listing photographs (image analysis) |
 | **Garden & outdoor** | **5.0** | 10 | • South-facing garden confirmed |
-| **Total** | **69.2** | 100 | 1,982.0 sq ft, 5 beds, band B |
+| **Total** | **65.2** | 100 | 1,982.0 sq ft, 5 beds, band B |
 
 **Photographic evidence reviewed for the score:**
 - 24 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -788,8 +788,8 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Property Type** | 4 bed detached house for sale | **Tenure** | Freehold |
 | **Bedrooms / Baths** | 4 beds / 3 baths | **Living Rooms** | 2 reception(s) |
 | **Total Floor Area** | 2,229.0 sq ft | **EPC Rating** | Band B |
-| **Liverpool St Commute** | ~36 mins via Oakleigh Park (door-to-concourse) | **King's Cross Commute** | ~25 mins via Oakleigh Park (door-to-concourse) |
-| **Nearest Station** | Oakleigh Park (0.4 mi, ~8 min walk) | **Zoopla ID** | [73000012](https://www.zoopla.co.uk/for-sale/details/73000012/) |
+| **Liverpool St Commute** | ~40 mins via Oakleigh Park (door-to-concourse) | **King's Cross Commute** | ~29 mins via Oakleigh Park (door-to-concourse) |
+| **Nearest Station** | Oakleigh Park (0.57 mi, ~12 min walk) | **Zoopla ID** | [73000012](https://www.zoopla.co.uk/for-sale/details/73000012/) |
 
 ### Nice-to-Haves
 
@@ -826,18 +826,18 @@ Evaluated **11** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [##################------]  74.5 / 100
+  Combined Property Score : [#################-------]  70.5 / 100
 ```
 
 | Component | Score | Max | Evidence that earned it |
 | :--- | :---: | :---: | :--- |
-| **Location & transport** | **15.0** | 15 | • Prime Liverpool St commute: ~36 mins door-to-concourse via Oakleigh Park (8m walk + 24m rail)<br>• King's Cross St Pancras commute ~25 mins via Oakleigh Park (+2)<br>• 2 stations within 0.8 mi — Oakleigh Park 8 min walk, Totteridge & Whetstone 9 min walk — commuting resilience (+1)<br>• Night Tube / 24h service within walking distance (+1)<br>• 2 transit lines within walk — Great Northern via Oakleigh Park 8 min walk; Northern via Oakleigh Park 8 min walk, +1 more — broad Central London access (+0.5) |
+| **Location & transport** | **11.0** | 20 | • Nearest station Oakleigh Park 12 min walk (0.57 mi routed walk) (+4)<br>• Walkable station Oakleigh Park 12 min walk (+1.5)<br>• 1 transit line within walk — Great Northern via Oakleigh Park 12 min walk — broad Central London access (+1)<br>• Fast Liverpool St commute: ~40 mins door-to-concourse via Oakleigh Park (12m walk + 24m rail) (+2.5)<br>• King's Cross St Pancras commute ~29 mins via Oakleigh Park (+2) |
 | **Space, scale & layout** | **20.0** | 20 | • Square footage taken from floor plan (image analysis)<br>• Generous proportions: 2,229.0 sq ft total (557 sq ft/bed)<br>• Superb bathroom provision (3 baths for 4 beds)<br>• Wide living room: Sitting Room 25.5 ft (floorplan)<br>• Ground-floor bedroom confirmed on floorplan: 1 (Bedroom) |
 | **Financial efficiency** | **7.0** | 15 | • £651 per sq ft on 2,229 sq ft — 6 of 10<br>• £1,450,000 asking price — 1 of 5 |
-| **Technical & EPC** | **19.0** | 25 | • EPC: no secondary heating (no dated room heaters)<br>• EPC: time and temperature zone control<br>• EPC: insulated roof (average thermal transmittance 0.12 w/m²k)<br>• EPC: insulated floor (average thermal transmittance 0.11 w/m²k)<br>• EPC: high performance glazing (high performance glazing)<br>• Underfloor heating present<br>• EPC: room-in-roof conversion recorded (average thermal transmittance 0.12 w/m²k) |
+| **Technical & EPC** | **19.0** | 20 | • EPC: no secondary heating (no dated room heaters)<br>• EPC: time and temperature zone control<br>• EPC: insulated roof (average thermal transmittance 0.12 w/m²k)<br>• EPC: insulated floor (average thermal transmittance 0.11 w/m²k)<br>• EPC: high performance glazing (high performance glazing)<br>• Underfloor heating present<br>• EPC: room-in-roof conversion recorded (average thermal transmittance 0.12 w/m²k) |
 | **Observed presentation** | **6.5** | 15 | • Presented finish observed as partially modernised in listing photographs (image analysis) |
 | **Garden & outdoor** | **7.0** | 10 | • South-facing garden confirmed<br>• Outbuilding present |
-| **Total** | **74.5** | 100 | 2,229.0 sq ft, 4 beds, band B |
+| **Total** | **70.5** | 100 | 2,229.0 sq ft, 4 beds, band B |
 
 **Photographic evidence reviewed for the score:**
 - 21 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -871,8 +871,8 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Property Type** | 3 bed bungalow for sale | **Tenure** | Freehold |
 | **Bedrooms / Baths** | 3 beds / ? baths | **Living Rooms** | ? reception(s) |
 | **Total Floor Area** | 1,271.0 sq ft | **EPC Rating** | Band D |
-| **Liverpool St Commute** | ~46 mins via High Barnet (door-to-concourse) | **King's Cross Commute** | ~35 mins via New Barnet (door-to-concourse) |
-| **Nearest Station** | High Barnet (0.3 mi, ~6 min walk) | **Zoopla ID** | [73341394](https://www.zoopla.co.uk/for-sale/details/73341394/) |
+| **Liverpool St Commute** | ~50 mins via High Barnet (door-to-concourse) | **King's Cross Commute** | ~40 mins via New Barnet (door-to-concourse) |
+| **Nearest Station** | High Barnet (0.46 mi, ~10 min walk) | **Zoopla ID** | [73341394](https://www.zoopla.co.uk/for-sale/details/73341394/) |
 
 ### Nice-to-Haves
 
@@ -907,18 +907,18 @@ Evaluated **11** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [#################-------]  69.0 / 100
+  Combined Property Score : [################--------]  66.0 / 100
 ```
 
 | Component | Score | Max | Evidence that earned it |
 | :--- | :---: | :---: | :--- |
-| **Location & transport** | **14.5** | 15 | • Good Liverpool St commute: ~46 mins door-to-concourse via High Barnet (6m walk + 36m rail)<br>• King's Cross St Pancras commute ~35 mins via New Barnet (+2)<br>• Night Tube / 24h service within walking distance (+1) |
+| **Location & transport** | **11.5** | 20 | • Nearest station High Barnet 10 min walk (0.46 mi routed walk) (+4)<br>• Walkable station High Barnet 10 min walk (+1.5)<br>• 1 transit line within walk — Northern via High Barnet 10 min walk — broad Central London access (+1)<br>• Night Tube / 24h service at High Barnet (+1.5)<br>• Moderate Liverpool St commute: ~50 mins door-to-concourse via High Barnet (10m walk + 36m rail) (+1.5)<br>• King's Cross St Pancras commute ~40 mins via New Barnet (+2) |
 | **Space, scale & layout** | **15.0** | 20 | • Square footage taken from floor plan (image analysis)<br>• Standard room sizing: 1,271.0 sq ft total (424 sq ft/bed)<br>• Under-bathroomed (1 bath for 3 beds - morning bottlenecks likely)<br>• Ground floor guest WC present<br>• Living room width: 13.3 ft (below 15 ft)<br>• Ground-floor bedrooms confirmed on floorplan: 2 |
 | **Financial efficiency** | **11.0** | 15 | • £590 per sq ft on 1,271 sq ft — 6 of 10<br>• £750,000 asking price — 5 of 5 |
-| **Technical & EPC** | **17.0** | 25 | • EPC: no secondary heating (no dated room heaters)<br>• EPC: double glazing recorded (fully double glazed)<br>• Roof glazing seen in photos: skylight<br>• EPC: pitched roof with accessible loft (pitched, no insulation) — scope for a simple loft extension (structural survey still required) |
+| **Technical & EPC** | **17.0** | 20 | • EPC: no secondary heating (no dated room heaters)<br>• EPC: double glazing recorded (fully double glazed)<br>• Roof glazing seen in photos: skylight<br>• EPC: pitched roof with accessible loft (pitched, no insulation) — scope for a simple loft extension (structural survey still required) |
 | **Observed presentation** | **6.5** | 15 | • Presented finish observed as partially modernised in listing photographs (image analysis) |
 | **Garden & outdoor** | **5.0** | 10 | • South-facing garden confirmed |
-| **Total** | **69.0** | 100 | 1,271.0 sq ft, 3 beds, band D |
+| **Total** | **66.0** | 100 | 1,271.0 sq ft, 3 beds, band D |
 
 **Photographic evidence reviewed for the score:**
 - 35 property photo(s) analysed by local vision model (Qwen3-VL)
