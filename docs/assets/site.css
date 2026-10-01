@@ -58,6 +58,13 @@ h3 { font-size: 14px; margin: 22px 0 8px; color: var(--muted);
   font-size: 12px; font-weight: 700; border: 1px solid;
 }
 .badge.tag { color: #1a7f5a; border-color: #1a7f5a; background: #eaf6f1; }
+.badge.tag-transport { color: #2b6cb0; border-color: #2b6cb0; background: #ebf3fb; }
+.badge.tag-space { color: #8a5cf6; border-color: #8a5cf6; background: #f2edfe; }
+.badge.tag-value { color: #b7791f; border-color: #b7791f; background: #fdf6e3; }
+.badge.tag-systems { color: #1a7f5a; border-color: #1a7f5a; background: #eaf6f1; }
+.badge.tag-presentation { color: #c2437f; border-color: #c2437f; background: #fdeef4; }
+.badge.tag-outdoor { color: #c05a2e; border-color: #c05a2e; background: #fdefe8; }
+.badge + .badge { margin-left: 6px; }
 .swatch-gradient { background: linear-gradient(90deg, #a8322d, #c2760a, #1a7f5a); }
 
 /* ---- property list ---- */
@@ -173,6 +180,7 @@ ul.ticks.compact { font-size: 12.5px; margin: 2px 0 0; padding-left: 20px; }
 @media (min-width: 980px) { .panel.sticky { position: sticky; top: 16px; align-self: start; } }
 .leaflet-popup-content .p-addr { font-weight: 700; margin-bottom: 3px; }
 .leaflet-popup-content .p-meta { color: #5c6672; font-size: 12px; }
+.leaflet-popup-content .p-meta .badge { font-size: 11px; padding: 1px 7px; }
 .leaflet-popup-content a { font-weight: 600; }
 details.raw { margin-top: 18px; font-size: 13px; }
 details.raw summary { cursor: pointer; color: var(--muted); }
