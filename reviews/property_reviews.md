@@ -7,8 +7,8 @@ Evaluated **11** properties against combined quality and technical indicators.
 | 1 | **Burlington Rise** | £1,175,000 | 2,340.0 | £502 | C | **76.2** | Generous Space & Layout, Modern Systems, Beautifully Presented, Great Outdoor Space |
 | 2 | **Well Grove** | £1,450,000 | 2,229.0 | £650 | B | **70.0** | Generous Space & Layout, Modern Systems, Great Outdoor Space |
 | 3 | **Belmont Avenue** | £1,250,000 | 2,175.0 | £575 | D | **62.5** | Modern Systems, Beautifully Presented |
-| 4 | **Gloucester Road** | £1,250,000 | 1,760.0 | £710 | D | **60.2** | Great Transport Links, Great Outdoor Space |
-| 5 | **Ainsworth Close** | £1,375,000 | 1,982.0 | £694 | B | **60.0** | Modern Systems, Beautifully Presented |
+| 4 | **Ainsworth Close** | £1,375,000 | 1,982.0 | £694 | B | **60.0** | Modern Systems, Beautifully Presented |
+| 5 | **Gloucester Road** | £1,250,000 | 1,760.0 | £710 | D | **59.2** | Great Transport Links, Great Outdoor Space |
 | 6 | **Manor Road** | £1,450,000 | 2,471.0 | £587 | C | **57.0** | Modern Systems |
 | 7 | **Hadley Road** | £1,300,000 | 2,611.0 | £498 | D | **54.8** | Beautifully Presented |
 | 8 | **Maryrose Way** | £1,150,000 | 2,514.0 | £457 | E | **54.7** | Great Transport Links, Generous Space & Layout, Strong Value |
@@ -491,18 +491,18 @@ Evaluated **11** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [##############----------]  60.2 / 100
+  Combined Property Score : [##############----------]  59.2 / 100
 ```
 
 | Component | Score | Max | Evidence that earned it |
 | :--- | :---: | :---: | :--- |
 | **Location & transport** | **14.0** | 20 | • Nearest station New Barnet 13 min walk (0.64 mi routed walk) (+3)<br>• 2 stations within 0.8 mi — New Barnet 13 min walk, High Barnet 14 min walk — commuting resilience (+3.5)<br>• 2 transit lines within walk — Great Northern via New Barnet 13 min walk; Northern via High Barnet 14 min walk — broad Central London access (+2)<br>• Night Tube / 24h service at High Barnet (+1.5)<br>• Good Liverpool St commute: ~43 mins door-to-concourse via New Barnet (13m walk + 26m rail) (+2)<br>• King's Cross St Pancras commute ~32 mins via New Barnet (+2) |
-| **Space, scale & layout** | **13.5** | 20 | • Square footage taken from floor plan (image analysis)<br>• Standard room sizing: 1,760.0 sq ft total (440 sq ft/bed) (+4)<br>• Under-bathroomed (1 bath for 4 beds - morning bottlenecks likely) (+0.5)<br>• Two or more reception rooms (2) (+1)<br>• Ground floor guest WC present (+1)<br>• Separate garden studio / home office footprint (+1)<br>• Wide living room: Living Room 16.8 ft (floorplan) (+3)<br>• No ground-floor bedroom, but a second ground-floor sitting room (Lounge 10.2 x 9.7 ft) gives the same downstairs space (+3) |
+| **Space, scale & layout** | **12.5** | 20 | • Square footage taken from floor plan (image analysis)<br>• Standard room sizing: 1,760.0 sq ft total (440 sq ft/bed) (+4)<br>• Under-bathroomed (1 bath for 4 beds - morning bottlenecks likely) (+0.5)<br>• Two or more reception rooms (2) (+1)<br>• Ground floor guest WC present (+1)<br>• Wide living room: Living Room 16.8 ft (floorplan) (+3)<br>• No ground-floor bedroom, but a second ground-floor sitting room (Lounge 10.2 x 9.7 ft) gives the same downstairs space (+3) |
 | **Financial efficiency** | **6.7** | 15 | • £710 per sq ft on 1,760 sq ft (+3.3 of 7.5)<br>• £1,250,000 asking price (+3.4 of 7.5) |
 | **Technical & EPC** | **12.0** | 20 | • EPC Band D (4.5) + wall insulation (3) + insulated roof (2) + double glazing (1) (+10 of 10)<br>• EPC assessed 31 July 2009: certificate expired — points scored as stated<br>• EPC: pitched roof with accessible loft (pitched, 300 mm loft insulation) — scope for a simple loft extension (structural survey still required) (+2) |
 | **Observed presentation** | **7.0** | 15 | • Presented finish observed as partially modernised in listing photographs (image analysis) (+3 of 7)<br>• Kitchen & bathroom spec rated standard in listing photographs (image analysis) (+2.5 of 5)<br>• Exterior & garden rated standard in listing photographs (image analysis) (+1.5 of 3) |
 | **Garden & outdoor** | **7.0** | 10 | • South-facing garden confirmed (+5)<br>• Outbuilding present (+2) |
-| **Total** | **60.2** | 100 | 1,760.0 sq ft, 4 beds, band D |
+| **Total** | **59.2** | 100 | 1,760.0 sq ft, 4 beds, band D |
 
 **Photographic evidence reviewed for the score:**
 - 25 property photo(s) analysed by local vision model (Qwen3-VL)
