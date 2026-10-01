@@ -57,12 +57,8 @@ h3 { font-size: 14px; margin: 22px 0 8px; color: var(--muted);
   display: inline-block; padding: 3px 10px; border-radius: 6px;
   font-size: 12px; font-weight: 700; border: 1px solid;
 }
-.badge.gem { color: #1a7f5a; border-color: #1a7f5a; background: #eaf6f1; }
-.badge.partly { color: #2b6cb0; border-color: #2b6cb0; background: #ebf3fb; }
-.badge.flip { color: #8a5cf6; border-color: #8a5cf6; background: #f2edfe; }
-.badge.raw { color: #c2760a; border-color: #c2760a; background: #fdf3e3; }
-.badge.baseline { color: #a8322d; border-color: #a8322d; background: #fbeceb; }
-.badge.unknown { color: #666; border-color: #999; background: #f0f0f0; }
+.badge.tag { color: #1a7f5a; border-color: #1a7f5a; background: #eaf6f1; }
+.swatch-gradient { background: linear-gradient(90deg, #a8322d, #c2760a, #1a7f5a); }
 
 /* ---- property list ---- */
 ul.plist { list-style: none; margin: 0; padding: 0; }

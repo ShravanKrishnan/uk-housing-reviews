@@ -2,25 +2,25 @@
 
 Evaluated **11** properties against combined quality and technical indicators.
 
-| Rank | Address | Price | Size | £/sqft | EPC | Score | Classification |
+| Rank | Address | Price | Size | £/sqft | EPC | Score | Strengths |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| 1 | **Burlington Rise** | £1,175,000 | 2,340.0 | £502 | C | **76.2** | `Capital-Modernized Gem` |
-| 2 | **Well Grove** | £1,450,000 | 2,229.0 | £650 | B | **70.0** | `Partially Modernized` |
-| 3 | **Belmont Avenue** | £1,250,000 | 2,175.0 | £575 | D | **62.5** | `Partially Modernized` |
-| 4 | **Gloucester Road** | £1,250,000 | 1,760.0 | £710 | D | **60.2** | `Partially Modernized` |
-| 5 | **Ainsworth Close** | £1,375,000 | 1,982.0 | £694 | B | **60.0** | `Partially Modernized` |
-| 6 | **Manor Road** | £1,450,000 | 2,471.0 | £587 | C | **57.0** | `Cosmetic Flip / Surface Renovation` |
-| 7 | **Hadley Road** | £1,300,000 | 2,611.0 | £498 | D | **54.8** | `Cosmetic Flip / Surface Renovation` |
-| 8 | **Maryrose Way** | £1,150,000 | 2,514.0 | £457 | E | **54.7** | `Cosmetic Flip / Surface Renovation` |
-| 9 | **Meadway** | £750,000 | 1,271.0 | £590 | D | **54.3** | `Cosmetic Flip / Surface Renovation` |
-| 10 | **Rolfe Close** | £1,000,000 | 2,223.8 | £450 | D | **53.1** | `Cosmetic Flip / Surface Renovation` |
-| 11 | **Park Road** | £1,300,000 | 2,471.0 | £526 | C | **52.3** | `Cosmetic Flip / Surface Renovation` |
+| 1 | **Burlington Rise** | £1,175,000 | 2,340.0 | £502 | C | **76.2** | Generous Space & Layout, Modern Systems, Beautifully Presented, Great Outdoor Space |
+| 2 | **Well Grove** | £1,450,000 | 2,229.0 | £650 | B | **70.0** | Generous Space & Layout, Modern Systems, Great Outdoor Space |
+| 3 | **Belmont Avenue** | £1,250,000 | 2,175.0 | £575 | D | **62.5** | Modern Systems, Beautifully Presented |
+| 4 | **Gloucester Road** | £1,250,000 | 1,760.0 | £710 | D | **60.2** | Great Transport Links, Great Outdoor Space |
+| 5 | **Ainsworth Close** | £1,375,000 | 1,982.0 | £694 | B | **60.0** | Modern Systems, Beautifully Presented |
+| 6 | **Manor Road** | £1,450,000 | 2,471.0 | £587 | C | **57.0** | Modern Systems |
+| 7 | **Hadley Road** | £1,300,000 | 2,611.0 | £498 | D | **54.8** | Beautifully Presented |
+| 8 | **Maryrose Way** | £1,150,000 | 2,514.0 | £457 | E | **54.7** | Great Transport Links, Generous Space & Layout, Strong Value |
+| 9 | **Meadway** | £750,000 | 1,271.0 | £590 | D | **54.3** | Strong Value |
+| 10 | **Rolfe Close** | £1,000,000 | 2,223.8 | £450 | D | **53.1** | Strong Value |
+| 11 | **Park Road** | £1,300,000 | 2,471.0 | £526 | C | **52.3** | - |
 
 
 ---
 
 ## Property Review: Burlington Rise, East Barnet EN4
-> **Classification**: `Capital-Modernized Gem`
+> **Strengths**: `Generous Space & Layout` · `Modern Systems` · `Beautifully Presented` · `Great Outdoor Space`
 
 ### Key Property Metrics
 
@@ -98,7 +98,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 ---
 
 ## Property Review: Rolfe Close, Barnet EN4
-> **Classification**: `Cosmetic Flip / Surface Renovation`
+> **Strengths**: `Strong Value`
 
 > **⚠️ Missing Data** — review scored with incomplete source data:
 >
@@ -182,7 +182,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 ---
 
 ## Property Review: Belmont Avenue, Cockfosters EN4
-> **Classification**: `Partially Modernized`
+> **Strengths**: `Modern Systems` · `Beautifully Presented`
 
 ### Key Property Metrics
 
@@ -268,7 +268,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 ---
 
 ## Property Review: Park Road, New Barnet EN4
-> **Classification**: `Cosmetic Flip / Surface Renovation`
+> **Strengths**: _none — no section cleared its bar_
 
 > **⚠️ Missing Data** — review scored with incomplete source data:
 >
@@ -356,7 +356,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 ---
 
 ## Property Review: Maryrose Way, Oakleigh Park N20
-> **Classification**: `Cosmetic Flip / Surface Renovation`
+> **Strengths**: `Great Transport Links` · `Generous Space & Layout` · `Strong Value`
 
 > **⚠️ Missing Data** — review scored with incomplete source data:
 >
@@ -436,7 +436,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 ---
 
 ## Property Review: Gloucester Road, Barnet EN5
-> **Classification**: `Partially Modernized`
+> **Strengths**: `Great Transport Links` · `Great Outdoor Space`
 
 > **⚠️ Missing Data** — review scored with incomplete source data:
 >
@@ -519,7 +519,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 ---
 
 ## Property Review: Hadley Road, New Barnet, Hertfordshire EN5
-> **Classification**: `Cosmetic Flip / Surface Renovation`
+> **Strengths**: `Beautifully Presented`
 
 ### Key Property Metrics
 
@@ -601,7 +601,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 ---
 
 ## Property Review: Manor Road, Barnet EN5
-> **Classification**: `Cosmetic Flip / Surface Renovation`
+> **Strengths**: `Modern Systems`
 
 > **⚠️ Missing Data** — review scored with incomplete source data:
 >
@@ -700,7 +700,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 ---
 
 ## Property Review: Ainsworth Close, Whetstone N20
-> **Classification**: `Partially Modernized`
+> **Strengths**: `Modern Systems` · `Beautifully Presented`
 
 ### Key Property Metrics
 
@@ -778,7 +778,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 ---
 
 ## Property Review: Well Grove, Whetstone N20
-> **Classification**: `Partially Modernized`
+> **Strengths**: `Generous Space & Layout` · `Modern Systems` · `Great Outdoor Space`
 
 ### Key Property Metrics
 
@@ -856,7 +856,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 ---
 
 ## Property Review: Meadway, Barnet EN5
-> **Classification**: `Cosmetic Flip / Surface Renovation`
+> **Strengths**: `Strong Value`
 
 > **⚠️ Missing Data** — review scored with incomplete source data:
 >
