@@ -10,64 +10,223 @@
 <body>
 <header class="site"><div class="wrap">
   <h1>Property review map</h1>
-  <p class="sub"><strong>11</strong> properties &middot; asking £750,000–£1,450,000 &middot; 11 mapped &middot; generated 2026-10-01</p>
+  <p class="sub"><strong>11</strong> favourites &middot; asking £750,000–£1,450,000 &middot; 11 mapped &middot; generated 2026-10-01</p>
 </div></header>
 
 <div class="wrap">
   <div id="map" role="application" aria-label="Map of reviewed properties"></div>
-  <div class="legend"><span><i class="swatch swatch-gradient"></i>Pin colour = total score (red→amber→green)</span><span><span class="badge tag-systems">Modern Systems</span> (5)</span><span><span class="badge tag-presentation">Beautifully Presented</span> (4)</span><span><span class="badge tag-space">Generous Space &amp; Layout</span> (3)</span><span><span class="badge tag-outdoor">Great Outdoor Space</span> (3)</span><span><span class="badge tag-value">Strong Value</span> (3)</span><span><span class="badge tag-transport">Great Transport Links</span> (2)</span></div>
+  <div class="legend"><span><i class="swatch swatch-gradient"></i>Pin colour = total score (red→amber→green)</span><span id="legend-tags"></span></div>
 
   <div class="panel" style="margin-top:22px">
     <h2>Ranked portfolio</h2>
-    <p class="note" style="margin-top:-6px">Score is a combined 0–100 measure.
-       Click a row for the full review.</p>
-    <ul class="plist"><li id="rank-1" data-pin="74320154"><a class="row" href="properties/burlington-rise-east-barnet-en4.html"><span class="scores"><span class="pill" style="background:#4a9d3f">76.2 Score</span></span><span class="rank">#1</span><span class="addr">Burlington Rise</span><span class="meta">£1,175,000 &middot; 2,340 sq ft &middot; £502.1/sq ft &middot; EPC C</span><span class="meta"><span class="badge tag-space">Generous Space &amp; Layout</span><span class="badge tag-systems">Modern Systems</span><span class="badge tag-presentation">Beautifully Presented</span><span class="badge tag-outdoor">Great Outdoor Space</span></span></a></li><li id="rank-2" data-pin="73000012"><a class="row" href="properties/well-grove-whetstone-n20.html"><span class="scores"><span class="pill" style="background:#4a9d3f">70.0 Score</span></span><span class="rank">#2</span><span class="addr">Well Grove</span><span class="meta">£1,450,000 &middot; 2,229 sq ft &middot; £650.5/sq ft &middot; EPC B</span><span class="meta"><span class="badge tag-space">Generous Space &amp; Layout</span><span class="badge tag-systems">Modern Systems</span><span class="badge tag-outdoor">Great Outdoor Space</span></span></a></li><li id="rank-3" data-pin="72600343"><a class="row" href="properties/belmont-avenue-cockfosters-en4.html"><span class="scores"><span class="pill" style="background:#c2760a">62.5 Score</span></span><span class="rank">#3</span><span class="addr">Belmont Avenue</span><span class="meta">£1,250,000 &middot; 2,175 sq ft &middot; £574.7/sq ft &middot; EPC D</span><span class="meta"><span class="badge tag-systems">Modern Systems</span><span class="badge tag-presentation">Beautifully Presented</span></span></a></li><li id="rank-4" data-pin="74071974"><a class="row" href="properties/gloucester-road-barnet-en5.html"><span class="scores"><span class="pill" style="background:#c2760a">60.2 Score</span></span><span class="rank">#4</span><span class="addr">Gloucester Road</span><span class="meta">£1,250,000 &middot; 1,760 sq ft &middot; £710.2/sq ft &middot; EPC D</span><span class="meta"><span class="badge tag-transport">Great Transport Links</span><span class="badge tag-outdoor">Great Outdoor Space</span></span></a></li><li id="rank-5" data-pin="74164010"><a class="row" href="properties/ainsworth-close-whetstone-n20.html"><span class="scores"><span class="pill" style="background:#c2760a">60.0 Score</span></span><span class="rank">#5</span><span class="addr">Ainsworth Close</span><span class="meta">£1,375,000 &middot; 1,982 sq ft &middot; £693.7/sq ft &middot; EPC B</span><span class="meta"><span class="badge tag-systems">Modern Systems</span><span class="badge tag-presentation">Beautifully Presented</span></span></a></li><li id="rank-6" data-pin="73884950"><a class="row" href="properties/manor-road-barnet-en5.html"><span class="scores"><span class="pill" style="background:#c2760a">57.0 Score</span></span><span class="rank">#6</span><span class="addr">Manor Road</span><span class="meta">£1,450,000 &middot; 2,471 sq ft &middot; £586.8/sq ft &middot; EPC C</span><span class="meta"><span class="badge tag-systems">Modern Systems</span></span></a></li><li id="rank-7" data-pin="70593927"><a class="row" href="properties/hadley-road-new-barnet-hertfordshire-en5.html"><span class="scores"><span class="pill" style="background:#c2760a">54.8 Score</span></span><span class="rank">#7</span><span class="addr">Hadley Road</span><span class="meta">£1,300,000 &middot; 2,611 sq ft &middot; £497.9/sq ft &middot; EPC D</span><span class="meta"><span class="badge tag-presentation">Beautifully Presented</span></span></a></li><li id="rank-8" data-pin="71526117"><a class="row" href="properties/maryrose-way-oakleigh-park-n20.html"><span class="scores"><span class="pill" style="background:#c2760a">54.7 Score</span></span><span class="rank">#8</span><span class="addr">Maryrose Way</span><span class="meta">£1,150,000 &middot; 2,514 sq ft &middot; £457.4/sq ft &middot; EPC E</span><span class="meta"><span class="badge tag-transport">Great Transport Links</span><span class="badge tag-space">Generous Space &amp; Layout</span><span class="badge tag-value">Strong Value</span></span></a></li><li id="rank-9" data-pin="73341394"><a class="row" href="properties/meadway-barnet-en5.html"><span class="scores"><span class="pill" style="background:#c2760a">54.3 Score</span></span><span class="rank">#9</span><span class="addr">Meadway</span><span class="meta">£750,000 &middot; 1,271 sq ft &middot; £590.1/sq ft &middot; EPC D</span><span class="meta"><span class="badge tag-value">Strong Value</span></span></a></li><li id="rank-10" data-pin="69666381"><a class="row" href="properties/rolfe-close-barnet-en4.html"><span class="scores"><span class="pill" style="background:#c2760a">53.1 Score</span></span><span class="rank">#10</span><span class="addr">Rolfe Close</span><span class="meta">£1,000,000 &middot; 2,223.8 sq ft &middot; £449.7/sq ft &middot; EPC D</span><span class="meta"><span class="badge tag-value">Strong Value</span></span></a></li><li id="rank-11" data-pin="73581926"><a class="row" href="properties/park-road-new-barnet-en4.html"><span class="scores"><span class="pill" style="background:#c2760a">52.3 Score</span></span><span class="rank">#11</span><span class="addr">Park Road</span><span class="meta">£1,300,000 &middot; 2,471 sq ft &middot; £526.1/sq ft &middot; EPC C</span></a></li></ul>
+    <p class="note" style="margin-top:-6px">Score is a combined 0–100 measure, highest first.
+       Filter by one strength tag, ten to a page. Click a row for the full review.</p>
+    <section data-tab-section="fav" id="section-fav"><h2>Favourites (11)</h2><div class="chips" hidden><button type="button" class="chip" data-tag="" aria-pressed="true">All</button><button type="button" class="chip" data-tag="Modern Systems" aria-pressed="false">Modern Systems (5)</button><button type="button" class="chip" data-tag="Beautifully Presented" aria-pressed="false">Beautifully Presented (4)</button><button type="button" class="chip" data-tag="Generous Space &amp; Layout" aria-pressed="false">Generous Space &amp; Layout (3)</button><button type="button" class="chip" data-tag="Great Outdoor Space" aria-pressed="false">Great Outdoor Space (3)</button><button type="button" class="chip" data-tag="Strong Value" aria-pressed="false">Strong Value (3)</button><button type="button" class="chip" data-tag="Great Transport Links" aria-pressed="false">Great Transport Links (2)</button></div><ul class="plist"><li id="fav-rank-1" data-pin="fav:74320154" data-tags="Generous Space &amp; Layout|Modern Systems|Beautifully Presented|Great Outdoor Space"><a class="row" href="properties/burlington-rise-east-barnet-en4.html"><span class="scores"><span class="pill" style="background:#4a9d3f">76.2 Score</span></span><span class="rank">#1</span><span class="addr">Burlington Rise</span><span class="meta">£1,175,000 &middot; 2,340 sq ft &middot; £502.1/sq ft &middot; EPC C</span><span class="meta"><span class="badge tag-space">Generous Space &amp; Layout</span><span class="badge tag-systems">Modern Systems</span><span class="badge tag-presentation">Beautifully Presented</span><span class="badge tag-outdoor">Great Outdoor Space</span></span></a></li><li id="fav-rank-2" data-pin="fav:73000012" data-tags="Generous Space &amp; Layout|Modern Systems|Great Outdoor Space"><a class="row" href="properties/well-grove-whetstone-n20.html"><span class="scores"><span class="pill" style="background:#4a9d3f">70.0 Score</span></span><span class="rank">#2</span><span class="addr">Well Grove</span><span class="meta">£1,450,000 &middot; 2,229 sq ft &middot; £650.5/sq ft &middot; EPC B</span><span class="meta"><span class="badge tag-space">Generous Space &amp; Layout</span><span class="badge tag-systems">Modern Systems</span><span class="badge tag-outdoor">Great Outdoor Space</span></span></a></li><li id="fav-rank-3" data-pin="fav:72600343" data-tags="Modern Systems|Beautifully Presented"><a class="row" href="properties/belmont-avenue-cockfosters-en4.html"><span class="scores"><span class="pill" style="background:#c2760a">62.5 Score</span></span><span class="rank">#3</span><span class="addr">Belmont Avenue</span><span class="meta">£1,250,000 &middot; 2,175 sq ft &middot; £574.7/sq ft &middot; EPC D</span><span class="meta"><span class="badge tag-systems">Modern Systems</span><span class="badge tag-presentation">Beautifully Presented</span></span></a></li><li id="fav-rank-4" data-pin="fav:74071974" data-tags="Great Transport Links|Great Outdoor Space"><a class="row" href="properties/gloucester-road-barnet-en5.html"><span class="scores"><span class="pill" style="background:#c2760a">60.2 Score</span></span><span class="rank">#4</span><span class="addr">Gloucester Road</span><span class="meta">£1,250,000 &middot; 1,760 sq ft &middot; £710.2/sq ft &middot; EPC D</span><span class="meta"><span class="badge tag-transport">Great Transport Links</span><span class="badge tag-outdoor">Great Outdoor Space</span></span></a></li><li id="fav-rank-5" data-pin="fav:74164010" data-tags="Modern Systems|Beautifully Presented"><a class="row" href="properties/ainsworth-close-whetstone-n20.html"><span class="scores"><span class="pill" style="background:#c2760a">60.0 Score</span></span><span class="rank">#5</span><span class="addr">Ainsworth Close</span><span class="meta">£1,375,000 &middot; 1,982 sq ft &middot; £693.7/sq ft &middot; EPC B</span><span class="meta"><span class="badge tag-systems">Modern Systems</span><span class="badge tag-presentation">Beautifully Presented</span></span></a></li><li id="fav-rank-6" data-pin="fav:73884950" data-tags="Modern Systems"><a class="row" href="properties/manor-road-barnet-en5.html"><span class="scores"><span class="pill" style="background:#c2760a">57.0 Score</span></span><span class="rank">#6</span><span class="addr">Manor Road</span><span class="meta">£1,450,000 &middot; 2,471 sq ft &middot; £586.8/sq ft &middot; EPC C</span><span class="meta"><span class="badge tag-systems">Modern Systems</span></span></a></li><li id="fav-rank-7" data-pin="fav:70593927" data-tags="Beautifully Presented"><a class="row" href="properties/hadley-road-new-barnet-hertfordshire-en5.html"><span class="scores"><span class="pill" style="background:#c2760a">54.8 Score</span></span><span class="rank">#7</span><span class="addr">Hadley Road</span><span class="meta">£1,300,000 &middot; 2,611 sq ft &middot; £497.9/sq ft &middot; EPC D</span><span class="meta"><span class="badge tag-presentation">Beautifully Presented</span></span></a></li><li id="fav-rank-8" data-pin="fav:71526117" data-tags="Great Transport Links|Generous Space &amp; Layout|Strong Value"><a class="row" href="properties/maryrose-way-oakleigh-park-n20.html"><span class="scores"><span class="pill" style="background:#c2760a">54.7 Score</span></span><span class="rank">#8</span><span class="addr">Maryrose Way</span><span class="meta">£1,150,000 &middot; 2,514 sq ft &middot; £457.4/sq ft &middot; EPC E</span><span class="meta"><span class="badge tag-transport">Great Transport Links</span><span class="badge tag-space">Generous Space &amp; Layout</span><span class="badge tag-value">Strong Value</span></span></a></li><li id="fav-rank-9" data-pin="fav:73341394" data-tags="Strong Value"><a class="row" href="properties/meadway-barnet-en5.html"><span class="scores"><span class="pill" style="background:#c2760a">54.3 Score</span></span><span class="rank">#9</span><span class="addr">Meadway</span><span class="meta">£750,000 &middot; 1,271 sq ft &middot; £590.1/sq ft &middot; EPC D</span><span class="meta"><span class="badge tag-value">Strong Value</span></span></a></li><li id="fav-rank-10" data-pin="fav:69666381" data-tags="Strong Value"><a class="row" href="properties/rolfe-close-barnet-en4.html"><span class="scores"><span class="pill" style="background:#c2760a">53.1 Score</span></span><span class="rank">#10</span><span class="addr">Rolfe Close</span><span class="meta">£1,000,000 &middot; 2,223.8 sq ft &middot; £449.7/sq ft &middot; EPC D</span><span class="meta"><span class="badge tag-value">Strong Value</span></span></a></li><li id="fav-rank-11" data-pin="fav:73581926" data-tags=""><a class="row" href="properties/park-road-new-barnet-en4.html"><span class="scores"><span class="pill" style="background:#c2760a">52.3 Score</span></span><span class="rank">#11</span><span class="addr">Park Road</span><span class="meta">£1,300,000 &middot; 2,471 sq ft &middot; £526.1/sq ft &middot; EPC C</span></a></li></ul><p class="empty-note" hidden>No properties in this view carry that tag.</p><div class="pager" hidden></div><span class="legend-tags" data-for-tab="fav" hidden><span><span class="badge tag-systems">Modern Systems</span> (5)</span><span><span class="badge tag-presentation">Beautifully Presented</span> (4)</span><span><span class="badge tag-space">Generous Space &amp; Layout</span> (3)</span><span><span class="badge tag-outdoor">Great Outdoor Space</span> (3)</span><span><span class="badge tag-value">Strong Value</span> (3)</span><span><span class="badge tag-transport">Great Transport Links</span> (2)</span></span></section>
   </div>
 
   <p class="note" style="margin-top:26px">
     Scores are the single combined axis from the review evaluator; the map is a
     navigation aid, not a valuation. Map data &copy;
     <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.
-    Every figure traces to <code>reviews/property_reviews.json</code>.
+    Every figure traces to the review bundle the site was built from.
   </p>
 </div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
-<script>window.__PINS__ = [{"id": "74320154", "lat": 51.635481, "lon": -0.158863, "addr": "Burlington Rise", "price": "\u00a31,175,000", "sqft": "2,340", "epc": "C", "score": 76.2, "colour": "#6a7b34", "tags": ["Generous Space &amp; Layout", "Modern Systems", "Beautifully Presented", "Great Outdoor Space"], "tag_html": "<span class=\"badge tag-space\">Generous Space &amp; Layout<\/span><span class=\"badge tag-systems\">Modern Systems<\/span><span class=\"badge tag-presentation\">Beautifully Presented<\/span><span class=\"badge tag-outdoor\">Great Outdoor Space<\/span>", "href": "properties/burlington-rise-east-barnet-en4.html"}, {"id": "73000012", "lat": 51.635945, "lon": -0.173912, "addr": "Well Grove", "price": "\u00a31,450,000", "sqft": "2,229", "epc": "B", "score": 70.0, "colour": "#7f7a2a", "tags": ["Generous Space &amp; Layout", "Modern Systems", "Great Outdoor Space"], "tag_html": "<span class=\"badge tag-space\">Generous Space &amp; Layout<\/span><span class=\"badge tag-systems\">Modern Systems<\/span><span class=\"badge tag-outdoor\">Great Outdoor Space<\/span>", "href": "properties/well-grove-whetstone-n20.html"}, {"id": "72600343", "lat": 51.647075, "lon": -0.15618, "addr": "Belmont Avenue", "price": "\u00a31,250,000", "sqft": "2,175", "epc": "D", "score": 62.5, "colour": "#98781e", "tags": ["Modern Systems", "Beautifully Presented"], "tag_html": "<span class=\"badge tag-systems\">Modern Systems<\/span><span class=\"badge tag-presentation\">Beautifully Presented<\/span>", "href": "properties/belmont-avenue-cockfosters-en4.html"}, {"id": "74071974", "lat": 51.647324, "lon": -0.183083, "addr": "Gloucester Road", "price": "\u00a31,250,000", "sqft": "1,760", "epc": "D", "score": 60.2, "colour": "#a0781a", "tags": ["Great Transport Links", "Great Outdoor Space"], "tag_html": "<span class=\"badge tag-transport\">Great Transport Links<\/span><span class=\"badge tag-outdoor\">Great Outdoor Space<\/span>", "href": "properties/gloucester-road-barnet-en5.html"}, {"id": "74164010", "lat": 51.627502, "lon": -0.171657, "addr": "Ainsworth Close", "price": "\u00a31,375,000", "sqft": "1,982", "epc": "B", "score": 60.0, "colour": "#a0781a", "tags": ["Modern Systems", "Beautifully Presented"], "tag_html": "<span class=\"badge tag-systems\">Modern Systems<\/span><span class=\"badge tag-presentation\">Beautifully Presented<\/span>", "href": "properties/ainsworth-close-whetstone-n20.html"}, {"id": "73884950", "lat": 51.647872, "lon": -0.204408, "addr": "Manor Road", "price": "\u00a31,450,000", "sqft": "2,471", "epc": "C", "score": 57.0, "colour": "#aa7715", "tags": ["Modern Systems"], "tag_html": "<span class=\"badge tag-systems\">Modern Systems<\/span>", "href": "properties/manor-road-barnet-en5.html"}, {"id": "70593927", "lat": 51.656282, "lon": -0.182966, "addr": "Hadley Road", "price": "\u00a31,300,000", "sqft": "2,611", "epc": "D", "score": 54.8, "colour": "#b27712", "tags": ["Beautifully Presented"], "tag_html": "<span class=\"badge tag-presentation\">Beautifully Presented<\/span>", "href": "properties/hadley-road-new-barnet-hertfordshire-en5.html"}, {"id": "71526117", "lat": 51.634903, "lon": -0.16875, "addr": "Maryrose Way", "price": "\u00a31,150,000", "sqft": "2,514", "epc": "E", "score": 54.7, "colour": "#b27712", "tags": ["Great Transport Links", "Generous Space &amp; Layout", "Strong Value"], "tag_html": "<span class=\"badge tag-transport\">Great Transport Links<\/span><span class=\"badge tag-space\">Generous Space &amp; Layout<\/span><span class=\"badge tag-value\">Strong Value<\/span>", "href": "properties/maryrose-way-oakleigh-park-n20.html"}, {"id": "73341394", "lat": 51.653017, "lon": -0.189797, "addr": "Meadway", "price": "\u00a3750,000", "sqft": "1,271", "epc": "D", "score": 54.3, "colour": "#b47711", "tags": ["Strong Value"], "tag_html": "<span class=\"badge tag-value\">Strong Value<\/span>", "href": "properties/meadway-barnet-en5.html"}, {"id": "69666381", "lat": 51.648769, "lon": -0.160016, "addr": "Rolfe Close", "price": "\u00a31,000,000", "sqft": "2,223.8", "epc": "D", "score": 53.1, "colour": "#b8770f", "tags": ["Strong Value"], "tag_html": "<span class=\"badge tag-value\">Strong Value<\/span>", "href": "properties/rolfe-close-barnet-en4.html"}, {"id": "73581926", "lat": 51.64765, "lon": -0.161129, "addr": "Park Road", "price": "\u00a31,300,000", "sqft": "2,471", "epc": "C", "score": 52.3, "colour": "#ba760e", "tags": [], "tag_html": "", "href": "properties/park-road-new-barnet-en4.html"}];</script>
+<script>window.__PINS__ = {"fav": [{"id": "74320154", "lat": 51.635481, "lon": -0.158863, "addr": "Burlington Rise", "price": "\u00a31,175,000", "sqft": "2,340", "epc": "C", "score": 76.2, "colour": "#6a7b34", "tags": ["Generous Space &amp; Layout", "Modern Systems", "Beautifully Presented", "Great Outdoor Space"], "tag_html": "<span class=\"badge tag-space\">Generous Space &amp; Layout<\/span><span class=\"badge tag-systems\">Modern Systems<\/span><span class=\"badge tag-presentation\">Beautifully Presented<\/span><span class=\"badge tag-outdoor\">Great Outdoor Space<\/span>", "href": "properties/burlington-rise-east-barnet-en4.html"}, {"id": "73000012", "lat": 51.635945, "lon": -0.173912, "addr": "Well Grove", "price": "\u00a31,450,000", "sqft": "2,229", "epc": "B", "score": 70.0, "colour": "#7f7a2a", "tags": ["Generous Space &amp; Layout", "Modern Systems", "Great Outdoor Space"], "tag_html": "<span class=\"badge tag-space\">Generous Space &amp; Layout<\/span><span class=\"badge tag-systems\">Modern Systems<\/span><span class=\"badge tag-outdoor\">Great Outdoor Space<\/span>", "href": "properties/well-grove-whetstone-n20.html"}, {"id": "72600343", "lat": 51.647075, "lon": -0.15618, "addr": "Belmont Avenue", "price": "\u00a31,250,000", "sqft": "2,175", "epc": "D", "score": 62.5, "colour": "#98781e", "tags": ["Modern Systems", "Beautifully Presented"], "tag_html": "<span class=\"badge tag-systems\">Modern Systems<\/span><span class=\"badge tag-presentation\">Beautifully Presented<\/span>", "href": "properties/belmont-avenue-cockfosters-en4.html"}, {"id": "74071974", "lat": 51.647324, "lon": -0.183083, "addr": "Gloucester Road", "price": "\u00a31,250,000", "sqft": "1,760", "epc": "D", "score": 60.2, "colour": "#a0781a", "tags": ["Great Transport Links", "Great Outdoor Space"], "tag_html": "<span class=\"badge tag-transport\">Great Transport Links<\/span><span class=\"badge tag-outdoor\">Great Outdoor Space<\/span>", "href": "properties/gloucester-road-barnet-en5.html"}, {"id": "74164010", "lat": 51.627502, "lon": -0.171657, "addr": "Ainsworth Close", "price": "\u00a31,375,000", "sqft": "1,982", "epc": "B", "score": 60.0, "colour": "#a0781a", "tags": ["Modern Systems", "Beautifully Presented"], "tag_html": "<span class=\"badge tag-systems\">Modern Systems<\/span><span class=\"badge tag-presentation\">Beautifully Presented<\/span>", "href": "properties/ainsworth-close-whetstone-n20.html"}, {"id": "73884950", "lat": 51.647872, "lon": -0.204408, "addr": "Manor Road", "price": "\u00a31,450,000", "sqft": "2,471", "epc": "C", "score": 57.0, "colour": "#aa7715", "tags": ["Modern Systems"], "tag_html": "<span class=\"badge tag-systems\">Modern Systems<\/span>", "href": "properties/manor-road-barnet-en5.html"}, {"id": "70593927", "lat": 51.656282, "lon": -0.182966, "addr": "Hadley Road", "price": "\u00a31,300,000", "sqft": "2,611", "epc": "D", "score": 54.8, "colour": "#b27712", "tags": ["Beautifully Presented"], "tag_html": "<span class=\"badge tag-presentation\">Beautifully Presented<\/span>", "href": "properties/hadley-road-new-barnet-hertfordshire-en5.html"}, {"id": "71526117", "lat": 51.634903, "lon": -0.16875, "addr": "Maryrose Way", "price": "\u00a31,150,000", "sqft": "2,514", "epc": "E", "score": 54.7, "colour": "#b27712", "tags": ["Great Transport Links", "Generous Space &amp; Layout", "Strong Value"], "tag_html": "<span class=\"badge tag-transport\">Great Transport Links<\/span><span class=\"badge tag-space\">Generous Space &amp; Layout<\/span><span class=\"badge tag-value\">Strong Value<\/span>", "href": "properties/maryrose-way-oakleigh-park-n20.html"}, {"id": "73341394", "lat": 51.653017, "lon": -0.189797, "addr": "Meadway", "price": "\u00a3750,000", "sqft": "1,271", "epc": "D", "score": 54.3, "colour": "#b47711", "tags": ["Strong Value"], "tag_html": "<span class=\"badge tag-value\">Strong Value<\/span>", "href": "properties/meadway-barnet-en5.html"}, {"id": "69666381", "lat": 51.648769, "lon": -0.160016, "addr": "Rolfe Close", "price": "\u00a31,000,000", "sqft": "2,223.8", "epc": "D", "score": 53.1, "colour": "#b8770f", "tags": ["Strong Value"], "tag_html": "<span class=\"badge tag-value\">Strong Value<\/span>", "href": "properties/rolfe-close-barnet-en4.html"}, {"id": "73581926", "lat": 51.64765, "lon": -0.161129, "addr": "Park Road", "price": "\u00a31,300,000", "sqft": "2,471", "epc": "C", "score": 52.3, "colour": "#ba760e", "tags": [], "tag_html": "", "href": "properties/park-road-new-barnet-en4.html"}]};</script>
 <script>
 (function () {
-  var el = document.getElementById('map');
-  if (!el || typeof L === 'undefined') { return; }
-  var data = window.__PINS__ || [];
-  var map = L.map('map', { scrollWheelZoom: false });
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-  }).addTo(map);
-  var group = L.featureGroup().addTo(map);
-  var markers = {};
-  data.forEach(function (p) {
-    var m = L.circleMarker([p.lat, p.lon], {
-      radius: 8 + (p.score / 100) * 8,
-      color: '#ffffff', weight: 2, fillColor: p.colour, fillOpacity: 0.92
-    }).addTo(group);
-    m.bindPopup(
-      '<div class="p-addr">' + p.addr + '</div>' +
-      '<div class="p-meta">' + p.price + ' &middot; ' + p.sqft + ' sq ft &middot; EPC ' + p.epc + '</div>' +
-      '<div class="p-meta">Score ' + p.score.toFixed(1) + '</div>' +
-      (p.tag_html ? '<div class="p-meta">' + p.tag_html + '</div>' : '') +
-      '<p><a href="' + p.href + '">Read the full review &rarr;</a></p>'
-    );
-    markers[p.id] = m;
+  var PAGE_SIZE = 10;
+  var data = window.__PINS__ || {};
+  var tabs = Object.keys(data);
+  var state = { tab: 'fav', page: {}, filter: {} };
+  tabs.forEach(function (t) { state.page[t] = 1; state.filter[t] = ''; });
+  if (tabs.indexOf('fav') === -1 && tabs.length) { state.tab = tabs[0]; }
+
+  function section(tab) {
+    return document.querySelector('section[data-tab-section="' + tab + '"]');
+  }
+  function rows(tab) {
+    var sec = section(tab);
+    if (!sec) { return []; }
+    return Array.prototype.slice.call(sec.querySelectorAll('ul.plist > li'));
+  }
+  function rowTags(li) {
+    return (li.getAttribute('data-tags') || '').split('|').filter(Boolean);
+  }
+  function visible(tab) {
+    var f = state.filter[tab];
+    return rows(tab).filter(function (li) {
+      return !f || rowTags(li).indexOf(f) !== -1;
+    });
+  }
+
+  // -- map ---------------------------------------------------------------
+  var map = null, group = null, markers = {};
+  function initMap() {
+    var el = document.getElementById('map');
+    if (!el || typeof L === 'undefined') { return; }
+    map = L.map('map', { scrollWheelZoom: false });
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+    group = L.featureGroup().addTo(map);
+  }
+  function showPins(tab) {
+    if (!map) { return; }
+    group.clearLayers();
+    markers = {};
+    (data[tab] || []).forEach(function (p) {
+      var m = L.circleMarker([p.lat, p.lon], {
+        radius: 8 + (p.score / 100) * 8,
+        color: '#ffffff', weight: 2, fillColor: p.colour, fillOpacity: 0.92
+      }).addTo(group);
+      m.bindPopup(
+        '<div class="p-addr">' + p.addr + '</div>' +
+        '<div class="p-meta">' + p.price + ' &middot; ' + p.sqft + ' sq ft &middot; EPC ' + p.epc + '</div>' +
+        '<div class="p-meta">Score ' + p.score.toFixed(1) + '</div>' +
+        (p.tag_html ? '<div class="p-meta">' + p.tag_html + '</div>' : '') +
+        '<p><a href="' + p.href + '">Read the full review &rarr;</a></p>'
+      );
+      markers[tab + ':' + p.id] = m;
+    });
+    if ((data[tab] || []).length) { map.fitBounds(group.getBounds().pad(0.18)); }
+  }
+
+  // -- pager ---------------------------------------------------------------
+  function renderPager(tab, pages) {
+    var sec = section(tab);
+    if (!sec) { return; }
+    var pager = sec.querySelector('.pager');
+    pager.innerHTML = '';
+    if (pages <= 1) { return; }
+    var at = state.page[tab];
+    function btn(label, page, disabled, current, aria) {
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.textContent = label;
+      if (current) { b.className = 'current'; b.setAttribute('aria-current', 'page'); }
+      if (aria) { b.setAttribute('aria-label', aria); }
+      b.disabled = !!disabled;
+      b.addEventListener('click', function () { state.page[tab] = page; render(tab); });
+      return b;
+    }
+    pager.appendChild(btn('‹ Prev', Math.max(1, at - 1), at === 1, false, 'Previous page'));
+    for (var n = 1; n <= pages; n++) {
+      pager.appendChild(btn(String(n), n, false, n === at, 'Page ' + n + ' of ' + pages));
+    }
+    pager.appendChild(btn('Next ›', Math.min(pages, at + 1), at === pages, false, 'Next page'));
+    var ind = document.createElement('span');
+    ind.className = 'page-ind';
+    ind.textContent = 'Page ' + at + ' of ' + pages;
+    pager.appendChild(ind);
+  }
+
+  // -- per-tab view ----------------------------------------------------------
+  function render(tab) {
+    var list = visible(tab);
+    var pages = Math.max(1, Math.ceil(list.length / PAGE_SIZE));
+    if (state.page[tab] > pages) { state.page[tab] = pages; }
+    var at = state.page[tab];
+    rows(tab).forEach(function (li) { li.style.display = 'none'; });
+    list.slice((at - 1) * PAGE_SIZE, at * PAGE_SIZE).forEach(function (li) {
+      li.style.display = '';
+    });
+    var sec = section(tab);
+    var empty = sec.querySelector('.empty-note');
+    if (empty) { empty.hidden = list.length !== 0; }
+    renderPager(tab, list.length ? pages : 1);
+    if (list.length === 0) {
+      var pager = sec.querySelector('.pager');
+      if (pager) { pager.innerHTML = ''; }
+    }
+    // Legend follows the active tab: per-tab counts were rendered hidden
+    // server-side, so this is a toggle rather than a recomputation.
+    var legend = document.getElementById('legend-tags');
+    if (legend) {
+      var src = sec.querySelector('.legend-tags');
+      legend.innerHTML = src ? src.innerHTML : '';
+    }
+    showPins(tab);
+  }
+
+  function selectTab(tab) {
+    state.tab = tab;
+    tabs.forEach(function (t) {
+      var sec = section(t);
+      if (sec) { sec.style.display = t === tab ? '' : 'none'; }
+    });
+    Array.prototype.forEach.call(document.querySelectorAll('.tabs .tab'), function (b) {
+      b.setAttribute('aria-selected', String(b.getAttribute('data-tab') === tab));
+    });
+    render(tab);
+  }
+
+  // -- wire up -----------------------------------------------------------------
+  tabs.forEach(function (tab) {
+    var sec = section(tab);
+    if (!sec) { return; }
+    Array.prototype.forEach.call(sec.querySelectorAll('.chips'), function (box) {
+      box.hidden = false;
+    });
+    Array.prototype.forEach.call(sec.querySelectorAll('.pager'), function (pg) {
+      pg.hidden = false;
+    });
+    Array.prototype.forEach.call(sec.querySelectorAll('.chips .chip'), function (chip) {
+      chip.addEventListener('click', function () {
+        var tag = chip.getAttribute('data-tag') || '';
+        state.filter[tab] = tag;
+        state.page[tab] = 1;
+        Array.prototype.forEach.call(sec.querySelectorAll('.chips .chip'), function (c) {
+          c.setAttribute('aria-pressed', String(c === chip));
+        });
+        render(tab);
+      });
+    });
   });
-  if (data.length) { map.fitBounds(group.getBounds().pad(0.18)); }
-  // Keep the sidebar in sync: hovering a row highlights its pin.
-  Object.keys(markers).forEach(function (id) {
-    var row = document.querySelector('[data-pin="' + id + '"]');
-    if (!row) { return; }
-    row.addEventListener('mouseenter', function () { markers[id].setStyle({ weight: 4 }); });
-    row.addEventListener('mouseleave', function () { markers[id].setStyle({ weight: 2 }); });
+  Array.prototype.forEach.call(document.querySelectorAll('.tabs'), function (bar) {
+    bar.hidden = false;
   });
+  Array.prototype.forEach.call(document.querySelectorAll('.tabs .tab'), function (b) {
+    b.addEventListener('click', function () { selectTab(b.getAttribute('data-tab')); });
+  });
+  // Row hover highlights its pin; the key is tab-scoped, so a property
+  // appearing in both tabs highlights the pin of the tab being browsed.
+  document.querySelectorAll('ul.plist > li[data-pin]').forEach(function (row) {
+    row.addEventListener('mouseenter', function () {
+      var m = markers[row.getAttribute('data-pin')];
+      if (m) { m.setStyle({ weight: 4 }); }
+    });
+    row.addEventListener('mouseleave', function () {
+      var m = markers[row.getAttribute('data-pin')];
+      if (m) { m.setStyle({ weight: 2 }); }
+    });
+  });
+
+  initMap();
+  // Deep links from detail pages (index.html#all-rank-50) must reveal their
+  // row: clear that tab's filter and jump to the row's page. Rank equals
+  // position in the unfiltered server order, so the page follows directly.
+  (function revealHash() {
+    var m = /^#(fav|all)-rank-(\d+)$/.exec(window.location.hash || '');
+    if (!m || tabs.indexOf(m[1]) === -1) { return; }
+    state.tab = m[1];
+    state.filter[m[1]] = '';
+    state.page[m[1]] = Math.max(1, Math.ceil(parseInt(m[2], 10) / PAGE_SIZE));
+    var sec = section(m[1]);
+    if (sec) {
+      Array.prototype.forEach.call(sec.querySelectorAll('.chips .chip'), function (c) {
+        c.setAttribute('aria-pressed', String(!c.getAttribute('data-tag')));
+      });
+    }
+  })();
+  // Without JS every section stays a full list; with it, only the active tab
+  // shows and everything is paged. Switching tabs re-renders on demand.
+  if (tabs.length > 1) { selectTab(state.tab); }
+  else { render(state.tab); }
+  var target = window.location.hash && document.getElementById(window.location.hash.slice(1));
+  if (target && target.style.display !== 'none') { target.scrollIntoView(); }
 })();
 </script>
 </body></html>
