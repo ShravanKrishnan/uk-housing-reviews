@@ -1,0 +1,726 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gresham Avenue — review</title>
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <h1>Gresham Avenue</h1>
+  <p class="sub">Gresham Avenue, London N20</p>
+  <nav class="crumbs"><a href="../index.html">← Back to the map</a> &middot;
+  <a href="../index.html#all-rank-143">Rank #143 of All properties</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="panel">
+    <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between">
+      <div>
+        <span class="pill" style="background:#a8322d">33.9 Score</span>
+        
+      </div>
+      <div style="font-size:13px;color:var(--muted)">
+        143 of 164 &middot; score 33.9
+      </div>
+    </div>
+    <div class="verdict">Secondary Assessment Needed: Low scores across multiple dimensions.</div>
+  </div>
+
+  <h3>At a glance</h3>
+  <div class="grid"><div class="stat"><div class="k">Asking price</div><div class="v">£1,050,000</div></div><div class="stat"><div class="k">Property type</div><div class="v">5 bed semi-detached house for sale</div></div><div class="stat"><div class="k">Tenure</div><div class="v">Freehold</div></div><div class="stat"><div class="k">Size</div><div class="v">1,994 sq ft / 185.2 m²</div></div><div class="stat"><div class="k">Price per sq ft</div><div class="v">£526.6</div></div><div class="stat"><div class="k">Bedrooms</div><div class="v">5</div></div><div class="stat"><div class="k">Bathrooms</div><div class="v">2</div></div><div class="stat"><div class="k">Living rooms</div><div class="v">2</div></div><div class="stat"><div class="k">EPC (current / potential)</div><div class="v">C / B</div></div><div class="stat"><div class="k">Nearest station</div><div class="v">New Southgate · 1.1 mi · ~23 min walk</div></div><div class="stat wide"><div class="k">Commute to Liverpool St</div><div class="v">59 min (Great Northern direct to Moorgate (24 min) + 4 min walk via integrated Elizabeth line concourse to Liverpool St)</div></div><div class="stat wide"><div class="k">Commute to King&#x27;s Cross</div><div class="v">48 min (Great Northern direct to King&#x27;s Cross St Pancras (17 min))</div></div></div>
+
+  <h3>Nice-to-haves</h3>
+  <div class="panel">
+    <table class="nice">
+      <thead><tr><th>Signal</th><th>Status</th><th>Detail</th></tr></thead>
+      <tbody><tr><td>Air conditioning</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned; UK EPCs do not record domestic cooling</td></tr><tr><td>Underfloor heating</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned in the listing or EPC</td></tr><tr><td>South-facing garden</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Floor-plan north arrow puts the garden north (not south)</td></tr><tr><td>Sun roof / lantern in living areas</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned and no overhead glazing seen in photos</td></tr><tr><td>Ground-floor bedroom</td><td><span class="nh-status nh-stated">stated</span></td><td>A ground-floor bedroom is described in the listing</td></tr><tr><td>Wide living room</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Largest living area is 12.5 ft (Living Room, floor-plan) — below the 15 ft mark</td></tr><tr><td>Home theatre potential</td><td><span class="nh-status nh-photo_hint">photo-hint</span></td><td>Study measures 8.5 x 7.5 ft (64 sq ft) on the floor plan, a separate room from the Living Room — room for a smaller screen or fewer seats; at that size it holds a 42-inch screen with the front row 3.5 ft from it, 1 recliner row of 2 across (5 ft of frontage, a two-seat loveseat), 2 seats</td></tr></tbody>
+    </table>
+  </div>
+
+<div class="panel"><h2>Photos — 20</h2><div class="slides" id="slides"><div class="slide-frame"><a id="slide-link" href="https://lid.zoocdn.com/u/1024/768/5b7adf12d5f5d0914e2210602ad852686b90f148.jpg" rel="noopener"><img id="slide-img" src="https://lid.zoocdn.com/u/1024/768/5b7adf12d5f5d0914e2210602ad852686b90f148.jpg" alt="Listing photo 1 of 20 — open full size" loading="lazy"></a><button type="button" class="slide-nav prev" id="slide-prev" aria-label="Previous photo">&#8249;</button><button type="button" class="slide-nav next" id="slide-next" aria-label="Next photo">&#8250;</button><span class="slide-badge"><span id="slide-n">1</span> / 20</span></div></div><p class="note" style="margin-top:8px">Arrow keys page through the gallery; click a photo to open it full size. These are the listing's own photographs, at the highest resolution its image host serves.</p></div>
+
+  <div class="layout">
+    <div class="panel sticky">
+      <h2>Where it is</h2>
+      <div id="map" style="height:330px;border-radius:8px"></div>
+      <p class="note" style="margin-top:10px">
+        Pin is the listing's own coordinates. Map tiles are OpenStreetMap.
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=51.619877,-0.159054" rel="noopener">Open in Google Maps →</a>
+        &middot; <a href="https://www.openstreetmap.org/?mlat=51.619877&amp;mlon=-0.159054#map=18/51.619877/-0.159054" rel="noopener">Open in OpenStreetMap →</a>
+        &middot; <a href="https://www.zoopla.co.uk/for-sale/details/74231964/" rel="noopener">Zoopla listing →</a>
+      </p>
+    </div>
+    <div class="panel">
+      <h2>Floorplan analysis</h2>
+      <a href="https://lid.zoocdn.com/u/1024/768/1d3b7fd7cae7c4dd585407985c5194cc294553c0.jpg" rel="noopener"><img class="plan" src="https://lid.zoocdn.com/u/1024/768/1d3b7fd7cae7c4dd585407985c5194cc294553c0.jpg" alt="Floor plan for Gresham Avenue, London N20" loading="lazy"></a><p class="note">8 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are listed without one. <a href="https://lid.zoocdn.com/u/1024/768/1d3b7fd7cae7c4dd585407985c5194cc294553c0.jpg" rel="noopener">Open the full-size plan →</a></p><table class="nice compact"><thead><tr><th>Room</th><th>Type</th><th>Floor</th><th>Dimensions</th><th>Area</th></tr></thead><tbody><tr><td>Kitchen</td><td>kitchen</td><td>ground</td><td class="num">12.5 &times; 8.5 ft</td><td class="num">106 sq ft</td></tr><tr><td>Living Room</td><td>living</td><td>ground</td><td class="num">14.5 &times; 12.5 ft</td><td class="num">181 sq ft</td></tr><tr><td>Bedroom 1</td><td>bedroom</td><td>first</td><td class="num">12.5 &times; 10.5 ft</td><td class="num">131 sq ft</td></tr><tr><td>Bedroom 2</td><td>bedroom</td><td>first</td><td class="num">11.5 &times; 9.5 ft</td><td class="num">109 sq ft</td></tr><tr><td>Bedroom 3</td><td>bedroom</td><td>first</td><td class="num">10.5 &times; 8.5 ft</td><td class="num">89 sq ft</td></tr><tr><td>Bathroom</td><td>bathroom</td><td>first</td><td class="num">6.5 &times; 5.5 ft</td><td class="num">36 sq ft</td></tr><tr><td>Study</td><td>study</td><td>first</td><td class="num">8.5 &times; 7.5 ft</td><td class="num">64 sq ft</td></tr><tr><td>Hall</td><td>circulation</td><td>ground</td><td class="num">6.5 &times; 4.5 ft</td><td class="num">29 sq ft</td></tr></tbody></table>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-top:22px">
+    <h2>Score breakdown — 33.9/100</h2>
+    <div class="bar-row with-evidence"><span class="lbl">Location &amp; transport</span><span class="bar"><i style="width:10.0%;background:#a8322d"></i></span><span class="num">2.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Nearest station New Southgate 24 min walk (1.15 mi routed walk) (+0)</li><li><span class="tick">✓</span>No station within 0.8 mi walking distance (nearest is 1.15 mi)</li><li><span class="tick">✓</span>Extended Liverpool St commute: ~59 mins door-to-concourse via Oakleigh Park (+1)</li><li><span class="tick">✓</span>King&#x27;s Cross St Pancras commute ~48 mins via Oakleigh Park (+1)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Space, scale &amp; layout</span><span class="bar"><i style="width:27.5%;background:#a8322d"></i></span><span class="num">5.5</span><ul class="ticks compact"><li><span class="tick">✓</span>Square footage taken from floor plan (image analysis)</li><li><span class="tick">✓</span>Standard room sizing: 1,994.0 sq ft total (399 sq ft/bed) (+4)</li><li><span class="tick">✓</span>Under-bathroomed (2 bath for 5 beds - morning bottlenecks likely) (+0.5)</li><li><span class="tick">✓</span>Two or more reception rooms (2) (+1)</li><li><span class="tick">✓</span>Living room width: 12.5 ft (below 15 ft)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Financial efficiency</span><span class="bar"><i style="width:56.0%;background:#a8322d"></i></span><span class="num">8.4</span><ul class="ticks compact"><li><span class="tick">✓</span>£527 per sq ft on 1,994 sq ft (+4.5 of 7.5)</li><li><span class="tick">✓</span>£1,050,000 asking price (+3.9 of 7.5)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Technical &amp; EPC</span><span class="bar"><i style="width:60.0%;background:#a8322d"></i></span><span class="num">12.0</span><ul class="ticks compact"><li><span class="tick">✓</span>EPC Band C (7) + no secondary heating (1) + insulated roof (2) + double glazing (1) (+10 of 10)</li><li><span class="tick">✓</span>EPC: pitched roof with accessible loft (pitched, 100 mm loft insulation) — scope for a simple loft extension (structural survey still required) (+2)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Observed presentation</span><span class="bar"><i style="width:40.0%;background:#a8322d"></i></span><span class="num">6.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Presented finish observed as partially modernised in listing photographs (image analysis) (+3 of 7)</li><li><span class="tick">✓</span>Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Garden &amp; outdoor</span><span class="bar"><i style="width:0.0%;background:#a8322d"></i></span><span class="num">0.0</span><p class="note compact">No evidence detected for this component — it scores on the absence of contrary findings.</p></div>
+    <p class="note">The combined score rewards location, space, financial efficiency,
+    technical specification, observed presentation, and garden quality. Every line
+    lists the evidence that earned it, so a component cannot be read as a verdict
+    without the reason attached.</p>
+  </div>
+
+  <h3>Land Registry</h3>
+  <div class="panel">
+    <p><strong>£1,240,000 on 2021-11-24<br><span class="note">First recorded sale: 2011-08-04</span></strong></p>
+    <p>£514/sq ft median (range £219–£698), from 12 of 18 local sales (67% priced). <span class="note">Floor area is borrowed from the EPC extract (epc_bulk total_floor_area) because sale records carry none; small samples are heavy-tailed, so the median is used and withheld below 5 priced sales.</span></p>
+    <p class="note">18 raw sale record(s) exist in this postcode. They are the neighbourhood's history, not this home's, and are deliberately not presented as its own.</p>
+    <p class="note">Scope <code>address</code> — sale history is only ever
+    attributed to this home when a house number was derived and matched.</p>
+  </div>
+
+  <h3>Planning</h3>
+  <div class="panel"><p class="note">1 planning record(s) matched this address:</p><ul class="ticks"><li><a href="https://publicaccess.barnet.gov.uk/online-applications/propertyDetails.do?activeTab=summary&amp;keyVal=NC1RQN00DT005" rel="noopener">29 Gresham Avenue London N20 0XJ</a></li></ul></div>
+
+  <div style="margin-top:22px">
+    <div class="panel"><h2>Photographic evidence reviewed for the score</h2><p class="note">Points are awarded only for detected listing, EPC, or photographic evidence, and each component above lists what it found. Systems without such evidence score zero and are omitted rather than listed as inspection tasks. These notes record what the photos did and did not show.</p><ul class="ticks"><li>21 property photo(s) analysed by local vision model (Qwen3-VL)</li><li>Photographic-evidence score: 32.0/100 (medium confidence; condition 22/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 7/10)</li><li>Floor-plan internal area read from the plan: 1,994 sq ft (scoring measure)</li><li>Condition tier inferred from photos: partially modernised</li><li>Not captured in the photos: extension evidence, exterior rating, garden aspect, garden aspect hint, glazing types, kitchen (…)</li></ul></div>
+  </div>
+
+  
+
+  <details class="raw">
+    <summary>Raw review record (JSON)</summary>
+    <pre>{
+  &quot;asking_price&quot;: 1050000,
+  &quot;bathrooms&quot;: 2,
+  &quot;bedrooms&quot;: 5,
+  &quot;combined_score&quot;: {
+    &quot;detected_features&quot;: [
+      &quot;Nearest station New Southgate 24 min walk (1.15 mi routed walk) (+0)&quot;,
+      &quot;No station within 0.8 mi walking distance (nearest is 1.15 mi)&quot;,
+      &quot;Extended Liverpool St commute: ~59 mins door-to-concourse via Oakleigh Park (+1)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~48 mins via Oakleigh Park (+1)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Standard room sizing: 1,994.0 sq ft total (399 sq ft/bed) (+4)&quot;,
+      &quot;Under-bathroomed (2 bath for 5 beds - morning bottlenecks likely) (+0.5)&quot;,
+      &quot;Two or more reception rooms (2) (+1)&quot;,
+      &quot;Living room width: 12.5 ft (below 15 ft)&quot;,
+      &quot;\u00a3527 per sq ft on 1,994 sq ft (+4.5 of 7.5)&quot;,
+      &quot;\u00a31,050,000 asking price (+3.9 of 7.5)&quot;,
+      &quot;EPC Band C (7) + no secondary heating (1) + insulated roof (2) + double glazing (1) (+10 of 10)&quot;,
+      &quot;EPC: pitched roof with accessible loft (pitched, 100 mm loft insulation) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;,
+      &quot;Presented finish observed as partially modernised in listing photographs (image analysis) (+3 of 7)&quot;,
+      &quot;Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)&quot;
+    ],
+    &quot;evidence&quot;: {
+      &quot;financial_efficiency&quot;: [
+        &quot;\u00a3527 per sq ft on 1,994 sq ft (+4.5 of 7.5)&quot;,
+        &quot;\u00a31,050,000 asking price (+3.9 of 7.5)&quot;
+      ],
+      &quot;location_transport&quot;: [
+        &quot;Nearest station New Southgate 24 min walk (1.15 mi routed walk) (+0)&quot;,
+        &quot;No station within 0.8 mi walking distance (nearest is 1.15 mi)&quot;,
+        &quot;Extended Liverpool St commute: ~59 mins door-to-concourse via Oakleigh Park (+1)&quot;,
+        &quot;King&#x27;s Cross St Pancras commute ~48 mins via Oakleigh Park (+1)&quot;
+      ],
+      &quot;observed_presentation&quot;: [
+        &quot;Presented finish observed as partially modernised in listing photographs (image analysis) (+3 of 7)&quot;,
+        &quot;Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)&quot;
+      ],
+      &quot;space_layout&quot;: [
+        &quot;Square footage taken from floor plan (image analysis)&quot;,
+        &quot;Standard room sizing: 1,994.0 sq ft total (399 sq ft/bed) (+4)&quot;,
+        &quot;Under-bathroomed (2 bath for 5 beds - morning bottlenecks likely) (+0.5)&quot;,
+        &quot;Two or more reception rooms (2) (+1)&quot;,
+        &quot;Living room width: 12.5 ft (below 15 ft)&quot;
+      ],
+      &quot;technical_epc&quot;: [
+        &quot;EPC Band C (7) + no secondary heating (1) + insulated roof (2) + double glazing (1) (+10 of 10)&quot;,
+        &quot;EPC: pitched roof with accessible loft (pitched, 100 mm loft insulation) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;
+      ]
+    },
+    &quot;financial_efficiency&quot;: 8.4,
+    &quot;garden_outdoor&quot;: 0.0,
+    &quot;location_transport&quot;: 2.0,
+    &quot;notes&quot;: [
+      &quot;Nearest station New Southgate 24 min walk (1.15 mi routed walk) (+0)&quot;,
+      &quot;No station within 0.8 mi walking distance (nearest is 1.15 mi)&quot;,
+      &quot;Extended Liverpool St commute: ~59 mins door-to-concourse via Oakleigh Park (+1)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~48 mins via Oakleigh Park (+1)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Standard room sizing: 1,994.0 sq ft total (399 sq ft/bed) (+4)&quot;,
+      &quot;Under-bathroomed (2 bath for 5 beds - morning bottlenecks likely) (+0.5)&quot;,
+      &quot;Two or more reception rooms (2) (+1)&quot;,
+      &quot;EPC Band C&quot;
+    ],
+    &quot;observed_presentation&quot;: 6.0,
+    &quot;space_layout&quot;: 5.5,
+    &quot;tags&quot;: [],
+    &quot;technical_epc&quot;: 12.0,
+    &quot;total_score&quot;: 33.9,
+    &quot;vision_facts&quot;: [
+      &quot;21 property photo(s) analysed by local vision model (Qwen3-VL)&quot;,
+      &quot;Photographic-evidence score: 32.0/100 (medium confidence; condition 22/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 7/10)&quot;,
+      &quot;Floor-plan internal area read from the plan: 1,994 sq ft (scoring measure)&quot;,
+      &quot;Condition tier inferred from photos: partially modernised&quot;,
+      &quot;Not captured in the photos: extension evidence, exterior rating, garden aspect, garden aspect hint, glazing types, kitchen (\u2026)&quot;
+    ]
+  },
+  &quot;data_gaps&quot;: [],
+  &quot;epc_potential&quot;: &quot;B&quot;,
+  &quot;epc_rating&quot;: &quot;C&quot;,
+  &quot;floorplan_image_url&quot;: &quot;https://lid.zoocdn.com/u/1024/768/1d3b7fd7cae7c4dd585407985c5194cc294553c0.jpg&quot;,
+  &quot;floorplan_rooms&quot;: [
+    {
+      &quot;area_sq_ft&quot;: 106,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;kitchen&quot;,
+      &quot;label&quot;: &quot;Kitchen&quot;,
+      &quot;length_ft&quot;: 12.5,
+      &quot;width_ft&quot;: 8.5
+    },
+    {
+      &quot;area_sq_ft&quot;: 181,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;living&quot;,
+      &quot;label&quot;: &quot;Living Room&quot;,
+      &quot;length_ft&quot;: 14.5,
+      &quot;width_ft&quot;: 12.5
+    },
+    {
+      &quot;area_sq_ft&quot;: 131,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 1&quot;,
+      &quot;length_ft&quot;: 12.5,
+      &quot;width_ft&quot;: 10.5
+    },
+    {
+      &quot;area_sq_ft&quot;: 109,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 2&quot;,
+      &quot;length_ft&quot;: 11.5,
+      &quot;width_ft&quot;: 9.5
+    },
+    {
+      &quot;area_sq_ft&quot;: 89,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 3&quot;,
+      &quot;length_ft&quot;: 10.5,
+      &quot;width_ft&quot;: 8.5
+    },
+    {
+      &quot;area_sq_ft&quot;: 36,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bathroom&quot;,
+      &quot;label&quot;: &quot;Bathroom&quot;,
+      &quot;length_ft&quot;: 6.5,
+      &quot;width_ft&quot;: 5.5
+    },
+    {
+      &quot;area_sq_ft&quot;: 64,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;study&quot;,
+      &quot;label&quot;: &quot;Study&quot;,
+      &quot;length_ft&quot;: 8.5,
+      &quot;width_ft&quot;: 7.5
+    },
+    {
+      &quot;area_sq_ft&quot;: 29,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;circulation&quot;,
+      &quot;label&quot;: &quot;Hall&quot;,
+      &quot;length_ft&quot;: 6.5,
+      &quot;width_ft&quot;: 4.5
+    }
+  ],
+  &quot;full_address&quot;: &quot;Gresham Avenue, London N20&quot;,
+  &quot;kings_cross_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Moderate (45-55m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 17,
+    &quot;route_summary&quot;: &quot;Great Northern direct to King&#x27;s Cross St Pancras (17 min)&quot;,
+    &quot;secondary_route&quot;: &quot;Woodside Park (1.355 mi, ~28m walk) \u2794 London Underground (Northern line - Bank branch) (27m rail) = ~55m total&quot;,
+    &quot;station_distance_miles&quot;: 1.502,
+    &quot;station_name&quot;: &quot;Oakleigh Park&quot;,
+    &quot;total_commute_minutes&quot;: 48,
+    &quot;transfer_minutes&quot;: 0,
+    &quot;transit_line&quot;: &quot;Great Northern (National Rail)&quot;,
+    &quot;walk_time_minutes&quot;: 31
+  },
+  &quot;land_registry_summary&quot;: {
+    &quot;_cache&quot;: true,
+    &quot;area_benchmark&quot;: {
+      &quot;area_source&quot;: &quot;epc_bulk total_floor_area&quot;,
+      &quot;coverage_pct&quot;: 67,
+      &quot;high_gbp_sqft&quot;: 698,
+      &quot;low_gbp_sqft&quot;: 219,
+      &quot;median_gbp_sqft&quot;: 514,
+      &quot;of_sales&quot;: 18,
+      &quot;sample&quot;: 12
+    },
+    &quot;first_sale_date&quot;: &quot;2011-08-04&quot;,
+    &quot;last_sale_date&quot;: &quot;2021-11-24&quot;,
+    &quot;last_sale_price&quot;: 1240000,
+    &quot;number_known&quot;: true,
+    &quot;postcode_sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1997-03-27&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;5&quot;,
+        &quot;postcode&quot;: &quot;N20 0XJ&quot;,
+        &quot;price&quot;: 165000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GRESHAM AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;D3D2D8F1-07FA-4B6D-8BDF-BA06B2CA0F8E&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2003-10-24&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;1&quot;,
+        &quot;postcode&quot;: &quot;N20 0XJ&quot;,
+        &quot;price&quot;: 365000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GRESHAM AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;CC5E15EC-25D2-436C-9803-997DC9B85837&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2004-02-26&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;19&quot;,
+        &quot;postcode&quot;: &quot;N20 0XJ&quot;,
+        &quot;price&quot;: 369995,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GRESHAM AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;7DFA7509-E41A-4B84-9E90-E3171CCF154C&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2005-07-22&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;15&quot;,
+        &quot;postcode&quot;: &quot;N20 0XJ&quot;,
+        &quot;price&quot;: 400000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GRESHAM AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;5DB8F1F1-42AA-4806-8BCA-FE5A19AF1973&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2007-01-08&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;21&quot;,
+        &quot;postcode&quot;: &quot;N20 0XJ&quot;,
+        &quot;price&quot;: 565000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GRESHAM AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;B31A6817-92EA-4A1E-95D4-BDAF47B2ED04&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2007-06-26&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;9&quot;,
+        &quot;postcode&quot;: &quot;N20 0XJ&quot;,
+        &quot;price&quot;: 495000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GRESHAM AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;80962373-9DCF-45A1-BBE0-9622E267D2D9&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2008-06-20&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;1&quot;,
+        &quot;postcode&quot;: &quot;N20 0XJ&quot;,
+        &quot;price&quot;: 515000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GRESHAM AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;CFCC09C0-E2E4-474D-BAD1-68AFF90D1D2B&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2010-10-26&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;25&quot;,
+        &quot;postcode&quot;: &quot;N20 0XJ&quot;,
+        &quot;price&quot;: 580000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GRESHAM AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;BB82341F-6665-48CF-92DE-F21637A2C663&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2011-08-04&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;29&quot;,
+        &quot;postcode&quot;: &quot;N20 0XJ&quot;,
+        &quot;price&quot;: 600000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GRESHAM AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;08E90F85-FCDD-42C8-91ED-93BD2EAE1239&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2013-09-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;29&quot;,
+        &quot;postcode&quot;: &quot;N20 0XJ&quot;,
+        &quot;price&quot;: 665000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GRESHAM AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;47C816BE-20CE-47CC-9E7B-B5CAFA26FA81&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2014-03-28&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;23&quot;,
+        &quot;postcode&quot;: &quot;N20 0XJ&quot;,
+        &quot;price&quot;: 610000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GRESHAM AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;DE9002D6-64C8-42BF-9745-C88DD3F4BC08&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2014-10-24&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;7&quot;,
+        &quot;postcode&quot;: &quot;N20 0XJ&quot;,
+        &quot;price&quot;: 680000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GRESHAM AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;BA350FB7-FF64-497C-B6ED-0FB9EAB25869&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2015-09-22&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;25&quot;,
+        &quot;postcode&quot;: &quot;N20 0XJ&quot;,
+        &quot;price&quot;: 743000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GRESHAM AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;DB70F7B4-887D-4D26-A74C-0E2A227C1E97&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-10-20&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;5&quot;,
+        &quot;postcode&quot;: &quot;N20 0XJ&quot;,
+        &quot;price&quot;: 732000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GRESHAM AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;5CF9903C-3703-7F13-E053-6C04A8C074B1&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2018-03-27&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;19&quot;,
+        &quot;postcode&quot;: &quot;N20 0XJ&quot;,
+        &quot;price&quot;: 1135000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GRESHAM AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;68FEB20B-BB52-38DA-E053-6C04A8C051AE&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Additional price paid transaction&quot;,
+        &quot;date&quot;: &quot;2021-11-24&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;29&quot;,
+        &quot;postcode&quot;: &quot;N20 0XJ&quot;,
+        &quot;price&quot;: 1240000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GRESHAM AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;D4D42646-D22B-27F6-E053-6C04A8C0A572&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Additional price paid transaction&quot;,
+        &quot;date&quot;: &quot;2025-03-20&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;11&quot;,
+        &quot;postcode&quot;: &quot;N20 0XJ&quot;,
+        &quot;price&quot;: 850000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GRESHAM AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;49E87C32-E33A-591C-E063-4704A8C00C31&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2025-08-29&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;25&quot;,
+        &quot;postcode&quot;: &quot;N20 0XJ&quot;,
+        &quot;price&quot;: 930000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GRESHAM AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;42C129E4-DB32-60A9-E063-4804A8C0C25D&quot;
+      }
+    ],
+    &quot;sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2011-08-04&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;29&quot;,
+        &quot;postcode&quot;: &quot;N20 0XJ&quot;,
+        &quot;price&quot;: 600000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GRESHAM AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;08E90F85-FCDD-42C8-91ED-93BD2EAE1239&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2013-09-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;29&quot;,
+        &quot;postcode&quot;: &quot;N20 0XJ&quot;,
+        &quot;price&quot;: 665000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GRESHAM AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;47C816BE-20CE-47CC-9E7B-B5CAFA26FA81&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Additional price paid transaction&quot;,
+        &quot;date&quot;: &quot;2021-11-24&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;29&quot;,
+        &quot;postcode&quot;: &quot;N20 0XJ&quot;,
+        &quot;price&quot;: 1240000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GRESHAM AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;D4D42646-D22B-27F6-E053-6C04A8C0A572&quot;
+      }
+    ],
+    &quot;scope&quot;: &quot;address&quot;,
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;latitude&quot;: 51.619877,
+  &quot;liverpool_st_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Lengthy (&gt;55m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 24,
+    &quot;route_summary&quot;: &quot;Great Northern direct to Moorgate (24 min) + 4 min walk via integrated Elizabeth line concourse to Liverpool St&quot;,
+    &quot;secondary_route&quot;: &quot;Arnos Grove (1.388 mi, ~28m walk) \u2794 London Underground (Piccadilly line) (30m rail) = ~62m total&quot;,
+    &quot;station_distance_miles&quot;: 1.502,
+    &quot;station_name&quot;: &quot;Oakleigh Park&quot;,
+    &quot;total_commute_minutes&quot;: 59,
+    &quot;transfer_minutes&quot;: 4,
+    &quot;transit_line&quot;: &quot;Great Northern (National Rail)&quot;,
+    &quot;walk_time_minutes&quot;: 31
+  },
+  &quot;living_rooms&quot;: 2,
+  &quot;longitude&quot;: -0.159054,
+  &quot;nearest_station&quot;: &quot;New Southgate&quot;,
+  &quot;nice_to_haves&quot;: [
+    {
+      &quot;detail&quot;: &quot;Not mentioned; UK EPCs do not record domestic cooling&quot;,
+      &quot;label&quot;: &quot;Air conditioning&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned in the listing or EPC&quot;,
+      &quot;label&quot;: &quot;Underfloor heating&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Floor-plan north arrow puts the garden north (not south)&quot;,
+      &quot;label&quot;: &quot;South-facing garden&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned and no overhead glazing seen in photos&quot;,
+      &quot;label&quot;: &quot;Sun roof / lantern in living areas&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;A ground-floor bedroom is described in the listing&quot;,
+      &quot;label&quot;: &quot;Ground-floor bedroom&quot;,
+      &quot;status&quot;: &quot;stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Largest living area is 12.5 ft (Living Room, floor-plan) \u2014 below the 15 ft mark&quot;,
+      &quot;label&quot;: &quot;Wide living room&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Study measures 8.5 x 7.5 ft (64 sq ft) on the floor plan, a separate room from the Living Room \u2014 room for a smaller screen or fewer seats; at that size it holds a 42-inch screen with the front row 3.5 ft from it, 1 recliner row of 2 across (5 ft of frontage, a two-seat loveseat), 2 seats&quot;,
+      &quot;label&quot;: &quot;Home theatre potential&quot;,
+      &quot;status&quot;: &quot;photo-hint&quot;
+    }
+  ],
+  &quot;overall_verdict&quot;: &quot;Secondary Assessment Needed: Low scores across multiple dimensions.&quot;,
+  &quot;planning_summary&quot;: {
+    &quot;_cache&quot;: true,
+    &quot;applications&quot;: [],
+    &quot;properties&quot;: [
+      {
+        &quot;key&quot;: &quot;NC1RQN00DT005&quot;,
+        &quot;text&quot;: &quot;29 Gresham Avenue London N20 0XJ&quot;,
+        &quot;url&quot;: &quot;https://publicaccess.barnet.gov.uk/online-applications/propertyDetails.do?activeTab=summary&amp;keyVal=NC1RQN00DT005&quot;
+      }
+    ],
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;price_display&quot;: &quot;\u00a31,050,000&quot;,
+  &quot;price_per_sq_ft&quot;: 526.6,
+  &quot;property_id&quot;: &quot;74231964&quot;,
+  &quot;property_images&quot;: [
+    &quot;https://lid.zoocdn.com/u/1024/768/5b7adf12d5f5d0914e2210602ad852686b90f148.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/a310054c86a4c59cc95eee01e19b3cb1b41b4256.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/f797db9780a2d9a20d2e1717a5f71bae0363427b.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/b9e44b7e9a1dbd632c3b72ce37cb49ac29ae69bb.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/74bdcf7a2745c0beb379926fb148f089e1b1212a.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/cdadb7c94e1553ab57e3d510267f72246966f817.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/eccc86533848f3152c459b881b4b451b8524e1d3.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/dff078a7258b550987890f30411d9a6663445b54.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/cb214a297b1824304cc2233117c50025520b8e64.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/2f4308b61e8b3cba4cc046644c571a263ca5a418.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/4adedf50c1ece41a32d7eeda58269da6a847ad63.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/62727775d0a67aa41bb4756a3b993f00ffc02db4.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/68c35647681b8135a542ae7252cb6bb02168f795.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/724d1d3305cc8cfee035b54d2aa677f754de5fbf.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/7d5aeeb9ac2af28f1cce27510be340f4c2b1bfbd.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/1b42d1c0bf0143275dedb6cca51c506b5136f0b6.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/d9e23cd54eb95b9f23cc88660e370a4799e8ad45.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/657b8dd954572739a9497229bd0672766ae035b1.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/4b1e2e491274a805d1bce8f3ac2f3ed714747216.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/2de3143c9f0fe9009440cf8bd3f8962640a2ff0a.jpg&quot;
+  ],
+  &quot;property_type&quot;: &quot;5 bed semi-detached house for sale&quot;,
+  &quot;size_sq_ft&quot;: 1994.0,
+  &quot;size_sq_m&quot;: 185.2,
+  &quot;station_distance_miles&quot;: 1.15,
+  &quot;station_distance_source&quot;: &quot;routed&quot;,
+  &quot;tenure&quot;: &quot;Freehold&quot;,
+  &quot;walk_time_minutes&quot;: 23
+}</pre>
+  </details>
+
+  <div class="foot"><div><a href="gallants-farm-road-east-barnet-en4.html">← Gallants Farm Road</a></div><div><a href="gresham-avenue-whetstone-london-n20.html">→ Gresham Avenue</a></div></div>
+
+  <p class="note" style="margin-top:26px">Generated 2026-10-01 from
+  <code>reviews/property_reviews.json</code>. Map data &copy;
+  <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</p>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
+<script>window.__PINS__ = [{"id": "74231964", "lat": 51.619877, "lon": -0.159054, "addr": "Gresham Avenue", "price": "\u00a31,050,000", "sqft": "1,994", "epc": "C", "score": 33.9, "colour": "#a8322d", "tags": [], "tag_html": "", "href": "#"}];</script>
+<script>window.__SLIDES__ = ["https://lid.zoocdn.com/u/1024/768/5b7adf12d5f5d0914e2210602ad852686b90f148.jpg", "https://lid.zoocdn.com/u/1024/768/a310054c86a4c59cc95eee01e19b3cb1b41b4256.jpg", "https://lid.zoocdn.com/u/1024/768/f797db9780a2d9a20d2e1717a5f71bae0363427b.jpg", "https://lid.zoocdn.com/u/1024/768/b9e44b7e9a1dbd632c3b72ce37cb49ac29ae69bb.jpg", "https://lid.zoocdn.com/u/1024/768/74bdcf7a2745c0beb379926fb148f089e1b1212a.jpg", "https://lid.zoocdn.com/u/1024/768/cdadb7c94e1553ab57e3d510267f72246966f817.jpg", "https://lid.zoocdn.com/u/1024/768/eccc86533848f3152c459b881b4b451b8524e1d3.jpg", "https://lid.zoocdn.com/u/1024/768/dff078a7258b550987890f30411d9a6663445b54.jpg", "https://lid.zoocdn.com/u/1024/768/cb214a297b1824304cc2233117c50025520b8e64.jpg", "https://lid.zoocdn.com/u/1024/768/2f4308b61e8b3cba4cc046644c571a263ca5a418.jpg", "https://lid.zoocdn.com/u/1024/768/4adedf50c1ece41a32d7eeda58269da6a847ad63.jpg", "https://lid.zoocdn.com/u/1024/768/62727775d0a67aa41bb4756a3b993f00ffc02db4.jpg", "https://lid.zoocdn.com/u/1024/768/68c35647681b8135a542ae7252cb6bb02168f795.jpg", "https://lid.zoocdn.com/u/1024/768/724d1d3305cc8cfee035b54d2aa677f754de5fbf.jpg", "https://lid.zoocdn.com/u/1024/768/7d5aeeb9ac2af28f1cce27510be340f4c2b1bfbd.jpg", "https://lid.zoocdn.com/u/1024/768/1b42d1c0bf0143275dedb6cca51c506b5136f0b6.jpg", "https://lid.zoocdn.com/u/1024/768/d9e23cd54eb95b9f23cc88660e370a4799e8ad45.jpg", "https://lid.zoocdn.com/u/1024/768/657b8dd954572739a9497229bd0672766ae035b1.jpg", "https://lid.zoocdn.com/u/1024/768/4b1e2e491274a805d1bce8f3ac2f3ed714747216.jpg", "https://lid.zoocdn.com/u/1024/768/2de3143c9f0fe9009440cf8bd3f8962640a2ff0a.jpg"];</script>
+<script>
+(function () {
+  var el = document.getElementById('map');
+  if (!el || typeof L === 'undefined') { return; }
+  var data = window.__PINS__ || [];
+  if (!data.length || data[0].lat === null) { el.style.display = 'none'; return; }
+  var map = L.map('map', { scrollWheelZoom: false, dragging: false,
+                           doubleClickZoom: false, boxZoom: false,
+                           keyboard: false, zoomControl: false });
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  var group = L.featureGroup().addTo(map);
+  data.forEach(function (p) {
+    if (p.lat === null) { return; }
+    L.circleMarker([p.lat, p.lon], { radius: 10, color: '#ffffff', weight: 3,
+                                     fillColor: p.colour, fillOpacity: 0.95 }).addTo(group);
+  });
+  if (group.getBounds().isValid()) { map.fitBounds(group.getBounds().pad(0.35)); }
+  L.control.attribution({ prefix: false }).addTo(map);
+})();
+</script>
+<script>
+(function () {
+  var shots = window.__SLIDES__ || [];
+  var img = document.getElementById('slide-img');
+  var link = document.getElementById('slide-link');
+  var prev = document.getElementById('slide-prev');
+  var next = document.getElementById('slide-next');
+  var num = document.getElementById('slide-n');
+  if (!img || !link || shots.length < 2) {
+    if (prev) { prev.disabled = true; }
+    if (next) { next.disabled = true; }
+    return;
+  }
+  var at = 0;
+
+  function show(i) {
+    at = (i + shots.length) % shots.length;
+    img.src = shots[at];
+    img.alt = 'Listing photo ' + (at + 1) + ' of ' + shots.length +
+              ' — open full size';
+    link.href = shots[at];
+    if (num) { num.textContent = String(at + 1); }
+  }
+
+  // Only the neighbours are warmed: a 34-photo listing at 136 KB each is
+  // 4.6 MB if the whole gallery is fetched up front, for images the reader may
+  // never scroll to.
+  function warm() {
+    [at + 1, at - 1].forEach(function (k) {
+      var j = (k + shots.length) % shots.length;
+      if (j !== at) { new Image().src = shots[j]; }
+    });
+  }
+
+  prev.addEventListener('click', function () { show(at - 1); warm(); });
+  next.addEventListener('click', function () { show(at + 1); warm(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) { return; }
+    if (e.key === 'ArrowLeft') { show(at - 1); warm(); }
+    if (e.key === 'ArrowRight') { show(at + 1); warm(); }
+  });
+  show(0);
+  warm();
+})();
+</script>
+</body></html>

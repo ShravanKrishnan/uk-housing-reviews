@@ -1,0 +1,866 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Raydean Road — review</title>
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <h1>Raydean Road</h1>
+  <p class="sub">Raydean Road, New Barnet, Barnet EN5</p>
+  <nav class="crumbs"><a href="../index.html">← Back to the map</a> &middot;
+  <a href="../index.html#all-rank-37">Rank #37 of All properties</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="panel">
+    <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between">
+      <div>
+        <span class="pill" style="background:#c2760a">51.8 Score</span>
+        <span class="badge tag-value">Strong Value</span>
+      </div>
+      <div style="font-size:13px;color:var(--muted)">
+        37 of 164 &middot; score 51.8
+      </div>
+    </div>
+    <div class="verdict">Proceed with Caution: Moderate scores, verify key items during survey.</div>
+  </div>
+
+  <h3>At a glance</h3>
+  <div class="grid"><div class="stat"><div class="k">Asking price</div><div class="v">£835,000</div></div><div class="stat"><div class="k">Property type</div><div class="v">4 bed semi-detached house for sale</div></div><div class="stat"><div class="k">Tenure</div><div class="v">Freehold</div></div><div class="stat"><div class="k">Size</div><div class="v">1,729 sq ft / 160.6 m²</div></div><div class="stat"><div class="k">Price per sq ft</div><div class="v">£482.9</div></div><div class="stat"><div class="k">Bedrooms</div><div class="v">4</div></div><div class="stat"><div class="k">Bathrooms</div><div class="v">2</div></div><div class="stat"><div class="k">Living rooms</div><div class="v">2</div></div><div class="stat"><div class="k">EPC (current / potential)</div><div class="v">D / C</div></div><div class="stat"><div class="k">Nearest station</div><div class="v">High Barnet · 0.7 mi · ~15 min walk</div></div><div class="stat wide"><div class="k">Commute to Liverpool St</div><div class="v">50 min (Great Northern direct to Moorgate (26 min) + 4 min walk via integrated Elizabeth line concourse to Liverpool St)</div></div><div class="stat wide"><div class="k">Commute to King&#x27;s Cross</div><div class="v">39 min (Great Northern direct to King&#x27;s Cross St Pancras (19 min))</div></div></div>
+
+  <h3>Nice-to-haves</h3>
+  <div class="panel">
+    <table class="nice">
+      <thead><tr><th>Signal</th><th>Status</th><th>Detail</th></tr></thead>
+      <tbody><tr><td>Air conditioning</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned; UK EPCs do not record domestic cooling</td></tr><tr><td>Underfloor heating</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned in the listing or EPC</td></tr><tr><td>South-facing garden</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Floor-plan north arrow puts the garden north (not south)</td></tr><tr><td>Sun roof / lantern in living areas</td><td><span class="nh-status nh-photo_hint">photo-hint</span></td><td>skylight seen in a living-area photo (room unverified)</td></tr><tr><td>Ground-floor bedroom</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>No ground-floor bedroom or convertible room mentioned</td></tr><tr><td>Wide living room</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Reception Room measures 15.7 ft at its widest (floor-plan) — clears the 15 ft mark</td></tr><tr><td>Home theatre potential</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>No cinema or media room mentioned, and no other room on the plan is large enough to be one</td></tr></tbody>
+    </table>
+  </div>
+
+<div class="panel"><h2>Photos — 22</h2><div class="slides" id="slides"><div class="slide-frame"><a id="slide-link" href="https://lid.zoocdn.com/u/1024/768/23b85f6fc5237d22326b7e3ddee9c3f42ec7f478.jpg" rel="noopener"><img id="slide-img" src="https://lid.zoocdn.com/u/1024/768/23b85f6fc5237d22326b7e3ddee9c3f42ec7f478.jpg" alt="Listing photo 1 of 22 — open full size" loading="lazy"></a><button type="button" class="slide-nav prev" id="slide-prev" aria-label="Previous photo">&#8249;</button><button type="button" class="slide-nav next" id="slide-next" aria-label="Next photo">&#8250;</button><span class="slide-badge"><span id="slide-n">1</span> / 22</span></div></div><p class="note" style="margin-top:8px">Arrow keys page through the gallery; click a photo to open it full size. These are the listing's own photographs, at the highest resolution its image host serves.</p></div>
+
+  <div class="layout">
+    <div class="panel sticky">
+      <h2>Where it is</h2>
+      <div id="map" style="height:330px;border-radius:8px"></div>
+      <p class="note" style="margin-top:10px">
+        Pin is the listing's own coordinates. Map tiles are OpenStreetMap.
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=51.645229,-0.187556" rel="noopener">Open in Google Maps →</a>
+        &middot; <a href="https://www.openstreetmap.org/?mlat=51.645229&amp;mlon=-0.187556#map=18/51.645229/-0.187556" rel="noopener">Open in OpenStreetMap →</a>
+        &middot; <a href="https://www.zoopla.co.uk/for-sale/details/74340256/" rel="noopener">Zoopla listing →</a>
+      </p>
+    </div>
+    <div class="panel">
+      <h2>Floorplan analysis</h2>
+      <a href="https://lid.zoocdn.com/u/1024/768/f4ada8d6093b5521c07bb8762a1d26a0e04d9981.jpg" rel="noopener"><img class="plan" src="https://lid.zoocdn.com/u/1024/768/f4ada8d6093b5521c07bb8762a1d26a0e04d9981.jpg" alt="Floor plan for Raydean Road, New Barnet, Barnet EN5" loading="lazy"></a><p class="note">14 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are listed without one. <a href="https://lid.zoocdn.com/u/1024/768/f4ada8d6093b5521c07bb8762a1d26a0e04d9981.jpg" rel="noopener">Open the full-size plan →</a></p><table class="nice compact"><thead><tr><th>Room</th><th>Type</th><th>Floor</th><th>Dimensions</th><th>Area</th></tr></thead><tbody><tr><td>Shed</td><td>outbuilding</td><td>ground</td><td class="num">13.3 &times; 7.5 ft</td><td class="num">100 sq ft</td></tr><tr><td>Garden</td><td>garden</td><td>ground</td><td class="num">49.5 &times; 28.9 ft</td><td class="num">1,431 sq ft</td></tr><tr><td>Kitchen/Dining Room</td><td>kitchen</td><td>ground</td><td class="num">23.2 &times; 14.8 ft</td><td class="num">343 sq ft</td></tr><tr><td>Reception Room</td><td>living</td><td>ground</td><td class="num">19.2 &times; 15.7 ft</td><td class="num">301 sq ft</td></tr><tr><td>Utility</td><td>utility</td><td>ground</td><td class="num">4.2 &times; 3.9 ft</td><td class="num">16 sq ft</td></tr><tr><td>W.C.</td><td>bathroom</td><td>ground</td><td class="num">5.2 &times; 2.9 ft</td><td class="num">15 sq ft</td></tr><tr><td>Hallway</td><td>circulation</td><td>ground</td><td class="num">4.5 &times; 1.9 ft</td><td class="num">9 sq ft</td></tr><tr><td>Bedroom 3</td><td>bedroom</td><td>first</td><td class="num">11.2 &times; 10.8 ft</td><td class="num">121 sq ft</td></tr><tr><td>Bedroom 2</td><td>bedroom</td><td>first</td><td class="num">14.2 &times; 11.8 ft</td><td class="num">168 sq ft</td></tr><tr><td>Bedroom 4</td><td>bedroom</td><td>first</td><td class="num">12 &times; 7.2 ft</td><td class="num">86 sq ft</td></tr><tr><td>Bathroom</td><td>bathroom</td><td>first</td><td class="num">8.3 &times; 5.2 ft</td><td class="num">43 sq ft</td></tr><tr><td>En-suite</td><td>bathroom</td><td>second</td><td class="num">6.3 &times; 5.9 ft</td><td class="num">37 sq ft</td></tr><tr><td>Bedroom 1</td><td>bedroom</td><td>second</td><td class="num">17.2 &times; 17 ft</td><td class="num">292 sq ft</td></tr><tr><td>Eaves</td><td>store</td><td>second</td><td class="num">not printed</td><td class="num">—</td></tr></tbody></table>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-top:22px">
+    <h2>Score breakdown — 51.8/100</h2>
+    <div class="bar-row with-evidence"><span class="lbl">Location &amp; transport</span><span class="bar"><i style="width:52.5%;background:#a8322d"></i></span><span class="num">10.5</span><ul class="ticks compact"><li><span class="tick">✓</span>Nearest station High Barnet 15 min walk (0.74 mi routed walk) (+3)</li><li><span class="tick">✓</span>Walkable station High Barnet 15 min walk (+1.5)</li><li><span class="tick">✓</span>1 transit line within walk — Northern via High Barnet 15 min walk — broad Central London access (+1)</li><li><span class="tick">✓</span>Night Tube / 24h service at High Barnet (+1.5)</li><li><span class="tick">✓</span>Moderate Liverpool St commute: ~50 mins door-to-concourse via New Barnet (20m walk + 26m rail) (+1.5)</li><li><span class="tick">✓</span>King&#x27;s Cross St Pancras commute ~39 mins via New Barnet (+2)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Space, scale &amp; layout</span><span class="bar"><i style="width:50.0%;background:#a8322d"></i></span><span class="num">10.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Square footage taken from floor plan (image analysis)</li><li><span class="tick">✓</span>Standard room sizing: 1,729.0 sq ft total (432 sq ft/bed) (+4)</li><li><span class="tick">✓</span>Well balanced bathroom ratio (2 baths for 4 beds) (+2)</li><li><span class="tick">✓</span>Two or more reception rooms (2) (+1)</li><li><span class="tick">✓</span>Wide living room: Reception Room 15.7 ft (floorplan) (+3)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Financial efficiency</span><span class="bar"><i style="width:62.0%;background:#a8322d"></i></span><span class="num">9.3</span><ul class="ticks compact"><li><span class="tick">✓</span>£483 per sq ft on 1,729 sq ft (+4.8 of 7.5)</li><li><span class="tick">✓</span>£835,000 asking price (+4.5 of 7.5)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Technical &amp; EPC</span><span class="bar"><i style="width:67.5%;background:#a8322d"></i></span><span class="num">13.5</span><ul class="ticks compact"><li><span class="tick">✓</span>EPC Band D (4.5) + no secondary heating (1) + double glazing (1) (+6.5 of 10)</li><li><span class="tick">✓</span>Roof glazing seen in photos: skylight (+5)</li><li><span class="tick">✓</span>EPC: pitched roof with accessible loft (pitched, no insulation) — scope for a simple loft extension (structural survey still required) (+2)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Observed presentation</span><span class="bar"><i style="width:56.7%;background:#a8322d"></i></span><span class="num">8.5</span><ul class="ticks compact"><li><span class="tick">✓</span>Presented finish observed as partially modernised in listing photographs (image analysis) (+3 of 7)</li><li><span class="tick">✓</span>Kitchen &amp; bathroom spec rated standard in listing photographs (image analysis) (+2.5 of 5)</li><li><span class="tick">✓</span>Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Garden &amp; outdoor</span><span class="bar"><i style="width:0.0%;background:#a8322d"></i></span><span class="num">0.0</span><p class="note compact">No evidence detected for this component — it scores on the absence of contrary findings.</p></div>
+    <p class="note">The combined score rewards location, space, financial efficiency,
+    technical specification, observed presentation, and garden quality. Every line
+    lists the evidence that earned it, so a component cannot be read as a verdict
+    without the reason attached.</p>
+  </div>
+
+  <h3>Land Registry</h3>
+  <div class="panel">
+    <p><strong>£650,750 on 2016-03-08<br><span class="note">First recorded sale: 2001-07-25</span></strong></p>
+    <p>£392/sq ft median (range £127–£530), from 10 of 25 local sales (40% priced). <span class="note">Floor area is borrowed from the EPC extract (epc_bulk total_floor_area) because sale records carry none; small samples are heavy-tailed, so the median is used and withheld below 5 priced sales.</span></p>
+    <p class="note">25 raw sale record(s) exist in this postcode. They are the neighbourhood's history, not this home's, and are deliberately not presented as its own.</p>
+    <p class="note">Scope <code>address</code> — sale history is only ever
+    attributed to this home when a house number was derived and matched.</p>
+  </div>
+
+  <h3>Planning</h3>
+  <div class="panel"><p class="note">1 planning record(s) matched this address:</p><ul class="ticks"><li><a href="https://publicaccess.barnet.gov.uk/online-applications/propertyDetails.do?activeTab=summary&amp;keyVal=NC22PQ00DT005" rel="noopener">26 Raydean Road Barnet EN5 1AN</a></li></ul></div>
+
+  <div style="margin-top:22px">
+    <div class="panel"><h2>Photographic evidence reviewed for the score</h2><p class="note">Points are awarded only for detected listing, EPC, or photographic evidence, and each component above lists what it found. Systems without such evidence score zero and are omitted rather than listed as inspection tasks. These notes record what the photos did and did not show.</p><ul class="ticks"><li>23 property photo(s) analysed by local vision model (Qwen3-VL)</li><li>Photographic-evidence score: 34.0/100 (medium confidence; condition 22/35, kitchen/bath 4/20, glazing 0/20, structure 0/15, legibility 8/10)</li><li>Floor-plan internal area read from the plan: 1,729 sq ft (scoring measure)</li><li>Condition tier inferred from photos: partially modernised</li><li>Not captured in the photos: extension evidence, extension signals, garden aspect, parking, render, roof (…)</li></ul></div>
+  </div>
+
+  
+
+  <details class="raw">
+    <summary>Raw review record (JSON)</summary>
+    <pre>{
+  &quot;asking_price&quot;: 835000,
+  &quot;bathrooms&quot;: 2,
+  &quot;bedrooms&quot;: 4,
+  &quot;combined_score&quot;: {
+    &quot;detected_features&quot;: [
+      &quot;Nearest station High Barnet 15 min walk (0.74 mi routed walk) (+3)&quot;,
+      &quot;Walkable station High Barnet 15 min walk (+1.5)&quot;,
+      &quot;1 transit line within walk \u2014 Northern via High Barnet 15 min walk \u2014 broad Central London access (+1)&quot;,
+      &quot;Night Tube / 24h service at High Barnet (+1.5)&quot;,
+      &quot;Moderate Liverpool St commute: ~50 mins door-to-concourse via New Barnet (20m walk + 26m rail) (+1.5)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~39 mins via New Barnet (+2)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Standard room sizing: 1,729.0 sq ft total (432 sq ft/bed) (+4)&quot;,
+      &quot;Well balanced bathroom ratio (2 baths for 4 beds) (+2)&quot;,
+      &quot;Two or more reception rooms (2) (+1)&quot;,
+      &quot;Wide living room: Reception Room 15.7 ft (floorplan) (+3)&quot;,
+      &quot;\u00a3483 per sq ft on 1,729 sq ft (+4.8 of 7.5)&quot;,
+      &quot;\u00a3835,000 asking price (+4.5 of 7.5)&quot;,
+      &quot;EPC Band D (4.5) + no secondary heating (1) + double glazing (1) (+6.5 of 10)&quot;,
+      &quot;Roof glazing seen in photos: skylight (+5)&quot;,
+      &quot;EPC: pitched roof with accessible loft (pitched, no insulation) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;,
+      &quot;Presented finish observed as partially modernised in listing photographs (image analysis) (+3 of 7)&quot;,
+      &quot;Kitchen &amp; bathroom spec rated standard in listing photographs (image analysis) (+2.5 of 5)&quot;,
+      &quot;Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)&quot;
+    ],
+    &quot;evidence&quot;: {
+      &quot;financial_efficiency&quot;: [
+        &quot;\u00a3483 per sq ft on 1,729 sq ft (+4.8 of 7.5)&quot;,
+        &quot;\u00a3835,000 asking price (+4.5 of 7.5)&quot;
+      ],
+      &quot;location_transport&quot;: [
+        &quot;Nearest station High Barnet 15 min walk (0.74 mi routed walk) (+3)&quot;,
+        &quot;Walkable station High Barnet 15 min walk (+1.5)&quot;,
+        &quot;1 transit line within walk \u2014 Northern via High Barnet 15 min walk \u2014 broad Central London access (+1)&quot;,
+        &quot;Night Tube / 24h service at High Barnet (+1.5)&quot;,
+        &quot;Moderate Liverpool St commute: ~50 mins door-to-concourse via New Barnet (20m walk + 26m rail) (+1.5)&quot;,
+        &quot;King&#x27;s Cross St Pancras commute ~39 mins via New Barnet (+2)&quot;
+      ],
+      &quot;observed_presentation&quot;: [
+        &quot;Presented finish observed as partially modernised in listing photographs (image analysis) (+3 of 7)&quot;,
+        &quot;Kitchen &amp; bathroom spec rated standard in listing photographs (image analysis) (+2.5 of 5)&quot;,
+        &quot;Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)&quot;
+      ],
+      &quot;space_layout&quot;: [
+        &quot;Square footage taken from floor plan (image analysis)&quot;,
+        &quot;Standard room sizing: 1,729.0 sq ft total (432 sq ft/bed) (+4)&quot;,
+        &quot;Well balanced bathroom ratio (2 baths for 4 beds) (+2)&quot;,
+        &quot;Two or more reception rooms (2) (+1)&quot;,
+        &quot;Wide living room: Reception Room 15.7 ft (floorplan) (+3)&quot;
+      ],
+      &quot;technical_epc&quot;: [
+        &quot;EPC Band D (4.5) + no secondary heating (1) + double glazing (1) (+6.5 of 10)&quot;,
+        &quot;Roof glazing seen in photos: skylight (+5)&quot;,
+        &quot;EPC: pitched roof with accessible loft (pitched, no insulation) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;
+      ]
+    },
+    &quot;financial_efficiency&quot;: 9.3,
+    &quot;garden_outdoor&quot;: 0.0,
+    &quot;location_transport&quot;: 10.5,
+    &quot;notes&quot;: [
+      &quot;Nearest station High Barnet 15 min walk (0.74 mi routed walk) (+3)&quot;,
+      &quot;Walkable station High Barnet 15 min walk (+1.5)&quot;,
+      &quot;1 transit line within walk \u2014 Northern via High Barnet 15 min walk \u2014 broad Central London access (+1)&quot;,
+      &quot;Night Tube / 24h service at High Barnet (+1.5)&quot;,
+      &quot;Moderate Liverpool St commute: ~50 mins door-to-concourse via New Barnet (20m walk + 26m rail) (+1.5)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~39 mins via New Barnet (+2)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Standard room sizing: 1,729.0 sq ft total (432 sq ft/bed) (+4)&quot;,
+      &quot;Well balanced bathroom ratio (2 baths for 4 beds) (+2)&quot;,
+      &quot;Two or more reception rooms (2) (+1)&quot;,
+      &quot;EPC Band D&quot;
+    ],
+    &quot;observed_presentation&quot;: 8.5,
+    &quot;space_layout&quot;: 10.0,
+    &quot;tags&quot;: [
+      &quot;Strong Value&quot;
+    ],
+    &quot;technical_epc&quot;: 13.5,
+    &quot;total_score&quot;: 51.8,
+    &quot;vision_facts&quot;: [
+      &quot;23 property photo(s) analysed by local vision model (Qwen3-VL)&quot;,
+      &quot;Photographic-evidence score: 34.0/100 (medium confidence; condition 22/35, kitchen/bath 4/20, glazing 0/20, structure 0/15, legibility 8/10)&quot;,
+      &quot;Floor-plan internal area read from the plan: 1,729 sq ft (scoring measure)&quot;,
+      &quot;Condition tier inferred from photos: partially modernised&quot;,
+      &quot;Not captured in the photos: extension evidence, extension signals, garden aspect, parking, render, roof (\u2026)&quot;
+    ]
+  },
+  &quot;data_gaps&quot;: [],
+  &quot;epc_potential&quot;: &quot;C&quot;,
+  &quot;epc_rating&quot;: &quot;D&quot;,
+  &quot;floorplan_image_url&quot;: &quot;https://lid.zoocdn.com/u/1024/768/f4ada8d6093b5521c07bb8762a1d26a0e04d9981.jpg&quot;,
+  &quot;floorplan_rooms&quot;: [
+    {
+      &quot;area_sq_ft&quot;: 100,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;outbuilding&quot;,
+      &quot;label&quot;: &quot;Shed&quot;,
+      &quot;length_ft&quot;: 13.3,
+      &quot;width_ft&quot;: 7.5
+    },
+    {
+      &quot;area_sq_ft&quot;: 1431,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;garden&quot;,
+      &quot;label&quot;: &quot;Garden&quot;,
+      &quot;length_ft&quot;: 49.5,
+      &quot;width_ft&quot;: 28.9
+    },
+    {
+      &quot;area_sq_ft&quot;: 343,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;kitchen&quot;,
+      &quot;label&quot;: &quot;Kitchen/Dining Room&quot;,
+      &quot;length_ft&quot;: 23.2,
+      &quot;width_ft&quot;: 14.8
+    },
+    {
+      &quot;area_sq_ft&quot;: 301,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;living&quot;,
+      &quot;label&quot;: &quot;Reception Room&quot;,
+      &quot;length_ft&quot;: 19.2,
+      &quot;width_ft&quot;: 15.7
+    },
+    {
+      &quot;area_sq_ft&quot;: 16,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;utility&quot;,
+      &quot;label&quot;: &quot;Utility&quot;,
+      &quot;length_ft&quot;: 4.2,
+      &quot;width_ft&quot;: 3.9
+    },
+    {
+      &quot;area_sq_ft&quot;: 15,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;bathroom&quot;,
+      &quot;label&quot;: &quot;W.C.&quot;,
+      &quot;length_ft&quot;: 5.2,
+      &quot;width_ft&quot;: 2.9
+    },
+    {
+      &quot;area_sq_ft&quot;: 9,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;circulation&quot;,
+      &quot;label&quot;: &quot;Hallway&quot;,
+      &quot;length_ft&quot;: 4.5,
+      &quot;width_ft&quot;: 1.9
+    },
+    {
+      &quot;area_sq_ft&quot;: 121,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 3&quot;,
+      &quot;length_ft&quot;: 11.2,
+      &quot;width_ft&quot;: 10.8
+    },
+    {
+      &quot;area_sq_ft&quot;: 168,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 2&quot;,
+      &quot;length_ft&quot;: 14.2,
+      &quot;width_ft&quot;: 11.8
+    },
+    {
+      &quot;area_sq_ft&quot;: 86,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 4&quot;,
+      &quot;length_ft&quot;: 12.0,
+      &quot;width_ft&quot;: 7.2
+    },
+    {
+      &quot;area_sq_ft&quot;: 43,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bathroom&quot;,
+      &quot;label&quot;: &quot;Bathroom&quot;,
+      &quot;length_ft&quot;: 8.3,
+      &quot;width_ft&quot;: 5.2
+    },
+    {
+      &quot;area_sq_ft&quot;: 37,
+      &quot;floor&quot;: &quot;second&quot;,
+      &quot;kind&quot;: &quot;bathroom&quot;,
+      &quot;label&quot;: &quot;En-suite&quot;,
+      &quot;length_ft&quot;: 6.3,
+      &quot;width_ft&quot;: 5.9
+    },
+    {
+      &quot;area_sq_ft&quot;: 292,
+      &quot;floor&quot;: &quot;second&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 1&quot;,
+      &quot;length_ft&quot;: 17.2,
+      &quot;width_ft&quot;: 17.0
+    },
+    {
+      &quot;area_sq_ft&quot;: null,
+      &quot;floor&quot;: &quot;second&quot;,
+      &quot;kind&quot;: &quot;store&quot;,
+      &quot;label&quot;: &quot;Eaves&quot;,
+      &quot;length_ft&quot;: null,
+      &quot;width_ft&quot;: null
+    }
+  ],
+  &quot;full_address&quot;: &quot;Raydean Road, New Barnet, Barnet EN5&quot;,
+  &quot;kings_cross_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Fast (35-45m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 19,
+    &quot;route_summary&quot;: &quot;Great Northern direct to King&#x27;s Cross St Pancras (19 min)&quot;,
+    &quot;secondary_route&quot;: &quot;High Barnet (0.738 mi, ~15m walk) \u2794 London Underground (Northern line - Bank branch) (32m rail) = ~47m total&quot;,
+    &quot;station_distance_miles&quot;: 0.983,
+    &quot;station_name&quot;: &quot;New Barnet&quot;,
+    &quot;total_commute_minutes&quot;: 39,
+    &quot;transfer_minutes&quot;: 0,
+    &quot;transit_line&quot;: &quot;Great Northern (National Rail)&quot;,
+    &quot;walk_time_minutes&quot;: 20
+  },
+  &quot;land_registry_summary&quot;: {
+    &quot;_cache&quot;: true,
+    &quot;area_benchmark&quot;: {
+      &quot;area_source&quot;: &quot;epc_bulk total_floor_area&quot;,
+      &quot;coverage_pct&quot;: 40,
+      &quot;high_gbp_sqft&quot;: 530,
+      &quot;low_gbp_sqft&quot;: 127,
+      &quot;median_gbp_sqft&quot;: 392,
+      &quot;of_sales&quot;: 25,
+      &quot;sample&quot;: 10
+    },
+    &quot;first_sale_date&quot;: &quot;2001-07-25&quot;,
+    &quot;last_sale_date&quot;: &quot;2016-03-08&quot;,
+    &quot;last_sale_price&quot;: 650750,
+    &quot;number_known&quot;: true,
+    &quot;postcode_sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1995-07-21&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;14&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AN&quot;,
+        &quot;price&quot;: 80000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RAYDEAN ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;AF242A34-B0D0-4993-B318-11AC5D5215FC&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2000-12-21&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;3&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AN&quot;,
+        &quot;price&quot;: 168000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RAYDEAN ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;768DF716-F088-418D-B3F5-D2B61C5837FF&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2001-07-25&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;26&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AN&quot;,
+        &quot;price&quot;: 227500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RAYDEAN ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;7CD70E1E-CEA6-4C9E-82A2-C00CB2A79B73&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2002-02-14&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;16&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AN&quot;,
+        &quot;price&quot;: 230000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RAYDEAN ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;73BB1E55-BCA8-4165-82E4-8BA256D6F4B1&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2004-03-12&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;6&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AN&quot;,
+        &quot;price&quot;: 270000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RAYDEAN ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;D54D868C-D73F-40AF-ACB9-539F1A94B6F0&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2004-10-08&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;23&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AN&quot;,
+        &quot;price&quot;: 230000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RAYDEAN ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;58062234-8E59-428D-B8C1-214FEB6E794D&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2005-10-18&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;23&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AN&quot;,
+        &quot;price&quot;: 280000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RAYDEAN ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;E5BD28DE-5429-4E07-AEF7-81AAA7444289&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2007-06-22&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;20&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AN&quot;,
+        &quot;price&quot;: 357000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RAYDEAN ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;BECE8D48-2A0B-48FE-BFEA-61A9080F5E28&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2007-12-06&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;15&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AN&quot;,
+        &quot;price&quot;: 341000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RAYDEAN ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;F319872D-6125-45E5-BEAE-CB4E66C3CAD9&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2008-07-29&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;16&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AN&quot;,
+        &quot;price&quot;: 390000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RAYDEAN ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;687EBC4F-759D-43FC-BE20-4301C6CE55FC&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2008-12-19&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;33A&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AN&quot;,
+        &quot;price&quot;: 500000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RAYDEAN ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;D7772669-F14E-4526-A473-FD6CF1BFFD87&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2009-01-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;10&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AN&quot;,
+        &quot;price&quot;: 203000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RAYDEAN ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;768E2028-BDBC-41C4-90A5-D58049E8F961&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2014-10-31&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;13&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AN&quot;,
+        &quot;price&quot;: 135000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RAYDEAN ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;A5A2BB18-66CA-4099-9429-92B073343198&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2014-11-04&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;14&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AN&quot;,
+        &quot;price&quot;: 492000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RAYDEAN ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;BDF80709-87C0-41FF-AE43-0899B3C13189&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2015-07-16&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;7&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AN&quot;,
+        &quot;price&quot;: 500000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RAYDEAN ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;A6904353-E002-4C13-A290-033E3A28B3B5&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2015-10-07&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;29&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AN&quot;,
+        &quot;price&quot;: 620000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RAYDEAN ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;241A4A53-BAC3-706B-E050-A8C06205638B&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-03-08&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;26&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AN&quot;,
+        &quot;price&quot;: 650750,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RAYDEAN ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;2FD36065-CF2D-4BF8-E050-A8C0620562B1&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Additional price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-07-28&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;19&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AN&quot;,
+        &quot;price&quot;: 465000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RAYDEAN ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;582D0637-F294-8F22-E053-6C04A8C01BAC&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2018-05-11&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;20&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AN&quot;,
+        &quot;price&quot;: 560000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RAYDEAN ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;6DA0844A-2C47-30F2-E053-6B04A8C05F3B&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2018-12-21&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;19&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AN&quot;,
+        &quot;price&quot;: 500000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RAYDEAN ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;80E1AA98-64FC-7BF8-E053-6C04A8C00BF2&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2019-03-11&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;31&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AN&quot;,
+        &quot;price&quot;: 450000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RAYDEAN ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;8CAC1318-7E02-0253-E053-6B04A8C08E51&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2021-01-18&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;28&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AN&quot;,
+        &quot;price&quot;: 562000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RAYDEAN ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;BEF7EBBF-1B5E-7A76-E053-6B04A8C092F7&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2021-02-04&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;7&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AN&quot;,
+        &quot;price&quot;: 610000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RAYDEAN ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;C18F412B-1A92-81A6-E053-6B04A8C0AD18&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2021-06-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;1&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AN&quot;,
+        &quot;price&quot;: 530000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RAYDEAN ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;CFC9085C-DA12-9A70-E053-6B04A8C09D6A&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2025-03-28&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;6&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AN&quot;,
+        &quot;price&quot;: 595000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RAYDEAN ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;34222872-91D7-4D2B-E063-4704A8C07853&quot;
+      }
+    ],
+    &quot;sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2001-07-25&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;26&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AN&quot;,
+        &quot;price&quot;: 227500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RAYDEAN ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;7CD70E1E-CEA6-4C9E-82A2-C00CB2A79B73&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-03-08&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;26&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AN&quot;,
+        &quot;price&quot;: 650750,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RAYDEAN ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;2FD36065-CF2D-4BF8-E050-A8C0620562B1&quot;
+      }
+    ],
+    &quot;scope&quot;: &quot;address&quot;,
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;latitude&quot;: 51.645229,
+  &quot;liverpool_st_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Moderate (45-55m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 26,
+    &quot;route_summary&quot;: &quot;Great Northern direct to Moorgate (26 min) + 4 min walk via integrated Elizabeth line concourse to Liverpool St&quot;,
+    &quot;secondary_route&quot;: &quot;High Barnet (0.738 mi, ~15m walk) \u2794 London Underground (Northern line - Bank branch) (36m rail) = ~55m total&quot;,
+    &quot;station_distance_miles&quot;: 0.983,
+    &quot;station_name&quot;: &quot;New Barnet&quot;,
+    &quot;total_commute_minutes&quot;: 50,
+    &quot;transfer_minutes&quot;: 4,
+    &quot;transit_line&quot;: &quot;Great Northern (National Rail)&quot;,
+    &quot;walk_time_minutes&quot;: 20
+  },
+  &quot;living_rooms&quot;: 2,
+  &quot;longitude&quot;: -0.187556,
+  &quot;nearest_station&quot;: &quot;High Barnet&quot;,
+  &quot;nice_to_haves&quot;: [
+    {
+      &quot;detail&quot;: &quot;Not mentioned; UK EPCs do not record domestic cooling&quot;,
+      &quot;label&quot;: &quot;Air conditioning&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned in the listing or EPC&quot;,
+      &quot;label&quot;: &quot;Underfloor heating&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Floor-plan north arrow puts the garden north (not south)&quot;,
+      &quot;label&quot;: &quot;South-facing garden&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;skylight seen in a living-area photo (room unverified)&quot;,
+      &quot;label&quot;: &quot;Sun roof / lantern in living areas&quot;,
+      &quot;status&quot;: &quot;photo-hint&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;No ground-floor bedroom or convertible room mentioned&quot;,
+      &quot;label&quot;: &quot;Ground-floor bedroom&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Reception Room measures 15.7 ft at its widest (floor-plan) \u2014 clears the 15 ft mark&quot;,
+      &quot;label&quot;: &quot;Wide living room&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;No cinema or media room mentioned, and no other room on the plan is large enough to be one&quot;,
+      &quot;label&quot;: &quot;Home theatre potential&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    }
+  ],
+  &quot;overall_verdict&quot;: &quot;Proceed with Caution: Moderate scores, verify key items during survey.&quot;,
+  &quot;planning_summary&quot;: {
+    &quot;_cache&quot;: true,
+    &quot;applications&quot;: [],
+    &quot;properties&quot;: [
+      {
+        &quot;key&quot;: &quot;NC22PQ00DT005&quot;,
+        &quot;text&quot;: &quot;26 Raydean Road Barnet EN5 1AN&quot;,
+        &quot;url&quot;: &quot;https://publicaccess.barnet.gov.uk/online-applications/propertyDetails.do?activeTab=summary&amp;keyVal=NC22PQ00DT005&quot;
+      }
+    ],
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;price_display&quot;: &quot;\u00a3835,000&quot;,
+  &quot;price_per_sq_ft&quot;: 482.9,
+  &quot;property_id&quot;: &quot;74340256&quot;,
+  &quot;property_images&quot;: [
+    &quot;https://lid.zoocdn.com/u/1024/768/23b85f6fc5237d22326b7e3ddee9c3f42ec7f478.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/33d65a6e7491a95463678bfaafaab49fb38bd640.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/29680268380b471c6880db8a404d2a75f66138de.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/2c3b386d964530e90503f67cd2914569409bcf75.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/578c3f586af29b238609150b2b04e38b3b8cacb0.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/743a9beb3349b7fb31d337c23cd192e21cb733b2.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/f8dd19916367ac1a0421b5d99644c314998414fc.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/ba47da6dfc4615696a7f8d6f1f26332e341b0b40.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/f5676badb860314bf57af7d8ef022b42f39b26a0.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/c80c019cfce3532218a331b28fcefffdd0d949c5.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/9cb008f81041b08ac06bba6cd194cf9e9377f924.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/f02f45b0d510ab3db32f9572fadaadb3b4d7404e.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/cb2ad33f7fa88d47d8a49c1635f90e86b5579962.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/40e913ac2d5562774069c99bbd7304f52b42ca2f.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/9f226327b4df13ab31b162fee93a06050222e667.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/90166b667889ee19396bb834c37f8e4c3aaa6160.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/93e1fdfaef556775b379ae67326fcf7ed3096d69.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/8c7c112f774916cd4ec0cf4b6b7d8fab77d231df.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/fb4231ec7aa33d42b279062ea7f67896e8721155.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/43f39a7cdae6d5a857d10c34adf92ca049fc9ac3.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/24760261f9adb7f3aea2f3231eb272d4306bee84.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/31ce37bd4cf8d81ff8318766d2e44932a48bded4.jpg&quot;
+  ],
+  &quot;property_type&quot;: &quot;4 bed semi-detached house for sale&quot;,
+  &quot;size_sq_ft&quot;: 1729.0,
+  &quot;size_sq_m&quot;: 160.6,
+  &quot;station_distance_miles&quot;: 0.74,
+  &quot;station_distance_source&quot;: &quot;routed&quot;,
+  &quot;tenure&quot;: &quot;Freehold&quot;,
+  &quot;walk_time_minutes&quot;: 15
+}</pre>
+  </details>
+
+  <div class="foot"><div><a href="milton-avenue-barnet-en5.html">← Milton Avenue</a></div><div><a href="milton-avenue-barnet-en5-2.html">→ Milton Avenue</a></div></div>
+
+  <p class="note" style="margin-top:26px">Generated 2026-10-01 from
+  <code>reviews/property_reviews.json</code>. Map data &copy;
+  <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</p>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
+<script>window.__PINS__ = [{"id": "74340256", "lat": 51.645229, "lon": -0.187556, "addr": "Raydean Road", "price": "\u00a3835,000", "sqft": "1,729", "epc": "D", "score": 51.8, "colour": "#b75a18", "tags": ["Strong Value"], "tag_html": "<span class=\"badge tag-value\">Strong Value<\/span>", "href": "#"}];</script>
+<script>window.__SLIDES__ = ["https://lid.zoocdn.com/u/1024/768/23b85f6fc5237d22326b7e3ddee9c3f42ec7f478.jpg", "https://lid.zoocdn.com/u/1024/768/33d65a6e7491a95463678bfaafaab49fb38bd640.jpg", "https://lid.zoocdn.com/u/1024/768/29680268380b471c6880db8a404d2a75f66138de.jpg", "https://lid.zoocdn.com/u/1024/768/2c3b386d964530e90503f67cd2914569409bcf75.jpg", "https://lid.zoocdn.com/u/1024/768/578c3f586af29b238609150b2b04e38b3b8cacb0.jpg", "https://lid.zoocdn.com/u/1024/768/743a9beb3349b7fb31d337c23cd192e21cb733b2.jpg", "https://lid.zoocdn.com/u/1024/768/f8dd19916367ac1a0421b5d99644c314998414fc.jpg", "https://lid.zoocdn.com/u/1024/768/ba47da6dfc4615696a7f8d6f1f26332e341b0b40.jpg", "https://lid.zoocdn.com/u/1024/768/f5676badb860314bf57af7d8ef022b42f39b26a0.jpg", "https://lid.zoocdn.com/u/1024/768/c80c019cfce3532218a331b28fcefffdd0d949c5.jpg", "https://lid.zoocdn.com/u/1024/768/9cb008f81041b08ac06bba6cd194cf9e9377f924.jpg", "https://lid.zoocdn.com/u/1024/768/f02f45b0d510ab3db32f9572fadaadb3b4d7404e.jpg", "https://lid.zoocdn.com/u/1024/768/cb2ad33f7fa88d47d8a49c1635f90e86b5579962.jpg", "https://lid.zoocdn.com/u/1024/768/40e913ac2d5562774069c99bbd7304f52b42ca2f.jpg", "https://lid.zoocdn.com/u/1024/768/9f226327b4df13ab31b162fee93a06050222e667.jpg", "https://lid.zoocdn.com/u/1024/768/90166b667889ee19396bb834c37f8e4c3aaa6160.jpg", "https://lid.zoocdn.com/u/1024/768/93e1fdfaef556775b379ae67326fcf7ed3096d69.jpg", "https://lid.zoocdn.com/u/1024/768/8c7c112f774916cd4ec0cf4b6b7d8fab77d231df.jpg", "https://lid.zoocdn.com/u/1024/768/fb4231ec7aa33d42b279062ea7f67896e8721155.jpg", "https://lid.zoocdn.com/u/1024/768/43f39a7cdae6d5a857d10c34adf92ca049fc9ac3.jpg", "https://lid.zoocdn.com/u/1024/768/24760261f9adb7f3aea2f3231eb272d4306bee84.jpg", "https://lid.zoocdn.com/u/1024/768/31ce37bd4cf8d81ff8318766d2e44932a48bded4.jpg"];</script>
+<script>
+(function () {
+  var el = document.getElementById('map');
+  if (!el || typeof L === 'undefined') { return; }
+  var data = window.__PINS__ || [];
+  if (!data.length || data[0].lat === null) { el.style.display = 'none'; return; }
+  var map = L.map('map', { scrollWheelZoom: false, dragging: false,
+                           doubleClickZoom: false, boxZoom: false,
+                           keyboard: false, zoomControl: false });
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  var group = L.featureGroup().addTo(map);
+  data.forEach(function (p) {
+    if (p.lat === null) { return; }
+    L.circleMarker([p.lat, p.lon], { radius: 10, color: '#ffffff', weight: 3,
+                                     fillColor: p.colour, fillOpacity: 0.95 }).addTo(group);
+  });
+  if (group.getBounds().isValid()) { map.fitBounds(group.getBounds().pad(0.35)); }
+  L.control.attribution({ prefix: false }).addTo(map);
+})();
+</script>
+<script>
+(function () {
+  var shots = window.__SLIDES__ || [];
+  var img = document.getElementById('slide-img');
+  var link = document.getElementById('slide-link');
+  var prev = document.getElementById('slide-prev');
+  var next = document.getElementById('slide-next');
+  var num = document.getElementById('slide-n');
+  if (!img || !link || shots.length < 2) {
+    if (prev) { prev.disabled = true; }
+    if (next) { next.disabled = true; }
+    return;
+  }
+  var at = 0;
+
+  function show(i) {
+    at = (i + shots.length) % shots.length;
+    img.src = shots[at];
+    img.alt = 'Listing photo ' + (at + 1) + ' of ' + shots.length +
+              ' — open full size';
+    link.href = shots[at];
+    if (num) { num.textContent = String(at + 1); }
+  }
+
+  // Only the neighbours are warmed: a 34-photo listing at 136 KB each is
+  // 4.6 MB if the whole gallery is fetched up front, for images the reader may
+  // never scroll to.
+  function warm() {
+    [at + 1, at - 1].forEach(function (k) {
+      var j = (k + shots.length) % shots.length;
+      if (j !== at) { new Image().src = shots[j]; }
+    });
+  }
+
+  prev.addEventListener('click', function () { show(at - 1); warm(); });
+  next.addEventListener('click', function () { show(at + 1); warm(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) { return; }
+    if (e.key === 'ArrowLeft') { show(at - 1); warm(); }
+    if (e.key === 'ArrowRight') { show(at + 1); warm(); }
+  });
+  show(0);
+  warm();
+})();
+</script>
+</body></html>

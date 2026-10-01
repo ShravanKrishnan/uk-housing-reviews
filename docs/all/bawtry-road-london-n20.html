@@ -1,0 +1,865 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bawtry Road — review</title>
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <h1>Bawtry Road</h1>
+  <p class="sub">Bawtry Road, London N20</p>
+  <nav class="crumbs"><a href="../index.html">← Back to the map</a> &middot;
+  <a href="../index.html#all-rank-163">Rank #163 of All properties</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="panel">
+    <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between">
+      <div>
+        <span class="pill" style="background:#a8322d">24.4 Score</span>
+        
+      </div>
+      <div style="font-size:13px;color:var(--muted)">
+        163 of 164 &middot; score 24.4
+      </div>
+    </div>
+    <div class="verdict">Secondary Assessment Needed: Low scores across multiple dimensions.</div>
+  </div>
+
+  <h3>At a glance</h3>
+  <div class="grid"><div class="stat"><div class="k">Asking price</div><div class="v">£625,000</div></div><div class="stat"><div class="k">Property type</div><div class="v">3 bed semi-detached house for sale</div></div><div class="stat"><div class="k">Tenure</div><div class="v">Freehold</div></div><div class="stat"><div class="k">Size</div><div class="v">83.9 sq ft / 7.8 m²</div></div><div class="stat"><div class="k">Price per sq ft</div><div class="v">£7,449.3</div></div><div class="stat"><div class="k">Bedrooms</div><div class="v">3</div></div><div class="stat"><div class="k">Bathrooms</div><div class="v">1</div></div><div class="stat"><div class="k">Living rooms</div><div class="v">1</div></div><div class="stat"><div class="k">EPC (current / potential)</div><div class="v">D / C</div></div><div class="stat"><div class="k">Nearest station</div><div class="v">New Southgate · 1.2 mi · ~25 min walk</div></div><div class="stat wide"><div class="k">Commute to Liverpool St</div><div class="v">55 min (Great Northern direct to Moorgate (24 min) + 4 min walk via integrated Elizabeth line concourse to Liverpool St)</div></div><div class="stat wide"><div class="k">Commute to King&#x27;s Cross</div><div class="v">44 min (Great Northern direct to King&#x27;s Cross St Pancras (17 min))</div></div></div>
+
+  <h3>Nice-to-haves</h3>
+  <div class="panel">
+    <table class="nice">
+      <thead><tr><th>Signal</th><th>Status</th><th>Detail</th></tr></thead>
+      <tbody><tr><td>Air conditioning</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned; UK EPCs do not record domestic cooling</td></tr><tr><td>Underfloor heating</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned in the listing or EPC</td></tr><tr><td>South-facing garden</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Floor-plan north arrow puts the garden north (not south)</td></tr><tr><td>Sun roof / lantern in living areas</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned and no overhead glazing seen in photos</td></tr><tr><td>Ground-floor bedroom</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>No ground-floor bedroom or convertible room mentioned</td></tr><tr><td>Wide living room</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Largest living area is 12.2 ft (Living Room, floor-plan) — below the 15 ft mark</td></tr><tr><td>Home theatre potential</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>No cinema or media room mentioned, and no other room on the plan is large enough to be one</td></tr></tbody>
+    </table>
+  </div>
+
+<div class="panel"><h2>Photos — 18</h2><div class="slides" id="slides"><div class="slide-frame"><a id="slide-link" href="https://lid.zoocdn.com/u/1024/768/a109906ce6d0f42eec408a72273f6847083cbbd2.jpg" rel="noopener"><img id="slide-img" src="https://lid.zoocdn.com/u/1024/768/a109906ce6d0f42eec408a72273f6847083cbbd2.jpg" alt="Listing photo 1 of 18 — open full size" loading="lazy"></a><button type="button" class="slide-nav prev" id="slide-prev" aria-label="Previous photo">&#8249;</button><button type="button" class="slide-nav next" id="slide-next" aria-label="Next photo">&#8250;</button><span class="slide-badge"><span id="slide-n">1</span> / 18</span></div></div><p class="note" style="margin-top:8px">Arrow keys page through the gallery; click a photo to open it full size. These are the listing's own photographs, at the highest resolution its image host serves.</p></div>
+
+  <div class="layout">
+    <div class="panel sticky">
+      <h2>Where it is</h2>
+      <div id="map" style="height:330px;border-radius:8px"></div>
+      <p class="note" style="margin-top:10px">
+        Pin is the listing's own coordinates. Map tiles are OpenStreetMap.
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=51.623367,-0.157689" rel="noopener">Open in Google Maps →</a>
+        &middot; <a href="https://www.openstreetmap.org/?mlat=51.623367&amp;mlon=-0.157689#map=18/51.623367/-0.157689" rel="noopener">Open in OpenStreetMap →</a>
+        &middot; <a href="https://www.zoopla.co.uk/for-sale/details/73024532/" rel="noopener">Zoopla listing →</a>
+      </p>
+    </div>
+    <div class="panel">
+      <h2>Floorplan analysis</h2>
+      <a href="https://lid.zoocdn.com/u/1024/768/565fe947906892416b5d3a10ace799ffc3a4679c.jpg" rel="noopener"><img class="plan" src="https://lid.zoocdn.com/u/1024/768/565fe947906892416b5d3a10ace799ffc3a4679c.jpg" alt="Floor plan for Bawtry Road, London N20" loading="lazy"></a><p class="note">11 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are listed without one. <a href="https://lid.zoocdn.com/u/1024/768/565fe947906892416b5d3a10ace799ffc3a4679c.jpg" rel="noopener">Open the full-size plan →</a></p><table class="nice compact"><thead><tr><th>Room</th><th>Type</th><th>Floor</th><th>Dimensions</th><th>Area</th></tr></thead><tbody><tr><td>Living Room</td><td>living</td><td>ground</td><td class="num">15.5 &times; 12.2 ft</td><td class="num">189 sq ft</td></tr><tr><td>Kitchen</td><td>kitchen</td><td>ground</td><td class="num">8.5 &times; 6.5 ft</td><td class="num">55 sq ft</td></tr><tr><td>Hall 1</td><td>circulation</td><td>ground</td><td class="num">not printed</td><td class="num">—</td></tr><tr><td>Hall 2</td><td>circulation</td><td>ground</td><td class="num">not printed</td><td class="num">—</td></tr><tr><td>Store</td><td>store</td><td>ground</td><td class="num">3.2 &times; 1.8 ft</td><td class="num">6 sq ft</td></tr><tr><td>Bedroom 1</td><td>bedroom</td><td>first</td><td class="num">12.5 &times; 12.4 ft</td><td class="num">155 sq ft</td></tr><tr><td>Bedroom 2</td><td>bedroom</td><td>first</td><td class="num">10.5 &times; 9.5 ft</td><td class="num">100 sq ft</td></tr><tr><td>Bedroom 3</td><td>bedroom</td><td>first</td><td class="num">12.5 &times; 11.5 ft</td><td class="num">144 sq ft</td></tr><tr><td>Bathroom</td><td>bathroom</td><td>first</td><td class="num">not printed</td><td class="num">—</td></tr><tr><td>Front Garden</td><td>garden</td><td>ground</td><td class="num">10.5 &times; 10.5 ft</td><td class="num">110 sq ft</td></tr><tr><td>Lower Rear Garden</td><td>garden</td><td>ground</td><td class="num">21.8 &times; 6.9 ft</td><td class="num">150 sq ft</td></tr></tbody></table>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-top:22px">
+    <h2>Score breakdown — 24.4/100</h2>
+    <div class="bar-row with-evidence"><span class="lbl">Location &amp; transport</span><span class="bar"><i style="width:12.5%;background:#a8322d"></i></span><span class="num">2.5</span><ul class="ticks compact"><li><span class="tick">✓</span>Nearest station New Southgate 25 min walk (1.23 mi routed walk) (+0)</li><li><span class="tick">✓</span>No station within 0.8 mi walking distance (nearest is 1.23 mi)</li><li><span class="tick">✓</span>Moderate Liverpool St commute: ~55 mins door-to-concourse via Oakleigh Park (27m walk + 24m rail) (+1.5)</li><li><span class="tick">✓</span>King&#x27;s Cross St Pancras commute ~44 mins via Oakleigh Park (+1)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Space, scale &amp; layout</span><span class="bar"><i style="width:15.0%;background:#a8322d"></i></span><span class="num">3.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Square footage taken from floor plan (image analysis)</li><li><span class="tick">✓</span>Compact floorplate: 83.9 sq ft total (28 sq ft/bed) (+2.5)</li><li><span class="tick">✓</span>Under-bathroomed (1 bath for 3 beds - morning bottlenecks likely) (+0.5)</li><li><span class="tick">✓</span>Living room width: 12.2 ft (below 15 ft)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Financial efficiency</span><span class="bar"><i style="width:36.0%;background:#a8322d"></i></span><span class="num">5.4</span><ul class="ticks compact"><li><span class="tick">✓</span>£7,449 per sq ft on 84 sq ft (+0 of 7.5)</li><li><span class="tick">✓</span>£625,000 asking price (+5.4 of 7.5)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Technical &amp; EPC</span><span class="bar"><i style="width:52.5%;background:#a8322d"></i></span><span class="num">10.5</span><ul class="ticks compact"><li><span class="tick">✓</span>EPC Band D (4.5) + no secondary heating (1) + insulated roof (2) + double glazing (1) (+8.5 of 10)</li><li><span class="tick">✓</span>EPC: pitched roof with accessible loft (pitched, 250 mm loft insulation) — scope for a simple loft extension (structural survey still required) (+2)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Observed presentation</span><span class="bar"><i style="width:20.0%;background:#a8322d"></i></span><span class="num">3.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Garden &amp; outdoor</span><span class="bar"><i style="width:0.0%;background:#a8322d"></i></span><span class="num">0.0</span><p class="note compact">No evidence detected for this component — it scores on the absence of contrary findings.</p></div>
+    <p class="note">The combined score rewards location, space, financial efficiency,
+    technical specification, observed presentation, and garden quality. Every line
+    lists the evidence that earned it, so a component cannot be read as a verdict
+    without the reason attached.</p>
+  </div>
+
+  <h3>Land Registry</h3>
+  <div class="panel">
+    <p><strong>No sale attributed to this address — a house number is known, but no Land Registry record matches it, i.e. the house has not transacted.</strong></p>
+    <p>£332/sq ft median (range £63–£724), from 14 of 31 local sales (45% priced). <span class="note">Floor area is borrowed from the EPC extract (epc_bulk total_floor_area) because sale records carry none; small samples are heavy-tailed, so the median is used and withheld below 5 priced sales.</span></p>
+    <p class="note">31 raw sale record(s) exist in this postcode. They are the neighbourhood's history, not this home's, and are deliberately not presented as its own.</p>
+    <p class="note">Scope <code>address_no_sale</code> — sale history is only ever
+    attributed to this home when a house number was derived and matched.</p>
+  </div>
+
+  <h3>Planning</h3>
+  <div class="panel"><p>No planning history matched this address.</p><p class="note">Absence of a match is not proof that no application exists — the portal search is narrow (property search only) and mixed-criteria requests are unverified. Treat this as unverified, not as a clean record.</p></div>
+
+  <div style="margin-top:22px">
+    <div class="panel"><h2>Photographic evidence reviewed for the score</h2><p class="note">Points are awarded only for detected listing, EPC, or photographic evidence, and each component above lists what it found. Systems without such evidence score zero and are omitted rather than listed as inspection tasks. These notes record what the photos did and did not show.</p><ul class="ticks"><li>19 property photo(s) analysed by local vision model (Qwen3-VL)</li><li>Photographic-evidence score: 9.9/100 (high confidence; condition 0/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 6.9/10)</li><li>Floor-plan total read from the plan: 84 sq ft</li><li>Not captured in the photos: extension evidence, garden aspect, roof, side access</li></ul></div>
+  </div>
+
+  <div class="gaps"><strong>What is not verified here</strong><ul><li>No Land Registry sale recorded for this address in the price-paid window — the house has not transacted, so there is no comparable sale history</li></ul></div>
+
+  <details class="raw">
+    <summary>Raw review record (JSON)</summary>
+    <pre>{
+  &quot;asking_price&quot;: 625000,
+  &quot;bathrooms&quot;: 1,
+  &quot;bedrooms&quot;: 3,
+  &quot;combined_score&quot;: {
+    &quot;detected_features&quot;: [
+      &quot;Nearest station New Southgate 25 min walk (1.23 mi routed walk) (+0)&quot;,
+      &quot;No station within 0.8 mi walking distance (nearest is 1.23 mi)&quot;,
+      &quot;Moderate Liverpool St commute: ~55 mins door-to-concourse via Oakleigh Park (27m walk + 24m rail) (+1.5)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~44 mins via Oakleigh Park (+1)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Compact floorplate: 83.9 sq ft total (28 sq ft/bed) (+2.5)&quot;,
+      &quot;Under-bathroomed (1 bath for 3 beds - morning bottlenecks likely) (+0.5)&quot;,
+      &quot;Living room width: 12.2 ft (below 15 ft)&quot;,
+      &quot;\u00a37,449 per sq ft on 84 sq ft (+0 of 7.5)&quot;,
+      &quot;\u00a3625,000 asking price (+5.4 of 7.5)&quot;,
+      &quot;EPC Band D (4.5) + no secondary heating (1) + insulated roof (2) + double glazing (1) (+8.5 of 10)&quot;,
+      &quot;EPC: pitched roof with accessible loft (pitched, 250 mm loft insulation) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;,
+      &quot;Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)&quot;
+    ],
+    &quot;evidence&quot;: {
+      &quot;financial_efficiency&quot;: [
+        &quot;\u00a37,449 per sq ft on 84 sq ft (+0 of 7.5)&quot;,
+        &quot;\u00a3625,000 asking price (+5.4 of 7.5)&quot;
+      ],
+      &quot;location_transport&quot;: [
+        &quot;Nearest station New Southgate 25 min walk (1.23 mi routed walk) (+0)&quot;,
+        &quot;No station within 0.8 mi walking distance (nearest is 1.23 mi)&quot;,
+        &quot;Moderate Liverpool St commute: ~55 mins door-to-concourse via Oakleigh Park (27m walk + 24m rail) (+1.5)&quot;,
+        &quot;King&#x27;s Cross St Pancras commute ~44 mins via Oakleigh Park (+1)&quot;
+      ],
+      &quot;observed_presentation&quot;: [
+        &quot;Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)&quot;
+      ],
+      &quot;space_layout&quot;: [
+        &quot;Square footage taken from floor plan (image analysis)&quot;,
+        &quot;Compact floorplate: 83.9 sq ft total (28 sq ft/bed) (+2.5)&quot;,
+        &quot;Under-bathroomed (1 bath for 3 beds - morning bottlenecks likely) (+0.5)&quot;,
+        &quot;Living room width: 12.2 ft (below 15 ft)&quot;
+      ],
+      &quot;technical_epc&quot;: [
+        &quot;EPC Band D (4.5) + no secondary heating (1) + insulated roof (2) + double glazing (1) (+8.5 of 10)&quot;,
+        &quot;EPC: pitched roof with accessible loft (pitched, 250 mm loft insulation) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;
+      ]
+    },
+    &quot;financial_efficiency&quot;: 5.4,
+    &quot;garden_outdoor&quot;: 0.0,
+    &quot;location_transport&quot;: 2.5,
+    &quot;notes&quot;: [
+      &quot;Nearest station New Southgate 25 min walk (1.23 mi routed walk) (+0)&quot;,
+      &quot;No station within 0.8 mi walking distance (nearest is 1.23 mi)&quot;,
+      &quot;Moderate Liverpool St commute: ~55 mins door-to-concourse via Oakleigh Park (27m walk + 24m rail) (+1.5)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~44 mins via Oakleigh Park (+1)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Compact floorplate: 83.9 sq ft total (28 sq ft/bed) (+2.5)&quot;,
+      &quot;Under-bathroomed (1 bath for 3 beds - morning bottlenecks likely) (+0.5)&quot;,
+      &quot;EPC Band D&quot;
+    ],
+    &quot;observed_presentation&quot;: 3.0,
+    &quot;space_layout&quot;: 3.0,
+    &quot;tags&quot;: [],
+    &quot;technical_epc&quot;: 10.5,
+    &quot;total_score&quot;: 24.4,
+    &quot;vision_facts&quot;: [
+      &quot;19 property photo(s) analysed by local vision model (Qwen3-VL)&quot;,
+      &quot;Photographic-evidence score: 9.9/100 (high confidence; condition 0/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 6.9/10)&quot;,
+      &quot;Floor-plan total read from the plan: 84 sq ft&quot;,
+      &quot;Not captured in the photos: extension evidence, garden aspect, roof, side access&quot;
+    ]
+  },
+  &quot;data_gaps&quot;: [
+    &quot;No Land Registry sale recorded for this address in the price-paid window \u2014 the house has not transacted, so there is no comparable sale history&quot;
+  ],
+  &quot;epc_potential&quot;: &quot;C&quot;,
+  &quot;epc_rating&quot;: &quot;D&quot;,
+  &quot;floorplan_image_url&quot;: &quot;https://lid.zoocdn.com/u/1024/768/565fe947906892416b5d3a10ace799ffc3a4679c.jpg&quot;,
+  &quot;floorplan_rooms&quot;: [
+    {
+      &quot;area_sq_ft&quot;: 189,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;living&quot;,
+      &quot;label&quot;: &quot;Living Room&quot;,
+      &quot;length_ft&quot;: 15.5,
+      &quot;width_ft&quot;: 12.2
+    },
+    {
+      &quot;area_sq_ft&quot;: 55,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;kitchen&quot;,
+      &quot;label&quot;: &quot;Kitchen&quot;,
+      &quot;length_ft&quot;: 8.5,
+      &quot;width_ft&quot;: 6.5
+    },
+    {
+      &quot;area_sq_ft&quot;: null,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;circulation&quot;,
+      &quot;label&quot;: &quot;Hall 1&quot;,
+      &quot;length_ft&quot;: null,
+      &quot;width_ft&quot;: null
+    },
+    {
+      &quot;area_sq_ft&quot;: null,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;circulation&quot;,
+      &quot;label&quot;: &quot;Hall 2&quot;,
+      &quot;length_ft&quot;: null,
+      &quot;width_ft&quot;: null
+    },
+    {
+      &quot;area_sq_ft&quot;: 6,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;store&quot;,
+      &quot;label&quot;: &quot;Store&quot;,
+      &quot;length_ft&quot;: 3.2,
+      &quot;width_ft&quot;: 1.8
+    },
+    {
+      &quot;area_sq_ft&quot;: 155,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 1&quot;,
+      &quot;length_ft&quot;: 12.5,
+      &quot;width_ft&quot;: 12.4
+    },
+    {
+      &quot;area_sq_ft&quot;: 100,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 2&quot;,
+      &quot;length_ft&quot;: 10.5,
+      &quot;width_ft&quot;: 9.5
+    },
+    {
+      &quot;area_sq_ft&quot;: 144,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 3&quot;,
+      &quot;length_ft&quot;: 12.5,
+      &quot;width_ft&quot;: 11.5
+    },
+    {
+      &quot;area_sq_ft&quot;: null,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bathroom&quot;,
+      &quot;label&quot;: &quot;Bathroom&quot;,
+      &quot;length_ft&quot;: null,
+      &quot;width_ft&quot;: null
+    },
+    {
+      &quot;area_sq_ft&quot;: 110,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;garden&quot;,
+      &quot;label&quot;: &quot;Front Garden&quot;,
+      &quot;length_ft&quot;: 10.5,
+      &quot;width_ft&quot;: 10.5
+    },
+    {
+      &quot;area_sq_ft&quot;: 150,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;garden&quot;,
+      &quot;label&quot;: &quot;Lower Rear Garden&quot;,
+      &quot;length_ft&quot;: 21.8,
+      &quot;width_ft&quot;: 6.9
+    }
+  ],
+  &quot;full_address&quot;: &quot;Bawtry Road, London N20&quot;,
+  &quot;kings_cross_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Fast (35-45m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 17,
+    &quot;route_summary&quot;: &quot;Great Northern direct to King&#x27;s Cross St Pancras (17 min)&quot;,
+    &quot;secondary_route&quot;: &quot;Arnos Grove (1.384 mi, ~28m walk) \u2794 London Underground (Piccadilly line) (29m rail) = ~57m total&quot;,
+    &quot;station_distance_miles&quot;: 1.344,
+    &quot;station_name&quot;: &quot;Oakleigh Park&quot;,
+    &quot;total_commute_minutes&quot;: 44,
+    &quot;transfer_minutes&quot;: 0,
+    &quot;transit_line&quot;: &quot;Great Northern (National Rail)&quot;,
+    &quot;walk_time_minutes&quot;: 27
+  },
+  &quot;land_registry_summary&quot;: {
+    &quot;_cache&quot;: true,
+    &quot;area_benchmark&quot;: {
+      &quot;area_source&quot;: &quot;epc_bulk total_floor_area&quot;,
+      &quot;coverage_pct&quot;: 45,
+      &quot;high_gbp_sqft&quot;: 724,
+      &quot;low_gbp_sqft&quot;: 63,
+      &quot;median_gbp_sqft&quot;: 332,
+      &quot;of_sales&quot;: 31,
+      &quot;sample&quot;: 14
+    },
+    &quot;note&quot;: &quot;no sales under official street name, used postcode&quot;,
+    &quot;number_known&quot;: true,
+    &quot;postcode_sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1996-04-12&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;15&quot;,
+        &quot;postcode&quot;: &quot;N20 0SR&quot;,
+        &quot;price&quot;: 64500,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;BAWTRY ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;0566EE0B-05C8-443E-9A86-AE7AD6842FCC&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1997-05-19&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;25&quot;,
+        &quot;postcode&quot;: &quot;N20 0SR&quot;,
+        &quot;price&quot;: 123500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;BAWTRY ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;75C471F7-0C25-4DAB-8582-CD138B137948&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1997-06-27&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;13&quot;,
+        &quot;postcode&quot;: &quot;N20 0SR&quot;,
+        &quot;price&quot;: 98000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;BAWTRY ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;4A520B8F-E654-4689-A92F-398FB8654405&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1997-10-31&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;37&quot;,
+        &quot;postcode&quot;: &quot;N20 0SR&quot;,
+        &quot;price&quot;: 140000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;BAWTRY ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;BF0D4E49-CD52-497E-B627-96C852875D39&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1998-12-16&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;39&quot;,
+        &quot;postcode&quot;: &quot;N20 0SR&quot;,
+        &quot;price&quot;: 127000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;BAWTRY ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;8F95FA76-FB30-43C3-95C9-E1FBB363DEAF&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1999-01-22&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;33&quot;,
+        &quot;postcode&quot;: &quot;N20 0SR&quot;,
+        &quot;price&quot;: 130000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;BAWTRY ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;5AD1C965-9ED8-41BD-8177-0A87216E6D5E&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2000-05-12&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;11&quot;,
+        &quot;postcode&quot;: &quot;N20 0SR&quot;,
+        &quot;price&quot;: 132000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;BAWTRY ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;9C5ABDBE-0B0E-4F03-BB90-D9C1EB190975&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2000-06-09&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;45&quot;,
+        &quot;postcode&quot;: &quot;N20 0SR&quot;,
+        &quot;price&quot;: 205000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;BAWTRY ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;4545C490-F28E-4BE3-BF90-5334EF340348&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2000-07-13&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;3&quot;,
+        &quot;postcode&quot;: &quot;N20 0SR&quot;,
+        &quot;price&quot;: 166950,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;BAWTRY ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;9E6DDF16-6B6C-4DF8-B724-61E35B9B16F3&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2001-09-28&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;53&quot;,
+        &quot;postcode&quot;: &quot;N20 0SR&quot;,
+        &quot;price&quot;: 207500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;BAWTRY ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;7B426483-D524-4175-8E0D-F307999AE641&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2002-05-03&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;47&quot;,
+        &quot;postcode&quot;: &quot;N20 0SR&quot;,
+        &quot;price&quot;: 240000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;BAWTRY ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;CADFEFB1-519B-4E31-B067-C1028A0FD625&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2002-08-09&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;27&quot;,
+        &quot;postcode&quot;: &quot;N20 0SR&quot;,
+        &quot;price&quot;: 235000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;BAWTRY ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;8AF232B6-7CDD-401E-BDBF-3B45045B8C9C&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2003-03-14&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;1&quot;,
+        &quot;postcode&quot;: &quot;N20 0SR&quot;,
+        &quot;price&quot;: 242500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;BAWTRY ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;309A2C16-0069-4E07-BAAC-26DE274DF7A0&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2003-06-19&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;13&quot;,
+        &quot;postcode&quot;: &quot;N20 0SR&quot;,
+        &quot;price&quot;: 240000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;BAWTRY ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;337B24B1-2AFD-4CF6-AA90-BF4350BC4C8E&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2003-09-04&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;27&quot;,
+        &quot;postcode&quot;: &quot;N20 0SR&quot;,
+        &quot;price&quot;: 268000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;BAWTRY ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;C86C9B3C-209C-4B62-8DD9-B69C8BB4DB7D&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2003-11-10&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;5&quot;,
+        &quot;postcode&quot;: &quot;N20 0SR&quot;,
+        &quot;price&quot;: 225000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;BAWTRY ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;F1E74967-9567-4DBF-9EB1-E7EF0C78DDF0&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2006-08-15&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;33&quot;,
+        &quot;postcode&quot;: &quot;N20 0SR&quot;,
+        &quot;price&quot;: 308000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;BAWTRY ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;DFF46DDF-8437-4A2E-9B83-9E41E18F1137&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2006-09-27&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;51&quot;,
+        &quot;postcode&quot;: &quot;N20 0SR&quot;,
+        &quot;price&quot;: 290000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;BAWTRY ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;6918EA09-4C55-46D6-8F6B-DBE4BB925C5A&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2007-07-27&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;37&quot;,
+        &quot;postcode&quot;: &quot;N20 0SR&quot;,
+        &quot;price&quot;: 374500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;BAWTRY ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;23875B46-3BC9-48C5-96A8-FC2744D13EEF&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2008-05-13&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;9&quot;,
+        &quot;postcode&quot;: &quot;N20 0SR&quot;,
+        &quot;price&quot;: 249995,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;BAWTRY ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;7F0DC4FC-1412-4DB8-B246-9016A7AF9DF2&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2008-08-18&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;9&quot;,
+        &quot;postcode&quot;: &quot;N20 0SR&quot;,
+        &quot;price&quot;: 250000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;BAWTRY ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;CC626ED9-787C-4253-AEA3-57E71C56F597&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2010-03-12&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;37&quot;,
+        &quot;postcode&quot;: &quot;N20 0SR&quot;,
+        &quot;price&quot;: 370000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;BAWTRY ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;21593E50-7FBA-4B4D-B418-69CFB16AE2EC&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2013-02-08&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;19&quot;,
+        &quot;postcode&quot;: &quot;N20 0SR&quot;,
+        &quot;price&quot;: 320000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;BAWTRY ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;84F6AABF-D0C8-443C-BF17-8628F9018211&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2013-08-05&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;45&quot;,
+        &quot;postcode&quot;: &quot;N20 0SR&quot;,
+        &quot;price&quot;: 420000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;BAWTRY ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;0462F33D-7025-41FF-9D59-697A0D510714&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2014-03-07&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;1&quot;,
+        &quot;postcode&quot;: &quot;N20 0SR&quot;,
+        &quot;price&quot;: 375000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;BAWTRY ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;F0BA1CA4-7E2B-432B-A636-25567A370597&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2020-07-10&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;29&quot;,
+        &quot;postcode&quot;: &quot;N20 0SR&quot;,
+        &quot;price&quot;: 600000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;BAWTRY ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;AE4D86D4-39E6-4619-E053-6C04A8C03CD0&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2020-11-20&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;31&quot;,
+        &quot;postcode&quot;: &quot;N20 0SR&quot;,
+        &quot;price&quot;: 599950,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;BAWTRY ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;B82222ED-140E-6691-E053-6B04A8C02FB2&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2022-06-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;19&quot;,
+        &quot;postcode&quot;: &quot;N20 0SR&quot;,
+        &quot;price&quot;: 590000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;BAWTRY ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;E53EDD2D-FE02-83EC-E053-6B04A8C03A59&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2023-01-10&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;35&quot;,
+        &quot;postcode&quot;: &quot;N20 0SR&quot;,
+        &quot;price&quot;: 595000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;BAWTRY ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;F5E8B081-8A34-3A13-E053-6C04A8C060B7&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2023-02-17&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;3&quot;,
+        &quot;postcode&quot;: &quot;N20 0SR&quot;,
+        &quot;price&quot;: 500000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;BAWTRY ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;1A0C5C63-7D50-7CBE-E063-4804A8C06C96&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2026-03-13&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;1&quot;,
+        &quot;postcode&quot;: &quot;N20 0SR&quot;,
+        &quot;price&quot;: 530000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;BAWTRY ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;4E75C29D-7303-8922-E063-4804A8C094D0&quot;
+      }
+    ],
+    &quot;sales&quot;: [],
+    &quot;scope&quot;: &quot;address_no_sale&quot;,
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;latitude&quot;: 51.623367,
+  &quot;liverpool_st_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Moderate (45-55m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 24,
+    &quot;route_summary&quot;: &quot;Great Northern direct to Moorgate (24 min) + 4 min walk via integrated Elizabeth line concourse to Liverpool St&quot;,
+    &quot;secondary_route&quot;: &quot;Arnos Grove (1.384 mi, ~28m walk) \u2794 London Underground (Piccadilly line) (30m rail) = ~62m total&quot;,
+    &quot;station_distance_miles&quot;: 1.344,
+    &quot;station_name&quot;: &quot;Oakleigh Park&quot;,
+    &quot;total_commute_minutes&quot;: 55,
+    &quot;transfer_minutes&quot;: 4,
+    &quot;transit_line&quot;: &quot;Great Northern (National Rail)&quot;,
+    &quot;walk_time_minutes&quot;: 27
+  },
+  &quot;living_rooms&quot;: 1,
+  &quot;longitude&quot;: -0.157689,
+  &quot;nearest_station&quot;: &quot;New Southgate&quot;,
+  &quot;nice_to_haves&quot;: [
+    {
+      &quot;detail&quot;: &quot;Not mentioned; UK EPCs do not record domestic cooling&quot;,
+      &quot;label&quot;: &quot;Air conditioning&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned in the listing or EPC&quot;,
+      &quot;label&quot;: &quot;Underfloor heating&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Floor-plan north arrow puts the garden north (not south)&quot;,
+      &quot;label&quot;: &quot;South-facing garden&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned and no overhead glazing seen in photos&quot;,
+      &quot;label&quot;: &quot;Sun roof / lantern in living areas&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;No ground-floor bedroom or convertible room mentioned&quot;,
+      &quot;label&quot;: &quot;Ground-floor bedroom&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Largest living area is 12.2 ft (Living Room, floor-plan) \u2014 below the 15 ft mark&quot;,
+      &quot;label&quot;: &quot;Wide living room&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;No cinema or media room mentioned, and no other room on the plan is large enough to be one&quot;,
+      &quot;label&quot;: &quot;Home theatre potential&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    }
+  ],
+  &quot;overall_verdict&quot;: &quot;Secondary Assessment Needed: Low scores across multiple dimensions.&quot;,
+  &quot;planning_summary&quot;: {
+    &quot;_cache&quot;: true,
+    &quot;applications&quot;: [],
+    &quot;properties&quot;: [],
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;price_display&quot;: &quot;\u00a3625,000&quot;,
+  &quot;price_per_sq_ft&quot;: 7449.3,
+  &quot;property_id&quot;: &quot;73024532&quot;,
+  &quot;property_images&quot;: [
+    &quot;https://lid.zoocdn.com/u/1024/768/a109906ce6d0f42eec408a72273f6847083cbbd2.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/bf401d4b03b6786baf8a434a4054f9626d9efa81.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/bc2abbf2958398357ec841cf44e25b3719486750.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/f4c198a78ac84873284c338d38572262c485a40f.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/d5124b31fdec9db9bdff9ef57bfaeb1b886c0d4c.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/5817a8bd37ed2d964573a80dc7fc64b7eb3e1b61.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/1e7ce03e39be5d6c0f1813f716b9ab11dd9be3a3.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/b987604a15f141e8537ba068c966fc35ca940ce8.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/3e5e037c396d261d490965e638ec93a637f42e77.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/f8cd8946ac1ef62cd8a9b83790044c08e574a746.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/94f3b55e896c363b5396f49a8cfb3fd40771eef3.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/03f6ac5446e57d1c4c3ddf38ba8db23c15a02487.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/b3a56a500572a3990c6e56ac422594ea1de660fc.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/b4a1cb593531940b6572b38575d157fb186ab542.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/f4f7175f33f229542d97debe63ff449772cdc0e9.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/e150c361bc1d8902fcbcaf32750c542cedd7279d.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/d6c01b2f777a585d40f503486bd2ba6de431babf.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/591b56b1964ccf4d5a3645c1d5a5d1c77dfb33e9.jpg&quot;
+  ],
+  &quot;property_type&quot;: &quot;3 bed semi-detached house for sale&quot;,
+  &quot;size_sq_ft&quot;: 83.9,
+  &quot;size_sq_m&quot;: 7.8,
+  &quot;station_distance_miles&quot;: 1.23,
+  &quot;station_distance_source&quot;: &quot;routed&quot;,
+  &quot;tenure&quot;: &quot;Freehold&quot;,
+  &quot;walk_time_minutes&quot;: 25
+}</pre>
+  </details>
+
+  <div class="foot"><div><a href="valley-avenue-north-finchley-london-n12.html">← Valley Avenue</a></div><div><a href="willow-end-totteridge-n20.html">→ Willow End</a></div></div>
+
+  <p class="note" style="margin-top:26px">Generated 2026-10-01 from
+  <code>reviews/property_reviews.json</code>. Map data &copy;
+  <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</p>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
+<script>window.__PINS__ = [{"id": "73024532", "lat": 51.623367, "lon": -0.157689, "addr": "Bawtry Road", "price": "\u00a3625,000", "sqft": "83.9", "epc": "D", "score": 24.4, "colour": "#a8322d", "tags": [], "tag_html": "", "href": "#"}];</script>
+<script>window.__SLIDES__ = ["https://lid.zoocdn.com/u/1024/768/a109906ce6d0f42eec408a72273f6847083cbbd2.jpg", "https://lid.zoocdn.com/u/1024/768/bf401d4b03b6786baf8a434a4054f9626d9efa81.jpg", "https://lid.zoocdn.com/u/1024/768/bc2abbf2958398357ec841cf44e25b3719486750.jpg", "https://lid.zoocdn.com/u/1024/768/f4c198a78ac84873284c338d38572262c485a40f.jpg", "https://lid.zoocdn.com/u/1024/768/d5124b31fdec9db9bdff9ef57bfaeb1b886c0d4c.jpg", "https://lid.zoocdn.com/u/1024/768/5817a8bd37ed2d964573a80dc7fc64b7eb3e1b61.jpg", "https://lid.zoocdn.com/u/1024/768/1e7ce03e39be5d6c0f1813f716b9ab11dd9be3a3.jpg", "https://lid.zoocdn.com/u/1024/768/b987604a15f141e8537ba068c966fc35ca940ce8.jpg", "https://lid.zoocdn.com/u/1024/768/3e5e037c396d261d490965e638ec93a637f42e77.jpg", "https://lid.zoocdn.com/u/1024/768/f8cd8946ac1ef62cd8a9b83790044c08e574a746.jpg", "https://lid.zoocdn.com/u/1024/768/94f3b55e896c363b5396f49a8cfb3fd40771eef3.jpg", "https://lid.zoocdn.com/u/1024/768/03f6ac5446e57d1c4c3ddf38ba8db23c15a02487.jpg", "https://lid.zoocdn.com/u/1024/768/b3a56a500572a3990c6e56ac422594ea1de660fc.jpg", "https://lid.zoocdn.com/u/1024/768/b4a1cb593531940b6572b38575d157fb186ab542.jpg", "https://lid.zoocdn.com/u/1024/768/f4f7175f33f229542d97debe63ff449772cdc0e9.jpg", "https://lid.zoocdn.com/u/1024/768/e150c361bc1d8902fcbcaf32750c542cedd7279d.jpg", "https://lid.zoocdn.com/u/1024/768/d6c01b2f777a585d40f503486bd2ba6de431babf.jpg", "https://lid.zoocdn.com/u/1024/768/591b56b1964ccf4d5a3645c1d5a5d1c77dfb33e9.jpg"];</script>
+<script>
+(function () {
+  var el = document.getElementById('map');
+  if (!el || typeof L === 'undefined') { return; }
+  var data = window.__PINS__ || [];
+  if (!data.length || data[0].lat === null) { el.style.display = 'none'; return; }
+  var map = L.map('map', { scrollWheelZoom: false, dragging: false,
+                           doubleClickZoom: false, boxZoom: false,
+                           keyboard: false, zoomControl: false });
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  var group = L.featureGroup().addTo(map);
+  data.forEach(function (p) {
+    if (p.lat === null) { return; }
+    L.circleMarker([p.lat, p.lon], { radius: 10, color: '#ffffff', weight: 3,
+                                     fillColor: p.colour, fillOpacity: 0.95 }).addTo(group);
+  });
+  if (group.getBounds().isValid()) { map.fitBounds(group.getBounds().pad(0.35)); }
+  L.control.attribution({ prefix: false }).addTo(map);
+})();
+</script>
+<script>
+(function () {
+  var shots = window.__SLIDES__ || [];
+  var img = document.getElementById('slide-img');
+  var link = document.getElementById('slide-link');
+  var prev = document.getElementById('slide-prev');
+  var next = document.getElementById('slide-next');
+  var num = document.getElementById('slide-n');
+  if (!img || !link || shots.length < 2) {
+    if (prev) { prev.disabled = true; }
+    if (next) { next.disabled = true; }
+    return;
+  }
+  var at = 0;
+
+  function show(i) {
+    at = (i + shots.length) % shots.length;
+    img.src = shots[at];
+    img.alt = 'Listing photo ' + (at + 1) + ' of ' + shots.length +
+              ' — open full size';
+    link.href = shots[at];
+    if (num) { num.textContent = String(at + 1); }
+  }
+
+  // Only the neighbours are warmed: a 34-photo listing at 136 KB each is
+  // 4.6 MB if the whole gallery is fetched up front, for images the reader may
+  // never scroll to.
+  function warm() {
+    [at + 1, at - 1].forEach(function (k) {
+      var j = (k + shots.length) % shots.length;
+      if (j !== at) { new Image().src = shots[j]; }
+    });
+  }
+
+  prev.addEventListener('click', function () { show(at - 1); warm(); });
+  next.addEventListener('click', function () { show(at + 1); warm(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) { return; }
+    if (e.key === 'ArrowLeft') { show(at - 1); warm(); }
+    if (e.key === 'ArrowRight') { show(at + 1); warm(); }
+  });
+  show(0);
+  warm();
+})();
+</script>
+</body></html>

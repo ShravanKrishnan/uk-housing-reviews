@@ -1,0 +1,681 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Southover — review</title>
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <h1>Southover</h1>
+  <p class="sub">Southover, Woodside Park N12</p>
+  <nav class="crumbs"><a href="../index.html">← Back to the map</a> &middot;
+  <a href="../index.html#all-rank-30">Rank #30 of All properties</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="panel">
+    <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between">
+      <div>
+        <span class="pill" style="background:#c2760a">53.0 Score</span>
+        <span class="badge tag-space">Generous Space &amp; Layout</span>
+      </div>
+      <div style="font-size:13px;color:var(--muted)">
+        30 of 164 &middot; score 53.0
+      </div>
+    </div>
+    <div class="verdict">Proceed with Caution: Moderate scores, verify key items during survey.</div>
+  </div>
+
+  <h3>At a glance</h3>
+  <div class="grid"><div class="stat"><div class="k">Asking price</div><div class="v">£1,250,000</div></div><div class="stat"><div class="k">Property type</div><div class="v">4 bed detached house for sale</div></div><div class="stat"><div class="k">Tenure</div><div class="v">Freehold</div></div><div class="stat"><div class="k">Size</div><div class="v">2,288 sq ft / 212.6 m²</div></div><div class="stat"><div class="k">Price per sq ft</div><div class="v">£546.3</div></div><div class="stat"><div class="k">Bedrooms</div><div class="v">4</div></div><div class="stat"><div class="k">Bathrooms</div><div class="v">3</div></div><div class="stat"><div class="k">Living rooms</div><div class="v">3</div></div><div class="stat"><div class="k">EPC (current / potential)</div><div class="v">D / C</div></div><div class="stat"><div class="k">Nearest station</div><div class="v">Woodside Park · 0.7 mi · ~14 min walk</div></div><div class="stat wide"><div class="k">Commute to Liverpool St</div><div class="v">49 min (Northern line (Bank branch) direct to Moorgate (31 min) + 4 min Elizabeth line link to Liverpool St)</div></div><div class="stat wide"><div class="k">Commute to King&#x27;s Cross</div><div class="v">41 min (Northern line direct to King&#x27;s Cross St Pancras (27 min))</div></div></div>
+
+  <h3>Nice-to-haves</h3>
+  <div class="panel">
+    <table class="nice">
+      <thead><tr><th>Signal</th><th>Status</th><th>Detail</th></tr></thead>
+      <tbody><tr><td>Air conditioning</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned; UK EPCs do not record domestic cooling</td></tr><tr><td>Underfloor heating</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned in the listing or EPC</td></tr><tr><td>South-facing garden</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Floor-plan north arrow puts the garden south (listing silent)</td></tr><tr><td>Sun roof / lantern in living areas</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned and no overhead glazing seen in photos</td></tr><tr><td>Second ground-floor sitting room</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>No ground-floor bedroom, but the plan shows a second sitting room — Reception Room, 18.6 x 9.4 ft — which serves the same downstairs space</td></tr><tr><td>Wide living room</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Reception Room measures 17.6 ft at its widest (floor-plan) — clears the 15 ft mark</td></tr><tr><td>Home theatre potential</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>No cinema or media room mentioned, and no other room on the plan is large enough to be one</td></tr></tbody>
+    </table>
+  </div>
+
+<div class="panel"><h2>Photos — 18</h2><div class="slides" id="slides"><div class="slide-frame"><a id="slide-link" href="https://lid.zoocdn.com/u/1024/768/f490c304d128b3244f4fcd526ab2fe5b0dacd0e4.jpg" rel="noopener"><img id="slide-img" src="https://lid.zoocdn.com/u/1024/768/f490c304d128b3244f4fcd526ab2fe5b0dacd0e4.jpg" alt="Listing photo 1 of 18 — open full size" loading="lazy"></a><button type="button" class="slide-nav prev" id="slide-prev" aria-label="Previous photo">&#8249;</button><button type="button" class="slide-nav next" id="slide-next" aria-label="Next photo">&#8250;</button><span class="slide-badge"><span id="slide-n">1</span> / 18</span></div></div><p class="note" style="margin-top:8px">Arrow keys page through the gallery; click a photo to open it full size. These are the listing's own photographs, at the highest resolution its image host serves.</p></div>
+
+  <div class="layout">
+    <div class="panel sticky">
+      <h2>Where it is</h2>
+      <div id="map" style="height:330px;border-radius:8px"></div>
+      <p class="note" style="margin-top:10px">
+        Pin is the listing's own coordinates. Map tiles are OpenStreetMap.
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=51.623844,-0.192553" rel="noopener">Open in Google Maps →</a>
+        &middot; <a href="https://www.openstreetmap.org/?mlat=51.623844&amp;mlon=-0.192553#map=18/51.623844/-0.192553" rel="noopener">Open in OpenStreetMap →</a>
+        &middot; <a href="https://www.zoopla.co.uk/for-sale/details/73337726/" rel="noopener">Zoopla listing →</a>
+      </p>
+    </div>
+    <div class="panel">
+      <h2>Floorplan analysis</h2>
+      <a href="https://lid.zoocdn.com/u/1024/768/8dfd0b749746cb0312a8e5521c4cd1b8a1e6fe27.jpg" rel="noopener"><img class="plan" src="https://lid.zoocdn.com/u/1024/768/8dfd0b749746cb0312a8e5521c4cd1b8a1e6fe27.jpg" alt="Floor plan for Southover, Woodside Park N12" loading="lazy"></a><p class="note">12 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are listed without one. <a href="https://lid.zoocdn.com/u/1024/768/8dfd0b749746cb0312a8e5521c4cd1b8a1e6fe27.jpg" rel="noopener">Open the full-size plan →</a></p><table class="nice compact"><thead><tr><th>Room</th><th>Type</th><th>Floor</th><th>Dimensions</th><th>Area</th></tr></thead><tbody><tr><td>Reception Room</td><td>living</td><td>ground</td><td class="num">18.6 &times; 9.4 ft</td><td class="num">175 sq ft</td></tr><tr><td>Kitchen</td><td>kitchen</td><td>ground</td><td class="num">23.5 &times; 12 ft</td><td class="num">282 sq ft</td></tr><tr><td>Reception Room</td><td>living</td><td>ground</td><td class="num">17.6 &times; 9.9 ft</td><td class="num">174 sq ft</td></tr><tr><td>Utility</td><td>utility</td><td>ground</td><td class="num">not printed</td><td class="num">—</td></tr><tr><td>Garage</td><td>outbuilding</td><td>ground</td><td class="num">15.8 &times; 8.7 ft</td><td class="num">137 sq ft</td></tr><tr><td>Reception Room</td><td>living</td><td>ground</td><td class="num">20.3 &times; 17.6 ft</td><td class="num">357 sq ft</td></tr><tr><td>Rear Garden</td><td>garden</td><td>ground</td><td class="num">not printed</td><td class="num">—</td></tr><tr><td>Parking / Front Garden</td><td>garden</td><td>ground</td><td class="num">not printed</td><td class="num">—</td></tr><tr><td>Bedroom 1</td><td>bedroom</td><td>first</td><td class="num">16.3 &times; 11.1 ft</td><td class="num">181 sq ft</td></tr><tr><td>Bedroom 3</td><td>bedroom</td><td>first</td><td class="num">9.1 &times; 8.2 ft</td><td class="num">75 sq ft</td></tr><tr><td>Bedroom 2</td><td>bedroom</td><td>first</td><td class="num">15.8 &times; 12.2 ft</td><td class="num">193 sq ft</td></tr><tr><td>Bedroom 4</td><td>bedroom</td><td>first</td><td class="num">11.6 &times; 7.8 ft</td><td class="num">90 sq ft</td></tr></tbody></table>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-top:22px">
+    <h2>Score breakdown — 53.0/100</h2>
+    <div class="bar-row with-evidence"><span class="lbl">Location &amp; transport</span><span class="bar"><i style="width:47.5%;background:#a8322d"></i></span><span class="num">9.5</span><ul class="ticks compact"><li><span class="tick">✓</span>Nearest station Woodside Park 14 min walk (0.66 mi routed walk) (+3)</li><li><span class="tick">✓</span>Walkable station Woodside Park 14 min walk (+1.5)</li><li><span class="tick">✓</span>1 transit line within walk — Northern via Woodside Park 14 min walk — broad Central London access (+1)</li><li><span class="tick">✓</span>Night Tube / 24h service at Woodside Park (+1.5)</li><li><span class="tick">✓</span>Moderate Liverpool St commute: ~49 mins door-to-concourse via Woodside Park (14m walk + 31m rail) (+1.5)</li><li><span class="tick">✓</span>King&#x27;s Cross St Pancras commute ~41 mins via Woodside Park (+1)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Space, scale &amp; layout</span><span class="bar"><i style="width:77.5%;background:#a8322d"></i></span><span class="num">15.5</span><ul class="ticks compact"><li><span class="tick">✓</span>Square footage taken from floor plan (image analysis)</li><li><span class="tick">✓</span>Generous proportions: 2,288.0 sq ft total (572 sq ft/bed) (+5.5)</li><li><span class="tick">✓</span>Superb bathroom provision (3 baths for 4 beds) (+3)</li><li><span class="tick">✓</span>Two or more reception rooms (3) (+1)</li><li><span class="tick">✓</span>Wide living room: Reception Room 17.6 ft (floorplan) (+3)</li><li><span class="tick">✓</span>No ground-floor bedroom, but a second ground-floor sitting room (Reception Room 18.6 x 9.4 ft) gives the same downstairs space (+3)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Financial efficiency</span><span class="bar"><i style="width:51.3%;background:#a8322d"></i></span><span class="num">7.7</span><ul class="ticks compact"><li><span class="tick">✓</span>£546 per sq ft on 2,288 sq ft (+4.3 of 7.5)</li><li><span class="tick">✓</span>£1,250,000 asking price (+3.4 of 7.5)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Technical &amp; EPC</span><span class="bar"><i style="width:49.0%;background:#a8322d"></i></span><span class="num">9.8</span><ul class="ticks compact"><li><span class="tick">✓</span>EPC Band D (4.5) + no secondary heating (1) + insulated roof (2) + partial glazing (0.25) (+7.75 of 10)</li><li><span class="tick">✓</span>EPC: pitched roof with accessible loft (pitched, 100 mm loft insulation) — scope for a simple loft extension (structural survey still required) (+2)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Observed presentation</span><span class="bar"><i style="width:36.7%;background:#a8322d"></i></span><span class="num">5.5</span><ul class="ticks compact"><li><span class="tick">✓</span>Presented finish observed as refurbished in listing photographs (image analysis) (+5.5 of 7)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Garden &amp; outdoor</span><span class="bar"><i style="width:50.0%;background:#a8322d"></i></span><span class="num">5.0</span><ul class="ticks compact"><li><span class="tick">✓</span>South-facing garden confirmed (+5)</li></ul></div>
+    <p class="note">The combined score rewards location, space, financial efficiency,
+    technical specification, observed presentation, and garden quality. Every line
+    lists the evidence that earned it, so a component cannot be read as a verdict
+    without the reason attached.</p>
+  </div>
+
+  <h3>Land Registry</h3>
+  <div class="panel">
+    <p><strong>No sale attributed to this address — a house number is known, but no Land Registry record matches it, i.e. the house has not transacted.</strong></p>
+    <p>£384/sq ft median (range £83–£756), from 12 of 15 local sales (80% priced). <span class="note">Floor area is borrowed from the EPC extract (epc_bulk total_floor_area) because sale records carry none; small samples are heavy-tailed, so the median is used and withheld below 5 priced sales.</span></p>
+    <p class="note">15 raw sale record(s) exist in this postcode. They are the neighbourhood's history, not this home's, and are deliberately not presented as its own.</p>
+    <p class="note">Scope <code>address_no_sale</code> — sale history is only ever
+    attributed to this home when a house number was derived and matched.</p>
+  </div>
+
+  <h3>Planning</h3>
+  <div class="panel"><p class="note">Planning lookup status: <code>error</code>. No planning history is asserted for this property.</p></div>
+
+  <div style="margin-top:22px">
+    <div class="panel"><h2>Photographic evidence reviewed for the score</h2><p class="note">Points are awarded only for detected listing, EPC, or photographic evidence, and each component above lists what it found. Systems without such evidence score zero and are omitted rather than listed as inspection tasks. These notes record what the photos did and did not show.</p><ul class="ticks"><li>19 property photo(s) analysed by local vision model (Qwen3-VL)</li><li>Photographic-evidence score: 35.9/100 (high confidence; condition 30/35, kitchen/bath 0/20, glazing 0/20, structure 0/15, legibility 5.9/10)</li><li>Floor-plan total read from the plan: 2,288 sq ft</li><li>Condition tier inferred from photos: refurbished</li><li>Not captured in the photos: bathroom, bathrooms, bedrooms, extension evidence, garden aspect, kitchen (…)</li></ul></div>
+  </div>
+
+  <div class="gaps"><strong>What is not verified here</strong><ul><li>No Land Registry sale recorded for this address in the price-paid window — the house has not transacted, so there is no comparable sale history</li><li>Enrichment fetch failed: planning</li></ul></div>
+
+  <details class="raw">
+    <summary>Raw review record (JSON)</summary>
+    <pre>{
+  &quot;asking_price&quot;: 1250000,
+  &quot;bathrooms&quot;: 3,
+  &quot;bedrooms&quot;: 4,
+  &quot;combined_score&quot;: {
+    &quot;detected_features&quot;: [
+      &quot;Nearest station Woodside Park 14 min walk (0.66 mi routed walk) (+3)&quot;,
+      &quot;Walkable station Woodside Park 14 min walk (+1.5)&quot;,
+      &quot;1 transit line within walk \u2014 Northern via Woodside Park 14 min walk \u2014 broad Central London access (+1)&quot;,
+      &quot;Night Tube / 24h service at Woodside Park (+1.5)&quot;,
+      &quot;Moderate Liverpool St commute: ~49 mins door-to-concourse via Woodside Park (14m walk + 31m rail) (+1.5)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~41 mins via Woodside Park (+1)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Generous proportions: 2,288.0 sq ft total (572 sq ft/bed) (+5.5)&quot;,
+      &quot;Superb bathroom provision (3 baths for 4 beds) (+3)&quot;,
+      &quot;Two or more reception rooms (3) (+1)&quot;,
+      &quot;Wide living room: Reception Room 17.6 ft (floorplan) (+3)&quot;,
+      &quot;No ground-floor bedroom, but a second ground-floor sitting room (Reception Room 18.6 x 9.4 ft) gives the same downstairs space (+3)&quot;,
+      &quot;\u00a3546 per sq ft on 2,288 sq ft (+4.3 of 7.5)&quot;,
+      &quot;\u00a31,250,000 asking price (+3.4 of 7.5)&quot;,
+      &quot;EPC Band D (4.5) + no secondary heating (1) + insulated roof (2) + partial glazing (0.25) (+7.75 of 10)&quot;,
+      &quot;EPC: pitched roof with accessible loft (pitched, 100 mm loft insulation) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;,
+      &quot;Presented finish observed as refurbished in listing photographs (image analysis) (+5.5 of 7)&quot;,
+      &quot;South-facing garden confirmed (+5)&quot;
+    ],
+    &quot;evidence&quot;: {
+      &quot;financial_efficiency&quot;: [
+        &quot;\u00a3546 per sq ft on 2,288 sq ft (+4.3 of 7.5)&quot;,
+        &quot;\u00a31,250,000 asking price (+3.4 of 7.5)&quot;
+      ],
+      &quot;garden_outdoor&quot;: [
+        &quot;South-facing garden confirmed (+5)&quot;
+      ],
+      &quot;location_transport&quot;: [
+        &quot;Nearest station Woodside Park 14 min walk (0.66 mi routed walk) (+3)&quot;,
+        &quot;Walkable station Woodside Park 14 min walk (+1.5)&quot;,
+        &quot;1 transit line within walk \u2014 Northern via Woodside Park 14 min walk \u2014 broad Central London access (+1)&quot;,
+        &quot;Night Tube / 24h service at Woodside Park (+1.5)&quot;,
+        &quot;Moderate Liverpool St commute: ~49 mins door-to-concourse via Woodside Park (14m walk + 31m rail) (+1.5)&quot;,
+        &quot;King&#x27;s Cross St Pancras commute ~41 mins via Woodside Park (+1)&quot;
+      ],
+      &quot;observed_presentation&quot;: [
+        &quot;Presented finish observed as refurbished in listing photographs (image analysis) (+5.5 of 7)&quot;
+      ],
+      &quot;space_layout&quot;: [
+        &quot;Square footage taken from floor plan (image analysis)&quot;,
+        &quot;Generous proportions: 2,288.0 sq ft total (572 sq ft/bed) (+5.5)&quot;,
+        &quot;Superb bathroom provision (3 baths for 4 beds) (+3)&quot;,
+        &quot;Two or more reception rooms (3) (+1)&quot;,
+        &quot;Wide living room: Reception Room 17.6 ft (floorplan) (+3)&quot;,
+        &quot;No ground-floor bedroom, but a second ground-floor sitting room (Reception Room 18.6 x 9.4 ft) gives the same downstairs space (+3)&quot;
+      ],
+      &quot;technical_epc&quot;: [
+        &quot;EPC Band D (4.5) + no secondary heating (1) + insulated roof (2) + partial glazing (0.25) (+7.75 of 10)&quot;,
+        &quot;EPC: pitched roof with accessible loft (pitched, 100 mm loft insulation) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;
+      ]
+    },
+    &quot;financial_efficiency&quot;: 7.7,
+    &quot;garden_outdoor&quot;: 5.0,
+    &quot;location_transport&quot;: 9.5,
+    &quot;notes&quot;: [
+      &quot;Nearest station Woodside Park 14 min walk (0.66 mi routed walk) (+3)&quot;,
+      &quot;Walkable station Woodside Park 14 min walk (+1.5)&quot;,
+      &quot;1 transit line within walk \u2014 Northern via Woodside Park 14 min walk \u2014 broad Central London access (+1)&quot;,
+      &quot;Night Tube / 24h service at Woodside Park (+1.5)&quot;,
+      &quot;Moderate Liverpool St commute: ~49 mins door-to-concourse via Woodside Park (14m walk + 31m rail) (+1.5)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~41 mins via Woodside Park (+1)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Generous proportions: 2,288.0 sq ft total (572 sq ft/bed) (+5.5)&quot;,
+      &quot;Superb bathroom provision (3 baths for 4 beds) (+3)&quot;,
+      &quot;Two or more reception rooms (3) (+1)&quot;,
+      &quot;EPC Band D&quot;
+    ],
+    &quot;observed_presentation&quot;: 5.5,
+    &quot;space_layout&quot;: 15.5,
+    &quot;tags&quot;: [
+      &quot;Generous Space &amp; Layout&quot;
+    ],
+    &quot;technical_epc&quot;: 9.8,
+    &quot;total_score&quot;: 53.0,
+    &quot;vision_facts&quot;: [
+      &quot;19 property photo(s) analysed by local vision model (Qwen3-VL)&quot;,
+      &quot;Photographic-evidence score: 35.9/100 (high confidence; condition 30/35, kitchen/bath 0/20, glazing 0/20, structure 0/15, legibility 5.9/10)&quot;,
+      &quot;Floor-plan total read from the plan: 2,288 sq ft&quot;,
+      &quot;Condition tier inferred from photos: refurbished&quot;,
+      &quot;Not captured in the photos: bathroom, bathrooms, bedrooms, extension evidence, garden aspect, kitchen (\u2026)&quot;
+    ]
+  },
+  &quot;data_gaps&quot;: [
+    &quot;No Land Registry sale recorded for this address in the price-paid window \u2014 the house has not transacted, so there is no comparable sale history&quot;,
+    &quot;Enrichment fetch failed: planning&quot;
+  ],
+  &quot;epc_potential&quot;: &quot;C&quot;,
+  &quot;epc_rating&quot;: &quot;D&quot;,
+  &quot;floorplan_image_url&quot;: &quot;https://lid.zoocdn.com/u/1024/768/8dfd0b749746cb0312a8e5521c4cd1b8a1e6fe27.jpg&quot;,
+  &quot;floorplan_rooms&quot;: [
+    {
+      &quot;area_sq_ft&quot;: 175,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;living&quot;,
+      &quot;label&quot;: &quot;Reception Room&quot;,
+      &quot;length_ft&quot;: 18.6,
+      &quot;width_ft&quot;: 9.4
+    },
+    {
+      &quot;area_sq_ft&quot;: 282,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;kitchen&quot;,
+      &quot;label&quot;: &quot;Kitchen&quot;,
+      &quot;length_ft&quot;: 23.5,
+      &quot;width_ft&quot;: 12.0
+    },
+    {
+      &quot;area_sq_ft&quot;: 174,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;living&quot;,
+      &quot;label&quot;: &quot;Reception Room&quot;,
+      &quot;length_ft&quot;: 17.6,
+      &quot;width_ft&quot;: 9.9
+    },
+    {
+      &quot;area_sq_ft&quot;: null,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;utility&quot;,
+      &quot;label&quot;: &quot;Utility&quot;,
+      &quot;length_ft&quot;: null,
+      &quot;width_ft&quot;: null
+    },
+    {
+      &quot;area_sq_ft&quot;: 137,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;outbuilding&quot;,
+      &quot;label&quot;: &quot;Garage&quot;,
+      &quot;length_ft&quot;: 15.8,
+      &quot;width_ft&quot;: 8.7
+    },
+    {
+      &quot;area_sq_ft&quot;: 357,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;living&quot;,
+      &quot;label&quot;: &quot;Reception Room&quot;,
+      &quot;length_ft&quot;: 20.3,
+      &quot;width_ft&quot;: 17.6
+    },
+    {
+      &quot;area_sq_ft&quot;: null,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;garden&quot;,
+      &quot;label&quot;: &quot;Rear Garden&quot;,
+      &quot;length_ft&quot;: null,
+      &quot;width_ft&quot;: null
+    },
+    {
+      &quot;area_sq_ft&quot;: null,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;garden&quot;,
+      &quot;label&quot;: &quot;Parking / Front Garden&quot;,
+      &quot;length_ft&quot;: null,
+      &quot;width_ft&quot;: null
+    },
+    {
+      &quot;area_sq_ft&quot;: 181,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 1&quot;,
+      &quot;length_ft&quot;: 16.3,
+      &quot;width_ft&quot;: 11.1
+    },
+    {
+      &quot;area_sq_ft&quot;: 75,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 3&quot;,
+      &quot;length_ft&quot;: 9.1,
+      &quot;width_ft&quot;: 8.2
+    },
+    {
+      &quot;area_sq_ft&quot;: 193,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 2&quot;,
+      &quot;length_ft&quot;: 15.8,
+      &quot;width_ft&quot;: 12.2
+    },
+    {
+      &quot;area_sq_ft&quot;: 90,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 4&quot;,
+      &quot;length_ft&quot;: 11.6,
+      &quot;width_ft&quot;: 7.8
+    }
+  ],
+  &quot;full_address&quot;: &quot;Southover, Woodside Park N12&quot;,
+  &quot;kings_cross_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Fast (35-45m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 27,
+    &quot;route_summary&quot;: &quot;Northern line direct to King&#x27;s Cross St Pancras (27 min)&quot;,
+    &quot;secondary_route&quot;: &quot;Oakleigh Park (1.867 mi, ~38m walk) \u2794 Great Northern (National Rail) (17m rail) = ~55m total&quot;,
+    &quot;station_distance_miles&quot;: 0.664,
+    &quot;station_name&quot;: &quot;Woodside Park&quot;,
+    &quot;total_commute_minutes&quot;: 41,
+    &quot;transfer_minutes&quot;: 0,
+    &quot;transit_line&quot;: &quot;London Underground (Northern line - Bank branch)&quot;,
+    &quot;walk_time_minutes&quot;: 14
+  },
+  &quot;land_registry_summary&quot;: {
+    &quot;_cache&quot;: true,
+    &quot;area_benchmark&quot;: {
+      &quot;area_source&quot;: &quot;epc_bulk total_floor_area&quot;,
+      &quot;coverage_pct&quot;: 80,
+      &quot;high_gbp_sqft&quot;: 756,
+      &quot;low_gbp_sqft&quot;: 83,
+      &quot;median_gbp_sqft&quot;: 384,
+      &quot;of_sales&quot;: 15,
+      &quot;sample&quot;: 12
+    },
+    &quot;number_known&quot;: true,
+    &quot;postcode_sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1995-02-17&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;92&quot;,
+        &quot;postcode&quot;: &quot;N12 7HD&quot;,
+        &quot;price&quot;: 244900,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;SOUTHOVER&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;3EA144D2-A628-4D95-A08E-5ED6F4AD72FD&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1996-06-27&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;86&quot;,
+        &quot;postcode&quot;: &quot;N12 7HD&quot;,
+        &quot;price&quot;: 184950,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;SOUTHOVER&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;8710AC6C-4E1B-410E-A9B8-4DA623934DD9&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1998-07-15&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;112&quot;,
+        &quot;postcode&quot;: &quot;N12 7HD&quot;,
+        &quot;price&quot;: 240000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;SOUTHOVER&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;E82EF9DF-01B1-44EC-BDCE-3AE51C1D3660&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1999-03-15&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;90&quot;,
+        &quot;postcode&quot;: &quot;N12 7HD&quot;,
+        &quot;price&quot;: 292000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;SOUTHOVER&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;967231AA-5210-4337-B95D-1876F9428E63&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2000-04-14&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;86&quot;,
+        &quot;postcode&quot;: &quot;N12 7HD&quot;,
+        &quot;price&quot;: 387000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;SOUTHOVER&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;8E114B18-087C-4DCD-B7F1-C734DD93B41B&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2001-03-22&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;84&quot;,
+        &quot;postcode&quot;: &quot;N12 7HD&quot;,
+        &quot;price&quot;: 495000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;SOUTHOVER&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;FAC5867E-EB62-4D77-AFF8-175387CFD6FB&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2004-04-05&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;86&quot;,
+        &quot;postcode&quot;: &quot;N12 7HD&quot;,
+        &quot;price&quot;: 540000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;SOUTHOVER&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;2F404FFC-2CD3-4D7D-995E-349E0D0B44A1&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2007-03-27&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;86&quot;,
+        &quot;postcode&quot;: &quot;N12 7HD&quot;,
+        &quot;price&quot;: 665000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;SOUTHOVER&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;31733545-0777-4A0F-81EE-FA31B1C56D55&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2010-10-29&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;116&quot;,
+        &quot;postcode&quot;: &quot;N12 7HD&quot;,
+        &quot;price&quot;: 785000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;SOUTHOVER&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;A12E5966-5089-4FC4-931F-97FCBDA19597&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-09-05&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;94&quot;,
+        &quot;postcode&quot;: &quot;N12 7HD&quot;,
+        &quot;price&quot;: 1070000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;SOUTHOVER&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;5A9D8B55-71DC-68EB-E053-6B04A8C0D293&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2018-03-02&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;86&quot;,
+        &quot;postcode&quot;: &quot;N12 7HD&quot;,
+        &quot;price&quot;: 1247546,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;SOUTHOVER&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;68FEB20B-C050-38DA-E053-6C04A8C051AE&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2020-06-12&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;96&quot;,
+        &quot;postcode&quot;: &quot;N12 7HD&quot;,
+        &quot;price&quot;: 980000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;SOUTHOVER&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;B0A9D11B-A184-4C1F-E053-6C04A8C0D716&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2020-11-25&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;88&quot;,
+        &quot;postcode&quot;: &quot;N12 7HD&quot;,
+        &quot;price&quot;: 1080000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;SOUTHOVER&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;BA558B32-D6BE-76EF-E053-6B04A8C0B4B7&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2022-08-09&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;98&quot;,
+        &quot;postcode&quot;: &quot;N12 7HD&quot;,
+        &quot;price&quot;: 960500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;SOUTHOVER&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;E7B085FB-BEDF-7E31-E053-6C04A8C0E67F&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2023-10-26&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;102&quot;,
+        &quot;postcode&quot;: &quot;N12 7HD&quot;,
+        &quot;price&quot;: 950000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;SOUTHOVER&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;2F7F2B43-44AB-E08F-E063-4804A8C05A49&quot;
+      }
+    ],
+    &quot;sales&quot;: [],
+    &quot;scope&quot;: &quot;address_no_sale&quot;,
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;latitude&quot;: 51.623844,
+  &quot;liverpool_st_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Moderate (45-55m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 31,
+    &quot;route_summary&quot;: &quot;Northern line (Bank branch) direct to Moorgate (31 min) + 4 min Elizabeth line link to Liverpool St&quot;,
+    &quot;secondary_route&quot;: &quot;Oakleigh Park (1.867 mi, ~38m walk) \u2794 Great Northern (National Rail) (24m rail) = ~66m total&quot;,
+    &quot;station_distance_miles&quot;: 0.664,
+    &quot;station_name&quot;: &quot;Woodside Park&quot;,
+    &quot;total_commute_minutes&quot;: 49,
+    &quot;transfer_minutes&quot;: 4,
+    &quot;transit_line&quot;: &quot;London Underground (Northern line - Bank branch)&quot;,
+    &quot;walk_time_minutes&quot;: 14
+  },
+  &quot;living_rooms&quot;: 3,
+  &quot;longitude&quot;: -0.192553,
+  &quot;nearest_station&quot;: &quot;Woodside Park&quot;,
+  &quot;nice_to_haves&quot;: [
+    {
+      &quot;detail&quot;: &quot;Not mentioned; UK EPCs do not record domestic cooling&quot;,
+      &quot;label&quot;: &quot;Air conditioning&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned in the listing or EPC&quot;,
+      &quot;label&quot;: &quot;Underfloor heating&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Floor-plan north arrow puts the garden south (listing silent)&quot;,
+      &quot;label&quot;: &quot;South-facing garden&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned and no overhead glazing seen in photos&quot;,
+      &quot;label&quot;: &quot;Sun roof / lantern in living areas&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;No ground-floor bedroom, but the plan shows a second sitting room \u2014 Reception Room, 18.6 x 9.4 ft \u2014 which serves the same downstairs space&quot;,
+      &quot;label&quot;: &quot;Second ground-floor sitting room&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Reception Room measures 17.6 ft at its widest (floor-plan) \u2014 clears the 15 ft mark&quot;,
+      &quot;label&quot;: &quot;Wide living room&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;No cinema or media room mentioned, and no other room on the plan is large enough to be one&quot;,
+      &quot;label&quot;: &quot;Home theatre potential&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    }
+  ],
+  &quot;overall_verdict&quot;: &quot;Proceed with Caution: Moderate scores, verify key items during survey.&quot;,
+  &quot;planning_summary&quot;: {
+    &quot;error&quot;: &quot;persistent 429&quot;,
+    &quot;status&quot;: &quot;error&quot;
+  },
+  &quot;price_display&quot;: &quot;\u00a31,250,000&quot;,
+  &quot;price_per_sq_ft&quot;: 546.3,
+  &quot;property_id&quot;: &quot;73337726&quot;,
+  &quot;property_images&quot;: [
+    &quot;https://lid.zoocdn.com/u/1024/768/f490c304d128b3244f4fcd526ab2fe5b0dacd0e4.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/6c5738b69cea14dea47b03ab9479755c4a3f1567.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/45adc4e04ee3e402c7be6800556225e37ee1e5aa.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/651477b9273d9c49844951e455faf1afdf9b4ad1.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/1bfbf0b3e3f9605b9895af76369b672cf640b7a1.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/b8e33d701606f5e6d7bf9aff59ed14df4550dbca.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/26f1b72bf7c719b78055e9478bae26f852fa6a84.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/38c517b9935302d7f4aeda01e81dbeb5a0a3cc4e.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/115b28b7cb68c65ea9afe1aa5dac45af751665bb.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/570eaa81a27e519ca94430f2fc5c8e488d2ead09.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/0fec9628e6e8e421b3705e95bfce975c7453c2e5.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/46a3c6bda8c82885c98e2b518fbc9d69b45861e8.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/ff14674caf1bee3154cda31e82eaecf719a14c9b.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/3b44255a58ff0374260e6d47ecfd58c22f510bc5.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/7a48c58e4270abd365fdd9a88ff77b9b53ae2ee1.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/282e262b398f5bf708c5b4e5e7050cf489455b2e.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/7ea8753afb59ade5c1a9e7860367e630064b75f5.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/470cf31fdbba8482f51a864d98d30a22e122c047.jpg&quot;
+  ],
+  &quot;property_type&quot;: &quot;4 bed detached house for sale&quot;,
+  &quot;size_sq_ft&quot;: 2288.0,
+  &quot;size_sq_m&quot;: 212.6,
+  &quot;station_distance_miles&quot;: 0.66,
+  &quot;station_distance_source&quot;: &quot;routed&quot;,
+  &quot;tenure&quot;: &quot;Freehold&quot;,
+  &quot;walk_time_minutes&quot;: 14
+}</pre>
+  </details>
+
+  <div class="foot"><div><a href="cedar-lawn-avenue-barnet-en5.html">← Cedar Lawn Avenue</a></div><div><a href="lullington-garth-london-n12.html">→ Lullington Garth</a></div></div>
+
+  <p class="note" style="margin-top:26px">Generated 2026-10-01 from
+  <code>reviews/property_reviews.json</code>. Map data &copy;
+  <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</p>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
+<script>window.__PINS__ = [{"id": "73337726", "lat": 51.623844, "lon": -0.192553, "addr": "Southover", "price": "\u00a31,250,000", "sqft": "2,288", "epc": "D", "score": 53.0, "colour": "#b95e16", "tags": ["Generous Space &amp; Layout"], "tag_html": "<span class=\"badge tag-space\">Generous Space &amp; Layout<\/span>", "href": "#"}];</script>
+<script>window.__SLIDES__ = ["https://lid.zoocdn.com/u/1024/768/f490c304d128b3244f4fcd526ab2fe5b0dacd0e4.jpg", "https://lid.zoocdn.com/u/1024/768/6c5738b69cea14dea47b03ab9479755c4a3f1567.jpg", "https://lid.zoocdn.com/u/1024/768/45adc4e04ee3e402c7be6800556225e37ee1e5aa.jpg", "https://lid.zoocdn.com/u/1024/768/651477b9273d9c49844951e455faf1afdf9b4ad1.jpg", "https://lid.zoocdn.com/u/1024/768/1bfbf0b3e3f9605b9895af76369b672cf640b7a1.jpg", "https://lid.zoocdn.com/u/1024/768/b8e33d701606f5e6d7bf9aff59ed14df4550dbca.jpg", "https://lid.zoocdn.com/u/1024/768/26f1b72bf7c719b78055e9478bae26f852fa6a84.jpg", "https://lid.zoocdn.com/u/1024/768/38c517b9935302d7f4aeda01e81dbeb5a0a3cc4e.jpg", "https://lid.zoocdn.com/u/1024/768/115b28b7cb68c65ea9afe1aa5dac45af751665bb.jpg", "https://lid.zoocdn.com/u/1024/768/570eaa81a27e519ca94430f2fc5c8e488d2ead09.jpg", "https://lid.zoocdn.com/u/1024/768/0fec9628e6e8e421b3705e95bfce975c7453c2e5.jpg", "https://lid.zoocdn.com/u/1024/768/46a3c6bda8c82885c98e2b518fbc9d69b45861e8.jpg", "https://lid.zoocdn.com/u/1024/768/ff14674caf1bee3154cda31e82eaecf719a14c9b.jpg", "https://lid.zoocdn.com/u/1024/768/3b44255a58ff0374260e6d47ecfd58c22f510bc5.jpg", "https://lid.zoocdn.com/u/1024/768/7a48c58e4270abd365fdd9a88ff77b9b53ae2ee1.jpg", "https://lid.zoocdn.com/u/1024/768/282e262b398f5bf708c5b4e5e7050cf489455b2e.jpg", "https://lid.zoocdn.com/u/1024/768/7ea8753afb59ade5c1a9e7860367e630064b75f5.jpg", "https://lid.zoocdn.com/u/1024/768/470cf31fdbba8482f51a864d98d30a22e122c047.jpg"];</script>
+<script>
+(function () {
+  var el = document.getElementById('map');
+  if (!el || typeof L === 'undefined') { return; }
+  var data = window.__PINS__ || [];
+  if (!data.length || data[0].lat === null) { el.style.display = 'none'; return; }
+  var map = L.map('map', { scrollWheelZoom: false, dragging: false,
+                           doubleClickZoom: false, boxZoom: false,
+                           keyboard: false, zoomControl: false });
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  var group = L.featureGroup().addTo(map);
+  data.forEach(function (p) {
+    if (p.lat === null) { return; }
+    L.circleMarker([p.lat, p.lon], { radius: 10, color: '#ffffff', weight: 3,
+                                     fillColor: p.colour, fillOpacity: 0.95 }).addTo(group);
+  });
+  if (group.getBounds().isValid()) { map.fitBounds(group.getBounds().pad(0.35)); }
+  L.control.attribution({ prefix: false }).addTo(map);
+})();
+</script>
+<script>
+(function () {
+  var shots = window.__SLIDES__ || [];
+  var img = document.getElementById('slide-img');
+  var link = document.getElementById('slide-link');
+  var prev = document.getElementById('slide-prev');
+  var next = document.getElementById('slide-next');
+  var num = document.getElementById('slide-n');
+  if (!img || !link || shots.length < 2) {
+    if (prev) { prev.disabled = true; }
+    if (next) { next.disabled = true; }
+    return;
+  }
+  var at = 0;
+
+  function show(i) {
+    at = (i + shots.length) % shots.length;
+    img.src = shots[at];
+    img.alt = 'Listing photo ' + (at + 1) + ' of ' + shots.length +
+              ' — open full size';
+    link.href = shots[at];
+    if (num) { num.textContent = String(at + 1); }
+  }
+
+  // Only the neighbours are warmed: a 34-photo listing at 136 KB each is
+  // 4.6 MB if the whole gallery is fetched up front, for images the reader may
+  // never scroll to.
+  function warm() {
+    [at + 1, at - 1].forEach(function (k) {
+      var j = (k + shots.length) % shots.length;
+      if (j !== at) { new Image().src = shots[j]; }
+    });
+  }
+
+  prev.addEventListener('click', function () { show(at - 1); warm(); });
+  next.addEventListener('click', function () { show(at + 1); warm(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) { return; }
+    if (e.key === 'ArrowLeft') { show(at - 1); warm(); }
+    if (e.key === 'ArrowRight') { show(at + 1); warm(); }
+  });
+  show(0);
+  warm();
+})();
+</script>
+</body></html>

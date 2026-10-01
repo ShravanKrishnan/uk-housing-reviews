@@ -1,0 +1,871 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Monks Avenue — review</title>
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <h1>Monks Avenue</h1>
+  <p class="sub">Monks Avenue, Barnet EN5</p>
+  <nav class="crumbs"><a href="../index.html">← Back to the map</a> &middot;
+  <a href="../index.html#all-rank-105">Rank #105 of All properties</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="panel">
+    <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between">
+      <div>
+        <span class="pill" style="background:#a8322d">40.6 Score</span>
+        <span class="badge tag-value">Strong Value</span>
+      </div>
+      <div style="font-size:13px;color:var(--muted)">
+        105 of 164 &middot; score 40.6
+      </div>
+    </div>
+    <div class="verdict">Proceed with Caution: Moderate scores, verify key items during survey.</div>
+  </div>
+
+  <h3>At a glance</h3>
+  <div class="grid"><div class="stat"><div class="k">Asking price</div><div class="v">£800,000</div></div><div class="stat"><div class="k">Property type</div><div class="v">4 bed semi-detached house for sale</div></div><div class="stat"><div class="k">Tenure</div><div class="v">Freehold</div></div><div class="stat"><div class="k">Size</div><div class="v">1,690 sq ft / 157 m²</div></div><div class="stat"><div class="k">Price per sq ft</div><div class="v">£473.4</div></div><div class="stat"><div class="k">Bedrooms</div><div class="v">4</div></div><div class="stat"><div class="k">Bathrooms</div><div class="v">2</div></div><div class="stat"><div class="k">Living rooms</div><div class="v">2</div></div><div class="stat"><div class="k">EPC (current / potential)</div><div class="v">— / —</div></div><div class="stat"><div class="k">Nearest station</div><div class="v">Oakleigh Park · 0.5 mi · ~11 min walk</div></div><div class="stat wide"><div class="k">Commute to Liverpool St</div><div class="v">39 min (Great Northern direct to Moorgate (24 min) + 4 min walk via integrated Elizabeth line concourse to Liverpool St)</div></div><div class="stat wide"><div class="k">Commute to King&#x27;s Cross</div><div class="v">28 min (Great Northern direct to King&#x27;s Cross St Pancras (17 min))</div></div></div>
+
+  <h3>Nice-to-haves</h3>
+  <div class="panel">
+    <table class="nice">
+      <thead><tr><th>Signal</th><th>Status</th><th>Detail</th></tr></thead>
+      <tbody><tr><td>Air conditioning</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned; UK EPCs do not record domestic cooling</td></tr><tr><td>Underfloor heating</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned in the listing or EPC</td></tr><tr><td>South-facing garden</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Floor-plan north arrow puts the garden north (not south)</td></tr><tr><td>Sun roof / lantern in living areas</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned and no overhead glazing seen in photos</td></tr><tr><td>Second ground-floor sitting room</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>No ground-floor bedroom, but the plan shows a second sitting room — Reception Room, 12.0 x 11.0 ft — which serves the same downstairs space</td></tr><tr><td>Wide living room</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Kitchen/Dining Room measures 15.3 ft at its widest (floor-plan) — clears the 15 ft mark</td></tr><tr><td>Home theatre potential</td><td><span class="nh-status nh-photo_hint">photo-hint</span></td><td>Reception Room measures 12 x 11 ft (132 sq ft) on the floor plan, a separate room from the Reception Room — room for a smaller screen or fewer seats; at that size it holds an 84-inch screen with the front row 7 ft from it, 1 recliner row of 3 across (8.5 ft of frontage, a three-seat sofa), 3 seats</td></tr></tbody>
+    </table>
+  </div>
+
+<div class="panel"><h2>Photos — 20</h2><div class="slides" id="slides"><div class="slide-frame"><a id="slide-link" href="https://lid.zoocdn.com/u/1024/768/98d5ad24963c566e4c13d29be9b2b59255c8b71c.jpg" rel="noopener"><img id="slide-img" src="https://lid.zoocdn.com/u/1024/768/98d5ad24963c566e4c13d29be9b2b59255c8b71c.jpg" alt="Listing photo 1 of 20 — open full size" loading="lazy"></a><button type="button" class="slide-nav prev" id="slide-prev" aria-label="Previous photo">&#8249;</button><button type="button" class="slide-nav next" id="slide-next" aria-label="Next photo">&#8250;</button><span class="slide-badge"><span id="slide-n">1</span> / 20</span></div></div><p class="note" style="margin-top:8px">Arrow keys page through the gallery; click a photo to open it full size. These are the listing's own photographs, at the highest resolution its image host serves.</p></div>
+
+  <div class="layout">
+    <div class="panel sticky">
+      <h2>Where it is</h2>
+      <div id="map" style="height:330px;border-radius:8px"></div>
+      <p class="note" style="margin-top:10px">
+        Pin is the listing's own coordinates. Map tiles are OpenStreetMap.
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=51.640756,-0.175725" rel="noopener">Open in Google Maps →</a>
+        &middot; <a href="https://www.openstreetmap.org/?mlat=51.640756&amp;mlon=-0.175725#map=18/51.640756/-0.175725" rel="noopener">Open in OpenStreetMap →</a>
+        &middot; <a href="https://www.zoopla.co.uk/for-sale/details/74065290/" rel="noopener">Zoopla listing →</a>
+      </p>
+    </div>
+    <div class="panel">
+      <h2>Floorplan analysis</h2>
+      <a href="https://lid.zoocdn.com/u/1024/768/0d13e42dee653b21d967dac09471281ec5bd50d3.jpg" rel="noopener"><img class="plan" src="https://lid.zoocdn.com/u/1024/768/0d13e42dee653b21d967dac09471281ec5bd50d3.jpg" alt="Floor plan for Monks Avenue, Barnet EN5" loading="lazy"></a><p class="note">12 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are listed without one. <a href="https://lid.zoocdn.com/u/1024/768/0d13e42dee653b21d967dac09471281ec5bd50d3.jpg" rel="noopener">Open the full-size plan →</a></p><table class="nice compact"><thead><tr><th>Room</th><th>Type</th><th>Floor</th><th>Dimensions</th><th>Area</th></tr></thead><tbody><tr><td>Garden</td><td>garden</td><td>ground</td><td class="num">82 &times; 23 ft</td><td class="num">1,886 sq ft</td></tr><tr><td>Garage</td><td>outbuilding</td><td>ground</td><td class="num">16.5 &times; 8.3 ft</td><td class="num">137 sq ft</td></tr><tr><td>Kitchen/Dining Room</td><td>kitchen</td><td>ground</td><td class="num">19 &times; 15.3 ft</td><td class="num">291 sq ft</td></tr><tr><td>Reception Room</td><td>living</td><td>ground</td><td class="num">12 &times; 11 ft</td><td class="num">132 sq ft</td></tr><tr><td>Reception Room</td><td>living</td><td>ground</td><td class="num">18 &times; 12.8 ft</td><td class="num">230 sq ft</td></tr><tr><td>Hall</td><td>circulation</td><td>ground</td><td class="num">not printed</td><td class="num">—</td></tr><tr><td>Bedroom 1</td><td>bedroom</td><td>first</td><td class="num">16.5 &times; 12.3 ft</td><td class="num">203 sq ft</td></tr><tr><td>Bedroom 2</td><td>bedroom</td><td>first</td><td class="num">15 &times; 12 ft</td><td class="num">180 sq ft</td></tr><tr><td>Bedroom 3</td><td>bedroom</td><td>second</td><td class="num">18 &times; 8 ft</td><td class="num">144 sq ft</td></tr><tr><td>Bedroom 4</td><td>bedroom</td><td>first</td><td class="num">8 &times; 6.5 ft</td><td class="num">52 sq ft</td></tr><tr><td>Shower Room</td><td>bathroom</td><td>first</td><td class="num">not printed</td><td class="num">—</td></tr><tr><td>Eaves Storage</td><td>store</td><td>second</td><td class="num">not printed</td><td class="num">—</td></tr></tbody></table>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-top:22px">
+    <h2>Score breakdown — 40.6/100</h2>
+    <div class="bar-row with-evidence"><span class="lbl">Location &amp; transport</span><span class="bar"><i style="width:55.0%;background:#a8322d"></i></span><span class="num">11.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Nearest station Oakleigh Park 11 min walk (0.54 mi routed walk) (+4)</li><li><span class="tick">✓</span>Walkable station Oakleigh Park 11 min walk (+1.5)</li><li><span class="tick">✓</span>1 transit line within walk — Great Northern via Oakleigh Park 11 min walk — broad Central London access (+1)</li><li><span class="tick">✓</span>Fast Liverpool St commute: ~39 mins door-to-concourse via Oakleigh Park (11m walk + 24m rail) (+2.5)</li><li><span class="tick">✓</span>King&#x27;s Cross St Pancras commute ~28 mins via Oakleigh Park (+2)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Space, scale &amp; layout</span><span class="bar"><i style="width:65.0%;background:#a8322d"></i></span><span class="num">13.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Square footage taken from floor plan (image analysis)</li><li><span class="tick">✓</span>Standard room sizing: 1,690.0 sq ft total (422 sq ft/bed) (+4)</li><li><span class="tick">✓</span>Well balanced bathroom ratio (2 baths for 4 beds) (+2)</li><li><span class="tick">✓</span>Two or more reception rooms (2) (+1)</li><li><span class="tick">✓</span>Wide living room: Kitchen/Dining Room 15.3 ft (floorplan) (+3)</li><li><span class="tick">✓</span>No ground-floor bedroom, but a second ground-floor sitting room (Reception Room 12.0 x 11.0 ft) gives the same downstairs space (+3)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Financial efficiency</span><span class="bar"><i style="width:64.0%;background:#a8322d"></i></span><span class="num">9.6</span><ul class="ticks compact"><li><span class="tick">✓</span>£473 per sq ft on 1,690 sq ft (+4.9 of 7.5)</li><li><span class="tick">✓</span>£800,000 asking price (+4.7 of 7.5)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Technical &amp; EPC</span><span class="bar"><i style="width:20.0%;background:#a8322d"></i></span><span class="num">4.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Band unattributed (4 base) (+4 of 10)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Observed presentation</span><span class="bar"><i style="width:20.0%;background:#a8322d"></i></span><span class="num">3.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Presented finish observed as partially modernised in listing photographs (image analysis) (+3 of 7)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Garden &amp; outdoor</span><span class="bar"><i style="width:0.0%;background:#a8322d"></i></span><span class="num">0.0</span><p class="note compact">No evidence detected for this component — it scores on the absence of contrary findings.</p></div>
+    <p class="note">The combined score rewards location, space, financial efficiency,
+    technical specification, observed presentation, and garden quality. Every line
+    lists the evidence that earned it, so a component cannot be read as a verdict
+    without the reason attached.</p>
+  </div>
+
+  <h3>Land Registry</h3>
+  <div class="panel">
+    <p><strong>No sale attributed to this address — no house number could be derived, so nothing is attributable to this home.</strong></p>
+    <p>£328/sq ft median (range £59–£578), from 16 of 30 local sales (53% priced). <span class="note">Floor area is borrowed from the EPC extract (epc_bulk total_floor_area) because sale records carry none; small samples are heavy-tailed, so the median is used and withheld below 5 priced sales.</span></p>
+    <p class="note">30 raw sale record(s) exist in this postcode. They are the neighbourhood's history, not this home's, and are deliberately not presented as its own.</p>
+    <p class="note">Scope <code>postcode</code> — sale history is only ever
+    attributed to this home when a house number was derived and matched.</p>
+  </div>
+
+  <h3>Planning</h3>
+  <div class="panel"><p class="note">Planning lookup status: <code>error</code>. No planning history is asserted for this property.</p></div>
+
+  <div style="margin-top:22px">
+    <div class="panel"><h2>Photographic evidence reviewed for the score</h2><p class="note">Points are awarded only for detected listing, EPC, or photographic evidence, and each component above lists what it found. Systems without such evidence score zero and are omitted rather than listed as inspection tasks. These notes record what the photos did and did not show.</p><ul class="ticks"><li>21 property photo(s) analysed by local vision model (Qwen3-VL)</li><li>Photographic-evidence score: 30.0/100 (medium confidence; condition 22/35, kitchen/bath 0/20, glazing 0/20, structure 0/15, legibility 8/10)</li><li>Floor-plan total read from the plan: 1,690 sq ft</li><li>Condition tier inferred from photos: partially modernised</li><li>Not captured in the photos: bathroom, extension evidence, extension signals, exterior, exterior rating, frontage (…)</li></ul></div>
+  </div>
+
+  <div class="gaps"><strong>What is not verified here</strong><ul><li>EPC assessed-systems evidence withheld — neither a UPRN match in the EPC open-data extract nor a house number is available, so no certificate can be attributed to this house; add the number to data/address_numbers.json to unlock it</li><li>EPC rating missing</li><li>Land Registry sale history not attributed — no house number available for this property, so no sale can be confirmed as its own</li><li>Enrichment fetch failed: planning</li></ul></div>
+
+  <details class="raw">
+    <summary>Raw review record (JSON)</summary>
+    <pre>{
+  &quot;asking_price&quot;: 800000,
+  &quot;bathrooms&quot;: 2,
+  &quot;bedrooms&quot;: 4,
+  &quot;combined_score&quot;: {
+    &quot;detected_features&quot;: [
+      &quot;Nearest station Oakleigh Park 11 min walk (0.54 mi routed walk) (+4)&quot;,
+      &quot;Walkable station Oakleigh Park 11 min walk (+1.5)&quot;,
+      &quot;1 transit line within walk \u2014 Great Northern via Oakleigh Park 11 min walk \u2014 broad Central London access (+1)&quot;,
+      &quot;Fast Liverpool St commute: ~39 mins door-to-concourse via Oakleigh Park (11m walk + 24m rail) (+2.5)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~28 mins via Oakleigh Park (+2)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Standard room sizing: 1,690.0 sq ft total (422 sq ft/bed) (+4)&quot;,
+      &quot;Well balanced bathroom ratio (2 baths for 4 beds) (+2)&quot;,
+      &quot;Two or more reception rooms (2) (+1)&quot;,
+      &quot;Wide living room: Kitchen/Dining Room 15.3 ft (floorplan) (+3)&quot;,
+      &quot;No ground-floor bedroom, but a second ground-floor sitting room (Reception Room 12.0 x 11.0 ft) gives the same downstairs space (+3)&quot;,
+      &quot;\u00a3473 per sq ft on 1,690 sq ft (+4.9 of 7.5)&quot;,
+      &quot;\u00a3800,000 asking price (+4.7 of 7.5)&quot;,
+      &quot;Band unattributed (4 base) (+4 of 10)&quot;,
+      &quot;Presented finish observed as partially modernised in listing photographs (image analysis) (+3 of 7)&quot;
+    ],
+    &quot;evidence&quot;: {
+      &quot;financial_efficiency&quot;: [
+        &quot;\u00a3473 per sq ft on 1,690 sq ft (+4.9 of 7.5)&quot;,
+        &quot;\u00a3800,000 asking price (+4.7 of 7.5)&quot;
+      ],
+      &quot;location_transport&quot;: [
+        &quot;Nearest station Oakleigh Park 11 min walk (0.54 mi routed walk) (+4)&quot;,
+        &quot;Walkable station Oakleigh Park 11 min walk (+1.5)&quot;,
+        &quot;1 transit line within walk \u2014 Great Northern via Oakleigh Park 11 min walk \u2014 broad Central London access (+1)&quot;,
+        &quot;Fast Liverpool St commute: ~39 mins door-to-concourse via Oakleigh Park (11m walk + 24m rail) (+2.5)&quot;,
+        &quot;King&#x27;s Cross St Pancras commute ~28 mins via Oakleigh Park (+2)&quot;
+      ],
+      &quot;observed_presentation&quot;: [
+        &quot;Presented finish observed as partially modernised in listing photographs (image analysis) (+3 of 7)&quot;
+      ],
+      &quot;space_layout&quot;: [
+        &quot;Square footage taken from floor plan (image analysis)&quot;,
+        &quot;Standard room sizing: 1,690.0 sq ft total (422 sq ft/bed) (+4)&quot;,
+        &quot;Well balanced bathroom ratio (2 baths for 4 beds) (+2)&quot;,
+        &quot;Two or more reception rooms (2) (+1)&quot;,
+        &quot;Wide living room: Kitchen/Dining Room 15.3 ft (floorplan) (+3)&quot;,
+        &quot;No ground-floor bedroom, but a second ground-floor sitting room (Reception Room 12.0 x 11.0 ft) gives the same downstairs space (+3)&quot;
+      ],
+      &quot;technical_epc&quot;: [
+        &quot;Band unattributed (4 base) (+4 of 10)&quot;
+      ]
+    },
+    &quot;financial_efficiency&quot;: 9.6,
+    &quot;garden_outdoor&quot;: 0.0,
+    &quot;location_transport&quot;: 11.0,
+    &quot;notes&quot;: [
+      &quot;Nearest station Oakleigh Park 11 min walk (0.54 mi routed walk) (+4)&quot;,
+      &quot;Walkable station Oakleigh Park 11 min walk (+1.5)&quot;,
+      &quot;1 transit line within walk \u2014 Great Northern via Oakleigh Park 11 min walk \u2014 broad Central London access (+1)&quot;,
+      &quot;Fast Liverpool St commute: ~39 mins door-to-concourse via Oakleigh Park (11m walk + 24m rail) (+2.5)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~28 mins via Oakleigh Park (+2)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Standard room sizing: 1,690.0 sq ft total (422 sq ft/bed) (+4)&quot;,
+      &quot;Well balanced bathroom ratio (2 baths for 4 beds) (+2)&quot;,
+      &quot;Two or more reception rooms (2) (+1)&quot;,
+      &quot;EPC rating missing or unverified&quot;
+    ],
+    &quot;observed_presentation&quot;: 3.0,
+    &quot;space_layout&quot;: 13.0,
+    &quot;tags&quot;: [
+      &quot;Strong Value&quot;
+    ],
+    &quot;technical_epc&quot;: 4.0,
+    &quot;total_score&quot;: 40.6,
+    &quot;vision_facts&quot;: [
+      &quot;21 property photo(s) analysed by local vision model (Qwen3-VL)&quot;,
+      &quot;Photographic-evidence score: 30.0/100 (medium confidence; condition 22/35, kitchen/bath 0/20, glazing 0/20, structure 0/15, legibility 8/10)&quot;,
+      &quot;Floor-plan total read from the plan: 1,690 sq ft&quot;,
+      &quot;Condition tier inferred from photos: partially modernised&quot;,
+      &quot;Not captured in the photos: bathroom, extension evidence, extension signals, exterior, exterior rating, frontage (\u2026)&quot;
+    ]
+  },
+  &quot;data_gaps&quot;: [
+    &quot;EPC assessed-systems evidence withheld \u2014 neither a UPRN match in the EPC open-data extract nor a house number is available, so no certificate can be attributed to this house; add the number to data/address_numbers.json to unlock it&quot;,
+    &quot;EPC rating missing&quot;,
+    &quot;Land Registry sale history not attributed \u2014 no house number available for this property, so no sale can be confirmed as its own&quot;,
+    &quot;Enrichment fetch failed: planning&quot;
+  ],
+  &quot;epc_potential&quot;: null,
+  &quot;epc_rating&quot;: null,
+  &quot;floorplan_image_url&quot;: &quot;https://lid.zoocdn.com/u/1024/768/0d13e42dee653b21d967dac09471281ec5bd50d3.jpg&quot;,
+  &quot;floorplan_rooms&quot;: [
+    {
+      &quot;area_sq_ft&quot;: 1886,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;garden&quot;,
+      &quot;label&quot;: &quot;Garden&quot;,
+      &quot;length_ft&quot;: 82.0,
+      &quot;width_ft&quot;: 23.0
+    },
+    {
+      &quot;area_sq_ft&quot;: 137,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;outbuilding&quot;,
+      &quot;label&quot;: &quot;Garage&quot;,
+      &quot;length_ft&quot;: 16.5,
+      &quot;width_ft&quot;: 8.3
+    },
+    {
+      &quot;area_sq_ft&quot;: 291,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;kitchen&quot;,
+      &quot;label&quot;: &quot;Kitchen/Dining Room&quot;,
+      &quot;length_ft&quot;: 19.0,
+      &quot;width_ft&quot;: 15.3
+    },
+    {
+      &quot;area_sq_ft&quot;: 132,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;living&quot;,
+      &quot;label&quot;: &quot;Reception Room&quot;,
+      &quot;length_ft&quot;: 12.0,
+      &quot;width_ft&quot;: 11.0
+    },
+    {
+      &quot;area_sq_ft&quot;: 230,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;living&quot;,
+      &quot;label&quot;: &quot;Reception Room&quot;,
+      &quot;length_ft&quot;: 18.0,
+      &quot;width_ft&quot;: 12.8
+    },
+    {
+      &quot;area_sq_ft&quot;: null,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;circulation&quot;,
+      &quot;label&quot;: &quot;Hall&quot;,
+      &quot;length_ft&quot;: null,
+      &quot;width_ft&quot;: null
+    },
+    {
+      &quot;area_sq_ft&quot;: 203,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 1&quot;,
+      &quot;length_ft&quot;: 16.5,
+      &quot;width_ft&quot;: 12.3
+    },
+    {
+      &quot;area_sq_ft&quot;: 180,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 2&quot;,
+      &quot;length_ft&quot;: 15.0,
+      &quot;width_ft&quot;: 12.0
+    },
+    {
+      &quot;area_sq_ft&quot;: 144,
+      &quot;floor&quot;: &quot;second&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 3&quot;,
+      &quot;length_ft&quot;: 18.0,
+      &quot;width_ft&quot;: 8.0
+    },
+    {
+      &quot;area_sq_ft&quot;: 52,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 4&quot;,
+      &quot;length_ft&quot;: 8.0,
+      &quot;width_ft&quot;: 6.5
+    },
+    {
+      &quot;area_sq_ft&quot;: null,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bathroom&quot;,
+      &quot;label&quot;: &quot;Shower Room&quot;,
+      &quot;length_ft&quot;: null,
+      &quot;width_ft&quot;: null
+    },
+    {
+      &quot;area_sq_ft&quot;: null,
+      &quot;floor&quot;: &quot;second&quot;,
+      &quot;kind&quot;: &quot;store&quot;,
+      &quot;label&quot;: &quot;Eaves Storage&quot;,
+      &quot;length_ft&quot;: null,
+      &quot;width_ft&quot;: null
+    }
+  ],
+  &quot;full_address&quot;: &quot;Monks Avenue, Barnet EN5&quot;,
+  &quot;kings_cross_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Top Tier (&lt;35m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 17,
+    &quot;route_summary&quot;: &quot;Great Northern direct to King&#x27;s Cross St Pancras (17 min)&quot;,
+    &quot;secondary_route&quot;: &quot;Totteridge &amp; Whetstone (1.489 mi, ~30m walk) \u2794 London Underground (Northern line - Bank branch) (29m rail) = ~59m total&quot;,
+    &quot;station_distance_miles&quot;: 0.541,
+    &quot;station_name&quot;: &quot;Oakleigh Park&quot;,
+    &quot;total_commute_minutes&quot;: 28,
+    &quot;transfer_minutes&quot;: 0,
+    &quot;transit_line&quot;: &quot;Great Northern (National Rail)&quot;,
+    &quot;walk_time_minutes&quot;: 11
+  },
+  &quot;land_registry_summary&quot;: {
+    &quot;_cache&quot;: true,
+    &quot;area_benchmark&quot;: {
+      &quot;area_source&quot;: &quot;epc_bulk total_floor_area&quot;,
+      &quot;coverage_pct&quot;: 53,
+      &quot;high_gbp_sqft&quot;: 578,
+      &quot;low_gbp_sqft&quot;: 59,
+      &quot;median_gbp_sqft&quot;: 328,
+      &quot;of_sales&quot;: 30,
+      &quot;sample&quot;: 16
+    },
+    &quot;number_known&quot;: false,
+    &quot;postcode_sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1995-05-26&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;91&quot;,
+        &quot;postcode&quot;: &quot;EN5 1DA&quot;,
+        &quot;price&quot;: 173500,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MONKS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;F4EF08AD-97D8-489F-B6C6-B36E38365EB9&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1995-08-17&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;51&quot;,
+        &quot;postcode&quot;: &quot;EN5 1DA&quot;,
+        &quot;price&quot;: 135000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MONKS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;ED67F18C-0C0D-4511-9E27-B32365905DE8&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1995-09-29&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;67&quot;,
+        &quot;postcode&quot;: &quot;EN5 1DA&quot;,
+        &quot;price&quot;: 181000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MONKS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;CB899627-F6AE-4DC7-9116-7F6EE10CB4FF&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1996-08-08&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;81&quot;,
+        &quot;postcode&quot;: &quot;EN5 1DA&quot;,
+        &quot;price&quot;: 176000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MONKS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;82B00F45-5A68-411E-A9A7-89A6D2E87BBF&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1997-11-07&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;87&quot;,
+        &quot;postcode&quot;: &quot;EN5 1DA&quot;,
+        &quot;price&quot;: 224950,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MONKS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;074E792E-DC9F-44B7-95A7-37CB4DF7C13B&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1999-06-28&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;51&quot;,
+        &quot;postcode&quot;: &quot;EN5 1DA&quot;,
+        &quot;price&quot;: 181000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MONKS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;5558F33F-0726-465F-9889-E011FAFD685C&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2000-09-15&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;77&quot;,
+        &quot;postcode&quot;: &quot;EN5 1DA&quot;,
+        &quot;price&quot;: 330000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MONKS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;18E2C34D-14ED-4325-BBF5-DEF279D1D49D&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2001-05-03&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;45&quot;,
+        &quot;postcode&quot;: &quot;EN5 1DA&quot;,
+        &quot;price&quot;: 250000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MONKS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;FFC11843-B8C0-4908-9725-821A1A0EC3A1&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2001-07-12&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;75&quot;,
+        &quot;postcode&quot;: &quot;EN5 1DA&quot;,
+        &quot;price&quot;: 392000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MONKS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;465FB64A-721D-4D80-9E0D-0E812BCBC778&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2002-06-07&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;71&quot;,
+        &quot;postcode&quot;: &quot;EN5 1DA&quot;,
+        &quot;price&quot;: 249950,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MONKS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;EC4BDD52-72C0-4107-BB32-52C7C04D6D86&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2003-10-16&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;89&quot;,
+        &quot;postcode&quot;: &quot;EN5 1DA&quot;,
+        &quot;price&quot;: 410000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MONKS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;DDDB7686-DC2C-491F-9AB0-7F2FAB1ED0EE&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2004-02-06&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;87&quot;,
+        &quot;postcode&quot;: &quot;EN5 1DA&quot;,
+        &quot;price&quot;: 519000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MONKS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;A08A9673-7FAE-4DB1-882B-666139D01325&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2004-03-19&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;47&quot;,
+        &quot;postcode&quot;: &quot;EN5 1DA&quot;,
+        &quot;price&quot;: 272000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MONKS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;0D39C84A-D14B-4C32-A1FA-13393594AB55&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2004-07-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;49&quot;,
+        &quot;postcode&quot;: &quot;EN5 1DA&quot;,
+        &quot;price&quot;: 330000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MONKS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;E18B3ADE-13CC-4FE8-8A8E-818D4EE46ECF&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2006-09-29&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;53&quot;,
+        &quot;postcode&quot;: &quot;EN5 1DA&quot;,
+        &quot;price&quot;: 385000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MONKS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;B6BAB6F8-7EB5-47E1-9D01-3C8C05BF4889&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2007-01-24&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;81&quot;,
+        &quot;postcode&quot;: &quot;EN5 1DA&quot;,
+        &quot;price&quot;: 580000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MONKS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;3C5162A0-4538-48FF-BF17-5E7BEC2F4F89&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2009-02-06&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;79&quot;,
+        &quot;postcode&quot;: &quot;EN5 1DA&quot;,
+        &quot;price&quot;: 490000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MONKS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;0E30CCAE-70B5-4940-B195-4654A6F2407C&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2011-03-25&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;91&quot;,
+        &quot;postcode&quot;: &quot;EN5 1DA&quot;,
+        &quot;price&quot;: 582000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MONKS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;ABC991E4-09D6-4B74-8DC9-E5948D355591&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2013-01-29&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;61&quot;,
+        &quot;postcode&quot;: &quot;EN5 1DA&quot;,
+        &quot;price&quot;: 453000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MONKS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;64E06DD0-97BA-4BB8-82BE-4D548C5B6145&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2013-12-06&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;87&quot;,
+        &quot;postcode&quot;: &quot;EN5 1DA&quot;,
+        &quot;price&quot;: 774000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MONKS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;5101C696-5849-4654-BED9-C79C2C8647E5&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2014-12-02&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;73&quot;,
+        &quot;postcode&quot;: &quot;EN5 1DA&quot;,
+        &quot;price&quot;: 725000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MONKS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;1B846AE8-24BB-4C36-93C0-5516CA32E1F9&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2015-08-27&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;49&quot;,
+        &quot;postcode&quot;: &quot;EN5 1DA&quot;,
+        &quot;price&quot;: 733000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MONKS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;23B6165D-D26D-FCF4-E050-A8C0620577FA&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2015-11-25&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;91&quot;,
+        &quot;postcode&quot;: &quot;EN5 1DA&quot;,
+        &quot;price&quot;: 740000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MONKS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;288DCE29-76F6-E510-E050-A8C06205480E&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-04-26&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;45&quot;,
+        &quot;postcode&quot;: &quot;EN5 1DA&quot;,
+        &quot;price&quot;: 672000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MONKS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;34428D7E-4D2C-B86C-E050-A8C06205059C&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2019-04-10&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;69&quot;,
+        &quot;postcode&quot;: &quot;EN5 1DA&quot;,
+        &quot;price&quot;: 937500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MONKS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;87E1551E-671E-6405-E053-6C04A8C0B2EE&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2020-06-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;55&quot;,
+        &quot;postcode&quot;: &quot;EN5 1DA&quot;,
+        &quot;price&quot;: 605000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MONKS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;AC07BBD0-4A49-0445-E053-6C04A8C01E31&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2023-06-02&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;GREENLAWNS&quot;,
+        &quot;postcode&quot;: &quot;EN5 1DA&quot;,
+        &quot;price&quot;: 1315000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MONKS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;25E9DA80-D0CF-555E-E063-4704A8C066F2&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2024-11-21&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;89&quot;,
+        &quot;postcode&quot;: &quot;EN5 1DA&quot;,
+        &quot;price&quot;: 880000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MONKS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;2ACACE8D-125E-295E-E063-4804A8C0B0EB&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2025-08-13&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;83&quot;,
+        &quot;postcode&quot;: &quot;EN5 1DA&quot;,
+        &quot;price&quot;: 1090000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MONKS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;402A3A66-26D6-A7DF-E063-4804A8C0B80D&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2026-08-18&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;51&quot;,
+        &quot;postcode&quot;: &quot;EN5 1DA&quot;,
+        &quot;price&quot;: 850000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MONKS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;5A7B802C-E88F-1886-E063-4704A8C021AE&quot;
+      }
+    ],
+    &quot;sales&quot;: [],
+    &quot;scope&quot;: &quot;postcode&quot;,
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;latitude&quot;: 51.640756,
+  &quot;liverpool_st_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Fast (35-45m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 24,
+    &quot;route_summary&quot;: &quot;Great Northern direct to Moorgate (24 min) + 4 min walk via integrated Elizabeth line concourse to Liverpool St&quot;,
+    &quot;secondary_route&quot;: &quot;Totteridge &amp; Whetstone (1.489 mi, ~30m walk) \u2794 London Underground (Northern line - Bank branch) (33m rail) = ~67m total&quot;,
+    &quot;station_distance_miles&quot;: 0.541,
+    &quot;station_name&quot;: &quot;Oakleigh Park&quot;,
+    &quot;total_commute_minutes&quot;: 39,
+    &quot;transfer_minutes&quot;: 4,
+    &quot;transit_line&quot;: &quot;Great Northern (National Rail)&quot;,
+    &quot;walk_time_minutes&quot;: 11
+  },
+  &quot;living_rooms&quot;: 2,
+  &quot;longitude&quot;: -0.175725,
+  &quot;nearest_station&quot;: &quot;Oakleigh Park&quot;,
+  &quot;nice_to_haves&quot;: [
+    {
+      &quot;detail&quot;: &quot;Not mentioned; UK EPCs do not record domestic cooling&quot;,
+      &quot;label&quot;: &quot;Air conditioning&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned in the listing or EPC&quot;,
+      &quot;label&quot;: &quot;Underfloor heating&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Floor-plan north arrow puts the garden north (not south)&quot;,
+      &quot;label&quot;: &quot;South-facing garden&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned and no overhead glazing seen in photos&quot;,
+      &quot;label&quot;: &quot;Sun roof / lantern in living areas&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;No ground-floor bedroom, but the plan shows a second sitting room \u2014 Reception Room, 12.0 x 11.0 ft \u2014 which serves the same downstairs space&quot;,
+      &quot;label&quot;: &quot;Second ground-floor sitting room&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Kitchen/Dining Room measures 15.3 ft at its widest (floor-plan) \u2014 clears the 15 ft mark&quot;,
+      &quot;label&quot;: &quot;Wide living room&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Reception Room measures 12 x 11 ft (132 sq ft) on the floor plan, a separate room from the Reception Room \u2014 room for a smaller screen or fewer seats; at that size it holds an 84-inch screen with the front row 7 ft from it, 1 recliner row of 3 across (8.5 ft of frontage, a three-seat sofa), 3 seats&quot;,
+      &quot;label&quot;: &quot;Home theatre potential&quot;,
+      &quot;status&quot;: &quot;photo-hint&quot;
+    }
+  ],
+  &quot;overall_verdict&quot;: &quot;Proceed with Caution: Moderate scores, verify key items during survey.&quot;,
+  &quot;planning_summary&quot;: {
+    &quot;error&quot;: &quot;persistent 429&quot;,
+    &quot;status&quot;: &quot;error&quot;
+  },
+  &quot;price_display&quot;: &quot;\u00a3800,000&quot;,
+  &quot;price_per_sq_ft&quot;: 473.4,
+  &quot;property_id&quot;: &quot;74065290&quot;,
+  &quot;property_images&quot;: [
+    &quot;https://lid.zoocdn.com/u/1024/768/98d5ad24963c566e4c13d29be9b2b59255c8b71c.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/3d53ac96e446326d6c554ee1d5633a7237fbe6d1.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/3d93365bdd08ee362f7c214514d356141a20fa96.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/68f0ae5761d98f653b3fa523f2fd7a37bce0b9cc.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/5b80ff21dc054cf6d8f48a55b0a3d58bb08664dc.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/22aad24378ae2ae0644e96c949a908b71296f00e.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/7553d406ca3323cb00dce86b3947f339effed88e.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/48e769ed75c7d973e76d75abb745407e104fa269.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/20c189fde615d1fb0d8850684638ea23f4a11221.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/c81e9434dafc44e8f89b08ba319cf9f5665b2ab7.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/91d5030a68b61908d7267f85a46a58ac1cb9e3a7.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/afd18f931e78a04faaf6fddd5bd1fedef12b3cc9.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/6e68e1903ff26eba4d83e36badb8b5f47bce940e.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/d24ed4f92506be0ceed1987997c4093a2e30a834.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/c48ad5bccc9ff5b0a8b60b40647ca0f406185613.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/64138824962a2d186ac4b28a73f55ce7422b424a.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/511df7bbc6d26c60454dbc3cb8fff69a41e9a1ec.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/149876411ac1d6dc6ad007b42a08e539aa16033a.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/81b902fcda44f7e648b96cd48ace447be08b5e2e.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/95f1dece4c74f7874ec8a507e289e47326265837.jpg&quot;
+  ],
+  &quot;property_type&quot;: &quot;4 bed semi-detached house for sale&quot;,
+  &quot;size_sq_ft&quot;: 1690.0,
+  &quot;size_sq_m&quot;: 157.0,
+  &quot;station_distance_miles&quot;: 0.54,
+  &quot;station_distance_source&quot;: &quot;routed&quot;,
+  &quot;tenure&quot;: &quot;Freehold&quot;,
+  &quot;walk_time_minutes&quot;: 11
+}</pre>
+  </details>
+
+  <div class="foot"><div><a href="longland-drive-totteridge-london-n20.html">← Longland Drive</a></div><div><a href="tudor-road-barnet-en5.html">→ Tudor Road</a></div></div>
+
+  <p class="note" style="margin-top:26px">Generated 2026-10-01 from
+  <code>reviews/property_reviews.json</code>. Map data &copy;
+  <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</p>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
+<script>window.__PINS__ = [{"id": "74065290", "lat": 51.640756, "lon": -0.175725, "addr": "Monks Avenue", "price": "\u00a3800,000", "sqft": "1,690", "epc": "?", "score": 40.6, "colour": "#a9342c", "tags": ["Strong Value"], "tag_html": "<span class=\"badge tag-value\">Strong Value<\/span>", "href": "#"}];</script>
+<script>window.__SLIDES__ = ["https://lid.zoocdn.com/u/1024/768/98d5ad24963c566e4c13d29be9b2b59255c8b71c.jpg", "https://lid.zoocdn.com/u/1024/768/3d53ac96e446326d6c554ee1d5633a7237fbe6d1.jpg", "https://lid.zoocdn.com/u/1024/768/3d93365bdd08ee362f7c214514d356141a20fa96.jpg", "https://lid.zoocdn.com/u/1024/768/68f0ae5761d98f653b3fa523f2fd7a37bce0b9cc.jpg", "https://lid.zoocdn.com/u/1024/768/5b80ff21dc054cf6d8f48a55b0a3d58bb08664dc.jpg", "https://lid.zoocdn.com/u/1024/768/22aad24378ae2ae0644e96c949a908b71296f00e.jpg", "https://lid.zoocdn.com/u/1024/768/7553d406ca3323cb00dce86b3947f339effed88e.jpg", "https://lid.zoocdn.com/u/1024/768/48e769ed75c7d973e76d75abb745407e104fa269.jpg", "https://lid.zoocdn.com/u/1024/768/20c189fde615d1fb0d8850684638ea23f4a11221.jpg", "https://lid.zoocdn.com/u/1024/768/c81e9434dafc44e8f89b08ba319cf9f5665b2ab7.jpg", "https://lid.zoocdn.com/u/1024/768/91d5030a68b61908d7267f85a46a58ac1cb9e3a7.jpg", "https://lid.zoocdn.com/u/1024/768/afd18f931e78a04faaf6fddd5bd1fedef12b3cc9.jpg", "https://lid.zoocdn.com/u/1024/768/6e68e1903ff26eba4d83e36badb8b5f47bce940e.jpg", "https://lid.zoocdn.com/u/1024/768/d24ed4f92506be0ceed1987997c4093a2e30a834.jpg", "https://lid.zoocdn.com/u/1024/768/c48ad5bccc9ff5b0a8b60b40647ca0f406185613.jpg", "https://lid.zoocdn.com/u/1024/768/64138824962a2d186ac4b28a73f55ce7422b424a.jpg", "https://lid.zoocdn.com/u/1024/768/511df7bbc6d26c60454dbc3cb8fff69a41e9a1ec.jpg", "https://lid.zoocdn.com/u/1024/768/149876411ac1d6dc6ad007b42a08e539aa16033a.jpg", "https://lid.zoocdn.com/u/1024/768/81b902fcda44f7e648b96cd48ace447be08b5e2e.jpg", "https://lid.zoocdn.com/u/1024/768/95f1dece4c74f7874ec8a507e289e47326265837.jpg"];</script>
+<script>
+(function () {
+  var el = document.getElementById('map');
+  if (!el || typeof L === 'undefined') { return; }
+  var data = window.__PINS__ || [];
+  if (!data.length || data[0].lat === null) { el.style.display = 'none'; return; }
+  var map = L.map('map', { scrollWheelZoom: false, dragging: false,
+                           doubleClickZoom: false, boxZoom: false,
+                           keyboard: false, zoomControl: false });
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  var group = L.featureGroup().addTo(map);
+  data.forEach(function (p) {
+    if (p.lat === null) { return; }
+    L.circleMarker([p.lat, p.lon], { radius: 10, color: '#ffffff', weight: 3,
+                                     fillColor: p.colour, fillOpacity: 0.95 }).addTo(group);
+  });
+  if (group.getBounds().isValid()) { map.fitBounds(group.getBounds().pad(0.35)); }
+  L.control.attribution({ prefix: false }).addTo(map);
+})();
+</script>
+<script>
+(function () {
+  var shots = window.__SLIDES__ || [];
+  var img = document.getElementById('slide-img');
+  var link = document.getElementById('slide-link');
+  var prev = document.getElementById('slide-prev');
+  var next = document.getElementById('slide-next');
+  var num = document.getElementById('slide-n');
+  if (!img || !link || shots.length < 2) {
+    if (prev) { prev.disabled = true; }
+    if (next) { next.disabled = true; }
+    return;
+  }
+  var at = 0;
+
+  function show(i) {
+    at = (i + shots.length) % shots.length;
+    img.src = shots[at];
+    img.alt = 'Listing photo ' + (at + 1) + ' of ' + shots.length +
+              ' — open full size';
+    link.href = shots[at];
+    if (num) { num.textContent = String(at + 1); }
+  }
+
+  // Only the neighbours are warmed: a 34-photo listing at 136 KB each is
+  // 4.6 MB if the whole gallery is fetched up front, for images the reader may
+  // never scroll to.
+  function warm() {
+    [at + 1, at - 1].forEach(function (k) {
+      var j = (k + shots.length) % shots.length;
+      if (j !== at) { new Image().src = shots[j]; }
+    });
+  }
+
+  prev.addEventListener('click', function () { show(at - 1); warm(); });
+  next.addEventListener('click', function () { show(at + 1); warm(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) { return; }
+    if (e.key === 'ArrowLeft') { show(at - 1); warm(); }
+    if (e.key === 'ArrowRight') { show(at + 1); warm(); }
+  });
+  show(0);
+  warm();
+})();
+</script>
+</body></html>

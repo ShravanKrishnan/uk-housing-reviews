@@ -1,0 +1,815 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ridgeview Road — review</title>
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <h1>Ridgeview Road</h1>
+  <p class="sub">Ridgeview Road, Whetstone N20</p>
+  <nav class="crumbs"><a href="../index.html">← Back to the map</a> &middot;
+  <a href="../index.html#all-rank-112">Rank #112 of All properties</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="panel">
+    <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between">
+      <div>
+        <span class="pill" style="background:#a8322d">39.9 Score</span>
+        <span class="badge tag-transport">Great Transport Links</span>
+      </div>
+      <div style="font-size:13px;color:var(--muted)">
+        112 of 164 &middot; score 39.9
+      </div>
+    </div>
+    <div class="verdict">Secondary Assessment Needed: Low scores across multiple dimensions.</div>
+  </div>
+
+  <h3>At a glance</h3>
+  <div class="grid"><div class="stat"><div class="k">Asking price</div><div class="v">£750,000</div></div><div class="stat"><div class="k">Property type</div><div class="v">3 bed semi-detached house for sale</div></div><div class="stat"><div class="k">Tenure</div><div class="v">Freehold</div></div><div class="stat"><div class="k">Size</div><div class="v">1,143 sq ft / 106.2 m²</div></div><div class="stat"><div class="k">Price per sq ft</div><div class="v">£656.2</div></div><div class="stat"><div class="k">Bedrooms</div><div class="v">3</div></div><div class="stat"><div class="k">Bathrooms</div><div class="v">1</div></div><div class="stat"><div class="k">Living rooms</div><div class="v">2</div></div><div class="stat"><div class="k">EPC (current / potential)</div><div class="v">D / C</div></div><div class="stat"><div class="k">Nearest station</div><div class="v">Woodside Park · 0.6 mi · ~12 min walk</div></div><div class="stat wide"><div class="k">Commute to Liverpool St</div><div class="v">47 min (Northern line (Bank branch) direct to Moorgate (31 min) + 4 min Elizabeth line link to Liverpool St)</div></div><div class="stat wide"><div class="k">Commute to King&#x27;s Cross</div><div class="v">39 min (Northern line direct to King&#x27;s Cross St Pancras (27 min))</div></div></div>
+
+  <h3>Nice-to-haves</h3>
+  <div class="panel">
+    <table class="nice">
+      <thead><tr><th>Signal</th><th>Status</th><th>Detail</th></tr></thead>
+      <tbody><tr><td>Air conditioning</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned; UK EPCs do not record domestic cooling</td></tr><tr><td>Underfloor heating</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned in the listing or EPC</td></tr><tr><td>South-facing garden</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>No aspect stated in the listing, floor-plan or photos</td></tr><tr><td>Sun roof / lantern in living areas</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned and no overhead glazing seen in photos</td></tr><tr><td>Ground-floor bedroom</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>No ground-floor bedroom or convertible room mentioned</td></tr><tr><td>Wide living room</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Largest living area is 13.8 ft (Sitting Room, floor-plan) — below the 15 ft mark</td></tr><tr><td>Home theatre potential</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>No cinema or media room mentioned, and no other room on the plan is large enough to be one</td></tr></tbody>
+    </table>
+  </div>
+
+<div class="panel"><h2>Photos — 19</h2><div class="slides" id="slides"><div class="slide-frame"><a id="slide-link" href="https://lid.zoocdn.com/u/1024/768/bf5800621835f9d44a1d5389121b2f58e75fcf42.jpg" rel="noopener"><img id="slide-img" src="https://lid.zoocdn.com/u/1024/768/bf5800621835f9d44a1d5389121b2f58e75fcf42.jpg" alt="Listing photo 1 of 19 — open full size" loading="lazy"></a><button type="button" class="slide-nav prev" id="slide-prev" aria-label="Previous photo">&#8249;</button><button type="button" class="slide-nav next" id="slide-next" aria-label="Next photo">&#8250;</button><span class="slide-badge"><span id="slide-n">1</span> / 19</span></div></div><p class="note" style="margin-top:8px">Arrow keys page through the gallery; click a photo to open it full size. These are the listing's own photographs, at the highest resolution its image host serves.</p></div>
+
+  <div class="layout">
+    <div class="panel sticky">
+      <h2>Where it is</h2>
+      <div id="map" style="height:330px;border-radius:8px"></div>
+      <p class="note" style="margin-top:10px">
+        Pin is the listing's own coordinates. Map tiles are OpenStreetMap.
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=51.623734,-0.181891" rel="noopener">Open in Google Maps →</a>
+        &middot; <a href="https://www.openstreetmap.org/?mlat=51.623734&amp;mlon=-0.181891#map=18/51.623734/-0.181891" rel="noopener">Open in OpenStreetMap →</a>
+        &middot; <a href="https://www.zoopla.co.uk/for-sale/details/73382499/" rel="noopener">Zoopla listing →</a>
+      </p>
+    </div>
+    <div class="panel">
+      <h2>Floorplan analysis</h2>
+      <a href="https://lid.zoocdn.com/u/1024/768/5996836dcd5cb073744813845380d8a90cb2b99f.jpg" rel="noopener"><img class="plan" src="https://lid.zoocdn.com/u/1024/768/5996836dcd5cb073744813845380d8a90cb2b99f.jpg" alt="Floor plan for Ridgeview Road, Whetstone N20" loading="lazy"></a><p class="note">8 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are listed without one. <a href="https://lid.zoocdn.com/u/1024/768/5996836dcd5cb073744813845380d8a90cb2b99f.jpg" rel="noopener">Open the full-size plan →</a></p><table class="nice compact"><thead><tr><th>Room</th><th>Type</th><th>Floor</th><th>Dimensions</th><th>Area</th></tr></thead><tbody><tr><td>Kitchen / Dining Room</td><td>kitchen</td><td>ground</td><td class="num">19.5 &times; 13.3 ft</td><td class="num">259 sq ft</td></tr><tr><td>Sitting Room</td><td>living</td><td>ground</td><td class="num">19.5 &times; 13.8 ft</td><td class="num">269 sq ft</td></tr><tr><td>Front Drive</td><td>other</td><td>ground</td><td class="num">30.1 &times; 21.3 ft</td><td class="num">641 sq ft</td></tr><tr><td>Storage Below</td><td>store</td><td>ground</td><td class="num">not printed</td><td class="num">—</td></tr><tr><td>Raised Decking</td><td>other</td><td>ground</td><td class="num">not printed</td><td class="num">—</td></tr><tr><td>Bedroom</td><td>bedroom</td><td>first</td><td class="num">12.8 &times; 10.2 ft</td><td class="num">131 sq ft</td></tr><tr><td>Bedroom</td><td>bedroom</td><td>first</td><td class="num">14.5 &times; 11.9 ft</td><td class="num">173 sq ft</td></tr><tr><td>Bedroom</td><td>bedroom</td><td>first</td><td class="num">11.5 &times; 6.2 ft</td><td class="num">71 sq ft</td></tr></tbody></table>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-top:22px">
+    <h2>Score breakdown — 39.9/100</h2>
+    <div class="bar-row with-evidence"><span class="lbl">Location &amp; transport</span><span class="bar"><i style="width:70.0%;background:#a8322d"></i></span><span class="num">14.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Nearest station Woodside Park 12 min walk (0.59 mi routed walk) (+4)</li><li><span class="tick">✓</span>2 stations within 0.8 mi — Woodside Park 12 min walk, Totteridge &amp; Whetstone 16 min walk — commuting resilience (+3.5)</li><li><span class="tick">✓</span>1 transit line within walk — Northern via Woodside Park 12 min walk, +1 more — broad Central London access (+1)</li><li><span class="tick">✓</span>Night Tube / 24h service at Totteridge &amp; Whetstone, Woodside Park (+1.5)</li><li><span class="tick">✓</span>Good Liverpool St commute: ~47 mins door-to-concourse via Woodside Park (12m walk + 31m rail) (+2)</li><li><span class="tick">✓</span>King&#x27;s Cross St Pancras commute ~39 mins via Woodside Park (+2)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Space, scale &amp; layout</span><span class="bar"><i style="width:27.5%;background:#a8322d"></i></span><span class="num">5.5</span><ul class="ticks compact"><li><span class="tick">✓</span>Square footage taken from floor plan (image analysis)</li><li><span class="tick">✓</span>Standard room sizing: 1,143.0 sq ft total (381 sq ft/bed) (+4)</li><li><span class="tick">✓</span>Under-bathroomed (1 bath for 3 beds - morning bottlenecks likely) (+0.5)</li><li><span class="tick">✓</span>Two or more reception rooms (2) (+1)</li><li><span class="tick">✓</span>Living room width: 13.8 ft (below 15 ft)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Financial efficiency</span><span class="bar"><i style="width:56.0%;background:#a8322d"></i></span><span class="num">8.4</span><ul class="ticks compact"><li><span class="tick">✓</span>£656 per sq ft on 1,143 sq ft (+3.6 of 7.5)</li><li><span class="tick">✓</span>£750,000 asking price (+4.8 of 7.5)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Technical &amp; EPC</span><span class="bar"><i style="width:52.5%;background:#a8322d"></i></span><span class="num">10.5</span><ul class="ticks compact"><li><span class="tick">✓</span>EPC Band D (4.5) + no secondary heating (1) + insulated roof (2) + double glazing (1) (+8.5 of 10)</li><li><span class="tick">✓</span>EPC: pitched roof with accessible loft (pitched, 100 mm loft insulation) — scope for a simple loft extension (structural survey still required) (+2)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Observed presentation</span><span class="bar"><i style="width:10.0%;background:#a8322d"></i></span><span class="num">1.5</span><ul class="ticks compact"><li><span class="tick">✓</span>Exterior &amp; garden rated standard in listing photographs (image analysis) (+1.5 of 3)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Garden &amp; outdoor</span><span class="bar"><i style="width:0.0%;background:#a8322d"></i></span><span class="num">0.0</span><p class="note compact">No evidence detected for this component — it scores on the absence of contrary findings.</p></div>
+    <p class="note">The combined score rewards location, space, financial efficiency,
+    technical specification, observed presentation, and garden quality. Every line
+    lists the evidence that earned it, so a component cannot be read as a verdict
+    without the reason attached.</p>
+  </div>
+
+  <h3>Land Registry</h3>
+  <div class="panel">
+    <p><strong>£279,995 on 2002-06-28<br><span class="note">First recorded sale: 2002-06-28</span></strong></p>
+    <p>£444/sq ft median (range £42–£662), from 13 of 27 local sales (48% priced). <span class="note">Floor area is borrowed from the EPC extract (epc_bulk total_floor_area) because sale records carry none; small samples are heavy-tailed, so the median is used and withheld below 5 priced sales.</span></p>
+    <p class="note">27 raw sale record(s) exist in this postcode. They are the neighbourhood's history, not this home's, and are deliberately not presented as its own.</p>
+    <p class="note">Scope <code>address</code> — sale history is only ever
+    attributed to this home when a house number was derived and matched.</p>
+  </div>
+
+  <h3>Planning</h3>
+  <div class="panel"><p class="note">Planning lookup status: <code>error</code>. No planning history is asserted for this property.</p></div>
+
+  <div style="margin-top:22px">
+    <div class="panel"><h2>Photographic evidence reviewed for the score</h2><p class="note">Points are awarded only for detected listing, EPC, or photographic evidence, and each component above lists what it found. Systems without such evidence score zero and are omitted rather than listed as inspection tasks. These notes record what the photos did and did not show.</p><ul class="ticks"><li>20 property photo(s) analysed by local vision model (Qwen3-VL)</li><li>Photographic-evidence score: 9.0/100 (high confidence; condition 0/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 6/10)</li><li>Floor-plan total read from the plan: 1,143 sq ft</li><li>Not captured in the photos: bathrooms, extension evidence, garden aspect, render, roof, side access</li></ul></div>
+  </div>
+
+  <div class="gaps"><strong>What is not verified here</strong><ul><li>Enrichment fetch failed: planning</li></ul></div>
+
+  <details class="raw">
+    <summary>Raw review record (JSON)</summary>
+    <pre>{
+  &quot;asking_price&quot;: 750000,
+  &quot;bathrooms&quot;: 1,
+  &quot;bedrooms&quot;: 3,
+  &quot;combined_score&quot;: {
+    &quot;detected_features&quot;: [
+      &quot;Nearest station Woodside Park 12 min walk (0.59 mi routed walk) (+4)&quot;,
+      &quot;2 stations within 0.8 mi \u2014 Woodside Park 12 min walk, Totteridge &amp; Whetstone 16 min walk \u2014 commuting resilience (+3.5)&quot;,
+      &quot;1 transit line within walk \u2014 Northern via Woodside Park 12 min walk, +1 more \u2014 broad Central London access (+1)&quot;,
+      &quot;Night Tube / 24h service at Totteridge &amp; Whetstone, Woodside Park (+1.5)&quot;,
+      &quot;Good Liverpool St commute: ~47 mins door-to-concourse via Woodside Park (12m walk + 31m rail) (+2)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~39 mins via Woodside Park (+2)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Standard room sizing: 1,143.0 sq ft total (381 sq ft/bed) (+4)&quot;,
+      &quot;Under-bathroomed (1 bath for 3 beds - morning bottlenecks likely) (+0.5)&quot;,
+      &quot;Two or more reception rooms (2) (+1)&quot;,
+      &quot;Living room width: 13.8 ft (below 15 ft)&quot;,
+      &quot;\u00a3656 per sq ft on 1,143 sq ft (+3.6 of 7.5)&quot;,
+      &quot;\u00a3750,000 asking price (+4.8 of 7.5)&quot;,
+      &quot;EPC Band D (4.5) + no secondary heating (1) + insulated roof (2) + double glazing (1) (+8.5 of 10)&quot;,
+      &quot;EPC: pitched roof with accessible loft (pitched, 100 mm loft insulation) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;,
+      &quot;Exterior &amp; garden rated standard in listing photographs (image analysis) (+1.5 of 3)&quot;
+    ],
+    &quot;evidence&quot;: {
+      &quot;financial_efficiency&quot;: [
+        &quot;\u00a3656 per sq ft on 1,143 sq ft (+3.6 of 7.5)&quot;,
+        &quot;\u00a3750,000 asking price (+4.8 of 7.5)&quot;
+      ],
+      &quot;location_transport&quot;: [
+        &quot;Nearest station Woodside Park 12 min walk (0.59 mi routed walk) (+4)&quot;,
+        &quot;2 stations within 0.8 mi \u2014 Woodside Park 12 min walk, Totteridge &amp; Whetstone 16 min walk \u2014 commuting resilience (+3.5)&quot;,
+        &quot;1 transit line within walk \u2014 Northern via Woodside Park 12 min walk, +1 more \u2014 broad Central London access (+1)&quot;,
+        &quot;Night Tube / 24h service at Totteridge &amp; Whetstone, Woodside Park (+1.5)&quot;,
+        &quot;Good Liverpool St commute: ~47 mins door-to-concourse via Woodside Park (12m walk + 31m rail) (+2)&quot;,
+        &quot;King&#x27;s Cross St Pancras commute ~39 mins via Woodside Park (+2)&quot;
+      ],
+      &quot;observed_presentation&quot;: [
+        &quot;Exterior &amp; garden rated standard in listing photographs (image analysis) (+1.5 of 3)&quot;
+      ],
+      &quot;space_layout&quot;: [
+        &quot;Square footage taken from floor plan (image analysis)&quot;,
+        &quot;Standard room sizing: 1,143.0 sq ft total (381 sq ft/bed) (+4)&quot;,
+        &quot;Under-bathroomed (1 bath for 3 beds - morning bottlenecks likely) (+0.5)&quot;,
+        &quot;Two or more reception rooms (2) (+1)&quot;,
+        &quot;Living room width: 13.8 ft (below 15 ft)&quot;
+      ],
+      &quot;technical_epc&quot;: [
+        &quot;EPC Band D (4.5) + no secondary heating (1) + insulated roof (2) + double glazing (1) (+8.5 of 10)&quot;,
+        &quot;EPC: pitched roof with accessible loft (pitched, 100 mm loft insulation) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;
+      ]
+    },
+    &quot;financial_efficiency&quot;: 8.4,
+    &quot;garden_outdoor&quot;: 0.0,
+    &quot;location_transport&quot;: 14.0,
+    &quot;notes&quot;: [
+      &quot;Nearest station Woodside Park 12 min walk (0.59 mi routed walk) (+4)&quot;,
+      &quot;2 stations within 0.8 mi \u2014 Woodside Park 12 min walk, Totteridge &amp; Whetstone 16 min walk \u2014 commuting resilience (+3.5)&quot;,
+      &quot;1 transit line within walk \u2014 Northern via Woodside Park 12 min walk, +1 more \u2014 broad Central London access (+1)&quot;,
+      &quot;Night Tube / 24h service at Totteridge &amp; Whetstone, Woodside Park (+1.5)&quot;,
+      &quot;Good Liverpool St commute: ~47 mins door-to-concourse via Woodside Park (12m walk + 31m rail) (+2)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~39 mins via Woodside Park (+2)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Standard room sizing: 1,143.0 sq ft total (381 sq ft/bed) (+4)&quot;,
+      &quot;Under-bathroomed (1 bath for 3 beds - morning bottlenecks likely) (+0.5)&quot;,
+      &quot;Two or more reception rooms (2) (+1)&quot;,
+      &quot;EPC Band D&quot;
+    ],
+    &quot;observed_presentation&quot;: 1.5,
+    &quot;space_layout&quot;: 5.5,
+    &quot;tags&quot;: [
+      &quot;Great Transport Links&quot;
+    ],
+    &quot;technical_epc&quot;: 10.5,
+    &quot;total_score&quot;: 39.9,
+    &quot;vision_facts&quot;: [
+      &quot;20 property photo(s) analysed by local vision model (Qwen3-VL)&quot;,
+      &quot;Photographic-evidence score: 9.0/100 (high confidence; condition 0/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 6/10)&quot;,
+      &quot;Floor-plan total read from the plan: 1,143 sq ft&quot;,
+      &quot;Not captured in the photos: bathrooms, extension evidence, garden aspect, render, roof, side access&quot;
+    ]
+  },
+  &quot;data_gaps&quot;: [
+    &quot;Enrichment fetch failed: planning&quot;
+  ],
+  &quot;epc_potential&quot;: &quot;C&quot;,
+  &quot;epc_rating&quot;: &quot;D&quot;,
+  &quot;floorplan_image_url&quot;: &quot;https://lid.zoocdn.com/u/1024/768/5996836dcd5cb073744813845380d8a90cb2b99f.jpg&quot;,
+  &quot;floorplan_rooms&quot;: [
+    {
+      &quot;area_sq_ft&quot;: 259,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;kitchen&quot;,
+      &quot;label&quot;: &quot;Kitchen / Dining Room&quot;,
+      &quot;length_ft&quot;: 19.5,
+      &quot;width_ft&quot;: 13.3
+    },
+    {
+      &quot;area_sq_ft&quot;: 269,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;living&quot;,
+      &quot;label&quot;: &quot;Sitting Room&quot;,
+      &quot;length_ft&quot;: 19.5,
+      &quot;width_ft&quot;: 13.8
+    },
+    {
+      &quot;area_sq_ft&quot;: 641,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;other&quot;,
+      &quot;label&quot;: &quot;Front Drive&quot;,
+      &quot;length_ft&quot;: 30.1,
+      &quot;width_ft&quot;: 21.3
+    },
+    {
+      &quot;area_sq_ft&quot;: null,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;store&quot;,
+      &quot;label&quot;: &quot;Storage Below&quot;,
+      &quot;length_ft&quot;: null,
+      &quot;width_ft&quot;: null
+    },
+    {
+      &quot;area_sq_ft&quot;: null,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;other&quot;,
+      &quot;label&quot;: &quot;Raised Decking&quot;,
+      &quot;length_ft&quot;: null,
+      &quot;width_ft&quot;: null
+    },
+    {
+      &quot;area_sq_ft&quot;: 131,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom&quot;,
+      &quot;length_ft&quot;: 12.8,
+      &quot;width_ft&quot;: 10.2
+    },
+    {
+      &quot;area_sq_ft&quot;: 173,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom&quot;,
+      &quot;length_ft&quot;: 14.5,
+      &quot;width_ft&quot;: 11.9
+    },
+    {
+      &quot;area_sq_ft&quot;: 71,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom&quot;,
+      &quot;length_ft&quot;: 11.5,
+      &quot;width_ft&quot;: 6.2
+    }
+  ],
+  &quot;full_address&quot;: &quot;Ridgeview Road, Whetstone N20&quot;,
+  &quot;kings_cross_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Fast (35-45m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 27,
+    &quot;route_summary&quot;: &quot;Northern line direct to King&#x27;s Cross St Pancras (27 min)&quot;,
+    &quot;secondary_route&quot;: &quot;Oakleigh Park (1.314 mi, ~27m walk) \u2794 Great Northern (National Rail) (17m rail) = ~44m total&quot;,
+    &quot;station_distance_miles&quot;: 0.59,
+    &quot;station_name&quot;: &quot;Woodside Park&quot;,
+    &quot;total_commute_minutes&quot;: 39,
+    &quot;transfer_minutes&quot;: 0,
+    &quot;transit_line&quot;: &quot;London Underground (Northern line - Bank branch)&quot;,
+    &quot;walk_time_minutes&quot;: 12
+  },
+  &quot;land_registry_summary&quot;: {
+    &quot;_cache&quot;: true,
+    &quot;area_benchmark&quot;: {
+      &quot;area_source&quot;: &quot;epc_bulk total_floor_area&quot;,
+      &quot;coverage_pct&quot;: 48,
+      &quot;high_gbp_sqft&quot;: 662,
+      &quot;low_gbp_sqft&quot;: 42,
+      &quot;median_gbp_sqft&quot;: 444,
+      &quot;of_sales&quot;: 27,
+      &quot;sample&quot;: 13
+    },
+    &quot;first_sale_date&quot;: &quot;2002-06-28&quot;,
+    &quot;last_sale_date&quot;: &quot;2002-06-28&quot;,
+    &quot;last_sale_price&quot;: 279995,
+    &quot;number_known&quot;: true,
+    &quot;postcode_sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1995-09-12&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;23&quot;,
+        &quot;postcode&quot;: &quot;N20 0HH&quot;,
+        &quot;price&quot;: 116000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RIDGEVIEW ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;3D9FE8E0-1D28-435E-9E5D-83BA637B728A&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1996-06-17&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;15&quot;,
+        &quot;postcode&quot;: &quot;N20 0HH&quot;,
+        &quot;price&quot;: 56000,
+        &quot;property_type&quot;: &quot;flat-maisonette&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RIDGEVIEW ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;31D02FB3-5301-41EF-94D1-40F4B8B7CFFE&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1996-07-22&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;11&quot;,
+        &quot;postcode&quot;: &quot;N20 0HH&quot;,
+        &quot;price&quot;: 120000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RIDGEVIEW ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;C6D960F3-7C33-4C8F-9535-F6A9C925B450&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1997-01-24&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;3&quot;,
+        &quot;postcode&quot;: &quot;N20 0HH&quot;,
+        &quot;price&quot;: 94000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RIDGEVIEW ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;26D4D5CE-672B-46C9-9C27-41D8C7F544A2&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1999-08-11&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;7&quot;,
+        &quot;postcode&quot;: &quot;N20 0HH&quot;,
+        &quot;price&quot;: 180000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RIDGEVIEW ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;21147D04-E9CE-43B0-9B28-F2955A178F41&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2001-07-27&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;9&quot;,
+        &quot;postcode&quot;: &quot;N20 0HH&quot;,
+        &quot;price&quot;: 237500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RIDGEVIEW ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;56AA39CC-A381-4E90-8AF0-541C7E64A70B&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2002-03-22&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;11&quot;,
+        &quot;postcode&quot;: &quot;N20 0HH&quot;,
+        &quot;price&quot;: 250000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RIDGEVIEW ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;0EB3ABA3-1B0E-4E7A-8C78-988C899BB4DF&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2002-06-28&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;13&quot;,
+        &quot;postcode&quot;: &quot;N20 0HH&quot;,
+        &quot;price&quot;: 279995,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RIDGEVIEW ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;B7B62D06-CFFA-4B72-9B36-BA5E263E193B&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2003-03-21&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;31&quot;,
+        &quot;postcode&quot;: &quot;N20 0HH&quot;,
+        &quot;price&quot;: 278000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RIDGEVIEW ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;8E60C8EA-0B43-4F58-9A21-2E814C55802A&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2004-11-05&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;33&quot;,
+        &quot;postcode&quot;: &quot;N20 0HH&quot;,
+        &quot;price&quot;: 367500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RIDGEVIEW ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;C69B82E6-5C64-43F2-8EFB-B73748FEE886&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2005-11-21&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;25&quot;,
+        &quot;postcode&quot;: &quot;N20 0HH&quot;,
+        &quot;price&quot;: 360000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RIDGEVIEW ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;F4062BE5-D6A8-4160-96D6-85FC223B3164&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2006-06-13&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;5&quot;,
+        &quot;postcode&quot;: &quot;N20 0HH&quot;,
+        &quot;price&quot;: 360000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RIDGEVIEW ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;7F62915E-F345-4902-B79A-8DB94985C912&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2007-03-05&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;31&quot;,
+        &quot;postcode&quot;: &quot;N20 0HH&quot;,
+        &quot;price&quot;: 360000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RIDGEVIEW ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;215776BF-BD63-4645-B9EA-70012EEF38B3&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2007-09-24&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;7&quot;,
+        &quot;postcode&quot;: &quot;N20 0HH&quot;,
+        &quot;price&quot;: 405000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RIDGEVIEW ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;CF90DC5B-DAC8-40DD-A625-CAC7755B8BEE&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2008-10-13&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;1&quot;,
+        &quot;postcode&quot;: &quot;N20 0HH&quot;,
+        &quot;price&quot;: 370000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RIDGEVIEW ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;6B116DB5-BC45-4717-B622-629FE46D9531&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2010-07-29&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;21&quot;,
+        &quot;postcode&quot;: &quot;N20 0HH&quot;,
+        &quot;price&quot;: 434950,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RIDGEVIEW ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;4481C7EB-045A-418A-A3BA-3BA03513B5F7&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2011-08-01&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;45&quot;,
+        &quot;postcode&quot;: &quot;N20 0HH&quot;,
+        &quot;price&quot;: 397000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RIDGEVIEW ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;7BFE8CA1-C970-4FE0-A751-0587F1996B86&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2013-06-07&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;1&quot;,
+        &quot;postcode&quot;: &quot;N20 0HH&quot;,
+        &quot;price&quot;: 530000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RIDGEVIEW ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;8FB1D9D2-98EC-4127-A012-DCA8B23013E7&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2013-07-10&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;27&quot;,
+        &quot;postcode&quot;: &quot;N20 0HH&quot;,
+        &quot;price&quot;: 495000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RIDGEVIEW ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;66C06810-E655-461F-99EF-CD6CCD463BCA&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2014-02-18&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;33&quot;,
+        &quot;postcode&quot;: &quot;N20 0HH&quot;,
+        &quot;price&quot;: 490000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RIDGEVIEW ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;C2F66AC5-9BE9-49DF-98ED-440E0EC014C3&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2014-05-19&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;49&quot;,
+        &quot;postcode&quot;: &quot;N20 0HH&quot;,
+        &quot;price&quot;: 535000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RIDGEVIEW ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;91245E41-8E87-4674-B1F1-E96B7E3FE743&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2014-09-12&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;9&quot;,
+        &quot;postcode&quot;: &quot;N20 0HH&quot;,
+        &quot;price&quot;: 540000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RIDGEVIEW ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;1F34B07E-13BF-442D-857B-4F5328C31862&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2014-09-22&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;43&quot;,
+        &quot;postcode&quot;: &quot;N20 0HH&quot;,
+        &quot;price&quot;: 520000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RIDGEVIEW ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;627F1A5B-B5C6-483F-84FF-F5E4C51F70C9&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-06-12&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;17&quot;,
+        &quot;postcode&quot;: &quot;N20 0HH&quot;,
+        &quot;price&quot;: 875000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RIDGEVIEW ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;55BDCAE6-3FB7-521D-E053-6B04A8C0DD7A&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2020-11-26&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;41&quot;,
+        &quot;postcode&quot;: &quot;N20 0HH&quot;,
+        &quot;price&quot;: 580000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RIDGEVIEW ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;DE2D0CDF-F1ED-51EE-E053-6C04A8C00671&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2021-06-25&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;49&quot;,
+        &quot;postcode&quot;: &quot;N20 0HH&quot;,
+        &quot;price&quot;: 760000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RIDGEVIEW ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;CB0035E6-04E3-58AE-E053-6B04A8C091AF&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2021-06-25&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;23&quot;,
+        &quot;postcode&quot;: &quot;N20 0HH&quot;,
+        &quot;price&quot;: 825000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RIDGEVIEW ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;CFC9085C-D6AF-9A70-E053-6B04A8C09D6A&quot;
+      }
+    ],
+    &quot;sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2002-06-28&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;13&quot;,
+        &quot;postcode&quot;: &quot;N20 0HH&quot;,
+        &quot;price&quot;: 279995,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;RIDGEVIEW ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;B7B62D06-CFFA-4B72-9B36-BA5E263E193B&quot;
+      }
+    ],
+    &quot;scope&quot;: &quot;address&quot;,
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;latitude&quot;: 51.623734,
+  &quot;liverpool_st_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Moderate (45-55m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 31,
+    &quot;route_summary&quot;: &quot;Northern line (Bank branch) direct to Moorgate (31 min) + 4 min Elizabeth line link to Liverpool St&quot;,
+    &quot;secondary_route&quot;: &quot;Oakleigh Park (1.314 mi, ~27m walk) \u2794 Great Northern (National Rail) (24m rail) = ~55m total&quot;,
+    &quot;station_distance_miles&quot;: 0.59,
+    &quot;station_name&quot;: &quot;Woodside Park&quot;,
+    &quot;total_commute_minutes&quot;: 47,
+    &quot;transfer_minutes&quot;: 4,
+    &quot;transit_line&quot;: &quot;London Underground (Northern line - Bank branch)&quot;,
+    &quot;walk_time_minutes&quot;: 12
+  },
+  &quot;living_rooms&quot;: 2,
+  &quot;longitude&quot;: -0.181891,
+  &quot;nearest_station&quot;: &quot;Woodside Park&quot;,
+  &quot;nice_to_haves&quot;: [
+    {
+      &quot;detail&quot;: &quot;Not mentioned; UK EPCs do not record domestic cooling&quot;,
+      &quot;label&quot;: &quot;Air conditioning&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned in the listing or EPC&quot;,
+      &quot;label&quot;: &quot;Underfloor heating&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;No aspect stated in the listing, floor-plan or photos&quot;,
+      &quot;label&quot;: &quot;South-facing garden&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned and no overhead glazing seen in photos&quot;,
+      &quot;label&quot;: &quot;Sun roof / lantern in living areas&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;No ground-floor bedroom or convertible room mentioned&quot;,
+      &quot;label&quot;: &quot;Ground-floor bedroom&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Largest living area is 13.8 ft (Sitting Room, floor-plan) \u2014 below the 15 ft mark&quot;,
+      &quot;label&quot;: &quot;Wide living room&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;No cinema or media room mentioned, and no other room on the plan is large enough to be one&quot;,
+      &quot;label&quot;: &quot;Home theatre potential&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    }
+  ],
+  &quot;overall_verdict&quot;: &quot;Secondary Assessment Needed: Low scores across multiple dimensions.&quot;,
+  &quot;planning_summary&quot;: {
+    &quot;error&quot;: &quot;persistent 429&quot;,
+    &quot;status&quot;: &quot;error&quot;
+  },
+  &quot;price_display&quot;: &quot;\u00a3750,000&quot;,
+  &quot;price_per_sq_ft&quot;: 656.2,
+  &quot;property_id&quot;: &quot;73382499&quot;,
+  &quot;property_images&quot;: [
+    &quot;https://lid.zoocdn.com/u/1024/768/bf5800621835f9d44a1d5389121b2f58e75fcf42.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/3ce1c0befbbbc31020c9fadb4ec021f80356aa3b.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/54a6051eccaabdf6cad2914896614a03073bc407.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/9750e2206755c163e76d51f3eebde8588e4a7cf9.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/b5463f1d11dac0431041675c92a00d540274bc1d.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/d6f2400acb6fa58498df5a61b1bbd5d63614754e.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/6870eaef85779c576c59d75ae7d3249f678c73a3.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/36f5f694863bf02adce47437d2f4940dafd50bc8.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/c5f761f0fd771ee6a5303e0eb608ce5a8c5bb5f3.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/99ca96318a2fd80246534d04a03791bae08a2b7f.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/c92489f27c6e328e207d6b4dd6b9f383ced83040.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/6136cc6b94ec5fa5c0493caf0baa46aaf47a29fe.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/071355d35d654dedcee7c1c97c12f884715db2a9.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/12329fa162874f252360ba7ce3e786c0fcb766e3.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/d8c41f57f5f01150e43ad8e0b133fe81c2fbed64.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/ba6d95dd4cbf726e02cad524147fcb008aa50fe6.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/1354c8574963ee07bea3fa9397f696ea38cb8b9a.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/a37716beb0085894dc04bd4f11caf4118034c06d.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/e2c2534694f96ac6da81a6468e25b693897a2e75.jpg&quot;
+  ],
+  &quot;property_type&quot;: &quot;3 bed semi-detached house for sale&quot;,
+  &quot;size_sq_ft&quot;: 1143.0,
+  &quot;size_sq_m&quot;: 106.2,
+  &quot;station_distance_miles&quot;: 0.59,
+  &quot;station_distance_source&quot;: &quot;routed&quot;,
+  &quot;tenure&quot;: &quot;Freehold&quot;,
+  &quot;walk_time_minutes&quot;: 12
+}</pre>
+  </details>
+
+  <div class="foot"><div><a href="margaret-road-barnet-en4.html">← Margaret Road</a></div><div><a href="hadley-grove-barnet-en5.html">→ Hadley Grove</a></div></div>
+
+  <p class="note" style="margin-top:26px">Generated 2026-10-01 from
+  <code>reviews/property_reviews.json</code>. Map data &copy;
+  <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</p>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
+<script>window.__PINS__ = [{"id": "73382499", "lat": 51.623734, "lon": -0.181891, "addr": "Ridgeview Road", "price": "\u00a3750,000", "sqft": "1,143", "epc": "D", "score": 39.9, "colour": "#a8322d", "tags": ["Great Transport Links"], "tag_html": "<span class=\"badge tag-transport\">Great Transport Links<\/span>", "href": "#"}];</script>
+<script>window.__SLIDES__ = ["https://lid.zoocdn.com/u/1024/768/bf5800621835f9d44a1d5389121b2f58e75fcf42.jpg", "https://lid.zoocdn.com/u/1024/768/3ce1c0befbbbc31020c9fadb4ec021f80356aa3b.jpg", "https://lid.zoocdn.com/u/1024/768/54a6051eccaabdf6cad2914896614a03073bc407.jpg", "https://lid.zoocdn.com/u/1024/768/9750e2206755c163e76d51f3eebde8588e4a7cf9.jpg", "https://lid.zoocdn.com/u/1024/768/b5463f1d11dac0431041675c92a00d540274bc1d.jpg", "https://lid.zoocdn.com/u/1024/768/d6f2400acb6fa58498df5a61b1bbd5d63614754e.jpg", "https://lid.zoocdn.com/u/1024/768/6870eaef85779c576c59d75ae7d3249f678c73a3.jpg", "https://lid.zoocdn.com/u/1024/768/36f5f694863bf02adce47437d2f4940dafd50bc8.jpg", "https://lid.zoocdn.com/u/1024/768/c5f761f0fd771ee6a5303e0eb608ce5a8c5bb5f3.jpg", "https://lid.zoocdn.com/u/1024/768/99ca96318a2fd80246534d04a03791bae08a2b7f.jpg", "https://lid.zoocdn.com/u/1024/768/c92489f27c6e328e207d6b4dd6b9f383ced83040.jpg", "https://lid.zoocdn.com/u/1024/768/6136cc6b94ec5fa5c0493caf0baa46aaf47a29fe.jpg", "https://lid.zoocdn.com/u/1024/768/071355d35d654dedcee7c1c97c12f884715db2a9.jpg", "https://lid.zoocdn.com/u/1024/768/12329fa162874f252360ba7ce3e786c0fcb766e3.jpg", "https://lid.zoocdn.com/u/1024/768/d8c41f57f5f01150e43ad8e0b133fe81c2fbed64.jpg", "https://lid.zoocdn.com/u/1024/768/ba6d95dd4cbf726e02cad524147fcb008aa50fe6.jpg", "https://lid.zoocdn.com/u/1024/768/1354c8574963ee07bea3fa9397f696ea38cb8b9a.jpg", "https://lid.zoocdn.com/u/1024/768/a37716beb0085894dc04bd4f11caf4118034c06d.jpg", "https://lid.zoocdn.com/u/1024/768/e2c2534694f96ac6da81a6468e25b693897a2e75.jpg"];</script>
+<script>
+(function () {
+  var el = document.getElementById('map');
+  if (!el || typeof L === 'undefined') { return; }
+  var data = window.__PINS__ || [];
+  if (!data.length || data[0].lat === null) { el.style.display = 'none'; return; }
+  var map = L.map('map', { scrollWheelZoom: false, dragging: false,
+                           doubleClickZoom: false, boxZoom: false,
+                           keyboard: false, zoomControl: false });
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  var group = L.featureGroup().addTo(map);
+  data.forEach(function (p) {
+    if (p.lat === null) { return; }
+    L.circleMarker([p.lat, p.lon], { radius: 10, color: '#ffffff', weight: 3,
+                                     fillColor: p.colour, fillOpacity: 0.95 }).addTo(group);
+  });
+  if (group.getBounds().isValid()) { map.fitBounds(group.getBounds().pad(0.35)); }
+  L.control.attribution({ prefix: false }).addTo(map);
+})();
+</script>
+<script>
+(function () {
+  var shots = window.__SLIDES__ || [];
+  var img = document.getElementById('slide-img');
+  var link = document.getElementById('slide-link');
+  var prev = document.getElementById('slide-prev');
+  var next = document.getElementById('slide-next');
+  var num = document.getElementById('slide-n');
+  if (!img || !link || shots.length < 2) {
+    if (prev) { prev.disabled = true; }
+    if (next) { next.disabled = true; }
+    return;
+  }
+  var at = 0;
+
+  function show(i) {
+    at = (i + shots.length) % shots.length;
+    img.src = shots[at];
+    img.alt = 'Listing photo ' + (at + 1) + ' of ' + shots.length +
+              ' — open full size';
+    link.href = shots[at];
+    if (num) { num.textContent = String(at + 1); }
+  }
+
+  // Only the neighbours are warmed: a 34-photo listing at 136 KB each is
+  // 4.6 MB if the whole gallery is fetched up front, for images the reader may
+  // never scroll to.
+  function warm() {
+    [at + 1, at - 1].forEach(function (k) {
+      var j = (k + shots.length) % shots.length;
+      if (j !== at) { new Image().src = shots[j]; }
+    });
+  }
+
+  prev.addEventListener('click', function () { show(at - 1); warm(); });
+  next.addEventListener('click', function () { show(at + 1); warm(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) { return; }
+    if (e.key === 'ArrowLeft') { show(at - 1); warm(); }
+    if (e.key === 'ArrowRight') { show(at + 1); warm(); }
+  });
+  show(0);
+  warm();
+})();
+</script>
+</body></html>

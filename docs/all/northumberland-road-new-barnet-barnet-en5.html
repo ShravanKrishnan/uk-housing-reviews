@@ -1,0 +1,969 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Northumberland Road — review</title>
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <h1>Northumberland Road</h1>
+  <p class="sub">Northumberland Road, New Barnet, Barnet EN5</p>
+  <nav class="crumbs"><a href="../index.html">← Back to the map</a> &middot;
+  <a href="../index.html#all-rank-8">Rank #8 of All properties</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="panel">
+    <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between">
+      <div>
+        <span class="pill" style="background:#c2760a">60.5 Score</span>
+        <span class="badge tag-presentation">Beautifully Presented</span><span class="badge tag-outdoor">Great Outdoor Space</span>
+      </div>
+      <div style="font-size:13px;color:var(--muted)">
+        8 of 164 &middot; score 60.5
+      </div>
+    </div>
+    <div class="verdict">Solid Contender: Well-balanced property with good technical credentials.</div>
+  </div>
+
+  <h3>At a glance</h3>
+  <div class="grid"><div class="stat"><div class="k">Asking price</div><div class="v">£1,250,000</div></div><div class="stat"><div class="k">Property type</div><div class="v">4 bed semi-detached house for sale</div></div><div class="stat"><div class="k">Tenure</div><div class="v">Freehold</div></div><div class="stat"><div class="k">Size</div><div class="v">1,897 sq ft / 179.4 m²</div></div><div class="stat"><div class="k">Price per sq ft</div><div class="v">£658.9</div></div><div class="stat"><div class="k">Bedrooms</div><div class="v">4</div></div><div class="stat"><div class="k">Bathrooms</div><div class="v">2</div></div><div class="stat"><div class="k">Living rooms</div><div class="v">2</div></div><div class="stat"><div class="k">EPC (current / potential)</div><div class="v">E / C</div></div><div class="stat"><div class="k">Nearest station</div><div class="v">Oakleigh Park · 0.4 mi · ~9 min walk</div></div><div class="stat wide"><div class="k">Commute to Liverpool St</div><div class="v">37 min (Great Northern direct to Moorgate (24 min) + 4 min walk via integrated Elizabeth line concourse to Liverpool St)</div></div><div class="stat wide"><div class="k">Commute to King&#x27;s Cross</div><div class="v">26 min (Great Northern direct to King&#x27;s Cross St Pancras (17 min))</div></div></div>
+
+  <h3>Nice-to-haves</h3>
+  <div class="panel">
+    <table class="nice">
+      <thead><tr><th>Signal</th><th>Status</th><th>Detail</th></tr></thead>
+      <tbody><tr><td>Air conditioning</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned; UK EPCs do not record domestic cooling</td></tr><tr><td>Underfloor heating</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned in the listing or EPC</td></tr><tr><td>South-facing garden</td><td><span class="nh-status nh-stated">stated</span></td><td>Described as south-facing in the listing</td></tr><tr><td>Sun roof / lantern in living areas</td><td><span class="nh-status nh-photo_hint">photo-hint</span></td><td>roof lantern; skylight seen in a living-area photo (room unverified)</td></tr><tr><td>Ground-floor bedroom</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Floorplan shows 1 bedroom on the ground floor (Bedroom)</td></tr><tr><td>Wide living room</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Largest living area is 12.4 ft (Living Room, floor-plan) — below the 15 ft mark</td></tr><tr><td>Home theatre potential</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>No cinema or media room mentioned, and no other room on the plan is large enough to be one</td></tr></tbody>
+    </table>
+  </div>
+
+<div class="panel"><h2>Photos — 35</h2><div class="slides" id="slides"><div class="slide-frame"><a id="slide-link" href="https://lid.zoocdn.com/u/1024/768/02a2ff97db8250c04f43fed4b5034f3d9d3cccc7.jpg" rel="noopener"><img id="slide-img" src="https://lid.zoocdn.com/u/1024/768/02a2ff97db8250c04f43fed4b5034f3d9d3cccc7.jpg" alt="Listing photo 1 of 35 — open full size" loading="lazy"></a><button type="button" class="slide-nav prev" id="slide-prev" aria-label="Previous photo">&#8249;</button><button type="button" class="slide-nav next" id="slide-next" aria-label="Next photo">&#8250;</button><span class="slide-badge"><span id="slide-n">1</span> / 35</span></div></div><p class="note" style="margin-top:8px">Arrow keys page through the gallery; click a photo to open it full size. These are the listing's own photographs, at the highest resolution its image host serves.</p></div>
+
+  <div class="layout">
+    <div class="panel sticky">
+      <h2>Where it is</h2>
+      <div id="map" style="height:330px;border-radius:8px"></div>
+      <p class="note" style="margin-top:10px">
+        Pin is the listing's own coordinates. Map tiles are OpenStreetMap.
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=51.639057,-0.173677" rel="noopener">Open in Google Maps →</a>
+        &middot; <a href="https://www.openstreetmap.org/?mlat=51.639057&amp;mlon=-0.173677#map=18/51.639057/-0.173677" rel="noopener">Open in OpenStreetMap →</a>
+        &middot; <a href="https://www.zoopla.co.uk/for-sale/details/73804200/" rel="noopener">Zoopla listing →</a>
+      </p>
+    </div>
+    <div class="panel">
+      <h2>Floorplan analysis</h2>
+      <a href="https://lid.zoocdn.com/u/1024/768/8b770bf7fb47e66c52d2d25a723e597857601146.jpg" rel="noopener"><img class="plan" src="https://lid.zoocdn.com/u/1024/768/8b770bf7fb47e66c52d2d25a723e597857601146.jpg" alt="Floor plan for Northumberland Road, New Barnet, Barnet EN5" loading="lazy"></a><p class="note">14 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are listed without one. <a href="https://lid.zoocdn.com/u/1024/768/8b770bf7fb47e66c52d2d25a723e597857601146.jpg" rel="noopener">Open the full-size plan →</a></p><table class="nice compact"><thead><tr><th>Room</th><th>Type</th><th>Floor</th><th>Dimensions</th><th>Area</th></tr></thead><tbody><tr><td>Garage</td><td>outbuilding</td><td>ground</td><td class="num">17.8 &times; 5.3 ft</td><td class="num">94 sq ft</td></tr><tr><td>Shed</td><td>outbuilding</td><td>ground</td><td class="num">9.9 &times; 6.7 ft</td><td class="num">66 sq ft</td></tr><tr><td>Shed</td><td>outbuilding</td><td>ground</td><td class="num">8.5 &times; 4.4 ft</td><td class="num">37 sq ft</td></tr><tr><td>Kitchen/Dining Room</td><td>kitchen</td><td>ground</td><td class="num">10.8 &times; 10.5 ft</td><td class="num">113 sq ft</td></tr><tr><td>Living Room</td><td>living</td><td>ground</td><td class="num">16.5 &times; 12.4 ft</td><td class="num">205 sq ft</td></tr><tr><td>Hallway</td><td>circulation</td><td>ground</td><td class="num">8.5 &times; 8 ft</td><td class="num">68 sq ft</td></tr><tr><td>Bedroom</td><td>bedroom</td><td>ground</td><td class="num">10.5 &times; 8.5 ft</td><td class="num">89 sq ft</td></tr><tr><td>Bedroom</td><td>bedroom</td><td>first</td><td class="num">10.5 &times; 8.5 ft</td><td class="num">89 sq ft</td></tr><tr><td>Bedroom</td><td>bedroom</td><td>first</td><td class="num">10.5 &times; 8.5 ft</td><td class="num">89 sq ft</td></tr><tr><td>Bedroom</td><td>bedroom</td><td>second</td><td class="num">10.5 &times; 8.5 ft</td><td class="num">89 sq ft</td></tr><tr><td>Bedroom</td><td>bedroom</td><td>second</td><td class="num">10.5 &times; 8.5 ft</td><td class="num">89 sq ft</td></tr><tr><td>Bathroom</td><td>bathroom</td><td>first</td><td class="num">5.5 &times; 3.5 ft</td><td class="num">19 sq ft</td></tr><tr><td>Bathroom</td><td>bathroom</td><td>second</td><td class="num">5.5 &times; 3.5 ft</td><td class="num">19 sq ft</td></tr><tr><td>En suite</td><td>bathroom</td><td>second</td><td class="num">5.5 &times; 3.5 ft</td><td class="num">19 sq ft</td></tr></tbody></table>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-top:22px">
+    <h2>Score breakdown — 60.5/100</h2>
+    <div class="bar-row with-evidence"><span class="lbl">Location &amp; transport</span><span class="bar"><i style="width:60.0%;background:#a8322d"></i></span><span class="num">12.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Nearest station Oakleigh Park 9 min walk (0.44 mi routed walk) (+5)</li><li><span class="tick">✓</span>Walkable station Oakleigh Park 9 min walk (+1.5)</li><li><span class="tick">✓</span>1 transit line within walk — Great Northern via Oakleigh Park 9 min walk — broad Central London access (+1)</li><li><span class="tick">✓</span>Fast Liverpool St commute: ~37 mins door-to-concourse via Oakleigh Park (9m walk + 24m rail) (+2.5)</li><li><span class="tick">✓</span>King&#x27;s Cross St Pancras commute ~26 mins via Oakleigh Park (+2)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Space, scale &amp; layout</span><span class="bar"><i style="width:57.5%;background:#a8322d"></i></span><span class="num">11.5</span><ul class="ticks compact"><li><span class="tick">✓</span>Square footage taken from floor plan (image analysis)</li><li><span class="tick">✓</span>Generous proportions: 1,897.0 sq ft total (474 sq ft/bed) (+5.5)</li><li><span class="tick">✓</span>Well balanced bathroom ratio (2 baths for 4 beds) (+2)</li><li><span class="tick">✓</span>Two or more reception rooms (2) (+1)</li><li><span class="tick">✓</span>Living room width: 12.4 ft (below 15 ft)</li><li><span class="tick">✓</span>Ground-floor bedroom confirmed on floorplan: 1 (Bedroom) (+3)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Financial efficiency</span><span class="bar"><i style="width:46.7%;background:#a8322d"></i></span><span class="num">7.0</span><ul class="ticks compact"><li><span class="tick">✓</span>£659 per sq ft on 1,897 sq ft (+3.6 of 7.5)</li><li><span class="tick">✓</span>£1,250,000 asking price (+3.4 of 7.5)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Technical &amp; EPC</span><span class="bar"><i style="width:47.5%;background:#a8322d"></i></span><span class="num">9.5</span><ul class="ticks compact"><li><span class="tick">✓</span>EPC Band E (2.5) + no secondary heating (1) + double glazing (1) (+4.5 of 10)</li><li><span class="tick">✓</span>Roof glazing seen in photos: roof lantern; skylight (+5)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Observed presentation</span><span class="bar"><i style="width:90.0%;background:#a8322d"></i></span><span class="num">13.5</span><ul class="ticks compact"><li><span class="tick">✓</span>Presented finish observed as refurbished in listing photographs (image analysis) (+5.5 of 7)</li><li><span class="tick">✓</span>Kitchen &amp; bathroom spec rated premium in listing photographs (image analysis) (+5 of 5)</li><li><span class="tick">✓</span>Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Garden &amp; outdoor</span><span class="bar"><i style="width:70.0%;background:#a8322d"></i></span><span class="num">7.0</span><ul class="ticks compact"><li><span class="tick">✓</span>South-facing garden confirmed (+5)</li><li><span class="tick">✓</span>Outbuilding present (+2)</li></ul></div>
+    <p class="note">The combined score rewards location, space, financial efficiency,
+    technical specification, observed presentation, and garden quality. Every line
+    lists the evidence that earned it, so a component cannot be read as a verdict
+    without the reason attached.</p>
+  </div>
+
+  <h3>Land Registry</h3>
+  <div class="panel">
+    <p><strong>£1,150,000 on 2022-01-21<br><span class="note">First recorded sale: 2012-08-28</span></strong></p>
+    <p>£415/sq ft median (range £133–£618), from 19 of 32 local sales (59% priced). <span class="note">Floor area is borrowed from the EPC extract (epc_bulk total_floor_area) because sale records carry none; small samples are heavy-tailed, so the median is used and withheld below 5 priced sales.</span></p>
+    <p class="note">32 raw sale record(s) exist in this postcode. They are the neighbourhood's history, not this home's, and are deliberately not presented as its own.</p>
+    <p class="note">Scope <code>address</code> — sale history is only ever
+    attributed to this home when a house number was derived and matched.</p>
+  </div>
+
+  <h3>Planning</h3>
+  <div class="panel"><p class="note">Planning lookup status: <code>error</code>. No planning history is asserted for this property.</p></div>
+
+  <div style="margin-top:22px">
+    <div class="panel"><h2>Photographic evidence reviewed for the score</h2><p class="note">Points are awarded only for detected listing, EPC, or photographic evidence, and each component above lists what it found. Systems without such evidence score zero and are omitted rather than listed as inspection tasks. These notes record what the photos did and did not show.</p><ul class="ticks"><li>36 property photo(s) analysed by local vision model (Qwen3-VL)</li><li>Photographic-evidence score: 51.0/100 (high confidence; condition 30/35, kitchen/bath 14/20, glazing 0/20, structure 0/15, legibility 7/10)</li><li>Floor-plan internal area read from the plan: 1,897 sq ft (scoring measure)</li><li>Condition tier inferred from photos: refurbished</li><li>Not captured in the photos: appliance brands, bathrooms, extension evidence, extension signals, garden aspect, kitchen appliances (…)</li></ul></div>
+  </div>
+
+  <div class="gaps"><strong>What is not verified here</strong><ul><li>Enrichment fetch failed: planning</li></ul></div>
+
+  <details class="raw">
+    <summary>Raw review record (JSON)</summary>
+    <pre>{
+  &quot;asking_price&quot;: 1250000,
+  &quot;bathrooms&quot;: 2,
+  &quot;bedrooms&quot;: 4,
+  &quot;combined_score&quot;: {
+    &quot;detected_features&quot;: [
+      &quot;Nearest station Oakleigh Park 9 min walk (0.44 mi routed walk) (+5)&quot;,
+      &quot;Walkable station Oakleigh Park 9 min walk (+1.5)&quot;,
+      &quot;1 transit line within walk \u2014 Great Northern via Oakleigh Park 9 min walk \u2014 broad Central London access (+1)&quot;,
+      &quot;Fast Liverpool St commute: ~37 mins door-to-concourse via Oakleigh Park (9m walk + 24m rail) (+2.5)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~26 mins via Oakleigh Park (+2)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Generous proportions: 1,897.0 sq ft total (474 sq ft/bed) (+5.5)&quot;,
+      &quot;Well balanced bathroom ratio (2 baths for 4 beds) (+2)&quot;,
+      &quot;Two or more reception rooms (2) (+1)&quot;,
+      &quot;Living room width: 12.4 ft (below 15 ft)&quot;,
+      &quot;Ground-floor bedroom confirmed on floorplan: 1 (Bedroom) (+3)&quot;,
+      &quot;\u00a3659 per sq ft on 1,897 sq ft (+3.6 of 7.5)&quot;,
+      &quot;\u00a31,250,000 asking price (+3.4 of 7.5)&quot;,
+      &quot;EPC Band E (2.5) + no secondary heating (1) + double glazing (1) (+4.5 of 10)&quot;,
+      &quot;Roof glazing seen in photos: roof lantern; skylight (+5)&quot;,
+      &quot;Presented finish observed as refurbished in listing photographs (image analysis) (+5.5 of 7)&quot;,
+      &quot;Kitchen &amp; bathroom spec rated premium in listing photographs (image analysis) (+5 of 5)&quot;,
+      &quot;Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)&quot;,
+      &quot;South-facing garden confirmed (+5)&quot;,
+      &quot;Outbuilding present (+2)&quot;
+    ],
+    &quot;evidence&quot;: {
+      &quot;financial_efficiency&quot;: [
+        &quot;\u00a3659 per sq ft on 1,897 sq ft (+3.6 of 7.5)&quot;,
+        &quot;\u00a31,250,000 asking price (+3.4 of 7.5)&quot;
+      ],
+      &quot;garden_outdoor&quot;: [
+        &quot;South-facing garden confirmed (+5)&quot;,
+        &quot;Outbuilding present (+2)&quot;
+      ],
+      &quot;location_transport&quot;: [
+        &quot;Nearest station Oakleigh Park 9 min walk (0.44 mi routed walk) (+5)&quot;,
+        &quot;Walkable station Oakleigh Park 9 min walk (+1.5)&quot;,
+        &quot;1 transit line within walk \u2014 Great Northern via Oakleigh Park 9 min walk \u2014 broad Central London access (+1)&quot;,
+        &quot;Fast Liverpool St commute: ~37 mins door-to-concourse via Oakleigh Park (9m walk + 24m rail) (+2.5)&quot;,
+        &quot;King&#x27;s Cross St Pancras commute ~26 mins via Oakleigh Park (+2)&quot;
+      ],
+      &quot;observed_presentation&quot;: [
+        &quot;Presented finish observed as refurbished in listing photographs (image analysis) (+5.5 of 7)&quot;,
+        &quot;Kitchen &amp; bathroom spec rated premium in listing photographs (image analysis) (+5 of 5)&quot;,
+        &quot;Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)&quot;
+      ],
+      &quot;space_layout&quot;: [
+        &quot;Square footage taken from floor plan (image analysis)&quot;,
+        &quot;Generous proportions: 1,897.0 sq ft total (474 sq ft/bed) (+5.5)&quot;,
+        &quot;Well balanced bathroom ratio (2 baths for 4 beds) (+2)&quot;,
+        &quot;Two or more reception rooms (2) (+1)&quot;,
+        &quot;Living room width: 12.4 ft (below 15 ft)&quot;,
+        &quot;Ground-floor bedroom confirmed on floorplan: 1 (Bedroom) (+3)&quot;
+      ],
+      &quot;technical_epc&quot;: [
+        &quot;EPC Band E (2.5) + no secondary heating (1) + double glazing (1) (+4.5 of 10)&quot;,
+        &quot;Roof glazing seen in photos: roof lantern; skylight (+5)&quot;
+      ]
+    },
+    &quot;financial_efficiency&quot;: 7.0,
+    &quot;garden_outdoor&quot;: 7.0,
+    &quot;location_transport&quot;: 12.0,
+    &quot;notes&quot;: [
+      &quot;Nearest station Oakleigh Park 9 min walk (0.44 mi routed walk) (+5)&quot;,
+      &quot;Walkable station Oakleigh Park 9 min walk (+1.5)&quot;,
+      &quot;1 transit line within walk \u2014 Great Northern via Oakleigh Park 9 min walk \u2014 broad Central London access (+1)&quot;,
+      &quot;Fast Liverpool St commute: ~37 mins door-to-concourse via Oakleigh Park (9m walk + 24m rail) (+2.5)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~26 mins via Oakleigh Park (+2)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Generous proportions: 1,897.0 sq ft total (474 sq ft/bed) (+5.5)&quot;,
+      &quot;Well balanced bathroom ratio (2 baths for 4 beds) (+2)&quot;,
+      &quot;Two or more reception rooms (2) (+1)&quot;,
+      &quot;EPC Band E&quot;,
+      &quot;Poor thermal envelope (high heating bills; significant retrofit investment required)&quot;
+    ],
+    &quot;observed_presentation&quot;: 13.5,
+    &quot;space_layout&quot;: 11.5,
+    &quot;tags&quot;: [
+      &quot;Beautifully Presented&quot;,
+      &quot;Great Outdoor Space&quot;
+    ],
+    &quot;technical_epc&quot;: 9.5,
+    &quot;total_score&quot;: 60.5,
+    &quot;vision_facts&quot;: [
+      &quot;36 property photo(s) analysed by local vision model (Qwen3-VL)&quot;,
+      &quot;Photographic-evidence score: 51.0/100 (high confidence; condition 30/35, kitchen/bath 14/20, glazing 0/20, structure 0/15, legibility 7/10)&quot;,
+      &quot;Floor-plan internal area read from the plan: 1,897 sq ft (scoring measure)&quot;,
+      &quot;Condition tier inferred from photos: refurbished&quot;,
+      &quot;Not captured in the photos: appliance brands, bathrooms, extension evidence, extension signals, garden aspect, kitchen appliances (\u2026)&quot;
+    ]
+  },
+  &quot;data_gaps&quot;: [
+    &quot;Enrichment fetch failed: planning&quot;
+  ],
+  &quot;epc_potential&quot;: &quot;C&quot;,
+  &quot;epc_rating&quot;: &quot;E&quot;,
+  &quot;floorplan_image_url&quot;: &quot;https://lid.zoocdn.com/u/1024/768/8b770bf7fb47e66c52d2d25a723e597857601146.jpg&quot;,
+  &quot;floorplan_rooms&quot;: [
+    {
+      &quot;area_sq_ft&quot;: 94,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;outbuilding&quot;,
+      &quot;label&quot;: &quot;Garage&quot;,
+      &quot;length_ft&quot;: 17.8,
+      &quot;width_ft&quot;: 5.3
+    },
+    {
+      &quot;area_sq_ft&quot;: 66,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;outbuilding&quot;,
+      &quot;label&quot;: &quot;Shed&quot;,
+      &quot;length_ft&quot;: 9.9,
+      &quot;width_ft&quot;: 6.7
+    },
+    {
+      &quot;area_sq_ft&quot;: 37,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;outbuilding&quot;,
+      &quot;label&quot;: &quot;Shed&quot;,
+      &quot;length_ft&quot;: 8.5,
+      &quot;width_ft&quot;: 4.4
+    },
+    {
+      &quot;area_sq_ft&quot;: 113,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;kitchen&quot;,
+      &quot;label&quot;: &quot;Kitchen/Dining Room&quot;,
+      &quot;length_ft&quot;: 10.8,
+      &quot;width_ft&quot;: 10.5
+    },
+    {
+      &quot;area_sq_ft&quot;: 205,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;living&quot;,
+      &quot;label&quot;: &quot;Living Room&quot;,
+      &quot;length_ft&quot;: 16.5,
+      &quot;width_ft&quot;: 12.4
+    },
+    {
+      &quot;area_sq_ft&quot;: 68,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;circulation&quot;,
+      &quot;label&quot;: &quot;Hallway&quot;,
+      &quot;length_ft&quot;: 8.5,
+      &quot;width_ft&quot;: 8.0
+    },
+    {
+      &quot;area_sq_ft&quot;: 89,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom&quot;,
+      &quot;length_ft&quot;: 10.5,
+      &quot;width_ft&quot;: 8.5
+    },
+    {
+      &quot;area_sq_ft&quot;: 89,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom&quot;,
+      &quot;length_ft&quot;: 10.5,
+      &quot;width_ft&quot;: 8.5
+    },
+    {
+      &quot;area_sq_ft&quot;: 89,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom&quot;,
+      &quot;length_ft&quot;: 10.5,
+      &quot;width_ft&quot;: 8.5
+    },
+    {
+      &quot;area_sq_ft&quot;: 89,
+      &quot;floor&quot;: &quot;second&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom&quot;,
+      &quot;length_ft&quot;: 10.5,
+      &quot;width_ft&quot;: 8.5
+    },
+    {
+      &quot;area_sq_ft&quot;: 89,
+      &quot;floor&quot;: &quot;second&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom&quot;,
+      &quot;length_ft&quot;: 10.5,
+      &quot;width_ft&quot;: 8.5
+    },
+    {
+      &quot;area_sq_ft&quot;: 19,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bathroom&quot;,
+      &quot;label&quot;: &quot;Bathroom&quot;,
+      &quot;length_ft&quot;: 5.5,
+      &quot;width_ft&quot;: 3.5
+    },
+    {
+      &quot;area_sq_ft&quot;: 19,
+      &quot;floor&quot;: &quot;second&quot;,
+      &quot;kind&quot;: &quot;bathroom&quot;,
+      &quot;label&quot;: &quot;Bathroom&quot;,
+      &quot;length_ft&quot;: 5.5,
+      &quot;width_ft&quot;: 3.5
+    },
+    {
+      &quot;area_sq_ft&quot;: 19,
+      &quot;floor&quot;: &quot;second&quot;,
+      &quot;kind&quot;: &quot;bathroom&quot;,
+      &quot;label&quot;: &quot;En suite&quot;,
+      &quot;length_ft&quot;: 5.5,
+      &quot;width_ft&quot;: 3.5
+    }
+  ],
+  &quot;full_address&quot;: &quot;Northumberland Road, New Barnet, Barnet EN5&quot;,
+  &quot;kings_cross_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Top Tier (&lt;35m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 17,
+    &quot;route_summary&quot;: &quot;Great Northern direct to King&#x27;s Cross St Pancras (17 min)&quot;,
+    &quot;secondary_route&quot;: &quot;Totteridge &amp; Whetstone (1.448 mi, ~29m walk) \u2794 London Underground (Northern line - Bank branch) (29m rail) = ~58m total&quot;,
+    &quot;station_distance_miles&quot;: 0.44,
+    &quot;station_name&quot;: &quot;Oakleigh Park&quot;,
+    &quot;total_commute_minutes&quot;: 26,
+    &quot;transfer_minutes&quot;: 0,
+    &quot;transit_line&quot;: &quot;Great Northern (National Rail)&quot;,
+    &quot;walk_time_minutes&quot;: 9
+  },
+  &quot;land_registry_summary&quot;: {
+    &quot;_cache&quot;: true,
+    &quot;area_benchmark&quot;: {
+      &quot;area_source&quot;: &quot;epc_bulk total_floor_area&quot;,
+      &quot;coverage_pct&quot;: 59,
+      &quot;high_gbp_sqft&quot;: 618,
+      &quot;low_gbp_sqft&quot;: 133,
+      &quot;median_gbp_sqft&quot;: 415,
+      &quot;of_sales&quot;: 32,
+      &quot;sample&quot;: 19
+    },
+    &quot;first_sale_date&quot;: &quot;2012-08-28&quot;,
+    &quot;last_sale_date&quot;: &quot;2022-01-21&quot;,
+    &quot;last_sale_price&quot;: 1150000,
+    &quot;number_known&quot;: true,
+    &quot;postcode_sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1995-12-21&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;74&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 174000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;7C46EF29-506A-4DE9-8DAA-53DA43D5E076&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1996-01-05&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;76&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 201951,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;1546E009-853A-480C-AFC7-E3511EFEF55D&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1996-09-11&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;98&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 221000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;397FC8D7-C458-4D38-B9C7-0B7762C89818&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1997-10-03&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;70&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 250000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;69F0AD5F-84BB-4D88-A6AF-CE7DBED4404D&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1999-04-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;84&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 450000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;6F270AB6-6B16-4A9A-B665-AFE7B4568D6F&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1999-06-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;86&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 375000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;6C98933F-13B6-453C-BFAD-344105EAE5CD&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2001-10-26&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;52&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 462000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;58F1164B-B129-42CB-98CB-28CE862B4570&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2002-06-27&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;66&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 415000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;71985EC1-55C2-48B1-B898-7F26916E9850&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2003-04-01&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;62&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 380000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;57A6B2C1-4E34-4A57-995B-CF7DFEE5C955&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2004-09-27&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;106&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 400000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;33E61F38-A02E-4D10-B0BE-CD33A58E16E0&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2004-11-29&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;108&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 499950,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;7A8CCB27-4484-4A01-8780-27F74ACDF887&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2005-12-16&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;82&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 485000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;952880EE-D167-407F-8E6D-FB1E47925DFE&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2006-10-23&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;64&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 485000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;59E6961D-AD08-4B01-83C5-1E301904E624&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2007-10-24&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;80&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 590000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;F45C33B7-E930-4E01-8B25-E2D46F8A2D5D&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2011-08-31&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;90&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 645000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;D0C8E10A-6F7D-4829-B941-F98178352768&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2012-01-27&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;52&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 805000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;93D57B71-A3DA-485F-91A6-9181826E1BE0&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2012-08-28&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;58&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 600000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;A434ED1A-E469-42A9-8F7C-C63DD558E4F1&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2013-09-10&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;70&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 710000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;557A12D9-A735-4FCD-B9FA-FD4A79B359BF&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2014-04-01&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;92&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 680000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;C51049E2-D9A6-4854-AE30-D1C5E7F742F7&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2015-08-12&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;68&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 945000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;33E7E766-461C-4273-908F-A4727F2695B1&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2015-09-03&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;102&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 810000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;23B6165E-9AA3-FCF4-E050-A8C0620577FA&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-08-04&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;64&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 870000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;3B7E0B90-2BCD-EA99-E050-A8C062057E77&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-12-20&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;78&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 933000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;47844C80-14BA-8986-E050-A8C063056488&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2018-05-18&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;84&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 1200000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;7011B109-A445-8ED6-E053-6B04A8C075C1&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2018-08-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;70&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 920000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;773788C2-A754-2CE4-E053-6C04A8C05E57&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2018-10-12&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;88&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 835000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;79A74E21-E20E-1289-E053-6B04A8C01627&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2018-12-11&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;94&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 945000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;7E86B6FB-1A50-458C-E053-6B04A8C0C84C&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2021-06-25&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;94&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 1100000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;CFC9085C-D9E5-9A70-E053-6B04A8C09D6A&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2021-08-31&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;108&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 1425000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;D707E535-A77A-0AD9-E053-6B04A8C067CC&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2021-08-31&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;56&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 845000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;D22473F5-B6E7-7B40-E053-6C04A8C0A630&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2022-01-21&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;58&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 1150000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;DE2D0CE0-10EA-51EE-E053-6C04A8C00671&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2023-08-18&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;86&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 1295000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;06C9F487-6522-9388-E063-4804A8C0BD98&quot;
+      }
+    ],
+    &quot;sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2012-08-28&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;58&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 600000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;A434ED1A-E469-42A9-8F7C-C63DD558E4F1&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2022-01-21&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;58&quot;,
+        &quot;postcode&quot;: &quot;EN5 1EE&quot;,
+        &quot;price&quot;: 1150000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;NORTHUMBERLAND ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;DE2D0CE0-10EA-51EE-E053-6C04A8C00671&quot;
+      }
+    ],
+    &quot;scope&quot;: &quot;address&quot;,
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;latitude&quot;: 51.639057,
+  &quot;liverpool_st_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Fast (35-45m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 24,
+    &quot;route_summary&quot;: &quot;Great Northern direct to Moorgate (24 min) + 4 min walk via integrated Elizabeth line concourse to Liverpool St&quot;,
+    &quot;secondary_route&quot;: &quot;Totteridge &amp; Whetstone (1.448 mi, ~29m walk) \u2794 London Underground (Northern line - Bank branch) (33m rail) = ~66m total&quot;,
+    &quot;station_distance_miles&quot;: 0.44,
+    &quot;station_name&quot;: &quot;Oakleigh Park&quot;,
+    &quot;total_commute_minutes&quot;: 37,
+    &quot;transfer_minutes&quot;: 4,
+    &quot;transit_line&quot;: &quot;Great Northern (National Rail)&quot;,
+    &quot;walk_time_minutes&quot;: 9
+  },
+  &quot;living_rooms&quot;: 2,
+  &quot;longitude&quot;: -0.173677,
+  &quot;nearest_station&quot;: &quot;Oakleigh Park&quot;,
+  &quot;nice_to_haves&quot;: [
+    {
+      &quot;detail&quot;: &quot;Not mentioned; UK EPCs do not record domestic cooling&quot;,
+      &quot;label&quot;: &quot;Air conditioning&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned in the listing or EPC&quot;,
+      &quot;label&quot;: &quot;Underfloor heating&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Described as south-facing in the listing&quot;,
+      &quot;label&quot;: &quot;South-facing garden&quot;,
+      &quot;status&quot;: &quot;stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;roof lantern; skylight seen in a living-area photo (room unverified)&quot;,
+      &quot;label&quot;: &quot;Sun roof / lantern in living areas&quot;,
+      &quot;status&quot;: &quot;photo-hint&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Floorplan shows 1 bedroom on the ground floor (Bedroom)&quot;,
+      &quot;label&quot;: &quot;Ground-floor bedroom&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Largest living area is 12.4 ft (Living Room, floor-plan) \u2014 below the 15 ft mark&quot;,
+      &quot;label&quot;: &quot;Wide living room&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;No cinema or media room mentioned, and no other room on the plan is large enough to be one&quot;,
+      &quot;label&quot;: &quot;Home theatre potential&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    }
+  ],
+  &quot;overall_verdict&quot;: &quot;Solid Contender: Well-balanced property with good technical credentials.&quot;,
+  &quot;planning_summary&quot;: {
+    &quot;error&quot;: &quot;persistent 429&quot;,
+    &quot;status&quot;: &quot;error&quot;
+  },
+  &quot;price_display&quot;: &quot;\u00a31,250,000&quot;,
+  &quot;price_per_sq_ft&quot;: 658.9,
+  &quot;property_id&quot;: &quot;73804200&quot;,
+  &quot;property_images&quot;: [
+    &quot;https://lid.zoocdn.com/u/1024/768/02a2ff97db8250c04f43fed4b5034f3d9d3cccc7.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/2fa58b71491b1e02e50e99f59d3266ecceabe94b.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/5ebbb474cf2a07546d6be69387f0a2f7b6752123.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/ababdb358794489a706361d3aaafc6211db5eac8.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/44b3ce2479b6d2fded495384135b4956a5f0f1f8.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/13fc38b44d2f73b2739347017fcd9acec704af46.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/90f6e1467a995e61f8567103333353c56cb91f22.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/71e2a8b781d84a2bb179e10e4e793da091169141.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/8505bf065de29707af140aa9e7677b174f937d1c.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/c609d4735a641d569dbc4195df771d0cd7b880cb.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/cb8a3f73d57cb27ac9d9c72b2eea5483fb2634bf.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/e91fcd24af0ef93e8da6e13503b43338f9b19090.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/ad22c9363b2b145be9b10cf037b8f2ec3b432f7a.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/eb4ad5eba0ec6013733f7a7444d4273c11bb319a.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/104c454170118a739db983fc88aff4ca8e80728d.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/af9189c52f497ad33c81be47e9edad8eb4e6ffbc.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/7875dae20e59ae25f41ec5f2e92cbff3f9ccfc37.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/cfacea8efd2b2c3a5c278f9645c179fcd81d4912.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/157263b028d0ee19bb90b463ddcb2604ae911b22.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/4ca8fa8f7d0569b000fbcaa57896fde1a5433eba.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/18432520463f432fbf6c3c44c4028e2daddc2f0e.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/0a39bf474c2b12b56fa359bdac54de11dd4f40b2.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/22777c601d02c6486d6967077d1d08714dc32564.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/2bbafd00a31bc40c00ecfa211eb03dca5a0797c5.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/26fb9fe9a2413a4082f1a608f7bfafd5dfa41b37.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/097f5f97b6f70155f0c2e75983ed8c2e207f7a8f.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/d4dcd472def64e66c83f6c0204a7b8569896175a.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/70afc0a817d4f62b059c219dcac57845435618fd.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/762e6efc1ae91a5dd2e938844a71ab99694fcd5f.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/dd16e99766b1b87fd156f761660b28e3854a22e6.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/20935e185bff67ec6731d4c4f36123ecf5de8bc4.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/0d38d637a88bace9641610e4dad03cf07df1f4df.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/6ddc64b76923e37d5a5c18c5cbbb5ceeb917ecec.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/2819d6b534b4d8256f5805798e45e794a8988ef6.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/286db0c9deb0bfc5276c4b5f5b4d9c8b9127bc97.jpg&quot;
+  ],
+  &quot;property_type&quot;: &quot;4 bed semi-detached house for sale&quot;,
+  &quot;size_sq_ft&quot;: 1897.0,
+  &quot;size_sq_m&quot;: 179.4,
+  &quot;station_distance_miles&quot;: 0.44,
+  &quot;station_distance_source&quot;: &quot;routed&quot;,
+  &quot;tenure&quot;: &quot;Freehold&quot;,
+  &quot;walk_time_minutes&quot;: 9
+}</pre>
+  </details>
+
+  <div class="foot"><div><a href="fitzjohn-avenue-barnet-en5.html">← Fitzjohn Avenue</a></div><div><a href="well-grove-london-n20.html">→ Well Grove</a></div></div>
+
+  <p class="note" style="margin-top:26px">Generated 2026-10-01 from
+  <code>reviews/property_reviews.json</code>. Map data &copy;
+  <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</p>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
+<script>window.__PINS__ = [{"id": "73804200", "lat": 51.639057, "lon": -0.173677, "addr": "Northumberland Road", "price": "\u00a31,250,000", "sqft": "1,897", "epc": "E", "score": 60.5, "colour": "#be760c", "tags": ["Beautifully Presented", "Great Outdoor Space"], "tag_html": "<span class=\"badge tag-presentation\">Beautifully Presented<\/span><span class=\"badge tag-outdoor\">Great Outdoor Space<\/span>", "href": "#"}];</script>
+<script>window.__SLIDES__ = ["https://lid.zoocdn.com/u/1024/768/02a2ff97db8250c04f43fed4b5034f3d9d3cccc7.jpg", "https://lid.zoocdn.com/u/1024/768/2fa58b71491b1e02e50e99f59d3266ecceabe94b.jpg", "https://lid.zoocdn.com/u/1024/768/5ebbb474cf2a07546d6be69387f0a2f7b6752123.jpg", "https://lid.zoocdn.com/u/1024/768/ababdb358794489a706361d3aaafc6211db5eac8.jpg", "https://lid.zoocdn.com/u/1024/768/44b3ce2479b6d2fded495384135b4956a5f0f1f8.jpg", "https://lid.zoocdn.com/u/1024/768/13fc38b44d2f73b2739347017fcd9acec704af46.jpg", "https://lid.zoocdn.com/u/1024/768/90f6e1467a995e61f8567103333353c56cb91f22.jpg", "https://lid.zoocdn.com/u/1024/768/71e2a8b781d84a2bb179e10e4e793da091169141.jpg", "https://lid.zoocdn.com/u/1024/768/8505bf065de29707af140aa9e7677b174f937d1c.jpg", "https://lid.zoocdn.com/u/1024/768/c609d4735a641d569dbc4195df771d0cd7b880cb.jpg", "https://lid.zoocdn.com/u/1024/768/cb8a3f73d57cb27ac9d9c72b2eea5483fb2634bf.jpg", "https://lid.zoocdn.com/u/1024/768/e91fcd24af0ef93e8da6e13503b43338f9b19090.jpg", "https://lid.zoocdn.com/u/1024/768/ad22c9363b2b145be9b10cf037b8f2ec3b432f7a.jpg", "https://lid.zoocdn.com/u/1024/768/eb4ad5eba0ec6013733f7a7444d4273c11bb319a.jpg", "https://lid.zoocdn.com/u/1024/768/104c454170118a739db983fc88aff4ca8e80728d.jpg", "https://lid.zoocdn.com/u/1024/768/af9189c52f497ad33c81be47e9edad8eb4e6ffbc.jpg", "https://lid.zoocdn.com/u/1024/768/7875dae20e59ae25f41ec5f2e92cbff3f9ccfc37.jpg", "https://lid.zoocdn.com/u/1024/768/cfacea8efd2b2c3a5c278f9645c179fcd81d4912.jpg", "https://lid.zoocdn.com/u/1024/768/157263b028d0ee19bb90b463ddcb2604ae911b22.jpg", "https://lid.zoocdn.com/u/1024/768/4ca8fa8f7d0569b000fbcaa57896fde1a5433eba.jpg", "https://lid.zoocdn.com/u/1024/768/18432520463f432fbf6c3c44c4028e2daddc2f0e.jpg", "https://lid.zoocdn.com/u/1024/768/0a39bf474c2b12b56fa359bdac54de11dd4f40b2.jpg", "https://lid.zoocdn.com/u/1024/768/22777c601d02c6486d6967077d1d08714dc32564.jpg", "https://lid.zoocdn.com/u/1024/768/2bbafd00a31bc40c00ecfa211eb03dca5a0797c5.jpg", "https://lid.zoocdn.com/u/1024/768/26fb9fe9a2413a4082f1a608f7bfafd5dfa41b37.jpg", "https://lid.zoocdn.com/u/1024/768/097f5f97b6f70155f0c2e75983ed8c2e207f7a8f.jpg", "https://lid.zoocdn.com/u/1024/768/d4dcd472def64e66c83f6c0204a7b8569896175a.jpg", "https://lid.zoocdn.com/u/1024/768/70afc0a817d4f62b059c219dcac57845435618fd.jpg", "https://lid.zoocdn.com/u/1024/768/762e6efc1ae91a5dd2e938844a71ab99694fcd5f.jpg", "https://lid.zoocdn.com/u/1024/768/dd16e99766b1b87fd156f761660b28e3854a22e6.jpg", "https://lid.zoocdn.com/u/1024/768/20935e185bff67ec6731d4c4f36123ecf5de8bc4.jpg", "https://lid.zoocdn.com/u/1024/768/0d38d637a88bace9641610e4dad03cf07df1f4df.jpg", "https://lid.zoocdn.com/u/1024/768/6ddc64b76923e37d5a5c18c5cbbb5ceeb917ecec.jpg", "https://lid.zoocdn.com/u/1024/768/2819d6b534b4d8256f5805798e45e794a8988ef6.jpg", "https://lid.zoocdn.com/u/1024/768/286db0c9deb0bfc5276c4b5f5b4d9c8b9127bc97.jpg"];</script>
+<script>
+(function () {
+  var el = document.getElementById('map');
+  if (!el || typeof L === 'undefined') { return; }
+  var data = window.__PINS__ || [];
+  if (!data.length || data[0].lat === null) { el.style.display = 'none'; return; }
+  var map = L.map('map', { scrollWheelZoom: false, dragging: false,
+                           doubleClickZoom: false, boxZoom: false,
+                           keyboard: false, zoomControl: false });
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  var group = L.featureGroup().addTo(map);
+  data.forEach(function (p) {
+    if (p.lat === null) { return; }
+    L.circleMarker([p.lat, p.lon], { radius: 10, color: '#ffffff', weight: 3,
+                                     fillColor: p.colour, fillOpacity: 0.95 }).addTo(group);
+  });
+  if (group.getBounds().isValid()) { map.fitBounds(group.getBounds().pad(0.35)); }
+  L.control.attribution({ prefix: false }).addTo(map);
+})();
+</script>
+<script>
+(function () {
+  var shots = window.__SLIDES__ || [];
+  var img = document.getElementById('slide-img');
+  var link = document.getElementById('slide-link');
+  var prev = document.getElementById('slide-prev');
+  var next = document.getElementById('slide-next');
+  var num = document.getElementById('slide-n');
+  if (!img || !link || shots.length < 2) {
+    if (prev) { prev.disabled = true; }
+    if (next) { next.disabled = true; }
+    return;
+  }
+  var at = 0;
+
+  function show(i) {
+    at = (i + shots.length) % shots.length;
+    img.src = shots[at];
+    img.alt = 'Listing photo ' + (at + 1) + ' of ' + shots.length +
+              ' — open full size';
+    link.href = shots[at];
+    if (num) { num.textContent = String(at + 1); }
+  }
+
+  // Only the neighbours are warmed: a 34-photo listing at 136 KB each is
+  // 4.6 MB if the whole gallery is fetched up front, for images the reader may
+  // never scroll to.
+  function warm() {
+    [at + 1, at - 1].forEach(function (k) {
+      var j = (k + shots.length) % shots.length;
+      if (j !== at) { new Image().src = shots[j]; }
+    });
+  }
+
+  prev.addEventListener('click', function () { show(at - 1); warm(); });
+  next.addEventListener('click', function () { show(at + 1); warm(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) { return; }
+    if (e.key === 'ArrowLeft') { show(at - 1); warm(); }
+    if (e.key === 'ArrowRight') { show(at + 1); warm(); }
+  });
+  show(0);
+  warm();
+})();
+</script>
+</body></html>

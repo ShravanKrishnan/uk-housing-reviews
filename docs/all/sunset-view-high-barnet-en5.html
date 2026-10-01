@@ -1,0 +1,680 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sunset View — review</title>
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <h1>Sunset View</h1>
+  <p class="sub">Sunset View, High Barnet EN5</p>
+  <nav class="crumbs"><a href="../index.html">← Back to the map</a> &middot;
+  <a href="../index.html#all-rank-159">Rank #159 of All properties</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="panel">
+    <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between">
+      <div>
+        <span class="pill" style="background:#a8322d">25.2 Score</span>
+        
+      </div>
+      <div style="font-size:13px;color:var(--muted)">
+        159 of 164 &middot; score 25.2
+      </div>
+    </div>
+    <div class="verdict">Secondary Assessment Needed: Low scores across multiple dimensions.</div>
+  </div>
+
+  <h3>At a glance</h3>
+  <div class="grid"><div class="stat"><div class="k">Asking price</div><div class="v">£1,495,000</div></div><div class="stat"><div class="k">Property type</div><div class="v">4 bed detached house for sale</div></div><div class="stat"><div class="k">Tenure</div><div class="v">Freehold</div></div><div class="stat"><div class="k">Size</div><div class="v">— sq ft / — m²</div></div><div class="stat"><div class="k">Price per sq ft</div><div class="v">£—</div></div><div class="stat"><div class="k">Bedrooms</div><div class="v">4</div></div><div class="stat"><div class="k">Bathrooms</div><div class="v">1</div></div><div class="stat"><div class="k">Living rooms</div><div class="v">3</div></div><div class="stat"><div class="k">EPC (current / potential)</div><div class="v">F / D</div></div><div class="stat"><div class="k">Nearest station</div><div class="v">High Barnet · 0.9 mi · ~19 min walk</div></div><div class="stat wide"><div class="k">Commute to Liverpool St</div><div class="v">59 min (Northern line (Bank branch) direct to Moorgate (36 min) + 4 min Elizabeth line link to Liverpool St)</div></div><div class="stat wide"><div class="k">Commute to King&#x27;s Cross</div><div class="v">51 min (Northern line direct to King&#x27;s Cross St Pancras (32 min))</div></div></div>
+
+  <h3>Nice-to-haves</h3>
+  <div class="panel">
+    <table class="nice">
+      <thead><tr><th>Signal</th><th>Status</th><th>Detail</th></tr></thead>
+      <tbody><tr><td>Air conditioning</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned; UK EPCs do not record domestic cooling</td></tr><tr><td>Underfloor heating</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned in the listing or EPC</td></tr><tr><td>South-facing garden</td><td><span class="nh-status nh-photo_hint">photo-hint</span></td><td>Photos suggest south — confirm with a compass</td></tr><tr><td>Sun roof / lantern in living areas</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned and no overhead glazing seen in photos</td></tr><tr><td>Second ground-floor sitting room</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>No ground-floor bedroom, but the plan shows a second sitting room — Living Room, 16.3 x 12.1 ft — which serves the same downstairs space</td></tr><tr><td>Wide living room</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Largest living area is 13.0 ft (Study/Dining Room, floor-plan) — below the 15 ft mark</td></tr><tr><td>Home theatre potential</td><td><span class="nh-status nh-photo_hint">photo-hint</span></td><td>Living Room measures 16.3 x 12.1 ft (197 sq ft) on the floor plan, a separate room from the Study/Dining Room — room for a smaller screen or fewer seats; at that size it holds a 97-inch screen with the front row 8.1 ft from it, 1 recliner row of 5 across (12.8 ft of frontage, a modular sectional run), 5 seats</td></tr></tbody>
+    </table>
+  </div>
+
+<div class="panel"><h2>Photos — 17</h2><div class="slides" id="slides"><div class="slide-frame"><a id="slide-link" href="https://lid.zoocdn.com/u/1024/768/0aa7b219c7766c5eda8cc4b20a65dc76a691a2fc.jpg" rel="noopener"><img id="slide-img" src="https://lid.zoocdn.com/u/1024/768/0aa7b219c7766c5eda8cc4b20a65dc76a691a2fc.jpg" alt="Listing photo 1 of 17 — open full size" loading="lazy"></a><button type="button" class="slide-nav prev" id="slide-prev" aria-label="Previous photo">&#8249;</button><button type="button" class="slide-nav next" id="slide-next" aria-label="Next photo">&#8250;</button><span class="slide-badge"><span id="slide-n">1</span> / 17</span></div></div><p class="note" style="margin-top:8px">Arrow keys page through the gallery; click a photo to open it full size. These are the listing's own photographs, at the highest resolution its image host serves.</p></div>
+
+  <div class="layout">
+    <div class="panel sticky">
+      <h2>Where it is</h2>
+      <div id="map" style="height:330px;border-radius:8px"></div>
+      <p class="note" style="margin-top:10px">
+        Pin is the listing's own coordinates. Map tiles are OpenStreetMap.
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=51.659919,-0.205299" rel="noopener">Open in Google Maps →</a>
+        &middot; <a href="https://www.openstreetmap.org/?mlat=51.659919&amp;mlon=-0.205299#map=18/51.659919/-0.205299" rel="noopener">Open in OpenStreetMap →</a>
+        &middot; <a href="https://www.zoopla.co.uk/for-sale/details/68255943/" rel="noopener">Zoopla listing →</a>
+      </p>
+    </div>
+    <div class="panel">
+      <h2>Floorplan analysis</h2>
+      <a href="https://lid.zoocdn.com/u/1024/768/4cb68577f5a402dc7376e5f7a59328d3c9319171.jpg" rel="noopener"><img class="plan" src="https://lid.zoocdn.com/u/1024/768/4cb68577f5a402dc7376e5f7a59328d3c9319171.jpg" alt="Floor plan for Sunset View, High Barnet EN5" loading="lazy"></a><p class="note">13 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are listed without one. <a href="https://lid.zoocdn.com/u/1024/768/4cb68577f5a402dc7376e5f7a59328d3c9319171.jpg" rel="noopener">Open the full-size plan →</a></p><table class="nice compact"><thead><tr><th>Room</th><th>Type</th><th>Floor</th><th>Dimensions</th><th>Area</th></tr></thead><tbody><tr><td>Garage</td><td>outbuilding</td><td>ground</td><td class="num">17 &times; 8 ft</td><td class="num">136 sq ft</td></tr><tr><td>Living Room</td><td>living</td><td>ground</td><td class="num">16.3 &times; 12.1 ft</td><td class="num">197 sq ft</td></tr><tr><td>Study/Dining Room</td><td>dining</td><td>ground</td><td class="num">17.2 &times; 13 ft</td><td class="num">224 sq ft</td></tr><tr><td>W.C.</td><td>bathroom</td><td>ground</td><td class="num">9 &times; 7.5 ft</td><td class="num">68 sq ft</td></tr><tr><td>Hallway</td><td>circulation</td><td>ground</td><td class="num">9 &times; 6.2 ft</td><td class="num">56 sq ft</td></tr><tr><td>Kitchen</td><td>kitchen</td><td>ground</td><td class="num">12.1 &times; 11.5 ft</td><td class="num">139 sq ft</td></tr><tr><td>Sitting Room</td><td>living</td><td>ground</td><td class="num">13.3 &times; 10.5 ft</td><td class="num">140 sq ft</td></tr><tr><td>W.C.</td><td>bathroom</td><td>first</td><td class="num">7.7 &times; 3.2 ft</td><td class="num">25 sq ft</td></tr><tr><td>Bedroom 1</td><td>bedroom</td><td>first</td><td class="num">16.5 &times; 12 ft</td><td class="num">198 sq ft</td></tr><tr><td>Bedroom 2</td><td>bedroom</td><td>first</td><td class="num">16.8 &times; 10.7 ft</td><td class="num">180 sq ft</td></tr><tr><td>Bedroom 3</td><td>bedroom</td><td>first</td><td class="num">13.2 &times; 13 ft</td><td class="num">172 sq ft</td></tr><tr><td>Bedroom 4</td><td>bedroom</td><td>first</td><td class="num">10.9 &times; 9.7 ft</td><td class="num">106 sq ft</td></tr><tr><td>Bathroom</td><td>bathroom</td><td>first</td><td class="num">6.7 &times; 5.7 ft</td><td class="num">38 sq ft</td></tr></tbody></table>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-top:22px">
+    <h2>Score breakdown — 25.2/100</h2>
+    <div class="bar-row with-evidence"><span class="lbl">Location &amp; transport</span><span class="bar"><i style="width:15.0%;background:#a8322d"></i></span><span class="num">3.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Nearest station High Barnet 19 min walk (0.93 mi routed walk) (+1)</li><li><span class="tick">✓</span>No station within 0.8 mi walking distance (nearest is 0.93 mi)</li><li><span class="tick">✓</span>Extended Liverpool St commute: ~59 mins door-to-concourse via High Barnet (+1)</li><li><span class="tick">✓</span>King&#x27;s Cross St Pancras commute ~51 mins via High Barnet (+1)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Space, scale &amp; layout</span><span class="bar"><i style="width:48.5%;background:#a8322d"></i></span><span class="num">9.7</span><ul class="ticks compact"><li><span class="tick">✓</span>Square footage unstated in listing data (+5.2)</li><li><span class="tick">✓</span>Under-bathroomed (1 bath for 4 beds - morning bottlenecks likely) (+0.5)</li><li><span class="tick">✓</span>Two or more reception rooms (3) (+1)</li><li><span class="tick">✓</span>Living room width: 13.0 ft (below 15 ft)</li><li><span class="tick">✓</span>No ground-floor bedroom, but a second ground-floor sitting room (Living Room 16.3 x 12.1 ft) gives the same downstairs space (+3)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Financial efficiency</span><span class="bar"><i style="width:43.3%;background:#a8322d"></i></span><span class="num">6.5</span><ul class="ticks compact"><li><span class="tick">✓</span>Price per sq ft not computable (+3.75 of 7.5 base)</li><li><span class="tick">✓</span>£1,495,000 asking price (+2.8 of 7.5)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Technical &amp; EPC</span><span class="bar"><i style="width:15.0%;background:#a8322d"></i></span><span class="num">3.0</span><ul class="ticks compact"><li><span class="tick">✓</span>EPC Band F (1) (+1 of 10)</li><li><span class="tick">✓</span>EPC: pitched roof with accessible loft (pitched, no insulation (assumed)) — scope for a simple loft extension (structural survey still required) (+2)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Observed presentation</span><span class="bar"><i style="width:20.0%;background:#a8322d"></i></span><span class="num">3.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Garden &amp; outdoor</span><span class="bar"><i style="width:0.0%;background:#a8322d"></i></span><span class="num">0.0</span><p class="note compact">No evidence detected for this component — it scores on the absence of contrary findings.</p></div>
+    <p class="note">The combined score rewards location, space, financial efficiency,
+    technical specification, observed presentation, and garden quality. Every line
+    lists the evidence that earned it, so a component cannot be read as a verdict
+    without the reason attached.</p>
+  </div>
+
+  <h3>Land Registry</h3>
+  <div class="panel">
+    <p><strong>No sale attributed to this address — a house number is known, but no Land Registry record matches it, i.e. the house has not transacted.</strong></p>
+    <p>£612/sq ft median (range £202–£902), from 8 of 15 local sales (53% priced). <span class="note">Floor area is borrowed from the EPC extract (epc_bulk total_floor_area) because sale records carry none; small samples are heavy-tailed, so the median is used and withheld below 5 priced sales.</span></p>
+    <p class="note">15 raw sale record(s) exist in this postcode. They are the neighbourhood's history, not this home's, and are deliberately not presented as its own.</p>
+    <p class="note">Scope <code>address_no_sale</code> — sale history is only ever
+    attributed to this home when a house number was derived and matched.</p>
+  </div>
+
+  <h3>Planning</h3>
+  <div class="panel"><p class="note">1 planning record(s) matched this address:</p><ul class="ticks"><li><a href="https://publicaccess.barnet.gov.uk/online-applications/propertyDetails.do?activeTab=summary&amp;keyVal=NC27FV00DT005" rel="noopener">3 Sunset View Barnet EN5 4LB</a></li></ul></div>
+
+  <div style="margin-top:22px">
+    <div class="panel"><h2>Photographic evidence reviewed for the score</h2><p class="note">Points are awarded only for detected listing, EPC, or photographic evidence, and each component above lists what it found. Systems without such evidence score zero and are omitted rather than listed as inspection tasks. These notes record what the photos did and did not show.</p><ul class="ticks"><li>18 property photo(s) analysed by local vision model (Qwen3-VL)</li><li>Photographic-evidence score: 2.8/100 (medium confidence; condition 0/35, kitchen/bath 0/20, glazing 0/20, structure 0/15, legibility 2.8/10)</li><li>Not captured in the photos: bathroom, bathrooms, bedrooms, extension evidence, garden aspect, kitchen (…)</li></ul></div>
+  </div>
+
+  <div class="gaps"><strong>What is not verified here</strong><ul><li>Floor area (sq ft) missing — price/sqft and space scoring use fallbacks</li><li>No Land Registry sale recorded for this address in the price-paid window — the house has not transacted, so there is no comparable sale history</li></ul></div>
+
+  <details class="raw">
+    <summary>Raw review record (JSON)</summary>
+    <pre>{
+  &quot;asking_price&quot;: 1495000,
+  &quot;bathrooms&quot;: 1,
+  &quot;bedrooms&quot;: 4,
+  &quot;combined_score&quot;: {
+    &quot;detected_features&quot;: [
+      &quot;Nearest station High Barnet 19 min walk (0.93 mi routed walk) (+1)&quot;,
+      &quot;No station within 0.8 mi walking distance (nearest is 0.93 mi)&quot;,
+      &quot;Extended Liverpool St commute: ~59 mins door-to-concourse via High Barnet (+1)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~51 mins via High Barnet (+1)&quot;,
+      &quot;Square footage unstated in listing data (+5.2)&quot;,
+      &quot;Under-bathroomed (1 bath for 4 beds - morning bottlenecks likely) (+0.5)&quot;,
+      &quot;Two or more reception rooms (3) (+1)&quot;,
+      &quot;Living room width: 13.0 ft (below 15 ft)&quot;,
+      &quot;No ground-floor bedroom, but a second ground-floor sitting room (Living Room 16.3 x 12.1 ft) gives the same downstairs space (+3)&quot;,
+      &quot;Price per sq ft not computable (+3.75 of 7.5 base)&quot;,
+      &quot;\u00a31,495,000 asking price (+2.8 of 7.5)&quot;,
+      &quot;EPC Band F (1) (+1 of 10)&quot;,
+      &quot;EPC: pitched roof with accessible loft (pitched, no insulation (assumed)) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;,
+      &quot;Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)&quot;
+    ],
+    &quot;evidence&quot;: {
+      &quot;financial_efficiency&quot;: [
+        &quot;Price per sq ft not computable (+3.75 of 7.5 base)&quot;,
+        &quot;\u00a31,495,000 asking price (+2.8 of 7.5)&quot;
+      ],
+      &quot;location_transport&quot;: [
+        &quot;Nearest station High Barnet 19 min walk (0.93 mi routed walk) (+1)&quot;,
+        &quot;No station within 0.8 mi walking distance (nearest is 0.93 mi)&quot;,
+        &quot;Extended Liverpool St commute: ~59 mins door-to-concourse via High Barnet (+1)&quot;,
+        &quot;King&#x27;s Cross St Pancras commute ~51 mins via High Barnet (+1)&quot;
+      ],
+      &quot;observed_presentation&quot;: [
+        &quot;Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)&quot;
+      ],
+      &quot;space_layout&quot;: [
+        &quot;Square footage unstated in listing data (+5.2)&quot;,
+        &quot;Under-bathroomed (1 bath for 4 beds - morning bottlenecks likely) (+0.5)&quot;,
+        &quot;Two or more reception rooms (3) (+1)&quot;,
+        &quot;Living room width: 13.0 ft (below 15 ft)&quot;,
+        &quot;No ground-floor bedroom, but a second ground-floor sitting room (Living Room 16.3 x 12.1 ft) gives the same downstairs space (+3)&quot;
+      ],
+      &quot;technical_epc&quot;: [
+        &quot;EPC Band F (1) (+1 of 10)&quot;,
+        &quot;EPC: pitched roof with accessible loft (pitched, no insulation (assumed)) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;
+      ]
+    },
+    &quot;financial_efficiency&quot;: 6.5,
+    &quot;garden_outdoor&quot;: 0.0,
+    &quot;location_transport&quot;: 3.0,
+    &quot;notes&quot;: [
+      &quot;Nearest station High Barnet 19 min walk (0.93 mi routed walk) (+1)&quot;,
+      &quot;No station within 0.8 mi walking distance (nearest is 0.93 mi)&quot;,
+      &quot;Extended Liverpool St commute: ~59 mins door-to-concourse via High Barnet (+1)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~51 mins via High Barnet (+1)&quot;,
+      &quot;Square footage unstated in listing data (+5.2)&quot;,
+      &quot;Under-bathroomed (1 bath for 4 beds - morning bottlenecks likely) (+0.5)&quot;,
+      &quot;Two or more reception rooms (3) (+1)&quot;,
+      &quot;EPC Band F&quot;,
+      &quot;Poor thermal envelope (high heating bills; significant retrofit investment required)&quot;
+    ],
+    &quot;observed_presentation&quot;: 3.0,
+    &quot;space_layout&quot;: 9.7,
+    &quot;tags&quot;: [],
+    &quot;technical_epc&quot;: 3.0,
+    &quot;total_score&quot;: 25.2,
+    &quot;vision_facts&quot;: [
+      &quot;18 property photo(s) analysed by local vision model (Qwen3-VL)&quot;,
+      &quot;Photographic-evidence score: 2.8/100 (medium confidence; condition 0/35, kitchen/bath 0/20, glazing 0/20, structure 0/15, legibility 2.8/10)&quot;,
+      &quot;Not captured in the photos: bathroom, bathrooms, bedrooms, extension evidence, garden aspect, kitchen (\u2026)&quot;
+    ]
+  },
+  &quot;data_gaps&quot;: [
+    &quot;Floor area (sq ft) missing \u2014 price/sqft and space scoring use fallbacks&quot;,
+    &quot;No Land Registry sale recorded for this address in the price-paid window \u2014 the house has not transacted, so there is no comparable sale history&quot;
+  ],
+  &quot;epc_potential&quot;: &quot;D&quot;,
+  &quot;epc_rating&quot;: &quot;F&quot;,
+  &quot;floorplan_image_url&quot;: &quot;https://lid.zoocdn.com/u/1024/768/4cb68577f5a402dc7376e5f7a59328d3c9319171.jpg&quot;,
+  &quot;floorplan_rooms&quot;: [
+    {
+      &quot;area_sq_ft&quot;: 136,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;outbuilding&quot;,
+      &quot;label&quot;: &quot;Garage&quot;,
+      &quot;length_ft&quot;: 17.0,
+      &quot;width_ft&quot;: 8.0
+    },
+    {
+      &quot;area_sq_ft&quot;: 197,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;living&quot;,
+      &quot;label&quot;: &quot;Living Room&quot;,
+      &quot;length_ft&quot;: 16.3,
+      &quot;width_ft&quot;: 12.1
+    },
+    {
+      &quot;area_sq_ft&quot;: 224,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;dining&quot;,
+      &quot;label&quot;: &quot;Study/Dining Room&quot;,
+      &quot;length_ft&quot;: 17.2,
+      &quot;width_ft&quot;: 13.0
+    },
+    {
+      &quot;area_sq_ft&quot;: 68,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;bathroom&quot;,
+      &quot;label&quot;: &quot;W.C.&quot;,
+      &quot;length_ft&quot;: 9.0,
+      &quot;width_ft&quot;: 7.5
+    },
+    {
+      &quot;area_sq_ft&quot;: 56,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;circulation&quot;,
+      &quot;label&quot;: &quot;Hallway&quot;,
+      &quot;length_ft&quot;: 9.0,
+      &quot;width_ft&quot;: 6.2
+    },
+    {
+      &quot;area_sq_ft&quot;: 139,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;kitchen&quot;,
+      &quot;label&quot;: &quot;Kitchen&quot;,
+      &quot;length_ft&quot;: 12.1,
+      &quot;width_ft&quot;: 11.5
+    },
+    {
+      &quot;area_sq_ft&quot;: 140,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;living&quot;,
+      &quot;label&quot;: &quot;Sitting Room&quot;,
+      &quot;length_ft&quot;: 13.3,
+      &quot;width_ft&quot;: 10.5
+    },
+    {
+      &quot;area_sq_ft&quot;: 25,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bathroom&quot;,
+      &quot;label&quot;: &quot;W.C.&quot;,
+      &quot;length_ft&quot;: 7.7,
+      &quot;width_ft&quot;: 3.2
+    },
+    {
+      &quot;area_sq_ft&quot;: 198,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 1&quot;,
+      &quot;length_ft&quot;: 16.5,
+      &quot;width_ft&quot;: 12.0
+    },
+    {
+      &quot;area_sq_ft&quot;: 180,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 2&quot;,
+      &quot;length_ft&quot;: 16.8,
+      &quot;width_ft&quot;: 10.7
+    },
+    {
+      &quot;area_sq_ft&quot;: 172,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 3&quot;,
+      &quot;length_ft&quot;: 13.2,
+      &quot;width_ft&quot;: 13.0
+    },
+    {
+      &quot;area_sq_ft&quot;: 106,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 4&quot;,
+      &quot;length_ft&quot;: 10.9,
+      &quot;width_ft&quot;: 9.7
+    },
+    {
+      &quot;area_sq_ft&quot;: 38,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bathroom&quot;,
+      &quot;label&quot;: &quot;Bathroom&quot;,
+      &quot;length_ft&quot;: 6.7,
+      &quot;width_ft&quot;: 5.7
+    }
+  ],
+  &quot;full_address&quot;: &quot;Sunset View, High Barnet EN5&quot;,
+  &quot;kings_cross_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Moderate (45-55m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 32,
+    &quot;route_summary&quot;: &quot;Northern line direct to King&#x27;s Cross St Pancras (32 min)&quot;,
+    &quot;secondary_route&quot;: &quot;Hadley Wood (1.699 mi, ~34m walk) \u2794 Great Northern (National Rail) (23m rail) = ~57m total&quot;,
+    &quot;station_distance_miles&quot;: 0.928,
+    &quot;station_name&quot;: &quot;High Barnet&quot;,
+    &quot;total_commute_minutes&quot;: 51,
+    &quot;transfer_minutes&quot;: 0,
+    &quot;transit_line&quot;: &quot;London Underground (Northern line - Bank branch)&quot;,
+    &quot;walk_time_minutes&quot;: 19
+  },
+  &quot;land_registry_summary&quot;: {
+    &quot;_cache&quot;: true,
+    &quot;area_benchmark&quot;: {
+      &quot;area_source&quot;: &quot;epc_bulk total_floor_area&quot;,
+      &quot;coverage_pct&quot;: 53,
+      &quot;high_gbp_sqft&quot;: 902,
+      &quot;low_gbp_sqft&quot;: 202,
+      &quot;median_gbp_sqft&quot;: 612,
+      &quot;of_sales&quot;: 15,
+      &quot;sample&quot;: 8
+    },
+    &quot;number_known&quot;: true,
+    &quot;postcode_sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1995-09-11&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;8&quot;,
+        &quot;postcode&quot;: &quot;EN5 4LB&quot;,
+        &quot;price&quot;: 225000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;SUNSET VIEW&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;1B5D4EBD-4072-40FD-9C1B-B1ECE4EA6108&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1998-07-23&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;11&quot;,
+        &quot;postcode&quot;: &quot;EN5 4LB&quot;,
+        &quot;price&quot;: 280000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;SUNSET VIEW&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;5BF2652B-2493-42D4-BCE1-137D523730CB&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2003-02-28&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;10&quot;,
+        &quot;postcode&quot;: &quot;EN5 4LB&quot;,
+        &quot;price&quot;: 575000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;SUNSET VIEW&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;63067F43-DB86-4A26-A0ED-6C89F9D12F01&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2006-02-09&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;8&quot;,
+        &quot;postcode&quot;: &quot;EN5 4LB&quot;,
+        &quot;price&quot;: 785000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;SUNSET VIEW&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;64442639-2CC3-4319-BC54-671186CAC6C2&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2006-09-08&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;7&quot;,
+        &quot;postcode&quot;: &quot;EN5 4LB&quot;,
+        &quot;price&quot;: 1100000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;SUNSET VIEW&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;80E9D6E6-B64C-40C4-A30E-82B2A85E187B&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2006-12-05&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;4&quot;,
+        &quot;postcode&quot;: &quot;EN5 4LB&quot;,
+        &quot;price&quot;: 560000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;SUNSET VIEW&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;64DFA4D7-6493-4976-9BC5-8611F93CF426&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2009-05-11&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;10&quot;,
+        &quot;postcode&quot;: &quot;EN5 4LB&quot;,
+        &quot;price&quot;: 955000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;SUNSET VIEW&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;EA7E8477-2D48-4461-9C21-78725DE1E460&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2014-03-07&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;9&quot;,
+        &quot;postcode&quot;: &quot;EN5 4LB&quot;,
+        &quot;price&quot;: 1600000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;SUNSET VIEW&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;961FBA46-1A26-47CA-9111-393CC35E5141&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-03-01&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;14&quot;,
+        &quot;postcode&quot;: &quot;EN5 4LB&quot;,
+        &quot;price&quot;: 1300000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;SUNSET VIEW&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;4C4EDFFF-AA57-1854-E050-A8C063054F34&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-06-09&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;1&quot;,
+        &quot;postcode&quot;: &quot;EN5 4LB&quot;,
+        &quot;price&quot;: 1020000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;SUNSET VIEW&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;5376B385-B8DD-34C1-E053-6B04A8C09FF6&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2018-03-08&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;16&quot;,
+        &quot;postcode&quot;: &quot;EN5 4LB&quot;,
+        &quot;price&quot;: 1150000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;SUNSET VIEW&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;68FEB20B-BF92-38DA-E053-6C04A8C051AE&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2020-06-04&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;MILL HOUSE&quot;,
+        &quot;postcode&quot;: &quot;EN5 4LB&quot;,
+        &quot;price&quot;: 980000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;SUNSET VIEW&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;AC07BBD0-4977-0445-E053-6C04A8C01E31&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2021-02-25&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;13&quot;,
+        &quot;postcode&quot;: &quot;EN5 4LB&quot;,
+        &quot;price&quot;: 1300000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;SUNSET VIEW&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;C18F412B-1C1E-81A6-E053-6B04A8C0AD18&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2022-10-07&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;15&quot;,
+        &quot;postcode&quot;: &quot;EN5 4LB&quot;,
+        &quot;price&quot;: 1700000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;SUNSET VIEW&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;EC7AD099-FB43-9200-E053-6C04A8C0E306&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2025-10-02&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;18&quot;,
+        &quot;postcode&quot;: &quot;EN5 4LB&quot;,
+        &quot;price&quot;: 1440000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;SUNSET VIEW&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;42C129E4-DE60-60A9-E063-4804A8C0C25D&quot;
+      }
+    ],
+    &quot;sales&quot;: [],
+    &quot;scope&quot;: &quot;address_no_sale&quot;,
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;latitude&quot;: 51.659919,
+  &quot;liverpool_st_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Lengthy (&gt;55m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 36,
+    &quot;route_summary&quot;: &quot;Northern line (Bank branch) direct to Moorgate (36 min) + 4 min Elizabeth line link to Liverpool St&quot;,
+    &quot;secondary_route&quot;: &quot;Hadley Wood (1.699 mi, ~34m walk) \u2794 Great Northern (National Rail) (29m rail) = ~67m total&quot;,
+    &quot;station_distance_miles&quot;: 0.928,
+    &quot;station_name&quot;: &quot;High Barnet&quot;,
+    &quot;total_commute_minutes&quot;: 59,
+    &quot;transfer_minutes&quot;: 4,
+    &quot;transit_line&quot;: &quot;London Underground (Northern line - Bank branch)&quot;,
+    &quot;walk_time_minutes&quot;: 19
+  },
+  &quot;living_rooms&quot;: 3,
+  &quot;longitude&quot;: -0.205299,
+  &quot;nearest_station&quot;: &quot;High Barnet&quot;,
+  &quot;nice_to_haves&quot;: [
+    {
+      &quot;detail&quot;: &quot;Not mentioned; UK EPCs do not record domestic cooling&quot;,
+      &quot;label&quot;: &quot;Air conditioning&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned in the listing or EPC&quot;,
+      &quot;label&quot;: &quot;Underfloor heating&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Photos suggest south \u2014 confirm with a compass&quot;,
+      &quot;label&quot;: &quot;South-facing garden&quot;,
+      &quot;status&quot;: &quot;photo-hint&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned and no overhead glazing seen in photos&quot;,
+      &quot;label&quot;: &quot;Sun roof / lantern in living areas&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;No ground-floor bedroom, but the plan shows a second sitting room \u2014 Living Room, 16.3 x 12.1 ft \u2014 which serves the same downstairs space&quot;,
+      &quot;label&quot;: &quot;Second ground-floor sitting room&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Largest living area is 13.0 ft (Study/Dining Room, floor-plan) \u2014 below the 15 ft mark&quot;,
+      &quot;label&quot;: &quot;Wide living room&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Living Room measures 16.3 x 12.1 ft (197 sq ft) on the floor plan, a separate room from the Study/Dining Room \u2014 room for a smaller screen or fewer seats; at that size it holds a 97-inch screen with the front row 8.1 ft from it, 1 recliner row of 5 across (12.8 ft of frontage, a modular sectional run), 5 seats&quot;,
+      &quot;label&quot;: &quot;Home theatre potential&quot;,
+      &quot;status&quot;: &quot;photo-hint&quot;
+    }
+  ],
+  &quot;overall_verdict&quot;: &quot;Secondary Assessment Needed: Low scores across multiple dimensions.&quot;,
+  &quot;planning_summary&quot;: {
+    &quot;_cache&quot;: true,
+    &quot;applications&quot;: [],
+    &quot;properties&quot;: [
+      {
+        &quot;key&quot;: &quot;NC27FV00DT005&quot;,
+        &quot;text&quot;: &quot;3 Sunset View Barnet EN5 4LB&quot;,
+        &quot;url&quot;: &quot;https://publicaccess.barnet.gov.uk/online-applications/propertyDetails.do?activeTab=summary&amp;keyVal=NC27FV00DT005&quot;
+      }
+    ],
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;price_display&quot;: &quot;\u00a31,495,000&quot;,
+  &quot;price_per_sq_ft&quot;: null,
+  &quot;property_id&quot;: &quot;68255943&quot;,
+  &quot;property_images&quot;: [
+    &quot;https://lid.zoocdn.com/u/1024/768/0aa7b219c7766c5eda8cc4b20a65dc76a691a2fc.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/3e30e7253115aefac6de9b9f70b883b9b9917093.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/83a0e1911e266b723554e239120c7bbfde4657bd.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/f16924321c176af8082b63146e6ec18b651abf32.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/3269b68b4ac682573a19ccf10414962ca6943d3e.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/208a6e088a86a90df241a37eec5a5bfe8fe4de76.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/418c05f9a46bd870844b9438b1e5d4633d09ac85.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/90dfbb3fb74d44f926389715bd44024c5c4cc8bc.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/308de44c2f75b6c115f663fb0b2ead7a75a1da31.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/7ed7a61aeee0f26cc045d8e72fdd8c79dd358172.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/684b59aed3e058428467008e005eeba294ba4bd2.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/8921d42d20641e4c29f61caba226554d3937f11f.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/cabd4c6eb3ff34fe5f6ac161be2614fe01f0882f.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/50c73db83715a2891708d69ae2fd533ae7f63fbf.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/45407b4952c9adb99554d3fd61d59470923a49a1.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/018bb8855a208dca5a49e3d92bf6d32350adf0b4.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/e3c3775b8ff9518dc64f69599b36fd56b4d5bf97.jpg&quot;
+  ],
+  &quot;property_type&quot;: &quot;4 bed detached house for sale&quot;,
+  &quot;size_sq_ft&quot;: null,
+  &quot;size_sq_m&quot;: null,
+  &quot;station_distance_miles&quot;: 0.93,
+  &quot;station_distance_source&quot;: &quot;routed&quot;,
+  &quot;tenure&quot;: &quot;Freehold&quot;,
+  &quot;walk_time_minutes&quot;: 19
+}</pre>
+  </details>
+
+  <div class="foot"><div><a href="station-road-new-barnet-en5.html">← Station Road</a></div><div><a href="beresford-avenue-london-n20.html">→ Beresford Avenue</a></div></div>
+
+  <p class="note" style="margin-top:26px">Generated 2026-10-01 from
+  <code>reviews/property_reviews.json</code>. Map data &copy;
+  <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</p>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
+<script>window.__PINS__ = [{"id": "68255943", "lat": 51.659919, "lon": -0.205299, "addr": "Sunset View", "price": "\u00a31,495,000", "sqft": "\u2014", "epc": "F", "score": 25.2, "colour": "#a8322d", "tags": [], "tag_html": "", "href": "#"}];</script>
+<script>window.__SLIDES__ = ["https://lid.zoocdn.com/u/1024/768/0aa7b219c7766c5eda8cc4b20a65dc76a691a2fc.jpg", "https://lid.zoocdn.com/u/1024/768/3e30e7253115aefac6de9b9f70b883b9b9917093.jpg", "https://lid.zoocdn.com/u/1024/768/83a0e1911e266b723554e239120c7bbfde4657bd.jpg", "https://lid.zoocdn.com/u/1024/768/f16924321c176af8082b63146e6ec18b651abf32.jpg", "https://lid.zoocdn.com/u/1024/768/3269b68b4ac682573a19ccf10414962ca6943d3e.jpg", "https://lid.zoocdn.com/u/1024/768/208a6e088a86a90df241a37eec5a5bfe8fe4de76.jpg", "https://lid.zoocdn.com/u/1024/768/418c05f9a46bd870844b9438b1e5d4633d09ac85.jpg", "https://lid.zoocdn.com/u/1024/768/90dfbb3fb74d44f926389715bd44024c5c4cc8bc.jpg", "https://lid.zoocdn.com/u/1024/768/308de44c2f75b6c115f663fb0b2ead7a75a1da31.jpg", "https://lid.zoocdn.com/u/1024/768/7ed7a61aeee0f26cc045d8e72fdd8c79dd358172.jpg", "https://lid.zoocdn.com/u/1024/768/684b59aed3e058428467008e005eeba294ba4bd2.jpg", "https://lid.zoocdn.com/u/1024/768/8921d42d20641e4c29f61caba226554d3937f11f.jpg", "https://lid.zoocdn.com/u/1024/768/cabd4c6eb3ff34fe5f6ac161be2614fe01f0882f.jpg", "https://lid.zoocdn.com/u/1024/768/50c73db83715a2891708d69ae2fd533ae7f63fbf.jpg", "https://lid.zoocdn.com/u/1024/768/45407b4952c9adb99554d3fd61d59470923a49a1.jpg", "https://lid.zoocdn.com/u/1024/768/018bb8855a208dca5a49e3d92bf6d32350adf0b4.jpg", "https://lid.zoocdn.com/u/1024/768/e3c3775b8ff9518dc64f69599b36fd56b4d5bf97.jpg"];</script>
+<script>
+(function () {
+  var el = document.getElementById('map');
+  if (!el || typeof L === 'undefined') { return; }
+  var data = window.__PINS__ || [];
+  if (!data.length || data[0].lat === null) { el.style.display = 'none'; return; }
+  var map = L.map('map', { scrollWheelZoom: false, dragging: false,
+                           doubleClickZoom: false, boxZoom: false,
+                           keyboard: false, zoomControl: false });
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  var group = L.featureGroup().addTo(map);
+  data.forEach(function (p) {
+    if (p.lat === null) { return; }
+    L.circleMarker([p.lat, p.lon], { radius: 10, color: '#ffffff', weight: 3,
+                                     fillColor: p.colour, fillOpacity: 0.95 }).addTo(group);
+  });
+  if (group.getBounds().isValid()) { map.fitBounds(group.getBounds().pad(0.35)); }
+  L.control.attribution({ prefix: false }).addTo(map);
+})();
+</script>
+<script>
+(function () {
+  var shots = window.__SLIDES__ || [];
+  var img = document.getElementById('slide-img');
+  var link = document.getElementById('slide-link');
+  var prev = document.getElementById('slide-prev');
+  var next = document.getElementById('slide-next');
+  var num = document.getElementById('slide-n');
+  if (!img || !link || shots.length < 2) {
+    if (prev) { prev.disabled = true; }
+    if (next) { next.disabled = true; }
+    return;
+  }
+  var at = 0;
+
+  function show(i) {
+    at = (i + shots.length) % shots.length;
+    img.src = shots[at];
+    img.alt = 'Listing photo ' + (at + 1) + ' of ' + shots.length +
+              ' — open full size';
+    link.href = shots[at];
+    if (num) { num.textContent = String(at + 1); }
+  }
+
+  // Only the neighbours are warmed: a 34-photo listing at 136 KB each is
+  // 4.6 MB if the whole gallery is fetched up front, for images the reader may
+  // never scroll to.
+  function warm() {
+    [at + 1, at - 1].forEach(function (k) {
+      var j = (k + shots.length) % shots.length;
+      if (j !== at) { new Image().src = shots[j]; }
+    });
+  }
+
+  prev.addEventListener('click', function () { show(at - 1); warm(); });
+  next.addEventListener('click', function () { show(at + 1); warm(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) { return; }
+    if (e.key === 'ArrowLeft') { show(at - 1); warm(); }
+    if (e.key === 'ArrowRight') { show(at + 1); warm(); }
+  });
+  show(0);
+  warm();
+})();
+</script>
+</body></html>

@@ -1,0 +1,642 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>High Road — review</title>
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <h1>High Road</h1>
+  <p class="sub">High Road, Whetstone, London N20</p>
+  <nav class="crumbs"><a href="../index.html">← Back to the map</a> &middot;
+  <a href="../index.html#all-rank-24">Rank #24 of All properties</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="panel">
+    <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between">
+      <div>
+        <span class="pill" style="background:#c2760a">53.5 Score</span>
+        <span class="badge tag-systems">Modern Systems</span>
+      </div>
+      <div style="font-size:13px;color:var(--muted)">
+        24 of 164 &middot; score 53.5
+      </div>
+    </div>
+    <div class="verdict">Proceed with Caution: Moderate scores, verify key items during survey.</div>
+  </div>
+
+  <h3>At a glance</h3>
+  <div class="grid"><div class="stat"><div class="k">Asking price</div><div class="v">£1,095,000</div></div><div class="stat"><div class="k">Property type</div><div class="v">4 bed detached house for sale</div></div><div class="stat"><div class="k">Tenure</div><div class="v">Freehold</div></div><div class="stat"><div class="k">Size</div><div class="v">1,833 sq ft / 170.3 m²</div></div><div class="stat"><div class="k">Price per sq ft</div><div class="v">£597.4</div></div><div class="stat"><div class="k">Bedrooms</div><div class="v">4</div></div><div class="stat"><div class="k">Bathrooms</div><div class="v">2</div></div><div class="stat"><div class="k">Living rooms</div><div class="v">3</div></div><div class="stat"><div class="k">EPC (current / potential)</div><div class="v">D / B</div></div><div class="stat"><div class="k">Nearest station</div><div class="v">Oakleigh Park · 0.8 mi · ~17 min walk</div></div><div class="stat wide"><div class="k">Commute to Liverpool St</div><div class="v">45 min (Great Northern direct to Moorgate (24 min) + 4 min walk via integrated Elizabeth line concourse to Liverpool St)</div></div><div class="stat wide"><div class="k">Commute to King&#x27;s Cross</div><div class="v">34 min (Great Northern direct to King&#x27;s Cross St Pancras (17 min))</div></div></div>
+
+  <h3>Nice-to-haves</h3>
+  <div class="panel">
+    <table class="nice">
+      <thead><tr><th>Signal</th><th>Status</th><th>Detail</th></tr></thead>
+      <tbody><tr><td>Air conditioning</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned; UK EPCs do not record domestic cooling</td></tr><tr><td>Underfloor heating</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned in the listing or EPC</td></tr><tr><td>South-facing garden</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Floor-plan north arrow puts the garden north (not south)</td></tr><tr><td>Sun roof / lantern in living areas</td><td><span class="nh-status nh-photo_hint">photo-hint</span></td><td>conservatory roof seen in a living-area photo (room unverified)</td></tr><tr><td>Second ground-floor sitting room</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>No ground-floor bedroom, but the plan shows a second sitting room — Reception Room, 4.4 x 4.0 ft — which serves the same downstairs space</td></tr><tr><td>Wide living room</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Largest living area is 4.2 ft (Lounge, floor-plan) — below the 15 ft mark</td></tr><tr><td>Home theatre potential</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>No cinema or media room mentioned, and no other room on the plan is large enough to be one</td></tr></tbody>
+    </table>
+  </div>
+
+<div class="panel"><h2>Photos — 27</h2><div class="slides" id="slides"><div class="slide-frame"><a id="slide-link" href="https://lid.zoocdn.com/u/1024/768/4b1bed333766eec56889c4d79b2cab1e83f66564.jpg" rel="noopener"><img id="slide-img" src="https://lid.zoocdn.com/u/1024/768/4b1bed333766eec56889c4d79b2cab1e83f66564.jpg" alt="Listing photo 1 of 27 — open full size" loading="lazy"></a><button type="button" class="slide-nav prev" id="slide-prev" aria-label="Previous photo">&#8249;</button><button type="button" class="slide-nav next" id="slide-next" aria-label="Next photo">&#8250;</button><span class="slide-badge"><span id="slide-n">1</span> / 27</span></div></div><p class="note" style="margin-top:8px">Arrow keys page through the gallery; click a photo to open it full size. These are the listing's own photographs, at the highest resolution its image host serves.</p></div>
+
+  <div class="layout">
+    <div class="panel sticky">
+      <h2>Where it is</h2>
+      <div id="map" style="height:330px;border-radius:8px"></div>
+      <p class="note" style="margin-top:10px">
+        Pin is the listing's own coordinates. Map tiles are OpenStreetMap.
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=51.639444,-0.179625" rel="noopener">Open in Google Maps →</a>
+        &middot; <a href="https://www.openstreetmap.org/?mlat=51.639444&amp;mlon=-0.179625#map=18/51.639444/-0.179625" rel="noopener">Open in OpenStreetMap →</a>
+        &middot; <a href="https://www.zoopla.co.uk/for-sale/details/72275421/" rel="noopener">Zoopla listing →</a>
+      </p>
+    </div>
+    <div class="panel">
+      <h2>Floorplan analysis</h2>
+      <a href="https://lid.zoocdn.com/u/1024/768/d2ad23e033a4f3c7caa6cc4dfc2b2582806d6cb5.jpg" rel="noopener"><img class="plan" src="https://lid.zoocdn.com/u/1024/768/d2ad23e033a4f3c7caa6cc4dfc2b2582806d6cb5.jpg" alt="Floor plan for High Road, Whetstone, London N20" loading="lazy"></a><p class="note">13 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are listed without one. <a href="https://lid.zoocdn.com/u/1024/768/d2ad23e033a4f3c7caa6cc4dfc2b2582806d6cb5.jpg" rel="noopener">Open the full-size plan →</a></p><table class="nice compact"><thead><tr><th>Room</th><th>Type</th><th>Floor</th><th>Dimensions</th><th>Area</th></tr></thead><tbody><tr><td>Garage</td><td>outbuilding</td><td>ground</td><td class="num">5.2 &times; 2.4 ft</td><td class="num">12 sq ft</td></tr><tr><td>Garden</td><td>garden</td><td>ground</td><td class="num">21.2 &times; 11 ft</td><td class="num">233 sq ft</td></tr><tr><td>Conservatory</td><td>outbuilding</td><td>ground</td><td class="num">6.6 &times; 3.8 ft</td><td class="num">25 sq ft</td></tr><tr><td>Kitchen</td><td>kitchen</td><td>ground</td><td class="num">4.1 &times; 3.6 ft</td><td class="num">15 sq ft</td></tr><tr><td>Reception Room</td><td>living</td><td>ground</td><td class="num">4.4 &times; 4 ft</td><td class="num">18 sq ft</td></tr><tr><td>Lounge</td><td>living</td><td>ground</td><td class="num">5 &times; 4.2 ft</td><td class="num">21 sq ft</td></tr><tr><td>Pantry</td><td>store</td><td>ground</td><td class="num">not printed</td><td class="num">—</td></tr><tr><td>Hallway</td><td>circulation</td><td>ground</td><td class="num">4.5 &times; 2.4 ft</td><td class="num">11 sq ft</td></tr><tr><td>Bathroom</td><td>bathroom</td><td>first</td><td class="num">2.4 &times; 1.9 ft</td><td class="num">5 sq ft</td></tr><tr><td>Bedroom</td><td>bedroom</td><td>first</td><td class="num">3.7 &times; 3.3 ft</td><td class="num">12 sq ft</td></tr><tr><td>Bedroom</td><td>bedroom</td><td>first</td><td class="num">4.4 &times; 3.9 ft</td><td class="num">17 sq ft</td></tr><tr><td>Bedroom</td><td>bedroom</td><td>first</td><td class="num">3.2 &times; 2.5 ft</td><td class="num">8 sq ft</td></tr><tr><td>Bedroom</td><td>bedroom</td><td>first</td><td class="num">5.2 &times; 4.2 ft</td><td class="num">22 sq ft</td></tr></tbody></table>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-top:22px">
+    <h2>Score breakdown — 53.5/100</h2>
+    <div class="bar-row with-evidence"><span class="lbl">Location &amp; transport</span><span class="bar"><i style="width:30.0%;background:#a8322d"></i></span><span class="num">6.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Nearest station Oakleigh Park 17 min walk (0.83 mi routed walk) (+2)</li><li><span class="tick">✓</span>No station within 0.8 mi walking distance (nearest is 0.83 mi)</li><li><span class="tick">✓</span>Good Liverpool St commute: ~45 mins door-to-concourse via Oakleigh Park (17m walk + 24m rail) (+2)</li><li><span class="tick">✓</span>King&#x27;s Cross St Pancras commute ~34 mins via Oakleigh Park (+2)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Space, scale &amp; layout</span><span class="bar"><i style="width:57.5%;background:#a8322d"></i></span><span class="num">11.5</span><ul class="ticks compact"><li><span class="tick">✓</span>Square footage taken from floor plan (image analysis)</li><li><span class="tick">✓</span>Generous proportions: 1,833.0 sq ft total (458 sq ft/bed) (+5.5)</li><li><span class="tick">✓</span>Well balanced bathroom ratio (2 baths for 4 beds) (+2)</li><li><span class="tick">✓</span>Two or more reception rooms (3) (+1)</li><li><span class="tick">✓</span>Living room width: 4.2 ft (below 15 ft)</li><li><span class="tick">✓</span>No ground-floor bedroom, but a second ground-floor sitting room (Reception Room 4.4 x 4.0 ft) gives the same downstairs space (+3)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Financial efficiency</span><span class="bar"><i style="width:52.0%;background:#a8322d"></i></span><span class="num">7.8</span><ul class="ticks compact"><li><span class="tick">✓</span>£597 per sq ft on 1,833 sq ft (+4 of 7.5)</li><li><span class="tick">✓</span>£1,095,000 asking price (+3.8 of 7.5)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Technical &amp; EPC</span><span class="bar"><i style="width:81.0%;background:#a8322d"></i></span><span class="num">16.2</span><ul class="ticks compact"><li><span class="tick">✓</span>EPC Band D (4.5) + no secondary heating (1) + insulated roof (2) + high-performance glazing (1.75) (+9.25 of 10)</li><li><span class="tick">✓</span>Roof glazing seen in photos: conservatory roof (+5)</li><li><span class="tick">✓</span>EPC: pitched roof with accessible loft (pitched, 300 mm loft insulation) — scope for a simple loft extension (structural survey still required) (+2)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Observed presentation</span><span class="bar"><i style="width:40.0%;background:#a8322d"></i></span><span class="num">6.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Presented finish observed as partially modernised in listing photographs (image analysis) (+3 of 7)</li><li><span class="tick">✓</span>Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Garden &amp; outdoor</span><span class="bar"><i style="width:60.0%;background:#a8322d"></i></span><span class="num">6.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Outbuilding present (+2)</li><li><span class="tick">✓</span>Gated side access / independent rear pathway (image analysis) (+4)</li></ul></div>
+    <p class="note">The combined score rewards location, space, financial efficiency,
+    technical specification, observed presentation, and garden quality. Every line
+    lists the evidence that earned it, so a component cannot be read as a verdict
+    without the reason attached.</p>
+  </div>
+
+  <h3>Land Registry</h3>
+  <div class="panel">
+    <p><strong>£1,095,000 on 2022-05-19<br><span class="note">First recorded sale: 2022-05-19</span></strong></p>
+    <p>£272/sq ft median (range £105–£869), from 6 of 9 local sales (67% priced). <span class="note">Floor area is borrowed from the EPC extract (epc_bulk total_floor_area) because sale records carry none; small samples are heavy-tailed, so the median is used and withheld below 5 priced sales.</span></p>
+    <p class="note">9 raw sale record(s) exist in this postcode. They are the neighbourhood's history, not this home's, and are deliberately not presented as its own.</p>
+    <p class="note">Scope <code>address</code> — sale history is only ever
+    attributed to this home when a house number was derived and matched.</p>
+  </div>
+
+  <h3>Planning</h3>
+  <div class="panel"><p class="note">1 planning record(s) matched this address:</p><ul class="ticks"><li><a href="https://publicaccess.barnet.gov.uk/online-applications/propertyDetails.do?activeTab=summary&amp;keyVal=NC1TKK00DT005" rel="noopener">1528 High Road London N20 9PT</a></li></ul></div>
+
+  <div style="margin-top:22px">
+    <div class="panel"><h2>Photographic evidence reviewed for the score</h2><p class="note">Points are awarded only for detected listing, EPC, or photographic evidence, and each component above lists what it found. Systems without such evidence score zero and are omitted rather than listed as inspection tasks. These notes record what the photos did and did not show.</p><ul class="ticks"><li>28 property photo(s) analysed by local vision model (Qwen3-VL)</li><li>Photographic-evidence score: 35.0/100 (high confidence; condition 22/35, kitchen/bath 0/20, glazing 3/20, structure 4/15, legibility 6/10)</li><li>Floor-plan internal area read from the plan: 1,833 sq ft (scoring measure)</li><li>Condition tier inferred from photos: partially modernised</li><li>Not captured in the photos: extension evidence, garden aspect, kitchen, parking, render, roof (…)</li></ul></div>
+  </div>
+
+  
+
+  <details class="raw">
+    <summary>Raw review record (JSON)</summary>
+    <pre>{
+  &quot;asking_price&quot;: 1095000,
+  &quot;bathrooms&quot;: 2,
+  &quot;bedrooms&quot;: 4,
+  &quot;combined_score&quot;: {
+    &quot;detected_features&quot;: [
+      &quot;Nearest station Oakleigh Park 17 min walk (0.83 mi routed walk) (+2)&quot;,
+      &quot;No station within 0.8 mi walking distance (nearest is 0.83 mi)&quot;,
+      &quot;Good Liverpool St commute: ~45 mins door-to-concourse via Oakleigh Park (17m walk + 24m rail) (+2)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~34 mins via Oakleigh Park (+2)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Generous proportions: 1,833.0 sq ft total (458 sq ft/bed) (+5.5)&quot;,
+      &quot;Well balanced bathroom ratio (2 baths for 4 beds) (+2)&quot;,
+      &quot;Two or more reception rooms (3) (+1)&quot;,
+      &quot;Living room width: 4.2 ft (below 15 ft)&quot;,
+      &quot;No ground-floor bedroom, but a second ground-floor sitting room (Reception Room 4.4 x 4.0 ft) gives the same downstairs space (+3)&quot;,
+      &quot;\u00a3597 per sq ft on 1,833 sq ft (+4 of 7.5)&quot;,
+      &quot;\u00a31,095,000 asking price (+3.8 of 7.5)&quot;,
+      &quot;EPC Band D (4.5) + no secondary heating (1) + insulated roof (2) + high-performance glazing (1.75) (+9.25 of 10)&quot;,
+      &quot;Roof glazing seen in photos: conservatory roof (+5)&quot;,
+      &quot;EPC: pitched roof with accessible loft (pitched, 300 mm loft insulation) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;,
+      &quot;Presented finish observed as partially modernised in listing photographs (image analysis) (+3 of 7)&quot;,
+      &quot;Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)&quot;,
+      &quot;Outbuilding present (+2)&quot;,
+      &quot;Gated side access / independent rear pathway (image analysis) (+4)&quot;
+    ],
+    &quot;evidence&quot;: {
+      &quot;financial_efficiency&quot;: [
+        &quot;\u00a3597 per sq ft on 1,833 sq ft (+4 of 7.5)&quot;,
+        &quot;\u00a31,095,000 asking price (+3.8 of 7.5)&quot;
+      ],
+      &quot;garden_outdoor&quot;: [
+        &quot;Outbuilding present (+2)&quot;,
+        &quot;Gated side access / independent rear pathway (image analysis) (+4)&quot;
+      ],
+      &quot;location_transport&quot;: [
+        &quot;Nearest station Oakleigh Park 17 min walk (0.83 mi routed walk) (+2)&quot;,
+        &quot;No station within 0.8 mi walking distance (nearest is 0.83 mi)&quot;,
+        &quot;Good Liverpool St commute: ~45 mins door-to-concourse via Oakleigh Park (17m walk + 24m rail) (+2)&quot;,
+        &quot;King&#x27;s Cross St Pancras commute ~34 mins via Oakleigh Park (+2)&quot;
+      ],
+      &quot;observed_presentation&quot;: [
+        &quot;Presented finish observed as partially modernised in listing photographs (image analysis) (+3 of 7)&quot;,
+        &quot;Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)&quot;
+      ],
+      &quot;space_layout&quot;: [
+        &quot;Square footage taken from floor plan (image analysis)&quot;,
+        &quot;Generous proportions: 1,833.0 sq ft total (458 sq ft/bed) (+5.5)&quot;,
+        &quot;Well balanced bathroom ratio (2 baths for 4 beds) (+2)&quot;,
+        &quot;Two or more reception rooms (3) (+1)&quot;,
+        &quot;Living room width: 4.2 ft (below 15 ft)&quot;,
+        &quot;No ground-floor bedroom, but a second ground-floor sitting room (Reception Room 4.4 x 4.0 ft) gives the same downstairs space (+3)&quot;
+      ],
+      &quot;technical_epc&quot;: [
+        &quot;EPC Band D (4.5) + no secondary heating (1) + insulated roof (2) + high-performance glazing (1.75) (+9.25 of 10)&quot;,
+        &quot;Roof glazing seen in photos: conservatory roof (+5)&quot;,
+        &quot;EPC: pitched roof with accessible loft (pitched, 300 mm loft insulation) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;
+      ]
+    },
+    &quot;financial_efficiency&quot;: 7.8,
+    &quot;garden_outdoor&quot;: 6.0,
+    &quot;location_transport&quot;: 6.0,
+    &quot;notes&quot;: [
+      &quot;Nearest station Oakleigh Park 17 min walk (0.83 mi routed walk) (+2)&quot;,
+      &quot;No station within 0.8 mi walking distance (nearest is 0.83 mi)&quot;,
+      &quot;Good Liverpool St commute: ~45 mins door-to-concourse via Oakleigh Park (17m walk + 24m rail) (+2)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~34 mins via Oakleigh Park (+2)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Generous proportions: 1,833.0 sq ft total (458 sq ft/bed) (+5.5)&quot;,
+      &quot;Well balanced bathroom ratio (2 baths for 4 beds) (+2)&quot;,
+      &quot;Two or more reception rooms (3) (+1)&quot;,
+      &quot;EPC Band D&quot;
+    ],
+    &quot;observed_presentation&quot;: 6.0,
+    &quot;space_layout&quot;: 11.5,
+    &quot;tags&quot;: [
+      &quot;Modern Systems&quot;
+    ],
+    &quot;technical_epc&quot;: 16.2,
+    &quot;total_score&quot;: 53.5,
+    &quot;vision_facts&quot;: [
+      &quot;28 property photo(s) analysed by local vision model (Qwen3-VL)&quot;,
+      &quot;Photographic-evidence score: 35.0/100 (high confidence; condition 22/35, kitchen/bath 0/20, glazing 3/20, structure 4/15, legibility 6/10)&quot;,
+      &quot;Floor-plan internal area read from the plan: 1,833 sq ft (scoring measure)&quot;,
+      &quot;Condition tier inferred from photos: partially modernised&quot;,
+      &quot;Not captured in the photos: extension evidence, garden aspect, kitchen, parking, render, roof (\u2026)&quot;
+    ]
+  },
+  &quot;data_gaps&quot;: [],
+  &quot;epc_potential&quot;: &quot;B&quot;,
+  &quot;epc_rating&quot;: &quot;D&quot;,
+  &quot;floorplan_image_url&quot;: &quot;https://lid.zoocdn.com/u/1024/768/d2ad23e033a4f3c7caa6cc4dfc2b2582806d6cb5.jpg&quot;,
+  &quot;floorplan_rooms&quot;: [
+    {
+      &quot;area_sq_ft&quot;: 12,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;outbuilding&quot;,
+      &quot;label&quot;: &quot;Garage&quot;,
+      &quot;length_ft&quot;: 5.2,
+      &quot;width_ft&quot;: 2.4
+    },
+    {
+      &quot;area_sq_ft&quot;: 233,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;garden&quot;,
+      &quot;label&quot;: &quot;Garden&quot;,
+      &quot;length_ft&quot;: 21.2,
+      &quot;width_ft&quot;: 11.0
+    },
+    {
+      &quot;area_sq_ft&quot;: 25,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;outbuilding&quot;,
+      &quot;label&quot;: &quot;Conservatory&quot;,
+      &quot;length_ft&quot;: 6.6,
+      &quot;width_ft&quot;: 3.8
+    },
+    {
+      &quot;area_sq_ft&quot;: 15,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;kitchen&quot;,
+      &quot;label&quot;: &quot;Kitchen&quot;,
+      &quot;length_ft&quot;: 4.1,
+      &quot;width_ft&quot;: 3.6
+    },
+    {
+      &quot;area_sq_ft&quot;: 18,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;living&quot;,
+      &quot;label&quot;: &quot;Reception Room&quot;,
+      &quot;length_ft&quot;: 4.4,
+      &quot;width_ft&quot;: 4.0
+    },
+    {
+      &quot;area_sq_ft&quot;: 21,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;living&quot;,
+      &quot;label&quot;: &quot;Lounge&quot;,
+      &quot;length_ft&quot;: 5.0,
+      &quot;width_ft&quot;: 4.2
+    },
+    {
+      &quot;area_sq_ft&quot;: null,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;store&quot;,
+      &quot;label&quot;: &quot;Pantry&quot;,
+      &quot;length_ft&quot;: null,
+      &quot;width_ft&quot;: null
+    },
+    {
+      &quot;area_sq_ft&quot;: 11,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;circulation&quot;,
+      &quot;label&quot;: &quot;Hallway&quot;,
+      &quot;length_ft&quot;: 4.5,
+      &quot;width_ft&quot;: 2.4
+    },
+    {
+      &quot;area_sq_ft&quot;: 5,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bathroom&quot;,
+      &quot;label&quot;: &quot;Bathroom&quot;,
+      &quot;length_ft&quot;: 2.4,
+      &quot;width_ft&quot;: 1.9
+    },
+    {
+      &quot;area_sq_ft&quot;: 12,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom&quot;,
+      &quot;length_ft&quot;: 3.7,
+      &quot;width_ft&quot;: 3.3
+    },
+    {
+      &quot;area_sq_ft&quot;: 17,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom&quot;,
+      &quot;length_ft&quot;: 4.4,
+      &quot;width_ft&quot;: 3.9
+    },
+    {
+      &quot;area_sq_ft&quot;: 8,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom&quot;,
+      &quot;length_ft&quot;: 3.2,
+      &quot;width_ft&quot;: 2.5
+    },
+    {
+      &quot;area_sq_ft&quot;: 22,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom&quot;,
+      &quot;length_ft&quot;: 5.2,
+      &quot;width_ft&quot;: 4.2
+    }
+  ],
+  &quot;full_address&quot;: &quot;High Road, Whetstone, London N20&quot;,
+  &quot;kings_cross_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Top Tier (&lt;35m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 17,
+    &quot;route_summary&quot;: &quot;Great Northern direct to King&#x27;s Cross St Pancras (17 min)&quot;,
+    &quot;secondary_route&quot;: &quot;Totteridge &amp; Whetstone (1.093 mi, ~22m walk) \u2794 London Underground (Northern line - Bank branch) (29m rail) = ~51m total&quot;,
+    &quot;station_distance_miles&quot;: 0.829,
+    &quot;station_name&quot;: &quot;Oakleigh Park&quot;,
+    &quot;total_commute_minutes&quot;: 34,
+    &quot;transfer_minutes&quot;: 0,
+    &quot;transit_line&quot;: &quot;Great Northern (National Rail)&quot;,
+    &quot;walk_time_minutes&quot;: 17
+  },
+  &quot;land_registry_summary&quot;: {
+    &quot;_cache&quot;: true,
+    &quot;area_benchmark&quot;: {
+      &quot;area_source&quot;: &quot;epc_bulk total_floor_area&quot;,
+      &quot;coverage_pct&quot;: 67,
+      &quot;high_gbp_sqft&quot;: 869,
+      &quot;low_gbp_sqft&quot;: 105,
+      &quot;median_gbp_sqft&quot;: 272,
+      &quot;of_sales&quot;: 9,
+      &quot;sample&quot;: 6
+    },
+    &quot;first_sale_date&quot;: &quot;2022-05-19&quot;,
+    &quot;last_sale_date&quot;: &quot;2022-05-19&quot;,
+    &quot;last_sale_price&quot;: 1095000,
+    &quot;number_known&quot;: true,
+    &quot;postcode_sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1996-04-19&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;1536&quot;,
+        &quot;postcode&quot;: &quot;N20 9PT&quot;,
+        &quot;price&quot;: 185000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;HIGH ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;71FDE8A9-7428-4A10-8975-250FB33DB14F&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1996-04-26&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;1524&quot;,
+        &quot;postcode&quot;: &quot;N20 9PT&quot;,
+        &quot;price&quot;: 145000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;HIGH ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;6243286F-12E6-47A0-8F7F-2A5CDABEB106&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1996-10-17&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;1534&quot;,
+        &quot;postcode&quot;: &quot;N20 9PT&quot;,
+        &quot;price&quot;: 133000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;HIGH ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;69CAC08D-E7EB-417E-B2C7-E5FA778803FC&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1997-04-25&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;1522&quot;,
+        &quot;postcode&quot;: &quot;N20 9PT&quot;,
+        &quot;price&quot;: 230000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;HIGH ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;552D0003-7210-4896-8107-38F26DA96CF4&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1997-08-01&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;1538&quot;,
+        &quot;postcode&quot;: &quot;N20 9PT&quot;,
+        &quot;price&quot;: 221000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;HIGH ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;C3525F26-1C9A-4B50-9221-81AB5B79662D&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2007-10-24&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;1538&quot;,
+        &quot;postcode&quot;: &quot;N20 9PT&quot;,
+        &quot;price&quot;: 577500,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;HIGH ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;8F924D77-520E-4D63-A3CB-5C7E5E5B8E4A&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2019-04-23&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;1532&quot;,
+        &quot;postcode&quot;: &quot;N20 9PT&quot;,
+        &quot;price&quot;: 590000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;HIGH ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;8A78B2AF-CEB9-5CB0-E053-6B04A8C0F504&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2022-05-19&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;1528&quot;,
+        &quot;postcode&quot;: &quot;N20 9PT&quot;,
+        &quot;price&quot;: 1095000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;HIGH ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;E2D14905-C347-4C2D-E053-6B04A8C0422B&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Additional price paid transaction&quot;,
+        &quot;date&quot;: &quot;2023-01-10&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;1522&quot;,
+        &quot;postcode&quot;: &quot;N20 9PT&quot;,
+        &quot;price&quot;: 1600000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;HIGH ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;FAC30767-D919-5E20-E053-4704A8C004EE&quot;
+      }
+    ],
+    &quot;sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2022-05-19&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;1528&quot;,
+        &quot;postcode&quot;: &quot;N20 9PT&quot;,
+        &quot;price&quot;: 1095000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;HIGH ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;E2D14905-C347-4C2D-E053-6B04A8C0422B&quot;
+      }
+    ],
+    &quot;scope&quot;: &quot;address&quot;,
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;latitude&quot;: 51.639444,
+  &quot;liverpool_st_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Fast (35-45m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 24,
+    &quot;route_summary&quot;: &quot;Great Northern direct to Moorgate (24 min) + 4 min walk via integrated Elizabeth line concourse to Liverpool St&quot;,
+    &quot;secondary_route&quot;: &quot;Totteridge &amp; Whetstone (1.093 mi, ~22m walk) \u2794 London Underground (Northern line - Bank branch) (33m rail) = ~59m total&quot;,
+    &quot;station_distance_miles&quot;: 0.829,
+    &quot;station_name&quot;: &quot;Oakleigh Park&quot;,
+    &quot;total_commute_minutes&quot;: 45,
+    &quot;transfer_minutes&quot;: 4,
+    &quot;transit_line&quot;: &quot;Great Northern (National Rail)&quot;,
+    &quot;walk_time_minutes&quot;: 17
+  },
+  &quot;living_rooms&quot;: 3,
+  &quot;longitude&quot;: -0.179625,
+  &quot;nearest_station&quot;: &quot;Oakleigh Park&quot;,
+  &quot;nice_to_haves&quot;: [
+    {
+      &quot;detail&quot;: &quot;Not mentioned; UK EPCs do not record domestic cooling&quot;,
+      &quot;label&quot;: &quot;Air conditioning&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned in the listing or EPC&quot;,
+      &quot;label&quot;: &quot;Underfloor heating&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Floor-plan north arrow puts the garden north (not south)&quot;,
+      &quot;label&quot;: &quot;South-facing garden&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;conservatory roof seen in a living-area photo (room unverified)&quot;,
+      &quot;label&quot;: &quot;Sun roof / lantern in living areas&quot;,
+      &quot;status&quot;: &quot;photo-hint&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;No ground-floor bedroom, but the plan shows a second sitting room \u2014 Reception Room, 4.4 x 4.0 ft \u2014 which serves the same downstairs space&quot;,
+      &quot;label&quot;: &quot;Second ground-floor sitting room&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Largest living area is 4.2 ft (Lounge, floor-plan) \u2014 below the 15 ft mark&quot;,
+      &quot;label&quot;: &quot;Wide living room&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;No cinema or media room mentioned, and no other room on the plan is large enough to be one&quot;,
+      &quot;label&quot;: &quot;Home theatre potential&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    }
+  ],
+  &quot;overall_verdict&quot;: &quot;Proceed with Caution: Moderate scores, verify key items during survey.&quot;,
+  &quot;planning_summary&quot;: {
+    &quot;_cache&quot;: true,
+    &quot;applications&quot;: [],
+    &quot;properties&quot;: [
+      {
+        &quot;key&quot;: &quot;NC1TKK00DT005&quot;,
+        &quot;text&quot;: &quot;1528 High Road London N20 9PT&quot;,
+        &quot;url&quot;: &quot;https://publicaccess.barnet.gov.uk/online-applications/propertyDetails.do?activeTab=summary&amp;keyVal=NC1TKK00DT005&quot;
+      }
+    ],
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;price_display&quot;: &quot;\u00a31,095,000&quot;,
+  &quot;price_per_sq_ft&quot;: 597.4,
+  &quot;property_id&quot;: &quot;72275421&quot;,
+  &quot;property_images&quot;: [
+    &quot;https://lid.zoocdn.com/u/1024/768/4b1bed333766eec56889c4d79b2cab1e83f66564.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/65028d346f7dd162380dd50c4d8bfb38e2bb1be5.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/f4d38e8f6942ea534b8c7670094648ea0293a806.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/f0f2fdc7063dc4ed7ce047b9b22a57603d87fa15.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/9eb0ba09f387a848c5b6b323adba5ee8939a879a.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/f3341b4a79c83b6d24ade2961bb66629dd66fde6.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/a147f932e048d50c1a92b3fc8157739766dbf28c.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/c47d5c1e55a7f028393d0e2a1c3fd4f481caf8f5.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/b9f43d5215deaf802c97fde754b1e0be84ba540d.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/62ababd1e54d9444dd0b4c28326a0aa3c33331fe.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/be99bd730d94956df74ae438fae66b585efa2d08.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/8be40517b1d35b609d51d199ce4ac858e9c80ea1.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/7c3118e9c76b045b4e7dad4b5b9438c40a9a5235.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/64174cf8983e9e880809e81ef4e6757ba943879b.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/49626812a647b5c9e5ff5a22157b3ecd472de4d6.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/b541f31d246869becf73a8c9f2e9fd7d699d2b65.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/e22919771d434265cdcc47d9026f8b9a51543125.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/4c818037dfa1b3465b9fffbfa3b46303150fab51.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/54941feba39de5b689b80a0e1ed1b86fc8b14fa3.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/9d5b01c05ce0e5c517e7fa12041d3daaab24afde.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/e69b3fe55e9aa2c96b84b4e19984bfe541a160e4.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/e5ccb0e2225ea8422e902803f421e985937f19d5.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/c2a728a1c041cb49f6cf3d4c6df8553e8b6f5a66.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/54aac3baf3b469f37d3422874d617360dd15a955.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/85f12d81943efcb04ace0924f558a0a00b5b9c20.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/1d32b65cb29710e70204fa5284ae8819df961a8a.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/1926777ba2cb278d7a81c75d3c801c0ef220ae43.jpg&quot;
+  ],
+  &quot;property_type&quot;: &quot;4 bed detached house for sale&quot;,
+  &quot;size_sq_ft&quot;: 1833.0,
+  &quot;size_sq_m&quot;: 170.3,
+  &quot;station_distance_miles&quot;: 0.83,
+  &quot;station_distance_source&quot;: &quot;routed&quot;,
+  &quot;tenure&quot;: &quot;Freehold&quot;,
+  &quot;walk_time_minutes&quot;: 17
+}</pre>
+  </details>
+
+  <div class="foot"><div><a href="northumberland-road-new-barnet-en5.html">← Northumberland Road</a></div><div><a href="oakleigh-park-north-whetstone-n20.html">→ Oakleigh Park North</a></div></div>
+
+  <p class="note" style="margin-top:26px">Generated 2026-10-01 from
+  <code>reviews/property_reviews.json</code>. Map data &copy;
+  <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</p>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
+<script>window.__PINS__ = [{"id": "72275421", "lat": 51.639444, "lon": -0.179625, "addr": "High Road", "price": "\u00a31,095,000", "sqft": "1,833", "epc": "D", "score": 53.5, "colour": "#ba6015", "tags": ["Modern Systems"], "tag_html": "<span class=\"badge tag-systems\">Modern Systems<\/span>", "href": "#"}];</script>
+<script>window.__SLIDES__ = ["https://lid.zoocdn.com/u/1024/768/4b1bed333766eec56889c4d79b2cab1e83f66564.jpg", "https://lid.zoocdn.com/u/1024/768/65028d346f7dd162380dd50c4d8bfb38e2bb1be5.jpg", "https://lid.zoocdn.com/u/1024/768/f4d38e8f6942ea534b8c7670094648ea0293a806.jpg", "https://lid.zoocdn.com/u/1024/768/f0f2fdc7063dc4ed7ce047b9b22a57603d87fa15.jpg", "https://lid.zoocdn.com/u/1024/768/9eb0ba09f387a848c5b6b323adba5ee8939a879a.jpg", "https://lid.zoocdn.com/u/1024/768/f3341b4a79c83b6d24ade2961bb66629dd66fde6.jpg", "https://lid.zoocdn.com/u/1024/768/a147f932e048d50c1a92b3fc8157739766dbf28c.jpg", "https://lid.zoocdn.com/u/1024/768/c47d5c1e55a7f028393d0e2a1c3fd4f481caf8f5.jpg", "https://lid.zoocdn.com/u/1024/768/b9f43d5215deaf802c97fde754b1e0be84ba540d.jpg", "https://lid.zoocdn.com/u/1024/768/62ababd1e54d9444dd0b4c28326a0aa3c33331fe.jpg", "https://lid.zoocdn.com/u/1024/768/be99bd730d94956df74ae438fae66b585efa2d08.jpg", "https://lid.zoocdn.com/u/1024/768/8be40517b1d35b609d51d199ce4ac858e9c80ea1.jpg", "https://lid.zoocdn.com/u/1024/768/7c3118e9c76b045b4e7dad4b5b9438c40a9a5235.jpg", "https://lid.zoocdn.com/u/1024/768/64174cf8983e9e880809e81ef4e6757ba943879b.jpg", "https://lid.zoocdn.com/u/1024/768/49626812a647b5c9e5ff5a22157b3ecd472de4d6.jpg", "https://lid.zoocdn.com/u/1024/768/b541f31d246869becf73a8c9f2e9fd7d699d2b65.jpg", "https://lid.zoocdn.com/u/1024/768/e22919771d434265cdcc47d9026f8b9a51543125.jpg", "https://lid.zoocdn.com/u/1024/768/4c818037dfa1b3465b9fffbfa3b46303150fab51.jpg", "https://lid.zoocdn.com/u/1024/768/54941feba39de5b689b80a0e1ed1b86fc8b14fa3.jpg", "https://lid.zoocdn.com/u/1024/768/9d5b01c05ce0e5c517e7fa12041d3daaab24afde.jpg", "https://lid.zoocdn.com/u/1024/768/e69b3fe55e9aa2c96b84b4e19984bfe541a160e4.jpg", "https://lid.zoocdn.com/u/1024/768/e5ccb0e2225ea8422e902803f421e985937f19d5.jpg", "https://lid.zoocdn.com/u/1024/768/c2a728a1c041cb49f6cf3d4c6df8553e8b6f5a66.jpg", "https://lid.zoocdn.com/u/1024/768/54aac3baf3b469f37d3422874d617360dd15a955.jpg", "https://lid.zoocdn.com/u/1024/768/85f12d81943efcb04ace0924f558a0a00b5b9c20.jpg", "https://lid.zoocdn.com/u/1024/768/1d32b65cb29710e70204fa5284ae8819df961a8a.jpg", "https://lid.zoocdn.com/u/1024/768/1926777ba2cb278d7a81c75d3c801c0ef220ae43.jpg"];</script>
+<script>
+(function () {
+  var el = document.getElementById('map');
+  if (!el || typeof L === 'undefined') { return; }
+  var data = window.__PINS__ || [];
+  if (!data.length || data[0].lat === null) { el.style.display = 'none'; return; }
+  var map = L.map('map', { scrollWheelZoom: false, dragging: false,
+                           doubleClickZoom: false, boxZoom: false,
+                           keyboard: false, zoomControl: false });
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  var group = L.featureGroup().addTo(map);
+  data.forEach(function (p) {
+    if (p.lat === null) { return; }
+    L.circleMarker([p.lat, p.lon], { radius: 10, color: '#ffffff', weight: 3,
+                                     fillColor: p.colour, fillOpacity: 0.95 }).addTo(group);
+  });
+  if (group.getBounds().isValid()) { map.fitBounds(group.getBounds().pad(0.35)); }
+  L.control.attribution({ prefix: false }).addTo(map);
+})();
+</script>
+<script>
+(function () {
+  var shots = window.__SLIDES__ || [];
+  var img = document.getElementById('slide-img');
+  var link = document.getElementById('slide-link');
+  var prev = document.getElementById('slide-prev');
+  var next = document.getElementById('slide-next');
+  var num = document.getElementById('slide-n');
+  if (!img || !link || shots.length < 2) {
+    if (prev) { prev.disabled = true; }
+    if (next) { next.disabled = true; }
+    return;
+  }
+  var at = 0;
+
+  function show(i) {
+    at = (i + shots.length) % shots.length;
+    img.src = shots[at];
+    img.alt = 'Listing photo ' + (at + 1) + ' of ' + shots.length +
+              ' — open full size';
+    link.href = shots[at];
+    if (num) { num.textContent = String(at + 1); }
+  }
+
+  // Only the neighbours are warmed: a 34-photo listing at 136 KB each is
+  // 4.6 MB if the whole gallery is fetched up front, for images the reader may
+  // never scroll to.
+  function warm() {
+    [at + 1, at - 1].forEach(function (k) {
+      var j = (k + shots.length) % shots.length;
+      if (j !== at) { new Image().src = shots[j]; }
+    });
+  }
+
+  prev.addEventListener('click', function () { show(at - 1); warm(); });
+  next.addEventListener('click', function () { show(at + 1); warm(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) { return; }
+    if (e.key === 'ArrowLeft') { show(at - 1); warm(); }
+    if (e.key === 'ArrowRight') { show(at + 1); warm(); }
+  });
+  show(0);
+  warm();
+})();
+</script>
+</body></html>

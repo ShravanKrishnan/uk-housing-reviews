@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Coppice Walk — review</title>
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <h1>Coppice Walk</h1>
+  <p class="sub">Coppice Walk, Totteridge, London N20</p>
+  <nav class="crumbs"><a href="../index.html">← Back to the map</a> &middot;
+  <a href="../index.html#all-rank-121">Rank #121 of All properties</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="panel">
+    <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between">
+      <div>
+        <span class="pill" style="background:#a8322d">39.1 Score</span>
+        
+      </div>
+      <div style="font-size:13px;color:var(--muted)">
+        121 of 164 &middot; score 39.1
+      </div>
+    </div>
+    <div class="verdict">Secondary Assessment Needed: Low scores across multiple dimensions.</div>
+  </div>
+
+  <h3>At a glance</h3>
+  <div class="grid"><div class="stat"><div class="k">Asking price</div><div class="v">£1,245,000</div></div><div class="stat"><div class="k">Property type</div><div class="v">5 bed semi-detached house for sale</div></div><div class="stat"><div class="k">Tenure</div><div class="v">Freehold</div></div><div class="stat"><div class="k">Size</div><div class="v">1,710 sq ft / 189.2 m²</div></div><div class="stat"><div class="k">Price per sq ft</div><div class="v">£728.1</div></div><div class="stat"><div class="k">Bedrooms</div><div class="v">5</div></div><div class="stat"><div class="k">Bathrooms</div><div class="v">3</div></div><div class="stat"><div class="k">Living rooms</div><div class="v">3</div></div><div class="stat"><div class="k">EPC (current / potential)</div><div class="v">D / C</div></div><div class="stat"><div class="k">Nearest station</div><div class="v">Woodside Park · 0.9 mi · ~18 min walk</div></div><div class="stat wide"><div class="k">Commute to Liverpool St</div><div class="v">53 min (Northern line (Bank branch) direct to Moorgate (31 min) + 4 min Elizabeth line link to Liverpool St)</div></div><div class="stat wide"><div class="k">Commute to King&#x27;s Cross</div><div class="v">45 min (Northern line direct to King&#x27;s Cross St Pancras (27 min))</div></div></div>
+
+  <h3>Nice-to-haves</h3>
+  <div class="panel">
+    <table class="nice">
+      <thead><tr><th>Signal</th><th>Status</th><th>Detail</th></tr></thead>
+      <tbody><tr><td>Air conditioning</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned; UK EPCs do not record domestic cooling</td></tr><tr><td>Underfloor heating</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned in the listing or EPC</td></tr><tr><td>South-facing garden</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Floor-plan north arrow puts the garden north (not south)</td></tr><tr><td>Sun roof / lantern in living areas</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned and no overhead glazing seen in photos</td></tr><tr><td>Ground-floor bedroom</td><td><span class="nh-status nh-stated">stated</span></td><td>No ground-floor bedroom stated, but a convertible home office is mentioned</td></tr><tr><td>Wide living room</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Largest living area is 13.7 ft (Reception Room, floor-plan) — below the 15 ft mark</td></tr><tr><td>Home theatre potential</td><td><span class="nh-status nh-photo_hint">photo-hint</span></td><td>Dining Room measures 15.8 x 12 ft (190 sq ft) on the floor plan, a separate room from the Reception Room — room for a smaller screen or fewer seats; at that size it holds a 96-inch screen with the front row 8 ft from it, 1 recliner row of 5 across (12.3 ft of frontage, a modular sectional run), 5 seats</td></tr></tbody>
+    </table>
+  </div>
+
+<div class="panel"><h2>Photos — 8</h2><div class="slides" id="slides"><div class="slide-frame"><a id="slide-link" href="https://lid.zoocdn.com/u/1024/768/f2e1b8e5d2e1c85dcb3c9e8d384c9183dffe05e5.jpg" rel="noopener"><img id="slide-img" src="https://lid.zoocdn.com/u/1024/768/f2e1b8e5d2e1c85dcb3c9e8d384c9183dffe05e5.jpg" alt="Listing photo 1 of 8 — open full size" loading="lazy"></a><button type="button" class="slide-nav prev" id="slide-prev" aria-label="Previous photo">&#8249;</button><button type="button" class="slide-nav next" id="slide-next" aria-label="Next photo">&#8250;</button><span class="slide-badge"><span id="slide-n">1</span> / 8</span></div></div><p class="note" style="margin-top:8px">Arrow keys page through the gallery; click a photo to open it full size. These are the listing's own photographs, at the highest resolution its image host serves.</p></div>
+
+  <div class="layout">
+    <div class="panel sticky">
+      <h2>Where it is</h2>
+      <div id="map" style="height:330px;border-radius:8px"></div>
+      <p class="note" style="margin-top:10px">
+        Pin is the listing's own coordinates. Map tiles are OpenStreetMap.
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=51.625892,-0.190827" rel="noopener">Open in Google Maps →</a>
+        &middot; <a href="https://www.openstreetmap.org/?mlat=51.625892&amp;mlon=-0.190827#map=18/51.625892/-0.190827" rel="noopener">Open in OpenStreetMap →</a>
+        &middot; <a href="https://www.zoopla.co.uk/for-sale/details/60600932/" rel="noopener">Zoopla listing →</a>
+      </p>
+    </div>
+    <div class="panel">
+      <h2>Floorplan analysis</h2>
+      <a href="https://lid.zoocdn.com/u/1024/768/ca3ecd3dc9e7a8825b587fe797e9e19050f40577.jpg" rel="noopener"><img class="plan" src="https://lid.zoocdn.com/u/1024/768/ca3ecd3dc9e7a8825b587fe797e9e19050f40577.jpg" alt="Floor plan for Coppice Walk, Totteridge, London N20" loading="lazy"></a><p class="note">11 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are listed without one. <a href="https://lid.zoocdn.com/u/1024/768/ca3ecd3dc9e7a8825b587fe797e9e19050f40577.jpg" rel="noopener">Open the full-size plan →</a></p><table class="nice compact"><thead><tr><th>Room</th><th>Type</th><th>Floor</th><th>Dimensions</th><th>Area</th></tr></thead><tbody><tr><td>Shed</td><td>outbuilding</td><td>ground</td><td class="num">9.5 &times; 5.7 ft</td><td class="num">54 sq ft</td></tr><tr><td>Garden</td><td>garden</td><td>ground</td><td class="num">77.1 &times; 35.7 ft</td><td class="num">2,752 sq ft</td></tr><tr><td>Dining Room</td><td>dining</td><td>ground</td><td class="num">15.8 &times; 12 ft</td><td class="num">190 sq ft</td></tr><tr><td>Kitchen</td><td>kitchen</td><td>ground</td><td class="num">17.2 &times; 15.4 ft</td><td class="num">265 sq ft</td></tr><tr><td>Reception Room</td><td>living</td><td>ground</td><td class="num">29.2 &times; 13.7 ft</td><td class="num">400 sq ft</td></tr><tr><td>Bedroom 5</td><td>bedroom</td><td>first</td><td class="num">8.7 &times; 8.4 ft</td><td class="num">73 sq ft</td></tr><tr><td>Bedroom 3</td><td>bedroom</td><td>first</td><td class="num">12 &times; 8.9 ft</td><td class="num">107 sq ft</td></tr><tr><td>Bedroom 1</td><td>bedroom</td><td>second</td><td class="num">19.3 &times; 14.4 ft</td><td class="num">278 sq ft</td></tr><tr><td>Bedroom 4</td><td>bedroom</td><td>first</td><td class="num">8.9 &times; 8.2 ft</td><td class="num">73 sq ft</td></tr><tr><td>Bedroom 2</td><td>bedroom</td><td>first</td><td class="num">15.4 &times; 11.9 ft</td><td class="num">183 sq ft</td></tr><tr><td>Eaves</td><td>other</td><td>second</td><td class="num">not printed</td><td class="num">—</td></tr></tbody></table>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-top:22px">
+    <h2>Score breakdown — 39.1/100</h2>
+    <div class="bar-row with-evidence"><span class="lbl">Location &amp; transport</span><span class="bar"><i style="width:22.5%;background:#a8322d"></i></span><span class="num">4.5</span><ul class="ticks compact"><li><span class="tick">✓</span>Nearest station Woodside Park 18 min walk (0.87 mi routed walk) (+2)</li><li><span class="tick">✓</span>No station within 0.8 mi walking distance (nearest is 0.87 mi)</li><li><span class="tick">✓</span>Moderate Liverpool St commute: ~53 mins door-to-concourse via Woodside Park (18m walk + 31m rail) (+1.5)</li><li><span class="tick">✓</span>King&#x27;s Cross St Pancras commute ~45 mins via Woodside Park (+1)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Space, scale &amp; layout</span><span class="bar"><i style="width:27.5%;background:#a8322d"></i></span><span class="num">5.5</span><ul class="ticks compact"><li><span class="tick">✓</span>Square footage taken from floor plan (image analysis)</li><li><span class="tick">✓</span>Compact floorplate: 1,710.0 sq ft total (342 sq ft/bed) (+2.5)</li><li><span class="tick">✓</span>Well balanced bathroom ratio (3 baths for 5 beds) (+2)</li><li><span class="tick">✓</span>Two or more reception rooms (3) (+1)</li><li><span class="tick">✓</span>Living room width: 13.7 ft (below 15 ft)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Financial efficiency</span><span class="bar"><i style="width:44.0%;background:#a8322d"></i></span><span class="num">6.6</span><ul class="ticks compact"><li><span class="tick">✓</span>£728 per sq ft on 1,710 sq ft (+3.2 of 7.5)</li><li><span class="tick">✓</span>£1,245,000 asking price (+3.4 of 7.5)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Technical &amp; EPC</span><span class="bar"><i style="width:47.5%;background:#a8322d"></i></span><span class="num">9.5</span><ul class="ticks compact"><li><span class="tick">✓</span>EPC Band D (4.5) + insulated roof (2) + double glazing (1) (+7.5 of 10)</li><li><span class="tick">✓</span>EPC: pitched roof with accessible loft (pitched, insulated at rafters) — scope for a simple loft extension (structural survey still required) (+2)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Observed presentation</span><span class="bar"><i style="width:73.3%;background:#a8322d"></i></span><span class="num">11.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Presented finish observed as refurbished in listing photographs (image analysis) (+5.5 of 7)</li><li><span class="tick">✓</span>Kitchen &amp; bathroom spec rated standard in listing photographs (image analysis) (+2.5 of 5)</li><li><span class="tick">✓</span>Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Garden &amp; outdoor</span><span class="bar"><i style="width:20.0%;background:#a8322d"></i></span><span class="num">2.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Outbuilding present (+2)</li></ul></div>
+    <p class="note">The combined score rewards location, space, financial efficiency,
+    technical specification, observed presentation, and garden quality. Every line
+    lists the evidence that earned it, so a component cannot be read as a verdict
+    without the reason attached.</p>
+  </div>
+
+  <h3>Land Registry</h3>
+  <div class="panel">
+    <p><strong>£175,000 on 1995-11-03<br><span class="note">First recorded sale: 1995-11-03</span></strong></p>
+    <p><strong>No local benchmark published.</strong> <span class="note">Withheld when fewer than 5 local sales can be priced, or when the address is ambiguous in the EPC extract. It is left out rather than estimated.</span></p>
+    <p class="note">3 raw sale record(s) exist in this postcode. They are the neighbourhood's history, not this home's, and are deliberately not presented as its own.</p>
+    <p class="note">Scope <code>address</code> — sale history is only ever
+    attributed to this home when a house number was derived and matched.</p>
+  </div>
+
+  <h3>Planning</h3>
+  <div class="panel"><p class="note">1 planning record(s) matched this address:</p><ul class="ticks"><li><a href="https://publicaccess.barnet.gov.uk/online-applications/propertyDetails.do?activeTab=summary&amp;keyVal=NC1O1F00DT009" rel="noopener">24 Coppice Walk London N20 8DA</a></li></ul></div>
+
+  <div style="margin-top:22px">
+    <div class="panel"><h2>Photographic evidence reviewed for the score</h2><p class="note">Points are awarded only for detected listing, EPC, or photographic evidence, and each component above lists what it found. Systems without such evidence score zero and are omitted rather than listed as inspection tasks. These notes record what the photos did and did not show.</p><ul class="ticks"><li>9 property photo(s) analysed by local vision model (Qwen3-VL)</li><li>Photographic-evidence score: 57.9/100 (medium confidence; condition 30/35, kitchen/bath 18/20, glazing 3/20, structure 0/15, legibility 6.9/10)</li><li>Floor-plan total read from the plan: 1,710 sq ft</li><li>Condition tier inferred from photos: refurbished</li><li>Not captured in the photos: extension evidence, garden aspect, roof, side access</li><li>Advertised size does not match the floor-plan measure (2,037 vs 1,710.0 sq ft on plan) — the plan figure is used</li></ul></div>
+  </div>
+
+  
+
+  <details class="raw">
+    <summary>Raw review record (JSON)</summary>
+    <pre>{
+  &quot;asking_price&quot;: 1245000,
+  &quot;bathrooms&quot;: 3,
+  &quot;bedrooms&quot;: 5,
+  &quot;combined_score&quot;: {
+    &quot;detected_features&quot;: [
+      &quot;Nearest station Woodside Park 18 min walk (0.87 mi routed walk) (+2)&quot;,
+      &quot;No station within 0.8 mi walking distance (nearest is 0.87 mi)&quot;,
+      &quot;Moderate Liverpool St commute: ~53 mins door-to-concourse via Woodside Park (18m walk + 31m rail) (+1.5)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~45 mins via Woodside Park (+1)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Compact floorplate: 1,710.0 sq ft total (342 sq ft/bed) (+2.5)&quot;,
+      &quot;Well balanced bathroom ratio (3 baths for 5 beds) (+2)&quot;,
+      &quot;Two or more reception rooms (3) (+1)&quot;,
+      &quot;Living room width: 13.7 ft (below 15 ft)&quot;,
+      &quot;\u00a3728 per sq ft on 1,710 sq ft (+3.2 of 7.5)&quot;,
+      &quot;\u00a31,245,000 asking price (+3.4 of 7.5)&quot;,
+      &quot;EPC Band D (4.5) + insulated roof (2) + double glazing (1) (+7.5 of 10)&quot;,
+      &quot;EPC: pitched roof with accessible loft (pitched, insulated at rafters) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;,
+      &quot;Presented finish observed as refurbished in listing photographs (image analysis) (+5.5 of 7)&quot;,
+      &quot;Kitchen &amp; bathroom spec rated standard in listing photographs (image analysis) (+2.5 of 5)&quot;,
+      &quot;Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)&quot;,
+      &quot;Outbuilding present (+2)&quot;
+    ],
+    &quot;evidence&quot;: {
+      &quot;financial_efficiency&quot;: [
+        &quot;\u00a3728 per sq ft on 1,710 sq ft (+3.2 of 7.5)&quot;,
+        &quot;\u00a31,245,000 asking price (+3.4 of 7.5)&quot;
+      ],
+      &quot;garden_outdoor&quot;: [
+        &quot;Outbuilding present (+2)&quot;
+      ],
+      &quot;location_transport&quot;: [
+        &quot;Nearest station Woodside Park 18 min walk (0.87 mi routed walk) (+2)&quot;,
+        &quot;No station within 0.8 mi walking distance (nearest is 0.87 mi)&quot;,
+        &quot;Moderate Liverpool St commute: ~53 mins door-to-concourse via Woodside Park (18m walk + 31m rail) (+1.5)&quot;,
+        &quot;King&#x27;s Cross St Pancras commute ~45 mins via Woodside Park (+1)&quot;
+      ],
+      &quot;observed_presentation&quot;: [
+        &quot;Presented finish observed as refurbished in listing photographs (image analysis) (+5.5 of 7)&quot;,
+        &quot;Kitchen &amp; bathroom spec rated standard in listing photographs (image analysis) (+2.5 of 5)&quot;,
+        &quot;Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)&quot;
+      ],
+      &quot;space_layout&quot;: [
+        &quot;Square footage taken from floor plan (image analysis)&quot;,
+        &quot;Compact floorplate: 1,710.0 sq ft total (342 sq ft/bed) (+2.5)&quot;,
+        &quot;Well balanced bathroom ratio (3 baths for 5 beds) (+2)&quot;,
+        &quot;Two or more reception rooms (3) (+1)&quot;,
+        &quot;Living room width: 13.7 ft (below 15 ft)&quot;
+      ],
+      &quot;technical_epc&quot;: [
+        &quot;EPC Band D (4.5) + insulated roof (2) + double glazing (1) (+7.5 of 10)&quot;,
+        &quot;EPC: pitched roof with accessible loft (pitched, insulated at rafters) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;
+      ]
+    },
+    &quot;financial_efficiency&quot;: 6.6,
+    &quot;garden_outdoor&quot;: 2.0,
+    &quot;location_transport&quot;: 4.5,
+    &quot;notes&quot;: [
+      &quot;Nearest station Woodside Park 18 min walk (0.87 mi routed walk) (+2)&quot;,
+      &quot;No station within 0.8 mi walking distance (nearest is 0.87 mi)&quot;,
+      &quot;Moderate Liverpool St commute: ~53 mins door-to-concourse via Woodside Park (18m walk + 31m rail) (+1.5)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~45 mins via Woodside Park (+1)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Compact floorplate: 1,710.0 sq ft total (342 sq ft/bed) (+2.5)&quot;,
+      &quot;Well balanced bathroom ratio (3 baths for 5 beds) (+2)&quot;,
+      &quot;Two or more reception rooms (3) (+1)&quot;,
+      &quot;EPC Band D&quot;
+    ],
+    &quot;observed_presentation&quot;: 11.0,
+    &quot;space_layout&quot;: 5.5,
+    &quot;tags&quot;: [],
+    &quot;technical_epc&quot;: 9.5,
+    &quot;total_score&quot;: 39.1,
+    &quot;vision_facts&quot;: [
+      &quot;9 property photo(s) analysed by local vision model (Qwen3-VL)&quot;,
+      &quot;Photographic-evidence score: 57.9/100 (medium confidence; condition 30/35, kitchen/bath 18/20, glazing 3/20, structure 0/15, legibility 6.9/10)&quot;,
+      &quot;Floor-plan total read from the plan: 1,710 sq ft&quot;,
+      &quot;Condition tier inferred from photos: refurbished&quot;,
+      &quot;Not captured in the photos: extension evidence, garden aspect, roof, side access&quot;,
+      &quot;Advertised size does not match the floor-plan measure (2,037 vs 1,710.0 sq ft on plan) \u2014 the plan figure is used&quot;
+    ]
+  },
+  &quot;data_gaps&quot;: [],
+  &quot;epc_potential&quot;: &quot;C&quot;,
+  &quot;epc_rating&quot;: &quot;D&quot;,
+  &quot;floorplan_image_url&quot;: &quot;https://lid.zoocdn.com/u/1024/768/ca3ecd3dc9e7a8825b587fe797e9e19050f40577.jpg&quot;,
+  &quot;floorplan_rooms&quot;: [
+    {
+      &quot;area_sq_ft&quot;: 54,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;outbuilding&quot;,
+      &quot;label&quot;: &quot;Shed&quot;,
+      &quot;length_ft&quot;: 9.5,
+      &quot;width_ft&quot;: 5.7
+    },
+    {
+      &quot;area_sq_ft&quot;: 2752,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;garden&quot;,
+      &quot;label&quot;: &quot;Garden&quot;,
+      &quot;length_ft&quot;: 77.1,
+      &quot;width_ft&quot;: 35.7
+    },
+    {
+      &quot;area_sq_ft&quot;: 190,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;dining&quot;,
+      &quot;label&quot;: &quot;Dining Room&quot;,
+      &quot;length_ft&quot;: 15.8,
+      &quot;width_ft&quot;: 12.0
+    },
+    {
+      &quot;area_sq_ft&quot;: 265,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;kitchen&quot;,
+      &quot;label&quot;: &quot;Kitchen&quot;,
+      &quot;length_ft&quot;: 17.2,
+      &quot;width_ft&quot;: 15.4
+    },
+    {
+      &quot;area_sq_ft&quot;: 400,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;living&quot;,
+      &quot;label&quot;: &quot;Reception Room&quot;,
+      &quot;length_ft&quot;: 29.2,
+      &quot;width_ft&quot;: 13.7
+    },
+    {
+      &quot;area_sq_ft&quot;: 73,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 5&quot;,
+      &quot;length_ft&quot;: 8.7,
+      &quot;width_ft&quot;: 8.4
+    },
+    {
+      &quot;area_sq_ft&quot;: 107,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 3&quot;,
+      &quot;length_ft&quot;: 12.0,
+      &quot;width_ft&quot;: 8.9
+    },
+    {
+      &quot;area_sq_ft&quot;: 278,
+      &quot;floor&quot;: &quot;second&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 1&quot;,
+      &quot;length_ft&quot;: 19.3,
+      &quot;width_ft&quot;: 14.4
+    },
+    {
+      &quot;area_sq_ft&quot;: 73,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 4&quot;,
+      &quot;length_ft&quot;: 8.9,
+      &quot;width_ft&quot;: 8.2
+    },
+    {
+      &quot;area_sq_ft&quot;: 183,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 2&quot;,
+      &quot;length_ft&quot;: 15.4,
+      &quot;width_ft&quot;: 11.9
+    },
+    {
+      &quot;area_sq_ft&quot;: null,
+      &quot;floor&quot;: &quot;second&quot;,
+      &quot;kind&quot;: &quot;other&quot;,
+      &quot;label&quot;: &quot;Eaves&quot;,
+      &quot;length_ft&quot;: null,
+      &quot;width_ft&quot;: null
+    }
+  ],
+  &quot;full_address&quot;: &quot;Coppice Walk, Totteridge, London N20&quot;,
+  &quot;kings_cross_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Fast (35-45m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 27,
+    &quot;route_summary&quot;: &quot;Northern line direct to King&#x27;s Cross St Pancras (27 min)&quot;,
+    &quot;secondary_route&quot;: &quot;Oakleigh Park (1.639 mi, ~33m walk) \u2794 Great Northern (National Rail) (17m rail) = ~50m total&quot;,
+    &quot;station_distance_miles&quot;: 0.873,
+    &quot;station_name&quot;: &quot;Woodside Park&quot;,
+    &quot;total_commute_minutes&quot;: 45,
+    &quot;transfer_minutes&quot;: 0,
+    &quot;transit_line&quot;: &quot;London Underground (Northern line - Bank branch)&quot;,
+    &quot;walk_time_minutes&quot;: 18
+  },
+  &quot;land_registry_summary&quot;: {
+    &quot;_cache&quot;: true,
+    &quot;first_sale_date&quot;: &quot;1995-11-03&quot;,
+    &quot;last_sale_date&quot;: &quot;1995-11-03&quot;,
+    &quot;last_sale_price&quot;: 175000,
+    &quot;number_known&quot;: true,
+    &quot;postcode_sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1995-11-03&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;24&quot;,
+        &quot;postcode&quot;: &quot;N20 8DA&quot;,
+        &quot;price&quot;: 175000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;COPPICE WALK&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;EDBB1B30-3139-433E-83B7-C838F7C69752&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2019-08-15&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;25&quot;,
+        &quot;postcode&quot;: &quot;N20 8DA&quot;,
+        &quot;price&quot;: 910000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;COPPICE WALK&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;919FEC05-3BD1-9A90-E053-6C04A8C0A300&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2022-11-22&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;COPPICE HOUSE&quot;,
+        &quot;postcode&quot;: &quot;N20 8DA&quot;,
+        &quot;price&quot;: 1575000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;COPPICE WALK&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;FD226036-0CBE-4CB7-E053-4804A8C00430&quot;
+      }
+    ],
+    &quot;sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1995-11-03&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;24&quot;,
+        &quot;postcode&quot;: &quot;N20 8DA&quot;,
+        &quot;price&quot;: 175000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;COPPICE WALK&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;EDBB1B30-3139-433E-83B7-C838F7C69752&quot;
+      }
+    ],
+    &quot;scope&quot;: &quot;address&quot;,
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;latitude&quot;: 51.625892,
+  &quot;liverpool_st_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Moderate (45-55m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 31,
+    &quot;route_summary&quot;: &quot;Northern line (Bank branch) direct to Moorgate (31 min) + 4 min Elizabeth line link to Liverpool St&quot;,
+    &quot;secondary_route&quot;: &quot;Oakleigh Park (1.639 mi, ~33m walk) \u2794 Great Northern (National Rail) (24m rail) = ~61m total&quot;,
+    &quot;station_distance_miles&quot;: 0.873,
+    &quot;station_name&quot;: &quot;Woodside Park&quot;,
+    &quot;total_commute_minutes&quot;: 53,
+    &quot;transfer_minutes&quot;: 4,
+    &quot;transit_line&quot;: &quot;London Underground (Northern line - Bank branch)&quot;,
+    &quot;walk_time_minutes&quot;: 18
+  },
+  &quot;living_rooms&quot;: 3,
+  &quot;longitude&quot;: -0.190827,
+  &quot;nearest_station&quot;: &quot;Woodside Park&quot;,
+  &quot;nice_to_haves&quot;: [
+    {
+      &quot;detail&quot;: &quot;Not mentioned; UK EPCs do not record domestic cooling&quot;,
+      &quot;label&quot;: &quot;Air conditioning&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned in the listing or EPC&quot;,
+      &quot;label&quot;: &quot;Underfloor heating&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Floor-plan north arrow puts the garden north (not south)&quot;,
+      &quot;label&quot;: &quot;South-facing garden&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned and no overhead glazing seen in photos&quot;,
+      &quot;label&quot;: &quot;Sun roof / lantern in living areas&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;No ground-floor bedroom stated, but a convertible home office is mentioned&quot;,
+      &quot;label&quot;: &quot;Ground-floor bedroom&quot;,
+      &quot;status&quot;: &quot;stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Largest living area is 13.7 ft (Reception Room, floor-plan) \u2014 below the 15 ft mark&quot;,
+      &quot;label&quot;: &quot;Wide living room&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Dining Room measures 15.8 x 12 ft (190 sq ft) on the floor plan, a separate room from the Reception Room \u2014 room for a smaller screen or fewer seats; at that size it holds a 96-inch screen with the front row 8 ft from it, 1 recliner row of 5 across (12.3 ft of frontage, a modular sectional run), 5 seats&quot;,
+      &quot;label&quot;: &quot;Home theatre potential&quot;,
+      &quot;status&quot;: &quot;photo-hint&quot;
+    }
+  ],
+  &quot;overall_verdict&quot;: &quot;Secondary Assessment Needed: Low scores across multiple dimensions.&quot;,
+  &quot;planning_summary&quot;: {
+    &quot;_cache&quot;: true,
+    &quot;applications&quot;: [],
+    &quot;properties&quot;: [
+      {
+        &quot;key&quot;: &quot;NC1O1F00DT009&quot;,
+        &quot;text&quot;: &quot;24 Coppice Walk London N20 8DA&quot;,
+        &quot;url&quot;: &quot;https://publicaccess.barnet.gov.uk/online-applications/propertyDetails.do?activeTab=summary&amp;keyVal=NC1O1F00DT009&quot;
+      }
+    ],
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;price_display&quot;: &quot;\u00a31,245,000&quot;,
+  &quot;price_per_sq_ft&quot;: 728.1,
+  &quot;property_id&quot;: &quot;60600932&quot;,
+  &quot;property_images&quot;: [
+    &quot;https://lid.zoocdn.com/u/1024/768/f2e1b8e5d2e1c85dcb3c9e8d384c9183dffe05e5.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/4a07fe419447847b69f626f5486633b5c6a50a96.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/7c1f1556c0100538168939e75f66c0fa803cff70.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/9406e96d4e267bdd0ff38904c7587c21a7c2e495.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/027e682a041d1e6605435fcb0e971ba4c7e45502.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/01dcfdaa1f328feb9266c4fc63e1bd759c259ce1.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/ff8b5bd6b210581c8e4b6aa683385e8404ca00b3.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/11b6fe2869527aadef8ffbdbd9196db800a7f2af.jpg&quot;
+  ],
+  &quot;property_type&quot;: &quot;5 bed semi-detached house for sale&quot;,
+  &quot;size_sq_ft&quot;: 1710.0,
+  &quot;size_sq_m&quot;: 189.2,
+  &quot;station_distance_miles&quot;: 0.87,
+  &quot;station_distance_source&quot;: &quot;routed&quot;,
+  &quot;tenure&quot;: &quot;Freehold&quot;,
+  &quot;walk_time_minutes&quot;: 18
+}</pre>
+  </details>
+
+  <div class="foot"><div><a href="norfolk-road-barnet-en5.html">← Norfolk Road</a></div><div><a href="vincent-close-barnet-en5.html">→ Vincent Close</a></div></div>
+
+  <p class="note" style="margin-top:26px">Generated 2026-10-01 from
+  <code>reviews/property_reviews.json</code>. Map data &copy;
+  <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</p>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
+<script>window.__PINS__ = [{"id": "60600932", "lat": 51.625892, "lon": -0.190827, "addr": "Coppice Walk", "price": "\u00a31,245,000", "sqft": "1,710", "epc": "D", "score": 39.1, "colour": "#a8322d", "tags": [], "tag_html": "", "href": "#"}];</script>
+<script>window.__SLIDES__ = ["https://lid.zoocdn.com/u/1024/768/f2e1b8e5d2e1c85dcb3c9e8d384c9183dffe05e5.jpg", "https://lid.zoocdn.com/u/1024/768/4a07fe419447847b69f626f5486633b5c6a50a96.jpg", "https://lid.zoocdn.com/u/1024/768/7c1f1556c0100538168939e75f66c0fa803cff70.jpg", "https://lid.zoocdn.com/u/1024/768/9406e96d4e267bdd0ff38904c7587c21a7c2e495.jpg", "https://lid.zoocdn.com/u/1024/768/027e682a041d1e6605435fcb0e971ba4c7e45502.jpg", "https://lid.zoocdn.com/u/1024/768/01dcfdaa1f328feb9266c4fc63e1bd759c259ce1.jpg", "https://lid.zoocdn.com/u/1024/768/ff8b5bd6b210581c8e4b6aa683385e8404ca00b3.jpg", "https://lid.zoocdn.com/u/1024/768/11b6fe2869527aadef8ffbdbd9196db800a7f2af.jpg"];</script>
+<script>
+(function () {
+  var el = document.getElementById('map');
+  if (!el || typeof L === 'undefined') { return; }
+  var data = window.__PINS__ || [];
+  if (!data.length || data[0].lat === null) { el.style.display = 'none'; return; }
+  var map = L.map('map', { scrollWheelZoom: false, dragging: false,
+                           doubleClickZoom: false, boxZoom: false,
+                           keyboard: false, zoomControl: false });
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  var group = L.featureGroup().addTo(map);
+  data.forEach(function (p) {
+    if (p.lat === null) { return; }
+    L.circleMarker([p.lat, p.lon], { radius: 10, color: '#ffffff', weight: 3,
+                                     fillColor: p.colour, fillOpacity: 0.95 }).addTo(group);
+  });
+  if (group.getBounds().isValid()) { map.fitBounds(group.getBounds().pad(0.35)); }
+  L.control.attribution({ prefix: false }).addTo(map);
+})();
+</script>
+<script>
+(function () {
+  var shots = window.__SLIDES__ || [];
+  var img = document.getElementById('slide-img');
+  var link = document.getElementById('slide-link');
+  var prev = document.getElementById('slide-prev');
+  var next = document.getElementById('slide-next');
+  var num = document.getElementById('slide-n');
+  if (!img || !link || shots.length < 2) {
+    if (prev) { prev.disabled = true; }
+    if (next) { next.disabled = true; }
+    return;
+  }
+  var at = 0;
+
+  function show(i) {
+    at = (i + shots.length) % shots.length;
+    img.src = shots[at];
+    img.alt = 'Listing photo ' + (at + 1) + ' of ' + shots.length +
+              ' — open full size';
+    link.href = shots[at];
+    if (num) { num.textContent = String(at + 1); }
+  }
+
+  // Only the neighbours are warmed: a 34-photo listing at 136 KB each is
+  // 4.6 MB if the whole gallery is fetched up front, for images the reader may
+  // never scroll to.
+  function warm() {
+    [at + 1, at - 1].forEach(function (k) {
+      var j = (k + shots.length) % shots.length;
+      if (j !== at) { new Image().src = shots[j]; }
+    });
+  }
+
+  prev.addEventListener('click', function () { show(at - 1); warm(); });
+  next.addEventListener('click', function () { show(at + 1); warm(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) { return; }
+    if (e.key === 'ArrowLeft') { show(at - 1); warm(); }
+    if (e.key === 'ArrowRight') { show(at + 1); warm(); }
+  });
+  show(0);
+  warm();
+})();
+</script>
+</body></html>

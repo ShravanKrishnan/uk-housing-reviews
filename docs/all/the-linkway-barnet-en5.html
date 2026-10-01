@@ -1,0 +1,972 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Linkway — review</title>
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <h1>The Linkway</h1>
+  <p class="sub">The Linkway, Barnet EN5</p>
+  <nav class="crumbs"><a href="../index.html">← Back to the map</a> &middot;
+  <a href="../index.html#all-rank-71">Rank #71 of All properties</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="panel">
+    <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between">
+      <div>
+        <span class="pill" style="background:#a8322d">45.8 Score</span>
+        
+      </div>
+      <div style="font-size:13px;color:var(--muted)">
+        71 of 164 &middot; score 45.8
+      </div>
+    </div>
+    <div class="verdict">Proceed with Caution: Moderate scores, verify key items during survey.</div>
+  </div>
+
+  <h3>At a glance</h3>
+  <div class="grid"><div class="stat"><div class="k">Asking price</div><div class="v">£840,000</div></div><div class="stat"><div class="k">Property type</div><div class="v">4 bed semi-detached house for sale</div></div><div class="stat"><div class="k">Tenure</div><div class="v">Freehold</div></div><div class="stat"><div class="k">Size</div><div class="v">1,335 sq ft / 124 m²</div></div><div class="stat"><div class="k">Price per sq ft</div><div class="v">£629.2</div></div><div class="stat"><div class="k">Bedrooms</div><div class="v">4</div></div><div class="stat"><div class="k">Bathrooms</div><div class="v">2</div></div><div class="stat"><div class="k">Living rooms</div><div class="v">2</div></div><div class="stat"><div class="k">EPC (current / potential)</div><div class="v">D / B</div></div><div class="stat"><div class="k">Nearest station</div><div class="v">High Barnet · 0.8 mi · ~17 min walk</div></div><div class="stat wide"><div class="k">Commute to Liverpool St</div><div class="v">52 min (Great Northern direct to Moorgate (24 min) + 4 min walk via integrated Elizabeth line concourse to Liverpool St)</div></div><div class="stat wide"><div class="k">Commute to King&#x27;s Cross</div><div class="v">41 min (Great Northern direct to King&#x27;s Cross St Pancras (17 min))</div></div></div>
+
+  <h3>Nice-to-haves</h3>
+  <div class="panel">
+    <table class="nice">
+      <thead><tr><th>Signal</th><th>Status</th><th>Detail</th></tr></thead>
+      <tbody><tr><td>Air conditioning</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned; UK EPCs do not record domestic cooling</td></tr><tr><td>Underfloor heating</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned in the listing or EPC</td></tr><tr><td>South-facing garden</td><td><span class="nh-status nh-stated">stated</span></td><td>Described as south-facing in the listing</td></tr><tr><td>Sun roof / lantern in living areas</td><td><span class="nh-status nh-photo_hint">photo-hint</span></td><td>skylight seen in a living-area photo (room unverified)</td></tr><tr><td>Ground-floor bedroom</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>No ground-floor bedroom or convertible room mentioned</td></tr><tr><td>Wide living room</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Largest living area is 12.0 ft (Front Reception, floor-plan) — below the 15 ft mark</td></tr><tr><td>Home theatre potential</td><td><span class="nh-status nh-photo_hint">photo-hint</span></td><td>Through Dining Area measures 12.2 x 11.1 ft (135 sq ft) on the floor plan, a separate room from the Front Reception — room for a smaller screen or fewer seats; at that size it holds an 85-inch screen with the front row 7.1 ft from it, 1 recliner row of 3 across (8.7 ft of frontage, a three-seat sofa), 3 seats</td></tr></tbody>
+    </table>
+  </div>
+
+<div class="panel"><h2>Photos — 22</h2><div class="slides" id="slides"><div class="slide-frame"><a id="slide-link" href="https://lid.zoocdn.com/u/1024/768/db3f603f705a42eb5342de03816775dc085353c0.jpg" rel="noopener"><img id="slide-img" src="https://lid.zoocdn.com/u/1024/768/db3f603f705a42eb5342de03816775dc085353c0.jpg" alt="Listing photo 1 of 22 — open full size" loading="lazy"></a><button type="button" class="slide-nav prev" id="slide-prev" aria-label="Previous photo">&#8249;</button><button type="button" class="slide-nav next" id="slide-next" aria-label="Next photo">&#8250;</button><span class="slide-badge"><span id="slide-n">1</span> / 22</span></div></div><p class="note" style="margin-top:8px">Arrow keys page through the gallery; click a photo to open it full size. These are the listing's own photographs, at the highest resolution its image host serves.</p></div>
+
+  <div class="layout">
+    <div class="panel sticky">
+      <h2>Where it is</h2>
+      <div id="map" style="height:330px;border-radius:8px"></div>
+      <p class="note" style="margin-top:10px">
+        Pin is the listing's own coordinates. Map tiles are OpenStreetMap.
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=51.64122,-0.187142" rel="noopener">Open in Google Maps →</a>
+        &middot; <a href="https://www.openstreetmap.org/?mlat=51.64122&amp;mlon=-0.187142#map=18/51.64122/-0.187142" rel="noopener">Open in OpenStreetMap →</a>
+        &middot; <a href="https://www.zoopla.co.uk/for-sale/details/74277270/" rel="noopener">Zoopla listing →</a>
+      </p>
+    </div>
+    <div class="panel">
+      <h2>Floorplan analysis</h2>
+      <a href="https://lid.zoocdn.com/u/1024/768/eaa00d9437ebb8155626e1f1a08ebda34b115ac3.jpg" rel="noopener"><img class="plan" src="https://lid.zoocdn.com/u/1024/768/eaa00d9437ebb8155626e1f1a08ebda34b115ac3.jpg" alt="Floor plan for The Linkway, Barnet EN5" loading="lazy"></a><p class="note">13 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are listed without one. <a href="https://lid.zoocdn.com/u/1024/768/eaa00d9437ebb8155626e1f1a08ebda34b115ac3.jpg" rel="noopener">Open the full-size plan →</a></p><table class="nice compact"><thead><tr><th>Room</th><th>Type</th><th>Floor</th><th>Dimensions</th><th>Area</th></tr></thead><tbody><tr><td>Kitchen/Breakfast Room</td><td>kitchen</td><td>ground</td><td class="num">16.2 &times; 11.9 ft</td><td class="num">193 sq ft</td></tr><tr><td>Guest Shower Room/Utility</td><td>utility</td><td>ground</td><td class="num">7.9 &times; 6.3 ft</td><td class="num">50 sq ft</td></tr><tr><td>Through Dining Area</td><td>dining</td><td>ground</td><td class="num">12.2 &times; 11.1 ft</td><td class="num">135 sq ft</td></tr><tr><td>Front Reception</td><td>living</td><td>ground</td><td class="num">12.1 &times; 12 ft</td><td class="num">145 sq ft</td></tr><tr><td>Hallway</td><td>circulation</td><td>ground</td><td class="num">not printed</td><td class="num">—</td></tr><tr><td>Entrance Porch</td><td>circulation</td><td>ground</td><td class="num">6.2 &times; 6.2 ft</td><td class="num">38 sq ft</td></tr><tr><td>Family Bathroom</td><td>bathroom</td><td>first</td><td class="num">8.4 &times; 6.5 ft</td><td class="num">55 sq ft</td></tr><tr><td>Bedroom Two</td><td>bedroom</td><td>first</td><td class="num">12 &times; 10.9 ft</td><td class="num">131 sq ft</td></tr><tr><td>Bedroom One</td><td>bedroom</td><td>first</td><td class="num">13.2 &times; 8.8 ft</td><td class="num">116 sq ft</td></tr><tr><td>Bedroom Three</td><td>bedroom</td><td>first</td><td class="num">8.7 &times; 6.9 ft</td><td class="num">60 sq ft</td></tr><tr><td>First Floor Landing</td><td>circulation</td><td>first</td><td class="num">6.8 &times; 4.4 ft</td><td class="num">30 sq ft</td></tr><tr><td>Loft Room/Bedroom Four</td><td>bedroom</td><td>second</td><td class="num">11.2 &times; 9.1 ft</td><td class="num">102 sq ft</td></tr><tr><td>Loft Landing</td><td>circulation</td><td>second</td><td class="num">not printed</td><td class="num">—</td></tr></tbody></table>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-top:22px">
+    <h2>Score breakdown — 45.8/100</h2>
+    <div class="bar-row with-evidence"><span class="lbl">Location &amp; transport</span><span class="bar"><i style="width:22.5%;background:#a8322d"></i></span><span class="num">4.5</span><ul class="ticks compact"><li><span class="tick">✓</span>Nearest station High Barnet 17 min walk (0.84 mi routed walk) (+2)</li><li><span class="tick">✓</span>No station within 0.8 mi walking distance (nearest is 0.84 mi)</li><li><span class="tick">✓</span>Moderate Liverpool St commute: ~52 mins door-to-concourse via Oakleigh Park (24m walk + 24m rail) (+1.5)</li><li><span class="tick">✓</span>King&#x27;s Cross St Pancras commute ~41 mins via Oakleigh Park (+1)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Space, scale &amp; layout</span><span class="bar"><i style="width:32.5%;background:#a8322d"></i></span><span class="num">6.5</span><ul class="ticks compact"><li><span class="tick">✓</span>Square footage taken from floor plan (image analysis)</li><li><span class="tick">✓</span>Compact floorplate: 1,335.0 sq ft total (334 sq ft/bed) (+2.5)</li><li><span class="tick">✓</span>Well balanced bathroom ratio (2 baths for 4 beds) (+2)</li><li><span class="tick">✓</span>Two or more reception rooms (2) (+1)</li><li><span class="tick">✓</span>Dedicated utility room present (+1)</li><li><span class="tick">✓</span>Living room width: 12.0 ft (below 15 ft)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Financial efficiency</span><span class="bar"><i style="width:55.3%;background:#a8322d"></i></span><span class="num">8.3</span><ul class="ticks compact"><li><span class="tick">✓</span>£629 per sq ft on 1,335 sq ft (+3.8 of 7.5)</li><li><span class="tick">✓</span>£840,000 asking price (+4.5 of 7.5)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Technical &amp; EPC</span><span class="bar"><i style="width:72.5%;background:#a8322d"></i></span><span class="num">14.5</span><ul class="ticks compact"><li><span class="tick">✓</span>EPC Band D (4.5) + insulated roof (2) + double glazing (1) (+7.5 of 10)</li><li><span class="tick">✓</span>Roof glazing seen in photos: skylight (+5)</li><li><span class="tick">✓</span>EPC: pitched roof with accessible loft (pitched, 100 mm loft insulation) — scope for a simple loft extension (structural survey still required) (+2)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Observed presentation</span><span class="bar"><i style="width:46.7%;background:#a8322d"></i></span><span class="num">7.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Presented finish observed as refurbished in listing photographs (image analysis) (+5.5 of 7)</li><li><span class="tick">✓</span>Exterior &amp; garden rated standard in listing photographs (image analysis) (+1.5 of 3)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Garden &amp; outdoor</span><span class="bar"><i style="width:50.0%;background:#a8322d"></i></span><span class="num">5.0</span><ul class="ticks compact"><li><span class="tick">✓</span>South-facing garden confirmed (+5)</li></ul></div>
+    <p class="note">The combined score rewards location, space, financial efficiency,
+    technical specification, observed presentation, and garden quality. Every line
+    lists the evidence that earned it, so a component cannot be read as a verdict
+    without the reason attached.</p>
+  </div>
+
+  <h3>Land Registry</h3>
+  <div class="panel">
+    <p><strong>£710,000 on 2025-02-06<br><span class="note">First recorded sale: 2025-02-06</span></strong></p>
+    <p>£373/sq ft median (range £69–£739), from 27 of 35 local sales (77% priced). <span class="note">Floor area is borrowed from the EPC extract (epc_bulk total_floor_area) because sale records carry none; small samples are heavy-tailed, so the median is used and withheld below 5 priced sales.</span></p>
+    <p class="note">35 raw sale record(s) exist in this postcode. They are the neighbourhood's history, not this home's, and are deliberately not presented as its own.</p>
+    <p class="note">Scope <code>address</code> — sale history is only ever
+    attributed to this home when a house number was derived and matched.</p>
+  </div>
+
+  <h3>Planning</h3>
+  <div class="panel"><p class="note">1 planning record(s) matched this address:</p><ul class="ticks"><li><a href="https://publicaccess.barnet.gov.uk/online-applications/propertyDetails.do?activeTab=summary&amp;keyVal=NC298G00DT002" rel="noopener">24 The Linkway Barnet EN5 2BX</a></li></ul></div>
+
+  <div style="margin-top:22px">
+    <div class="panel"><h2>Photographic evidence reviewed for the score</h2><p class="note">Points are awarded only for detected listing, EPC, or photographic evidence, and each component above lists what it found. Systems without such evidence score zero and are omitted rather than listed as inspection tasks. These notes record what the photos did and did not show.</p><ul class="ticks"><li>23 property photo(s) analysed by local vision model (Qwen3-VL)</li><li>Photographic-evidence score: 42.0/100 (high confidence; condition 30/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 9/10)</li><li>Floor-plan internal area read from the plan: 1,335 sq ft (scoring measure)</li><li>Condition tier inferred from photos: refurbished</li><li>Not captured in the photos: extension evidence, extension signals, exterior rating, garden aspect, garden aspect hint, glazing types (…)</li></ul></div>
+  </div>
+
+  
+
+  <details class="raw">
+    <summary>Raw review record (JSON)</summary>
+    <pre>{
+  &quot;asking_price&quot;: 840000,
+  &quot;bathrooms&quot;: 2,
+  &quot;bedrooms&quot;: 4,
+  &quot;combined_score&quot;: {
+    &quot;detected_features&quot;: [
+      &quot;Nearest station High Barnet 17 min walk (0.84 mi routed walk) (+2)&quot;,
+      &quot;No station within 0.8 mi walking distance (nearest is 0.84 mi)&quot;,
+      &quot;Moderate Liverpool St commute: ~52 mins door-to-concourse via Oakleigh Park (24m walk + 24m rail) (+1.5)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~41 mins via Oakleigh Park (+1)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Compact floorplate: 1,335.0 sq ft total (334 sq ft/bed) (+2.5)&quot;,
+      &quot;Well balanced bathroom ratio (2 baths for 4 beds) (+2)&quot;,
+      &quot;Two or more reception rooms (2) (+1)&quot;,
+      &quot;Dedicated utility room present (+1)&quot;,
+      &quot;Living room width: 12.0 ft (below 15 ft)&quot;,
+      &quot;\u00a3629 per sq ft on 1,335 sq ft (+3.8 of 7.5)&quot;,
+      &quot;\u00a3840,000 asking price (+4.5 of 7.5)&quot;,
+      &quot;EPC Band D (4.5) + insulated roof (2) + double glazing (1) (+7.5 of 10)&quot;,
+      &quot;Roof glazing seen in photos: skylight (+5)&quot;,
+      &quot;EPC: pitched roof with accessible loft (pitched, 100 mm loft insulation) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;,
+      &quot;Presented finish observed as refurbished in listing photographs (image analysis) (+5.5 of 7)&quot;,
+      &quot;Exterior &amp; garden rated standard in listing photographs (image analysis) (+1.5 of 3)&quot;,
+      &quot;South-facing garden confirmed (+5)&quot;
+    ],
+    &quot;evidence&quot;: {
+      &quot;financial_efficiency&quot;: [
+        &quot;\u00a3629 per sq ft on 1,335 sq ft (+3.8 of 7.5)&quot;,
+        &quot;\u00a3840,000 asking price (+4.5 of 7.5)&quot;
+      ],
+      &quot;garden_outdoor&quot;: [
+        &quot;South-facing garden confirmed (+5)&quot;
+      ],
+      &quot;location_transport&quot;: [
+        &quot;Nearest station High Barnet 17 min walk (0.84 mi routed walk) (+2)&quot;,
+        &quot;No station within 0.8 mi walking distance (nearest is 0.84 mi)&quot;,
+        &quot;Moderate Liverpool St commute: ~52 mins door-to-concourse via Oakleigh Park (24m walk + 24m rail) (+1.5)&quot;,
+        &quot;King&#x27;s Cross St Pancras commute ~41 mins via Oakleigh Park (+1)&quot;
+      ],
+      &quot;observed_presentation&quot;: [
+        &quot;Presented finish observed as refurbished in listing photographs (image analysis) (+5.5 of 7)&quot;,
+        &quot;Exterior &amp; garden rated standard in listing photographs (image analysis) (+1.5 of 3)&quot;
+      ],
+      &quot;space_layout&quot;: [
+        &quot;Square footage taken from floor plan (image analysis)&quot;,
+        &quot;Compact floorplate: 1,335.0 sq ft total (334 sq ft/bed) (+2.5)&quot;,
+        &quot;Well balanced bathroom ratio (2 baths for 4 beds) (+2)&quot;,
+        &quot;Two or more reception rooms (2) (+1)&quot;,
+        &quot;Dedicated utility room present (+1)&quot;,
+        &quot;Living room width: 12.0 ft (below 15 ft)&quot;
+      ],
+      &quot;technical_epc&quot;: [
+        &quot;EPC Band D (4.5) + insulated roof (2) + double glazing (1) (+7.5 of 10)&quot;,
+        &quot;Roof glazing seen in photos: skylight (+5)&quot;,
+        &quot;EPC: pitched roof with accessible loft (pitched, 100 mm loft insulation) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;
+      ]
+    },
+    &quot;financial_efficiency&quot;: 8.3,
+    &quot;garden_outdoor&quot;: 5.0,
+    &quot;location_transport&quot;: 4.5,
+    &quot;notes&quot;: [
+      &quot;Nearest station High Barnet 17 min walk (0.84 mi routed walk) (+2)&quot;,
+      &quot;No station within 0.8 mi walking distance (nearest is 0.84 mi)&quot;,
+      &quot;Moderate Liverpool St commute: ~52 mins door-to-concourse via Oakleigh Park (24m walk + 24m rail) (+1.5)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~41 mins via Oakleigh Park (+1)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Compact floorplate: 1,335.0 sq ft total (334 sq ft/bed) (+2.5)&quot;,
+      &quot;Well balanced bathroom ratio (2 baths for 4 beds) (+2)&quot;,
+      &quot;Two or more reception rooms (2) (+1)&quot;,
+      &quot;Dedicated utility room present (+1)&quot;,
+      &quot;EPC Band D&quot;
+    ],
+    &quot;observed_presentation&quot;: 7.0,
+    &quot;space_layout&quot;: 6.5,
+    &quot;tags&quot;: [],
+    &quot;technical_epc&quot;: 14.5,
+    &quot;total_score&quot;: 45.8,
+    &quot;vision_facts&quot;: [
+      &quot;23 property photo(s) analysed by local vision model (Qwen3-VL)&quot;,
+      &quot;Photographic-evidence score: 42.0/100 (high confidence; condition 30/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 9/10)&quot;,
+      &quot;Floor-plan internal area read from the plan: 1,335 sq ft (scoring measure)&quot;,
+      &quot;Condition tier inferred from photos: refurbished&quot;,
+      &quot;Not captured in the photos: extension evidence, extension signals, exterior rating, garden aspect, garden aspect hint, glazing types (\u2026)&quot;
+    ]
+  },
+  &quot;data_gaps&quot;: [],
+  &quot;epc_potential&quot;: &quot;B&quot;,
+  &quot;epc_rating&quot;: &quot;D&quot;,
+  &quot;floorplan_image_url&quot;: &quot;https://lid.zoocdn.com/u/1024/768/eaa00d9437ebb8155626e1f1a08ebda34b115ac3.jpg&quot;,
+  &quot;floorplan_rooms&quot;: [
+    {
+      &quot;area_sq_ft&quot;: 193,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;kitchen&quot;,
+      &quot;label&quot;: &quot;Kitchen/Breakfast Room&quot;,
+      &quot;length_ft&quot;: 16.2,
+      &quot;width_ft&quot;: 11.9
+    },
+    {
+      &quot;area_sq_ft&quot;: 50,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;utility&quot;,
+      &quot;label&quot;: &quot;Guest Shower Room/Utility&quot;,
+      &quot;length_ft&quot;: 7.9,
+      &quot;width_ft&quot;: 6.3
+    },
+    {
+      &quot;area_sq_ft&quot;: 135,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;dining&quot;,
+      &quot;label&quot;: &quot;Through Dining Area&quot;,
+      &quot;length_ft&quot;: 12.2,
+      &quot;width_ft&quot;: 11.1
+    },
+    {
+      &quot;area_sq_ft&quot;: 145,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;living&quot;,
+      &quot;label&quot;: &quot;Front Reception&quot;,
+      &quot;length_ft&quot;: 12.1,
+      &quot;width_ft&quot;: 12.0
+    },
+    {
+      &quot;area_sq_ft&quot;: null,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;circulation&quot;,
+      &quot;label&quot;: &quot;Hallway&quot;,
+      &quot;length_ft&quot;: null,
+      &quot;width_ft&quot;: null
+    },
+    {
+      &quot;area_sq_ft&quot;: 38,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;circulation&quot;,
+      &quot;label&quot;: &quot;Entrance Porch&quot;,
+      &quot;length_ft&quot;: 6.2,
+      &quot;width_ft&quot;: 6.2
+    },
+    {
+      &quot;area_sq_ft&quot;: 55,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bathroom&quot;,
+      &quot;label&quot;: &quot;Family Bathroom&quot;,
+      &quot;length_ft&quot;: 8.4,
+      &quot;width_ft&quot;: 6.5
+    },
+    {
+      &quot;area_sq_ft&quot;: 131,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom Two&quot;,
+      &quot;length_ft&quot;: 12.0,
+      &quot;width_ft&quot;: 10.9
+    },
+    {
+      &quot;area_sq_ft&quot;: 116,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom One&quot;,
+      &quot;length_ft&quot;: 13.2,
+      &quot;width_ft&quot;: 8.8
+    },
+    {
+      &quot;area_sq_ft&quot;: 60,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom Three&quot;,
+      &quot;length_ft&quot;: 8.7,
+      &quot;width_ft&quot;: 6.9
+    },
+    {
+      &quot;area_sq_ft&quot;: 30,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;circulation&quot;,
+      &quot;label&quot;: &quot;First Floor Landing&quot;,
+      &quot;length_ft&quot;: 6.8,
+      &quot;width_ft&quot;: 4.4
+    },
+    {
+      &quot;area_sq_ft&quot;: 102,
+      &quot;floor&quot;: &quot;second&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Loft Room/Bedroom Four&quot;,
+      &quot;length_ft&quot;: 11.2,
+      &quot;width_ft&quot;: 9.1
+    },
+    {
+      &quot;area_sq_ft&quot;: null,
+      &quot;floor&quot;: &quot;second&quot;,
+      &quot;kind&quot;: &quot;circulation&quot;,
+      &quot;label&quot;: &quot;Loft Landing&quot;,
+      &quot;length_ft&quot;: null,
+      &quot;width_ft&quot;: null
+    }
+  ],
+  &quot;full_address&quot;: &quot;The Linkway, Barnet EN5&quot;,
+  &quot;kings_cross_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Fast (35-45m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 17,
+    &quot;route_summary&quot;: &quot;Great Northern direct to King&#x27;s Cross St Pancras (17 min)&quot;,
+    &quot;secondary_route&quot;: &quot;High Barnet (0.837 mi, ~17m walk) \u2794 London Underground (Northern line - Bank branch) (32m rail) = ~49m total&quot;,
+    &quot;station_distance_miles&quot;: 1.19,
+    &quot;station_name&quot;: &quot;Oakleigh Park&quot;,
+    &quot;total_commute_minutes&quot;: 41,
+    &quot;transfer_minutes&quot;: 0,
+    &quot;transit_line&quot;: &quot;Great Northern (National Rail)&quot;,
+    &quot;walk_time_minutes&quot;: 24
+  },
+  &quot;land_registry_summary&quot;: {
+    &quot;_cache&quot;: true,
+    &quot;area_benchmark&quot;: {
+      &quot;area_source&quot;: &quot;epc_bulk total_floor_area&quot;,
+      &quot;coverage_pct&quot;: 77,
+      &quot;high_gbp_sqft&quot;: 739,
+      &quot;low_gbp_sqft&quot;: 69,
+      &quot;median_gbp_sqft&quot;: 373,
+      &quot;of_sales&quot;: 35,
+      &quot;sample&quot;: 27
+    },
+    &quot;first_sale_date&quot;: &quot;2025-02-06&quot;,
+    &quot;last_sale_date&quot;: &quot;2025-02-06&quot;,
+    &quot;last_sale_price&quot;: 710000,
+    &quot;number_known&quot;: true,
+    &quot;postcode_sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1995-08-17&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;7&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 93500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;AC92940E-84D6-4895-93FE-F05F1DC5C626&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1995-09-01&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;11A&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 102000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;F9A8DC85-8467-4CE8-BD7C-285D63AF4110&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1995-09-15&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;4&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 105000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;40807BEC-1D12-45E2-9364-20C8A497CAFE&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1999-07-19&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;3&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 157000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;5591343C-2FE5-4E7D-ACC5-5F77123254BB&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2000-05-05&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;36&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 195000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;B2A093C2-BD61-4302-ADF4-B8CE8BA1843D&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2000-05-18&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;25&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 182000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;6E14A663-F3CE-428D-BB83-DBB96560E363&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2000-09-29&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;28&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 195000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;DD2B8056-BD1F-4736-83A7-78700CE9D9AA&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2001-08-08&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;4&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 192000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;1C5AE788-2C9E-4C42-B148-7FD65510553D&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2002-12-12&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;36&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 279950,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;F626371F-902B-4745-A323-7A98137CD987&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2004-04-29&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;8&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 257000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;5957DEFB-F344-4F9D-8B51-D53EFA1CA8CD&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2004-10-27&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;30&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 297500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;660CA445-522A-43F9-BDBF-D1A8882FF437&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2005-06-15&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;19&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 235000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;CA0B0E9A-61E6-428E-AEF9-5BFB79417AEA&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2006-02-24&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;4&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 280000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;02496059-39AD-4CAA-906B-87D52E3B3930&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2006-11-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;19&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 299950,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;DDB60D0B-CCE9-43E0-87AB-5BF500D7B0C7&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2008-12-12&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;18&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 315000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;ABBBF80E-8ED7-48D2-901A-9622CC76D233&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2010-05-06&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;19&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 325000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;F5F88C44-81CD-44EA-9AEC-B11AFA9715E0&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2010-10-08&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;26&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 308000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;9733A138-3F6D-4D8E-878A-0D24F07059B5&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2011-04-15&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;6&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 363000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;ABC4FAE2-EE3E-4D79-B703-C2A2839C8846&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2011-08-11&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;28&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 358000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;886D908D-E57E-43E3-9F48-EBC36A424C53&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2013-11-14&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;16&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 410000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;AF61F2DF-BFB5-402D-A448-094EB160A76F&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2014-07-03&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;2&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 546000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;50954FAD-567E-424D-B8F8-5FF7CCFD0C8C&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2015-10-12&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;10&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 450000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;23B6165E-507C-FCF4-E050-A8C0620577FA&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-07-29&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;26&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 560000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;3B7E0B90-2E0C-EA99-E050-A8C062057E77&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-05-11&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;4&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 605000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;50F18103-50CC-9FD5-E050-A8C063054923&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2020-06-18&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;26&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 599000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;AE4D86D4-3DB7-4619-E053-6C04A8C03CD0&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2020-09-21&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;5&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 585000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;B5755FFE-36F5-7D01-E053-6C04A8C036B6&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2020-11-10&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;22&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 620000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;BC8936BB-C7DC-0E2C-E053-6C04A8C0DBF4&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2020-12-22&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;4&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 610000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;BC8936BB-C728-0E2C-E053-6C04A8C0DBF4&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2021-06-25&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;12&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 500000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;D22473F5-B760-7B40-E053-6C04A8C0A630&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2023-06-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;3&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 670000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;1061746E-3CCB-3C34-E063-4804A8C0F9E7&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2023-08-11&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;36&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 715000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;06C9F487-97AB-9388-E063-4804A8C0BD98&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2024-10-18&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;1&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 660000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;402A3A66-2625-A7DF-E063-4804A8C0B80D&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2025-02-06&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;24&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 710000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;3B5CE842-0221-EE3A-E063-4804A8C0D6F1&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2025-02-19&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;15&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 635000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;4E75C29D-77F6-8922-E063-4804A8C094D0&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2025-03-24&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;7&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 681000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;31C68072-5B00-FEE3-E063-4804A8C04F37&quot;
+      }
+    ],
+    &quot;sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2025-02-06&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;24&quot;,
+        &quot;postcode&quot;: &quot;EN5 2BX&quot;,
+        &quot;price&quot;: 710000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;THE LINKWAY&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;3B5CE842-0221-EE3A-E063-4804A8C0D6F1&quot;
+      }
+    ],
+    &quot;scope&quot;: &quot;address&quot;,
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;latitude&quot;: 51.64122,
+  &quot;liverpool_st_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Moderate (45-55m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 24,
+    &quot;route_summary&quot;: &quot;Great Northern direct to Moorgate (24 min) + 4 min walk via integrated Elizabeth line concourse to Liverpool St&quot;,
+    &quot;secondary_route&quot;: &quot;High Barnet (0.837 mi, ~17m walk) \u2794 London Underground (Northern line - Bank branch) (36m rail) = ~57m total&quot;,
+    &quot;station_distance_miles&quot;: 1.19,
+    &quot;station_name&quot;: &quot;Oakleigh Park&quot;,
+    &quot;total_commute_minutes&quot;: 52,
+    &quot;transfer_minutes&quot;: 4,
+    &quot;transit_line&quot;: &quot;Great Northern (National Rail)&quot;,
+    &quot;walk_time_minutes&quot;: 24
+  },
+  &quot;living_rooms&quot;: 2,
+  &quot;longitude&quot;: -0.187142,
+  &quot;nearest_station&quot;: &quot;High Barnet&quot;,
+  &quot;nice_to_haves&quot;: [
+    {
+      &quot;detail&quot;: &quot;Not mentioned; UK EPCs do not record domestic cooling&quot;,
+      &quot;label&quot;: &quot;Air conditioning&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned in the listing or EPC&quot;,
+      &quot;label&quot;: &quot;Underfloor heating&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Described as south-facing in the listing&quot;,
+      &quot;label&quot;: &quot;South-facing garden&quot;,
+      &quot;status&quot;: &quot;stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;skylight seen in a living-area photo (room unverified)&quot;,
+      &quot;label&quot;: &quot;Sun roof / lantern in living areas&quot;,
+      &quot;status&quot;: &quot;photo-hint&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;No ground-floor bedroom or convertible room mentioned&quot;,
+      &quot;label&quot;: &quot;Ground-floor bedroom&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Largest living area is 12.0 ft (Front Reception, floor-plan) \u2014 below the 15 ft mark&quot;,
+      &quot;label&quot;: &quot;Wide living room&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Through Dining Area measures 12.2 x 11.1 ft (135 sq ft) on the floor plan, a separate room from the Front Reception \u2014 room for a smaller screen or fewer seats; at that size it holds an 85-inch screen with the front row 7.1 ft from it, 1 recliner row of 3 across (8.7 ft of frontage, a three-seat sofa), 3 seats&quot;,
+      &quot;label&quot;: &quot;Home theatre potential&quot;,
+      &quot;status&quot;: &quot;photo-hint&quot;
+    }
+  ],
+  &quot;overall_verdict&quot;: &quot;Proceed with Caution: Moderate scores, verify key items during survey.&quot;,
+  &quot;planning_summary&quot;: {
+    &quot;_cache&quot;: true,
+    &quot;applications&quot;: [],
+    &quot;properties&quot;: [
+      {
+        &quot;key&quot;: &quot;NC298G00DT002&quot;,
+        &quot;text&quot;: &quot;24 The Linkway Barnet EN5 2BX&quot;,
+        &quot;url&quot;: &quot;https://publicaccess.barnet.gov.uk/online-applications/propertyDetails.do?activeTab=summary&amp;keyVal=NC298G00DT002&quot;
+      }
+    ],
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;price_display&quot;: &quot;\u00a3840,000&quot;,
+  &quot;price_per_sq_ft&quot;: 629.2,
+  &quot;property_id&quot;: &quot;74277270&quot;,
+  &quot;property_images&quot;: [
+    &quot;https://lid.zoocdn.com/u/1024/768/db3f603f705a42eb5342de03816775dc085353c0.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/38e6dc56825851675ee9a7c67912210567b385b1.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/d296a1737bedec2cd0a73c86a3decc2909f86fd8.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/f3ea1db915d82c1006cd5a6c04dfdc5cd6209faf.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/bdf8f4f53373eb47334b80be82e2815ce5b02113.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/fcc3f1dd4e074e6e42cbee2152f40a1d9a658c0f.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/21a3d06bf7f6f16a689a3dbcbb5cfa73d1c418cd.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/d4eb033418e290dc3a3946a9a44f18f74b8dca2d.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/640fca9ac840bab845a3765e9af1914b100692a5.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/7c656159dc6d68697c06db6813436bffee4398cc.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/a2750c6d8912f931586fa0809120cc49f3d588c3.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/12fb093a82e511330e4516d2b57c8d1ee253aaee.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/de4d76e0bfeebd56aa34d99033be833ed99c518d.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/95294c18dd73a1cbe42fcf5a575ebb6289cad97e.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/b626f1483fe5159802cfa340a7d41b3b39e06f9b.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/e884030cafc76c55138a4ba863c853bf48c8b4a9.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/9b706b550ec3841829d6f2e7d234ab207bc5e654.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/7131ab02535135f46ff6e07006b76665d9a89717.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/eed3b3ad79b992411a81884e57a1b4892925d52c.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/2186782cad6bb3fd4f7d3643dd7d19689b7303d5.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/19914a2f89e5a8c04220d7d6024fc28c7e1ff5f7.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/f0a27b9dc87ee571ca8d276939ed4e7e97485261.jpg&quot;
+  ],
+  &quot;property_type&quot;: &quot;4 bed semi-detached house for sale&quot;,
+  &quot;size_sq_ft&quot;: 1335.0,
+  &quot;size_sq_m&quot;: 124.0,
+  &quot;station_distance_miles&quot;: 0.84,
+  &quot;station_distance_source&quot;: &quot;routed&quot;,
+  &quot;tenure&quot;: &quot;Freehold&quot;,
+  &quot;walk_time_minutes&quot;: 17
+}</pre>
+  </details>
+
+  <div class="foot"><div><a href="holden-road-woodside-park-n12-2.html">← Holden Road</a></div><div><a href="pyecombe-corner-woodside-park-n12.html">→ Pyecombe Corner</a></div></div>
+
+  <p class="note" style="margin-top:26px">Generated 2026-10-01 from
+  <code>reviews/property_reviews.json</code>. Map data &copy;
+  <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</p>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
+<script>window.__PINS__ = [{"id": "74277270", "lat": 51.64122, "lon": -0.187142, "addr": "The Linkway", "price": "\u00a3840,000", "sqft": "1,335", "epc": "D", "score": 45.8, "colour": "#b04623", "tags": [], "tag_html": "", "href": "#"}];</script>
+<script>window.__SLIDES__ = ["https://lid.zoocdn.com/u/1024/768/db3f603f705a42eb5342de03816775dc085353c0.jpg", "https://lid.zoocdn.com/u/1024/768/38e6dc56825851675ee9a7c67912210567b385b1.jpg", "https://lid.zoocdn.com/u/1024/768/d296a1737bedec2cd0a73c86a3decc2909f86fd8.jpg", "https://lid.zoocdn.com/u/1024/768/f3ea1db915d82c1006cd5a6c04dfdc5cd6209faf.jpg", "https://lid.zoocdn.com/u/1024/768/bdf8f4f53373eb47334b80be82e2815ce5b02113.jpg", "https://lid.zoocdn.com/u/1024/768/fcc3f1dd4e074e6e42cbee2152f40a1d9a658c0f.jpg", "https://lid.zoocdn.com/u/1024/768/21a3d06bf7f6f16a689a3dbcbb5cfa73d1c418cd.jpg", "https://lid.zoocdn.com/u/1024/768/d4eb033418e290dc3a3946a9a44f18f74b8dca2d.jpg", "https://lid.zoocdn.com/u/1024/768/640fca9ac840bab845a3765e9af1914b100692a5.jpg", "https://lid.zoocdn.com/u/1024/768/7c656159dc6d68697c06db6813436bffee4398cc.jpg", "https://lid.zoocdn.com/u/1024/768/a2750c6d8912f931586fa0809120cc49f3d588c3.jpg", "https://lid.zoocdn.com/u/1024/768/12fb093a82e511330e4516d2b57c8d1ee253aaee.jpg", "https://lid.zoocdn.com/u/1024/768/de4d76e0bfeebd56aa34d99033be833ed99c518d.jpg", "https://lid.zoocdn.com/u/1024/768/95294c18dd73a1cbe42fcf5a575ebb6289cad97e.jpg", "https://lid.zoocdn.com/u/1024/768/b626f1483fe5159802cfa340a7d41b3b39e06f9b.jpg", "https://lid.zoocdn.com/u/1024/768/e884030cafc76c55138a4ba863c853bf48c8b4a9.jpg", "https://lid.zoocdn.com/u/1024/768/9b706b550ec3841829d6f2e7d234ab207bc5e654.jpg", "https://lid.zoocdn.com/u/1024/768/7131ab02535135f46ff6e07006b76665d9a89717.jpg", "https://lid.zoocdn.com/u/1024/768/eed3b3ad79b992411a81884e57a1b4892925d52c.jpg", "https://lid.zoocdn.com/u/1024/768/2186782cad6bb3fd4f7d3643dd7d19689b7303d5.jpg", "https://lid.zoocdn.com/u/1024/768/19914a2f89e5a8c04220d7d6024fc28c7e1ff5f7.jpg", "https://lid.zoocdn.com/u/1024/768/f0a27b9dc87ee571ca8d276939ed4e7e97485261.jpg"];</script>
+<script>
+(function () {
+  var el = document.getElementById('map');
+  if (!el || typeof L === 'undefined') { return; }
+  var data = window.__PINS__ || [];
+  if (!data.length || data[0].lat === null) { el.style.display = 'none'; return; }
+  var map = L.map('map', { scrollWheelZoom: false, dragging: false,
+                           doubleClickZoom: false, boxZoom: false,
+                           keyboard: false, zoomControl: false });
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  var group = L.featureGroup().addTo(map);
+  data.forEach(function (p) {
+    if (p.lat === null) { return; }
+    L.circleMarker([p.lat, p.lon], { radius: 10, color: '#ffffff', weight: 3,
+                                     fillColor: p.colour, fillOpacity: 0.95 }).addTo(group);
+  });
+  if (group.getBounds().isValid()) { map.fitBounds(group.getBounds().pad(0.35)); }
+  L.control.attribution({ prefix: false }).addTo(map);
+})();
+</script>
+<script>
+(function () {
+  var shots = window.__SLIDES__ || [];
+  var img = document.getElementById('slide-img');
+  var link = document.getElementById('slide-link');
+  var prev = document.getElementById('slide-prev');
+  var next = document.getElementById('slide-next');
+  var num = document.getElementById('slide-n');
+  if (!img || !link || shots.length < 2) {
+    if (prev) { prev.disabled = true; }
+    if (next) { next.disabled = true; }
+    return;
+  }
+  var at = 0;
+
+  function show(i) {
+    at = (i + shots.length) % shots.length;
+    img.src = shots[at];
+    img.alt = 'Listing photo ' + (at + 1) + ' of ' + shots.length +
+              ' — open full size';
+    link.href = shots[at];
+    if (num) { num.textContent = String(at + 1); }
+  }
+
+  // Only the neighbours are warmed: a 34-photo listing at 136 KB each is
+  // 4.6 MB if the whole gallery is fetched up front, for images the reader may
+  // never scroll to.
+  function warm() {
+    [at + 1, at - 1].forEach(function (k) {
+      var j = (k + shots.length) % shots.length;
+      if (j !== at) { new Image().src = shots[j]; }
+    });
+  }
+
+  prev.addEventListener('click', function () { show(at - 1); warm(); });
+  next.addEventListener('click', function () { show(at + 1); warm(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) { return; }
+    if (e.key === 'ArrowLeft') { show(at - 1); warm(); }
+    if (e.key === 'ArrowRight') { show(at + 1); warm(); }
+  });
+  show(0);
+  warm();
+})();
+</script>
+</body></html>

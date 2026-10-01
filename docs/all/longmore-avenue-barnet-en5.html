@@ -1,0 +1,754 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Longmore Avenue — review</title>
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <h1>Longmore Avenue</h1>
+  <p class="sub">Longmore Avenue, Barnet EN5</p>
+  <nav class="crumbs"><a href="../index.html">← Back to the map</a> &middot;
+  <a href="../index.html#all-rank-43">Rank #43 of All properties</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="panel">
+    <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between">
+      <div>
+        <span class="pill" style="background:#c2760a">50.7 Score</span>
+        <span class="badge tag-value">Strong Value</span>
+      </div>
+      <div style="font-size:13px;color:var(--muted)">
+        43 of 164 &middot; score 50.7
+      </div>
+    </div>
+    <div class="verdict">Proceed with Caution: Moderate scores, verify key items during survey.</div>
+  </div>
+
+  <h3>At a glance</h3>
+  <div class="grid"><div class="stat"><div class="k">Asking price</div><div class="v">£835,000</div></div><div class="stat"><div class="k">Property type</div><div class="v">4 bed semi-detached house for sale</div></div><div class="stat"><div class="k">Tenure</div><div class="v">Freehold</div></div><div class="stat"><div class="k">Size</div><div class="v">1,476 sq ft / 137.1 m²</div></div><div class="stat"><div class="k">Price per sq ft</div><div class="v">£565.7</div></div><div class="stat"><div class="k">Bedrooms</div><div class="v">4</div></div><div class="stat"><div class="k">Bathrooms</div><div class="v">3</div></div><div class="stat"><div class="k">Living rooms</div><div class="v">2</div></div><div class="stat"><div class="k">EPC (current / potential)</div><div class="v">E / B</div></div><div class="stat"><div class="k">Nearest station</div><div class="v">New Barnet · 0.7 mi · ~14 min walk</div></div><div class="stat wide"><div class="k">Commute to Liverpool St</div><div class="v">41 min (Great Northern direct to Moorgate (24 min) + 4 min walk via integrated Elizabeth line concourse to Liverpool St)</div></div><div class="stat wide"><div class="k">Commute to King&#x27;s Cross</div><div class="v">30 min (Great Northern direct to King&#x27;s Cross St Pancras (17 min))</div></div></div>
+
+  <h3>Nice-to-haves</h3>
+  <div class="panel">
+    <table class="nice">
+      <thead><tr><th>Signal</th><th>Status</th><th>Detail</th></tr></thead>
+      <tbody><tr><td>Air conditioning</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned; UK EPCs do not record domestic cooling</td></tr><tr><td>Underfloor heating</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned in the listing or EPC</td></tr><tr><td>South-facing garden</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>No aspect stated in the listing, floor-plan or photos</td></tr><tr><td>Sun roof / lantern in living areas</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned and no overhead glazing seen in photos</td></tr><tr><td>Ground-floor bedroom</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Floorplan shows 1 bedroom on the ground floor (Bedroom)</td></tr><tr><td>Wide living room</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Largest living area is 12.2 ft (Reception Room, floor-plan) — below the 15 ft mark</td></tr><tr><td>Home theatre potential</td><td><span class="nh-status nh-photo_hint">photo-hint</span></td><td>Reception Room measures 14.7 x 11.7 ft (172 sq ft) on the floor plan, a separate room from the Reception Room — room for a smaller screen or fewer seats; at that size it holds a 92-inch screen with the front row 7.7 ft from it, 1 recliner row of 4 across (11.2 ft of frontage, a four-seat family sofa), 4 seats</td></tr></tbody>
+    </table>
+  </div>
+
+<div class="panel"><h2>Photos — 10</h2><div class="slides" id="slides"><div class="slide-frame"><a id="slide-link" href="https://lid.zoocdn.com/u/1024/768/484101b15d6f363baab1235b4934305c8ee5daff.jpg" rel="noopener"><img id="slide-img" src="https://lid.zoocdn.com/u/1024/768/484101b15d6f363baab1235b4934305c8ee5daff.jpg" alt="Listing photo 1 of 10 — open full size" loading="lazy"></a><button type="button" class="slide-nav prev" id="slide-prev" aria-label="Previous photo">&#8249;</button><button type="button" class="slide-nav next" id="slide-next" aria-label="Next photo">&#8250;</button><span class="slide-badge"><span id="slide-n">1</span> / 10</span></div></div><p class="note" style="margin-top:8px">Arrow keys page through the gallery; click a photo to open it full size. These are the listing's own photographs, at the highest resolution its image host serves.</p></div>
+
+  <div class="layout">
+    <div class="panel sticky">
+      <h2>Where it is</h2>
+      <div id="map" style="height:330px;border-radius:8px"></div>
+      <p class="note" style="margin-top:10px">
+        Pin is the listing's own coordinates. Map tiles are OpenStreetMap.
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=51.643737,-0.174323" rel="noopener">Open in Google Maps →</a>
+        &middot; <a href="https://www.openstreetmap.org/?mlat=51.643737&amp;mlon=-0.174323#map=18/51.643737/-0.174323" rel="noopener">Open in OpenStreetMap →</a>
+        &middot; <a href="https://www.zoopla.co.uk/for-sale/details/73415391/" rel="noopener">Zoopla listing →</a>
+      </p>
+    </div>
+    <div class="panel">
+      <h2>Floorplan analysis</h2>
+      <a href="https://lid.zoocdn.com/u/1024/768/238c265a400cbd22a03c6985d5c6a716d8135c3e.jpg" rel="noopener"><img class="plan" src="https://lid.zoocdn.com/u/1024/768/238c265a400cbd22a03c6985d5c6a716d8135c3e.jpg" alt="Floor plan for Longmore Avenue, Barnet EN5" loading="lazy"></a><p class="note">9 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are listed without one. <a href="https://lid.zoocdn.com/u/1024/768/238c265a400cbd22a03c6985d5c6a716d8135c3e.jpg" rel="noopener">Open the full-size plan →</a></p><table class="nice compact"><thead><tr><th>Room</th><th>Type</th><th>Floor</th><th>Dimensions</th><th>Area</th></tr></thead><tbody><tr><td>Reception Room</td><td>living</td><td>ground</td><td class="num">14.7 &times; 11.7 ft</td><td class="num">172 sq ft</td></tr><tr><td>Kitchen</td><td>kitchen</td><td>ground</td><td class="num">14.2 &times; 7.2 ft</td><td class="num">102 sq ft</td></tr><tr><td>Reception Room</td><td>living</td><td>ground</td><td class="num">15.5 &times; 12.2 ft</td><td class="num">189 sq ft</td></tr><tr><td>Bedroom</td><td>bedroom</td><td>ground</td><td class="num">13.3 &times; 8.3 ft</td><td class="num">110 sq ft</td></tr><tr><td>Bedroom</td><td>bedroom</td><td>first</td><td class="num">14.9 &times; 11.2 ft</td><td class="num">167 sq ft</td></tr><tr><td>Bedroom</td><td>bedroom</td><td>first</td><td class="num">13.8 &times; 10.2 ft</td><td class="num">141 sq ft</td></tr><tr><td>Bedroom</td><td>bedroom</td><td>first</td><td class="num">10 &times; 9.3 ft</td><td class="num">93 sq ft</td></tr><tr><td>Bedroom</td><td>bedroom</td><td>second</td><td class="num">13.3 &times; 8.3 ft</td><td class="num">110 sq ft</td></tr><tr><td>Summer House</td><td>outbuilding</td><td>ground</td><td class="num">17 &times; 10.7 ft</td><td class="num">182 sq ft</td></tr></tbody></table>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-top:22px">
+    <h2>Score breakdown — 50.7/100</h2>
+    <div class="bar-row with-evidence"><span class="lbl">Location &amp; transport</span><span class="bar"><i style="width:60.0%;background:#a8322d"></i></span><span class="num">12.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Nearest station Oakleigh Park 13 min walk (0.63 mi routed walk) (+3)</li><li><span class="tick">✓</span>2 stations within 0.8 mi — Oakleigh Park 13 min walk, New Barnet 14 min walk — commuting resilience (+3.5)</li><li><span class="tick">✓</span>1 transit line within walk — Great Northern via Oakleigh Park 13 min walk, +1 more — broad Central London access (+1)</li><li><span class="tick">✓</span>Fast Liverpool St commute: ~41 mins door-to-concourse via Oakleigh Park (13m walk + 24m rail) (+2.5)</li><li><span class="tick">✓</span>King&#x27;s Cross St Pancras commute ~30 mins via Oakleigh Park (+2)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Space, scale &amp; layout</span><span class="bar"><i style="width:60.0%;background:#a8322d"></i></span><span class="num">12.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Square footage taken from floor plan (image analysis)</li><li><span class="tick">✓</span>Standard room sizing: 1,476.0 sq ft total (369 sq ft/bed) (+4)</li><li><span class="tick">✓</span>Superb bathroom provision (3 baths for 4 beds) (+3)</li><li><span class="tick">✓</span>Two or more reception rooms (2) (+1)</li><li><span class="tick">✓</span>Separate garden studio / home office footprint (+1)</li><li><span class="tick">✓</span>Living room width: 12.2 ft (below 15 ft)</li><li><span class="tick">✓</span>Ground-floor bedroom confirmed on floorplan: 1 (Bedroom) (+3)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Financial efficiency</span><span class="bar"><i style="width:58.0%;background:#a8322d"></i></span><span class="num">8.7</span><ul class="ticks compact"><li><span class="tick">✓</span>£566 per sq ft on 1,476 sq ft (+4.2 of 7.5)</li><li><span class="tick">✓</span>£835,000 asking price (+4.5 of 7.5)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Technical &amp; EPC</span><span class="bar"><i style="width:37.5%;background:#a8322d"></i></span><span class="num">7.5</span><ul class="ticks compact"><li><span class="tick">✓</span>EPC Band E (2.5) + insulated roof (2) + double glazing (1) (+5.5 of 10)</li><li><span class="tick">✓</span>EPC assessed 2016-09-23: certificate expired — points scored as stated</li><li><span class="tick">✓</span>EPC: pitched roof with accessible loft (pitched, 150 mm loft insulation) — scope for a simple loft extension (structural survey still required) (+2)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Observed presentation</span><span class="bar"><i style="width:56.7%;background:#a8322d"></i></span><span class="num">8.5</span><ul class="ticks compact"><li><span class="tick">✓</span>Presented finish observed as refurbished in listing photographs (image analysis) (+5.5 of 7)</li><li><span class="tick">✓</span>Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Garden &amp; outdoor</span><span class="bar"><i style="width:20.0%;background:#a8322d"></i></span><span class="num">2.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Outbuilding present (+2)</li></ul></div>
+    <p class="note">The combined score rewards location, space, financial efficiency,
+    technical specification, observed presentation, and garden quality. Every line
+    lists the evidence that earned it, so a component cannot be read as a verdict
+    without the reason attached.</p>
+  </div>
+
+  <h3>Land Registry</h3>
+  <div class="panel">
+    <p><strong>£659,000 on 2018-04-16<br><span class="note">First recorded sale: 1995-02-24</span></strong></p>
+    <p>£290/sq ft median (range £94–£559), from 11 of 20 local sales (55% priced). <span class="note">Floor area is borrowed from the EPC extract (epc_bulk total_floor_area) because sale records carry none; small samples are heavy-tailed, so the median is used and withheld below 5 priced sales.</span></p>
+    <p class="note">20 raw sale record(s) exist in this postcode. They are the neighbourhood's history, not this home's, and are deliberately not presented as its own.</p>
+    <p class="note">Scope <code>address</code> — sale history is only ever
+    attributed to this home when a house number was derived and matched.</p>
+  </div>
+
+  <h3>Planning</h3>
+  <div class="panel"><p class="note">1 planning record(s) matched this address:</p><ul class="ticks"><li><a href="https://publicaccess.barnet.gov.uk/online-applications/propertyDetails.do?activeTab=summary&amp;keyVal=NC1WI800DT005" rel="noopener">52 Longmore Avenue Barnet EN5 1JX</a></li></ul></div>
+
+  <div style="margin-top:22px">
+    <div class="panel"><h2>Photographic evidence reviewed for the score</h2><p class="note">Points are awarded only for detected listing, EPC, or photographic evidence, and each component above lists what it found. Systems without such evidence score zero and are omitted rather than listed as inspection tasks. These notes record what the photos did and did not show.</p><ul class="ticks"><li>11 property photo(s) analysed by local vision model (Qwen3-VL)</li><li>Photographic-evidence score: 35.1/100 (medium confidence; condition 30/35, kitchen/bath 0/20, glazing 0/20, structure 0/15, legibility 5.1/10)</li><li>Floor-plan total read from the plan: 1,476 sq ft</li><li>Condition tier inferred from photos: refurbished</li><li>Not captured in the photos: bathroom, extension evidence, garden aspect, kitchen, other rooms, parking (…)</li></ul></div>
+  </div>
+
+  
+
+  <details class="raw">
+    <summary>Raw review record (JSON)</summary>
+    <pre>{
+  &quot;asking_price&quot;: 835000,
+  &quot;bathrooms&quot;: 3,
+  &quot;bedrooms&quot;: 4,
+  &quot;combined_score&quot;: {
+    &quot;detected_features&quot;: [
+      &quot;Nearest station Oakleigh Park 13 min walk (0.63 mi routed walk) (+3)&quot;,
+      &quot;2 stations within 0.8 mi \u2014 Oakleigh Park 13 min walk, New Barnet 14 min walk \u2014 commuting resilience (+3.5)&quot;,
+      &quot;1 transit line within walk \u2014 Great Northern via Oakleigh Park 13 min walk, +1 more \u2014 broad Central London access (+1)&quot;,
+      &quot;Fast Liverpool St commute: ~41 mins door-to-concourse via Oakleigh Park (13m walk + 24m rail) (+2.5)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~30 mins via Oakleigh Park (+2)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Standard room sizing: 1,476.0 sq ft total (369 sq ft/bed) (+4)&quot;,
+      &quot;Superb bathroom provision (3 baths for 4 beds) (+3)&quot;,
+      &quot;Two or more reception rooms (2) (+1)&quot;,
+      &quot;Separate garden studio / home office footprint (+1)&quot;,
+      &quot;Living room width: 12.2 ft (below 15 ft)&quot;,
+      &quot;Ground-floor bedroom confirmed on floorplan: 1 (Bedroom) (+3)&quot;,
+      &quot;\u00a3566 per sq ft on 1,476 sq ft (+4.2 of 7.5)&quot;,
+      &quot;\u00a3835,000 asking price (+4.5 of 7.5)&quot;,
+      &quot;EPC Band E (2.5) + insulated roof (2) + double glazing (1) (+5.5 of 10)&quot;,
+      &quot;EPC assessed 2016-09-23: certificate expired \u2014 points scored as stated&quot;,
+      &quot;EPC: pitched roof with accessible loft (pitched, 150 mm loft insulation) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;,
+      &quot;Presented finish observed as refurbished in listing photographs (image analysis) (+5.5 of 7)&quot;,
+      &quot;Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)&quot;,
+      &quot;Outbuilding present (+2)&quot;
+    ],
+    &quot;evidence&quot;: {
+      &quot;financial_efficiency&quot;: [
+        &quot;\u00a3566 per sq ft on 1,476 sq ft (+4.2 of 7.5)&quot;,
+        &quot;\u00a3835,000 asking price (+4.5 of 7.5)&quot;
+      ],
+      &quot;garden_outdoor&quot;: [
+        &quot;Outbuilding present (+2)&quot;
+      ],
+      &quot;location_transport&quot;: [
+        &quot;Nearest station Oakleigh Park 13 min walk (0.63 mi routed walk) (+3)&quot;,
+        &quot;2 stations within 0.8 mi \u2014 Oakleigh Park 13 min walk, New Barnet 14 min walk \u2014 commuting resilience (+3.5)&quot;,
+        &quot;1 transit line within walk \u2014 Great Northern via Oakleigh Park 13 min walk, +1 more \u2014 broad Central London access (+1)&quot;,
+        &quot;Fast Liverpool St commute: ~41 mins door-to-concourse via Oakleigh Park (13m walk + 24m rail) (+2.5)&quot;,
+        &quot;King&#x27;s Cross St Pancras commute ~30 mins via Oakleigh Park (+2)&quot;
+      ],
+      &quot;observed_presentation&quot;: [
+        &quot;Presented finish observed as refurbished in listing photographs (image analysis) (+5.5 of 7)&quot;,
+        &quot;Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)&quot;
+      ],
+      &quot;space_layout&quot;: [
+        &quot;Square footage taken from floor plan (image analysis)&quot;,
+        &quot;Standard room sizing: 1,476.0 sq ft total (369 sq ft/bed) (+4)&quot;,
+        &quot;Superb bathroom provision (3 baths for 4 beds) (+3)&quot;,
+        &quot;Two or more reception rooms (2) (+1)&quot;,
+        &quot;Separate garden studio / home office footprint (+1)&quot;,
+        &quot;Living room width: 12.2 ft (below 15 ft)&quot;,
+        &quot;Ground-floor bedroom confirmed on floorplan: 1 (Bedroom) (+3)&quot;
+      ],
+      &quot;technical_epc&quot;: [
+        &quot;EPC Band E (2.5) + insulated roof (2) + double glazing (1) (+5.5 of 10)&quot;,
+        &quot;EPC assessed 2016-09-23: certificate expired \u2014 points scored as stated&quot;,
+        &quot;EPC: pitched roof with accessible loft (pitched, 150 mm loft insulation) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;
+      ]
+    },
+    &quot;financial_efficiency&quot;: 8.7,
+    &quot;garden_outdoor&quot;: 2.0,
+    &quot;location_transport&quot;: 12.0,
+    &quot;notes&quot;: [
+      &quot;Nearest station Oakleigh Park 13 min walk (0.63 mi routed walk) (+3)&quot;,
+      &quot;2 stations within 0.8 mi \u2014 Oakleigh Park 13 min walk, New Barnet 14 min walk \u2014 commuting resilience (+3.5)&quot;,
+      &quot;1 transit line within walk \u2014 Great Northern via Oakleigh Park 13 min walk, +1 more \u2014 broad Central London access (+1)&quot;,
+      &quot;Fast Liverpool St commute: ~41 mins door-to-concourse via Oakleigh Park (13m walk + 24m rail) (+2.5)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~30 mins via Oakleigh Park (+2)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Standard room sizing: 1,476.0 sq ft total (369 sq ft/bed) (+4)&quot;,
+      &quot;Superb bathroom provision (3 baths for 4 beds) (+3)&quot;,
+      &quot;Two or more reception rooms (2) (+1)&quot;,
+      &quot;Separate garden studio / home office footprint (+1)&quot;,
+      &quot;EPC Band E&quot;,
+      &quot;Poor thermal envelope (high heating bills; significant retrofit investment required)&quot;
+    ],
+    &quot;observed_presentation&quot;: 8.5,
+    &quot;space_layout&quot;: 12.0,
+    &quot;tags&quot;: [
+      &quot;Strong Value&quot;
+    ],
+    &quot;technical_epc&quot;: 7.5,
+    &quot;total_score&quot;: 50.7,
+    &quot;vision_facts&quot;: [
+      &quot;11 property photo(s) analysed by local vision model (Qwen3-VL)&quot;,
+      &quot;Photographic-evidence score: 35.1/100 (medium confidence; condition 30/35, kitchen/bath 0/20, glazing 0/20, structure 0/15, legibility 5.1/10)&quot;,
+      &quot;Floor-plan total read from the plan: 1,476 sq ft&quot;,
+      &quot;Condition tier inferred from photos: refurbished&quot;,
+      &quot;Not captured in the photos: bathroom, extension evidence, garden aspect, kitchen, other rooms, parking (\u2026)&quot;
+    ]
+  },
+  &quot;data_gaps&quot;: [],
+  &quot;epc_potential&quot;: &quot;B&quot;,
+  &quot;epc_rating&quot;: &quot;E&quot;,
+  &quot;floorplan_image_url&quot;: &quot;https://lid.zoocdn.com/u/1024/768/238c265a400cbd22a03c6985d5c6a716d8135c3e.jpg&quot;,
+  &quot;floorplan_rooms&quot;: [
+    {
+      &quot;area_sq_ft&quot;: 172,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;living&quot;,
+      &quot;label&quot;: &quot;Reception Room&quot;,
+      &quot;length_ft&quot;: 14.7,
+      &quot;width_ft&quot;: 11.7
+    },
+    {
+      &quot;area_sq_ft&quot;: 102,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;kitchen&quot;,
+      &quot;label&quot;: &quot;Kitchen&quot;,
+      &quot;length_ft&quot;: 14.2,
+      &quot;width_ft&quot;: 7.2
+    },
+    {
+      &quot;area_sq_ft&quot;: 189,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;living&quot;,
+      &quot;label&quot;: &quot;Reception Room&quot;,
+      &quot;length_ft&quot;: 15.5,
+      &quot;width_ft&quot;: 12.2
+    },
+    {
+      &quot;area_sq_ft&quot;: 110,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom&quot;,
+      &quot;length_ft&quot;: 13.3,
+      &quot;width_ft&quot;: 8.3
+    },
+    {
+      &quot;area_sq_ft&quot;: 167,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom&quot;,
+      &quot;length_ft&quot;: 14.9,
+      &quot;width_ft&quot;: 11.2
+    },
+    {
+      &quot;area_sq_ft&quot;: 141,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom&quot;,
+      &quot;length_ft&quot;: 13.8,
+      &quot;width_ft&quot;: 10.2
+    },
+    {
+      &quot;area_sq_ft&quot;: 93,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom&quot;,
+      &quot;length_ft&quot;: 10.0,
+      &quot;width_ft&quot;: 9.3
+    },
+    {
+      &quot;area_sq_ft&quot;: 110,
+      &quot;floor&quot;: &quot;second&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom&quot;,
+      &quot;length_ft&quot;: 13.3,
+      &quot;width_ft&quot;: 8.3
+    },
+    {
+      &quot;area_sq_ft&quot;: 182,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;outbuilding&quot;,
+      &quot;label&quot;: &quot;Summer House&quot;,
+      &quot;length_ft&quot;: 17.0,
+      &quot;width_ft&quot;: 10.7
+    }
+  ],
+  &quot;full_address&quot;: &quot;Longmore Avenue, Barnet EN5&quot;,
+  &quot;kings_cross_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Top Tier (&lt;35m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 17,
+    &quot;route_summary&quot;: &quot;Great Northern direct to King&#x27;s Cross St Pancras (17 min)&quot;,
+    &quot;secondary_route&quot;: &quot;High Barnet (1.2 mi, ~24m walk) \u2794 London Underground (Northern line - Bank branch) (32m rail) = ~56m total&quot;,
+    &quot;station_distance_miles&quot;: 0.626,
+    &quot;station_name&quot;: &quot;Oakleigh Park&quot;,
+    &quot;total_commute_minutes&quot;: 30,
+    &quot;transfer_minutes&quot;: 0,
+    &quot;transit_line&quot;: &quot;Great Northern (National Rail)&quot;,
+    &quot;walk_time_minutes&quot;: 13
+  },
+  &quot;land_registry_summary&quot;: {
+    &quot;_cache&quot;: true,
+    &quot;area_benchmark&quot;: {
+      &quot;area_source&quot;: &quot;epc_bulk total_floor_area&quot;,
+      &quot;coverage_pct&quot;: 55,
+      &quot;high_gbp_sqft&quot;: 559,
+      &quot;low_gbp_sqft&quot;: 94,
+      &quot;median_gbp_sqft&quot;: 290,
+      &quot;of_sales&quot;: 20,
+      &quot;sample&quot;: 11
+    },
+    &quot;first_sale_date&quot;: &quot;1995-02-24&quot;,
+    &quot;last_sale_date&quot;: &quot;2018-04-16&quot;,
+    &quot;last_sale_price&quot;: 659000,
+    &quot;number_known&quot;: true,
+    &quot;postcode_sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1995-02-24&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;52&quot;,
+        &quot;postcode&quot;: &quot;EN5 1JX&quot;,
+        &quot;price&quot;: 120000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONGMORE AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;4F489D8C-638C-4CD5-A7AB-2DB371F8E47B&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1995-11-20&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;60&quot;,
+        &quot;postcode&quot;: &quot;EN5 1JX&quot;,
+        &quot;price&quot;: 95000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONGMORE AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;8A51D4A1-DD26-4091-B765-0D140C89BD10&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1997-09-29&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;68&quot;,
+        &quot;postcode&quot;: &quot;EN5 1JX&quot;,
+        &quot;price&quot;: 180000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONGMORE AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;B0CD31C9-AA11-480D-B3CD-E87BF6892AC7&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1999-08-06&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;68&quot;,
+        &quot;postcode&quot;: &quot;EN5 1JX&quot;,
+        &quot;price&quot;: 220000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONGMORE AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;2A1F0F16-E068-48BC-A4DC-11CFA1C6BBAE&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2000-02-25&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;40&quot;,
+        &quot;postcode&quot;: &quot;EN5 1JX&quot;,
+        &quot;price&quot;: 212500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONGMORE AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;1A4C969B-AA73-4347-B7BE-98CC1EE24608&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2002-10-11&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;64&quot;,
+        &quot;postcode&quot;: &quot;EN5 1JX&quot;,
+        &quot;price&quot;: 352500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONGMORE AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;5B28A043-E177-470B-8AEF-2396F970E326&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2005-09-26&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;62&quot;,
+        &quot;postcode&quot;: &quot;EN5 1JX&quot;,
+        &quot;price&quot;: 285000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONGMORE AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;EBD9CE1E-B5D5-4BA3-BE5C-57741760207C&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2006-07-05&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;58&quot;,
+        &quot;postcode&quot;: &quot;EN5 1JX&quot;,
+        &quot;price&quot;: 305000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONGMORE AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;0A0446BD-564F-434A-9D5D-2FFB0C4C2F0C&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2007-07-20&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;60&quot;,
+        &quot;postcode&quot;: &quot;EN5 1JX&quot;,
+        &quot;price&quot;: 430000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONGMORE AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;58F37260-F75B-4348-9ABB-C806CFF75279&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2007-08-17&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;62&quot;,
+        &quot;postcode&quot;: &quot;EN5 1JX&quot;,
+        &quot;price&quot;: 468000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONGMORE AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;90215196-0123-4D2D-BB3F-A670A195D275&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2008-10-14&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;72&quot;,
+        &quot;postcode&quot;: &quot;EN5 1JX&quot;,
+        &quot;price&quot;: 390000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONGMORE AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;F8AC1220-42E1-48D9-B642-F497E21D5212&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2011-06-10&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;48&quot;,
+        &quot;postcode&quot;: &quot;EN5 1JX&quot;,
+        &quot;price&quot;: 367500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONGMORE AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;4B04B5C2-744E-4747-9549-A5AD6BF28939&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2015-09-04&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;66&quot;,
+        &quot;postcode&quot;: &quot;EN5 1JX&quot;,
+        &quot;price&quot;: 725000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONGMORE AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;82C45BC9-46AE-4EB4-BE7E-149EB072A72A&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2015-11-02&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;60&quot;,
+        &quot;postcode&quot;: &quot;EN5 1JX&quot;,
+        &quot;price&quot;: 713000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONGMORE AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;25EA59F9-FB53-4D50-E050-A8C0630562D0&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Additional price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-10-17&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;72&quot;,
+        &quot;postcode&quot;: &quot;EN5 1JX&quot;,
+        &quot;price&quot;: 685000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONGMORE AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;404A5AF3-C5FD-CD2B-E050-A8C063055C7B&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2018-04-16&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;52&quot;,
+        &quot;postcode&quot;: &quot;EN5 1JX&quot;,
+        &quot;price&quot;: 659000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONGMORE AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;6DA0844A-2C36-30F2-E053-6B04A8C05F3B&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2020-07-31&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;72&quot;,
+        &quot;postcode&quot;: &quot;EN5 1JX&quot;,
+        &quot;price&quot;: 325500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONGMORE AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;B0A9D11B-A16F-4C1F-E053-6C04A8C0D716&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2020-12-03&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;46&quot;,
+        &quot;postcode&quot;: &quot;EN5 1JX&quot;,
+        &quot;price&quot;: 500000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONGMORE AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;BA558B32-D83A-76EF-E053-6B04A8C0B4B7&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2022-03-07&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;48&quot;,
+        &quot;postcode&quot;: &quot;EN5 1JX&quot;,
+        &quot;price&quot;: 945210,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONGMORE AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;E073986A-BCD4-2134-E053-6C04A8C0233B&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2024-08-29&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;42&quot;,
+        &quot;postcode&quot;: &quot;EN5 1JX&quot;,
+        &quot;price&quot;: 630000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONGMORE AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;237B17FE-3F90-22AC-E063-4804A8C0EA3A&quot;
+      }
+    ],
+    &quot;sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1995-02-24&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;52&quot;,
+        &quot;postcode&quot;: &quot;EN5 1JX&quot;,
+        &quot;price&quot;: 120000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONGMORE AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;4F489D8C-638C-4CD5-A7AB-2DB371F8E47B&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2018-04-16&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;52&quot;,
+        &quot;postcode&quot;: &quot;EN5 1JX&quot;,
+        &quot;price&quot;: 659000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONGMORE AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;6DA0844A-2C36-30F2-E053-6B04A8C05F3B&quot;
+      }
+    ],
+    &quot;scope&quot;: &quot;address&quot;,
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;latitude&quot;: 51.643737,
+  &quot;liverpool_st_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Fast (35-45m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 24,
+    &quot;route_summary&quot;: &quot;Great Northern direct to Moorgate (24 min) + 4 min walk via integrated Elizabeth line concourse to Liverpool St&quot;,
+    &quot;secondary_route&quot;: &quot;High Barnet (1.2 mi, ~24m walk) \u2794 London Underground (Northern line - Bank branch) (36m rail) = ~64m total&quot;,
+    &quot;station_distance_miles&quot;: 0.626,
+    &quot;station_name&quot;: &quot;Oakleigh Park&quot;,
+    &quot;total_commute_minutes&quot;: 41,
+    &quot;transfer_minutes&quot;: 4,
+    &quot;transit_line&quot;: &quot;Great Northern (National Rail)&quot;,
+    &quot;walk_time_minutes&quot;: 13
+  },
+  &quot;living_rooms&quot;: 2,
+  &quot;longitude&quot;: -0.174323,
+  &quot;nearest_station&quot;: &quot;New Barnet&quot;,
+  &quot;nice_to_haves&quot;: [
+    {
+      &quot;detail&quot;: &quot;Not mentioned; UK EPCs do not record domestic cooling&quot;,
+      &quot;label&quot;: &quot;Air conditioning&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned in the listing or EPC&quot;,
+      &quot;label&quot;: &quot;Underfloor heating&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;No aspect stated in the listing, floor-plan or photos&quot;,
+      &quot;label&quot;: &quot;South-facing garden&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned and no overhead glazing seen in photos&quot;,
+      &quot;label&quot;: &quot;Sun roof / lantern in living areas&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Floorplan shows 1 bedroom on the ground floor (Bedroom)&quot;,
+      &quot;label&quot;: &quot;Ground-floor bedroom&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Largest living area is 12.2 ft (Reception Room, floor-plan) \u2014 below the 15 ft mark&quot;,
+      &quot;label&quot;: &quot;Wide living room&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Reception Room measures 14.7 x 11.7 ft (172 sq ft) on the floor plan, a separate room from the Reception Room \u2014 room for a smaller screen or fewer seats; at that size it holds a 92-inch screen with the front row 7.7 ft from it, 1 recliner row of 4 across (11.2 ft of frontage, a four-seat family sofa), 4 seats&quot;,
+      &quot;label&quot;: &quot;Home theatre potential&quot;,
+      &quot;status&quot;: &quot;photo-hint&quot;
+    }
+  ],
+  &quot;overall_verdict&quot;: &quot;Proceed with Caution: Moderate scores, verify key items during survey.&quot;,
+  &quot;planning_summary&quot;: {
+    &quot;_cache&quot;: true,
+    &quot;applications&quot;: [],
+    &quot;properties&quot;: [
+      {
+        &quot;key&quot;: &quot;NC1WI800DT005&quot;,
+        &quot;text&quot;: &quot;52 Longmore Avenue Barnet EN5 1JX&quot;,
+        &quot;url&quot;: &quot;https://publicaccess.barnet.gov.uk/online-applications/propertyDetails.do?activeTab=summary&amp;keyVal=NC1WI800DT005&quot;
+      }
+    ],
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;price_display&quot;: &quot;\u00a3835,000&quot;,
+  &quot;price_per_sq_ft&quot;: 565.7,
+  &quot;property_id&quot;: &quot;73415391&quot;,
+  &quot;property_images&quot;: [
+    &quot;https://lid.zoocdn.com/u/1024/768/484101b15d6f363baab1235b4934305c8ee5daff.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/d1298032081d47da4fd525edd75ce36d2fd0bf27.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/dbdbc373dd8b850f572c4cb198ef27c96be8c1c7.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/1f5a78159d6a1743ef6d0702a955322e46eb67c1.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/4ba56fe520314455210846537f22bcb1c3e36d94.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/ad884edea0ddad8d5a87894f8fe0a53ad28317db.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/92208a9608ef74e05f4c15f0c27e59ad9b6e06cf.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/1f66029d8c7ed7bc83baf0c22a711134d59960a8.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/219b99bdedfd37768e31aaab14d0bc47277bf4ac.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/2c53aef68c5d51a6878ccb4cc63510fde91a2974.jpg&quot;
+  ],
+  &quot;property_type&quot;: &quot;4 bed semi-detached house for sale&quot;,
+  &quot;size_sq_ft&quot;: 1476.0,
+  &quot;size_sq_m&quot;: 137.1,
+  &quot;station_distance_miles&quot;: 0.66,
+  &quot;station_distance_source&quot;: &quot;routed&quot;,
+  &quot;tenure&quot;: &quot;Freehold&quot;,
+  &quot;walk_time_minutes&quot;: 14
+}</pre>
+  </details>
+
+  <div class="foot"><div><a href="barnet-lane-totteridge-n20.html">← Barnet Lane</a></div><div><a href="rushdene-avenue-barnet-en4.html">→ Rushdene Avenue</a></div></div>
+
+  <p class="note" style="margin-top:26px">Generated 2026-10-01 from
+  <code>reviews/property_reviews.json</code>. Map data &copy;
+  <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</p>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
+<script>window.__PINS__ = [{"id": "73415391", "lat": 51.643737, "lon": -0.174323, "addr": "Longmore Avenue", "price": "\u00a3835,000", "sqft": "1,476", "epc": "E", "score": 50.7, "colour": "#b6561a", "tags": ["Strong Value"], "tag_html": "<span class=\"badge tag-value\">Strong Value<\/span>", "href": "#"}];</script>
+<script>window.__SLIDES__ = ["https://lid.zoocdn.com/u/1024/768/484101b15d6f363baab1235b4934305c8ee5daff.jpg", "https://lid.zoocdn.com/u/1024/768/d1298032081d47da4fd525edd75ce36d2fd0bf27.jpg", "https://lid.zoocdn.com/u/1024/768/dbdbc373dd8b850f572c4cb198ef27c96be8c1c7.jpg", "https://lid.zoocdn.com/u/1024/768/1f5a78159d6a1743ef6d0702a955322e46eb67c1.jpg", "https://lid.zoocdn.com/u/1024/768/4ba56fe520314455210846537f22bcb1c3e36d94.jpg", "https://lid.zoocdn.com/u/1024/768/ad884edea0ddad8d5a87894f8fe0a53ad28317db.jpg", "https://lid.zoocdn.com/u/1024/768/92208a9608ef74e05f4c15f0c27e59ad9b6e06cf.jpg", "https://lid.zoocdn.com/u/1024/768/1f66029d8c7ed7bc83baf0c22a711134d59960a8.jpg", "https://lid.zoocdn.com/u/1024/768/219b99bdedfd37768e31aaab14d0bc47277bf4ac.jpg", "https://lid.zoocdn.com/u/1024/768/2c53aef68c5d51a6878ccb4cc63510fde91a2974.jpg"];</script>
+<script>
+(function () {
+  var el = document.getElementById('map');
+  if (!el || typeof L === 'undefined') { return; }
+  var data = window.__PINS__ || [];
+  if (!data.length || data[0].lat === null) { el.style.display = 'none'; return; }
+  var map = L.map('map', { scrollWheelZoom: false, dragging: false,
+                           doubleClickZoom: false, boxZoom: false,
+                           keyboard: false, zoomControl: false });
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  var group = L.featureGroup().addTo(map);
+  data.forEach(function (p) {
+    if (p.lat === null) { return; }
+    L.circleMarker([p.lat, p.lon], { radius: 10, color: '#ffffff', weight: 3,
+                                     fillColor: p.colour, fillOpacity: 0.95 }).addTo(group);
+  });
+  if (group.getBounds().isValid()) { map.fitBounds(group.getBounds().pad(0.35)); }
+  L.control.attribution({ prefix: false }).addTo(map);
+})();
+</script>
+<script>
+(function () {
+  var shots = window.__SLIDES__ || [];
+  var img = document.getElementById('slide-img');
+  var link = document.getElementById('slide-link');
+  var prev = document.getElementById('slide-prev');
+  var next = document.getElementById('slide-next');
+  var num = document.getElementById('slide-n');
+  if (!img || !link || shots.length < 2) {
+    if (prev) { prev.disabled = true; }
+    if (next) { next.disabled = true; }
+    return;
+  }
+  var at = 0;
+
+  function show(i) {
+    at = (i + shots.length) % shots.length;
+    img.src = shots[at];
+    img.alt = 'Listing photo ' + (at + 1) + ' of ' + shots.length +
+              ' — open full size';
+    link.href = shots[at];
+    if (num) { num.textContent = String(at + 1); }
+  }
+
+  // Only the neighbours are warmed: a 34-photo listing at 136 KB each is
+  // 4.6 MB if the whole gallery is fetched up front, for images the reader may
+  // never scroll to.
+  function warm() {
+    [at + 1, at - 1].forEach(function (k) {
+      var j = (k + shots.length) % shots.length;
+      if (j !== at) { new Image().src = shots[j]; }
+    });
+  }
+
+  prev.addEventListener('click', function () { show(at - 1); warm(); });
+  next.addEventListener('click', function () { show(at + 1); warm(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) { return; }
+    if (e.key === 'ArrowLeft') { show(at - 1); warm(); }
+    if (e.key === 'ArrowRight') { show(at + 1); warm(); }
+  });
+  show(0);
+  warm();
+})();
+</script>
+</body></html>

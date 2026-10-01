@@ -1,0 +1,867 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kingsmead — review</title>
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <h1>Kingsmead</h1>
+  <p class="sub">Kingsmead, Barnet EN5</p>
+  <nav class="crumbs"><a href="../index.html">← Back to the map</a> &middot;
+  <a href="../index.html#all-rank-140">Rank #140 of All properties</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="panel">
+    <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between">
+      <div>
+        <span class="pill" style="background:#a8322d">35.7 Score</span>
+        
+      </div>
+      <div style="font-size:13px;color:var(--muted)">
+        140 of 164 &middot; score 35.7
+      </div>
+    </div>
+    <div class="verdict">Secondary Assessment Needed: Low scores across multiple dimensions.</div>
+  </div>
+
+  <h3>At a glance</h3>
+  <div class="grid"><div class="stat"><div class="k">Asking price</div><div class="v">£950,000</div></div><div class="stat"><div class="k">Property type</div><div class="v">4 bed detached house for sale</div></div><div class="stat"><div class="k">Tenure</div><div class="v">Freehold</div></div><div class="stat"><div class="k">Size</div><div class="v">52 sq ft / 122.9 m²</div></div><div class="stat"><div class="k">Price per sq ft</div><div class="v">£18,269.2</div></div><div class="stat"><div class="k">Bedrooms</div><div class="v">4</div></div><div class="stat"><div class="k">Bathrooms</div><div class="v">2</div></div><div class="stat"><div class="k">Living rooms</div><div class="v">2</div></div><div class="stat"><div class="k">EPC (current / potential)</div><div class="v">D / —</div></div><div class="stat"><div class="k">Nearest station</div><div class="v">High Barnet · 0.5 mi · ~11 min walk</div></div><div class="stat wide"><div class="k">Commute to Liverpool St</div><div class="v">51 min (Northern line (Bank branch) direct to Moorgate (36 min) + 4 min Elizabeth line link to Liverpool St)</div></div><div class="stat wide"><div class="k">Commute to King&#x27;s Cross</div><div class="v">40 min (Great Northern direct to King&#x27;s Cross St Pancras (19 min))</div></div></div>
+
+  <h3>Nice-to-haves</h3>
+  <div class="panel">
+    <table class="nice">
+      <thead><tr><th>Signal</th><th>Status</th><th>Detail</th></tr></thead>
+      <tbody><tr><td>Air conditioning</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned; UK EPCs do not record domestic cooling</td></tr><tr><td>Underfloor heating</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned in the listing or EPC</td></tr><tr><td>South-facing garden</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Floor-plan north arrow puts the garden north (not south)</td></tr><tr><td>Sun roof / lantern in living areas</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned and no overhead glazing seen in photos</td></tr><tr><td>Ground-floor bedroom</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Floorplan shows 2 bedrooms on the ground floor</td></tr><tr><td>Wide living room</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Largest living area is 11.1 ft (Kitchen / Dining Room, floor-plan) — below the 15 ft mark</td></tr><tr><td>Home theatre potential</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>No cinema or media room mentioned, and no other room on the plan is large enough to be one</td></tr></tbody>
+    </table>
+  </div>
+
+<div class="panel"><h2>Photos — 25</h2><div class="slides" id="slides"><div class="slide-frame"><a id="slide-link" href="https://lid.zoocdn.com/u/1024/768/797f29bb8e43ced886ab439ecf4798b74d40627d.jpg" rel="noopener"><img id="slide-img" src="https://lid.zoocdn.com/u/1024/768/797f29bb8e43ced886ab439ecf4798b74d40627d.jpg" alt="Listing photo 1 of 25 — open full size" loading="lazy"></a><button type="button" class="slide-nav prev" id="slide-prev" aria-label="Previous photo">&#8249;</button><button type="button" class="slide-nav next" id="slide-next" aria-label="Next photo">&#8250;</button><span class="slide-badge"><span id="slide-n">1</span> / 25</span></div></div><p class="note" style="margin-top:8px">Arrow keys page through the gallery; click a photo to open it full size. These are the listing's own photographs, at the highest resolution its image host serves.</p></div>
+
+  <div class="layout">
+    <div class="panel sticky">
+      <h2>Where it is</h2>
+      <div id="map" style="height:330px;border-radius:8px"></div>
+      <p class="note" style="margin-top:10px">
+        Pin is the listing's own coordinates. Map tiles are OpenStreetMap.
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=51.652382,-0.190039" rel="noopener">Open in Google Maps →</a>
+        &middot; <a href="https://www.openstreetmap.org/?mlat=51.652382&amp;mlon=-0.190039#map=18/51.652382/-0.190039" rel="noopener">Open in OpenStreetMap →</a>
+        &middot; <a href="https://www.zoopla.co.uk/for-sale/details/74335444/" rel="noopener">Zoopla listing →</a>
+      </p>
+    </div>
+    <div class="panel">
+      <h2>Floorplan analysis</h2>
+      <a href="https://lid.zoocdn.com/u/1024/768/eb24d35490ca72e8ba5b82cf53028ff5fd5eb005.jpg" rel="noopener"><img class="plan" src="https://lid.zoocdn.com/u/1024/768/eb24d35490ca72e8ba5b82cf53028ff5fd5eb005.jpg" alt="Floor plan for Kingsmead, Barnet EN5" loading="lazy"></a><p class="note">7 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are listed without one. <a href="https://lid.zoocdn.com/u/1024/768/eb24d35490ca72e8ba5b82cf53028ff5fd5eb005.jpg" rel="noopener">Open the full-size plan →</a></p><table class="nice compact"><thead><tr><th>Room</th><th>Type</th><th>Floor</th><th>Dimensions</th><th>Area</th></tr></thead><tbody><tr><td>Office</td><td>study</td><td>ground</td><td class="num">11 &times; 4.1 ft</td><td class="num">45 sq ft</td></tr><tr><td>Kitchen / Dining Room</td><td>kitchen</td><td>ground</td><td class="num">20.1 &times; 11.1 ft</td><td class="num">223 sq ft</td></tr><tr><td>Reception Room</td><td>living</td><td>ground</td><td class="num">17.4 &times; 11 ft</td><td class="num">191 sq ft</td></tr><tr><td>Bedroom 3</td><td>bedroom</td><td>ground</td><td class="num">15.3 &times; 10.1 ft</td><td class="num">155 sq ft</td></tr><tr><td>Bedroom 4</td><td>bedroom</td><td>ground</td><td class="num">10.2 &times; 9.1 ft</td><td class="num">93 sq ft</td></tr><tr><td>Bedroom 1</td><td>bedroom</td><td>first</td><td class="num">25.2 &times; 9.2 ft</td><td class="num">232 sq ft</td></tr><tr><td>Bedroom 2</td><td>bedroom</td><td>first</td><td class="num">18.1 &times; 8.3 ft</td><td class="num">150 sq ft</td></tr></tbody></table>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-top:22px">
+    <h2>Score breakdown — 35.7/100</h2>
+    <div class="bar-row with-evidence"><span class="lbl">Location &amp; transport</span><span class="bar"><i style="width:57.5%;background:#a8322d"></i></span><span class="num">11.5</span><ul class="ticks compact"><li><span class="tick">✓</span>Nearest station High Barnet 11 min walk (0.52 mi routed walk) (+4)</li><li><span class="tick">✓</span>Walkable station High Barnet 11 min walk (+1.5)</li><li><span class="tick">✓</span>1 transit line within walk — Northern via High Barnet 11 min walk — broad Central London access (+1)</li><li><span class="tick">✓</span>Night Tube / 24h service at High Barnet (+1.5)</li><li><span class="tick">✓</span>Moderate Liverpool St commute: ~51 mins door-to-concourse via High Barnet (11m walk + 36m rail) (+1.5)</li><li><span class="tick">✓</span>King&#x27;s Cross St Pancras commute ~40 mins via New Barnet (+2)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Space, scale &amp; layout</span><span class="bar"><i style="width:42.5%;background:#a8322d"></i></span><span class="num">8.5</span><ul class="ticks compact"><li><span class="tick">✓</span>Square footage taken from floor plan (image analysis)</li><li><span class="tick">✓</span>Compact floorplate: 52.0 sq ft total (13 sq ft/bed) (+2.5)</li><li><span class="tick">✓</span>Well balanced bathroom ratio (2 baths for 4 beds) (+2)</li><li><span class="tick">✓</span>Two or more reception rooms (2) (+1)</li><li><span class="tick">✓</span>Living room width: 11.1 ft (below 15 ft)</li><li><span class="tick">✓</span>Ground-floor bedrooms confirmed on floorplan: 2 (+3)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Financial efficiency</span><span class="bar"><i style="width:28.0%;background:#a8322d"></i></span><span class="num">4.2</span><ul class="ticks compact"><li><span class="tick">✓</span>£18,269 per sq ft on 52 sq ft (+0 of 7.5)</li><li><span class="tick">✓</span>£950,000 asking price (+4.2 of 7.5)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Technical &amp; EPC</span><span class="bar"><i style="width:50.0%;background:#a8322d"></i></span><span class="num">10.0</span><ul class="ticks compact"><li><span class="tick">✓</span>EPC Band D (4.5) + no secondary heating (1) + wall insulation (3) + insulated roof (2) + insulated floor (2) + double glazing (1) (+10 of 10)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Observed presentation</span><span class="bar"><i style="width:10.0%;background:#a8322d"></i></span><span class="num">1.5</span><ul class="ticks compact"><li><span class="tick">✓</span>Exterior &amp; garden rated standard in listing photographs (image analysis) (+1.5 of 3)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Garden &amp; outdoor</span><span class="bar"><i style="width:0.0%;background:#a8322d"></i></span><span class="num">0.0</span><p class="note compact">No evidence detected for this component — it scores on the absence of contrary findings.</p></div>
+    <p class="note">The combined score rewards location, space, financial efficiency,
+    technical specification, observed presentation, and garden quality. Every line
+    lists the evidence that earned it, so a component cannot be read as a verdict
+    without the reason attached.</p>
+  </div>
+
+  <h3>Land Registry</h3>
+  <div class="panel">
+    <p><strong>£189,000 on 2001-11-09<br><span class="note">First recorded sale: 2001-11-09</span></strong></p>
+    <p>£557/sq ft median (range £123–£921), from 18 of 31 local sales (58% priced). <span class="note">Floor area is borrowed from the EPC extract (epc_bulk total_floor_area) because sale records carry none; small samples are heavy-tailed, so the median is used and withheld below 5 priced sales.</span></p>
+    <p class="note">31 raw sale record(s) exist in this postcode. They are the neighbourhood's history, not this home's, and are deliberately not presented as its own.</p>
+    <p class="note">Scope <code>address</code> — sale history is only ever
+    attributed to this home when a house number was derived and matched.</p>
+  </div>
+
+  <h3>Planning</h3>
+  <div class="panel"><p>No planning history matched this address.</p><p class="note">Absence of a match is not proof that no application exists — the portal search is narrow (property search only) and mixed-criteria requests are unverified. Treat this as unverified, not as a clean record.</p></div>
+
+  <div style="margin-top:22px">
+    <div class="panel"><h2>Photographic evidence reviewed for the score</h2><p class="note">Points are awarded only for detected listing, EPC, or photographic evidence, and each component above lists what it found. Systems without such evidence score zero and are omitted rather than listed as inspection tasks. These notes record what the photos did and did not show.</p><ul class="ticks"><li>27 property photo(s) analysed by local vision model (Qwen3-VL)</li><li>Photographic-evidence score: 6.0/100 (medium confidence; condition 0/35, kitchen/bath 0/20, glazing 0/20, structure 0/15, legibility 6/10)</li><li>Floor-plan internal area read from the plan: 52 sq ft (scoring measure); printed total 1,323 sq ft includes outbuilding/garage space and is not scored</li><li>Not captured in the photos: bathrooms, bedrooms, extension evidence, extension signals, exterior rating, garden aspect (…)</li><li>Advertised size does not match the floor-plan measure (1,323 vs 52.0 sq ft on plan) — the plan figure is used</li></ul></div>
+  </div>
+
+  <div class="gaps"><strong>What is not verified here</strong><ul><li>EPC certificate from the live register, not the open-data extract — the UPRN is not covered by the downloaded constituency extract, so add that constituency to data/address_numbers.json&#x27;s sourcing to make it a UPRN-keyed match</li></ul></div>
+
+  <details class="raw">
+    <summary>Raw review record (JSON)</summary>
+    <pre>{
+  &quot;asking_price&quot;: 950000,
+  &quot;bathrooms&quot;: 2,
+  &quot;bedrooms&quot;: 4,
+  &quot;combined_score&quot;: {
+    &quot;detected_features&quot;: [
+      &quot;Nearest station High Barnet 11 min walk (0.52 mi routed walk) (+4)&quot;,
+      &quot;Walkable station High Barnet 11 min walk (+1.5)&quot;,
+      &quot;1 transit line within walk \u2014 Northern via High Barnet 11 min walk \u2014 broad Central London access (+1)&quot;,
+      &quot;Night Tube / 24h service at High Barnet (+1.5)&quot;,
+      &quot;Moderate Liverpool St commute: ~51 mins door-to-concourse via High Barnet (11m walk + 36m rail) (+1.5)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~40 mins via New Barnet (+2)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Compact floorplate: 52.0 sq ft total (13 sq ft/bed) (+2.5)&quot;,
+      &quot;Well balanced bathroom ratio (2 baths for 4 beds) (+2)&quot;,
+      &quot;Two or more reception rooms (2) (+1)&quot;,
+      &quot;Living room width: 11.1 ft (below 15 ft)&quot;,
+      &quot;Ground-floor bedrooms confirmed on floorplan: 2 (+3)&quot;,
+      &quot;\u00a318,269 per sq ft on 52 sq ft (+0 of 7.5)&quot;,
+      &quot;\u00a3950,000 asking price (+4.2 of 7.5)&quot;,
+      &quot;EPC Band D (4.5) + no secondary heating (1) + wall insulation (3) + insulated roof (2) + insulated floor (2) + double glazing (1) (+10 of 10)&quot;,
+      &quot;Exterior &amp; garden rated standard in listing photographs (image analysis) (+1.5 of 3)&quot;
+    ],
+    &quot;evidence&quot;: {
+      &quot;financial_efficiency&quot;: [
+        &quot;\u00a318,269 per sq ft on 52 sq ft (+0 of 7.5)&quot;,
+        &quot;\u00a3950,000 asking price (+4.2 of 7.5)&quot;
+      ],
+      &quot;location_transport&quot;: [
+        &quot;Nearest station High Barnet 11 min walk (0.52 mi routed walk) (+4)&quot;,
+        &quot;Walkable station High Barnet 11 min walk (+1.5)&quot;,
+        &quot;1 transit line within walk \u2014 Northern via High Barnet 11 min walk \u2014 broad Central London access (+1)&quot;,
+        &quot;Night Tube / 24h service at High Barnet (+1.5)&quot;,
+        &quot;Moderate Liverpool St commute: ~51 mins door-to-concourse via High Barnet (11m walk + 36m rail) (+1.5)&quot;,
+        &quot;King&#x27;s Cross St Pancras commute ~40 mins via New Barnet (+2)&quot;
+      ],
+      &quot;observed_presentation&quot;: [
+        &quot;Exterior &amp; garden rated standard in listing photographs (image analysis) (+1.5 of 3)&quot;
+      ],
+      &quot;space_layout&quot;: [
+        &quot;Square footage taken from floor plan (image analysis)&quot;,
+        &quot;Compact floorplate: 52.0 sq ft total (13 sq ft/bed) (+2.5)&quot;,
+        &quot;Well balanced bathroom ratio (2 baths for 4 beds) (+2)&quot;,
+        &quot;Two or more reception rooms (2) (+1)&quot;,
+        &quot;Living room width: 11.1 ft (below 15 ft)&quot;,
+        &quot;Ground-floor bedrooms confirmed on floorplan: 2 (+3)&quot;
+      ],
+      &quot;technical_epc&quot;: [
+        &quot;EPC Band D (4.5) + no secondary heating (1) + wall insulation (3) + insulated roof (2) + insulated floor (2) + double glazing (1) (+10 of 10)&quot;
+      ]
+    },
+    &quot;financial_efficiency&quot;: 4.2,
+    &quot;garden_outdoor&quot;: 0.0,
+    &quot;location_transport&quot;: 11.5,
+    &quot;notes&quot;: [
+      &quot;Nearest station High Barnet 11 min walk (0.52 mi routed walk) (+4)&quot;,
+      &quot;Walkable station High Barnet 11 min walk (+1.5)&quot;,
+      &quot;1 transit line within walk \u2014 Northern via High Barnet 11 min walk \u2014 broad Central London access (+1)&quot;,
+      &quot;Night Tube / 24h service at High Barnet (+1.5)&quot;,
+      &quot;Moderate Liverpool St commute: ~51 mins door-to-concourse via High Barnet (11m walk + 36m rail) (+1.5)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~40 mins via New Barnet (+2)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Compact floorplate: 52.0 sq ft total (13 sq ft/bed) (+2.5)&quot;,
+      &quot;Well balanced bathroom ratio (2 baths for 4 beds) (+2)&quot;,
+      &quot;Two or more reception rooms (2) (+1)&quot;,
+      &quot;EPC Band D&quot;
+    ],
+    &quot;observed_presentation&quot;: 1.5,
+    &quot;space_layout&quot;: 8.5,
+    &quot;tags&quot;: [],
+    &quot;technical_epc&quot;: 10.0,
+    &quot;total_score&quot;: 35.7,
+    &quot;vision_facts&quot;: [
+      &quot;27 property photo(s) analysed by local vision model (Qwen3-VL)&quot;,
+      &quot;Photographic-evidence score: 6.0/100 (medium confidence; condition 0/35, kitchen/bath 0/20, glazing 0/20, structure 0/15, legibility 6/10)&quot;,
+      &quot;Floor-plan internal area read from the plan: 52 sq ft (scoring measure); printed total 1,323 sq ft includes outbuilding/garage space and is not scored&quot;,
+      &quot;Not captured in the photos: bathrooms, bedrooms, extension evidence, extension signals, exterior rating, garden aspect (\u2026)&quot;,
+      &quot;Advertised size does not match the floor-plan measure (1,323 vs 52.0 sq ft on plan) \u2014 the plan figure is used&quot;
+    ]
+  },
+  &quot;data_gaps&quot;: [
+    &quot;EPC certificate from the live register, not the open-data extract \u2014 the UPRN is not covered by the downloaded constituency extract, so add that constituency to data/address_numbers.json&#x27;s sourcing to make it a UPRN-keyed match&quot;
+  ],
+  &quot;epc_potential&quot;: null,
+  &quot;epc_rating&quot;: &quot;D&quot;,
+  &quot;floorplan_image_url&quot;: &quot;https://lid.zoocdn.com/u/1024/768/eb24d35490ca72e8ba5b82cf53028ff5fd5eb005.jpg&quot;,
+  &quot;floorplan_rooms&quot;: [
+    {
+      &quot;area_sq_ft&quot;: 45,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;study&quot;,
+      &quot;label&quot;: &quot;Office&quot;,
+      &quot;length_ft&quot;: 11.0,
+      &quot;width_ft&quot;: 4.1
+    },
+    {
+      &quot;area_sq_ft&quot;: 223,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;kitchen&quot;,
+      &quot;label&quot;: &quot;Kitchen / Dining Room&quot;,
+      &quot;length_ft&quot;: 20.1,
+      &quot;width_ft&quot;: 11.1
+    },
+    {
+      &quot;area_sq_ft&quot;: 191,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;living&quot;,
+      &quot;label&quot;: &quot;Reception Room&quot;,
+      &quot;length_ft&quot;: 17.4,
+      &quot;width_ft&quot;: 11.0
+    },
+    {
+      &quot;area_sq_ft&quot;: 155,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 3&quot;,
+      &quot;length_ft&quot;: 15.3,
+      &quot;width_ft&quot;: 10.1
+    },
+    {
+      &quot;area_sq_ft&quot;: 93,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 4&quot;,
+      &quot;length_ft&quot;: 10.2,
+      &quot;width_ft&quot;: 9.1
+    },
+    {
+      &quot;area_sq_ft&quot;: 232,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 1&quot;,
+      &quot;length_ft&quot;: 25.2,
+      &quot;width_ft&quot;: 9.2
+    },
+    {
+      &quot;area_sq_ft&quot;: 150,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 2&quot;,
+      &quot;length_ft&quot;: 18.1,
+      &quot;width_ft&quot;: 8.3
+    }
+  ],
+  &quot;full_address&quot;: &quot;Kingsmead, Barnet EN5&quot;,
+  &quot;kings_cross_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Fast (35-45m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 19,
+    &quot;route_summary&quot;: &quot;Great Northern direct to King&#x27;s Cross St Pancras (19 min)&quot;,
+    &quot;secondary_route&quot;: &quot;High Barnet (0.524 mi, ~11m walk) \u2794 London Underground (Northern line - Bank branch) (32m rail) = ~43m total&quot;,
+    &quot;station_distance_miles&quot;: 1.02,
+    &quot;station_name&quot;: &quot;New Barnet&quot;,
+    &quot;total_commute_minutes&quot;: 40,
+    &quot;transfer_minutes&quot;: 0,
+    &quot;transit_line&quot;: &quot;Great Northern (National Rail)&quot;,
+    &quot;walk_time_minutes&quot;: 21
+  },
+  &quot;land_registry_summary&quot;: {
+    &quot;_cache&quot;: true,
+    &quot;area_benchmark&quot;: {
+      &quot;area_source&quot;: &quot;epc_bulk total_floor_area&quot;,
+      &quot;coverage_pct&quot;: 58,
+      &quot;high_gbp_sqft&quot;: 921,
+      &quot;low_gbp_sqft&quot;: 123,
+      &quot;median_gbp_sqft&quot;: 557,
+      &quot;of_sales&quot;: 31,
+      &quot;sample&quot;: 18
+    },
+    &quot;first_sale_date&quot;: &quot;2001-11-09&quot;,
+    &quot;last_sale_date&quot;: &quot;2001-11-09&quot;,
+    &quot;last_sale_price&quot;: 189000,
+    &quot;note&quot;: &quot;no sales under official street name, used postcode&quot;,
+    &quot;number_known&quot;: true,
+    &quot;postcode_sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1997-04-23&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;50&quot;,
+        &quot;postcode&quot;: &quot;EN5 5AY&quot;,
+        &quot;price&quot;: 95000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;KINGSMEAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;30D18F90-B379-4364-9DCF-11151622DDAA&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1997-07-04&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;42&quot;,
+        &quot;postcode&quot;: &quot;EN5 5AY&quot;,
+        &quot;price&quot;: 130000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;KINGSMEAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;E6CA5D4A-85E4-41B6-A964-9870FFCCA2F0&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2000-06-02&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;6&quot;,
+        &quot;postcode&quot;: &quot;EN5 5AY&quot;,
+        &quot;price&quot;: 181000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;KINGSMEAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;B7ED1CA7-C398-4B1E-B780-8EDADD1E37CC&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2001-11-09&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;12&quot;,
+        &quot;postcode&quot;: &quot;EN5 5AY&quot;,
+        &quot;price&quot;: 189000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;KINGSMEAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;27D8C051-C282-441D-ADE2-4A5F7913DBCE&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2002-10-21&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;28&quot;,
+        &quot;postcode&quot;: &quot;EN5 5AY&quot;,
+        &quot;price&quot;: 279950,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;KINGSMEAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;0868464D-C45E-4DF1-92FE-465FB16B647C&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2003-09-05&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;44&quot;,
+        &quot;postcode&quot;: &quot;EN5 5AY&quot;,
+        &quot;price&quot;: 313000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;KINGSMEAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;E115A0DC-50B8-4FE2-B00E-ABF5E0BC0242&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2006-04-07&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;4&quot;,
+        &quot;postcode&quot;: &quot;EN5 5AY&quot;,
+        &quot;price&quot;: 299000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;KINGSMEAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;89CC9203-A955-412C-91C9-208E3BEEF78F&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2006-11-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;34&quot;,
+        &quot;postcode&quot;: &quot;EN5 5AY&quot;,
+        &quot;price&quot;: 315000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;KINGSMEAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;9479C044-7E4E-402C-9F4A-7580A0BCBEDE&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2007-07-23&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;38&quot;,
+        &quot;postcode&quot;: &quot;EN5 5AY&quot;,
+        &quot;price&quot;: 417500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;KINGSMEAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;14935B93-7A73-4F2D-A038-3D56978A0D49&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2008-09-25&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;6&quot;,
+        &quot;postcode&quot;: &quot;EN5 5AY&quot;,
+        &quot;price&quot;: 325000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;KINGSMEAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;A7F2A043-A674-49B6-ACDF-2287126585E1&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2009-02-27&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;32&quot;,
+        &quot;postcode&quot;: &quot;EN5 5AY&quot;,
+        &quot;price&quot;: 300000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;KINGSMEAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;3C9518E8-8805-407F-A634-73BA69AF1DE4&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2009-09-18&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;2&quot;,
+        &quot;postcode&quot;: &quot;EN5 5AY&quot;,
+        &quot;price&quot;: 295000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;KINGSMEAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;8E74C8E7-B8A7-4E03-8FE5-1EC51DFF7032&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2009-09-29&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;36&quot;,
+        &quot;postcode&quot;: &quot;EN5 5AY&quot;,
+        &quot;price&quot;: 395000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;KINGSMEAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;A187CAE8-2C83-4F98-8EB4-64827A5F7602&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2010-11-09&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;8&quot;,
+        &quot;postcode&quot;: &quot;EN5 5AY&quot;,
+        &quot;price&quot;: 315000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;KINGSMEAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;C45922F7-9F91-4E51-8C29-9F3CC39D3084&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2011-03-17&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;34&quot;,
+        &quot;postcode&quot;: &quot;EN5 5AY&quot;,
+        &quot;price&quot;: 470000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;KINGSMEAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;561AC50A-FDA8-4531-BA67-BD1924944A0D&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2012-05-25&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;8&quot;,
+        &quot;postcode&quot;: &quot;EN5 5AY&quot;,
+        &quot;price&quot;: 449950,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;KINGSMEAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;5F2F4BC3-922B-4BEA-9069-F8A5AAB1D944&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2012-06-08&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;16&quot;,
+        &quot;postcode&quot;: &quot;EN5 5AY&quot;,
+        &quot;price&quot;: 449950,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;KINGSMEAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;8F0B45C9-6304-4489-A8E3-A96DBD1971C6&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2012-06-22&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;46&quot;,
+        &quot;postcode&quot;: &quot;EN5 5AY&quot;,
+        &quot;price&quot;: 425000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;KINGSMEAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;BA74FD0D-2BD3-4F63-958D-0B2F262C5DC9&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2015-05-14&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;4&quot;,
+        &quot;postcode&quot;: &quot;EN5 5AY&quot;,
+        &quot;price&quot;: 525000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;KINGSMEAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;FE55288D-C9B7-454A-BBEE-D65427AC9F0C&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2015-06-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;20&quot;,
+        &quot;postcode&quot;: &quot;EN5 5AY&quot;,
+        &quot;price&quot;: 515000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;KINGSMEAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;396F8A6D-D456-499E-8F34-73FB4F3DDC67&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2015-10-02&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;40&quot;,
+        &quot;postcode&quot;: &quot;EN5 5AY&quot;,
+        &quot;price&quot;: 565000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;KINGSMEAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;23B6165E-BDB3-FCF4-E050-A8C0620577FA&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2015-10-14&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;50&quot;,
+        &quot;postcode&quot;: &quot;EN5 5AY&quot;,
+        &quot;price&quot;: 600000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;KINGSMEAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;241A4A53-C315-706B-E050-A8C06205638B&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-02-12&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;48&quot;,
+        &quot;postcode&quot;: &quot;EN5 5AY&quot;,
+        &quot;price&quot;: 561000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;KINGSMEAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;2FD36065-CEFA-4BF8-E050-A8C0620562B1&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-03-04&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;6&quot;,
+        &quot;postcode&quot;: &quot;EN5 5AY&quot;,
+        &quot;price&quot;: 645000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;KINGSMEAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;31FB4C17-554C-57B9-E050-A8C063053436&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-08-10&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;36&quot;,
+        &quot;postcode&quot;: &quot;EN5 5AY&quot;,
+        &quot;price&quot;: 708500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;KINGSMEAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;3B7E0B90-2BD3-EA99-E050-A8C062057E77&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-11-04&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;44&quot;,
+        &quot;postcode&quot;: &quot;EN5 5AY&quot;,
+        &quot;price&quot;: 684000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;KINGSMEAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;42A5A708-C093-56E8-E050-A8C06205331E&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2019-02-08&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;32&quot;,
+        &quot;postcode&quot;: &quot;EN5 5AY&quot;,
+        &quot;price&quot;: 735000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;KINGSMEAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;8355F009-3E0B-55C5-E053-6B04A8C0D090&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2019-07-04&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;6&quot;,
+        &quot;postcode&quot;: &quot;EN5 5AY&quot;,
+        &quot;price&quot;: 670000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;KINGSMEAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;8F1B26BD-AFC4-53DB-E053-6C04A8C03649&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2021-06-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;18&quot;,
+        &quot;postcode&quot;: &quot;EN5 5AY&quot;,
+        &quot;price&quot;: 670000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;KINGSMEAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;CB0035E5-7A25-58AE-E053-6B04A8C091AF&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2025-10-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;6&quot;,
+        &quot;postcode&quot;: &quot;EN5 5AY&quot;,
+        &quot;price&quot;: 895000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;KINGSMEAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;44F406B6-6F01-1095-E063-4704A8C048D4&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2026-04-24&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;36&quot;,
+        &quot;postcode&quot;: &quot;EN5 5AY&quot;,
+        &quot;price&quot;: 900000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;KINGSMEAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;5340B1C5-9E9E-8052-E063-4804A8C06EE4&quot;
+      }
+    ],
+    &quot;sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2001-11-09&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;12&quot;,
+        &quot;postcode&quot;: &quot;EN5 5AY&quot;,
+        &quot;price&quot;: 189000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;KINGSMEAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;27D8C051-C282-441D-ADE2-4A5F7913DBCE&quot;
+      }
+    ],
+    &quot;scope&quot;: &quot;address&quot;,
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;latitude&quot;: 51.652382,
+  &quot;liverpool_st_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Moderate (45-55m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 36,
+    &quot;route_summary&quot;: &quot;Northern line (Bank branch) direct to Moorgate (36 min) + 4 min Elizabeth line link to Liverpool St&quot;,
+    &quot;secondary_route&quot;: &quot;New Barnet (1.02 mi, ~21m walk) \u2794 Great Northern (National Rail) (26m rail) = ~51m total&quot;,
+    &quot;station_distance_miles&quot;: 0.524,
+    &quot;station_name&quot;: &quot;High Barnet&quot;,
+    &quot;total_commute_minutes&quot;: 51,
+    &quot;transfer_minutes&quot;: 4,
+    &quot;transit_line&quot;: &quot;London Underground (Northern line - Bank branch)&quot;,
+    &quot;walk_time_minutes&quot;: 11
+  },
+  &quot;living_rooms&quot;: 2,
+  &quot;longitude&quot;: -0.190039,
+  &quot;nearest_station&quot;: &quot;High Barnet&quot;,
+  &quot;nice_to_haves&quot;: [
+    {
+      &quot;detail&quot;: &quot;Not mentioned; UK EPCs do not record domestic cooling&quot;,
+      &quot;label&quot;: &quot;Air conditioning&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned in the listing or EPC&quot;,
+      &quot;label&quot;: &quot;Underfloor heating&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Floor-plan north arrow puts the garden north (not south)&quot;,
+      &quot;label&quot;: &quot;South-facing garden&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned and no overhead glazing seen in photos&quot;,
+      &quot;label&quot;: &quot;Sun roof / lantern in living areas&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Floorplan shows 2 bedrooms on the ground floor&quot;,
+      &quot;label&quot;: &quot;Ground-floor bedroom&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Largest living area is 11.1 ft (Kitchen / Dining Room, floor-plan) \u2014 below the 15 ft mark&quot;,
+      &quot;label&quot;: &quot;Wide living room&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;No cinema or media room mentioned, and no other room on the plan is large enough to be one&quot;,
+      &quot;label&quot;: &quot;Home theatre potential&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    }
+  ],
+  &quot;overall_verdict&quot;: &quot;Secondary Assessment Needed: Low scores across multiple dimensions.&quot;,
+  &quot;planning_summary&quot;: {
+    &quot;_cache&quot;: true,
+    &quot;applications&quot;: [],
+    &quot;properties&quot;: [],
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;price_display&quot;: &quot;\u00a3950,000&quot;,
+  &quot;price_per_sq_ft&quot;: 18269.2,
+  &quot;property_id&quot;: &quot;74335444&quot;,
+  &quot;property_images&quot;: [
+    &quot;https://lid.zoocdn.com/u/1024/768/797f29bb8e43ced886ab439ecf4798b74d40627d.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/041da1aae9d216670e9f4d1be07930731c19a4ea.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/d5a8974c30e38e7e58bf7e46025d0c6750923fe4.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/52caf764a737a3dd18a84e63e025856cddfeea66.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/7e6ba6c7a1c6b8d3353cd23aebbc1e7670b8a977.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/c0454f1998596bfd094d699b92d6e3731d21b41b.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/3bf9b3c1d6014df6b9077a9281c499f51f518040.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/694070f1d64d44ec00338f5e9b50f812dbf196db.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/3c47af0d2a50cbd6ab32b39f533a46de110e86ac.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/9d064369b446d02dcbd994c9f9f3185099b60961.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/78ef1796429bda14e50dd7e106d15107b9044194.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/13a2f8423225c91bb2e8903a383a18b9ffcc1922.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/526d8f762366a7fa2600f29a8f9cc0c3fbac0c6d.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/17c06df4c59168b66d1b70e38507d1ed762e4169.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/636cfe34ddeb0b6a02805b432b49a4e3ce3c770d.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/887f75ad4280e8ced5bd0e1507bd7c5b6f92b821.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/d5499926ce4e3eb304a3c4b699c1197672559c7c.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/c309e41ddd521f650de74041596dcf977324ab41.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/5347169b6c9623514fdff28123549d70c6b71fc5.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/ae8ecbfa06cec46ac7ff87cdfd7d8d0da700aac9.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/cb20f7dac1ca291d65e32a719780711e0f5187ff.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/3cf9a31fc604c847a6221759b67a41890f5ce60e.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/7f3d7db035f57bbf2fbc36d5bf6f7bf9589a785c.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/5ad2786489dfca93a2425071fa41b7382e07aff2.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/d0ea0e11c51c9b2ee4ff9df0bfbee1e983596aa6.jpg&quot;
+  ],
+  &quot;property_type&quot;: &quot;4 bed detached house for sale&quot;,
+  &quot;size_sq_ft&quot;: 52.0,
+  &quot;size_sq_m&quot;: 122.9,
+  &quot;station_distance_miles&quot;: 0.52,
+  &quot;station_distance_source&quot;: &quot;routed&quot;,
+  &quot;tenure&quot;: &quot;Freehold&quot;,
+  &quot;walk_time_minutes&quot;: 11
+}</pre>
+  </details>
+
+  <div class="foot"><div><a href="southover-woodside-park-n12.html">← Southover</a></div><div><a href="barfield-avenue-london-n20.html">→ Barfield Avenue</a></div></div>
+
+  <p class="note" style="margin-top:26px">Generated 2026-10-01 from
+  <code>reviews/property_reviews.json</code>. Map data &copy;
+  <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</p>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
+<script>window.__PINS__ = [{"id": "74335444", "lat": 51.652382, "lon": -0.190039, "addr": "Kingsmead", "price": "\u00a3950,000", "sqft": "52", "epc": "D", "score": 35.7, "colour": "#a8322d", "tags": [], "tag_html": "", "href": "#"}];</script>
+<script>window.__SLIDES__ = ["https://lid.zoocdn.com/u/1024/768/797f29bb8e43ced886ab439ecf4798b74d40627d.jpg", "https://lid.zoocdn.com/u/1024/768/041da1aae9d216670e9f4d1be07930731c19a4ea.jpg", "https://lid.zoocdn.com/u/1024/768/d5a8974c30e38e7e58bf7e46025d0c6750923fe4.jpg", "https://lid.zoocdn.com/u/1024/768/52caf764a737a3dd18a84e63e025856cddfeea66.jpg", "https://lid.zoocdn.com/u/1024/768/7e6ba6c7a1c6b8d3353cd23aebbc1e7670b8a977.jpg", "https://lid.zoocdn.com/u/1024/768/c0454f1998596bfd094d699b92d6e3731d21b41b.jpg", "https://lid.zoocdn.com/u/1024/768/3bf9b3c1d6014df6b9077a9281c499f51f518040.jpg", "https://lid.zoocdn.com/u/1024/768/694070f1d64d44ec00338f5e9b50f812dbf196db.jpg", "https://lid.zoocdn.com/u/1024/768/3c47af0d2a50cbd6ab32b39f533a46de110e86ac.jpg", "https://lid.zoocdn.com/u/1024/768/9d064369b446d02dcbd994c9f9f3185099b60961.jpg", "https://lid.zoocdn.com/u/1024/768/78ef1796429bda14e50dd7e106d15107b9044194.jpg", "https://lid.zoocdn.com/u/1024/768/13a2f8423225c91bb2e8903a383a18b9ffcc1922.jpg", "https://lid.zoocdn.com/u/1024/768/526d8f762366a7fa2600f29a8f9cc0c3fbac0c6d.jpg", "https://lid.zoocdn.com/u/1024/768/17c06df4c59168b66d1b70e38507d1ed762e4169.jpg", "https://lid.zoocdn.com/u/1024/768/636cfe34ddeb0b6a02805b432b49a4e3ce3c770d.jpg", "https://lid.zoocdn.com/u/1024/768/887f75ad4280e8ced5bd0e1507bd7c5b6f92b821.jpg", "https://lid.zoocdn.com/u/1024/768/d5499926ce4e3eb304a3c4b699c1197672559c7c.jpg", "https://lid.zoocdn.com/u/1024/768/c309e41ddd521f650de74041596dcf977324ab41.jpg", "https://lid.zoocdn.com/u/1024/768/5347169b6c9623514fdff28123549d70c6b71fc5.jpg", "https://lid.zoocdn.com/u/1024/768/ae8ecbfa06cec46ac7ff87cdfd7d8d0da700aac9.jpg", "https://lid.zoocdn.com/u/1024/768/cb20f7dac1ca291d65e32a719780711e0f5187ff.jpg", "https://lid.zoocdn.com/u/1024/768/3cf9a31fc604c847a6221759b67a41890f5ce60e.jpg", "https://lid.zoocdn.com/u/1024/768/7f3d7db035f57bbf2fbc36d5bf6f7bf9589a785c.jpg", "https://lid.zoocdn.com/u/1024/768/5ad2786489dfca93a2425071fa41b7382e07aff2.jpg", "https://lid.zoocdn.com/u/1024/768/d0ea0e11c51c9b2ee4ff9df0bfbee1e983596aa6.jpg"];</script>
+<script>
+(function () {
+  var el = document.getElementById('map');
+  if (!el || typeof L === 'undefined') { return; }
+  var data = window.__PINS__ || [];
+  if (!data.length || data[0].lat === null) { el.style.display = 'none'; return; }
+  var map = L.map('map', { scrollWheelZoom: false, dragging: false,
+                           doubleClickZoom: false, boxZoom: false,
+                           keyboard: false, zoomControl: false });
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  var group = L.featureGroup().addTo(map);
+  data.forEach(function (p) {
+    if (p.lat === null) { return; }
+    L.circleMarker([p.lat, p.lon], { radius: 10, color: '#ffffff', weight: 3,
+                                     fillColor: p.colour, fillOpacity: 0.95 }).addTo(group);
+  });
+  if (group.getBounds().isValid()) { map.fitBounds(group.getBounds().pad(0.35)); }
+  L.control.attribution({ prefix: false }).addTo(map);
+})();
+</script>
+<script>
+(function () {
+  var shots = window.__SLIDES__ || [];
+  var img = document.getElementById('slide-img');
+  var link = document.getElementById('slide-link');
+  var prev = document.getElementById('slide-prev');
+  var next = document.getElementById('slide-next');
+  var num = document.getElementById('slide-n');
+  if (!img || !link || shots.length < 2) {
+    if (prev) { prev.disabled = true; }
+    if (next) { next.disabled = true; }
+    return;
+  }
+  var at = 0;
+
+  function show(i) {
+    at = (i + shots.length) % shots.length;
+    img.src = shots[at];
+    img.alt = 'Listing photo ' + (at + 1) + ' of ' + shots.length +
+              ' — open full size';
+    link.href = shots[at];
+    if (num) { num.textContent = String(at + 1); }
+  }
+
+  // Only the neighbours are warmed: a 34-photo listing at 136 KB each is
+  // 4.6 MB if the whole gallery is fetched up front, for images the reader may
+  // never scroll to.
+  function warm() {
+    [at + 1, at - 1].forEach(function (k) {
+      var j = (k + shots.length) % shots.length;
+      if (j !== at) { new Image().src = shots[j]; }
+    });
+  }
+
+  prev.addEventListener('click', function () { show(at - 1); warm(); });
+  next.addEventListener('click', function () { show(at + 1); warm(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) { return; }
+    if (e.key === 'ArrowLeft') { show(at - 1); warm(); }
+    if (e.key === 'ArrowRight') { show(at + 1); warm(); }
+  });
+  show(0);
+  warm();
+})();
+</script>
+</body></html>

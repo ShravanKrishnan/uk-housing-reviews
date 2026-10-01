@@ -1,0 +1,754 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chandos Avenue — review</title>
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <h1>Chandos Avenue</h1>
+  <p class="sub">Chandos Avenue, Whetstone N20</p>
+  <nav class="crumbs"><a href="../index.html">← Back to the map</a> &middot;
+  <a href="../index.html#all-rank-3">Rank #3 of All properties</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="panel">
+    <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between">
+      <div>
+        <span class="pill" style="background:#c2760a">62.5 Score</span>
+        <span class="badge tag-transport">Great Transport Links</span><span class="badge tag-value">Strong Value</span><span class="badge tag-presentation">Beautifully Presented</span>
+      </div>
+      <div style="font-size:13px;color:var(--muted)">
+        3 of 164 &middot; score 62.5
+      </div>
+    </div>
+    <div class="verdict">Solid Contender: Well-balanced property with good technical credentials.</div>
+  </div>
+
+  <h3>At a glance</h3>
+  <div class="grid"><div class="stat"><div class="k">Asking price</div><div class="v">£1,300,000</div></div><div class="stat"><div class="k">Property type</div><div class="v">6 bed semi-detached house for sale</div></div><div class="stat"><div class="k">Tenure</div><div class="v">Freehold</div></div><div class="stat"><div class="k">Size</div><div class="v">2,952 sq ft / 274.2 m²</div></div><div class="stat"><div class="k">Price per sq ft</div><div class="v">£440.4</div></div><div class="stat"><div class="k">Bedrooms</div><div class="v">6</div></div><div class="stat"><div class="k">Bathrooms</div><div class="v">2</div></div><div class="stat"><div class="k">Living rooms</div><div class="v">2</div></div><div class="stat"><div class="k">EPC (current / potential)</div><div class="v">C / C</div></div><div class="stat"><div class="k">Nearest station</div><div class="v">Totteridge &amp; Whetstone · 0.7 mi · ~14 min walk</div></div><div class="stat wide"><div class="k">Commute to Liverpool St</div><div class="v">37 min (Great Northern direct to Moorgate (24 min) + 4 min walk via integrated Elizabeth line concourse to Liverpool St)</div></div><div class="stat wide"><div class="k">Commute to King&#x27;s Cross</div><div class="v">26 min (Great Northern direct to King&#x27;s Cross St Pancras (17 min))</div></div></div>
+
+  <h3>Nice-to-haves</h3>
+  <div class="panel">
+    <table class="nice">
+      <thead><tr><th>Signal</th><th>Status</th><th>Detail</th></tr></thead>
+      <tbody><tr><td>Air conditioning</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned; UK EPCs do not record domestic cooling</td></tr><tr><td>Underfloor heating</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned in the listing or EPC</td></tr><tr><td>South-facing garden</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Floor-plan north arrow puts the garden south (listing silent)</td></tr><tr><td>Sun roof / lantern in living areas</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned and no overhead glazing seen in photos</td></tr><tr><td>Ground-floor bedroom</td><td><span class="nh-status nh-stated">stated</span></td><td>No ground-floor bedroom stated, but a convertible study is mentioned</td></tr><tr><td>Wide living room</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Largest living area is 13.4 ft (Sitting Room, floor-plan) — below the 15 ft mark</td></tr><tr><td>Home theatre potential</td><td><span class="nh-status nh-photo_hint">photo-hint</span></td><td>Dining Room measures 13.4 x 12.3 ft (165 sq ft) on the floor plan, a separate room from the Sitting Room — room for a smaller screen or fewer seats; at that size it holds a 100-inch screen with the front row 8.3 ft from it, 1 recliner row of 4 across (9.9 ft of frontage, a four-seat family sofa), 4 seats</td></tr></tbody>
+    </table>
+  </div>
+
+<div class="panel"><h2>Photos — 19</h2><div class="slides" id="slides"><div class="slide-frame"><a id="slide-link" href="https://lid.zoocdn.com/u/1024/768/76f291a9cefa4e24bb60012aec9c5c38cbcaccc6.jpg" rel="noopener"><img id="slide-img" src="https://lid.zoocdn.com/u/1024/768/76f291a9cefa4e24bb60012aec9c5c38cbcaccc6.jpg" alt="Listing photo 1 of 19 — open full size" loading="lazy"></a><button type="button" class="slide-nav prev" id="slide-prev" aria-label="Previous photo">&#8249;</button><button type="button" class="slide-nav next" id="slide-next" aria-label="Next photo">&#8250;</button><span class="slide-badge"><span id="slide-n">1</span> / 19</span></div></div><p class="note" style="margin-top:8px">Arrow keys page through the gallery; click a photo to open it full size. These are the listing's own photographs, at the highest resolution its image host serves.</p></div>
+
+  <div class="layout">
+    <div class="panel sticky">
+      <h2>Where it is</h2>
+      <div id="map" style="height:330px;border-radius:8px"></div>
+      <p class="note" style="margin-top:10px">
+        Pin is the listing's own coordinates. Map tiles are OpenStreetMap.
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=51.633683,-0.173541" rel="noopener">Open in Google Maps →</a>
+        &middot; <a href="https://www.openstreetmap.org/?mlat=51.633683&amp;mlon=-0.173541#map=18/51.633683/-0.173541" rel="noopener">Open in OpenStreetMap →</a>
+        &middot; <a href="https://www.zoopla.co.uk/for-sale/details/73322441/" rel="noopener">Zoopla listing →</a>
+      </p>
+    </div>
+    <div class="panel">
+      <h2>Floorplan analysis</h2>
+      <a href="https://lid.zoocdn.com/u/1024/768/aa009bead847c2af90ce18e980847fbc8c581d96.jpg" rel="noopener"><img class="plan" src="https://lid.zoocdn.com/u/1024/768/aa009bead847c2af90ce18e980847fbc8c581d96.jpg" alt="Floor plan for Chandos Avenue, Whetstone N20" loading="lazy"></a><p class="note">14 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are listed without one. <a href="https://lid.zoocdn.com/u/1024/768/aa009bead847c2af90ce18e980847fbc8c581d96.jpg" rel="noopener">Open the full-size plan →</a></p><table class="nice compact"><thead><tr><th>Room</th><th>Type</th><th>Floor</th><th>Dimensions</th><th>Area</th></tr></thead><tbody><tr><td>Sitting Room</td><td>living</td><td>ground</td><td class="num">16.8 &times; 13.4 ft</td><td class="num">225 sq ft</td></tr><tr><td>Kitchen</td><td>kitchen</td><td>ground</td><td class="num">18.2 &times; 11.3 ft</td><td class="num">206 sq ft</td></tr><tr><td>Dining Room</td><td>dining</td><td>ground</td><td class="num">13.4 &times; 12.3 ft</td><td class="num">165 sq ft</td></tr><tr><td>Conservatory</td><td>outbuilding</td><td>ground</td><td class="num">19.2 &times; 8.2 ft</td><td class="num">157 sq ft</td></tr><tr><td>Garage</td><td>outbuilding</td><td>ground</td><td class="num">13.7 &times; 8.2 ft</td><td class="num">112 sq ft</td></tr><tr><td>Workshop</td><td>outbuilding</td><td>ground</td><td class="num">15.8 &times; 11.2 ft</td><td class="num">177 sq ft</td></tr><tr><td>Bedroom</td><td>bedroom</td><td>first</td><td class="num">14.8 &times; 14.5 ft</td><td class="num">215 sq ft</td></tr><tr><td>Bedroom</td><td>bedroom</td><td>first</td><td class="num">12.3 &times; 11.3 ft</td><td class="num">139 sq ft</td></tr><tr><td>Bedroom</td><td>bedroom</td><td>first</td><td class="num">10.3 &times; 8.2 ft</td><td class="num">84 sq ft</td></tr><tr><td>Bedroom</td><td>bedroom</td><td>first</td><td class="num">14.5 &times; 12.3 ft</td><td class="num">178 sq ft</td></tr><tr><td>Bedroom</td><td>bedroom</td><td>second</td><td class="num">14.3 &times; 12.2 ft</td><td class="num">174 sq ft</td></tr><tr><td>Bedroom</td><td>bedroom</td><td>second</td><td class="num">14.3 &times; 9.2 ft</td><td class="num">132 sq ft</td></tr><tr><td>Study</td><td>study</td><td>second</td><td class="num">8.2 &times; 6.2 ft</td><td class="num">51 sq ft</td></tr><tr><td>Eaves</td><td>other</td><td>second</td><td class="num">not printed</td><td class="num">—</td></tr></tbody></table>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-top:22px">
+    <h2>Score breakdown — 62.5/100</h2>
+    <div class="bar-row with-evidence"><span class="lbl">Location &amp; transport</span><span class="bar"><i style="width:82.5%;background:#a8322d"></i></span><span class="num">16.5</span><ul class="ticks compact"><li><span class="tick">✓</span>Nearest station Oakleigh Park 9 min walk (0.45 mi routed walk) (+5)</li><li><span class="tick">✓</span>2 stations within 0.8 mi — Oakleigh Park 9 min walk, Totteridge &amp; Whetstone 14 min walk — commuting resilience (+3.5)</li><li><span class="tick">✓</span>2 transit lines within walk — Great Northern via Oakleigh Park 9 min walk; Northern via Totteridge &amp; Whetstone 14 min walk — broad Central London access (+2)</li><li><span class="tick">✓</span>Night Tube / 24h service at Totteridge &amp; Whetstone (+1.5)</li><li><span class="tick">✓</span>Fast Liverpool St commute: ~37 mins door-to-concourse via Oakleigh Park (9m walk + 24m rail) (+2.5)</li><li><span class="tick">✓</span>King&#x27;s Cross St Pancras commute ~26 mins via Oakleigh Park (+2)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Space, scale &amp; layout</span><span class="bar"><i style="width:35.0%;background:#a8322d"></i></span><span class="num">7.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Square footage taken from floor plan (image analysis)</li><li><span class="tick">✓</span>Generous proportions: 2,952.0 sq ft total (492 sq ft/bed) (+5.5)</li><li><span class="tick">✓</span>Under-bathroomed (2 bath for 6 beds - morning bottlenecks likely) (+0.5)</li><li><span class="tick">✓</span>Two or more reception rooms (2) (+1)</li><li><span class="tick">✓</span>Living room width: 13.4 ft (below 15 ft)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Financial efficiency</span><span class="bar"><i style="width:56.7%;background:#a8322d"></i></span><span class="num">8.5</span><ul class="ticks compact"><li><span class="tick">✓</span>£440 per sq ft on 2,952 sq ft (+5.2 of 7.5)</li><li><span class="tick">✓</span>£1,300,000 asking price (+3.3 of 7.5)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Technical &amp; EPC</span><span class="bar"><i style="width:60.0%;background:#a8322d"></i></span><span class="num">12.0</span><ul class="ticks compact"><li><span class="tick">✓</span>EPC Band C (7) + no secondary heating (1) + wall insulation (3) + insulated roof (2) (+10 of 10)</li><li><span class="tick">✓</span>EPC: pitched roof with accessible loft (pitched, insulated at rafters) — scope for a simple loft extension (structural survey still required) (+2)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Observed presentation</span><span class="bar"><i style="width:90.0%;background:#a8322d"></i></span><span class="num">13.5</span><ul class="ticks compact"><li><span class="tick">✓</span>Presented finish observed as refurbished in listing photographs (image analysis) (+5.5 of 7)</li><li><span class="tick">✓</span>Kitchen &amp; bathroom spec rated premium in listing photographs (image analysis) (+5 of 5)</li><li><span class="tick">✓</span>Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Garden &amp; outdoor</span><span class="bar"><i style="width:50.0%;background:#a8322d"></i></span><span class="num">5.0</span><ul class="ticks compact"><li><span class="tick">✓</span>South-facing garden confirmed (+5)</li></ul></div>
+    <p class="note">The combined score rewards location, space, financial efficiency,
+    technical specification, observed presentation, and garden quality. Every line
+    lists the evidence that earned it, so a component cannot be read as a verdict
+    without the reason attached.</p>
+  </div>
+
+  <h3>Land Registry</h3>
+  <div class="panel">
+    <p><strong>No sale attributed to this address — a house number is known, but no Land Registry record matches it, i.e. the house has not transacted.</strong></p>
+    <p>£572/sq ft median (range £51–£782), from 8 of 19 local sales (42% priced). <span class="note">Floor area is borrowed from the EPC extract (epc_bulk total_floor_area) because sale records carry none; small samples are heavy-tailed, so the median is used and withheld below 5 priced sales.</span></p>
+    <p class="note">19 raw sale record(s) exist in this postcode. They are the neighbourhood's history, not this home's, and are deliberately not presented as its own.</p>
+    <p class="note">Scope <code>address_no_sale</code> — sale history is only ever
+    attributed to this home when a house number was derived and matched.</p>
+  </div>
+
+  <h3>Planning</h3>
+  <div class="panel"><p class="note">Planning lookup status: <code>error</code>. No planning history is asserted for this property.</p></div>
+
+  <div style="margin-top:22px">
+    <div class="panel"><h2>Photographic evidence reviewed for the score</h2><p class="note">Points are awarded only for detected listing, EPC, or photographic evidence, and each component above lists what it found. Systems without such evidence score zero and are omitted rather than listed as inspection tasks. These notes record what the photos did and did not show.</p><ul class="ticks"><li>20 property photo(s) analysed by local vision model (Qwen3-VL)</li><li>Photographic-evidence score: 47.0/100 (high confidence; condition 30/35, kitchen/bath 6/20, glazing 3/20, structure 0/15, legibility 8/10)</li><li>Floor-plan total read from the plan: 2,952 sq ft</li><li>Condition tier inferred from photos: refurbished</li><li>Not captured in the photos: bathrooms, bedrooms, extension evidence, garden aspect, kitchen, living rooms (…)</li></ul></div>
+  </div>
+
+  <div class="gaps"><strong>What is not verified here</strong><ul><li>No Land Registry sale recorded for this address in the price-paid window — the house has not transacted, so there is no comparable sale history</li><li>Enrichment fetch failed: planning</li></ul></div>
+
+  <details class="raw">
+    <summary>Raw review record (JSON)</summary>
+    <pre>{
+  &quot;asking_price&quot;: 1300000,
+  &quot;bathrooms&quot;: 2,
+  &quot;bedrooms&quot;: 6,
+  &quot;combined_score&quot;: {
+    &quot;detected_features&quot;: [
+      &quot;Nearest station Oakleigh Park 9 min walk (0.45 mi routed walk) (+5)&quot;,
+      &quot;2 stations within 0.8 mi \u2014 Oakleigh Park 9 min walk, Totteridge &amp; Whetstone 14 min walk \u2014 commuting resilience (+3.5)&quot;,
+      &quot;2 transit lines within walk \u2014 Great Northern via Oakleigh Park 9 min walk; Northern via Totteridge &amp; Whetstone 14 min walk \u2014 broad Central London access (+2)&quot;,
+      &quot;Night Tube / 24h service at Totteridge &amp; Whetstone (+1.5)&quot;,
+      &quot;Fast Liverpool St commute: ~37 mins door-to-concourse via Oakleigh Park (9m walk + 24m rail) (+2.5)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~26 mins via Oakleigh Park (+2)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Generous proportions: 2,952.0 sq ft total (492 sq ft/bed) (+5.5)&quot;,
+      &quot;Under-bathroomed (2 bath for 6 beds - morning bottlenecks likely) (+0.5)&quot;,
+      &quot;Two or more reception rooms (2) (+1)&quot;,
+      &quot;Living room width: 13.4 ft (below 15 ft)&quot;,
+      &quot;\u00a3440 per sq ft on 2,952 sq ft (+5.2 of 7.5)&quot;,
+      &quot;\u00a31,300,000 asking price (+3.3 of 7.5)&quot;,
+      &quot;EPC Band C (7) + no secondary heating (1) + wall insulation (3) + insulated roof (2) (+10 of 10)&quot;,
+      &quot;EPC: pitched roof with accessible loft (pitched, insulated at rafters) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;,
+      &quot;Presented finish observed as refurbished in listing photographs (image analysis) (+5.5 of 7)&quot;,
+      &quot;Kitchen &amp; bathroom spec rated premium in listing photographs (image analysis) (+5 of 5)&quot;,
+      &quot;Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)&quot;,
+      &quot;South-facing garden confirmed (+5)&quot;
+    ],
+    &quot;evidence&quot;: {
+      &quot;financial_efficiency&quot;: [
+        &quot;\u00a3440 per sq ft on 2,952 sq ft (+5.2 of 7.5)&quot;,
+        &quot;\u00a31,300,000 asking price (+3.3 of 7.5)&quot;
+      ],
+      &quot;garden_outdoor&quot;: [
+        &quot;South-facing garden confirmed (+5)&quot;
+      ],
+      &quot;location_transport&quot;: [
+        &quot;Nearest station Oakleigh Park 9 min walk (0.45 mi routed walk) (+5)&quot;,
+        &quot;2 stations within 0.8 mi \u2014 Oakleigh Park 9 min walk, Totteridge &amp; Whetstone 14 min walk \u2014 commuting resilience (+3.5)&quot;,
+        &quot;2 transit lines within walk \u2014 Great Northern via Oakleigh Park 9 min walk; Northern via Totteridge &amp; Whetstone 14 min walk \u2014 broad Central London access (+2)&quot;,
+        &quot;Night Tube / 24h service at Totteridge &amp; Whetstone (+1.5)&quot;,
+        &quot;Fast Liverpool St commute: ~37 mins door-to-concourse via Oakleigh Park (9m walk + 24m rail) (+2.5)&quot;,
+        &quot;King&#x27;s Cross St Pancras commute ~26 mins via Oakleigh Park (+2)&quot;
+      ],
+      &quot;observed_presentation&quot;: [
+        &quot;Presented finish observed as refurbished in listing photographs (image analysis) (+5.5 of 7)&quot;,
+        &quot;Kitchen &amp; bathroom spec rated premium in listing photographs (image analysis) (+5 of 5)&quot;,
+        &quot;Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)&quot;
+      ],
+      &quot;space_layout&quot;: [
+        &quot;Square footage taken from floor plan (image analysis)&quot;,
+        &quot;Generous proportions: 2,952.0 sq ft total (492 sq ft/bed) (+5.5)&quot;,
+        &quot;Under-bathroomed (2 bath for 6 beds - morning bottlenecks likely) (+0.5)&quot;,
+        &quot;Two or more reception rooms (2) (+1)&quot;,
+        &quot;Living room width: 13.4 ft (below 15 ft)&quot;
+      ],
+      &quot;technical_epc&quot;: [
+        &quot;EPC Band C (7) + no secondary heating (1) + wall insulation (3) + insulated roof (2) (+10 of 10)&quot;,
+        &quot;EPC: pitched roof with accessible loft (pitched, insulated at rafters) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;
+      ]
+    },
+    &quot;financial_efficiency&quot;: 8.5,
+    &quot;garden_outdoor&quot;: 5.0,
+    &quot;location_transport&quot;: 16.5,
+    &quot;notes&quot;: [
+      &quot;Nearest station Oakleigh Park 9 min walk (0.45 mi routed walk) (+5)&quot;,
+      &quot;2 stations within 0.8 mi \u2014 Oakleigh Park 9 min walk, Totteridge &amp; Whetstone 14 min walk \u2014 commuting resilience (+3.5)&quot;,
+      &quot;2 transit lines within walk \u2014 Great Northern via Oakleigh Park 9 min walk; Northern via Totteridge &amp; Whetstone 14 min walk \u2014 broad Central London access (+2)&quot;,
+      &quot;Night Tube / 24h service at Totteridge &amp; Whetstone (+1.5)&quot;,
+      &quot;Fast Liverpool St commute: ~37 mins door-to-concourse via Oakleigh Park (9m walk + 24m rail) (+2.5)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~26 mins via Oakleigh Park (+2)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Generous proportions: 2,952.0 sq ft total (492 sq ft/bed) (+5.5)&quot;,
+      &quot;Under-bathroomed (2 bath for 6 beds - morning bottlenecks likely) (+0.5)&quot;,
+      &quot;Two or more reception rooms (2) (+1)&quot;,
+      &quot;EPC Band C&quot;
+    ],
+    &quot;observed_presentation&quot;: 13.5,
+    &quot;space_layout&quot;: 7.0,
+    &quot;tags&quot;: [
+      &quot;Great Transport Links&quot;,
+      &quot;Strong Value&quot;,
+      &quot;Beautifully Presented&quot;
+    ],
+    &quot;technical_epc&quot;: 12.0,
+    &quot;total_score&quot;: 62.5,
+    &quot;vision_facts&quot;: [
+      &quot;20 property photo(s) analysed by local vision model (Qwen3-VL)&quot;,
+      &quot;Photographic-evidence score: 47.0/100 (high confidence; condition 30/35, kitchen/bath 6/20, glazing 3/20, structure 0/15, legibility 8/10)&quot;,
+      &quot;Floor-plan total read from the plan: 2,952 sq ft&quot;,
+      &quot;Condition tier inferred from photos: refurbished&quot;,
+      &quot;Not captured in the photos: bathrooms, bedrooms, extension evidence, garden aspect, kitchen, living rooms (\u2026)&quot;
+    ]
+  },
+  &quot;data_gaps&quot;: [
+    &quot;No Land Registry sale recorded for this address in the price-paid window \u2014 the house has not transacted, so there is no comparable sale history&quot;,
+    &quot;Enrichment fetch failed: planning&quot;
+  ],
+  &quot;epc_potential&quot;: &quot;C&quot;,
+  &quot;epc_rating&quot;: &quot;C&quot;,
+  &quot;floorplan_image_url&quot;: &quot;https://lid.zoocdn.com/u/1024/768/aa009bead847c2af90ce18e980847fbc8c581d96.jpg&quot;,
+  &quot;floorplan_rooms&quot;: [
+    {
+      &quot;area_sq_ft&quot;: 225,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;living&quot;,
+      &quot;label&quot;: &quot;Sitting Room&quot;,
+      &quot;length_ft&quot;: 16.8,
+      &quot;width_ft&quot;: 13.4
+    },
+    {
+      &quot;area_sq_ft&quot;: 206,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;kitchen&quot;,
+      &quot;label&quot;: &quot;Kitchen&quot;,
+      &quot;length_ft&quot;: 18.2,
+      &quot;width_ft&quot;: 11.3
+    },
+    {
+      &quot;area_sq_ft&quot;: 165,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;dining&quot;,
+      &quot;label&quot;: &quot;Dining Room&quot;,
+      &quot;length_ft&quot;: 13.4,
+      &quot;width_ft&quot;: 12.3
+    },
+    {
+      &quot;area_sq_ft&quot;: 157,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;outbuilding&quot;,
+      &quot;label&quot;: &quot;Conservatory&quot;,
+      &quot;length_ft&quot;: 19.2,
+      &quot;width_ft&quot;: 8.2
+    },
+    {
+      &quot;area_sq_ft&quot;: 112,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;outbuilding&quot;,
+      &quot;label&quot;: &quot;Garage&quot;,
+      &quot;length_ft&quot;: 13.7,
+      &quot;width_ft&quot;: 8.2
+    },
+    {
+      &quot;area_sq_ft&quot;: 177,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;outbuilding&quot;,
+      &quot;label&quot;: &quot;Workshop&quot;,
+      &quot;length_ft&quot;: 15.8,
+      &quot;width_ft&quot;: 11.2
+    },
+    {
+      &quot;area_sq_ft&quot;: 215,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom&quot;,
+      &quot;length_ft&quot;: 14.8,
+      &quot;width_ft&quot;: 14.5
+    },
+    {
+      &quot;area_sq_ft&quot;: 139,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom&quot;,
+      &quot;length_ft&quot;: 12.3,
+      &quot;width_ft&quot;: 11.3
+    },
+    {
+      &quot;area_sq_ft&quot;: 84,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom&quot;,
+      &quot;length_ft&quot;: 10.3,
+      &quot;width_ft&quot;: 8.2
+    },
+    {
+      &quot;area_sq_ft&quot;: 178,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom&quot;,
+      &quot;length_ft&quot;: 14.5,
+      &quot;width_ft&quot;: 12.3
+    },
+    {
+      &quot;area_sq_ft&quot;: 174,
+      &quot;floor&quot;: &quot;second&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom&quot;,
+      &quot;length_ft&quot;: 14.3,
+      &quot;width_ft&quot;: 12.2
+    },
+    {
+      &quot;area_sq_ft&quot;: 132,
+      &quot;floor&quot;: &quot;second&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom&quot;,
+      &quot;length_ft&quot;: 14.3,
+      &quot;width_ft&quot;: 9.2
+    },
+    {
+      &quot;area_sq_ft&quot;: 51,
+      &quot;floor&quot;: &quot;second&quot;,
+      &quot;kind&quot;: &quot;study&quot;,
+      &quot;label&quot;: &quot;Study&quot;,
+      &quot;length_ft&quot;: 8.2,
+      &quot;width_ft&quot;: 6.2
+    },
+    {
+      &quot;area_sq_ft&quot;: null,
+      &quot;floor&quot;: &quot;second&quot;,
+      &quot;kind&quot;: &quot;other&quot;,
+      &quot;label&quot;: &quot;Eaves&quot;,
+      &quot;length_ft&quot;: null,
+      &quot;width_ft&quot;: null
+    }
+  ],
+  &quot;full_address&quot;: &quot;Chandos Avenue, Whetstone N20&quot;,
+  &quot;kings_cross_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Top Tier (&lt;35m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 17,
+    &quot;route_summary&quot;: &quot;Great Northern direct to King&#x27;s Cross St Pancras (17 min)&quot;,
+    &quot;secondary_route&quot;: &quot;Totteridge &amp; Whetstone (0.695 mi, ~14m walk) \u2794 London Underground (Northern line - Bank branch) (29m rail) = ~43m total&quot;,
+    &quot;station_distance_miles&quot;: 0.449,
+    &quot;station_name&quot;: &quot;Oakleigh Park&quot;,
+    &quot;total_commute_minutes&quot;: 26,
+    &quot;transfer_minutes&quot;: 0,
+    &quot;transit_line&quot;: &quot;Great Northern (National Rail)&quot;,
+    &quot;walk_time_minutes&quot;: 9
+  },
+  &quot;land_registry_summary&quot;: {
+    &quot;_cache&quot;: true,
+    &quot;area_benchmark&quot;: {
+      &quot;area_source&quot;: &quot;epc_bulk total_floor_area&quot;,
+      &quot;coverage_pct&quot;: 42,
+      &quot;high_gbp_sqft&quot;: 782,
+      &quot;low_gbp_sqft&quot;: 51,
+      &quot;median_gbp_sqft&quot;: 572,
+      &quot;of_sales&quot;: 19,
+      &quot;sample&quot;: 8
+    },
+    &quot;number_known&quot;: true,
+    &quot;postcode_sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1995-06-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;46&quot;,
+        &quot;postcode&quot;: &quot;N20 9DX&quot;,
+        &quot;price&quot;: 352500,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;CHANDOS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;C8F52EC0-CB6C-4089-8820-B16CA9D97474&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1995-07-27&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;42&quot;,
+        &quot;postcode&quot;: &quot;N20 9DX&quot;,
+        &quot;price&quot;: 325000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;CHANDOS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;E9523DFA-906C-43F4-972E-10A763DE8686&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1997-03-28&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;24&quot;,
+        &quot;postcode&quot;: &quot;N20 9DX&quot;,
+        &quot;price&quot;: 160000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;CHANDOS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;92E74A3E-F44E-41BC-8512-8C8E210613C4&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1997-04-17&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;50&quot;,
+        &quot;postcode&quot;: &quot;N20 9DX&quot;,
+        &quot;price&quot;: 382000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;CHANDOS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;5034C458-251A-447F-A324-87767541CDA0&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1997-09-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;28&quot;,
+        &quot;postcode&quot;: &quot;N20 9DX&quot;,
+        &quot;price&quot;: 210000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;CHANDOS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;587E4045-4816-46EB-B885-01E1EE1F2354&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1998-12-23&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;44&quot;,
+        &quot;postcode&quot;: &quot;N20 9DX&quot;,
+        &quot;price&quot;: 240000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;CHANDOS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;800BAA41-CD46-4477-A788-B835E8E9F3C0&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1999-07-16&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;14&quot;,
+        &quot;postcode&quot;: &quot;N20 9DX&quot;,
+        &quot;price&quot;: 270000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;CHANDOS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;BA5DAF38-81F3-4F2C-94A8-BE2934A334BB&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2003-09-30&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;38&quot;,
+        &quot;postcode&quot;: &quot;N20 9DX&quot;,
+        &quot;price&quot;: 635000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;CHANDOS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;A052005E-AB47-401C-B20E-7CAAB78B6D84&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2005-08-04&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;16&quot;,
+        &quot;postcode&quot;: &quot;N20 9DX&quot;,
+        &quot;price&quot;: 585000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;CHANDOS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;669A5B1D-884D-4061-847D-08C8F843C40D&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2006-05-18&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;18&quot;,
+        &quot;postcode&quot;: &quot;N20 9DX&quot;,
+        &quot;price&quot;: 565000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;CHANDOS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;580E2217-C52D-40A4-BED5-1C481EF8E680&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2006-08-11&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;54&quot;,
+        &quot;postcode&quot;: &quot;N20 9DX&quot;,
+        &quot;price&quot;: 660000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;CHANDOS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;0EDFE4CD-217E-4C3D-BFE4-E1A58D84A36C&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2010-12-08&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;40&quot;,
+        &quot;postcode&quot;: &quot;N20 9DX&quot;,
+        &quot;price&quot;: 1293000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;CHANDOS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;91FEB3E5-07C4-4811-A404-D574887A9EDB&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2015-01-23&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;10&quot;,
+        &quot;postcode&quot;: &quot;N20 9DX&quot;,
+        &quot;price&quot;: 815000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;CHANDOS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;A01B6A05-4949-43AD-B3F4-1D9E5C7D785E&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2015-02-11&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;20&quot;,
+        &quot;postcode&quot;: &quot;N20 9DX&quot;,
+        &quot;price&quot;: 1150000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;CHANDOS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;EFB53D9A-4958-49F9-8A5D-DE8B06A3BCC8&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2015-09-25&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;10&quot;,
+        &quot;postcode&quot;: &quot;N20 9DX&quot;,
+        &quot;price&quot;: 1851000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;CHANDOS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;23B6165E-9817-FCF4-E050-A8C0620577FA&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-04-28&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;48&quot;,
+        &quot;postcode&quot;: &quot;N20 9DX&quot;,
+        &quot;price&quot;: 1675000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;CHANDOS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;34428D7E-494C-B86C-E050-A8C06205059C&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2022-11-18&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;8&quot;,
+        &quot;postcode&quot;: &quot;N20 9DX&quot;,
+        &quot;price&quot;: 1708000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;CHANDOS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;F3B6C198-7705-6E40-E053-6C04A8C0B3B4&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2023-03-31&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;34&quot;,
+        &quot;postcode&quot;: &quot;N20 9DX&quot;,
+        &quot;price&quot;: 1775000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;CHANDOS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;FAC30767-507C-5E20-E053-4704A8C004EE&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2025-04-09&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;42&quot;,
+        &quot;postcode&quot;: &quot;N20 9DX&quot;,
+        &quot;price&quot;: 1835000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;CHANDOS AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;402A3A66-2188-A7DF-E063-4804A8C0B80D&quot;
+      }
+    ],
+    &quot;sales&quot;: [],
+    &quot;scope&quot;: &quot;address_no_sale&quot;,
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;latitude&quot;: 51.633683,
+  &quot;liverpool_st_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Fast (35-45m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 24,
+    &quot;route_summary&quot;: &quot;Great Northern direct to Moorgate (24 min) + 4 min walk via integrated Elizabeth line concourse to Liverpool St&quot;,
+    &quot;secondary_route&quot;: &quot;Totteridge &amp; Whetstone (0.695 mi, ~14m walk) \u2794 London Underground (Northern line - Bank branch) (33m rail) = ~51m total&quot;,
+    &quot;station_distance_miles&quot;: 0.449,
+    &quot;station_name&quot;: &quot;Oakleigh Park&quot;,
+    &quot;total_commute_minutes&quot;: 37,
+    &quot;transfer_minutes&quot;: 4,
+    &quot;transit_line&quot;: &quot;Great Northern (National Rail)&quot;,
+    &quot;walk_time_minutes&quot;: 9
+  },
+  &quot;living_rooms&quot;: 2,
+  &quot;longitude&quot;: -0.173541,
+  &quot;nearest_station&quot;: &quot;Totteridge &amp; Whetstone&quot;,
+  &quot;nice_to_haves&quot;: [
+    {
+      &quot;detail&quot;: &quot;Not mentioned; UK EPCs do not record domestic cooling&quot;,
+      &quot;label&quot;: &quot;Air conditioning&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned in the listing or EPC&quot;,
+      &quot;label&quot;: &quot;Underfloor heating&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Floor-plan north arrow puts the garden south (listing silent)&quot;,
+      &quot;label&quot;: &quot;South-facing garden&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned and no overhead glazing seen in photos&quot;,
+      &quot;label&quot;: &quot;Sun roof / lantern in living areas&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;No ground-floor bedroom stated, but a convertible study is mentioned&quot;,
+      &quot;label&quot;: &quot;Ground-floor bedroom&quot;,
+      &quot;status&quot;: &quot;stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Largest living area is 13.4 ft (Sitting Room, floor-plan) \u2014 below the 15 ft mark&quot;,
+      &quot;label&quot;: &quot;Wide living room&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Dining Room measures 13.4 x 12.3 ft (165 sq ft) on the floor plan, a separate room from the Sitting Room \u2014 room for a smaller screen or fewer seats; at that size it holds a 100-inch screen with the front row 8.3 ft from it, 1 recliner row of 4 across (9.9 ft of frontage, a four-seat family sofa), 4 seats&quot;,
+      &quot;label&quot;: &quot;Home theatre potential&quot;,
+      &quot;status&quot;: &quot;photo-hint&quot;
+    }
+  ],
+  &quot;overall_verdict&quot;: &quot;Solid Contender: Well-balanced property with good technical credentials.&quot;,
+  &quot;planning_summary&quot;: {
+    &quot;error&quot;: &quot;persistent 429&quot;,
+    &quot;status&quot;: &quot;error&quot;
+  },
+  &quot;price_display&quot;: &quot;\u00a31,300,000&quot;,
+  &quot;price_per_sq_ft&quot;: 440.4,
+  &quot;property_id&quot;: &quot;73322441&quot;,
+  &quot;property_images&quot;: [
+    &quot;https://lid.zoocdn.com/u/1024/768/76f291a9cefa4e24bb60012aec9c5c38cbcaccc6.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/ed0fda6ba7d117b352851114d543fc82ddcd3e22.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/796140ea95fd832d22b168347d25792bc3cda321.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/d8e99182066866c851a0dd88f44eb24fcf987d71.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/7e61e49b676e48b906410aca6a163f462afe98ab.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/65aabe833bb3fe96c3db0133d92f5d6b498d2421.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/cdec73068621cd4979046f570cdfe3bd3ff9cc46.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/8ae977b807e0ab4a75c77202baa0bcae51b148a6.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/4d739bdb12165210f27b088a28c8e188c3f8f74f.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/2647062a1c6d10ef432e866c52b5600205f00d79.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/2c46d5cc09444b745e4179f9b5e243868ab807c8.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/3b27175fb360dd34213dd988b2e4ebd54894109f.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/f9c4ab89efbe4d3db54b119ddcf24bf6b7c73dc1.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/22c491fe165f327f8eff1e32e8c9a1c2bf3e1f92.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/e2e45df6fb95388563dbe5ec6bacf9972e133fb7.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/5547d77aa79fc57d64c6523c801e136b824d40d1.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/2846b109afc0d442d38f762ddd4f9179b28f566f.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/2f4a6b66fdcc9764f15ce035bd5c0c0afca2eae8.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/d02e99b2f18532e329981de403629335cbc84b78.jpg&quot;
+  ],
+  &quot;property_type&quot;: &quot;6 bed semi-detached house for sale&quot;,
+  &quot;size_sq_ft&quot;: 2952.0,
+  &quot;size_sq_m&quot;: 274.2,
+  &quot;station_distance_miles&quot;: 0.69,
+  &quot;station_distance_source&quot;: &quot;routed&quot;,
+  &quot;tenure&quot;: &quot;Freehold&quot;,
+  &quot;walk_time_minutes&quot;: 14
+}</pre>
+  </details>
+
+  <div class="foot"><div><a href="holden-road-woodside-park-n12.html">← Holden Road</a></div><div><a href="chanctonbury-way-woodside-park-n12.html">→ Chanctonbury Way</a></div></div>
+
+  <p class="note" style="margin-top:26px">Generated 2026-10-01 from
+  <code>reviews/property_reviews.json</code>. Map data &copy;
+  <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</p>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
+<script>window.__PINS__ = [{"id": "73322441", "lat": 51.633683, "lon": -0.173541, "addr": "Chandos Avenue", "price": "\u00a31,300,000", "sqft": "2,952", "epc": "C", "score": 62.5, "colour": "#ad7714", "tags": ["Great Transport Links", "Strong Value", "Beautifully Presented"], "tag_html": "<span class=\"badge tag-transport\">Great Transport Links<\/span><span class=\"badge tag-value\">Strong Value<\/span><span class=\"badge tag-presentation\">Beautifully Presented<\/span>", "href": "#"}];</script>
+<script>window.__SLIDES__ = ["https://lid.zoocdn.com/u/1024/768/76f291a9cefa4e24bb60012aec9c5c38cbcaccc6.jpg", "https://lid.zoocdn.com/u/1024/768/ed0fda6ba7d117b352851114d543fc82ddcd3e22.jpg", "https://lid.zoocdn.com/u/1024/768/796140ea95fd832d22b168347d25792bc3cda321.jpg", "https://lid.zoocdn.com/u/1024/768/d8e99182066866c851a0dd88f44eb24fcf987d71.jpg", "https://lid.zoocdn.com/u/1024/768/7e61e49b676e48b906410aca6a163f462afe98ab.jpg", "https://lid.zoocdn.com/u/1024/768/65aabe833bb3fe96c3db0133d92f5d6b498d2421.jpg", "https://lid.zoocdn.com/u/1024/768/cdec73068621cd4979046f570cdfe3bd3ff9cc46.jpg", "https://lid.zoocdn.com/u/1024/768/8ae977b807e0ab4a75c77202baa0bcae51b148a6.jpg", "https://lid.zoocdn.com/u/1024/768/4d739bdb12165210f27b088a28c8e188c3f8f74f.jpg", "https://lid.zoocdn.com/u/1024/768/2647062a1c6d10ef432e866c52b5600205f00d79.jpg", "https://lid.zoocdn.com/u/1024/768/2c46d5cc09444b745e4179f9b5e243868ab807c8.jpg", "https://lid.zoocdn.com/u/1024/768/3b27175fb360dd34213dd988b2e4ebd54894109f.jpg", "https://lid.zoocdn.com/u/1024/768/f9c4ab89efbe4d3db54b119ddcf24bf6b7c73dc1.jpg", "https://lid.zoocdn.com/u/1024/768/22c491fe165f327f8eff1e32e8c9a1c2bf3e1f92.jpg", "https://lid.zoocdn.com/u/1024/768/e2e45df6fb95388563dbe5ec6bacf9972e133fb7.jpg", "https://lid.zoocdn.com/u/1024/768/5547d77aa79fc57d64c6523c801e136b824d40d1.jpg", "https://lid.zoocdn.com/u/1024/768/2846b109afc0d442d38f762ddd4f9179b28f566f.jpg", "https://lid.zoocdn.com/u/1024/768/2f4a6b66fdcc9764f15ce035bd5c0c0afca2eae8.jpg", "https://lid.zoocdn.com/u/1024/768/d02e99b2f18532e329981de403629335cbc84b78.jpg"];</script>
+<script>
+(function () {
+  var el = document.getElementById('map');
+  if (!el || typeof L === 'undefined') { return; }
+  var data = window.__PINS__ || [];
+  if (!data.length || data[0].lat === null) { el.style.display = 'none'; return; }
+  var map = L.map('map', { scrollWheelZoom: false, dragging: false,
+                           doubleClickZoom: false, boxZoom: false,
+                           keyboard: false, zoomControl: false });
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  var group = L.featureGroup().addTo(map);
+  data.forEach(function (p) {
+    if (p.lat === null) { return; }
+    L.circleMarker([p.lat, p.lon], { radius: 10, color: '#ffffff', weight: 3,
+                                     fillColor: p.colour, fillOpacity: 0.95 }).addTo(group);
+  });
+  if (group.getBounds().isValid()) { map.fitBounds(group.getBounds().pad(0.35)); }
+  L.control.attribution({ prefix: false }).addTo(map);
+})();
+</script>
+<script>
+(function () {
+  var shots = window.__SLIDES__ || [];
+  var img = document.getElementById('slide-img');
+  var link = document.getElementById('slide-link');
+  var prev = document.getElementById('slide-prev');
+  var next = document.getElementById('slide-next');
+  var num = document.getElementById('slide-n');
+  if (!img || !link || shots.length < 2) {
+    if (prev) { prev.disabled = true; }
+    if (next) { next.disabled = true; }
+    return;
+  }
+  var at = 0;
+
+  function show(i) {
+    at = (i + shots.length) % shots.length;
+    img.src = shots[at];
+    img.alt = 'Listing photo ' + (at + 1) + ' of ' + shots.length +
+              ' — open full size';
+    link.href = shots[at];
+    if (num) { num.textContent = String(at + 1); }
+  }
+
+  // Only the neighbours are warmed: a 34-photo listing at 136 KB each is
+  // 4.6 MB if the whole gallery is fetched up front, for images the reader may
+  // never scroll to.
+  function warm() {
+    [at + 1, at - 1].forEach(function (k) {
+      var j = (k + shots.length) % shots.length;
+      if (j !== at) { new Image().src = shots[j]; }
+    });
+  }
+
+  prev.addEventListener('click', function () { show(at - 1); warm(); });
+  next.addEventListener('click', function () { show(at + 1); warm(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) { return; }
+    if (e.key === 'ArrowLeft') { show(at - 1); warm(); }
+    if (e.key === 'ArrowRight') { show(at + 1); warm(); }
+  });
+  show(0);
+  warm();
+})();
+</script>
+</body></html>

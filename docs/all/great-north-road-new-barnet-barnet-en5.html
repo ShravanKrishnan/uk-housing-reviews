@@ -1,0 +1,659 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Great North Road — review</title>
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <h1>Great North Road</h1>
+  <p class="sub">Great North Road, New Barnet, Barnet EN5</p>
+  <nav class="crumbs"><a href="../index.html">← Back to the map</a> &middot;
+  <a href="../index.html#all-rank-131">Rank #131 of All properties</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="panel">
+    <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between">
+      <div>
+        <span class="pill" style="background:#a8322d">37.0 Score</span>
+        
+      </div>
+      <div style="font-size:13px;color:var(--muted)">
+        131 of 164 &middot; score 37.0
+      </div>
+    </div>
+    <div class="verdict">Secondary Assessment Needed: Low scores across multiple dimensions.</div>
+  </div>
+
+  <h3>At a glance</h3>
+  <div class="grid"><div class="stat"><div class="k">Asking price</div><div class="v">£765,000</div></div><div class="stat"><div class="k">Property type</div><div class="v">4 bed semi-detached house for sale</div></div><div class="stat"><div class="k">Tenure</div><div class="v">Freehold</div></div><div class="stat"><div class="k">Size</div><div class="v">1,046 sq ft / 97.2 m²</div></div><div class="stat"><div class="k">Price per sq ft</div><div class="v">£731.4</div></div><div class="stat"><div class="k">Bedrooms</div><div class="v">4</div></div><div class="stat"><div class="k">Bathrooms</div><div class="v">1</div></div><div class="stat"><div class="k">Living rooms</div><div class="v">1</div></div><div class="stat"><div class="k">EPC (current / potential)</div><div class="v">D / C</div></div><div class="stat"><div class="k">Nearest station</div><div class="v">New Barnet · 0.9 mi · ~19 min walk</div></div><div class="stat wide"><div class="k">Commute to Liverpool St</div><div class="v">49 min (Great Northern direct to Moorgate (26 min) + 4 min walk via integrated Elizabeth line concourse to Liverpool St)</div></div><div class="stat wide"><div class="k">Commute to King&#x27;s Cross</div><div class="v">38 min (Great Northern direct to King&#x27;s Cross St Pancras (19 min))</div></div></div>
+
+  <h3>Nice-to-haves</h3>
+  <div class="panel">
+    <table class="nice">
+      <thead><tr><th>Signal</th><th>Status</th><th>Detail</th></tr></thead>
+      <tbody><tr><td>Air conditioning</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned; UK EPCs do not record domestic cooling</td></tr><tr><td>Underfloor heating</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned in the listing or EPC</td></tr><tr><td>South-facing garden</td><td><span class="nh-status nh-photo_hint">photo-hint</span></td><td>Photos suggest south — confirm with a compass</td></tr><tr><td>Sun roof / lantern in living areas</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned and no overhead glazing seen in photos</td></tr><tr><td>Ground-floor bedroom</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>No ground-floor bedroom or convertible room mentioned</td></tr><tr><td>Wide living room</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Largest living area is 11.7 ft (Reception / Dining Room, floor-plan) — below the 15 ft mark</td></tr><tr><td>Home theatre potential</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>No cinema or media room mentioned, and no other room on the plan is large enough to be one</td></tr></tbody>
+    </table>
+  </div>
+
+<div class="panel"><h2>Photos — 20</h2><div class="slides" id="slides"><div class="slide-frame"><a id="slide-link" href="https://lid.zoocdn.com/u/1024/768/350a0dfa2c09f4999723f51084ce513f173199d0.jpg" rel="noopener"><img id="slide-img" src="https://lid.zoocdn.com/u/1024/768/350a0dfa2c09f4999723f51084ce513f173199d0.jpg" alt="Listing photo 1 of 20 — open full size" loading="lazy"></a><button type="button" class="slide-nav prev" id="slide-prev" aria-label="Previous photo">&#8249;</button><button type="button" class="slide-nav next" id="slide-next" aria-label="Next photo">&#8250;</button><span class="slide-badge"><span id="slide-n">1</span> / 20</span></div></div><p class="note" style="margin-top:8px">Arrow keys page through the gallery; click a photo to open it full size. These are the listing's own photographs, at the highest resolution its image host serves.</p></div>
+
+  <div class="layout">
+    <div class="panel sticky">
+      <h2>Where it is</h2>
+      <div id="map" style="height:330px;border-radius:8px"></div>
+      <p class="note" style="margin-top:10px">
+        Pin is the listing's own coordinates. Map tiles are OpenStreetMap.
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=51.643466,-0.183974" rel="noopener">Open in Google Maps →</a>
+        &middot; <a href="https://www.openstreetmap.org/?mlat=51.643466&amp;mlon=-0.183974#map=18/51.643466/-0.183974" rel="noopener">Open in OpenStreetMap →</a>
+        &middot; <a href="https://www.zoopla.co.uk/for-sale/details/72573635/" rel="noopener">Zoopla listing →</a>
+      </p>
+    </div>
+    <div class="panel">
+      <h2>Floorplan analysis</h2>
+      <a href="https://lid.zoocdn.com/u/1024/768/2543fbb6415c7c5344508ed01f9424522a19bea9.jpg" rel="noopener"><img class="plan" src="https://lid.zoocdn.com/u/1024/768/2543fbb6415c7c5344508ed01f9424522a19bea9.jpg" alt="Floor plan for Great North Road, New Barnet, Barnet EN5" loading="lazy"></a><p class="note">7 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are listed without one. <a href="https://lid.zoocdn.com/u/1024/768/2543fbb6415c7c5344508ed01f9424522a19bea9.jpg" rel="noopener">Open the full-size plan →</a></p><table class="nice compact"><thead><tr><th>Room</th><th>Type</th><th>Floor</th><th>Dimensions</th><th>Area</th></tr></thead><tbody><tr><td>Reception / Dining Room</td><td>living</td><td>ground</td><td class="num">23.8 &times; 11.7 ft</td><td class="num">278 sq ft</td></tr><tr><td>Kitchen</td><td>kitchen</td><td>ground</td><td class="num">13.2 &times; 7.2 ft</td><td class="num">95 sq ft</td></tr><tr><td>Garage</td><td>outbuilding</td><td>ground</td><td class="num">16.5 &times; 8.3 ft</td><td class="num">137 sq ft</td></tr><tr><td>Bedroom 1</td><td>bedroom</td><td>first</td><td class="num">14.8 &times; 11.2 ft</td><td class="num">166 sq ft</td></tr><tr><td>Bedroom 2</td><td>bedroom</td><td>first</td><td class="num">13.2 &times; 10.2 ft</td><td class="num">135 sq ft</td></tr><tr><td>Bedroom 3</td><td>bedroom</td><td>first</td><td class="num">9.2 &times; 7.2 ft</td><td class="num">66 sq ft</td></tr><tr><td>Bedroom 4</td><td>bedroom</td><td>first</td><td class="num">6.9 &times; 6.2 ft</td><td class="num">43 sq ft</td></tr></tbody></table>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-top:22px">
+    <h2>Score breakdown — 37.0/100</h2>
+    <div class="bar-row with-evidence"><span class="lbl">Location &amp; transport</span><span class="bar"><i style="width:47.5%;background:#a8322d"></i></span><span class="num">9.5</span><ul class="ticks compact"><li><span class="tick">✓</span>Nearest station High Barnet 16 min walk (0.76 mi routed walk) (+2)</li><li><span class="tick">✓</span>Walkable station High Barnet 16 min walk (+1.5)</li><li><span class="tick">✓</span>1 transit line within walk — Northern via High Barnet 16 min walk — broad Central London access (+1)</li><li><span class="tick">✓</span>Night Tube / 24h service at High Barnet (+1.5)</li><li><span class="tick">✓</span>Moderate Liverpool St commute: ~49 mins door-to-concourse via New Barnet (19m walk + 26m rail) (+1.5)</li><li><span class="tick">✓</span>King&#x27;s Cross St Pancras commute ~38 mins via New Barnet (+2)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Space, scale &amp; layout</span><span class="bar"><i style="width:20.0%;background:#a8322d"></i></span><span class="num">4.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Square footage taken from floor plan (image analysis)</li><li><span class="tick">✓</span>Compact floorplate: 1,046.0 sq ft total (262 sq ft/bed) (+2.5)</li><li><span class="tick">✓</span>Under-bathroomed (1 bath for 4 beds - morning bottlenecks likely) (+0.5)</li><li><span class="tick">✓</span>Ground floor guest WC present (+1)</li><li><span class="tick">✓</span>Living room width: 11.7 ft (below 15 ft)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Financial efficiency</span><span class="bar"><i style="width:53.3%;background:#a8322d"></i></span><span class="num">8.0</span><ul class="ticks compact"><li><span class="tick">✓</span>£731 per sq ft on 1,046 sq ft (+3.2 of 7.5)</li><li><span class="tick">✓</span>£765,000 asking price (+4.8 of 7.5)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Technical &amp; EPC</span><span class="bar"><i style="width:47.5%;background:#a8322d"></i></span><span class="num">9.5</span><ul class="ticks compact"><li><span class="tick">✓</span>EPC Band D (4.5) + no secondary heating (1) + insulated roof (2) (+7.5 of 10)</li><li><span class="tick">✓</span>EPC: pitched roof with accessible loft (pitched, 100 mm loft insulation) — scope for a simple loft extension (structural survey still required) (+2)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Observed presentation</span><span class="bar"><i style="width:40.0%;background:#a8322d"></i></span><span class="num">6.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Presented finish observed as partially modernised in listing photographs (image analysis) (+3 of 7)</li><li><span class="tick">✓</span>Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Garden &amp; outdoor</span><span class="bar"><i style="width:0.0%;background:#a8322d"></i></span><span class="num">0.0</span><p class="note compact">No evidence detected for this component — it scores on the absence of contrary findings.</p></div>
+    <p class="note">The combined score rewards location, space, financial efficiency,
+    technical specification, observed presentation, and garden quality. Every line
+    lists the evidence that earned it, so a component cannot be read as a verdict
+    without the reason attached.</p>
+  </div>
+
+  <h3>Land Registry</h3>
+  <div class="panel">
+    <p><strong>£145,000 on 1997-02-14<br><span class="note">First recorded sale: 1997-02-14</span></strong></p>
+    <p>£243/sq ft median (range £87–£591), from 11 of 15 local sales (73% priced). <span class="note">Floor area is borrowed from the EPC extract (epc_bulk total_floor_area) because sale records carry none; small samples are heavy-tailed, so the median is used and withheld below 5 priced sales.</span></p>
+    <p class="note">15 raw sale record(s) exist in this postcode. They are the neighbourhood's history, not this home's, and are deliberately not presented as its own.</p>
+    <p class="note">Scope <code>address</code> — sale history is only ever
+    attributed to this home when a house number was derived and matched.</p>
+  </div>
+
+  <h3>Planning</h3>
+  <div class="panel"><p class="note">1 planning record(s) matched this address:</p><ul class="ticks"><li><a href="https://publicaccess.barnet.gov.uk/online-applications/propertyDetails.do?activeTab=summary&amp;keyVal=NC1RET00DT002" rel="noopener">91 Great North Road Barnet EN5 1AT</a></li></ul></div>
+
+  <div style="margin-top:22px">
+    <div class="panel"><h2>Photographic evidence reviewed for the score</h2><p class="note">Points are awarded only for detected listing, EPC, or photographic evidence, and each component above lists what it found. Systems without such evidence score zero and are omitted rather than listed as inspection tasks. These notes record what the photos did and did not show.</p><ul class="ticks"><li>21 property photo(s) analysed by local vision model (Qwen3-VL)</li><li>Photographic-evidence score: 32.0/100 (medium confidence; condition 22/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 7/10)</li><li>Floor-plan total read from the plan: 1,046 sq ft</li><li>Condition tier inferred from photos: partially modernised</li><li>Not captured in the photos: bathrooms, extension evidence, garden aspect, kitchen, living room, roof (…)</li></ul></div>
+  </div>
+
+  
+
+  <details class="raw">
+    <summary>Raw review record (JSON)</summary>
+    <pre>{
+  &quot;asking_price&quot;: 765000,
+  &quot;bathrooms&quot;: 1,
+  &quot;bedrooms&quot;: 4,
+  &quot;combined_score&quot;: {
+    &quot;detected_features&quot;: [
+      &quot;Nearest station High Barnet 16 min walk (0.76 mi routed walk) (+2)&quot;,
+      &quot;Walkable station High Barnet 16 min walk (+1.5)&quot;,
+      &quot;1 transit line within walk \u2014 Northern via High Barnet 16 min walk \u2014 broad Central London access (+1)&quot;,
+      &quot;Night Tube / 24h service at High Barnet (+1.5)&quot;,
+      &quot;Moderate Liverpool St commute: ~49 mins door-to-concourse via New Barnet (19m walk + 26m rail) (+1.5)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~38 mins via New Barnet (+2)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Compact floorplate: 1,046.0 sq ft total (262 sq ft/bed) (+2.5)&quot;,
+      &quot;Under-bathroomed (1 bath for 4 beds - morning bottlenecks likely) (+0.5)&quot;,
+      &quot;Ground floor guest WC present (+1)&quot;,
+      &quot;Living room width: 11.7 ft (below 15 ft)&quot;,
+      &quot;\u00a3731 per sq ft on 1,046 sq ft (+3.2 of 7.5)&quot;,
+      &quot;\u00a3765,000 asking price (+4.8 of 7.5)&quot;,
+      &quot;EPC Band D (4.5) + no secondary heating (1) + insulated roof (2) (+7.5 of 10)&quot;,
+      &quot;EPC: pitched roof with accessible loft (pitched, 100 mm loft insulation) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;,
+      &quot;Presented finish observed as partially modernised in listing photographs (image analysis) (+3 of 7)&quot;,
+      &quot;Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)&quot;
+    ],
+    &quot;evidence&quot;: {
+      &quot;financial_efficiency&quot;: [
+        &quot;\u00a3731 per sq ft on 1,046 sq ft (+3.2 of 7.5)&quot;,
+        &quot;\u00a3765,000 asking price (+4.8 of 7.5)&quot;
+      ],
+      &quot;location_transport&quot;: [
+        &quot;Nearest station High Barnet 16 min walk (0.76 mi routed walk) (+2)&quot;,
+        &quot;Walkable station High Barnet 16 min walk (+1.5)&quot;,
+        &quot;1 transit line within walk \u2014 Northern via High Barnet 16 min walk \u2014 broad Central London access (+1)&quot;,
+        &quot;Night Tube / 24h service at High Barnet (+1.5)&quot;,
+        &quot;Moderate Liverpool St commute: ~49 mins door-to-concourse via New Barnet (19m walk + 26m rail) (+1.5)&quot;,
+        &quot;King&#x27;s Cross St Pancras commute ~38 mins via New Barnet (+2)&quot;
+      ],
+      &quot;observed_presentation&quot;: [
+        &quot;Presented finish observed as partially modernised in listing photographs (image analysis) (+3 of 7)&quot;,
+        &quot;Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)&quot;
+      ],
+      &quot;space_layout&quot;: [
+        &quot;Square footage taken from floor plan (image analysis)&quot;,
+        &quot;Compact floorplate: 1,046.0 sq ft total (262 sq ft/bed) (+2.5)&quot;,
+        &quot;Under-bathroomed (1 bath for 4 beds - morning bottlenecks likely) (+0.5)&quot;,
+        &quot;Ground floor guest WC present (+1)&quot;,
+        &quot;Living room width: 11.7 ft (below 15 ft)&quot;
+      ],
+      &quot;technical_epc&quot;: [
+        &quot;EPC Band D (4.5) + no secondary heating (1) + insulated roof (2) (+7.5 of 10)&quot;,
+        &quot;EPC: pitched roof with accessible loft (pitched, 100 mm loft insulation) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;
+      ]
+    },
+    &quot;financial_efficiency&quot;: 8.0,
+    &quot;garden_outdoor&quot;: 0.0,
+    &quot;location_transport&quot;: 9.5,
+    &quot;notes&quot;: [
+      &quot;Nearest station High Barnet 16 min walk (0.76 mi routed walk) (+2)&quot;,
+      &quot;Walkable station High Barnet 16 min walk (+1.5)&quot;,
+      &quot;1 transit line within walk \u2014 Northern via High Barnet 16 min walk \u2014 broad Central London access (+1)&quot;,
+      &quot;Night Tube / 24h service at High Barnet (+1.5)&quot;,
+      &quot;Moderate Liverpool St commute: ~49 mins door-to-concourse via New Barnet (19m walk + 26m rail) (+1.5)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~38 mins via New Barnet (+2)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Compact floorplate: 1,046.0 sq ft total (262 sq ft/bed) (+2.5)&quot;,
+      &quot;Under-bathroomed (1 bath for 4 beds - morning bottlenecks likely) (+0.5)&quot;,
+      &quot;Ground floor guest WC present (+1)&quot;,
+      &quot;EPC Band D&quot;
+    ],
+    &quot;observed_presentation&quot;: 6.0,
+    &quot;space_layout&quot;: 4.0,
+    &quot;tags&quot;: [],
+    &quot;technical_epc&quot;: 9.5,
+    &quot;total_score&quot;: 37.0,
+    &quot;vision_facts&quot;: [
+      &quot;21 property photo(s) analysed by local vision model (Qwen3-VL)&quot;,
+      &quot;Photographic-evidence score: 32.0/100 (medium confidence; condition 22/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 7/10)&quot;,
+      &quot;Floor-plan total read from the plan: 1,046 sq ft&quot;,
+      &quot;Condition tier inferred from photos: partially modernised&quot;,
+      &quot;Not captured in the photos: bathrooms, extension evidence, garden aspect, kitchen, living room, roof (\u2026)&quot;
+    ]
+  },
+  &quot;data_gaps&quot;: [],
+  &quot;epc_potential&quot;: &quot;C&quot;,
+  &quot;epc_rating&quot;: &quot;D&quot;,
+  &quot;floorplan_image_url&quot;: &quot;https://lid.zoocdn.com/u/1024/768/2543fbb6415c7c5344508ed01f9424522a19bea9.jpg&quot;,
+  &quot;floorplan_rooms&quot;: [
+    {
+      &quot;area_sq_ft&quot;: 278,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;living&quot;,
+      &quot;label&quot;: &quot;Reception / Dining Room&quot;,
+      &quot;length_ft&quot;: 23.8,
+      &quot;width_ft&quot;: 11.7
+    },
+    {
+      &quot;area_sq_ft&quot;: 95,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;kitchen&quot;,
+      &quot;label&quot;: &quot;Kitchen&quot;,
+      &quot;length_ft&quot;: 13.2,
+      &quot;width_ft&quot;: 7.2
+    },
+    {
+      &quot;area_sq_ft&quot;: 137,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;outbuilding&quot;,
+      &quot;label&quot;: &quot;Garage&quot;,
+      &quot;length_ft&quot;: 16.5,
+      &quot;width_ft&quot;: 8.3
+    },
+    {
+      &quot;area_sq_ft&quot;: 166,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 1&quot;,
+      &quot;length_ft&quot;: 14.8,
+      &quot;width_ft&quot;: 11.2
+    },
+    {
+      &quot;area_sq_ft&quot;: 135,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 2&quot;,
+      &quot;length_ft&quot;: 13.2,
+      &quot;width_ft&quot;: 10.2
+    },
+    {
+      &quot;area_sq_ft&quot;: 66,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 3&quot;,
+      &quot;length_ft&quot;: 9.2,
+      &quot;width_ft&quot;: 7.2
+    },
+    {
+      &quot;area_sq_ft&quot;: 43,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 4&quot;,
+      &quot;length_ft&quot;: 6.9,
+      &quot;width_ft&quot;: 6.2
+    }
+  ],
+  &quot;full_address&quot;: &quot;Great North Road, New Barnet, Barnet EN5&quot;,
+  &quot;kings_cross_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Fast (35-45m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 19,
+    &quot;route_summary&quot;: &quot;Great Northern direct to King&#x27;s Cross St Pancras (19 min)&quot;,
+    &quot;secondary_route&quot;: &quot;High Barnet (0.759 mi, ~16m walk) \u2794 London Underground (Northern line - Bank branch) (32m rail) = ~48m total&quot;,
+    &quot;station_distance_miles&quot;: 0.921,
+    &quot;station_name&quot;: &quot;New Barnet&quot;,
+    &quot;total_commute_minutes&quot;: 38,
+    &quot;transfer_minutes&quot;: 0,
+    &quot;transit_line&quot;: &quot;Great Northern (National Rail)&quot;,
+    &quot;walk_time_minutes&quot;: 19
+  },
+  &quot;land_registry_summary&quot;: {
+    &quot;_cache&quot;: true,
+    &quot;area_benchmark&quot;: {
+      &quot;area_source&quot;: &quot;epc_bulk total_floor_area&quot;,
+      &quot;coverage_pct&quot;: 73,
+      &quot;high_gbp_sqft&quot;: 591,
+      &quot;low_gbp_sqft&quot;: 87,
+      &quot;median_gbp_sqft&quot;: 243,
+      &quot;of_sales&quot;: 15,
+      &quot;sample&quot;: 11
+    },
+    &quot;first_sale_date&quot;: &quot;1997-02-14&quot;,
+    &quot;last_sale_date&quot;: &quot;1997-02-14&quot;,
+    &quot;last_sale_price&quot;: 145000,
+    &quot;number_known&quot;: true,
+    &quot;postcode_sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1997-02-14&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;95&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AT&quot;,
+        &quot;price&quot;: 123000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GREAT NORTH ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;C0B2F7E9-346F-4DEE-B2CC-E0F4DB5D958C&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1997-02-14&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;91&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AT&quot;,
+        &quot;price&quot;: 145000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GREAT NORTH ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;B15E57D2-7C22-4E19-8FCA-64FB38FA60F2&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2001-08-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;103&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AT&quot;,
+        &quot;price&quot;: 250000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GREAT NORTH ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;BDC0D13C-074C-4C54-A7C7-1F4A6F8202AE&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2001-11-07&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;97&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AT&quot;,
+        &quot;price&quot;: 235000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GREAT NORTH ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;EBDEC917-71F7-4410-BFFC-EF508213F864&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2002-03-27&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;89&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AT&quot;,
+        &quot;price&quot;: 286000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GREAT NORTH ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;586CA1EB-1F0E-42C2-822F-7D0F784DC52C&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2003-05-12&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;103&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AT&quot;,
+        &quot;price&quot;: 321000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GREAT NORTH ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;2B4878CD-00E2-4ADB-A28B-C3561D336EAB&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2007-12-10&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;107&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AT&quot;,
+        &quot;price&quot;: 499950,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GREAT NORTH ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;67DD4571-4BD9-47D9-9D1F-443FC9949B79&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2009-03-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;99&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AT&quot;,
+        &quot;price&quot;: 345000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GREAT NORTH ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;5F2FB592-9CFA-4631-97F5-CDEFE474F7F6&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2010-02-04&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;89&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AT&quot;,
+        &quot;price&quot;: 345000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GREAT NORTH ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;6D96DF78-5ECD-410F-97DF-4BFDE4411B3E&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-09-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;107&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AT&quot;,
+        &quot;price&quot;: 830000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GREAT NORTH ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;404A5AF3-C550-CD2B-E050-A8C063055C7B&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2020-09-02&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;105&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AT&quot;,
+        &quot;price&quot;: 595000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GREAT NORTH ROAD&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;B32EBB13-BBA3-3C99-E053-6C04A8C09CA1&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Additional price paid transaction&quot;,
+        &quot;date&quot;: &quot;2023-04-14&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;97&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AT&quot;,
+        &quot;price&quot;: 655000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GREAT NORTH ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;FD226036-0D09-4CB7-E053-4804A8C00430&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2024-05-24&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;95&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AT&quot;,
+        &quot;price&quot;: 840000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GREAT NORTH ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;1A0C5C63-8188-7CBE-E063-4804A8C06C96&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2024-10-18&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;101&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AT&quot;,
+        &quot;price&quot;: 669550,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GREAT NORTH ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;3B5CE842-01BA-EE3A-E063-4804A8C0D6F1&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2024-12-13&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;93&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AT&quot;,
+        &quot;price&quot;: 825000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GREAT NORTH ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;44F406B6-ABE3-1095-E063-4704A8C048D4&quot;
+      }
+    ],
+    &quot;sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1997-02-14&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;91&quot;,
+        &quot;postcode&quot;: &quot;EN5 1AT&quot;,
+        &quot;price&quot;: 145000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;GREAT NORTH ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;B15E57D2-7C22-4E19-8FCA-64FB38FA60F2&quot;
+      }
+    ],
+    &quot;scope&quot;: &quot;address&quot;,
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;latitude&quot;: 51.643466,
+  &quot;liverpool_st_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Moderate (45-55m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 26,
+    &quot;route_summary&quot;: &quot;Great Northern direct to Moorgate (26 min) + 4 min walk via integrated Elizabeth line concourse to Liverpool St&quot;,
+    &quot;secondary_route&quot;: &quot;High Barnet (0.759 mi, ~16m walk) \u2794 London Underground (Northern line - Bank branch) (36m rail) = ~56m total&quot;,
+    &quot;station_distance_miles&quot;: 0.921,
+    &quot;station_name&quot;: &quot;New Barnet&quot;,
+    &quot;total_commute_minutes&quot;: 49,
+    &quot;transfer_minutes&quot;: 4,
+    &quot;transit_line&quot;: &quot;Great Northern (National Rail)&quot;,
+    &quot;walk_time_minutes&quot;: 19
+  },
+  &quot;living_rooms&quot;: 1,
+  &quot;longitude&quot;: -0.183974,
+  &quot;nearest_station&quot;: &quot;New Barnet&quot;,
+  &quot;nice_to_haves&quot;: [
+    {
+      &quot;detail&quot;: &quot;Not mentioned; UK EPCs do not record domestic cooling&quot;,
+      &quot;label&quot;: &quot;Air conditioning&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned in the listing or EPC&quot;,
+      &quot;label&quot;: &quot;Underfloor heating&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Photos suggest south \u2014 confirm with a compass&quot;,
+      &quot;label&quot;: &quot;South-facing garden&quot;,
+      &quot;status&quot;: &quot;photo-hint&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned and no overhead glazing seen in photos&quot;,
+      &quot;label&quot;: &quot;Sun roof / lantern in living areas&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;No ground-floor bedroom or convertible room mentioned&quot;,
+      &quot;label&quot;: &quot;Ground-floor bedroom&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Largest living area is 11.7 ft (Reception / Dining Room, floor-plan) \u2014 below the 15 ft mark&quot;,
+      &quot;label&quot;: &quot;Wide living room&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;No cinema or media room mentioned, and no other room on the plan is large enough to be one&quot;,
+      &quot;label&quot;: &quot;Home theatre potential&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    }
+  ],
+  &quot;overall_verdict&quot;: &quot;Secondary Assessment Needed: Low scores across multiple dimensions.&quot;,
+  &quot;planning_summary&quot;: {
+    &quot;_cache&quot;: true,
+    &quot;applications&quot;: [],
+    &quot;properties&quot;: [
+      {
+        &quot;key&quot;: &quot;NC1RET00DT002&quot;,
+        &quot;text&quot;: &quot;91 Great North Road Barnet EN5 1AT&quot;,
+        &quot;url&quot;: &quot;https://publicaccess.barnet.gov.uk/online-applications/propertyDetails.do?activeTab=summary&amp;keyVal=NC1RET00DT002&quot;
+      }
+    ],
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;price_display&quot;: &quot;\u00a3765,000&quot;,
+  &quot;price_per_sq_ft&quot;: 731.4,
+  &quot;property_id&quot;: &quot;72573635&quot;,
+  &quot;property_images&quot;: [
+    &quot;https://lid.zoocdn.com/u/1024/768/350a0dfa2c09f4999723f51084ce513f173199d0.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/21e10f41949de4dbb3271d2664fa0926c23ba1fb.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/c0db346c86ff8b96fe8bdb95dabcac246d3970bf.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/d6c115ae1c63d5336fffcb21818d3ea98fcc56dd.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/46d35e03493c65b8a734c80da366939335b098cb.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/8ceb346b8ad6e4e2011cc8c6ca3938b63b9ba2cd.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/1f1631b5d030d9722751c4b65d7bf255915afdb7.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/2ff9e2ae4b0b7080e9d0ecdd6d4c55f6fdc3f373.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/8eb507d1e82747c97185ba430f769c1f467bff5c.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/c5d68e7429dd0e4fa9bcdf2fdf61175c73b969d1.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/23260658e085af98c5172066f980670673106937.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/7f42e0bfd9770772211ebd01033abe3ca520592f.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/b6a9e2a4305665914f04dceef5e21cdbe3502ef6.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/b293ab0ca7c8d15230cc06961814ff96af830ae9.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/86c9f3c42d537ca45723916369cebf899746a6fd.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/b41b9d061715402e383730c861eb7953580ecbc6.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/a1276ff121ae02ee4f521c11e856b5c3177ea272.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/1542dbef9cd00fd6b660f0433290517a8ae2fc5f.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/498baed7665f1ea0f3e70c219b31ef89ad4eb13e.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/4f9af4848924f32c62c757e127c07aecf28c2651.jpg&quot;
+  ],
+  &quot;property_type&quot;: &quot;4 bed semi-detached house for sale&quot;,
+  &quot;size_sq_ft&quot;: 1046.0,
+  &quot;size_sq_m&quot;: 97.2,
+  &quot;station_distance_miles&quot;: 0.92,
+  &quot;station_distance_source&quot;: &quot;routed&quot;,
+  &quot;tenure&quot;: &quot;Freehold&quot;,
+  &quot;walk_time_minutes&quot;: 19
+}</pre>
+  </details>
+
+  <div class="foot"><div><a href="clifford-road-barnet-en5.html">← Clifford Road</a></div><div><a href="crescent-road-barnet-en4.html">→ Crescent Road</a></div></div>
+
+  <p class="note" style="margin-top:26px">Generated 2026-10-01 from
+  <code>reviews/property_reviews.json</code>. Map data &copy;
+  <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</p>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
+<script>window.__PINS__ = [{"id": "72573635", "lat": 51.643466, "lon": -0.183974, "addr": "Great North Road", "price": "\u00a3765,000", "sqft": "1,046", "epc": "D", "score": 37.0, "colour": "#a8322d", "tags": [], "tag_html": "", "href": "#"}];</script>
+<script>window.__SLIDES__ = ["https://lid.zoocdn.com/u/1024/768/350a0dfa2c09f4999723f51084ce513f173199d0.jpg", "https://lid.zoocdn.com/u/1024/768/21e10f41949de4dbb3271d2664fa0926c23ba1fb.jpg", "https://lid.zoocdn.com/u/1024/768/c0db346c86ff8b96fe8bdb95dabcac246d3970bf.jpg", "https://lid.zoocdn.com/u/1024/768/d6c115ae1c63d5336fffcb21818d3ea98fcc56dd.jpg", "https://lid.zoocdn.com/u/1024/768/46d35e03493c65b8a734c80da366939335b098cb.jpg", "https://lid.zoocdn.com/u/1024/768/8ceb346b8ad6e4e2011cc8c6ca3938b63b9ba2cd.jpg", "https://lid.zoocdn.com/u/1024/768/1f1631b5d030d9722751c4b65d7bf255915afdb7.jpg", "https://lid.zoocdn.com/u/1024/768/2ff9e2ae4b0b7080e9d0ecdd6d4c55f6fdc3f373.jpg", "https://lid.zoocdn.com/u/1024/768/8eb507d1e82747c97185ba430f769c1f467bff5c.jpg", "https://lid.zoocdn.com/u/1024/768/c5d68e7429dd0e4fa9bcdf2fdf61175c73b969d1.jpg", "https://lid.zoocdn.com/u/1024/768/23260658e085af98c5172066f980670673106937.jpg", "https://lid.zoocdn.com/u/1024/768/7f42e0bfd9770772211ebd01033abe3ca520592f.jpg", "https://lid.zoocdn.com/u/1024/768/b6a9e2a4305665914f04dceef5e21cdbe3502ef6.jpg", "https://lid.zoocdn.com/u/1024/768/b293ab0ca7c8d15230cc06961814ff96af830ae9.jpg", "https://lid.zoocdn.com/u/1024/768/86c9f3c42d537ca45723916369cebf899746a6fd.jpg", "https://lid.zoocdn.com/u/1024/768/b41b9d061715402e383730c861eb7953580ecbc6.jpg", "https://lid.zoocdn.com/u/1024/768/a1276ff121ae02ee4f521c11e856b5c3177ea272.jpg", "https://lid.zoocdn.com/u/1024/768/1542dbef9cd00fd6b660f0433290517a8ae2fc5f.jpg", "https://lid.zoocdn.com/u/1024/768/498baed7665f1ea0f3e70c219b31ef89ad4eb13e.jpg", "https://lid.zoocdn.com/u/1024/768/4f9af4848924f32c62c757e127c07aecf28c2651.jpg"];</script>
+<script>
+(function () {
+  var el = document.getElementById('map');
+  if (!el || typeof L === 'undefined') { return; }
+  var data = window.__PINS__ || [];
+  if (!data.length || data[0].lat === null) { el.style.display = 'none'; return; }
+  var map = L.map('map', { scrollWheelZoom: false, dragging: false,
+                           doubleClickZoom: false, boxZoom: false,
+                           keyboard: false, zoomControl: false });
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  var group = L.featureGroup().addTo(map);
+  data.forEach(function (p) {
+    if (p.lat === null) { return; }
+    L.circleMarker([p.lat, p.lon], { radius: 10, color: '#ffffff', weight: 3,
+                                     fillColor: p.colour, fillOpacity: 0.95 }).addTo(group);
+  });
+  if (group.getBounds().isValid()) { map.fitBounds(group.getBounds().pad(0.35)); }
+  L.control.attribution({ prefix: false }).addTo(map);
+})();
+</script>
+<script>
+(function () {
+  var shots = window.__SLIDES__ || [];
+  var img = document.getElementById('slide-img');
+  var link = document.getElementById('slide-link');
+  var prev = document.getElementById('slide-prev');
+  var next = document.getElementById('slide-next');
+  var num = document.getElementById('slide-n');
+  if (!img || !link || shots.length < 2) {
+    if (prev) { prev.disabled = true; }
+    if (next) { next.disabled = true; }
+    return;
+  }
+  var at = 0;
+
+  function show(i) {
+    at = (i + shots.length) % shots.length;
+    img.src = shots[at];
+    img.alt = 'Listing photo ' + (at + 1) + ' of ' + shots.length +
+              ' — open full size';
+    link.href = shots[at];
+    if (num) { num.textContent = String(at + 1); }
+  }
+
+  // Only the neighbours are warmed: a 34-photo listing at 136 KB each is
+  // 4.6 MB if the whole gallery is fetched up front, for images the reader may
+  // never scroll to.
+  function warm() {
+    [at + 1, at - 1].forEach(function (k) {
+      var j = (k + shots.length) % shots.length;
+      if (j !== at) { new Image().src = shots[j]; }
+    });
+  }
+
+  prev.addEventListener('click', function () { show(at - 1); warm(); });
+  next.addEventListener('click', function () { show(at + 1); warm(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) { return; }
+    if (e.key === 'ArrowLeft') { show(at - 1); warm(); }
+    if (e.key === 'ArrowRight') { show(at + 1); warm(); }
+  });
+  show(0);
+  warm();
+})();
+</script>
+</body></html>

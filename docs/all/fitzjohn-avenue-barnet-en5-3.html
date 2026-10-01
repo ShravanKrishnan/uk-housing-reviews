@@ -1,0 +1,941 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fitzjohn Avenue — review</title>
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <h1>Fitzjohn Avenue</h1>
+  <p class="sub">Fitzjohn Avenue, Barnet EN5</p>
+  <nav class="crumbs"><a href="../index.html">← Back to the map</a> &middot;
+  <a href="../index.html#all-rank-89">Rank #89 of All properties</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="panel">
+    <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between">
+      <div>
+        <span class="pill" style="background:#a8322d">42.6 Score</span>
+        
+      </div>
+      <div style="font-size:13px;color:var(--muted)">
+        89 of 164 &middot; score 42.6
+      </div>
+    </div>
+    <div class="verdict">Proceed with Caution: Moderate scores, verify key items during survey.</div>
+  </div>
+
+  <h3>At a glance</h3>
+  <div class="grid"><div class="stat"><div class="k">Asking price</div><div class="v">£900,000</div></div><div class="stat"><div class="k">Property type</div><div class="v">4 bed detached house for sale</div></div><div class="stat"><div class="k">Tenure</div><div class="v">Freehold</div></div><div class="stat"><div class="k">Size</div><div class="v">1,432 sq ft / 133 m²</div></div><div class="stat"><div class="k">Price per sq ft</div><div class="v">£628.5</div></div><div class="stat"><div class="k">Bedrooms</div><div class="v">4</div></div><div class="stat"><div class="k">Bathrooms</div><div class="v">2</div></div><div class="stat"><div class="k">Living rooms</div><div class="v">2</div></div><div class="stat"><div class="k">EPC (current / potential)</div><div class="v">D / C</div></div><div class="stat"><div class="k">Nearest station</div><div class="v">High Barnet · 0.5 mi · ~10 min walk</div></div><div class="stat wide"><div class="k">Commute to Liverpool St</div><div class="v">51 min (Northern line (Bank branch) direct to Moorgate (36 min) + 4 min Elizabeth line link to Liverpool St)</div></div><div class="stat wide"><div class="k">Commute to King&#x27;s Cross</div><div class="v">43 min (Northern line direct to King&#x27;s Cross St Pancras (32 min))</div></div></div>
+
+  <h3>Nice-to-haves</h3>
+  <div class="panel">
+    <table class="nice">
+      <thead><tr><th>Signal</th><th>Status</th><th>Detail</th></tr></thead>
+      <tbody><tr><td>Air conditioning</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned; UK EPCs do not record domestic cooling</td></tr><tr><td>Underfloor heating</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned in the listing or EPC</td></tr><tr><td>South-facing garden</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>No aspect stated in the listing, floor-plan or photos</td></tr><tr><td>Sun roof / lantern in living areas</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned and no overhead glazing seen in photos</td></tr><tr><td>Ground-floor bedroom</td><td><span class="nh-status nh-stated">stated</span></td><td>No ground-floor bedroom stated, but a convertible study is mentioned</td></tr><tr><td>Wide living room</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Largest living area is 11.7 ft (Lounge/Reception, floor-plan) — below the 15 ft mark</td></tr><tr><td>Home theatre potential</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>No cinema or media room mentioned, and no other room on the plan is large enough to be one</td></tr></tbody>
+    </table>
+  </div>
+
+<div class="panel"><h2>Photos — 20</h2><div class="slides" id="slides"><div class="slide-frame"><a id="slide-link" href="https://lid.zoocdn.com/u/1024/768/53a8ab65ee227a04898d26ac7b29bddbba998af2.jpg" rel="noopener"><img id="slide-img" src="https://lid.zoocdn.com/u/1024/768/53a8ab65ee227a04898d26ac7b29bddbba998af2.jpg" alt="Listing photo 1 of 20 — open full size" loading="lazy"></a><button type="button" class="slide-nav prev" id="slide-prev" aria-label="Previous photo">&#8249;</button><button type="button" class="slide-nav next" id="slide-next" aria-label="Next photo">&#8250;</button><span class="slide-badge"><span id="slide-n">1</span> / 20</span></div></div><p class="note" style="margin-top:8px">Arrow keys page through the gallery; click a photo to open it full size. These are the listing's own photographs, at the highest resolution its image host serves.</p></div>
+
+  <div class="layout">
+    <div class="panel sticky">
+      <h2>Where it is</h2>
+      <div id="map" style="height:330px;border-radius:8px"></div>
+      <p class="note" style="margin-top:10px">
+        Pin is the listing's own coordinates. Map tiles are OpenStreetMap.
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=51.649024,-0.201725" rel="noopener">Open in Google Maps →</a>
+        &middot; <a href="https://www.openstreetmap.org/?mlat=51.649024&amp;mlon=-0.201725#map=18/51.649024/-0.201725" rel="noopener">Open in OpenStreetMap →</a>
+        &middot; <a href="https://www.zoopla.co.uk/for-sale/details/73888092/" rel="noopener">Zoopla listing →</a>
+      </p>
+    </div>
+    <div class="panel">
+      <h2>Floorplan analysis</h2>
+      <a href="https://lid.zoocdn.com/u/1024/768/15af060e85cb700c700ae305ed5aec8f7ba16995.jpg" rel="noopener"><img class="plan" src="https://lid.zoocdn.com/u/1024/768/15af060e85cb700c700ae305ed5aec8f7ba16995.jpg" alt="Floor plan for Fitzjohn Avenue, Barnet EN5" loading="lazy"></a><p class="note">12 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are listed without one. <a href="https://lid.zoocdn.com/u/1024/768/15af060e85cb700c700ae305ed5aec8f7ba16995.jpg" rel="noopener">Open the full-size plan →</a></p><table class="nice compact"><thead><tr><th>Room</th><th>Type</th><th>Floor</th><th>Dimensions</th><th>Area</th></tr></thead><tbody><tr><td>Kitchen/Breakfast Room</td><td>kitchen</td><td>ground</td><td class="num">16 &times; 7.8 ft</td><td class="num">125 sq ft</td></tr><tr><td>Lounge/Reception</td><td>living</td><td>ground</td><td class="num">19.9 &times; 11.7 ft</td><td class="num">233 sq ft</td></tr><tr><td>Shower Room/Downstairs En Suite</td><td>bathroom</td><td>ground</td><td class="num">7.6 &times; 6.4 ft</td><td class="num">49 sq ft</td></tr><tr><td>Study/Potential Bedroom</td><td>study</td><td>ground</td><td class="num">11.8 &times; 7.7 ft</td><td class="num">91 sq ft</td></tr><tr><td>Utility/Cloakroom</td><td>utility</td><td>ground</td><td class="num">not printed</td><td class="num">—</td></tr><tr><td>Guest Cloakroom</td><td>bathroom</td><td>ground</td><td class="num">5.2 &times; 4.2 ft</td><td class="num">22 sq ft</td></tr><tr><td>Entrance Porch</td><td>circulation</td><td>ground</td><td class="num">not printed</td><td class="num">—</td></tr><tr><td>Bedroom One</td><td>bedroom</td><td>first</td><td class="num">15.8 &times; 11.7 ft</td><td class="num">185 sq ft</td></tr><tr><td>Bedroom Two</td><td>bedroom</td><td>first</td><td class="num">19.1 &times; 7.9 ft</td><td class="num">151 sq ft</td></tr><tr><td>Family Bathroom</td><td>bathroom</td><td>first</td><td class="num">8.2 &times; 7.8 ft</td><td class="num">64 sq ft</td></tr><tr><td>Bedroom Three</td><td>bedroom</td><td>first</td><td class="num">10.1 &times; 8.4 ft</td><td class="num">85 sq ft</td></tr><tr><td>Bedroom Four</td><td>bedroom</td><td>first</td><td class="num">9.4 &times; 8.5 ft</td><td class="num">80 sq ft</td></tr></tbody></table>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-top:22px">
+    <h2>Score breakdown — 42.6/100</h2>
+    <div class="bar-row with-evidence"><span class="lbl">Location &amp; transport</span><span class="bar"><i style="width:52.5%;background:#a8322d"></i></span><span class="num">10.5</span><ul class="ticks compact"><li><span class="tick">✓</span>Nearest station High Barnet 11 min walk (0.50 mi routed walk) (+4)</li><li><span class="tick">✓</span>Walkable station High Barnet 11 min walk (+1.5)</li><li><span class="tick">✓</span>1 transit line within walk — Northern via High Barnet 11 min walk — broad Central London access (+1)</li><li><span class="tick">✓</span>Night Tube / 24h service at High Barnet (+1.5)</li><li><span class="tick">✓</span>Moderate Liverpool St commute: ~51 mins door-to-concourse via High Barnet (11m walk + 36m rail) (+1.5)</li><li><span class="tick">✓</span>King&#x27;s Cross St Pancras commute ~43 mins via High Barnet (+1)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Space, scale &amp; layout</span><span class="bar"><i style="width:45.0%;background:#a8322d"></i></span><span class="num">9.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Square footage taken from floor plan (image analysis)</li><li><span class="tick">✓</span>Standard room sizing: 1,432.0 sq ft total (358 sq ft/bed) (+4)</li><li><span class="tick">✓</span>Well balanced bathroom ratio (2 baths for 4 beds) (+2)</li><li><span class="tick">✓</span>Two or more reception rooms (2) (+1)</li><li><span class="tick">✓</span>Dedicated utility room present (+1)</li><li><span class="tick">✓</span>Ground floor guest WC present (+1)</li><li><span class="tick">✓</span>Living room width: 11.7 ft (below 15 ft)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Financial efficiency</span><span class="bar"><i style="width:54.0%;background:#a8322d"></i></span><span class="num">8.1</span><ul class="ticks compact"><li><span class="tick">✓</span>£628 per sq ft on 1,432 sq ft (+3.8 of 7.5)</li><li><span class="tick">✓</span>£900,000 asking price (+4.3 of 7.5)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Technical &amp; EPC</span><span class="bar"><i style="width:60.0%;background:#a8322d"></i></span><span class="num">12.0</span><ul class="ticks compact"><li><span class="tick">✓</span>EPC Band D (4.5) + no secondary heating (1) + wall insulation (3) + insulated roof (2) + double glazing (1) (+10 of 10)</li><li><span class="tick">✓</span>EPC: pitched roof with accessible loft (pitched, 50 mm loft insulation) — scope for a simple loft extension (structural survey still required) (+2)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Observed presentation</span><span class="bar"><i style="width:0.0%;background:#a8322d"></i></span><span class="num">0.0</span><p class="note compact">No evidence detected for this component — it scores on the absence of contrary findings.</p></div><div class="bar-row with-evidence"><span class="lbl">Garden &amp; outdoor</span><span class="bar"><i style="width:30.0%;background:#a8322d"></i></span><span class="num">3.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Side access present (+3)</li></ul></div>
+    <p class="note">The combined score rewards location, space, financial efficiency,
+    technical specification, observed presentation, and garden quality. Every line
+    lists the evidence that earned it, so a component cannot be read as a verdict
+    without the reason attached.</p>
+  </div>
+
+  <h3>Land Registry</h3>
+  <div class="panel">
+    <p><strong>No sale attributed to this address — a house number is known, but no Land Registry record matches it, i.e. the house has not transacted.</strong></p>
+    <p>£514/sq ft median (range £117–£747), from 12 of 35 local sales (34% priced). <span class="note">Floor area is borrowed from the EPC extract (epc_bulk total_floor_area) because sale records carry none; small samples are heavy-tailed, so the median is used and withheld below 5 priced sales.</span></p>
+    <p class="note">35 raw sale record(s) exist in this postcode. They are the neighbourhood's history, not this home's, and are deliberately not presented as its own.</p>
+    <p class="note">Scope <code>address_no_sale</code> — sale history is only ever
+    attributed to this home when a house number was derived and matched.</p>
+  </div>
+
+  <h3>Planning</h3>
+  <div class="panel"><p class="note">Planning lookup status: <code>error</code>. No planning history is asserted for this property.</p></div>
+
+  <div style="margin-top:22px">
+    <div class="panel"><h2>Photographic evidence reviewed for the score</h2><p class="note">Points are awarded only for detected listing, EPC, or photographic evidence, and each component above lists what it found. Systems without such evidence score zero and are omitted rather than listed as inspection tasks. These notes record what the photos did and did not show.</p><ul class="ticks"><li>21 property photo(s) analysed by local vision model (Qwen3-VL)</li><li>Photographic-evidence score: 11.0/100 (high confidence; condition 5/35, kitchen/bath 0/20, glazing 0/20, structure 0/15, legibility 6/10)</li><li>Floor-plan internal area read from the plan: 1,432 sq ft (scoring measure)</li><li>Condition tier inferred from photos: raw</li><li>Not captured in the photos: bathroom, extension evidence, garden aspect, glazing types, kitchen, layout (…)</li></ul></div>
+  </div>
+
+  <div class="gaps"><strong>What is not verified here</strong><ul><li>No Land Registry sale recorded for this address in the price-paid window — the house has not transacted, so there is no comparable sale history</li><li>Enrichment fetch failed: planning</li></ul></div>
+
+  <details class="raw">
+    <summary>Raw review record (JSON)</summary>
+    <pre>{
+  &quot;asking_price&quot;: 900000,
+  &quot;bathrooms&quot;: 2,
+  &quot;bedrooms&quot;: 4,
+  &quot;combined_score&quot;: {
+    &quot;detected_features&quot;: [
+      &quot;Nearest station High Barnet 11 min walk (0.50 mi routed walk) (+4)&quot;,
+      &quot;Walkable station High Barnet 11 min walk (+1.5)&quot;,
+      &quot;1 transit line within walk \u2014 Northern via High Barnet 11 min walk \u2014 broad Central London access (+1)&quot;,
+      &quot;Night Tube / 24h service at High Barnet (+1.5)&quot;,
+      &quot;Moderate Liverpool St commute: ~51 mins door-to-concourse via High Barnet (11m walk + 36m rail) (+1.5)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~43 mins via High Barnet (+1)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Standard room sizing: 1,432.0 sq ft total (358 sq ft/bed) (+4)&quot;,
+      &quot;Well balanced bathroom ratio (2 baths for 4 beds) (+2)&quot;,
+      &quot;Two or more reception rooms (2) (+1)&quot;,
+      &quot;Dedicated utility room present (+1)&quot;,
+      &quot;Ground floor guest WC present (+1)&quot;,
+      &quot;Living room width: 11.7 ft (below 15 ft)&quot;,
+      &quot;\u00a3628 per sq ft on 1,432 sq ft (+3.8 of 7.5)&quot;,
+      &quot;\u00a3900,000 asking price (+4.3 of 7.5)&quot;,
+      &quot;EPC Band D (4.5) + no secondary heating (1) + wall insulation (3) + insulated roof (2) + double glazing (1) (+10 of 10)&quot;,
+      &quot;EPC: pitched roof with accessible loft (pitched, 50 mm loft insulation) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;,
+      &quot;Side access present (+3)&quot;
+    ],
+    &quot;evidence&quot;: {
+      &quot;financial_efficiency&quot;: [
+        &quot;\u00a3628 per sq ft on 1,432 sq ft (+3.8 of 7.5)&quot;,
+        &quot;\u00a3900,000 asking price (+4.3 of 7.5)&quot;
+      ],
+      &quot;garden_outdoor&quot;: [
+        &quot;Side access present (+3)&quot;
+      ],
+      &quot;location_transport&quot;: [
+        &quot;Nearest station High Barnet 11 min walk (0.50 mi routed walk) (+4)&quot;,
+        &quot;Walkable station High Barnet 11 min walk (+1.5)&quot;,
+        &quot;1 transit line within walk \u2014 Northern via High Barnet 11 min walk \u2014 broad Central London access (+1)&quot;,
+        &quot;Night Tube / 24h service at High Barnet (+1.5)&quot;,
+        &quot;Moderate Liverpool St commute: ~51 mins door-to-concourse via High Barnet (11m walk + 36m rail) (+1.5)&quot;,
+        &quot;King&#x27;s Cross St Pancras commute ~43 mins via High Barnet (+1)&quot;
+      ],
+      &quot;space_layout&quot;: [
+        &quot;Square footage taken from floor plan (image analysis)&quot;,
+        &quot;Standard room sizing: 1,432.0 sq ft total (358 sq ft/bed) (+4)&quot;,
+        &quot;Well balanced bathroom ratio (2 baths for 4 beds) (+2)&quot;,
+        &quot;Two or more reception rooms (2) (+1)&quot;,
+        &quot;Dedicated utility room present (+1)&quot;,
+        &quot;Ground floor guest WC present (+1)&quot;,
+        &quot;Living room width: 11.7 ft (below 15 ft)&quot;
+      ],
+      &quot;technical_epc&quot;: [
+        &quot;EPC Band D (4.5) + no secondary heating (1) + wall insulation (3) + insulated roof (2) + double glazing (1) (+10 of 10)&quot;,
+        &quot;EPC: pitched roof with accessible loft (pitched, 50 mm loft insulation) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;
+      ]
+    },
+    &quot;financial_efficiency&quot;: 8.1,
+    &quot;garden_outdoor&quot;: 3.0,
+    &quot;location_transport&quot;: 10.5,
+    &quot;notes&quot;: [
+      &quot;Nearest station High Barnet 11 min walk (0.50 mi routed walk) (+4)&quot;,
+      &quot;Walkable station High Barnet 11 min walk (+1.5)&quot;,
+      &quot;1 transit line within walk \u2014 Northern via High Barnet 11 min walk \u2014 broad Central London access (+1)&quot;,
+      &quot;Night Tube / 24h service at High Barnet (+1.5)&quot;,
+      &quot;Moderate Liverpool St commute: ~51 mins door-to-concourse via High Barnet (11m walk + 36m rail) (+1.5)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~43 mins via High Barnet (+1)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Standard room sizing: 1,432.0 sq ft total (358 sq ft/bed) (+4)&quot;,
+      &quot;Well balanced bathroom ratio (2 baths for 4 beds) (+2)&quot;,
+      &quot;Two or more reception rooms (2) (+1)&quot;,
+      &quot;Dedicated utility room present (+1)&quot;,
+      &quot;Ground floor guest WC present (+1)&quot;,
+      &quot;EPC Band D&quot;
+    ],
+    &quot;observed_presentation&quot;: 0.0,
+    &quot;space_layout&quot;: 9.0,
+    &quot;tags&quot;: [],
+    &quot;technical_epc&quot;: 12.0,
+    &quot;total_score&quot;: 42.6,
+    &quot;vision_facts&quot;: [
+      &quot;21 property photo(s) analysed by local vision model (Qwen3-VL)&quot;,
+      &quot;Photographic-evidence score: 11.0/100 (high confidence; condition 5/35, kitchen/bath 0/20, glazing 0/20, structure 0/15, legibility 6/10)&quot;,
+      &quot;Floor-plan internal area read from the plan: 1,432 sq ft (scoring measure)&quot;,
+      &quot;Condition tier inferred from photos: raw&quot;,
+      &quot;Not captured in the photos: bathroom, extension evidence, garden aspect, glazing types, kitchen, layout (\u2026)&quot;
+    ]
+  },
+  &quot;data_gaps&quot;: [
+    &quot;No Land Registry sale recorded for this address in the price-paid window \u2014 the house has not transacted, so there is no comparable sale history&quot;,
+    &quot;Enrichment fetch failed: planning&quot;
+  ],
+  &quot;epc_potential&quot;: &quot;C&quot;,
+  &quot;epc_rating&quot;: &quot;D&quot;,
+  &quot;floorplan_image_url&quot;: &quot;https://lid.zoocdn.com/u/1024/768/15af060e85cb700c700ae305ed5aec8f7ba16995.jpg&quot;,
+  &quot;floorplan_rooms&quot;: [
+    {
+      &quot;area_sq_ft&quot;: 125,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;kitchen&quot;,
+      &quot;label&quot;: &quot;Kitchen/Breakfast Room&quot;,
+      &quot;length_ft&quot;: 16.0,
+      &quot;width_ft&quot;: 7.8
+    },
+    {
+      &quot;area_sq_ft&quot;: 233,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;living&quot;,
+      &quot;label&quot;: &quot;Lounge/Reception&quot;,
+      &quot;length_ft&quot;: 19.9,
+      &quot;width_ft&quot;: 11.7
+    },
+    {
+      &quot;area_sq_ft&quot;: 49,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;bathroom&quot;,
+      &quot;label&quot;: &quot;Shower Room/Downstairs En Suite&quot;,
+      &quot;length_ft&quot;: 7.6,
+      &quot;width_ft&quot;: 6.4
+    },
+    {
+      &quot;area_sq_ft&quot;: 91,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;study&quot;,
+      &quot;label&quot;: &quot;Study/Potential Bedroom&quot;,
+      &quot;length_ft&quot;: 11.8,
+      &quot;width_ft&quot;: 7.7
+    },
+    {
+      &quot;area_sq_ft&quot;: null,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;utility&quot;,
+      &quot;label&quot;: &quot;Utility/Cloakroom&quot;,
+      &quot;length_ft&quot;: null,
+      &quot;width_ft&quot;: null
+    },
+    {
+      &quot;area_sq_ft&quot;: 22,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;bathroom&quot;,
+      &quot;label&quot;: &quot;Guest Cloakroom&quot;,
+      &quot;length_ft&quot;: 5.2,
+      &quot;width_ft&quot;: 4.2
+    },
+    {
+      &quot;area_sq_ft&quot;: null,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;circulation&quot;,
+      &quot;label&quot;: &quot;Entrance Porch&quot;,
+      &quot;length_ft&quot;: null,
+      &quot;width_ft&quot;: null
+    },
+    {
+      &quot;area_sq_ft&quot;: 185,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom One&quot;,
+      &quot;length_ft&quot;: 15.8,
+      &quot;width_ft&quot;: 11.7
+    },
+    {
+      &quot;area_sq_ft&quot;: 151,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom Two&quot;,
+      &quot;length_ft&quot;: 19.1,
+      &quot;width_ft&quot;: 7.9
+    },
+    {
+      &quot;area_sq_ft&quot;: 64,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bathroom&quot;,
+      &quot;label&quot;: &quot;Family Bathroom&quot;,
+      &quot;length_ft&quot;: 8.2,
+      &quot;width_ft&quot;: 7.8
+    },
+    {
+      &quot;area_sq_ft&quot;: 85,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom Three&quot;,
+      &quot;length_ft&quot;: 10.1,
+      &quot;width_ft&quot;: 8.4
+    },
+    {
+      &quot;area_sq_ft&quot;: 80,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom Four&quot;,
+      &quot;length_ft&quot;: 9.4,
+      &quot;width_ft&quot;: 8.5
+    }
+  ],
+  &quot;full_address&quot;: &quot;Fitzjohn Avenue, Barnet EN5&quot;,
+  &quot;kings_cross_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Fast (35-45m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 32,
+    &quot;route_summary&quot;: &quot;Northern line direct to King&#x27;s Cross St Pancras (32 min)&quot;,
+    &quot;secondary_route&quot;: &quot;New Barnet (1.596 mi, ~32m walk) \u2794 Great Northern (National Rail) (19m rail) = ~51m total&quot;,
+    &quot;station_distance_miles&quot;: 0.501,
+    &quot;station_name&quot;: &quot;High Barnet&quot;,
+    &quot;total_commute_minutes&quot;: 43,
+    &quot;transfer_minutes&quot;: 0,
+    &quot;transit_line&quot;: &quot;London Underground (Northern line - Bank branch)&quot;,
+    &quot;walk_time_minutes&quot;: 11
+  },
+  &quot;land_registry_summary&quot;: {
+    &quot;_cache&quot;: true,
+    &quot;area_benchmark&quot;: {
+      &quot;area_source&quot;: &quot;epc_bulk total_floor_area&quot;,
+      &quot;coverage_pct&quot;: 34,
+      &quot;high_gbp_sqft&quot;: 747,
+      &quot;low_gbp_sqft&quot;: 117,
+      &quot;median_gbp_sqft&quot;: 514,
+      &quot;of_sales&quot;: 35,
+      &quot;sample&quot;: 12
+    },
+    &quot;number_known&quot;: true,
+    &quot;postcode_sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1995-10-31&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;83&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 123500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;929BEC56-EE51-4446-A2A2-F9902B130067&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1996-11-15&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;139&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 124000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;386B6106-8182-41DD-98FA-D7EC38F994CB&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1996-11-15&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;115&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 115000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;BFBBD85A-6D2E-492F-A8E4-81043F120FB9&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1998-02-12&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;149&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 140000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;3FB714E5-C877-4834-8E4F-A14BB4EA7566&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1999-07-26&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;105&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 230000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;6BD5E356-51E0-40DD-A18E-2D27C4A9CBD5&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1999-10-27&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;125&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 178000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;567EFC7F-A268-41FA-967A-4215D21C9849&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2000-12-20&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;131&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 205000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;D956A117-C183-46F8-8D92-4BED3876DD7B&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2000-12-21&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;85&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 250000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;0AB6CEF3-5D62-43A1-97AE-A7C4582519C5&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2001-07-16&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;99&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 270000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;4AC5A557-3AC1-421F-A49F-5105CD3828D5&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2001-08-02&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;141&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 224950,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;86B277B7-351A-4610-91F6-C265747B9EC2&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2001-11-23&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;115&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 247000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;C079B754-0782-497D-B50F-9CB6F5F69CE4&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2003-09-26&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;105&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 375000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;0C8D177D-1155-439B-9653-423A704ADF64&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2004-05-10&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;87A&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 370000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;05C3EFAE-F099-4C30-9BF3-C469B71BB729&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2004-08-24&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;91&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 425000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;A2858026-D08C-4A8B-8EC5-E331CBA95375&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2005-07-27&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;87A&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 540000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;A8FAA34D-8AD9-4C0F-8690-1EF4D62E5F7F&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2008-05-02&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;85&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 480000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;B55988F1-CC04-48E7-A1A8-4BB1602AB9EE&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2009-11-05&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;97&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 460000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;B2AAD6B5-4E45-4D47-96E3-A6C4055525B1&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2010-04-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;99&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 480000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;56F1B026-F38E-4E28-869D-CF0C4C9E09B3&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2011-01-07&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;87A&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 627000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;19D7E4E9-DC87-4FF1-B063-FA3B2090FA09&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2011-01-07&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;147&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 340000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;DF5BB728-3116-483B-83B1-F8FF28B23029&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2011-04-11&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;145&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 350000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;94100970-2DA8-4F76-A030-987FBC49FB3B&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2011-08-05&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;137&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 410000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;8E64498D-BE94-42FA-B27C-2C2DCBA452A8&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2012-02-29&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;127&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 307500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;CB63DE12-CCCD-465F-AF79-C5794352353F&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2013-04-19&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;127&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 530000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;00ACAEC5-7B3E-44F5-9676-1DCA0D7D96C8&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2014-07-03&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;131&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 520000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;0A251C39-E200-4C22-A20E-599FB053A7AC&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2014-10-28&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;113&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 568750,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;94E665DD-677B-4AA4-9F05-01FB18D920C1&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2015-07-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;97&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 775000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;9B32D8D2-B1D8-4CFE-B5C9-BFAEA44F7C2C&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2018-08-17&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;103&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 1100000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;75050A85-6CA9-9A88-E053-6B04A8C02390&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2018-08-31&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;137&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 675000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;773788C2-EC64-2CE4-E053-6C04A8C05E57&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2018-11-28&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;135&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 712750,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;7E86B6FB-19CA-458C-E053-6B04A8C0C84C&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2023-12-15&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;125&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 873000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;2859C1AB-77DC-52B4-E063-4804A8C05948&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2024-02-07&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;89&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 810000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;152AB733-7B74-E651-E063-4704A8C061D9&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2025-03-31&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;107&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 730000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;4C1B673F-6BBB-D8EA-E063-4704A8C0BF7D&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2025-11-14&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;87A&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 1095000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;44F406B6-1142-1095-E063-4704A8C048D4&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2026-01-12&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;131&quot;,
+        &quot;postcode&quot;: &quot;EN5 2HR&quot;,
+        &quot;price&quot;: 785000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;FITZJOHN AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;49E87C31-8906-591C-E063-4704A8C00C31&quot;
+      }
+    ],
+    &quot;sales&quot;: [],
+    &quot;scope&quot;: &quot;address_no_sale&quot;,
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;latitude&quot;: 51.649024,
+  &quot;liverpool_st_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Moderate (45-55m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 36,
+    &quot;route_summary&quot;: &quot;Northern line (Bank branch) direct to Moorgate (36 min) + 4 min Elizabeth line link to Liverpool St&quot;,
+    &quot;secondary_route&quot;: &quot;New Barnet (1.596 mi, ~32m walk) \u2794 Great Northern (National Rail) (26m rail) = ~62m total&quot;,
+    &quot;station_distance_miles&quot;: 0.501,
+    &quot;station_name&quot;: &quot;High Barnet&quot;,
+    &quot;total_commute_minutes&quot;: 51,
+    &quot;transfer_minutes&quot;: 4,
+    &quot;transit_line&quot;: &quot;London Underground (Northern line - Bank branch)&quot;,
+    &quot;walk_time_minutes&quot;: 11
+  },
+  &quot;living_rooms&quot;: 2,
+  &quot;longitude&quot;: -0.201725,
+  &quot;nearest_station&quot;: &quot;High Barnet&quot;,
+  &quot;nice_to_haves&quot;: [
+    {
+      &quot;detail&quot;: &quot;Not mentioned; UK EPCs do not record domestic cooling&quot;,
+      &quot;label&quot;: &quot;Air conditioning&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned in the listing or EPC&quot;,
+      &quot;label&quot;: &quot;Underfloor heating&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;No aspect stated in the listing, floor-plan or photos&quot;,
+      &quot;label&quot;: &quot;South-facing garden&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned and no overhead glazing seen in photos&quot;,
+      &quot;label&quot;: &quot;Sun roof / lantern in living areas&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;No ground-floor bedroom stated, but a convertible study is mentioned&quot;,
+      &quot;label&quot;: &quot;Ground-floor bedroom&quot;,
+      &quot;status&quot;: &quot;stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Largest living area is 11.7 ft (Lounge/Reception, floor-plan) \u2014 below the 15 ft mark&quot;,
+      &quot;label&quot;: &quot;Wide living room&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;No cinema or media room mentioned, and no other room on the plan is large enough to be one&quot;,
+      &quot;label&quot;: &quot;Home theatre potential&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    }
+  ],
+  &quot;overall_verdict&quot;: &quot;Proceed with Caution: Moderate scores, verify key items during survey.&quot;,
+  &quot;planning_summary&quot;: {
+    &quot;error&quot;: &quot;persistent 429&quot;,
+    &quot;status&quot;: &quot;error&quot;
+  },
+  &quot;price_display&quot;: &quot;\u00a3900,000&quot;,
+  &quot;price_per_sq_ft&quot;: 628.5,
+  &quot;property_id&quot;: &quot;73888092&quot;,
+  &quot;property_images&quot;: [
+    &quot;https://lid.zoocdn.com/u/1024/768/53a8ab65ee227a04898d26ac7b29bddbba998af2.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/5b5a1be598de735b1654f4eff3492f06aebe9403.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/6f1a08d464b49a1a1aa3fcfadb2078e5005f30df.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/bb40f979b54d55ad9cc45a961f081259aa2974b2.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/837cc1e0287a16da1ef106912d4cefdbaa938300.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/f40fdbaf154dc2c9e77ec44275023de97a43451f.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/2c0af4e81a4d895cdc847d24b06782e8627c08e2.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/23d7de34dd8be7170836b1eab08539a701ad8a0a.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/b804df973809b284e68f4a9e5f911407607e5234.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/8b57eb6b09decf7ea8b5da58c3cb19878152dccc.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/d22402502b2ae1560e70e36256f1e63f371b70a3.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/bb4b21c1d6f0f9342c06aba24a6a824ffbdf6a07.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/b31e00dc574fde9cd6834ea35fd301e678c0c3a5.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/4651c7863ee0873a1d217b9a42c0948887a6d961.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/a09da24a1d6e64739951dcd385939b7ed1ad8276.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/5820adfe1dc3a631e8cd9894afbe5922fb4df54b.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/8f37f9b62737e699659380bd4b2757d337da4e71.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/7b19b8c194c7bb1c87c32213ee5c6bcc88f17f15.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/55a3131e8d3152e2f8034bda558e3e727af9b6a3.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/b5293753f00f3089955a8a15b91721a580494030.jpg&quot;
+  ],
+  &quot;property_type&quot;: &quot;4 bed detached house for sale&quot;,
+  &quot;size_sq_ft&quot;: 1432.0,
+  &quot;size_sq_m&quot;: 133.0,
+  &quot;station_distance_miles&quot;: 0.5,
+  &quot;station_distance_source&quot;: &quot;routed&quot;,
+  &quot;tenure&quot;: &quot;Freehold&quot;,
+  &quot;walk_time_minutes&quot;: 10
+}</pre>
+  </details>
+
+  <div class="foot"><div><a href="church-crescent-london-n20.html">← Church Crescent</a></div><div><a href="longmore-avenue-barnet-en5-2.html">→ Longmore Avenue</a></div></div>
+
+  <p class="note" style="margin-top:26px">Generated 2026-10-01 from
+  <code>reviews/property_reviews.json</code>. Map data &copy;
+  <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</p>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
+<script>window.__PINS__ = [{"id": "73888092", "lat": 51.649024, "lon": -0.201725, "addr": "Fitzjohn Avenue", "price": "\u00a3900,000", "sqft": "1,432", "epc": "D", "score": 42.6, "colour": "#ab3b28", "tags": [], "tag_html": "", "href": "#"}];</script>
+<script>window.__SLIDES__ = ["https://lid.zoocdn.com/u/1024/768/53a8ab65ee227a04898d26ac7b29bddbba998af2.jpg", "https://lid.zoocdn.com/u/1024/768/5b5a1be598de735b1654f4eff3492f06aebe9403.jpg", "https://lid.zoocdn.com/u/1024/768/6f1a08d464b49a1a1aa3fcfadb2078e5005f30df.jpg", "https://lid.zoocdn.com/u/1024/768/bb40f979b54d55ad9cc45a961f081259aa2974b2.jpg", "https://lid.zoocdn.com/u/1024/768/837cc1e0287a16da1ef106912d4cefdbaa938300.jpg", "https://lid.zoocdn.com/u/1024/768/f40fdbaf154dc2c9e77ec44275023de97a43451f.jpg", "https://lid.zoocdn.com/u/1024/768/2c0af4e81a4d895cdc847d24b06782e8627c08e2.jpg", "https://lid.zoocdn.com/u/1024/768/23d7de34dd8be7170836b1eab08539a701ad8a0a.jpg", "https://lid.zoocdn.com/u/1024/768/b804df973809b284e68f4a9e5f911407607e5234.jpg", "https://lid.zoocdn.com/u/1024/768/8b57eb6b09decf7ea8b5da58c3cb19878152dccc.jpg", "https://lid.zoocdn.com/u/1024/768/d22402502b2ae1560e70e36256f1e63f371b70a3.jpg", "https://lid.zoocdn.com/u/1024/768/bb4b21c1d6f0f9342c06aba24a6a824ffbdf6a07.jpg", "https://lid.zoocdn.com/u/1024/768/b31e00dc574fde9cd6834ea35fd301e678c0c3a5.jpg", "https://lid.zoocdn.com/u/1024/768/4651c7863ee0873a1d217b9a42c0948887a6d961.jpg", "https://lid.zoocdn.com/u/1024/768/a09da24a1d6e64739951dcd385939b7ed1ad8276.jpg", "https://lid.zoocdn.com/u/1024/768/5820adfe1dc3a631e8cd9894afbe5922fb4df54b.jpg", "https://lid.zoocdn.com/u/1024/768/8f37f9b62737e699659380bd4b2757d337da4e71.jpg", "https://lid.zoocdn.com/u/1024/768/7b19b8c194c7bb1c87c32213ee5c6bcc88f17f15.jpg", "https://lid.zoocdn.com/u/1024/768/55a3131e8d3152e2f8034bda558e3e727af9b6a3.jpg", "https://lid.zoocdn.com/u/1024/768/b5293753f00f3089955a8a15b91721a580494030.jpg"];</script>
+<script>
+(function () {
+  var el = document.getElementById('map');
+  if (!el || typeof L === 'undefined') { return; }
+  var data = window.__PINS__ || [];
+  if (!data.length || data[0].lat === null) { el.style.display = 'none'; return; }
+  var map = L.map('map', { scrollWheelZoom: false, dragging: false,
+                           doubleClickZoom: false, boxZoom: false,
+                           keyboard: false, zoomControl: false });
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  var group = L.featureGroup().addTo(map);
+  data.forEach(function (p) {
+    if (p.lat === null) { return; }
+    L.circleMarker([p.lat, p.lon], { radius: 10, color: '#ffffff', weight: 3,
+                                     fillColor: p.colour, fillOpacity: 0.95 }).addTo(group);
+  });
+  if (group.getBounds().isValid()) { map.fitBounds(group.getBounds().pad(0.35)); }
+  L.control.attribution({ prefix: false }).addTo(map);
+})();
+</script>
+<script>
+(function () {
+  var shots = window.__SLIDES__ || [];
+  var img = document.getElementById('slide-img');
+  var link = document.getElementById('slide-link');
+  var prev = document.getElementById('slide-prev');
+  var next = document.getElementById('slide-next');
+  var num = document.getElementById('slide-n');
+  if (!img || !link || shots.length < 2) {
+    if (prev) { prev.disabled = true; }
+    if (next) { next.disabled = true; }
+    return;
+  }
+  var at = 0;
+
+  function show(i) {
+    at = (i + shots.length) % shots.length;
+    img.src = shots[at];
+    img.alt = 'Listing photo ' + (at + 1) + ' of ' + shots.length +
+              ' — open full size';
+    link.href = shots[at];
+    if (num) { num.textContent = String(at + 1); }
+  }
+
+  // Only the neighbours are warmed: a 34-photo listing at 136 KB each is
+  // 4.6 MB if the whole gallery is fetched up front, for images the reader may
+  // never scroll to.
+  function warm() {
+    [at + 1, at - 1].forEach(function (k) {
+      var j = (k + shots.length) % shots.length;
+      if (j !== at) { new Image().src = shots[j]; }
+    });
+  }
+
+  prev.addEventListener('click', function () { show(at - 1); warm(); });
+  next.addEventListener('click', function () { show(at + 1); warm(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) { return; }
+    if (e.key === 'ArrowLeft') { show(at - 1); warm(); }
+    if (e.key === 'ArrowRight') { show(at + 1); warm(); }
+  });
+  show(0);
+  warm();
+})();
+</script>
+</body></html>

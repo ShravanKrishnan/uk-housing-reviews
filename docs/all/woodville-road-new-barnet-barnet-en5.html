@@ -1,0 +1,808 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Woodville Road — review</title>
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <h1>Woodville Road</h1>
+  <p class="sub">Woodville Road, New Barnet, Barnet EN5</p>
+  <nav class="crumbs"><a href="../index.html">← Back to the map</a> &middot;
+  <a href="../index.html#all-rank-85">Rank #85 of All properties</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="panel">
+    <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between">
+      <div>
+        <span class="pill" style="background:#a8322d">43.2 Score</span>
+        
+      </div>
+      <div style="font-size:13px;color:var(--muted)">
+        85 of 164 &middot; score 43.2
+      </div>
+    </div>
+    <div class="verdict">Proceed with Caution: Moderate scores, verify key items during survey.</div>
+  </div>
+
+  <h3>At a glance</h3>
+  <div class="grid"><div class="stat"><div class="k">Asking price</div><div class="v">£1,000,000</div></div><div class="stat"><div class="k">Property type</div><div class="v">4 bed semi-detached house for sale</div></div><div class="stat"><div class="k">Tenure</div><div class="v">Freehold</div></div><div class="stat"><div class="k">Size</div><div class="v">1,777 sq ft / 165.1 m²</div></div><div class="stat"><div class="k">Price per sq ft</div><div class="v">£562.7</div></div><div class="stat"><div class="k">Bedrooms</div><div class="v">4</div></div><div class="stat"><div class="k">Bathrooms</div><div class="v">2</div></div><div class="stat"><div class="k">Living rooms</div><div class="v">1</div></div><div class="stat"><div class="k">EPC (current / potential)</div><div class="v">D / C</div></div><div class="stat"><div class="k">Nearest station</div><div class="v">New Barnet · 0.7 mi · ~14 min walk</div></div><div class="stat wide"><div class="k">Commute to Liverpool St</div><div class="v">44 min (Great Northern direct to Moorgate (26 min) + 4 min walk via integrated Elizabeth line concourse to Liverpool St)</div></div><div class="stat wide"><div class="k">Commute to King&#x27;s Cross</div><div class="v">33 min (Great Northern direct to King&#x27;s Cross St Pancras (19 min))</div></div></div>
+
+  <h3>Nice-to-haves</h3>
+  <div class="panel">
+    <table class="nice">
+      <thead><tr><th>Signal</th><th>Status</th><th>Detail</th></tr></thead>
+      <tbody><tr><td>Air conditioning</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned; UK EPCs do not record domestic cooling</td></tr><tr><td>Underfloor heating</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned in the listing or EPC</td></tr><tr><td>South-facing garden</td><td><span class="nh-status nh-photo_hint">photo-hint</span></td><td>Photos suggest south — confirm with a compass</td></tr><tr><td>Sun roof / lantern in living areas</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned and no overhead glazing seen in photos</td></tr><tr><td>Ground-floor bedroom</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>No ground-floor bedroom or convertible room mentioned</td></tr><tr><td>Wide living room</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Kitchen / Dining Room measures 19.3 ft at its widest (floor-plan) — clears the 15 ft mark</td></tr><tr><td>Home theatre potential</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>No cinema or media room mentioned, and no other room on the plan is large enough to be one</td></tr></tbody>
+    </table>
+  </div>
+
+<div class="panel"><h2>Photos — 41</h2><div class="slides" id="slides"><div class="slide-frame"><a id="slide-link" href="https://lid.zoocdn.com/u/1024/768/bf027a1815b875a5e8cc1fda05763917b00a1439.jpg" rel="noopener"><img id="slide-img" src="https://lid.zoocdn.com/u/1024/768/bf027a1815b875a5e8cc1fda05763917b00a1439.jpg" alt="Listing photo 1 of 41 — open full size" loading="lazy"></a><button type="button" class="slide-nav prev" id="slide-prev" aria-label="Previous photo">&#8249;</button><button type="button" class="slide-nav next" id="slide-next" aria-label="Next photo">&#8250;</button><span class="slide-badge"><span id="slide-n">1</span> / 41</span></div></div><p class="note" style="margin-top:8px">Arrow keys page through the gallery; click a photo to open it full size. These are the listing's own photographs, at the highest resolution its image host serves.</p></div>
+
+  <div class="layout">
+    <div class="panel sticky">
+      <h2>Where it is</h2>
+      <div id="map" style="height:330px;border-radius:8px"></div>
+      <p class="note" style="margin-top:10px">
+        Pin is the listing's own coordinates. Map tiles are OpenStreetMap.
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=51.650665,-0.183242" rel="noopener">Open in Google Maps →</a>
+        &middot; <a href="https://www.openstreetmap.org/?mlat=51.650665&amp;mlon=-0.183242#map=18/51.650665/-0.183242" rel="noopener">Open in OpenStreetMap →</a>
+        &middot; <a href="https://www.zoopla.co.uk/for-sale/details/70584247/" rel="noopener">Zoopla listing →</a>
+      </p>
+    </div>
+    <div class="panel">
+      <h2>Floorplan analysis</h2>
+      <a href="https://lid.zoocdn.com/u/1024/768/35daa6ce8bfa77018b7585ba2f2db9af154be76c.jpg" rel="noopener"><img class="plan" src="https://lid.zoocdn.com/u/1024/768/35daa6ce8bfa77018b7585ba2f2db9af154be76c.jpg" alt="Floor plan for Woodville Road, New Barnet, Barnet EN5" loading="lazy"></a><p class="note">7 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are listed without one. <a href="https://lid.zoocdn.com/u/1024/768/35daa6ce8bfa77018b7585ba2f2db9af154be76c.jpg" rel="noopener">Open the full-size plan →</a></p><table class="nice compact"><thead><tr><th>Room</th><th>Type</th><th>Floor</th><th>Dimensions</th><th>Area</th></tr></thead><tbody><tr><td>Summer Room</td><td>other</td><td>—</td><td class="num">12.1 &times; 9.2 ft</td><td class="num">111 sq ft</td></tr><tr><td>Bedroom</td><td>bedroom</td><td>second</td><td class="num">21.3 &times; 18.2 ft</td><td class="num">388 sq ft</td></tr><tr><td>Kitchen / Dining Room</td><td>kitchen</td><td>ground</td><td class="num">24 &times; 19.3 ft</td><td class="num">463 sq ft</td></tr><tr><td>Reception Room</td><td>living</td><td>ground</td><td class="num">15.9 &times; 12.1 ft</td><td class="num">192 sq ft</td></tr><tr><td>Bedroom</td><td>bedroom</td><td>first</td><td class="num">13.7 &times; 11.9 ft</td><td class="num">163 sq ft</td></tr><tr><td>Bedroom</td><td>bedroom</td><td>first</td><td class="num">15.9 &times; 11.1 ft</td><td class="num">176 sq ft</td></tr><tr><td>Bedroom</td><td>bedroom</td><td>first</td><td class="num">9.2 &times; 7.2 ft</td><td class="num">66 sq ft</td></tr></tbody></table>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-top:22px">
+    <h2>Score breakdown — 43.2/100</h2>
+    <div class="bar-row with-evidence"><span class="lbl">Location &amp; transport</span><span class="bar"><i style="width:47.5%;background:#a8322d"></i></span><span class="num">9.5</span><ul class="ticks compact"><li><span class="tick">✓</span>Nearest station New Barnet 14 min walk (0.68 mi routed walk) (+3)</li><li><span class="tick">✓</span>Walkable station New Barnet 14 min walk (+1.5)</li><li><span class="tick">✓</span>1 transit line within walk — Great Northern via New Barnet 14 min walk — broad Central London access (+1)</li><li><span class="tick">✓</span>Good Liverpool St commute: ~44 mins door-to-concourse via New Barnet (14m walk + 26m rail) (+2)</li><li><span class="tick">✓</span>King&#x27;s Cross St Pancras commute ~33 mins via New Barnet (+2)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Space, scale &amp; layout</span><span class="bar"><i style="width:45.0%;background:#a8322d"></i></span><span class="num">9.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Square footage taken from floor plan (image analysis)</li><li><span class="tick">✓</span>Standard room sizing: 1,777.0 sq ft total (444 sq ft/bed) (+4)</li><li><span class="tick">✓</span>Well balanced bathroom ratio (2 baths for 4 beds) (+2)</li><li><span class="tick">✓</span>Wide living room: Kitchen / Dining Room 19.3 ft (floorplan) (+3)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Financial efficiency</span><span class="bar"><i style="width:54.7%;background:#a8322d"></i></span><span class="num">8.2</span><ul class="ticks compact"><li><span class="tick">✓</span>£563 per sq ft on 1,777 sq ft (+4.2 of 7.5)</li><li><span class="tick">✓</span>£1,000,000 asking price (+4 of 7.5)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Technical &amp; EPC</span><span class="bar"><i style="width:42.5%;background:#a8322d"></i></span><span class="num">8.5</span><ul class="ticks compact"><li><span class="tick">✓</span>EPC Band D (4.5) + insulated roof (2) (+6.5 of 10)</li><li><span class="tick">✓</span>EPC: pitched roof with accessible loft (pitched, 270 mm loft insulation) — scope for a simple loft extension (structural survey still required) (+2)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Observed presentation</span><span class="bar"><i style="width:40.0%;background:#a8322d"></i></span><span class="num">6.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Presented finish observed as partially modernised in listing photographs (image analysis) (+3 of 7)</li><li><span class="tick">✓</span>Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Garden &amp; outdoor</span><span class="bar"><i style="width:20.0%;background:#a8322d"></i></span><span class="num">2.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Outbuilding present (+2)</li></ul></div>
+    <p class="note">The combined score rewards location, space, financial efficiency,
+    technical specification, observed presentation, and garden quality. Every line
+    lists the evidence that earned it, so a component cannot be read as a verdict
+    without the reason attached.</p>
+  </div>
+
+  <h3>Land Registry</h3>
+  <div class="panel">
+    <p><strong>£650,000 on 2021-05-14<br><span class="note">First recorded sale: 2008-07-28</span></strong></p>
+    <p>£351/sq ft median (range £69–£637), from 13 of 24 local sales (54% priced). <span class="note">Floor area is borrowed from the EPC extract (epc_bulk total_floor_area) because sale records carry none; small samples are heavy-tailed, so the median is used and withheld below 5 priced sales.</span></p>
+    <p class="note">24 raw sale record(s) exist in this postcode. They are the neighbourhood's history, not this home's, and are deliberately not presented as its own.</p>
+    <p class="note">Scope <code>address</code> — sale history is only ever
+    attributed to this home when a house number was derived and matched.</p>
+  </div>
+
+  <h3>Planning</h3>
+  <div class="panel"><p class="note">1 planning record(s) matched this address:</p><ul class="ticks"><li><a href="https://publicaccess.barnet.gov.uk/online-applications/propertyDetails.do?activeTab=summary&amp;keyVal=NC2E6H00DT005" rel="noopener">3 Woodville Road Barnet EN5 5HD</a></li></ul></div>
+
+  <div style="margin-top:22px">
+    <div class="panel"><h2>Photographic evidence reviewed for the score</h2><p class="note">Points are awarded only for detected listing, EPC, or photographic evidence, and each component above lists what it found. Systems without such evidence score zero and are omitted rather than listed as inspection tasks. These notes record what the photos did and did not show.</p><ul class="ticks"><li>42 property photo(s) analysed by local vision model (Qwen3-VL)</li><li>Photographic-evidence score: 32.0/100 (high confidence; condition 22/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 7/10)</li><li>Floor-plan total read from the plan: 1,777 sq ft</li><li>Condition tier inferred from photos: partially modernised</li><li>Not captured in the photos: bathrooms, extension evidence, extension signals, exterior rating, garden aspect, garden aspect hint (…)</li></ul></div>
+  </div>
+
+  
+
+  <details class="raw">
+    <summary>Raw review record (JSON)</summary>
+    <pre>{
+  &quot;asking_price&quot;: 1000000,
+  &quot;bathrooms&quot;: 2,
+  &quot;bedrooms&quot;: 4,
+  &quot;combined_score&quot;: {
+    &quot;detected_features&quot;: [
+      &quot;Nearest station New Barnet 14 min walk (0.68 mi routed walk) (+3)&quot;,
+      &quot;Walkable station New Barnet 14 min walk (+1.5)&quot;,
+      &quot;1 transit line within walk \u2014 Great Northern via New Barnet 14 min walk \u2014 broad Central London access (+1)&quot;,
+      &quot;Good Liverpool St commute: ~44 mins door-to-concourse via New Barnet (14m walk + 26m rail) (+2)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~33 mins via New Barnet (+2)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Standard room sizing: 1,777.0 sq ft total (444 sq ft/bed) (+4)&quot;,
+      &quot;Well balanced bathroom ratio (2 baths for 4 beds) (+2)&quot;,
+      &quot;Wide living room: Kitchen / Dining Room 19.3 ft (floorplan) (+3)&quot;,
+      &quot;\u00a3563 per sq ft on 1,777 sq ft (+4.2 of 7.5)&quot;,
+      &quot;\u00a31,000,000 asking price (+4 of 7.5)&quot;,
+      &quot;EPC Band D (4.5) + insulated roof (2) (+6.5 of 10)&quot;,
+      &quot;EPC: pitched roof with accessible loft (pitched, 270 mm loft insulation) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;,
+      &quot;Presented finish observed as partially modernised in listing photographs (image analysis) (+3 of 7)&quot;,
+      &quot;Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)&quot;,
+      &quot;Outbuilding present (+2)&quot;
+    ],
+    &quot;evidence&quot;: {
+      &quot;financial_efficiency&quot;: [
+        &quot;\u00a3563 per sq ft on 1,777 sq ft (+4.2 of 7.5)&quot;,
+        &quot;\u00a31,000,000 asking price (+4 of 7.5)&quot;
+      ],
+      &quot;garden_outdoor&quot;: [
+        &quot;Outbuilding present (+2)&quot;
+      ],
+      &quot;location_transport&quot;: [
+        &quot;Nearest station New Barnet 14 min walk (0.68 mi routed walk) (+3)&quot;,
+        &quot;Walkable station New Barnet 14 min walk (+1.5)&quot;,
+        &quot;1 transit line within walk \u2014 Great Northern via New Barnet 14 min walk \u2014 broad Central London access (+1)&quot;,
+        &quot;Good Liverpool St commute: ~44 mins door-to-concourse via New Barnet (14m walk + 26m rail) (+2)&quot;,
+        &quot;King&#x27;s Cross St Pancras commute ~33 mins via New Barnet (+2)&quot;
+      ],
+      &quot;observed_presentation&quot;: [
+        &quot;Presented finish observed as partially modernised in listing photographs (image analysis) (+3 of 7)&quot;,
+        &quot;Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)&quot;
+      ],
+      &quot;space_layout&quot;: [
+        &quot;Square footage taken from floor plan (image analysis)&quot;,
+        &quot;Standard room sizing: 1,777.0 sq ft total (444 sq ft/bed) (+4)&quot;,
+        &quot;Well balanced bathroom ratio (2 baths for 4 beds) (+2)&quot;,
+        &quot;Wide living room: Kitchen / Dining Room 19.3 ft (floorplan) (+3)&quot;
+      ],
+      &quot;technical_epc&quot;: [
+        &quot;EPC Band D (4.5) + insulated roof (2) (+6.5 of 10)&quot;,
+        &quot;EPC: pitched roof with accessible loft (pitched, 270 mm loft insulation) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;
+      ]
+    },
+    &quot;financial_efficiency&quot;: 8.2,
+    &quot;garden_outdoor&quot;: 2.0,
+    &quot;location_transport&quot;: 9.5,
+    &quot;notes&quot;: [
+      &quot;Nearest station New Barnet 14 min walk (0.68 mi routed walk) (+3)&quot;,
+      &quot;Walkable station New Barnet 14 min walk (+1.5)&quot;,
+      &quot;1 transit line within walk \u2014 Great Northern via New Barnet 14 min walk \u2014 broad Central London access (+1)&quot;,
+      &quot;Good Liverpool St commute: ~44 mins door-to-concourse via New Barnet (14m walk + 26m rail) (+2)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~33 mins via New Barnet (+2)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Standard room sizing: 1,777.0 sq ft total (444 sq ft/bed) (+4)&quot;,
+      &quot;Well balanced bathroom ratio (2 baths for 4 beds) (+2)&quot;,
+      &quot;EPC Band D&quot;
+    ],
+    &quot;observed_presentation&quot;: 6.0,
+    &quot;space_layout&quot;: 9.0,
+    &quot;tags&quot;: [],
+    &quot;technical_epc&quot;: 8.5,
+    &quot;total_score&quot;: 43.2,
+    &quot;vision_facts&quot;: [
+      &quot;42 property photo(s) analysed by local vision model (Qwen3-VL)&quot;,
+      &quot;Photographic-evidence score: 32.0/100 (high confidence; condition 22/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 7/10)&quot;,
+      &quot;Floor-plan total read from the plan: 1,777 sq ft&quot;,
+      &quot;Condition tier inferred from photos: partially modernised&quot;,
+      &quot;Not captured in the photos: bathrooms, extension evidence, extension signals, exterior rating, garden aspect, garden aspect hint (\u2026)&quot;
+    ]
+  },
+  &quot;data_gaps&quot;: [],
+  &quot;epc_potential&quot;: &quot;C&quot;,
+  &quot;epc_rating&quot;: &quot;D&quot;,
+  &quot;floorplan_image_url&quot;: &quot;https://lid.zoocdn.com/u/1024/768/35daa6ce8bfa77018b7585ba2f2db9af154be76c.jpg&quot;,
+  &quot;floorplan_rooms&quot;: [
+    {
+      &quot;area_sq_ft&quot;: 111,
+      &quot;floor&quot;: null,
+      &quot;kind&quot;: &quot;other&quot;,
+      &quot;label&quot;: &quot;Summer Room&quot;,
+      &quot;length_ft&quot;: 12.1,
+      &quot;width_ft&quot;: 9.2
+    },
+    {
+      &quot;area_sq_ft&quot;: 388,
+      &quot;floor&quot;: &quot;second&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom&quot;,
+      &quot;length_ft&quot;: 21.3,
+      &quot;width_ft&quot;: 18.2
+    },
+    {
+      &quot;area_sq_ft&quot;: 463,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;kitchen&quot;,
+      &quot;label&quot;: &quot;Kitchen / Dining Room&quot;,
+      &quot;length_ft&quot;: 24.0,
+      &quot;width_ft&quot;: 19.3
+    },
+    {
+      &quot;area_sq_ft&quot;: 192,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;living&quot;,
+      &quot;label&quot;: &quot;Reception Room&quot;,
+      &quot;length_ft&quot;: 15.9,
+      &quot;width_ft&quot;: 12.1
+    },
+    {
+      &quot;area_sq_ft&quot;: 163,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom&quot;,
+      &quot;length_ft&quot;: 13.7,
+      &quot;width_ft&quot;: 11.9
+    },
+    {
+      &quot;area_sq_ft&quot;: 176,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom&quot;,
+      &quot;length_ft&quot;: 15.9,
+      &quot;width_ft&quot;: 11.1
+    },
+    {
+      &quot;area_sq_ft&quot;: 66,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom&quot;,
+      &quot;length_ft&quot;: 9.2,
+      &quot;width_ft&quot;: 7.2
+    }
+  ],
+  &quot;full_address&quot;: &quot;Woodville Road, New Barnet, Barnet EN5&quot;,
+  &quot;kings_cross_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Top Tier (&lt;35m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 19,
+    &quot;route_summary&quot;: &quot;Great Northern direct to King&#x27;s Cross St Pancras (19 min)&quot;,
+    &quot;secondary_route&quot;: &quot;High Barnet (0.867 mi, ~18m walk) \u2794 London Underground (Northern line - Bank branch) (32m rail) = ~50m total&quot;,
+    &quot;station_distance_miles&quot;: 0.676,
+    &quot;station_name&quot;: &quot;New Barnet&quot;,
+    &quot;total_commute_minutes&quot;: 33,
+    &quot;transfer_minutes&quot;: 0,
+    &quot;transit_line&quot;: &quot;Great Northern (National Rail)&quot;,
+    &quot;walk_time_minutes&quot;: 14
+  },
+  &quot;land_registry_summary&quot;: {
+    &quot;_cache&quot;: true,
+    &quot;area_benchmark&quot;: {
+      &quot;area_source&quot;: &quot;epc_bulk total_floor_area&quot;,
+      &quot;coverage_pct&quot;: 54,
+      &quot;high_gbp_sqft&quot;: 637,
+      &quot;low_gbp_sqft&quot;: 69,
+      &quot;median_gbp_sqft&quot;: 351,
+      &quot;of_sales&quot;: 24,
+      &quot;sample&quot;: 13
+    },
+    &quot;first_sale_date&quot;: &quot;2008-07-28&quot;,
+    &quot;last_sale_date&quot;: &quot;2021-05-14&quot;,
+    &quot;last_sale_price&quot;: 650000,
+    &quot;number_known&quot;: true,
+    &quot;postcode_sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1995-04-11&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;9&quot;,
+        &quot;postcode&quot;: &quot;EN5 5HD&quot;,
+        &quot;price&quot;: 110000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WOODVILLE ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;E21CEB93-8646-4514-9B85-A5DEAE816C4B&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1995-04-28&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;31A&quot;,
+        &quot;postcode&quot;: &quot;EN5 5HD&quot;,
+        &quot;price&quot;: 59000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WOODVILLE ROAD&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;A6CC3A35-C1FC-4777-8ABA-4781C3C1E8D3&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1996-11-29&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;31A&quot;,
+        &quot;postcode&quot;: &quot;EN5 5HD&quot;,
+        &quot;price&quot;: 65000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WOODVILLE ROAD&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;3A82D43A-2A86-4FBD-98A5-048E7C12ECCA&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1997-06-20&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;23&quot;,
+        &quot;postcode&quot;: &quot;EN5 5HD&quot;,
+        &quot;price&quot;: 174950,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WOODVILLE ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;9A8D63F6-E35F-4163-9600-63BFCDD70374&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1997-10-17&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;17&quot;,
+        &quot;postcode&quot;: &quot;EN5 5HD&quot;,
+        &quot;price&quot;: 149950,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WOODVILLE ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;D5D0E9C7-9895-4870-974E-FFBA45FC123B&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1999-09-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;9&quot;,
+        &quot;postcode&quot;: &quot;EN5 5HD&quot;,
+        &quot;price&quot;: 180000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WOODVILLE ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;D90ADEDE-A9FD-4EFC-880F-95E0F03C2CAB&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2000-06-15&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;31&quot;,
+        &quot;postcode&quot;: &quot;EN5 5HD&quot;,
+        &quot;price&quot;: 129250,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WOODVILLE ROAD&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;1E3D8E9D-B5D4-4FD9-93A9-EC5294F61448&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2002-05-17&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;31A&quot;,
+        &quot;postcode&quot;: &quot;EN5 5HD&quot;,
+        &quot;price&quot;: 167000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WOODVILLE ROAD&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;F13FC657-7DE5-434F-9477-4A84A5B8AE75&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2002-07-24&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;7&quot;,
+        &quot;postcode&quot;: &quot;EN5 5HD&quot;,
+        &quot;price&quot;: 358000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WOODVILLE ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;E85BB4BB-DEA7-4AE9-B723-F192B943DC69&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2004-02-12&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;9&quot;,
+        &quot;postcode&quot;: &quot;EN5 5HD&quot;,
+        &quot;price&quot;: 302000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WOODVILLE ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;F0A03BB5-F023-4E1C-8D0F-A40A9B700AF2&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2004-08-02&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;29&quot;,
+        &quot;postcode&quot;: &quot;EN5 5HD&quot;,
+        &quot;price&quot;: 350000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WOODVILLE ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;81119C24-A23B-411B-9F56-5440022C06AF&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2005-08-03&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;33A&quot;,
+        &quot;postcode&quot;: &quot;EN5 5HD&quot;,
+        &quot;price&quot;: 183000,
+        &quot;property_type&quot;: &quot;flat-maisonette&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WOODVILLE ROAD&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;B6914CE2-04BF-44FF-8107-C7310BA68AB4&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2006-03-17&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;27&quot;,
+        &quot;postcode&quot;: &quot;EN5 5HD&quot;,
+        &quot;price&quot;: 324950,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WOODVILLE ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;17D598B3-CFF8-4B8A-B694-5538EE5E4E8E&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2007-09-27&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;33&quot;,
+        &quot;postcode&quot;: &quot;EN5 5HD&quot;,
+        &quot;price&quot;: 295000,
+        &quot;property_type&quot;: &quot;flat-maisonette&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WOODVILLE ROAD&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;2F9E4788-EF5B-49AD-A2E4-81E22A1EE91E&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2007-12-03&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;41&quot;,
+        &quot;postcode&quot;: &quot;EN5 5HD&quot;,
+        &quot;price&quot;: 850000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WOODVILLE ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;C94D3D7B-281D-4E4F-A496-BB4F94183ACD&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2008-07-28&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;3&quot;,
+        &quot;postcode&quot;: &quot;EN5 5HD&quot;,
+        &quot;price&quot;: 387000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WOODVILLE ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;0F99873F-70E9-41BE-BED9-BEC421A48E0E&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2009-11-19&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;41&quot;,
+        &quot;postcode&quot;: &quot;EN5 5HD&quot;,
+        &quot;price&quot;: 560000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WOODVILLE ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;9804A917-0F76-4E82-85BD-022FBDB2E347&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2015-10-02&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;33&quot;,
+        &quot;postcode&quot;: &quot;EN5 5HD&quot;,
+        &quot;price&quot;: 420000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WOODVILLE ROAD&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;23B6165E-9E44-FCF4-E050-A8C0620577FA&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2019-08-14&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;33A&quot;,
+        &quot;postcode&quot;: &quot;EN5 5HD&quot;,
+        &quot;price&quot;: 335000,
+        &quot;property_type&quot;: &quot;flat-maisonette&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WOODVILLE ROAD&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;93E6821D-EA00-40FD-E053-6B04A8C0C1DF&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2019-10-18&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;33&quot;,
+        &quot;postcode&quot;: &quot;EN5 5HD&quot;,
+        &quot;price&quot;: 430000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WOODVILLE ROAD&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;9B361206-839B-1904-E053-6B04A8C0EEB5&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2021-05-14&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;3&quot;,
+        &quot;postcode&quot;: &quot;EN5 5HD&quot;,
+        &quot;price&quot;: 650000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WOODVILLE ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;CD5A9DCC-2378-310A-E053-6C04A8C00A1F&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2023-06-09&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;31A&quot;,
+        &quot;postcode&quot;: &quot;EN5 5HD&quot;,
+        &quot;price&quot;: 542000,
+        &quot;property_type&quot;: &quot;flat-maisonette&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WOODVILLE ROAD&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;01EB45EF-67AA-40F3-E063-4704A8C05FDE&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2024-05-31&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;33&quot;,
+        &quot;postcode&quot;: &quot;EN5 5HD&quot;,
+        &quot;price&quot;: 447000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WOODVILLE ROAD&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;1EAE3DF6-C969-9EB1-E063-4704A8C09D02&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2024-07-31&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;33A&quot;,
+        &quot;postcode&quot;: &quot;EN5 5HD&quot;,
+        &quot;price&quot;: 418500,
+        &quot;property_type&quot;: &quot;flat-maisonette&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WOODVILLE ROAD&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;2D4D7608-9477-BDF9-E063-4804A8C0672F&quot;
+      }
+    ],
+    &quot;sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2008-07-28&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;3&quot;,
+        &quot;postcode&quot;: &quot;EN5 5HD&quot;,
+        &quot;price&quot;: 387000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WOODVILLE ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;0F99873F-70E9-41BE-BED9-BEC421A48E0E&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2021-05-14&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;3&quot;,
+        &quot;postcode&quot;: &quot;EN5 5HD&quot;,
+        &quot;price&quot;: 650000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WOODVILLE ROAD&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;CD5A9DCC-2378-310A-E053-6C04A8C00A1F&quot;
+      }
+    ],
+    &quot;scope&quot;: &quot;address&quot;,
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;latitude&quot;: 51.650665,
+  &quot;liverpool_st_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Fast (35-45m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 26,
+    &quot;route_summary&quot;: &quot;Great Northern direct to Moorgate (26 min) + 4 min walk via integrated Elizabeth line concourse to Liverpool St&quot;,
+    &quot;secondary_route&quot;: &quot;High Barnet (0.867 mi, ~18m walk) \u2794 London Underground (Northern line - Bank branch) (36m rail) = ~58m total&quot;,
+    &quot;station_distance_miles&quot;: 0.676,
+    &quot;station_name&quot;: &quot;New Barnet&quot;,
+    &quot;total_commute_minutes&quot;: 44,
+    &quot;transfer_minutes&quot;: 4,
+    &quot;transit_line&quot;: &quot;Great Northern (National Rail)&quot;,
+    &quot;walk_time_minutes&quot;: 14
+  },
+  &quot;living_rooms&quot;: 1,
+  &quot;longitude&quot;: -0.183242,
+  &quot;nearest_station&quot;: &quot;New Barnet&quot;,
+  &quot;nice_to_haves&quot;: [
+    {
+      &quot;detail&quot;: &quot;Not mentioned; UK EPCs do not record domestic cooling&quot;,
+      &quot;label&quot;: &quot;Air conditioning&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned in the listing or EPC&quot;,
+      &quot;label&quot;: &quot;Underfloor heating&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Photos suggest south \u2014 confirm with a compass&quot;,
+      &quot;label&quot;: &quot;South-facing garden&quot;,
+      &quot;status&quot;: &quot;photo-hint&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned and no overhead glazing seen in photos&quot;,
+      &quot;label&quot;: &quot;Sun roof / lantern in living areas&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;No ground-floor bedroom or convertible room mentioned&quot;,
+      &quot;label&quot;: &quot;Ground-floor bedroom&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Kitchen / Dining Room measures 19.3 ft at its widest (floor-plan) \u2014 clears the 15 ft mark&quot;,
+      &quot;label&quot;: &quot;Wide living room&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;No cinema or media room mentioned, and no other room on the plan is large enough to be one&quot;,
+      &quot;label&quot;: &quot;Home theatre potential&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    }
+  ],
+  &quot;overall_verdict&quot;: &quot;Proceed with Caution: Moderate scores, verify key items during survey.&quot;,
+  &quot;planning_summary&quot;: {
+    &quot;_cache&quot;: true,
+    &quot;applications&quot;: [],
+    &quot;properties&quot;: [
+      {
+        &quot;key&quot;: &quot;NC2E6H00DT005&quot;,
+        &quot;text&quot;: &quot;3 Woodville Road Barnet EN5 5HD&quot;,
+        &quot;url&quot;: &quot;https://publicaccess.barnet.gov.uk/online-applications/propertyDetails.do?activeTab=summary&amp;keyVal=NC2E6H00DT005&quot;
+      }
+    ],
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;price_display&quot;: &quot;\u00a31,000,000&quot;,
+  &quot;price_per_sq_ft&quot;: 562.7,
+  &quot;property_id&quot;: &quot;70584247&quot;,
+  &quot;property_images&quot;: [
+    &quot;https://lid.zoocdn.com/u/1024/768/bf027a1815b875a5e8cc1fda05763917b00a1439.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/0c99132356caee0887d7079f2c3c28d512089f22.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/94c1a09ccafb754df98c29ddafa10ee22dd6fad3.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/2c02accd3c6472330f04ddcb47b99e643454811b.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/06fc950a0f409c6e4d446df7c6b785b04e3302b6.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/a7009f9fa7b2b2d90f79c6740a2997ee343c9252.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/8ca975cb73ae94032af427c1ea970f53e96b8836.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/751d907a928f011e06d466cef3cb55b890879fe3.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/d3b36adb9d57f4800a852f6478bc8877e095d091.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/531f67426e989bb36defda06ac3b9e9c1b1c07a8.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/030957872acf755c6e98013cd0c016c1d527f5e7.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/25a914cb2d14e1586b32235610a694fc1e827d15.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/915d68e5c7362bf97f2a659cab354f566fc42387.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/a3c94979cb530ce7bd30e16100faa3b9380120c3.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/59f13fdab07a5dca1b11c12f66330bbd9d7dec75.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/e3ba71481b9eed3ac830702e85e558cda2e6ec00.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/387c36465429b76b5d3eb3999f0eb3459db1ef63.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/328a9541e00114990bdd85ff158a6515f84b08d4.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/2085d3076451bd53f1830628d8275b3981f5ac76.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/da52aaea59aa3e593b979b29e13742957de16872.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/cc1f66fb2d4c1fa0edf8d9ac4b8ea5f59a134669.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/b6ec222729a3bef859df293cf34f75439fad4d59.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/851d5d5a84e0ccee35014cb094469f55904ff65c.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/05b7de8b0832d104f84568ab38cb4991cb7039c3.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/af2e9668b98100cb1ccd169ae5105b148124a268.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/2de72bfe7577cbba0cdb46fb748195d76b41f8de.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/59f05d1a715cca58c4fe3ebc7523e52d70943513.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/2b554cd333ea2a8119951ec0a4b372fa7069938c.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/14cc6dfb94e6465fb6ec934d12c66e06ed31e9d7.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/63b65f71f473b506b0d2d39406af1811da99f724.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/dc1020612de2dc65803cd224383a3f1f9deeec28.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/a400cff696e115376b79c4cbbd31cf7299d54e4b.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/325b448bb4b4e3e7edeed2cebc4fe2178b08350e.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/c4f96b19c8135f892df731130386bc973772c0ed.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/848ab9663e59eaab748d34cee6f0b3d11ab212db.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/dcad9854a29abc75196ff40174cd3ece7f93c86a.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/4418e0a3a69cc3984d9f172576d53c9002d953d1.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/36c96535b37b7e77e743043ea821b5de66fd4f3d.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/e463cdfe967115fa40b647b398c391bc88cd398a.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/62c8e18fb29ced17cd69ff31ed68751fe6c5059d.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/e7c31d122be8df75937e01bf19ad3aa793d6753e.jpg&quot;
+  ],
+  &quot;property_type&quot;: &quot;4 bed semi-detached house for sale&quot;,
+  &quot;size_sq_ft&quot;: 1777.0,
+  &quot;size_sq_m&quot;: 165.1,
+  &quot;station_distance_miles&quot;: 0.68,
+  &quot;station_distance_source&quot;: &quot;routed&quot;,
+  &quot;tenure&quot;: &quot;Freehold&quot;,
+  &quot;walk_time_minutes&quot;: 14
+}</pre>
+  </details>
+
+  <div class="foot"><div><a href="woodville-road-barnet-en5.html">← Woodville Road</a></div><div><a href="dalmeny-road-barnet-en5.html">→ Dalmeny Road</a></div></div>
+
+  <p class="note" style="margin-top:26px">Generated 2026-10-01 from
+  <code>reviews/property_reviews.json</code>. Map data &copy;
+  <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</p>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
+<script>window.__PINS__ = [{"id": "70584247", "lat": 51.650665, "lon": -0.183242, "addr": "Woodville Road", "price": "\u00a31,000,000", "sqft": "1,777", "epc": "D", "score": 43.2, "colour": "#ac3d27", "tags": [], "tag_html": "", "href": "#"}];</script>
+<script>window.__SLIDES__ = ["https://lid.zoocdn.com/u/1024/768/bf027a1815b875a5e8cc1fda05763917b00a1439.jpg", "https://lid.zoocdn.com/u/1024/768/0c99132356caee0887d7079f2c3c28d512089f22.jpg", "https://lid.zoocdn.com/u/1024/768/94c1a09ccafb754df98c29ddafa10ee22dd6fad3.jpg", "https://lid.zoocdn.com/u/1024/768/2c02accd3c6472330f04ddcb47b99e643454811b.jpg", "https://lid.zoocdn.com/u/1024/768/06fc950a0f409c6e4d446df7c6b785b04e3302b6.jpg", "https://lid.zoocdn.com/u/1024/768/a7009f9fa7b2b2d90f79c6740a2997ee343c9252.jpg", "https://lid.zoocdn.com/u/1024/768/8ca975cb73ae94032af427c1ea970f53e96b8836.jpg", "https://lid.zoocdn.com/u/1024/768/751d907a928f011e06d466cef3cb55b890879fe3.jpg", "https://lid.zoocdn.com/u/1024/768/d3b36adb9d57f4800a852f6478bc8877e095d091.jpg", "https://lid.zoocdn.com/u/1024/768/531f67426e989bb36defda06ac3b9e9c1b1c07a8.jpg", "https://lid.zoocdn.com/u/1024/768/030957872acf755c6e98013cd0c016c1d527f5e7.jpg", "https://lid.zoocdn.com/u/1024/768/25a914cb2d14e1586b32235610a694fc1e827d15.jpg", "https://lid.zoocdn.com/u/1024/768/915d68e5c7362bf97f2a659cab354f566fc42387.jpg", "https://lid.zoocdn.com/u/1024/768/a3c94979cb530ce7bd30e16100faa3b9380120c3.jpg", "https://lid.zoocdn.com/u/1024/768/59f13fdab07a5dca1b11c12f66330bbd9d7dec75.jpg", "https://lid.zoocdn.com/u/1024/768/e3ba71481b9eed3ac830702e85e558cda2e6ec00.jpg", "https://lid.zoocdn.com/u/1024/768/387c36465429b76b5d3eb3999f0eb3459db1ef63.jpg", "https://lid.zoocdn.com/u/1024/768/328a9541e00114990bdd85ff158a6515f84b08d4.jpg", "https://lid.zoocdn.com/u/1024/768/2085d3076451bd53f1830628d8275b3981f5ac76.jpg", "https://lid.zoocdn.com/u/1024/768/da52aaea59aa3e593b979b29e13742957de16872.jpg", "https://lid.zoocdn.com/u/1024/768/cc1f66fb2d4c1fa0edf8d9ac4b8ea5f59a134669.jpg", "https://lid.zoocdn.com/u/1024/768/b6ec222729a3bef859df293cf34f75439fad4d59.jpg", "https://lid.zoocdn.com/u/1024/768/851d5d5a84e0ccee35014cb094469f55904ff65c.jpg", "https://lid.zoocdn.com/u/1024/768/05b7de8b0832d104f84568ab38cb4991cb7039c3.jpg", "https://lid.zoocdn.com/u/1024/768/af2e9668b98100cb1ccd169ae5105b148124a268.jpg", "https://lid.zoocdn.com/u/1024/768/2de72bfe7577cbba0cdb46fb748195d76b41f8de.jpg", "https://lid.zoocdn.com/u/1024/768/59f05d1a715cca58c4fe3ebc7523e52d70943513.jpg", "https://lid.zoocdn.com/u/1024/768/2b554cd333ea2a8119951ec0a4b372fa7069938c.jpg", "https://lid.zoocdn.com/u/1024/768/14cc6dfb94e6465fb6ec934d12c66e06ed31e9d7.jpg", "https://lid.zoocdn.com/u/1024/768/63b65f71f473b506b0d2d39406af1811da99f724.jpg", "https://lid.zoocdn.com/u/1024/768/dc1020612de2dc65803cd224383a3f1f9deeec28.jpg", "https://lid.zoocdn.com/u/1024/768/a400cff696e115376b79c4cbbd31cf7299d54e4b.jpg", "https://lid.zoocdn.com/u/1024/768/325b448bb4b4e3e7edeed2cebc4fe2178b08350e.jpg", "https://lid.zoocdn.com/u/1024/768/c4f96b19c8135f892df731130386bc973772c0ed.jpg", "https://lid.zoocdn.com/u/1024/768/848ab9663e59eaab748d34cee6f0b3d11ab212db.jpg", "https://lid.zoocdn.com/u/1024/768/dcad9854a29abc75196ff40174cd3ece7f93c86a.jpg", "https://lid.zoocdn.com/u/1024/768/4418e0a3a69cc3984d9f172576d53c9002d953d1.jpg", "https://lid.zoocdn.com/u/1024/768/36c96535b37b7e77e743043ea821b5de66fd4f3d.jpg", "https://lid.zoocdn.com/u/1024/768/e463cdfe967115fa40b647b398c391bc88cd398a.jpg", "https://lid.zoocdn.com/u/1024/768/62c8e18fb29ced17cd69ff31ed68751fe6c5059d.jpg", "https://lid.zoocdn.com/u/1024/768/e7c31d122be8df75937e01bf19ad3aa793d6753e.jpg"];</script>
+<script>
+(function () {
+  var el = document.getElementById('map');
+  if (!el || typeof L === 'undefined') { return; }
+  var data = window.__PINS__ || [];
+  if (!data.length || data[0].lat === null) { el.style.display = 'none'; return; }
+  var map = L.map('map', { scrollWheelZoom: false, dragging: false,
+                           doubleClickZoom: false, boxZoom: false,
+                           keyboard: false, zoomControl: false });
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  var group = L.featureGroup().addTo(map);
+  data.forEach(function (p) {
+    if (p.lat === null) { return; }
+    L.circleMarker([p.lat, p.lon], { radius: 10, color: '#ffffff', weight: 3,
+                                     fillColor: p.colour, fillOpacity: 0.95 }).addTo(group);
+  });
+  if (group.getBounds().isValid()) { map.fitBounds(group.getBounds().pad(0.35)); }
+  L.control.attribution({ prefix: false }).addTo(map);
+})();
+</script>
+<script>
+(function () {
+  var shots = window.__SLIDES__ || [];
+  var img = document.getElementById('slide-img');
+  var link = document.getElementById('slide-link');
+  var prev = document.getElementById('slide-prev');
+  var next = document.getElementById('slide-next');
+  var num = document.getElementById('slide-n');
+  if (!img || !link || shots.length < 2) {
+    if (prev) { prev.disabled = true; }
+    if (next) { next.disabled = true; }
+    return;
+  }
+  var at = 0;
+
+  function show(i) {
+    at = (i + shots.length) % shots.length;
+    img.src = shots[at];
+    img.alt = 'Listing photo ' + (at + 1) + ' of ' + shots.length +
+              ' — open full size';
+    link.href = shots[at];
+    if (num) { num.textContent = String(at + 1); }
+  }
+
+  // Only the neighbours are warmed: a 34-photo listing at 136 KB each is
+  // 4.6 MB if the whole gallery is fetched up front, for images the reader may
+  // never scroll to.
+  function warm() {
+    [at + 1, at - 1].forEach(function (k) {
+      var j = (k + shots.length) % shots.length;
+      if (j !== at) { new Image().src = shots[j]; }
+    });
+  }
+
+  prev.addEventListener('click', function () { show(at - 1); warm(); });
+  next.addEventListener('click', function () { show(at + 1); warm(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) { return; }
+    if (e.key === 'ArrowLeft') { show(at - 1); warm(); }
+    if (e.key === 'ArrowRight') { show(at + 1); warm(); }
+  });
+  show(0);
+  warm();
+})();
+</script>
+</body></html>

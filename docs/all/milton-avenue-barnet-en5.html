@@ -1,0 +1,937 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Milton Avenue — review</title>
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <h1>Milton Avenue</h1>
+  <p class="sub">Milton Avenue, Barnet EN5</p>
+  <nav class="crumbs"><a href="../index.html">← Back to the map</a> &middot;
+  <a href="../index.html#all-rank-36">Rank #36 of All properties</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="panel">
+    <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between">
+      <div>
+        <span class="pill" style="background:#c2760a">51.9 Score</span>
+        <span class="badge tag-transport">Great Transport Links</span>
+      </div>
+      <div style="font-size:13px;color:var(--muted)">
+        36 of 164 &middot; score 51.9
+      </div>
+    </div>
+    <div class="verdict">Proceed with Caution: Moderate scores, verify key items during survey.</div>
+  </div>
+
+  <h3>At a glance</h3>
+  <div class="grid"><div class="stat"><div class="k">Asking price</div><div class="v">£825,000</div></div><div class="stat"><div class="k">Property type</div><div class="v">4 bed semi-detached house for sale</div></div><div class="stat"><div class="k">Tenure</div><div class="v">Freehold</div></div><div class="stat"><div class="k">Size</div><div class="v">1,317 sq ft / 122.4 m²</div></div><div class="stat"><div class="k">Price per sq ft</div><div class="v">£626.4</div></div><div class="stat"><div class="k">Bedrooms</div><div class="v">4</div></div><div class="stat"><div class="k">Bathrooms</div><div class="v">2</div></div><div class="stat"><div class="k">Living rooms</div><div class="v">2</div></div><div class="stat"><div class="k">EPC (current / potential)</div><div class="v">F / B</div></div><div class="stat"><div class="k">Nearest station</div><div class="v">High Barnet · 0.3 mi · ~7 min walk</div></div><div class="stat wide"><div class="k">Commute to Liverpool St</div><div class="v">47 min (Northern line (Bank branch) direct to Moorgate (36 min) + 4 min Elizabeth line link to Liverpool St)</div></div><div class="stat wide"><div class="k">Commute to King&#x27;s Cross</div><div class="v">39 min (Northern line direct to King&#x27;s Cross St Pancras (32 min))</div></div></div>
+
+  <h3>Nice-to-haves</h3>
+  <div class="panel">
+    <table class="nice">
+      <thead><tr><th>Signal</th><th>Status</th><th>Detail</th></tr></thead>
+      <tbody><tr><td>Air conditioning</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned; UK EPCs do not record domestic cooling</td></tr><tr><td>Underfloor heating</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned in the listing or EPC</td></tr><tr><td>South-facing garden</td><td><span class="nh-status nh-stated">stated</span></td><td>Described as west-facing (not south)</td></tr><tr><td>Sun roof / lantern in living areas</td><td><span class="nh-status nh-photo_hint">photo-hint</span></td><td>skylight seen in a living-area photo (room unverified)</td></tr><tr><td>Ground-floor bedroom</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Floorplan shows 1 bedroom on the ground floor (Bedroom/Playroom)</td></tr><tr><td>Wide living room</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Largest living area is 11.8 ft (Front Reception, floor-plan) — below the 15 ft mark</td></tr><tr><td>Home theatre potential</td><td><span class="nh-status nh-photo_hint">photo-hint</span></td><td>Dining Room measures 13.4 x 10.2 ft (137 sq ft) on the floor plan, a separate room from the Front Reception — room for a smaller screen or fewer seats; at that size it holds a 74-inch screen with the front row 6.2 ft from it, 1 recliner row of 4 across (9.9 ft of frontage, a four-seat family sofa), 4 seats</td></tr></tbody>
+    </table>
+  </div>
+
+<div class="panel"><h2>Photos — 23</h2><div class="slides" id="slides"><div class="slide-frame"><a id="slide-link" href="https://lid.zoocdn.com/u/1024/768/bb46e135f877c179a8d523d27bd7f115ba83be0f.jpg" rel="noopener"><img id="slide-img" src="https://lid.zoocdn.com/u/1024/768/bb46e135f877c179a8d523d27bd7f115ba83be0f.jpg" alt="Listing photo 1 of 23 — open full size" loading="lazy"></a><button type="button" class="slide-nav prev" id="slide-prev" aria-label="Previous photo">&#8249;</button><button type="button" class="slide-nav next" id="slide-next" aria-label="Next photo">&#8250;</button><span class="slide-badge"><span id="slide-n">1</span> / 23</span></div></div><p class="note" style="margin-top:8px">Arrow keys page through the gallery; click a photo to open it full size. These are the listing's own photographs, at the highest resolution its image host serves.</p></div>
+
+  <div class="layout">
+    <div class="panel sticky">
+      <h2>Where it is</h2>
+      <div id="map" style="height:330px;border-radius:8px"></div>
+      <p class="note" style="margin-top:10px">
+        Pin is the listing's own coordinates. Map tiles are OpenStreetMap.
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=51.649124,-0.197479" rel="noopener">Open in Google Maps →</a>
+        &middot; <a href="https://www.openstreetmap.org/?mlat=51.649124&amp;mlon=-0.197479#map=18/51.649124/-0.197479" rel="noopener">Open in OpenStreetMap →</a>
+        &middot; <a href="https://www.zoopla.co.uk/for-sale/details/74357847/" rel="noopener">Zoopla listing →</a>
+      </p>
+    </div>
+    <div class="panel">
+      <h2>Floorplan analysis</h2>
+      <a href="https://lid.zoocdn.com/u/1024/768/d848a8061eb41183aff131605894659e8296a401.jpg" rel="noopener"><img class="plan" src="https://lid.zoocdn.com/u/1024/768/d848a8061eb41183aff131605894659e8296a401.jpg" alt="Floor plan for Milton Avenue, Barnet EN5" loading="lazy"></a><p class="note">11 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are listed without one. <a href="https://lid.zoocdn.com/u/1024/768/d848a8061eb41183aff131605894659e8296a401.jpg" rel="noopener">Open the full-size plan →</a></p><table class="nice compact"><thead><tr><th>Room</th><th>Type</th><th>Floor</th><th>Dimensions</th><th>Area</th></tr></thead><tbody><tr><td>Front Reception</td><td>living</td><td>ground</td><td class="num">13.7 &times; 11.8 ft</td><td class="num">162 sq ft</td></tr><tr><td>Dining Room</td><td>dining</td><td>ground</td><td class="num">13.4 &times; 10.2 ft</td><td class="num">137 sq ft</td></tr><tr><td>Utility</td><td>utility</td><td>ground</td><td class="num">9.8 &times; 5.1 ft</td><td class="num">50 sq ft</td></tr><tr><td>Family Bathroom</td><td>bathroom</td><td>ground</td><td class="num">9.5 &times; 5.7 ft</td><td class="num">54 sq ft</td></tr><tr><td>Kitchen</td><td>kitchen</td><td>ground</td><td class="num">9.2 &times; 8.2 ft</td><td class="num">75 sq ft</td></tr><tr><td>Bedroom/Playroom</td><td>bedroom</td><td>ground</td><td class="num">12.3 &times; 11.8 ft</td><td class="num">145 sq ft</td></tr><tr><td>Lean To</td><td>outbuilding</td><td>ground</td><td class="num">6 &times; 4.4 ft</td><td class="num">26 sq ft</td></tr><tr><td>Principal Bedroom</td><td>bedroom</td><td>first</td><td class="num">18.7 &times; 10 ft</td><td class="num">187 sq ft</td></tr><tr><td>En-Suite</td><td>bathroom</td><td>first</td><td class="num">9.3 &times; 6.7 ft</td><td class="num">62 sq ft</td></tr><tr><td>Bedroom 2</td><td>bedroom</td><td>first</td><td class="num">11.2 &times; 8.4 ft</td><td class="num">94 sq ft</td></tr><tr><td>Bedroom 3</td><td>bedroom</td><td>first</td><td class="num">7.9 &times; 7.7 ft</td><td class="num">61 sq ft</td></tr></tbody></table>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-top:22px">
+    <h2>Score breakdown — 51.9/100</h2>
+    <div class="bar-row with-evidence"><span class="lbl">Location &amp; transport</span><span class="bar"><i style="width:65.0%;background:#a8322d"></i></span><span class="num">13.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Nearest station High Barnet 7 min walk (0.35 mi routed walk) (+5)</li><li><span class="tick">✓</span>Walkable station High Barnet 7 min walk (+1.5)</li><li><span class="tick">✓</span>1 transit line within walk — Northern via High Barnet 7 min walk — broad Central London access (+1)</li><li><span class="tick">✓</span>Night Tube / 24h service at High Barnet (+1.5)</li><li><span class="tick">✓</span>Good Liverpool St commute: ~47 mins door-to-concourse via High Barnet (7m walk + 36m rail) (+2)</li><li><span class="tick">✓</span>King&#x27;s Cross St Pancras commute ~39 mins via High Barnet (+2)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Space, scale &amp; layout</span><span class="bar"><i style="width:42.5%;background:#a8322d"></i></span><span class="num">8.5</span><ul class="ticks compact"><li><span class="tick">✓</span>Square footage taken from floor plan (image analysis)</li><li><span class="tick">✓</span>Compact floorplate: 1,317.0 sq ft total (329 sq ft/bed) (+2.5)</li><li><span class="tick">✓</span>Well balanced bathroom ratio (2 baths for 4 beds) (+2)</li><li><span class="tick">✓</span>Two or more reception rooms (2) (+1)</li><li><span class="tick">✓</span>Living room width: 11.8 ft (below 15 ft)</li><li><span class="tick">✓</span>Ground-floor bedroom confirmed on floorplan: 1 (Bedroom/Playroom) (+3)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Financial efficiency</span><span class="bar"><i style="width:56.0%;background:#a8322d"></i></span><span class="num">8.4</span><ul class="ticks compact"><li><span class="tick">✓</span>£626 per sq ft on 1,317 sq ft (+3.8 of 7.5)</li><li><span class="tick">✓</span>£825,000 asking price (+4.6 of 7.5)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Technical &amp; EPC</span><span class="bar"><i style="width:55.0%;background:#a8322d"></i></span><span class="num">11.0</span><ul class="ticks compact"><li><span class="tick">✓</span>EPC Band F (1) + insulated roof (2) + double glazing (1) (+4 of 10)</li><li><span class="tick">✓</span>Roof glazing seen in photos: skylight (+5)</li><li><span class="tick">✓</span>EPC: pitched roof with accessible loft (pitched, 100 mm loft insulation) — scope for a simple loft extension (structural survey still required) (+2)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Observed presentation</span><span class="bar"><i style="width:73.3%;background:#a8322d"></i></span><span class="num">11.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Presented finish observed as refurbished in listing photographs (image analysis) (+5.5 of 7)</li><li><span class="tick">✓</span>Kitchen &amp; bathroom spec rated standard in listing photographs (image analysis) (+2.5 of 5)</li><li><span class="tick">✓</span>Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Garden &amp; outdoor</span><span class="bar"><i style="width:0.0%;background:#a8322d"></i></span><span class="num">0.0</span><p class="note compact">No evidence detected for this component — it scores on the absence of contrary findings.</p></div>
+    <p class="note">The combined score rewards location, space, financial efficiency,
+    technical specification, observed presentation, and garden quality. Every line
+    lists the evidence that earned it, so a component cannot be read as a verdict
+    without the reason attached.</p>
+  </div>
+
+  <h3>Land Registry</h3>
+  <div class="panel">
+    <p><strong>£537,000 on 2019-04-23<br><span class="note">First recorded sale: 2019-04-23</span></strong></p>
+    <p>£398/sq ft median (range £77–£674), from 21 of 33 local sales (64% priced). <span class="note">Floor area is borrowed from the EPC extract (epc_bulk total_floor_area) because sale records carry none; small samples are heavy-tailed, so the median is used and withheld below 5 priced sales.</span></p>
+    <p class="note">33 raw sale record(s) exist in this postcode. They are the neighbourhood's history, not this home's, and are deliberately not presented as its own.</p>
+    <p class="note">Scope <code>address</code> — sale history is only ever
+    attributed to this home when a house number was derived and matched.</p>
+  </div>
+
+  <h3>Planning</h3>
+  <div class="panel"><p class="note">1 planning record(s) matched this address:</p><ul class="ticks"><li><a href="https://publicaccess.barnet.gov.uk/online-applications/propertyDetails.do?activeTab=summary&amp;keyVal=NC1Y6600DT008" rel="noopener">36 Milton Avenue Barnet EN5 2EX</a></li></ul></div>
+
+  <div style="margin-top:22px">
+    <div class="panel"><h2>Photographic evidence reviewed for the score</h2><p class="note">Points are awarded only for detected listing, EPC, or photographic evidence, and each component above lists what it found. Systems without such evidence score zero and are omitted rather than listed as inspection tasks. These notes record what the photos did and did not show.</p><ul class="ticks"><li>24 property photo(s) analysed by local vision model (Qwen3-VL)</li><li>Photographic-evidence score: 48.0/100 (high confidence; condition 30/35, kitchen/bath 6/20, glazing 3/20, structure 0/15, legibility 9/10)</li><li>Floor-plan internal area read from the plan: 1,317 sq ft (scoring measure)</li><li>Condition tier inferred from photos: refurbished</li><li>Not captured in the photos: extension evidence, exterior rating, garden aspect, garden aspect hint, parking, render (…)</li></ul></div>
+  </div>
+
+  
+
+  <details class="raw">
+    <summary>Raw review record (JSON)</summary>
+    <pre>{
+  &quot;asking_price&quot;: 825000,
+  &quot;bathrooms&quot;: 2,
+  &quot;bedrooms&quot;: 4,
+  &quot;combined_score&quot;: {
+    &quot;detected_features&quot;: [
+      &quot;Nearest station High Barnet 7 min walk (0.35 mi routed walk) (+5)&quot;,
+      &quot;Walkable station High Barnet 7 min walk (+1.5)&quot;,
+      &quot;1 transit line within walk \u2014 Northern via High Barnet 7 min walk \u2014 broad Central London access (+1)&quot;,
+      &quot;Night Tube / 24h service at High Barnet (+1.5)&quot;,
+      &quot;Good Liverpool St commute: ~47 mins door-to-concourse via High Barnet (7m walk + 36m rail) (+2)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~39 mins via High Barnet (+2)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Compact floorplate: 1,317.0 sq ft total (329 sq ft/bed) (+2.5)&quot;,
+      &quot;Well balanced bathroom ratio (2 baths for 4 beds) (+2)&quot;,
+      &quot;Two or more reception rooms (2) (+1)&quot;,
+      &quot;Living room width: 11.8 ft (below 15 ft)&quot;,
+      &quot;Ground-floor bedroom confirmed on floorplan: 1 (Bedroom/Playroom) (+3)&quot;,
+      &quot;\u00a3626 per sq ft on 1,317 sq ft (+3.8 of 7.5)&quot;,
+      &quot;\u00a3825,000 asking price (+4.6 of 7.5)&quot;,
+      &quot;EPC Band F (1) + insulated roof (2) + double glazing (1) (+4 of 10)&quot;,
+      &quot;Roof glazing seen in photos: skylight (+5)&quot;,
+      &quot;EPC: pitched roof with accessible loft (pitched, 100 mm loft insulation) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;,
+      &quot;Presented finish observed as refurbished in listing photographs (image analysis) (+5.5 of 7)&quot;,
+      &quot;Kitchen &amp; bathroom spec rated standard in listing photographs (image analysis) (+2.5 of 5)&quot;,
+      &quot;Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)&quot;
+    ],
+    &quot;evidence&quot;: {
+      &quot;financial_efficiency&quot;: [
+        &quot;\u00a3626 per sq ft on 1,317 sq ft (+3.8 of 7.5)&quot;,
+        &quot;\u00a3825,000 asking price (+4.6 of 7.5)&quot;
+      ],
+      &quot;location_transport&quot;: [
+        &quot;Nearest station High Barnet 7 min walk (0.35 mi routed walk) (+5)&quot;,
+        &quot;Walkable station High Barnet 7 min walk (+1.5)&quot;,
+        &quot;1 transit line within walk \u2014 Northern via High Barnet 7 min walk \u2014 broad Central London access (+1)&quot;,
+        &quot;Night Tube / 24h service at High Barnet (+1.5)&quot;,
+        &quot;Good Liverpool St commute: ~47 mins door-to-concourse via High Barnet (7m walk + 36m rail) (+2)&quot;,
+        &quot;King&#x27;s Cross St Pancras commute ~39 mins via High Barnet (+2)&quot;
+      ],
+      &quot;observed_presentation&quot;: [
+        &quot;Presented finish observed as refurbished in listing photographs (image analysis) (+5.5 of 7)&quot;,
+        &quot;Kitchen &amp; bathroom spec rated standard in listing photographs (image analysis) (+2.5 of 5)&quot;,
+        &quot;Exterior &amp; garden rated attractive in listing photographs (image analysis) (+3 of 3)&quot;
+      ],
+      &quot;space_layout&quot;: [
+        &quot;Square footage taken from floor plan (image analysis)&quot;,
+        &quot;Compact floorplate: 1,317.0 sq ft total (329 sq ft/bed) (+2.5)&quot;,
+        &quot;Well balanced bathroom ratio (2 baths for 4 beds) (+2)&quot;,
+        &quot;Two or more reception rooms (2) (+1)&quot;,
+        &quot;Living room width: 11.8 ft (below 15 ft)&quot;,
+        &quot;Ground-floor bedroom confirmed on floorplan: 1 (Bedroom/Playroom) (+3)&quot;
+      ],
+      &quot;technical_epc&quot;: [
+        &quot;EPC Band F (1) + insulated roof (2) + double glazing (1) (+4 of 10)&quot;,
+        &quot;Roof glazing seen in photos: skylight (+5)&quot;,
+        &quot;EPC: pitched roof with accessible loft (pitched, 100 mm loft insulation) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;
+      ]
+    },
+    &quot;financial_efficiency&quot;: 8.4,
+    &quot;garden_outdoor&quot;: 0.0,
+    &quot;location_transport&quot;: 13.0,
+    &quot;notes&quot;: [
+      &quot;Nearest station High Barnet 7 min walk (0.35 mi routed walk) (+5)&quot;,
+      &quot;Walkable station High Barnet 7 min walk (+1.5)&quot;,
+      &quot;1 transit line within walk \u2014 Northern via High Barnet 7 min walk \u2014 broad Central London access (+1)&quot;,
+      &quot;Night Tube / 24h service at High Barnet (+1.5)&quot;,
+      &quot;Good Liverpool St commute: ~47 mins door-to-concourse via High Barnet (7m walk + 36m rail) (+2)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~39 mins via High Barnet (+2)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Compact floorplate: 1,317.0 sq ft total (329 sq ft/bed) (+2.5)&quot;,
+      &quot;Well balanced bathroom ratio (2 baths for 4 beds) (+2)&quot;,
+      &quot;Two or more reception rooms (2) (+1)&quot;,
+      &quot;EPC Band F&quot;,
+      &quot;Poor thermal envelope (high heating bills; significant retrofit investment required)&quot;
+    ],
+    &quot;observed_presentation&quot;: 11.0,
+    &quot;space_layout&quot;: 8.5,
+    &quot;tags&quot;: [
+      &quot;Great Transport Links&quot;
+    ],
+    &quot;technical_epc&quot;: 11.0,
+    &quot;total_score&quot;: 51.9,
+    &quot;vision_facts&quot;: [
+      &quot;24 property photo(s) analysed by local vision model (Qwen3-VL)&quot;,
+      &quot;Photographic-evidence score: 48.0/100 (high confidence; condition 30/35, kitchen/bath 6/20, glazing 3/20, structure 0/15, legibility 9/10)&quot;,
+      &quot;Floor-plan internal area read from the plan: 1,317 sq ft (scoring measure)&quot;,
+      &quot;Condition tier inferred from photos: refurbished&quot;,
+      &quot;Not captured in the photos: extension evidence, exterior rating, garden aspect, garden aspect hint, parking, render (\u2026)&quot;
+    ]
+  },
+  &quot;data_gaps&quot;: [],
+  &quot;epc_potential&quot;: &quot;B&quot;,
+  &quot;epc_rating&quot;: &quot;F&quot;,
+  &quot;floorplan_image_url&quot;: &quot;https://lid.zoocdn.com/u/1024/768/d848a8061eb41183aff131605894659e8296a401.jpg&quot;,
+  &quot;floorplan_rooms&quot;: [
+    {
+      &quot;area_sq_ft&quot;: 162,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;living&quot;,
+      &quot;label&quot;: &quot;Front Reception&quot;,
+      &quot;length_ft&quot;: 13.7,
+      &quot;width_ft&quot;: 11.8
+    },
+    {
+      &quot;area_sq_ft&quot;: 137,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;dining&quot;,
+      &quot;label&quot;: &quot;Dining Room&quot;,
+      &quot;length_ft&quot;: 13.4,
+      &quot;width_ft&quot;: 10.2
+    },
+    {
+      &quot;area_sq_ft&quot;: 50,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;utility&quot;,
+      &quot;label&quot;: &quot;Utility&quot;,
+      &quot;length_ft&quot;: 9.8,
+      &quot;width_ft&quot;: 5.1
+    },
+    {
+      &quot;area_sq_ft&quot;: 54,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;bathroom&quot;,
+      &quot;label&quot;: &quot;Family Bathroom&quot;,
+      &quot;length_ft&quot;: 9.5,
+      &quot;width_ft&quot;: 5.7
+    },
+    {
+      &quot;area_sq_ft&quot;: 75,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;kitchen&quot;,
+      &quot;label&quot;: &quot;Kitchen&quot;,
+      &quot;length_ft&quot;: 9.2,
+      &quot;width_ft&quot;: 8.2
+    },
+    {
+      &quot;area_sq_ft&quot;: 145,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom/Playroom&quot;,
+      &quot;length_ft&quot;: 12.3,
+      &quot;width_ft&quot;: 11.8
+    },
+    {
+      &quot;area_sq_ft&quot;: 26,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;outbuilding&quot;,
+      &quot;label&quot;: &quot;Lean To&quot;,
+      &quot;length_ft&quot;: 6.0,
+      &quot;width_ft&quot;: 4.4
+    },
+    {
+      &quot;area_sq_ft&quot;: 187,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Principal Bedroom&quot;,
+      &quot;length_ft&quot;: 18.7,
+      &quot;width_ft&quot;: 10.0
+    },
+    {
+      &quot;area_sq_ft&quot;: 62,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bathroom&quot;,
+      &quot;label&quot;: &quot;En-Suite&quot;,
+      &quot;length_ft&quot;: 9.3,
+      &quot;width_ft&quot;: 6.7
+    },
+    {
+      &quot;area_sq_ft&quot;: 94,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 2&quot;,
+      &quot;length_ft&quot;: 11.2,
+      &quot;width_ft&quot;: 8.4
+    },
+    {
+      &quot;area_sq_ft&quot;: 61,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 3&quot;,
+      &quot;length_ft&quot;: 7.9,
+      &quot;width_ft&quot;: 7.7
+    }
+  ],
+  &quot;full_address&quot;: &quot;Milton Avenue, Barnet EN5&quot;,
+  &quot;kings_cross_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Fast (35-45m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 32,
+    &quot;route_summary&quot;: &quot;Northern line direct to King&#x27;s Cross St Pancras (32 min)&quot;,
+    &quot;secondary_route&quot;: &quot;New Barnet (1.275 mi, ~26m walk) \u2794 Great Northern (National Rail) (19m rail) = ~45m total&quot;,
+    &quot;station_distance_miles&quot;: 0.348,
+    &quot;station_name&quot;: &quot;High Barnet&quot;,
+    &quot;total_commute_minutes&quot;: 39,
+    &quot;transfer_minutes&quot;: 0,
+    &quot;transit_line&quot;: &quot;London Underground (Northern line - Bank branch)&quot;,
+    &quot;walk_time_minutes&quot;: 7
+  },
+  &quot;land_registry_summary&quot;: {
+    &quot;_cache&quot;: true,
+    &quot;area_benchmark&quot;: {
+      &quot;area_source&quot;: &quot;epc_bulk total_floor_area&quot;,
+      &quot;coverage_pct&quot;: 64,
+      &quot;high_gbp_sqft&quot;: 674,
+      &quot;low_gbp_sqft&quot;: 77,
+      &quot;median_gbp_sqft&quot;: 398,
+      &quot;of_sales&quot;: 33,
+      &quot;sample&quot;: 21
+    },
+    &quot;first_sale_date&quot;: &quot;2019-04-23&quot;,
+    &quot;last_sale_date&quot;: &quot;2019-04-23&quot;,
+    &quot;last_sale_price&quot;: 537000,
+    &quot;number_known&quot;: true,
+    &quot;postcode_sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1995-02-17&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;1&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 94000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;C04CB75D-2D06-4D35-AA9C-73C491C6792A&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1995-09-29&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;6&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 87000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;DF69AAEC-DCA9-46E0-AC83-8AB29DCFD6A9&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1998-06-26&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;15&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 127000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;6566B800-2726-48FB-B948-7D3061384D05&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1999-04-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;3&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 138000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;5E68C987-46C9-476B-91F2-453C32358ED1&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1999-05-07&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;13&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 153500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;5EC81910-F237-4942-8954-47A046C046EE&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1999-06-18&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;5&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 145000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;40484D3C-3411-4FF9-8C0F-EDC70C69DA10&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2001-03-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;20&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 210000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;2C0735DC-F9EA-441E-B04B-044FAD30F206&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2002-09-06&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;23&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 210000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;EEAAC017-13B2-4912-82B0-FD0659A0A8ED&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2004-03-04&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;13&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 345000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;4363ECE4-1ACC-48F4-B432-051683B6EC47&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2004-03-05&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;16&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 380000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;D7C04D81-9AD9-4DE6-ADED-3371A72BD6FD&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2005-03-07&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;14&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 345000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;3CD80A28-A59F-41CC-9615-1BB414C11909&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2005-11-10&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;32&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 553000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;3CC9B6B6-E691-4D2B-A8F7-DEF27AE6892B&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2006-02-10&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;5&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 330000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;88E1245A-9E05-4DB2-81DB-D19F8B4C7552&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2006-03-24&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;2&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 350000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;5D338253-7A4D-488F-97C5-5040738E8DEE&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2007-02-09&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;16&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 420000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;F886184E-DA1A-485B-BC16-CEA1772172B0&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2007-02-09&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;3&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 319350,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;39844F8C-F986-42E2-A179-A2E9EAD0D7BA&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2008-02-22&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;23&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 405000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;28594113-F189-47A6-85D6-CA07DB895850&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2008-05-14&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;8&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 450000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;00028211-9A08-4B59-932A-C4CBDBA4F0CD&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2008-11-17&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;11&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 320000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;8C5668BB-AD8C-4031-B4C1-645FDB8CBC09&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2009-04-06&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;10&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 492000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;B80F7750-EA5A-41E1-8697-53F1CCFE87EF&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2012-08-22&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;21&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 437500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;EF5EB2D7-EA73-4C46-A927-66B2AAA4FD0C&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2013-02-22&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;6&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 450000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;C35EA5D3-A643-4E45-896F-12AEC2EED49F&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2013-04-19&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;28&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 417500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;F45EC854-EB00-45A2-A4B1-D24BB3BCFA6C&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2014-01-17&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;19&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 400000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;2A4FB542-4A46-4324-AAE9-235434DFB6C2&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Additional price paid transaction&quot;,
+        &quot;date&quot;: &quot;2015-02-26&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;17&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 499950,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;21E5FEB6-09B5-2439-E050-A8C06205342E&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2015-07-28&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;26&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 565000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;097DC4AA-C8B5-417A-A325-95E9FD6857F1&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2015-08-14&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;9&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 526000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;0AFC4DF4-24A3-4DF8-B7E7-D45371805F97&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-03-15&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;7&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 630000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;4C4EDFFE-F259-1854-E050-A8C063054F34&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2018-01-12&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;3&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 675000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;666758D6-759D-3363-E053-6B04A8C0D74E&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2018-10-10&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;5&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 610000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;79A74E21-1087-1289-E053-6B04A8C01627&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2019-04-23&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;36&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 537000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;87E1551E-7CDD-6405-E053-6C04A8C0B2EE&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2024-10-18&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;16&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 780000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;25E9DA80-54CC-555E-E063-4704A8C066F2&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2026-05-08&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;10&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 857500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;5340B1C5-B47E-8052-E063-4804A8C06EE4&quot;
+      }
+    ],
+    &quot;sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2019-04-23&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;36&quot;,
+        &quot;postcode&quot;: &quot;EN5 2EX&quot;,
+        &quot;price&quot;: 537000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;MILTON AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;87E1551E-7CDD-6405-E053-6C04A8C0B2EE&quot;
+      }
+    ],
+    &quot;scope&quot;: &quot;address&quot;,
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;latitude&quot;: 51.649124,
+  &quot;liverpool_st_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Moderate (45-55m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 36,
+    &quot;route_summary&quot;: &quot;Northern line (Bank branch) direct to Moorgate (36 min) + 4 min Elizabeth line link to Liverpool St&quot;,
+    &quot;secondary_route&quot;: &quot;New Barnet (1.275 mi, ~26m walk) \u2794 Great Northern (National Rail) (26m rail) = ~56m total&quot;,
+    &quot;station_distance_miles&quot;: 0.348,
+    &quot;station_name&quot;: &quot;High Barnet&quot;,
+    &quot;total_commute_minutes&quot;: 47,
+    &quot;transfer_minutes&quot;: 4,
+    &quot;transit_line&quot;: &quot;London Underground (Northern line - Bank branch)&quot;,
+    &quot;walk_time_minutes&quot;: 7
+  },
+  &quot;living_rooms&quot;: 2,
+  &quot;longitude&quot;: -0.197479,
+  &quot;nearest_station&quot;: &quot;High Barnet&quot;,
+  &quot;nice_to_haves&quot;: [
+    {
+      &quot;detail&quot;: &quot;Not mentioned; UK EPCs do not record domestic cooling&quot;,
+      &quot;label&quot;: &quot;Air conditioning&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned in the listing or EPC&quot;,
+      &quot;label&quot;: &quot;Underfloor heating&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Described as west-facing (not south)&quot;,
+      &quot;label&quot;: &quot;South-facing garden&quot;,
+      &quot;status&quot;: &quot;stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;skylight seen in a living-area photo (room unverified)&quot;,
+      &quot;label&quot;: &quot;Sun roof / lantern in living areas&quot;,
+      &quot;status&quot;: &quot;photo-hint&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Floorplan shows 1 bedroom on the ground floor (Bedroom/Playroom)&quot;,
+      &quot;label&quot;: &quot;Ground-floor bedroom&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Largest living area is 11.8 ft (Front Reception, floor-plan) \u2014 below the 15 ft mark&quot;,
+      &quot;label&quot;: &quot;Wide living room&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Dining Room measures 13.4 x 10.2 ft (137 sq ft) on the floor plan, a separate room from the Front Reception \u2014 room for a smaller screen or fewer seats; at that size it holds a 74-inch screen with the front row 6.2 ft from it, 1 recliner row of 4 across (9.9 ft of frontage, a four-seat family sofa), 4 seats&quot;,
+      &quot;label&quot;: &quot;Home theatre potential&quot;,
+      &quot;status&quot;: &quot;photo-hint&quot;
+    }
+  ],
+  &quot;overall_verdict&quot;: &quot;Proceed with Caution: Moderate scores, verify key items during survey.&quot;,
+  &quot;planning_summary&quot;: {
+    &quot;_cache&quot;: true,
+    &quot;applications&quot;: [],
+    &quot;properties&quot;: [
+      {
+        &quot;key&quot;: &quot;NC1Y6600DT008&quot;,
+        &quot;text&quot;: &quot;36 Milton Avenue Barnet EN5 2EX&quot;,
+        &quot;url&quot;: &quot;https://publicaccess.barnet.gov.uk/online-applications/propertyDetails.do?activeTab=summary&amp;keyVal=NC1Y6600DT008&quot;
+      }
+    ],
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;price_display&quot;: &quot;\u00a3825,000&quot;,
+  &quot;price_per_sq_ft&quot;: 626.4,
+  &quot;property_id&quot;: &quot;74357847&quot;,
+  &quot;property_images&quot;: [
+    &quot;https://lid.zoocdn.com/u/1024/768/bb46e135f877c179a8d523d27bd7f115ba83be0f.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/c5308eb28179cba90a548651abe39b08b2fb9977.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/8d3e2b7a4a021fd108b77d77f06cb7e1f8a26051.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/8834485b53db6f24bd69b1268ffb6c2523bc72b8.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/33d9e51417c4fb5336ed3a49c5a9ee091efcee76.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/385bcc5d915425fc4e7a0f654a5cec8ff95189e3.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/e8bee2bf6ccfde6f07c0dc36e5060682000c3974.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/93274eadc07bcd00b1b07e32723b148c409668ee.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/f909741835ae4661b34bb3189636adac5e084de7.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/deab008115e28e8c0ee67bf00906f38ee18aff48.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/3cab5c4dc75ab7c9b21b47c7f86ebae80551c9d0.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/f628ad7e005ea44eaf16a295514f57d5a2b1bfb2.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/56466c44c79992f5d5204d4da6bbfbe47bf5cca7.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/0ab0761f58510d144adfa9b926ceaaa429e44323.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/ccdce5c9c05d04776b38a43562439d7f984a6192.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/cd78e5deba409982a09caa613f82feed4b68989d.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/321f42bdbf93484c2607714cf44736e121bfb622.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/5efe968f8d7389bf3fcac7b8d2263eb60d1814cb.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/8031ab54216a81f5adc4140b31f0ead6fb0d0753.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/ba37ea34d7ab64b6fe09351b72ced17baa2dea21.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/c792a1399faa2c01f16c6e11009629ba3bb25413.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/ac4247d9c2f2bbbddde537eb73b396b689006d85.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/ada65c7dd92cc56ce6bb4b33324889dc4ecb0e59.jpg&quot;
+  ],
+  &quot;property_type&quot;: &quot;4 bed semi-detached house for sale&quot;,
+  &quot;size_sq_ft&quot;: 1317.0,
+  &quot;size_sq_m&quot;: 122.4,
+  &quot;station_distance_miles&quot;: 0.35,
+  &quot;station_distance_source&quot;: &quot;routed&quot;,
+  &quot;tenure&quot;: &quot;Freehold&quot;,
+  &quot;walk_time_minutes&quot;: 7
+}</pre>
+  </details>
+
+  <div class="foot"><div><a href="lancaster-road-barnet-hertfordshire-en4.html">← Lancaster Road</a></div><div><a href="raydean-road-new-barnet-barnet-en5.html">→ Raydean Road</a></div></div>
+
+  <p class="note" style="margin-top:26px">Generated 2026-10-01 from
+  <code>reviews/property_reviews.json</code>. Map data &copy;
+  <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</p>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
+<script>window.__PINS__ = [{"id": "74357847", "lat": 51.649124, "lon": -0.197479, "addr": "Milton Avenue", "price": "\u00a3825,000", "sqft": "1,317", "epc": "F", "score": 51.9, "colour": "#b75a18", "tags": ["Great Transport Links"], "tag_html": "<span class=\"badge tag-transport\">Great Transport Links<\/span>", "href": "#"}];</script>
+<script>window.__SLIDES__ = ["https://lid.zoocdn.com/u/1024/768/bb46e135f877c179a8d523d27bd7f115ba83be0f.jpg", "https://lid.zoocdn.com/u/1024/768/c5308eb28179cba90a548651abe39b08b2fb9977.jpg", "https://lid.zoocdn.com/u/1024/768/8d3e2b7a4a021fd108b77d77f06cb7e1f8a26051.jpg", "https://lid.zoocdn.com/u/1024/768/8834485b53db6f24bd69b1268ffb6c2523bc72b8.jpg", "https://lid.zoocdn.com/u/1024/768/33d9e51417c4fb5336ed3a49c5a9ee091efcee76.jpg", "https://lid.zoocdn.com/u/1024/768/385bcc5d915425fc4e7a0f654a5cec8ff95189e3.jpg", "https://lid.zoocdn.com/u/1024/768/e8bee2bf6ccfde6f07c0dc36e5060682000c3974.jpg", "https://lid.zoocdn.com/u/1024/768/93274eadc07bcd00b1b07e32723b148c409668ee.jpg", "https://lid.zoocdn.com/u/1024/768/f909741835ae4661b34bb3189636adac5e084de7.jpg", "https://lid.zoocdn.com/u/1024/768/deab008115e28e8c0ee67bf00906f38ee18aff48.jpg", "https://lid.zoocdn.com/u/1024/768/3cab5c4dc75ab7c9b21b47c7f86ebae80551c9d0.jpg", "https://lid.zoocdn.com/u/1024/768/f628ad7e005ea44eaf16a295514f57d5a2b1bfb2.jpg", "https://lid.zoocdn.com/u/1024/768/56466c44c79992f5d5204d4da6bbfbe47bf5cca7.jpg", "https://lid.zoocdn.com/u/1024/768/0ab0761f58510d144adfa9b926ceaaa429e44323.jpg", "https://lid.zoocdn.com/u/1024/768/ccdce5c9c05d04776b38a43562439d7f984a6192.jpg", "https://lid.zoocdn.com/u/1024/768/cd78e5deba409982a09caa613f82feed4b68989d.jpg", "https://lid.zoocdn.com/u/1024/768/321f42bdbf93484c2607714cf44736e121bfb622.jpg", "https://lid.zoocdn.com/u/1024/768/5efe968f8d7389bf3fcac7b8d2263eb60d1814cb.jpg", "https://lid.zoocdn.com/u/1024/768/8031ab54216a81f5adc4140b31f0ead6fb0d0753.jpg", "https://lid.zoocdn.com/u/1024/768/ba37ea34d7ab64b6fe09351b72ced17baa2dea21.jpg", "https://lid.zoocdn.com/u/1024/768/c792a1399faa2c01f16c6e11009629ba3bb25413.jpg", "https://lid.zoocdn.com/u/1024/768/ac4247d9c2f2bbbddde537eb73b396b689006d85.jpg", "https://lid.zoocdn.com/u/1024/768/ada65c7dd92cc56ce6bb4b33324889dc4ecb0e59.jpg"];</script>
+<script>
+(function () {
+  var el = document.getElementById('map');
+  if (!el || typeof L === 'undefined') { return; }
+  var data = window.__PINS__ || [];
+  if (!data.length || data[0].lat === null) { el.style.display = 'none'; return; }
+  var map = L.map('map', { scrollWheelZoom: false, dragging: false,
+                           doubleClickZoom: false, boxZoom: false,
+                           keyboard: false, zoomControl: false });
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  var group = L.featureGroup().addTo(map);
+  data.forEach(function (p) {
+    if (p.lat === null) { return; }
+    L.circleMarker([p.lat, p.lon], { radius: 10, color: '#ffffff', weight: 3,
+                                     fillColor: p.colour, fillOpacity: 0.95 }).addTo(group);
+  });
+  if (group.getBounds().isValid()) { map.fitBounds(group.getBounds().pad(0.35)); }
+  L.control.attribution({ prefix: false }).addTo(map);
+})();
+</script>
+<script>
+(function () {
+  var shots = window.__SLIDES__ || [];
+  var img = document.getElementById('slide-img');
+  var link = document.getElementById('slide-link');
+  var prev = document.getElementById('slide-prev');
+  var next = document.getElementById('slide-next');
+  var num = document.getElementById('slide-n');
+  if (!img || !link || shots.length < 2) {
+    if (prev) { prev.disabled = true; }
+    if (next) { next.disabled = true; }
+    return;
+  }
+  var at = 0;
+
+  function show(i) {
+    at = (i + shots.length) % shots.length;
+    img.src = shots[at];
+    img.alt = 'Listing photo ' + (at + 1) + ' of ' + shots.length +
+              ' — open full size';
+    link.href = shots[at];
+    if (num) { num.textContent = String(at + 1); }
+  }
+
+  // Only the neighbours are warmed: a 34-photo listing at 136 KB each is
+  // 4.6 MB if the whole gallery is fetched up front, for images the reader may
+  // never scroll to.
+  function warm() {
+    [at + 1, at - 1].forEach(function (k) {
+      var j = (k + shots.length) % shots.length;
+      if (j !== at) { new Image().src = shots[j]; }
+    });
+  }
+
+  prev.addEventListener('click', function () { show(at - 1); warm(); });
+  next.addEventListener('click', function () { show(at + 1); warm(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) { return; }
+    if (e.key === 'ArrowLeft') { show(at - 1); warm(); }
+    if (e.key === 'ArrowRight') { show(at + 1); warm(); }
+  });
+  show(0);
+  warm();
+})();
+</script>
+</body></html>

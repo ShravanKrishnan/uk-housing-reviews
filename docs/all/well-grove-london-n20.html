@@ -1,0 +1,1327 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Well Grove — review</title>
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <h1>Well Grove</h1>
+  <p class="sub">Well Grove, London N20</p>
+  <nav class="crumbs"><a href="../index.html">← Back to the map</a> &middot;
+  <a href="../index.html#all-rank-9">Rank #9 of All properties</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="panel">
+    <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between">
+      <div>
+        <span class="pill" style="background:#c2760a">60.5 Score</span>
+        <span class="badge tag-transport">Great Transport Links</span><span class="badge tag-systems">Modern Systems</span>
+      </div>
+      <div style="font-size:13px;color:var(--muted)">
+        9 of 164 &middot; score 60.5
+      </div>
+    </div>
+    <div class="verdict">Solid Contender: Well-balanced property with good technical credentials.</div>
+  </div>
+
+  <h3>At a glance</h3>
+  <div class="grid"><div class="stat"><div class="k">Asking price</div><div class="v">£1,125,000</div></div><div class="stat"><div class="k">Property type</div><div class="v">4 bed semi-detached house for sale</div></div><div class="stat"><div class="k">Tenure</div><div class="v">Freehold</div></div><div class="stat"><div class="k">Size</div><div class="v">1,812 sq ft / 168.3 m²</div></div><div class="stat"><div class="k">Price per sq ft</div><div class="v">£620.9</div></div><div class="stat"><div class="k">Bedrooms</div><div class="v">4</div></div><div class="stat"><div class="k">Bathrooms</div><div class="v">2</div></div><div class="stat"><div class="k">Living rooms</div><div class="v">2</div></div><div class="stat"><div class="k">EPC (current / potential)</div><div class="v">B / B</div></div><div class="stat"><div class="k">Nearest station</div><div class="v">Totteridge &amp; Whetstone · 0.8 mi · ~16 min walk</div></div><div class="stat wide"><div class="k">Commute to Liverpool St</div><div class="v">39 min (Great Northern direct to Moorgate (24 min) + 4 min walk via integrated Elizabeth line concourse to Liverpool St)</div></div><div class="stat wide"><div class="k">Commute to King&#x27;s Cross</div><div class="v">28 min (Great Northern direct to King&#x27;s Cross St Pancras (17 min))</div></div></div>
+
+  <h3>Nice-to-haves</h3>
+  <div class="panel">
+    <table class="nice">
+      <thead><tr><th>Signal</th><th>Status</th><th>Detail</th></tr></thead>
+      <tbody><tr><td>Air conditioning</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned; UK EPCs do not record domestic cooling</td></tr><tr><td>Underfloor heating</td><td><span class="nh-status nh-stated">stated</span></td><td>Attested on the EPC certificate</td></tr><tr><td>South-facing garden</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Floor-plan north arrow puts the garden north (not south)</td></tr><tr><td>Sun roof / lantern in living areas</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned and no overhead glazing seen in photos</td></tr><tr><td>Ground-floor bedroom</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>No ground-floor bedroom or convertible room mentioned</td></tr><tr><td>Wide living room</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Kitchen/Dining Room measures 16.7 ft at its widest (floor-plan) — clears the 15 ft mark</td></tr><tr><td>Home theatre potential</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>No cinema or media room mentioned, and no other room on the plan is large enough to be one</td></tr></tbody>
+    </table>
+  </div>
+
+<div class="panel"><h2>Photos — 16</h2><div class="slides" id="slides"><div class="slide-frame"><a id="slide-link" href="https://lid.zoocdn.com/u/1024/768/09901e567ca0dbefe64affac13f52706e9672a31.jpg" rel="noopener"><img id="slide-img" src="https://lid.zoocdn.com/u/1024/768/09901e567ca0dbefe64affac13f52706e9672a31.jpg" alt="Listing photo 1 of 16 — open full size" loading="lazy"></a><button type="button" class="slide-nav prev" id="slide-prev" aria-label="Previous photo">&#8249;</button><button type="button" class="slide-nav next" id="slide-next" aria-label="Next photo">&#8250;</button><span class="slide-badge"><span id="slide-n">1</span> / 16</span></div></div><p class="note" style="margin-top:8px">Arrow keys page through the gallery; click a photo to open it full size. These are the listing's own photographs, at the highest resolution its image host serves.</p></div>
+
+  <div class="layout">
+    <div class="panel sticky">
+      <h2>Where it is</h2>
+      <div id="map" style="height:330px;border-radius:8px"></div>
+      <p class="note" style="margin-top:10px">
+        Pin is the listing's own coordinates. Map tiles are OpenStreetMap.
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=51.634798,-0.174195" rel="noopener">Open in Google Maps →</a>
+        &middot; <a href="https://www.openstreetmap.org/?mlat=51.634798&amp;mlon=-0.174195#map=18/51.634798/-0.174195" rel="noopener">Open in OpenStreetMap →</a>
+        &middot; <a href="https://www.zoopla.co.uk/for-sale/details/73852469/" rel="noopener">Zoopla listing →</a>
+      </p>
+    </div>
+    <div class="panel">
+      <h2>Floorplan analysis</h2>
+      <a href="https://lid.zoocdn.com/u/1024/768/f9347aa4c9229b9bc2c405d66a9bf28364f286c9.jpg" rel="noopener"><img class="plan" src="https://lid.zoocdn.com/u/1024/768/f9347aa4c9229b9bc2c405d66a9bf28364f286c9.jpg" alt="Floor plan for Well Grove, London N20" loading="lazy"></a><p class="note">13 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are listed without one. <a href="https://lid.zoocdn.com/u/1024/768/f9347aa4c9229b9bc2c405d66a9bf28364f286c9.jpg" rel="noopener">Open the full-size plan →</a></p><table class="nice compact"><thead><tr><th>Room</th><th>Type</th><th>Floor</th><th>Dimensions</th><th>Area</th></tr></thead><tbody><tr><td>Garden</td><td>garden</td><td>ground</td><td class="num">13.5 &times; 5.6 ft</td><td class="num">76 sq ft</td></tr><tr><td>Kitchen/Dining Room</td><td>kitchen</td><td>ground</td><td class="num">16.7 &times; 16.7 ft</td><td class="num">279 sq ft</td></tr><tr><td>Living Room</td><td>living</td><td>ground</td><td class="num">17.7 &times; 13.3 ft</td><td class="num">235 sq ft</td></tr><tr><td>W.C</td><td>bathroom</td><td>ground</td><td class="num">6.2 &times; 4.2 ft</td><td class="num">26 sq ft</td></tr><tr><td>Utility</td><td>utility</td><td>ground</td><td class="num">4.3 &times; 3.2 ft</td><td class="num">14 sq ft</td></tr><tr><td>Bathroom</td><td>bathroom</td><td>ground</td><td class="num">9.7 &times; 7 ft</td><td class="num">68 sq ft</td></tr><tr><td>Hallway</td><td>circulation</td><td>ground</td><td class="num">12.2 &times; 5.3 ft</td><td class="num">65 sq ft</td></tr><tr><td>Bedroom</td><td>bedroom</td><td>first</td><td class="num">14.7 &times; 9.7 ft</td><td class="num">143 sq ft</td></tr><tr><td>Bedroom</td><td>bedroom</td><td>first</td><td class="num">10.7 &times; 7.3 ft</td><td class="num">78 sq ft</td></tr><tr><td>Dressing Room</td><td>other</td><td>second</td><td class="num">11.7 &times; 8.7 ft</td><td class="num">102 sq ft</td></tr><tr><td>En-suite</td><td>bathroom</td><td>second</td><td class="num">10.7 &times; 7 ft</td><td class="num">75 sq ft</td></tr><tr><td>Bedroom</td><td>bedroom</td><td>second</td><td class="num">21.3 &times; 13.2 ft</td><td class="num">281 sq ft</td></tr><tr><td>Bedroom</td><td>bedroom</td><td>first</td><td class="num">16.8 &times; 10.2 ft</td><td class="num">171 sq ft</td></tr></tbody></table>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-top:22px">
+    <h2>Score breakdown — 60.5/100</h2>
+    <div class="bar-row with-evidence"><span class="lbl">Location &amp; transport</span><span class="bar"><i style="width:77.5%;background:#a8322d"></i></span><span class="num">15.5</span><ul class="ticks compact"><li><span class="tick">✓</span>Nearest station Oakleigh Park 11 min walk (0.50 mi routed walk) (+4)</li><li><span class="tick">✓</span>2 stations within 0.8 mi — Oakleigh Park 11 min walk, Totteridge &amp; Whetstone 16 min walk — commuting resilience (+3.5)</li><li><span class="tick">✓</span>2 transit lines within walk — Great Northern via Oakleigh Park 11 min walk; Northern via Totteridge &amp; Whetstone 16 min walk — broad Central London access (+2)</li><li><span class="tick">✓</span>Night Tube / 24h service at Totteridge &amp; Whetstone (+1.5)</li><li><span class="tick">✓</span>Fast Liverpool St commute: ~39 mins door-to-concourse via Oakleigh Park (11m walk + 24m rail) (+2.5)</li><li><span class="tick">✓</span>King&#x27;s Cross St Pancras commute ~28 mins via Oakleigh Park (+2)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Space, scale &amp; layout</span><span class="bar"><i style="width:57.5%;background:#a8322d"></i></span><span class="num">11.5</span><ul class="ticks compact"><li><span class="tick">✓</span>Square footage taken from floor plan (image analysis)</li><li><span class="tick">✓</span>Generous proportions: 1,812.0 sq ft total (453 sq ft/bed) (+5.5)</li><li><span class="tick">✓</span>Well balanced bathroom ratio (2 baths for 4 beds) (+2)</li><li><span class="tick">✓</span>Two or more reception rooms (2) (+1)</li><li><span class="tick">✓</span>Wide living room: Kitchen/Dining Room 16.7 ft (floorplan) (+3)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Financial efficiency</span><span class="bar"><i style="width:50.0%;background:#a8322d"></i></span><span class="num">7.5</span><ul class="ticks compact"><li><span class="tick">✓</span>£621 per sq ft on 1,812 sq ft (+3.8 of 7.5)</li><li><span class="tick">✓</span>£1,125,000 asking price (+3.7 of 7.5)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Technical &amp; EPC</span><span class="bar"><i style="width:95.0%;background:#a8322d"></i></span><span class="num">19.0</span><ul class="ticks compact"><li><span class="tick">✓</span>EPC Band B (9) + no secondary heating (1) + zone control (1.5) + insulated roof (2) + insulated floor (2) + high-performance glazing (1.75) (+10 of 10)</li><li><span class="tick">✓</span>Underfloor heating present (+5)</li><li><span class="tick">✓</span>EPC: room-in-roof conversion recorded (average thermal transmittance 0.11 w/m²k) (+4)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Observed presentation</span><span class="bar"><i style="width:46.7%;background:#a8322d"></i></span><span class="num">7.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Presented finish observed as refurbished in listing photographs (image analysis) (+5.5 of 7)</li><li><span class="tick">✓</span>Exterior &amp; garden rated standard in listing photographs (image analysis) (+1.5 of 3)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Garden &amp; outdoor</span><span class="bar"><i style="width:0.0%;background:#a8322d"></i></span><span class="num">0.0</span><p class="note compact">No evidence detected for this component — it scores on the absence of contrary findings.</p></div>
+    <p class="note">The combined score rewards location, space, financial efficiency,
+    technical specification, observed presentation, and garden quality. Every line
+    lists the evidence that earned it, so a component cannot be read as a verdict
+    without the reason attached.</p>
+  </div>
+
+  <h3>Land Registry</h3>
+  <div class="panel">
+    <p><strong>£999,500 on 2017-09-29<br><span class="note">First recorded sale: 2017-09-29</span></strong></p>
+    <p>£556/sq ft median (range £430–£784), from 60 of 63 local sales (95% priced). <span class="note">Floor area is borrowed from the EPC extract (epc_bulk total_floor_area) because sale records carry none; small samples are heavy-tailed, so the median is used and withheld below 5 priced sales.</span></p>
+    <p class="note">63 raw sale record(s) exist in this postcode. They are the neighbourhood's history, not this home's, and are deliberately not presented as its own.</p>
+    <p class="note">Scope <code>address</code> — sale history is only ever
+    attributed to this home when a house number was derived and matched.</p>
+  </div>
+
+  <h3>Planning</h3>
+  <div class="panel"><p class="note">Planning lookup status: <code>error</code>. No planning history is asserted for this property.</p></div>
+
+  <div style="margin-top:22px">
+    <div class="panel"><h2>Photographic evidence reviewed for the score</h2><p class="note">Points are awarded only for detected listing, EPC, or photographic evidence, and each component above lists what it found. Systems without such evidence score zero and are omitted rather than listed as inspection tasks. These notes record what the photos did and did not show.</p><ul class="ticks"><li>17 property photo(s) analysed by local vision model (Qwen3-VL)</li><li>Photographic-evidence score: 38.7/100 (high confidence; condition 30/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 5.7/10)</li><li>Floor-plan internal area read from the plan: 1,812 sq ft (scoring measure)</li><li>Condition tier inferred from photos: refurbished</li><li>Not captured in the photos: bathrooms, extension evidence, garden aspect, kitchen, parking, roof (…)</li></ul></div>
+  </div>
+
+  <div class="gaps"><strong>What is not verified here</strong><ul><li>Enrichment fetch failed: planning</li></ul></div>
+
+  <details class="raw">
+    <summary>Raw review record (JSON)</summary>
+    <pre>{
+  &quot;asking_price&quot;: 1125000,
+  &quot;bathrooms&quot;: 2,
+  &quot;bedrooms&quot;: 4,
+  &quot;combined_score&quot;: {
+    &quot;detected_features&quot;: [
+      &quot;Nearest station Oakleigh Park 11 min walk (0.50 mi routed walk) (+4)&quot;,
+      &quot;2 stations within 0.8 mi \u2014 Oakleigh Park 11 min walk, Totteridge &amp; Whetstone 16 min walk \u2014 commuting resilience (+3.5)&quot;,
+      &quot;2 transit lines within walk \u2014 Great Northern via Oakleigh Park 11 min walk; Northern via Totteridge &amp; Whetstone 16 min walk \u2014 broad Central London access (+2)&quot;,
+      &quot;Night Tube / 24h service at Totteridge &amp; Whetstone (+1.5)&quot;,
+      &quot;Fast Liverpool St commute: ~39 mins door-to-concourse via Oakleigh Park (11m walk + 24m rail) (+2.5)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~28 mins via Oakleigh Park (+2)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Generous proportions: 1,812.0 sq ft total (453 sq ft/bed) (+5.5)&quot;,
+      &quot;Well balanced bathroom ratio (2 baths for 4 beds) (+2)&quot;,
+      &quot;Two or more reception rooms (2) (+1)&quot;,
+      &quot;Wide living room: Kitchen/Dining Room 16.7 ft (floorplan) (+3)&quot;,
+      &quot;\u00a3621 per sq ft on 1,812 sq ft (+3.8 of 7.5)&quot;,
+      &quot;\u00a31,125,000 asking price (+3.7 of 7.5)&quot;,
+      &quot;EPC Band B (9) + no secondary heating (1) + zone control (1.5) + insulated roof (2) + insulated floor (2) + high-performance glazing (1.75) (+10 of 10)&quot;,
+      &quot;Underfloor heating present (+5)&quot;,
+      &quot;EPC: room-in-roof conversion recorded (average thermal transmittance 0.11 w/m\u00b2k) (+4)&quot;,
+      &quot;Presented finish observed as refurbished in listing photographs (image analysis) (+5.5 of 7)&quot;,
+      &quot;Exterior &amp; garden rated standard in listing photographs (image analysis) (+1.5 of 3)&quot;
+    ],
+    &quot;evidence&quot;: {
+      &quot;financial_efficiency&quot;: [
+        &quot;\u00a3621 per sq ft on 1,812 sq ft (+3.8 of 7.5)&quot;,
+        &quot;\u00a31,125,000 asking price (+3.7 of 7.5)&quot;
+      ],
+      &quot;location_transport&quot;: [
+        &quot;Nearest station Oakleigh Park 11 min walk (0.50 mi routed walk) (+4)&quot;,
+        &quot;2 stations within 0.8 mi \u2014 Oakleigh Park 11 min walk, Totteridge &amp; Whetstone 16 min walk \u2014 commuting resilience (+3.5)&quot;,
+        &quot;2 transit lines within walk \u2014 Great Northern via Oakleigh Park 11 min walk; Northern via Totteridge &amp; Whetstone 16 min walk \u2014 broad Central London access (+2)&quot;,
+        &quot;Night Tube / 24h service at Totteridge &amp; Whetstone (+1.5)&quot;,
+        &quot;Fast Liverpool St commute: ~39 mins door-to-concourse via Oakleigh Park (11m walk + 24m rail) (+2.5)&quot;,
+        &quot;King&#x27;s Cross St Pancras commute ~28 mins via Oakleigh Park (+2)&quot;
+      ],
+      &quot;observed_presentation&quot;: [
+        &quot;Presented finish observed as refurbished in listing photographs (image analysis) (+5.5 of 7)&quot;,
+        &quot;Exterior &amp; garden rated standard in listing photographs (image analysis) (+1.5 of 3)&quot;
+      ],
+      &quot;space_layout&quot;: [
+        &quot;Square footage taken from floor plan (image analysis)&quot;,
+        &quot;Generous proportions: 1,812.0 sq ft total (453 sq ft/bed) (+5.5)&quot;,
+        &quot;Well balanced bathroom ratio (2 baths for 4 beds) (+2)&quot;,
+        &quot;Two or more reception rooms (2) (+1)&quot;,
+        &quot;Wide living room: Kitchen/Dining Room 16.7 ft (floorplan) (+3)&quot;
+      ],
+      &quot;technical_epc&quot;: [
+        &quot;EPC Band B (9) + no secondary heating (1) + zone control (1.5) + insulated roof (2) + insulated floor (2) + high-performance glazing (1.75) (+10 of 10)&quot;,
+        &quot;Underfloor heating present (+5)&quot;,
+        &quot;EPC: room-in-roof conversion recorded (average thermal transmittance 0.11 w/m\u00b2k) (+4)&quot;
+      ]
+    },
+    &quot;financial_efficiency&quot;: 7.5,
+    &quot;garden_outdoor&quot;: 0.0,
+    &quot;location_transport&quot;: 15.5,
+    &quot;notes&quot;: [
+      &quot;Nearest station Oakleigh Park 11 min walk (0.50 mi routed walk) (+4)&quot;,
+      &quot;2 stations within 0.8 mi \u2014 Oakleigh Park 11 min walk, Totteridge &amp; Whetstone 16 min walk \u2014 commuting resilience (+3.5)&quot;,
+      &quot;2 transit lines within walk \u2014 Great Northern via Oakleigh Park 11 min walk; Northern via Totteridge &amp; Whetstone 16 min walk \u2014 broad Central London access (+2)&quot;,
+      &quot;Night Tube / 24h service at Totteridge &amp; Whetstone (+1.5)&quot;,
+      &quot;Fast Liverpool St commute: ~39 mins door-to-concourse via Oakleigh Park (11m walk + 24m rail) (+2.5)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~28 mins via Oakleigh Park (+2)&quot;,
+      &quot;Square footage taken from floor plan (image analysis)&quot;,
+      &quot;Generous proportions: 1,812.0 sq ft total (453 sq ft/bed) (+5.5)&quot;,
+      &quot;Well balanced bathroom ratio (2 baths for 4 beds) (+2)&quot;,
+      &quot;Two or more reception rooms (2) (+1)&quot;,
+      &quot;EPC Band B&quot;,
+      &quot;Top-tier energy efficiency (substantially lower running costs)&quot;
+    ],
+    &quot;observed_presentation&quot;: 7.0,
+    &quot;space_layout&quot;: 11.5,
+    &quot;tags&quot;: [
+      &quot;Great Transport Links&quot;,
+      &quot;Modern Systems&quot;
+    ],
+    &quot;technical_epc&quot;: 19.0,
+    &quot;total_score&quot;: 60.5,
+    &quot;vision_facts&quot;: [
+      &quot;17 property photo(s) analysed by local vision model (Qwen3-VL)&quot;,
+      &quot;Photographic-evidence score: 38.7/100 (high confidence; condition 30/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 5.7/10)&quot;,
+      &quot;Floor-plan internal area read from the plan: 1,812 sq ft (scoring measure)&quot;,
+      &quot;Condition tier inferred from photos: refurbished&quot;,
+      &quot;Not captured in the photos: bathrooms, extension evidence, garden aspect, kitchen, parking, roof (\u2026)&quot;
+    ]
+  },
+  &quot;data_gaps&quot;: [
+    &quot;Enrichment fetch failed: planning&quot;
+  ],
+  &quot;epc_potential&quot;: &quot;B&quot;,
+  &quot;epc_rating&quot;: &quot;B&quot;,
+  &quot;floorplan_image_url&quot;: &quot;https://lid.zoocdn.com/u/1024/768/f9347aa4c9229b9bc2c405d66a9bf28364f286c9.jpg&quot;,
+  &quot;floorplan_rooms&quot;: [
+    {
+      &quot;area_sq_ft&quot;: 76,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;garden&quot;,
+      &quot;label&quot;: &quot;Garden&quot;,
+      &quot;length_ft&quot;: 13.5,
+      &quot;width_ft&quot;: 5.6
+    },
+    {
+      &quot;area_sq_ft&quot;: 279,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;kitchen&quot;,
+      &quot;label&quot;: &quot;Kitchen/Dining Room&quot;,
+      &quot;length_ft&quot;: 16.7,
+      &quot;width_ft&quot;: 16.7
+    },
+    {
+      &quot;area_sq_ft&quot;: 235,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;living&quot;,
+      &quot;label&quot;: &quot;Living Room&quot;,
+      &quot;length_ft&quot;: 17.7,
+      &quot;width_ft&quot;: 13.3
+    },
+    {
+      &quot;area_sq_ft&quot;: 26,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;bathroom&quot;,
+      &quot;label&quot;: &quot;W.C&quot;,
+      &quot;length_ft&quot;: 6.2,
+      &quot;width_ft&quot;: 4.2
+    },
+    {
+      &quot;area_sq_ft&quot;: 14,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;utility&quot;,
+      &quot;label&quot;: &quot;Utility&quot;,
+      &quot;length_ft&quot;: 4.3,
+      &quot;width_ft&quot;: 3.2
+    },
+    {
+      &quot;area_sq_ft&quot;: 68,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;bathroom&quot;,
+      &quot;label&quot;: &quot;Bathroom&quot;,
+      &quot;length_ft&quot;: 9.7,
+      &quot;width_ft&quot;: 7.0
+    },
+    {
+      &quot;area_sq_ft&quot;: 65,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;circulation&quot;,
+      &quot;label&quot;: &quot;Hallway&quot;,
+      &quot;length_ft&quot;: 12.2,
+      &quot;width_ft&quot;: 5.3
+    },
+    {
+      &quot;area_sq_ft&quot;: 143,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom&quot;,
+      &quot;length_ft&quot;: 14.7,
+      &quot;width_ft&quot;: 9.7
+    },
+    {
+      &quot;area_sq_ft&quot;: 78,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom&quot;,
+      &quot;length_ft&quot;: 10.7,
+      &quot;width_ft&quot;: 7.3
+    },
+    {
+      &quot;area_sq_ft&quot;: 102,
+      &quot;floor&quot;: &quot;second&quot;,
+      &quot;kind&quot;: &quot;other&quot;,
+      &quot;label&quot;: &quot;Dressing Room&quot;,
+      &quot;length_ft&quot;: 11.7,
+      &quot;width_ft&quot;: 8.7
+    },
+    {
+      &quot;area_sq_ft&quot;: 75,
+      &quot;floor&quot;: &quot;second&quot;,
+      &quot;kind&quot;: &quot;bathroom&quot;,
+      &quot;label&quot;: &quot;En-suite&quot;,
+      &quot;length_ft&quot;: 10.7,
+      &quot;width_ft&quot;: 7.0
+    },
+    {
+      &quot;area_sq_ft&quot;: 281,
+      &quot;floor&quot;: &quot;second&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom&quot;,
+      &quot;length_ft&quot;: 21.3,
+      &quot;width_ft&quot;: 13.2
+    },
+    {
+      &quot;area_sq_ft&quot;: 171,
+      &quot;floor&quot;: &quot;first&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom&quot;,
+      &quot;length_ft&quot;: 16.8,
+      &quot;width_ft&quot;: 10.2
+    }
+  ],
+  &quot;full_address&quot;: &quot;Well Grove, London N20&quot;,
+  &quot;kings_cross_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Top Tier (&lt;35m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 17,
+    &quot;route_summary&quot;: &quot;Great Northern direct to King&#x27;s Cross St Pancras (17 min)&quot;,
+    &quot;secondary_route&quot;: &quot;Totteridge &amp; Whetstone (0.8 mi, ~16m walk) \u2794 London Underground (Northern line - Bank branch) (29m rail) = ~45m total&quot;,
+    &quot;station_distance_miles&quot;: 0.501,
+    &quot;station_name&quot;: &quot;Oakleigh Park&quot;,
+    &quot;total_commute_minutes&quot;: 28,
+    &quot;transfer_minutes&quot;: 0,
+    &quot;transit_line&quot;: &quot;Great Northern (National Rail)&quot;,
+    &quot;walk_time_minutes&quot;: 11
+  },
+  &quot;land_registry_summary&quot;: {
+    &quot;_cache&quot;: true,
+    &quot;area_benchmark&quot;: {
+      &quot;area_source&quot;: &quot;epc_bulk total_floor_area&quot;,
+      &quot;coverage_pct&quot;: 95,
+      &quot;high_gbp_sqft&quot;: 784,
+      &quot;low_gbp_sqft&quot;: 430,
+      &quot;median_gbp_sqft&quot;: 556,
+      &quot;of_sales&quot;: 63,
+      &quot;sample&quot;: 60
+    },
+    &quot;first_sale_date&quot;: &quot;2017-09-29&quot;,
+    &quot;last_sale_date&quot;: &quot;2017-09-29&quot;,
+    &quot;last_sale_price&quot;: 999500,
+    &quot;number_known&quot;: true,
+    &quot;postcode_sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-03-29&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;46&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 1102500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;3E0330EF-52BA-8D89-E050-A8C062052140&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-06-29&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;41&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 1110000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;47844C7F-572B-8986-E050-A8C063056488&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-06-30&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;39&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 1153000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;47844C7F-56E3-8986-E050-A8C063056488&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-06-30&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;40&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 995000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;5376B385-04A6-34C1-E053-6B04A8C09FF6&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-06-30&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;50&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 990000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;47844C7F-56E0-8986-E050-A8C063056488&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-06-30&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;43&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 1130000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;4E95D757-149B-EDA1-E050-A8C0630539E2&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-07-01&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;49&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 1110000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;42A5A708-BC5D-56E8-E050-A8C06205331E&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-08-31&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;42&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 995000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;55BDCAE5-8B4A-521D-E053-6B04A8C0DD7A&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-09-28&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;48&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 1025000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;47844C7F-587E-8986-E050-A8C063056488&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-10-21&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;56&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 885000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;49B78529-A5FB-7921-E050-A8C063056E8D&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-11-17&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;38&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 900000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;4C4EDFFE-EE88-1854-E050-A8C063054F34&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-11-22&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;47&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 1110000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;666758D6-740A-3363-E053-6B04A8C0D74E&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-11-25&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;51&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 1100000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;50F18102-A915-9FD5-E050-A8C063054923&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-12-16&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;37&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 1225000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;4E95D757-16B6-EDA1-E050-A8C0630539E2&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-12-22&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;54&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 995000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;55BDCAE5-8B4C-521D-E053-6B04A8C0DD7A&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Additional price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-12-30&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;44&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 995000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;5376B385-03D1-34C1-E053-6B04A8C09FF6&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-01-27&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;52&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 995000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;5376B385-0460-34C1-E053-6B04A8C09FF6&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-03-01&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;33&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 1650000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;55BDCAE5-8B4E-521D-E053-6B04A8C0DD7A&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Additional price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-03-30&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;35&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 1650000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;68FEB20B-1615-38DA-E053-6C04A8C051AE&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-03-30&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;34&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 995000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;55BDCAE5-8B62-521D-E053-6B04A8C0DD7A&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-03-31&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;45&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 1100000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;55BDCAE5-8B9F-521D-E053-6B04A8C0DD7A&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-04-28&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;32&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 995000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;5A9D8B54-B659-68EB-E053-6B04A8C0D293&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-04-28&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;36&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 999500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;5F54B81C-A41E-2B45-E053-6B04A8C01FB0&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-04-28&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;28&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 999500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;7011B109-00C3-8ED6-E053-6B04A8C075C1&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-05-19&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;30&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 999500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;5CF9903B-78B7-7F13-E053-6C04A8C074B1&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-06-28&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;31&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 1650000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;5F54B81C-A475-2B45-E053-6B04A8C01FB0&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-09-08&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;29&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 1659000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;64342BFD-B023-422C-E053-6C04A8C0FB8A&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-09-29&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;60&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 999500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;64342BFD-B087-422C-E053-6C04A8C0FB8A&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-09-29&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;58&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 999500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;64342BFD-B088-422C-E053-6C04A8C0FB8A&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-09-29&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;23&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 1100000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;6DA08449-8FCE-30F2-E053-6B04A8C05F3B&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-10-13&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;22&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 999500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;7011B109-00F4-8ED6-E053-6B04A8C075C1&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-10-26&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;26&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 999500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;666758D6-7334-3363-E053-6B04A8C0D74E&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-10-27&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;24&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 989500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;666758D6-736C-3363-E053-6B04A8C0D74E&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-10-30&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;16&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 999500,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;666758D6-740B-3363-E053-6B04A8C0D74E&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-11-03&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;20&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 999500,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;666758D6-73B3-3363-E053-6B04A8C0D74E&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-11-09&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;12&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 999500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;666758D6-743D-3363-E053-6B04A8C0D74E&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-11-17&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;14&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 999500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;6B32222B-E58B-01F1-E053-6C04A8C0D2C8&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-11-17&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;18&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 989500,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;666758D6-7401-3363-E053-6B04A8C0D74E&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-12-15&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;8&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 975000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;68FEB20B-1519-38DA-E053-6C04A8C051AE&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-12-15&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;10&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 999500,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;6B32222B-E43E-01F1-E053-6C04A8C0D2C8&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-12-21&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;68&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 994500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;68FEB20B-1514-38DA-E053-6C04A8C051AE&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-12-22&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;66&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 999500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;7011B109-00D2-8ED6-E053-6B04A8C075C1&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2018-01-22&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;64&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 999500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;68FEB20B-15D0-38DA-E053-6C04A8C051AE&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2018-01-22&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;62&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 999500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;68FEB20B-15DD-38DA-E053-6C04A8C051AE&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2018-02-02&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;17&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 1510000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;7C2D06FF-A159-4963-E053-6B04A8C07B97&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2018-03-02&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;21&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 1450000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;6B32222B-E5D5-01F1-E053-6C04A8C0D2C8&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2018-03-22&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;6&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 980000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;7011B109-004B-8ED6-E053-6B04A8C075C1&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2018-03-28&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;27&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 1570000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;726BF13A-56FF-0A46-E053-6C04A8C01D0D&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2018-03-29&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;19&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 1540000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;79A74E21-1440-1289-E053-6B04A8C01627&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2018-11-16&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;25&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 1650000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;7E86B6FA-7132-458C-E053-6B04A8C0C84C&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2022-03-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;HILLIER COURT, 53&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 460000,
+        &quot;property_type&quot;: &quot;flat-maisonette&quot;,
+        &quot;saon&quot;: &quot;FLAT 7&quot;,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;E7B085FB-BC48-7E31-E053-6C04A8C0E67F&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2022-08-22&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;14&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 1140000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;F3B6C197-A9AF-6E40-E053-6C04A8C0B3B4&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2023-08-24&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;12&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 1050000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;09266DDB-794C-AF90-E063-4704A8C02087&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2024-01-05&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;47&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 1300000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;1775CCF6-D958-38BA-E063-4704A8C05A7C&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2024-02-29&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;40&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 1045000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;1EAE3DF6-2201-9EB1-E063-4704A8C09D02&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2024-03-08&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;HILLIER COURT, 53&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 400000,
+        &quot;property_type&quot;: &quot;flat-maisonette&quot;,
+        &quot;saon&quot;: &quot;FLAT 8&quot;,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;36A61A94-3DBC-DEF2-E063-4704A8C046AE&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2024-05-22&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;20&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 1105000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;25E9DA80-57BE-555E-E063-4704A8C066F2&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2024-08-16&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;52&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 1085000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;2131FCF5-A7F5-86E8-E063-4804A8C0372B&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2024-12-13&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;17&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 1800000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;2F7F2B42-9FEB-E08F-E063-4804A8C05A49&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2025-03-28&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;HILLIER COURT, 53&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 500000,
+        &quot;property_type&quot;: &quot;flat-maisonette&quot;,
+        &quot;saon&quot;: &quot;FLAT 10&quot;,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;36A61A94-3DC4-DEF2-E063-4704A8C046AE&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2025-07-21&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;26&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 1045000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;4777E0AE-47F7-5D59-E063-4804A8C09F8E&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2025-07-22&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;68&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 1150000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;3DCCB7C9-93B6-5B9D-E063-4704A8C0331E&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2026-06-24&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;50&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 1115000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;5834E4E8-5D09-29C7-E063-4804A8C015BC&quot;
+      }
+    ],
+    &quot;sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-09-29&quot;,
+        &quot;new_build&quot;: true,
+        &quot;paon&quot;: &quot;58&quot;,
+        &quot;postcode&quot;: &quot;N20 9BN&quot;,
+        &quot;price&quot;: 999500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;WELL GROVE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;64342BFD-B088-422C-E053-6C04A8C0FB8A&quot;
+      }
+    ],
+    &quot;scope&quot;: &quot;address&quot;,
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;latitude&quot;: 51.634798,
+  &quot;liverpool_st_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Fast (35-45m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 24,
+    &quot;route_summary&quot;: &quot;Great Northern direct to Moorgate (24 min) + 4 min walk via integrated Elizabeth line concourse to Liverpool St&quot;,
+    &quot;secondary_route&quot;: &quot;Totteridge &amp; Whetstone (0.8 mi, ~16m walk) \u2794 London Underground (Northern line - Bank branch) (33m rail) = ~53m total&quot;,
+    &quot;station_distance_miles&quot;: 0.501,
+    &quot;station_name&quot;: &quot;Oakleigh Park&quot;,
+    &quot;total_commute_minutes&quot;: 39,
+    &quot;transfer_minutes&quot;: 4,
+    &quot;transit_line&quot;: &quot;Great Northern (National Rail)&quot;,
+    &quot;walk_time_minutes&quot;: 11
+  },
+  &quot;living_rooms&quot;: 2,
+  &quot;longitude&quot;: -0.174195,
+  &quot;nearest_station&quot;: &quot;Totteridge &amp; Whetstone&quot;,
+  &quot;nice_to_haves&quot;: [
+    {
+      &quot;detail&quot;: &quot;Not mentioned; UK EPCs do not record domestic cooling&quot;,
+      &quot;label&quot;: &quot;Air conditioning&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Attested on the EPC certificate&quot;,
+      &quot;label&quot;: &quot;Underfloor heating&quot;,
+      &quot;status&quot;: &quot;stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Floor-plan north arrow puts the garden north (not south)&quot;,
+      &quot;label&quot;: &quot;South-facing garden&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned and no overhead glazing seen in photos&quot;,
+      &quot;label&quot;: &quot;Sun roof / lantern in living areas&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;No ground-floor bedroom or convertible room mentioned&quot;,
+      &quot;label&quot;: &quot;Ground-floor bedroom&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Kitchen/Dining Room measures 16.7 ft at its widest (floor-plan) \u2014 clears the 15 ft mark&quot;,
+      &quot;label&quot;: &quot;Wide living room&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;No cinema or media room mentioned, and no other room on the plan is large enough to be one&quot;,
+      &quot;label&quot;: &quot;Home theatre potential&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    }
+  ],
+  &quot;overall_verdict&quot;: &quot;Solid Contender: Well-balanced property with good technical credentials.&quot;,
+  &quot;planning_summary&quot;: {
+    &quot;error&quot;: &quot;persistent 429&quot;,
+    &quot;status&quot;: &quot;error&quot;
+  },
+  &quot;price_display&quot;: &quot;\u00a31,125,000&quot;,
+  &quot;price_per_sq_ft&quot;: 620.9,
+  &quot;property_id&quot;: &quot;73852469&quot;,
+  &quot;property_images&quot;: [
+    &quot;https://lid.zoocdn.com/u/1024/768/09901e567ca0dbefe64affac13f52706e9672a31.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/6ee9011b8ee0bd296a2cc73c2d74a0e32345dd53.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/4cd7c3660e222207ed763e8e3192d544ef80506c.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/f74aa18b1a2add0b11f60cbb4ec211dd853c8820.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/594b8ebdf140e5bb493386afe7248e738a80d3f7.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/79c666e7583b62eb419db36500dfa9b9a775e896.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/70b92fb61fb752b0021fb43135c12ddf2931aa88.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/926320301587cd4f07991c008a913cbf68ec088d.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/11d3c228e5838c01fa82b39853931775a814a9bc.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/89e875dda9ac3b29f47baae611ef56f390d6b3f7.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/a3a4b902589d055ad68d84f312780e6de6a0e887.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/8c42c11ce495a60ada88e51ff00b0bbc3c655abc.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/987de1d1978ddc8fca150e476dd8a0b85be365af.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/9982fa5f8bbef003d930054142c8f5a5afe2ea4c.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/4bad332f3e98964aadf2ae29e382c1804312259d.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/050091f5d1f2673c719bfb9e5e1f90e031fdb4e5.jpg&quot;
+  ],
+  &quot;property_type&quot;: &quot;4 bed semi-detached house for sale&quot;,
+  &quot;size_sq_ft&quot;: 1812.0,
+  &quot;size_sq_m&quot;: 168.3,
+  &quot;station_distance_miles&quot;: 0.8,
+  &quot;station_distance_source&quot;: &quot;routed&quot;,
+  &quot;tenure&quot;: &quot;Freehold&quot;,
+  &quot;walk_time_minutes&quot;: 16
+}</pre>
+  </details>
+
+  <div class="foot"><div><a href="northumberland-road-new-barnet-barnet-en5.html">← Northumberland Road</a></div><div><a href="gloucester-road-barnet-en5.html">→ Gloucester Road</a></div></div>
+
+  <p class="note" style="margin-top:26px">Generated 2026-10-01 from
+  <code>reviews/property_reviews.json</code>. Map data &copy;
+  <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</p>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
+<script>window.__PINS__ = [{"id": "73852469", "lat": 51.634798, "lon": -0.174195, "addr": "Well Grove", "price": "\u00a31,125,000", "sqft": "1,812", "epc": "B", "score": 60.5, "colour": "#be760c", "tags": ["Great Transport Links", "Modern Systems"], "tag_html": "<span class=\"badge tag-transport\">Great Transport Links<\/span><span class=\"badge tag-systems\">Modern Systems<\/span>", "href": "#"}];</script>
+<script>window.__SLIDES__ = ["https://lid.zoocdn.com/u/1024/768/09901e567ca0dbefe64affac13f52706e9672a31.jpg", "https://lid.zoocdn.com/u/1024/768/6ee9011b8ee0bd296a2cc73c2d74a0e32345dd53.jpg", "https://lid.zoocdn.com/u/1024/768/4cd7c3660e222207ed763e8e3192d544ef80506c.jpg", "https://lid.zoocdn.com/u/1024/768/f74aa18b1a2add0b11f60cbb4ec211dd853c8820.jpg", "https://lid.zoocdn.com/u/1024/768/594b8ebdf140e5bb493386afe7248e738a80d3f7.jpg", "https://lid.zoocdn.com/u/1024/768/79c666e7583b62eb419db36500dfa9b9a775e896.jpg", "https://lid.zoocdn.com/u/1024/768/70b92fb61fb752b0021fb43135c12ddf2931aa88.jpg", "https://lid.zoocdn.com/u/1024/768/926320301587cd4f07991c008a913cbf68ec088d.jpg", "https://lid.zoocdn.com/u/1024/768/11d3c228e5838c01fa82b39853931775a814a9bc.jpg", "https://lid.zoocdn.com/u/1024/768/89e875dda9ac3b29f47baae611ef56f390d6b3f7.jpg", "https://lid.zoocdn.com/u/1024/768/a3a4b902589d055ad68d84f312780e6de6a0e887.jpg", "https://lid.zoocdn.com/u/1024/768/8c42c11ce495a60ada88e51ff00b0bbc3c655abc.jpg", "https://lid.zoocdn.com/u/1024/768/987de1d1978ddc8fca150e476dd8a0b85be365af.jpg", "https://lid.zoocdn.com/u/1024/768/9982fa5f8bbef003d930054142c8f5a5afe2ea4c.jpg", "https://lid.zoocdn.com/u/1024/768/4bad332f3e98964aadf2ae29e382c1804312259d.jpg", "https://lid.zoocdn.com/u/1024/768/050091f5d1f2673c719bfb9e5e1f90e031fdb4e5.jpg"];</script>
+<script>
+(function () {
+  var el = document.getElementById('map');
+  if (!el || typeof L === 'undefined') { return; }
+  var data = window.__PINS__ || [];
+  if (!data.length || data[0].lat === null) { el.style.display = 'none'; return; }
+  var map = L.map('map', { scrollWheelZoom: false, dragging: false,
+                           doubleClickZoom: false, boxZoom: false,
+                           keyboard: false, zoomControl: false });
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  var group = L.featureGroup().addTo(map);
+  data.forEach(function (p) {
+    if (p.lat === null) { return; }
+    L.circleMarker([p.lat, p.lon], { radius: 10, color: '#ffffff', weight: 3,
+                                     fillColor: p.colour, fillOpacity: 0.95 }).addTo(group);
+  });
+  if (group.getBounds().isValid()) { map.fitBounds(group.getBounds().pad(0.35)); }
+  L.control.attribution({ prefix: false }).addTo(map);
+})();
+</script>
+<script>
+(function () {
+  var shots = window.__SLIDES__ || [];
+  var img = document.getElementById('slide-img');
+  var link = document.getElementById('slide-link');
+  var prev = document.getElementById('slide-prev');
+  var next = document.getElementById('slide-next');
+  var num = document.getElementById('slide-n');
+  if (!img || !link || shots.length < 2) {
+    if (prev) { prev.disabled = true; }
+    if (next) { next.disabled = true; }
+    return;
+  }
+  var at = 0;
+
+  function show(i) {
+    at = (i + shots.length) % shots.length;
+    img.src = shots[at];
+    img.alt = 'Listing photo ' + (at + 1) + ' of ' + shots.length +
+              ' — open full size';
+    link.href = shots[at];
+    if (num) { num.textContent = String(at + 1); }
+  }
+
+  // Only the neighbours are warmed: a 34-photo listing at 136 KB each is
+  // 4.6 MB if the whole gallery is fetched up front, for images the reader may
+  // never scroll to.
+  function warm() {
+    [at + 1, at - 1].forEach(function (k) {
+      var j = (k + shots.length) % shots.length;
+      if (j !== at) { new Image().src = shots[j]; }
+    });
+  }
+
+  prev.addEventListener('click', function () { show(at - 1); warm(); });
+  next.addEventListener('click', function () { show(at + 1); warm(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) { return; }
+    if (e.key === 'ArrowLeft') { show(at - 1); warm(); }
+    if (e.key === 'ArrowRight') { show(at + 1); warm(); }
+  });
+  show(0);
+  warm();
+})();
+</script>
+</body></html>
