@@ -5,15 +5,15 @@ Evaluated **11** properties against combined quality and technical indicators.
 | Rank | Address | Price | Size | £/sqft | EPC | Score | Strengths |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
 | 1 | **Burlington Rise** | £1,175,000 | 2,088.0 | £563 | C | **75.9** | Generous Space & Layout, Modern Systems, Beautifully Presented, Great Outdoor Space |
-| 2 | **Well Grove** | £1,450,000 | 2,229.0 | £650 | B | **67.6** | Generous Space & Layout, Modern Systems |
+| 2 | **Well Grove** | £1,450,000 | 2,229.0 | £650 | B | **71.6** | Generous Space & Layout, Modern Systems, Great Outdoor Space |
 | 3 | **Belmont Avenue** | £1,250,000 | 2,175.0 | £575 | D | **63.7** | Modern Systems, Beautifully Presented |
 | 4 | **Ainsworth Close** | £1,375,000 | 1,759.0 | £782 | B | **62.7** | Modern Systems, Beautifully Presented, Great Outdoor Space |
 | 5 | **Gloucester Road** | £1,250,000 | 1,760.0 | £710 | D | **61.3** | Great Transport Links, Great Outdoor Space |
 | 6 | **Maryrose Way** | £1,150,000 | 2,015.0 | £571 | E | **56.3** | Great Transport Links, Generous Space & Layout, Great Outdoor Space |
-| 7 | **Meadway** | £750,000 | 1,271.0 | £590 | D | **53.4** | Strong Value, Great Outdoor Space |
-| 8 | **Hadley Road** | £1,300,000 | 2,429.0 | £535 | D | **52.7** | Beautifully Presented |
-| 9 | **Manor Road** | £1,450,000 | 2,352.0 | £616 | C | **51.4** | Modern Systems |
-| 10 | **Park Road** | £1,300,000 | 2,471.0 | £526 | C | **50.9** | - |
+| 7 | **Manor Road** | £1,450,000 | 2,352.0 | £616 | C | **55.4** | Modern Systems, Great Outdoor Space |
+| 8 | **Meadway** | £750,000 | 1,271.0 | £590 | D | **53.4** | Strong Value, Great Outdoor Space |
+| 9 | **Park Road** | £1,300,000 | 2,471.0 | £526 | C | **50.9** | - |
+| 10 | **Hadley Road** | £1,300,000 | 2,429.0 | £535 | D | **49.7** | Beautifully Presented |
 | 11 | **Rolfe Close** | £1,000,000 | 1,881.8 | £531 | D | **48.1** | Strong Value |
 
 
@@ -134,7 +134,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 
 ![Floor plan for Rolfe Close, Barnet EN4](https://lid.zoocdn.com/u/1024/768/1274e4110be8cec9fa0537b7f12bc95c7baa1875.jpg)
 
-*16 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are shown without one.*
+*15 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are shown without one.*
 
 | Room | Type | Floor | Dimensions | Area |
 | :--- | :--- | :--- | :---: | ---: |
@@ -143,7 +143,6 @@ Evaluated **11** properties against combined quality and technical indicators.
 | Study | study | — | not printed | — |
 | Bedroom 2 | bedroom | — | not printed | — |
 | WC | bathroom | — | not printed | — |
-| WC | bathroom | first | not printed | — |
 | Kitchen | kitchen | ground | not printed | — |
 | Landing | circulation | first | not printed | — |
 | Bathroom | bathroom | ground | 9.4 × 7.8 ft | 73 sq ft |
@@ -325,7 +324,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | Office | study | first | not printed | — |
 | Bedroom 6 | bedroom | first | 12 × 7.8 ft | 94 sq ft |
 | Bathroom | bathroom | — | 8.5 × 8 ft | 68 sq ft |
-| En-Suite | bathroom | first | not printed | — |
+| En-Suite | bathroom | — | 8 × 5.5 ft | 44 sq ft |
 | WC | bathroom | ground | 7 × 3.4 ft | 24 sq ft |
 | Living Room | living | ground | 27.4 × 12.6 ft | 345 sq ft |
 
@@ -349,7 +348,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 - 29 property photo(s) analysed by local vision model (Qwen3-VL)
 - Photographic-evidence score: 32.0/100 (medium confidence; condition 22/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 7/10)
 - Floor-plan internal area read from the plan: 2,471 sq ft (scoring measure)
-- 14 room dimensions read from plan-image text (OCR)
+- 15 room dimensions read from plan-image text (OCR)
 - Condition tier inferred from photos: partially modernised
 - Not captured in the photos: bathrooms, bathrooms observed, bedrooms observed, extension evidence, exterior rating, garden aspect (…)
 
@@ -548,15 +547,15 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Underfloor heating** | not-stated | Not mentioned in the listing or EPC |
 | **South-facing garden** | photo-hint | Photos suggest south — confirm with a compass |
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
-| **Second ground-floor sitting room** | plan-verified | No ground-floor bedroom, but the plan shows a second sitting room — Living Room, 8.3 x 4.3 ft — which serves the same downstairs space |
+| **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
 | **Wide living room** | plan-verified | Largest living area is 11.9 ft (Dining Room, floor-plan) — below the 15 ft mark |
-| **Home theatre potential** | photo-hint | Study measures 8.3 x 8.3 ft (69 sq ft) on the floor plan, a separate room from the Living Room — room for a smaller screen or fewer seats; at that size it holds a 52-inch screen with the front row 4.3 ft from it, 1 recliner row of 2 across (4.8 ft of frontage, a two-seat loveseat), 2 seats |
+| **Home theatre potential** | photo-hint | Living Room measures 15.4 x 10.3 ft (159 sq ft) on the floor plan, a separate room from the Living Room — room for a smaller screen or fewer seats; at that size it holds a 76-inch screen with the front row 6.3 ft from it, 1 recliner row of 5 across (11.9 ft of frontage, a modular sectional run), 5 seats |
 
 ### Floorplan Analysis
 
 ![Floor plan for Hadley Road, New Barnet, Hertfordshire EN5](https://lid.zoocdn.com/u/1024/768/217168ddb04449ade462369f32f50403adcabc18.jpg)
 
-*16 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are shown without one.*
+*15 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are shown without one.*
 
 | Room | Type | Floor | Dimensions | Area |
 | :--- | :--- | :--- | :---: | ---: |
@@ -569,29 +568,28 @@ Evaluated **11** properties against combined quality and technical indicators.
 | Outbuilding | outbuilding | — | not printed | — |
 | Study | study | first | 8.3 × 8.3 ft | 69 sq ft |
 | Bedroom 2 | bedroom | first | not printed | — |
-| Dining Room | dining | — | not printed | — |
-| Living Room | living | ground | 8.3 × 4.3 ft | 36 sq ft |
+| Dining Room | dining | first | 11.9 × 11.9 ft | 142 sq ft |
+| Living Room | living | — | 17.6 × 11.8 ft | 208 sq ft |
 | En-Suite | bathroom | first | 8.6 × 6 ft | 52 sq ft |
 | Bedroom | bedroom | first | 15.1 × 12.1 ft | 183 sq ft |
 | Shower Room | bathroom | ground | 10.3 × 5.3 ft | 55 sq ft |
 | Utility | utility | — | 8.3 × 6.6 ft | 55 sq ft |
-| Dining Room | dining | first | 11.9 × 11.9 ft | 142 sq ft |
 
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [#############-----------]  52.7 / 100
+  Combined Property Score : [############------------]  49.7 / 100
 ```
 
 | Component | Score | Max | Evidence that earned it |
 | :--- | :---: | :---: | :--- |
 | **Location & transport** | **4.5** | 20 | • Nearest station New Barnet 19 min walk (0.91 mi routed walk) (+1)<br>• No station within 0.8 mi walking distance (nearest is 0.91 mi)<br>• Moderate Liverpool St commute: ~49 mins door-to-concourse via New Barnet (19m walk + 26m rail) (+1.5)<br>• King's Cross St Pancras commute ~38 mins via New Barnet (+2) |
-| **Space, scale & layout** | **14.0** | 20 | • Square footage taken from floor plan (image analysis)<br>• Exceptional volume: 2,429.0 sq ft total (810 sq ft/bed) (+7)<br>• Superb bathroom provision (3 baths for 3 beds) (+3)<br>• Two or more reception rooms (4) (+1)<br>• Living room width: 11.9 ft (below 15 ft)<br>• No ground-floor bedroom, but a second ground-floor sitting room (Living Room 8.3 x 4.3 ft) gives the same downstairs space (+3) |
+| **Space, scale & layout** | **11.0** | 20 | • Square footage taken from floor plan (image analysis)<br>• Exceptional volume: 2,429.0 sq ft total (810 sq ft/bed) (+7)<br>• Superb bathroom provision (3 baths for 3 beds) (+3)<br>• Two or more reception rooms (4) (+1)<br>• Living room width: 11.9 ft (below 15 ft) |
 | **Financial efficiency** | **7.7** | 15 | • £535 per sq ft on 2,429 sq ft (+4.4 of 7.5)<br>• £1,300,000 asking price (+3.3 of 7.5) |
 | **Technical & EPC** | **14.8** | 20 | • EPC Band D (4.5) + no secondary heating (1) + insulated roof (2) + partial glazing (0.25) (+7.75 of 10)<br>• EPC assessed 2016-05-26: certificate expired — points scored as stated<br>• Air conditioning present (+5)<br>• EPC: pitched roof with accessible loft (pitched, 100 mm loft insulation) — scope for a simple loft extension (structural survey still required) (+2) |
 | **Observed presentation** | **11.7** | 13 | • Presented finish observed as refurbished in listing photographs (image analysis) (+4.7 of 6)<br>• Kitchen & bathroom spec rated premium in listing photographs (image analysis) (+4 of 4)<br>• Exterior & garden rated attractive in listing photographs (image analysis) (+3 of 3) |
 | **Garden & outdoor** | **0.0** | 12 | • Garden not dimensioned on the plan — size unscored |
-| **Total** | **52.7** | 100 | 2,429.0 sq ft, 3 beds, band D |
+| **Total** | **49.7** | 100 | 2,429.0 sq ft, 3 beds, band D |
 
 **Photographic evidence reviewed for the score:**
 - 20 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -610,7 +608,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 ---
 
 ## Property Review: Manor Road, Barnet EN5
-> **Strengths**: `Modern Systems`
+> **Strengths**: `Modern Systems` · `Great Outdoor Space`
 
 > **⚠️ Missing Data** — review scored with incomplete source data:
 >
@@ -653,7 +651,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 | Bedroom | bedroom | first | 11 × 8.8 ft | 97 sq ft |
 | Bedroom 2 | bedroom | — | not printed | — |
 | Shed | outbuilding | ground | 16 × 7.4 ft | 118 sq ft |
-| Garden | garden | ground | not printed | — |
+| Garden | garden | ground | 89.7 × 45.9 ft | 4,117 sq ft |
 | Kitchen | kitchen | ground | not printed | — |
 | Reception Room | living | ground | 19.2 × 17.1 ft | 328 sq ft |
 | Office | study | ground | not printed | — |
@@ -661,7 +659,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [############------------]  51.4 / 100
+  Combined Property Score : [#############-----------]  55.4 / 100
 ```
 
 | Component | Score | Max | Evidence that earned it |
@@ -671,14 +669,14 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Financial efficiency** | **6.8** | 15 | • £616 per sq ft on 2,352 sq ft (+3.9 of 7.5)<br>• £1,450,000 asking price (+2.9 of 7.5) |
 | **Technical & EPC** | **17.0** | 20 | • EPC Band C (7) + no secondary heating (1) + wall insulation (3) + insulated roof (2) + double glazing (1) (+10 of 10)<br>• Underfloor heating present (+5)<br>• EPC: pitched roof with accessible loft (pitched, 250 mm loft insulation) — scope for a simple loft extension (structural survey still required) (+2) |
 | **Observed presentation** | **9.6** | 13 | • Presented finish observed as partially modernised in listing photographs (image analysis) (+2.6 of 6)<br>• Kitchen & bathroom spec rated premium in listing photographs (image analysis) (+4 of 4)<br>• Exterior & garden rated attractive in listing photographs (image analysis) (+3 of 3) |
-| **Garden & outdoor** | **4.0** | 12 | • South-facing garden confirmed (+4)<br>• Garden not dimensioned on the plan — size unscored |
-| **Total** | **51.4** | 100 | 2,352.0 sq ft, 5 beds, band C |
+| **Garden & outdoor** | **8.0** | 12 | • South-facing garden confirmed (+4)<br>• Large garden: 4,117 sq ft on plan (+4) |
+| **Total** | **55.4** | 100 | 2,352.0 sq ft, 5 beds, band C |
 
 **Photographic evidence reviewed for the score:**
 - 26 property photo(s) analysed by local vision model (Qwen3-VL)
 - Photographic-evidence score: 38.0/100 (high confidence; condition 22/35, kitchen/bath 4/20, glazing 3/20, structure 0/15, legibility 9/10)
 - Floor-plan internal area read from the plan: 2,352 sq ft (scoring measure); printed total 2,471 sq ft includes outbuilding/garage space and is not scored
-- 3 room dimensions read from plan-image text (OCR)
+- 4 room dimensions read from plan-image text (OCR)
 - Condition tier inferred from photos: partially modernised
 - Not captured in the photos: extension evidence, garden aspect, roof, side access
 
@@ -769,7 +767,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 ---
 
 ## Property Review: Well Grove, Whetstone N20
-> **Strengths**: `Generous Space & Layout` · `Modern Systems`
+> **Strengths**: `Generous Space & Layout` · `Modern Systems` · `Great Outdoor Space`
 
 ### Key Property Metrics
 
@@ -798,25 +796,24 @@ Evaluated **11** properties against combined quality and technical indicators.
 
 ![Floor plan for Well Grove, Whetstone N20](https://lid.zoocdn.com/u/1024/768/6d1c25e6857875fc30b7f76184d04e6e834832ae.jpg)
 
-*10 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are shown without one.*
+*9 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are shown without one.*
 
 | Room | Type | Floor | Dimensions | Area |
 | :--- | :--- | :--- | :---: | ---: |
-| Rear Garden | garden | — | 15 × 11.2 ft | 168 sq ft |
+| Rear Garden | garden | — | 63.5 × 47.4 ft | 3,010 sq ft |
 | Sitting Room | living | ground | 25.5 × 25.4 ft | 648 sq ft |
 | Kitchen | kitchen | first | 17.9 × 11.6 ft | 208 sq ft |
 | Bedroom | bedroom | first | 12.8 × 10.2 ft | 131 sq ft |
-| Study | study | ground | not printed | — |
+| Study | study | ground | 15.3 × 11.6 ft | 177 sq ft |
 | Bedroom | bedroom | first | 19.5 × 18.2 ft | 355 sq ft |
 | Bedroom | bedroom | ground | 18.4 × 10.6 ft | 195 sq ft |
 | Front Garden | garden | ground | 39.7 × 39.2 ft | 1,556 sq ft |
 | Workshop | outbuilding | ground | 34.5 × 22.2 ft | 766 sq ft |
-| Study | study | ground | 15.3 × 11.6 ft | 177 sq ft |
 
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [################--------]  67.6 / 100
+  Combined Property Score : [#################-------]  71.6 / 100
 ```
 
 | Component | Score | Max | Evidence that earned it |
@@ -826,8 +823,8 @@ Evaluated **11** properties against combined quality and technical indicators.
 | **Financial efficiency** | **6.5** | 15 | • £651 per sq ft on 2,229 sq ft (+3.6 of 7.5)<br>• £1,450,000 asking price (+2.9 of 7.5) |
 | **Technical & EPC** | **19.0** | 20 | • EPC Band B (9) + no secondary heating (1) + zone control (1.5) + insulated roof (2) + insulated floor (2) + high-performance glazing (1.75) (+10 of 10)<br>• Underfloor heating present (+5)<br>• EPC: room-in-roof conversion recorded (average thermal transmittance 0.12 w/m²k) (+4) |
 | **Observed presentation** | **9.6** | 13 | • Presented finish observed as partially modernised in listing photographs (image analysis) (+2.6 of 6)<br>• Kitchen & bathroom spec rated premium in listing photographs (image analysis) (+4 of 4)<br>• Exterior & garden rated attractive in listing photographs (image analysis) (+3 of 3) |
-| **Garden & outdoor** | **6.0** | 12 | • South-facing garden confirmed (+4)<br>• Outbuilding present (+2)<br>• Pocket garden: 168 sq ft on plan |
-| **Total** | **67.6** | 100 | 2,229.0 sq ft, 4 beds, band B |
+| **Garden & outdoor** | **10.0** | 12 | • South-facing garden confirmed (+4)<br>• Outbuilding present (+2)<br>• Large garden: 3,010 sq ft on plan (+4) |
+| **Total** | **71.6** | 100 | 2,229.0 sq ft, 4 beds, band B |
 
 **Photographic evidence reviewed for the score:**
 - 21 property photo(s) analysed by local vision model (Qwen3-VL)
