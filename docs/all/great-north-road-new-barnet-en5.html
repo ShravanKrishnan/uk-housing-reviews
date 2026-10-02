@@ -40,7 +40,7 @@
     </table>
   </div>
 
-<div class="panel"><h2>Photos — 35</h2><div class="slides" id="slides"><div class="slide-frame"><a id="slide-link" href="https://lid.zoocdn.com/u/1024/768/868de4e8b53e6952c4569cd8be7f67101daf9598.jpg" rel="noopener"><img id="slide-img" src="https://lid.zoocdn.com/u/1024/768/868de4e8b53e6952c4569cd8be7f67101daf9598.jpg" alt="Listing photo 1 of 35 — open full size" loading="lazy"></a><button type="button" class="slide-nav prev" id="slide-prev" aria-label="Previous photo">&#8249;</button><button type="button" class="slide-nav next" id="slide-next" aria-label="Next photo">&#8250;</button><span class="slide-badge"><span id="slide-n">1</span> / 35</span></div></div><p class="note" style="margin-top:8px">Arrow keys page through the gallery; click a photo to open it full size. These are the listing's own photographs, at the highest resolution its image host serves.</p></div>
+<div class="panel"><h2>Photos — 35</h2><div class="slides" id="slides"><div class="slide-frame"><a id="slide-link" href="https://lid.zoocdn.com/u/1024/768/868de4e8b53e6952c4569cd8be7f67101daf9598.jpg" rel="noopener"><img id="slide-img" src="https://lid.zoocdn.com/u/1024/768/868de4e8b53e6952c4569cd8be7f67101daf9598.jpg" alt="Listing photo 1 of 35 — open full screen" loading="lazy"></a><button type="button" class="slide-nav prev" id="slide-prev" aria-label="Previous photo">&#8249;</button><button type="button" class="slide-nav next" id="slide-next" aria-label="Next photo">&#8250;</button><span class="slide-badge"><span id="slide-n">1</span> / 35</span></div></div><p class="note" style="margin-top:8px">Arrow keys page through the gallery; click a photo for the full-screen slideshow. These are the listing's own photographs, at the highest resolution its image host serves.</p></div><div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo slideshow" hidden><button type="button" class="lb-close" id="lb-close" aria-label="Close slideshow">&times;</button><button type="button" class="lb-nav prev" id="lb-prev" aria-label="Previous photo">&#8249;</button><img id="lb-img" alt=""><button type="button" class="lb-nav next" id="lb-next" aria-label="Next photo">&#8250;</button><span class="lb-badge"><span id="lb-n">1</span> / 35</span></div>
 
   <div class="layout">
     <div class="panel sticky">
@@ -616,18 +616,14 @@
   var prev = document.getElementById('slide-prev');
   var next = document.getElementById('slide-next');
   var num = document.getElementById('slide-n');
-  if (!img || !link || shots.length < 2) {
-    if (prev) { prev.disabled = true; }
-    if (next) { next.disabled = true; }
-    return;
-  }
+  if (!img || !link || !shots.length) { return; }
   var at = 0;
 
   function show(i) {
     at = (i + shots.length) % shots.length;
     img.src = shots[at];
     img.alt = 'Listing photo ' + (at + 1) + ' of ' + shots.length +
-              ' — open full size';
+              ' — open full screen';
     link.href = shots[at];
     if (num) { num.textContent = String(at + 1); }
   }
@@ -642,10 +638,80 @@
     });
   }
 
-  prev.addEventListener('click', function () { show(at - 1); warm(); });
-  next.addEventListener('click', function () { show(at + 1); warm(); });
+  if (shots.length < 2) {
+    if (prev) { prev.disabled = true; }
+    if (next) { next.disabled = true; }
+  } else {
+    prev.addEventListener('click', function () { show(at - 1); warm(); });
+    next.addEventListener('click', function () { show(at + 1); warm(); });
+  }
+
+  // -- full-screen slideshow ------------------------------------------------
+  // Clicking the frame opens the overlay rather than navigating to the raw
+  // image; without JS the <a href> still opens the image directly, so the
+  // control is never inert.
+  var lb = document.getElementById('lightbox');
+  var lbImg = document.getElementById('lb-img');
+  var lbNum = document.getElementById('lb-n');
+  var lbClose = document.getElementById('lb-close');
+  var lbPrev = document.getElementById('lb-prev');
+  var lbNext = document.getElementById('lb-next');
+  var lbAt = 0, lbOpen = false;
+
+  function lbShow(i) {
+    lbAt = (i + shots.length) % shots.length;
+    if (lbImg) {
+      lbImg.src = shots[lbAt];
+      lbImg.alt = 'Listing photo ' + (lbAt + 1) + ' of ' + shots.length;
+    }
+    if (lbNum) { lbNum.textContent = String(lbAt + 1); }
+    if (shots.length > 1) {
+      new Image().src = shots[(lbAt + 1) % shots.length];
+      new Image().src = shots[(lbAt - 1 + shots.length) % shots.length];
+    }
+  }
+  function openLb(i) {
+    if (!lb) { return; }
+    lb.hidden = false;
+    lbOpen = true;
+    document.body.classList.add('lb-open');
+    lbShow(i);
+    if (lbClose) { lbClose.focus(); }
+  }
+  function closeLb() {
+    if (!lb) { return; }
+    lb.hidden = true;
+    lbOpen = false;
+    document.body.classList.remove('lb-open');
+    show(lbAt);
+    link.focus();
+  }
+  if (lb) {
+    if (shots.length < 2) {
+      if (lbPrev) { lbPrev.disabled = true; }
+      if (lbNext) { lbNext.disabled = true; }
+    }
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
+      openLb(at);
+    });
+    if (lbClose) { lbClose.addEventListener('click', closeLb); }
+    if (lbPrev) { lbPrev.addEventListener('click', function () { lbShow(lbAt - 1); }); }
+    if (lbNext) { lbNext.addEventListener('click', function () { lbShow(lbAt + 1); }); }
+    // A click on the backdrop (not on the image or a control) closes it.
+    lb.addEventListener('click', function (e) {
+      if (e.target === lb) { closeLb(); }
+    });
+  }
+
   document.addEventListener('keydown', function (e) {
     if (e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) { return; }
+    if (lbOpen) {
+      if (e.key === 'Escape') { closeLb(); }
+      if (e.key === 'ArrowLeft') { lbShow(lbAt - 1); }
+      if (e.key === 'ArrowRight') { lbShow(lbAt + 1); }
+      return;
+    }
     if (e.key === 'ArrowLeft') { show(at - 1); warm(); }
     if (e.key === 'ArrowRight') { show(at + 1); warm(); }
   });

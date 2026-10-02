@@ -106,6 +106,48 @@ ul.plist a.row:hover { background: #f0f7f4; }
 .pager button:disabled { opacity: 0.4; cursor: default; }
 .page-ind { font-size: 13px; color: var(--muted); margin-left: 6px; }
 .empty-note { color: var(--muted); font-style: italic; }
+.chip-note { font-size: 12px; color: var(--muted); margin: 0 0 10px; }
+
+/* ---- index search ---- */
+.searchbar { margin: 4px 0 10px; }
+.prop-search {
+  font: inherit; font-size: 14px; width: 100%; max-width: 420px;
+  padding: 8px 12px; border: 1px solid var(--line); border-radius: 8px;
+  background: #fff; color: var(--ink);
+}
+.prop-search:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+/* ---- full-screen photo slideshow (detail page) ---- */
+.lightbox {
+  position: fixed; inset: 0; z-index: 9999; display: flex;
+  align-items: center; justify-content: center;
+  background: rgba(12, 14, 17, .94);
+}
+.lightbox[hidden] { display: none; }
+.lightbox img {
+  max-width: 94vw; max-height: 88vh; object-fit: contain; border-radius: 6px;
+}
+.lb-close {
+  position: absolute; top: 12px; right: 16px; z-index: 3;
+  font: inherit; font-size: 30px; line-height: 1; cursor: pointer;
+  color: #fff; background: none; border: none; padding: 6px 12px;
+}
+.lb-nav {
+  position: absolute; top: 50%; transform: translateY(-50%); z-index: 3;
+  font: inherit; font-size: 32px; line-height: 1; color: #fff; cursor: pointer;
+  width: 52px; height: 52px; border: none; border-radius: 50%;
+  background: rgba(255, 255, 255, .14);
+}
+.lb-nav:hover:not(:disabled) { background: var(--accent); }
+.lb-nav:disabled { opacity: .25; cursor: default; }
+.lb-nav.prev { left: 16px; }
+.lb-nav.next { right: 16px; }
+.lb-badge {
+  position: absolute; right: 22px; bottom: 18px; z-index: 3;
+  font-size: 13px; color: #fff; background: rgba(0, 0, 0, .55);
+  border-radius: 999px; padding: 4px 12px;
+}
+body.lb-open { overflow: hidden; }
 
 /* ---- table ---- */
 table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
