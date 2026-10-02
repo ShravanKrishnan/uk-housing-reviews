@@ -1,0 +1,989 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rosemary Avenue — review</title>
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <h1>Rosemary Avenue</h1>
+  <p class="sub">Rosemary Avenue, London N3</p>
+  <nav class="crumbs"><a href="../index.html">← Back to the map</a> &middot;
+  <a href="../index.html#all-rank-133">Rank #133 of All properties</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="panel">
+    <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between">
+      <div>
+        <span class="pill" style="background:#a8322d">39.6 Score</span>
+        
+      </div>
+      <div style="font-size:13px;color:var(--muted)">
+        133 of 190 &middot; score 39.6
+      </div>
+    </div>
+    <div class="verdict">Secondary Assessment Needed: Low scores across multiple dimensions.</div>
+  </div>
+
+  <h3>At a glance</h3>
+  <div class="grid"><div class="stat"><div class="k">Asking price</div><div class="v">£850,000</div></div><div class="stat"><div class="k">Property type</div><div class="v">3 bed semi-detached house for sale</div></div><div class="stat"><div class="k">Tenure</div><div class="v">Freehold</div></div><div class="stat"><div class="k">Size</div><div class="v">— sq ft / — m²</div></div><div class="stat"><div class="k">Price per sq ft</div><div class="v">£—</div></div><div class="stat"><div class="k">Bedrooms</div><div class="v">3</div></div><div class="stat"><div class="k">Bathrooms</div><div class="v">1</div></div><div class="stat"><div class="k">Living rooms</div><div class="v">2</div></div><div class="stat"><div class="k">EPC (current / potential)</div><div class="v">D / C</div></div><div class="stat"><div class="k">Nearest station</div><div class="v">Finchley Central · 0.5 mi · ~11 min walk</div></div><div class="stat wide"><div class="k">Commute to Liverpool St</div><div class="v">42 min (Northern line (Bank branch) direct to Moorgate (27 min) + 4 min Elizabeth line link to Liverpool St)</div></div><div class="stat wide"><div class="k">Commute to King&#x27;s Cross</div><div class="v">34 min (Northern line direct to King&#x27;s Cross St Pancras (23 min))</div></div></div>
+
+  <h3>Nice-to-haves</h3>
+  <div class="panel">
+    <table class="nice">
+      <thead><tr><th>Signal</th><th>Status</th><th>Detail</th></tr></thead>
+      <tbody><tr><td>Air conditioning</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned; UK EPCs do not record domestic cooling</td></tr><tr><td>Underfloor heating</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned in the listing or EPC</td></tr><tr><td>South-facing garden</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>No aspect stated in the listing, floor-plan or photos</td></tr><tr><td>Sun roof / lantern in living areas</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned and no overhead glazing seen in photos</td></tr><tr><td>Ground-floor bedroom</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Floorplan shows 2 bedrooms on the ground floor</td></tr><tr><td>Wide living room</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Largest living area is 13.1 ft (Living Room, floor-plan) — below the 15 ft mark</td></tr><tr><td>Home theatre potential</td><td><span class="nh-status nh-photo_hint">photo-hint</span></td><td>Living Room measures 14.8 x 13.1 ft (194 sq ft) on the floor plan, a separate room from the Reception Room — room for a smaller screen or fewer seats; at that size it holds a 141-inch screen with the front row 9 ft from it, 1 recliner row of 5 across (11.3 ft of frontage, a modular sectional run), 5 seats</td></tr></tbody>
+    </table>
+  </div>
+
+<div class="panel"><h2>Photos — 10</h2><div class="slides" id="slides"><div class="slide-frame"><a id="slide-link" href="https://lid.zoocdn.com/u/1024/768/248b4be66bbfecfde6e843e563ee515f9bfca25c.jpg" rel="noopener"><img id="slide-img" src="https://lid.zoocdn.com/u/1024/768/248b4be66bbfecfde6e843e563ee515f9bfca25c.jpg" alt="Listing photo 1 of 10 — open full size" loading="lazy"></a><button type="button" class="slide-nav prev" id="slide-prev" aria-label="Previous photo">&#8249;</button><button type="button" class="slide-nav next" id="slide-next" aria-label="Next photo">&#8250;</button><span class="slide-badge"><span id="slide-n">1</span> / 10</span></div></div><p class="note" style="margin-top:8px">Arrow keys page through the gallery; click a photo to open it full size. These are the listing's own photographs, at the highest resolution its image host serves.</p></div>
+
+  <div class="layout">
+    <div class="panel sticky">
+      <h2>Where it is</h2>
+      <div id="map" style="height:330px;border-radius:8px"></div>
+      <p class="note" style="margin-top:10px">
+        Pin is the listing's own coordinates. Map tiles are OpenStreetMap.
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=51.5965,-0.185118" rel="noopener">Open in Google Maps →</a>
+        &middot; <a href="https://www.openstreetmap.org/?mlat=51.5965&amp;mlon=-0.185118#map=18/51.5965/-0.185118" rel="noopener">Open in OpenStreetMap →</a>
+        &middot; <a href="https://www.zoopla.co.uk/for-sale/details/71010143/" rel="noopener">Zoopla listing →</a>
+      </p>
+    </div>
+    <div class="panel">
+      <h2>Floorplan analysis</h2>
+      <a href="https://lid.zoocdn.com/u/1024/768/c6adc5875eb8e0af138a3e8d47646ebaaf5872cb.png" rel="noopener"><img class="plan" src="https://lid.zoocdn.com/u/1024/768/c6adc5875eb8e0af138a3e8d47646ebaaf5872cb.png" alt="Floor plan for Rosemary Avenue, London N3" loading="lazy"></a><p class="note">9 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are listed without one. <a href="https://lid.zoocdn.com/u/1024/768/c6adc5875eb8e0af138a3e8d47646ebaaf5872cb.png" rel="noopener">Open the full-size plan →</a></p><table class="nice compact"><thead><tr><th>Room</th><th>Type</th><th>Floor</th><th>Dimensions</th><th>Area</th></tr></thead><tbody><tr><td>Porch</td><td>circulation</td><td>ground</td><td class="num">not printed</td><td class="num">—</td></tr><tr><td>Bedroom 2</td><td>bedroom</td><td>ground</td><td class="num">8 &times; 6.6 ft</td><td class="num">53 sq ft</td></tr><tr><td>Living Room</td><td>living</td><td>ground</td><td class="num">14.8 &times; 13.1 ft</td><td class="num">194 sq ft</td></tr><tr><td>Bedroom 1</td><td>bedroom</td><td>ground</td><td class="num">not printed</td><td class="num">—</td></tr><tr><td>Hallway</td><td>circulation</td><td>—</td><td class="num">not printed</td><td class="num">—</td></tr><tr><td>Bedroom 3</td><td>bedroom</td><td>—</td><td class="num">12.5 &times; 11.8 ft</td><td class="num">148 sq ft</td></tr><tr><td>Reception Room</td><td>living</td><td>—</td><td class="num">15.2 &times; 13.1 ft</td><td class="num">199 sq ft</td></tr><tr><td>Bathroom</td><td>bathroom</td><td>—</td><td class="num">not printed</td><td class="num">—</td></tr><tr><td>Kitchen</td><td>kitchen</td><td>—</td><td class="num">11 &times; 7.2 ft</td><td class="num">79 sq ft</td></tr></tbody></table>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-top:22px">
+    <h2>Score breakdown — 39.6/100</h2>
+    <div class="bar-row with-evidence"><span class="lbl">Location &amp; transport</span><span class="bar"><i style="width:62.5%;background:#a8322d"></i></span><span class="num">12.5</span><ul class="ticks compact"><li><span class="tick">✓</span>Nearest station Finchley Central 11 min walk (0.52 mi routed walk) (+4)</li><li><span class="tick">✓</span>Walkable station Finchley Central 11 min walk (+1.5)</li><li><span class="tick">✓</span>1 transit line within walk — Northern via Finchley Central 11 min walk — broad Central London access (+1)</li><li><span class="tick">✓</span>Night Tube / 24h service at Finchley Central (+1.5)</li><li><span class="tick">✓</span>Fast Liverpool St commute: ~42 mins door-to-concourse via Finchley Central (11m walk + 27m rail) (+2.5)</li><li><span class="tick">✓</span>King&#x27;s Cross St Pancras commute ~34 mins via Finchley Central (+2)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Space, scale &amp; layout</span><span class="bar"><i style="width:42.0%;background:#a8322d"></i></span><span class="num">8.4</span><ul class="ticks compact"><li><span class="tick">✓</span>Square footage unstated in listing data (+3.9)</li><li><span class="tick">✓</span>Under-bathroomed (1 bath for 3 beds - morning bottlenecks likely) (+0.5)</li><li><span class="tick">✓</span>Two or more reception rooms (2) (+1)</li><li><span class="tick">✓</span>Living room width: 13.1 ft (below 15 ft)</li><li><span class="tick">✓</span>Ground-floor bedrooms confirmed on floorplan: 2 (+3)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Financial efficiency</span><span class="bar"><i style="width:54.7%;background:#a8322d"></i></span><span class="num">8.2</span><ul class="ticks compact"><li><span class="tick">✓</span>Price per sq ft not computable (+3.75 of 7.5 base)</li><li><span class="tick">✓</span>£850,000 asking price (+4.5 of 7.5)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Technical &amp; EPC</span><span class="bar"><i style="width:52.5%;background:#a8322d"></i></span><span class="num">10.5</span><ul class="ticks compact"><li><span class="tick">✓</span>EPC Band D (4.5) + no secondary heating (1) + insulated roof (2) + double glazing (1) (+8.5 of 10)</li><li><span class="tick">✓</span>EPC: pitched roof with accessible loft (pitched, 100 mm loft insulation) — scope for a simple loft extension (structural survey still required) (+2)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Observed presentation</span><span class="bar"><i style="width:0.0%;background:#a8322d"></i></span><span class="num">0.0</span><p class="note compact">No evidence detected for this component — it scores on the absence of contrary findings.</p></div><div class="bar-row with-evidence"><span class="lbl">Garden &amp; outdoor</span><span class="bar"><i style="width:0.0%;background:#a8322d"></i></span><span class="num">0.0</span><p class="note compact">No evidence detected for this component — it scores on the absence of contrary findings.</p></div>
+    <p class="note">The combined score rewards location, space, financial efficiency,
+    technical specification, observed presentation, and garden quality. Every line
+    lists the evidence that earned it, so a component cannot be read as a verdict
+    without the reason attached.</p>
+  </div>
+
+  <h3>Land Registry</h3>
+  <div class="panel">
+    <p><strong>No sale attributed to this address — a house number is known, but no Land Registry record matches it, i.e. the house has not transacted.</strong></p>
+    <p>£502/sq ft median (range £124–£862), from 19 of 42 local sales (45% priced). <span class="note">Floor area is borrowed from the EPC extract (epc_bulk total_floor_area) because sale records carry none; small samples are heavy-tailed, so the median is used and withheld below 5 priced sales.</span></p>
+    <p class="note">42 raw sale record(s) exist in this postcode. They are the neighbourhood's history, not this home's, and are deliberately not presented as its own.</p>
+    <p class="note">Scope <code>address_no_sale</code> — sale history is only ever
+    attributed to this home when a house number was derived and matched.</p>
+  </div>
+
+  <h3>Planning</h3>
+  <div class="panel"><p class="note">1 planning record(s) matched this address:</p><ul class="ticks"><li><a href="https://publicaccess.barnet.gov.uk/online-applications/propertyDetails.do?activeTab=summary&amp;keyVal=NC23C100DT005" rel="noopener">50 Rosemary Avenue London N3 2QN</a></li></ul></div>
+
+  <div style="margin-top:22px">
+    <div class="panel"><h2>Photographic evidence reviewed for the score</h2><p class="note">Points are awarded only for detected listing, EPC, or photographic evidence, and each component above lists what it found. Systems without such evidence score zero and are omitted rather than listed as inspection tasks. These notes record what the photos did and did not show.</p><ul class="ticks"><li>5 room dimensions read from plan-image text (OCR)</li></ul></div>
+  </div>
+
+  <div class="gaps"><strong>What is not verified here</strong><ul><li>Floor area (sq ft) missing — price/sqft and space scoring use fallbacks</li><li>No Land Registry sale recorded for this address in the price-paid window — the house has not transacted, so there is no comparable sale history</li></ul></div>
+
+  <details class="raw">
+    <summary>Raw review record (JSON)</summary>
+    <pre>{
+  &quot;asking_price&quot;: 850000,
+  &quot;bathrooms&quot;: 1,
+  &quot;bedrooms&quot;: 3,
+  &quot;combined_score&quot;: {
+    &quot;detected_features&quot;: [
+      &quot;Nearest station Finchley Central 11 min walk (0.52 mi routed walk) (+4)&quot;,
+      &quot;Walkable station Finchley Central 11 min walk (+1.5)&quot;,
+      &quot;1 transit line within walk \u2014 Northern via Finchley Central 11 min walk \u2014 broad Central London access (+1)&quot;,
+      &quot;Night Tube / 24h service at Finchley Central (+1.5)&quot;,
+      &quot;Fast Liverpool St commute: ~42 mins door-to-concourse via Finchley Central (11m walk + 27m rail) (+2.5)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~34 mins via Finchley Central (+2)&quot;,
+      &quot;Square footage unstated in listing data (+3.9)&quot;,
+      &quot;Under-bathroomed (1 bath for 3 beds - morning bottlenecks likely) (+0.5)&quot;,
+      &quot;Two or more reception rooms (2) (+1)&quot;,
+      &quot;Living room width: 13.1 ft (below 15 ft)&quot;,
+      &quot;Ground-floor bedrooms confirmed on floorplan: 2 (+3)&quot;,
+      &quot;Price per sq ft not computable (+3.75 of 7.5 base)&quot;,
+      &quot;\u00a3850,000 asking price (+4.5 of 7.5)&quot;,
+      &quot;EPC Band D (4.5) + no secondary heating (1) + insulated roof (2) + double glazing (1) (+8.5 of 10)&quot;,
+      &quot;EPC: pitched roof with accessible loft (pitched, 100 mm loft insulation) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;
+    ],
+    &quot;evidence&quot;: {
+      &quot;financial_efficiency&quot;: [
+        &quot;Price per sq ft not computable (+3.75 of 7.5 base)&quot;,
+        &quot;\u00a3850,000 asking price (+4.5 of 7.5)&quot;
+      ],
+      &quot;location_transport&quot;: [
+        &quot;Nearest station Finchley Central 11 min walk (0.52 mi routed walk) (+4)&quot;,
+        &quot;Walkable station Finchley Central 11 min walk (+1.5)&quot;,
+        &quot;1 transit line within walk \u2014 Northern via Finchley Central 11 min walk \u2014 broad Central London access (+1)&quot;,
+        &quot;Night Tube / 24h service at Finchley Central (+1.5)&quot;,
+        &quot;Fast Liverpool St commute: ~42 mins door-to-concourse via Finchley Central (11m walk + 27m rail) (+2.5)&quot;,
+        &quot;King&#x27;s Cross St Pancras commute ~34 mins via Finchley Central (+2)&quot;
+      ],
+      &quot;space_layout&quot;: [
+        &quot;Square footage unstated in listing data (+3.9)&quot;,
+        &quot;Under-bathroomed (1 bath for 3 beds - morning bottlenecks likely) (+0.5)&quot;,
+        &quot;Two or more reception rooms (2) (+1)&quot;,
+        &quot;Living room width: 13.1 ft (below 15 ft)&quot;,
+        &quot;Ground-floor bedrooms confirmed on floorplan: 2 (+3)&quot;
+      ],
+      &quot;technical_epc&quot;: [
+        &quot;EPC Band D (4.5) + no secondary heating (1) + insulated roof (2) + double glazing (1) (+8.5 of 10)&quot;,
+        &quot;EPC: pitched roof with accessible loft (pitched, 100 mm loft insulation) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;
+      ]
+    },
+    &quot;financial_efficiency&quot;: 8.2,
+    &quot;garden_outdoor&quot;: 0.0,
+    &quot;location_transport&quot;: 12.5,
+    &quot;notes&quot;: [
+      &quot;Nearest station Finchley Central 11 min walk (0.52 mi routed walk) (+4)&quot;,
+      &quot;Walkable station Finchley Central 11 min walk (+1.5)&quot;,
+      &quot;1 transit line within walk \u2014 Northern via Finchley Central 11 min walk \u2014 broad Central London access (+1)&quot;,
+      &quot;Night Tube / 24h service at Finchley Central (+1.5)&quot;,
+      &quot;Fast Liverpool St commute: ~42 mins door-to-concourse via Finchley Central (11m walk + 27m rail) (+2.5)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~34 mins via Finchley Central (+2)&quot;,
+      &quot;Square footage unstated in listing data (+3.9)&quot;,
+      &quot;Under-bathroomed (1 bath for 3 beds - morning bottlenecks likely) (+0.5)&quot;,
+      &quot;Two or more reception rooms (2) (+1)&quot;,
+      &quot;EPC Band D&quot;
+    ],
+    &quot;observed_presentation&quot;: 0.0,
+    &quot;space_layout&quot;: 8.4,
+    &quot;tags&quot;: [],
+    &quot;technical_epc&quot;: 10.5,
+    &quot;total_score&quot;: 39.6,
+    &quot;vision_facts&quot;: [
+      &quot;5 room dimensions read from plan-image text (OCR)&quot;
+    ]
+  },
+  &quot;data_gaps&quot;: [
+    &quot;Floor area (sq ft) missing \u2014 price/sqft and space scoring use fallbacks&quot;,
+    &quot;No Land Registry sale recorded for this address in the price-paid window \u2014 the house has not transacted, so there is no comparable sale history&quot;
+  ],
+  &quot;epc_potential&quot;: &quot;C&quot;,
+  &quot;epc_rating&quot;: &quot;D&quot;,
+  &quot;floorplan_image_url&quot;: &quot;https://lid.zoocdn.com/u/1024/768/c6adc5875eb8e0af138a3e8d47646ebaaf5872cb.png&quot;,
+  &quot;floorplan_rooms&quot;: [
+    {
+      &quot;area_sq_ft&quot;: null,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;circulation&quot;,
+      &quot;label&quot;: &quot;Porch&quot;,
+      &quot;length_ft&quot;: null,
+      &quot;width_ft&quot;: null
+    },
+    {
+      &quot;area_sq_ft&quot;: 53,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 2&quot;,
+      &quot;length_ft&quot;: 8.0,
+      &quot;width_ft&quot;: 6.6
+    },
+    {
+      &quot;area_sq_ft&quot;: 194,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;living&quot;,
+      &quot;label&quot;: &quot;Living Room&quot;,
+      &quot;length_ft&quot;: 14.8,
+      &quot;width_ft&quot;: 13.1
+    },
+    {
+      &quot;area_sq_ft&quot;: null,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 1&quot;,
+      &quot;length_ft&quot;: null,
+      &quot;width_ft&quot;: null
+    },
+    {
+      &quot;area_sq_ft&quot;: null,
+      &quot;floor&quot;: null,
+      &quot;kind&quot;: &quot;circulation&quot;,
+      &quot;label&quot;: &quot;Hallway&quot;,
+      &quot;length_ft&quot;: null,
+      &quot;width_ft&quot;: null
+    },
+    {
+      &quot;area_sq_ft&quot;: 148,
+      &quot;floor&quot;: null,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 3&quot;,
+      &quot;length_ft&quot;: 12.5,
+      &quot;width_ft&quot;: 11.8
+    },
+    {
+      &quot;area_sq_ft&quot;: 199,
+      &quot;floor&quot;: null,
+      &quot;kind&quot;: &quot;living&quot;,
+      &quot;label&quot;: &quot;Reception Room&quot;,
+      &quot;length_ft&quot;: 15.2,
+      &quot;width_ft&quot;: 13.1
+    },
+    {
+      &quot;area_sq_ft&quot;: null,
+      &quot;floor&quot;: null,
+      &quot;kind&quot;: &quot;bathroom&quot;,
+      &quot;label&quot;: &quot;Bathroom&quot;,
+      &quot;length_ft&quot;: null,
+      &quot;width_ft&quot;: null
+    },
+    {
+      &quot;area_sq_ft&quot;: 79,
+      &quot;floor&quot;: null,
+      &quot;kind&quot;: &quot;kitchen&quot;,
+      &quot;label&quot;: &quot;Kitchen&quot;,
+      &quot;length_ft&quot;: 11.0,
+      &quot;width_ft&quot;: 7.2
+    }
+  ],
+  &quot;full_address&quot;: &quot;Rosemary Avenue, London N3&quot;,
+  &quot;kings_cross_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Top Tier (&lt;35m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 23,
+    &quot;route_summary&quot;: &quot;Northern line direct to King&#x27;s Cross St Pancras (23 min)&quot;,
+    &quot;secondary_route&quot;: &quot;Mill Hill East (1.608 mi, ~33m walk) \u2794 London Underground (Northern line - Mill Hill East branch) (37m rail) = ~70m total&quot;,
+    &quot;station_distance_miles&quot;: 0.518,
+    &quot;station_name&quot;: &quot;Finchley Central&quot;,
+    &quot;total_commute_minutes&quot;: 34,
+    &quot;transfer_minutes&quot;: 0,
+    &quot;transit_line&quot;: &quot;London Underground (Northern line - Bank branch)&quot;,
+    &quot;walk_time_minutes&quot;: 11
+  },
+  &quot;land_registry_summary&quot;: {
+    &quot;area_benchmark&quot;: {
+      &quot;area_source&quot;: &quot;epc_bulk total_floor_area&quot;,
+      &quot;coverage_pct&quot;: 45,
+      &quot;high_gbp_sqft&quot;: 862,
+      &quot;low_gbp_sqft&quot;: 124,
+      &quot;median_gbp_sqft&quot;: 502,
+      &quot;of_sales&quot;: 42,
+      &quot;sample&quot;: 19
+    },
+    &quot;number_known&quot;: true,
+    &quot;postcode_sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1996-03-10&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;64&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 62000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;3A15FDB9-AD17-49C9-976F-D3643667EC99&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1998-04-27&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;82&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 165000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;524B781F-E42A-4144-862E-EF3551876785&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1998-04-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;72&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 125000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;F64102BD-5CEC-40DC-9997-E5B9D0D7BAE8&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1998-10-29&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;36&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 135000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;76BA8324-B549-4569-83FF-11DAB1B9102C&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1999-06-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;36&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 220000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;86CA0284-3AD6-4ECF-B13D-EFA8DAA57355&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2000-05-10&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;26&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 215000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;33FD3B6D-5CE6-4FB0-9EE9-DC900F65B166&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2000-07-21&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;82&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 250000,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;F242FA51-9CF9-42C2-AB34-3A916C423E3A&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2000-09-07&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;72&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 184280,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;16A4F37C-1D3F-4487-9C43-A1D7A3A72170&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2003-08-28&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;22&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 310000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;07F46D40-E7CD-4FDC-AD7E-AE55B753B67D&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2004-12-21&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;74&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 313500,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;5B6CC45E-2FB3-4D88-8983-75B869CFC427&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2005-04-29&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;10&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 179950,
+        &quot;property_type&quot;: &quot;flat-maisonette&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;C8A8110E-88C1-49F8-8343-FB8142C4CA14&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2006-08-01&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;52&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 390000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;6656FD54-2144-4344-949A-B8110E621BA4&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2006-08-10&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;72&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 360000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;8DC99C19-DE81-4620-AF27-2997E1CF6FE8&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2006-10-11&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;6&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 320000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;F0FFCA07-5F77-4948-B592-C76192ADCCB9&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2006-10-27&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;4A&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 331000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;818B5A8C-0D3E-4BA6-B16E-EA24D1B13F4F&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2007-08-16&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;10&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 299950,
+        &quot;property_type&quot;: &quot;flat-maisonette&quot;,
+        &quot;saon&quot;: &quot;GROUND FLOOR FLAT&quot;,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;7D572404-5DAC-41A9-A986-D4F7C3F167A0&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2007-10-02&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;24&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 420000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;5A8236A4-7AAC-4A2C-BA53-EA3D8CB4B8C7&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2007-11-09&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;4A&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 230000,
+        &quot;property_type&quot;: &quot;flat-maisonette&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;AD72C0F7-4E1A-4921-8470-6E2B664E3120&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2007-11-09&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;2A&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 220000,
+        &quot;property_type&quot;: &quot;flat-maisonette&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;1174BA56-7F30-420C-9B88-9E7908055694&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2009-07-06&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;70&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 317500,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;D002B99A-518F-4909-86EE-3F90395A3094&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2010-02-19&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;60&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 407500,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;CCAD2BEE-F42A-4C2F-B91A-BC3060273E92&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2011-05-13&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;32&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 490000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;010A4455-F9CE-4527-A8E0-885F0A5AF8D2&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2011-06-21&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;56&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 477500,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;AEF37F0B-5F54-4D6E-B031-B560ED8E9E7B&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Additional price paid transaction&quot;,
+        &quot;date&quot;: &quot;2015-03-19&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;66&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 560000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;21E5FEB6-4E4D-2439-E050-A8C06205342E&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2015-07-03&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;10&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 450000,
+        &quot;property_type&quot;: &quot;flat-maisonette&quot;,
+        &quot;saon&quot;: &quot;GROUND FLOOR FLAT&quot;,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;288DCE29-771A-E510-E050-A8C06205480E&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2015-10-02&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;46&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 451000,
+        &quot;property_type&quot;: &quot;flat-maisonette&quot;,
+        &quot;saon&quot;: &quot;FLAT 2&quot;,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;23B6165D-CD09-FCF4-E050-A8C0620577FA&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2015-10-08&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;86&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 645000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;23B6165E-9B0D-FCF4-E050-A8C0620577FA&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-03-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;8&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 337500,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;31FB4C17-B0C6-57B9-E050-A8C063053436&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2019-08-21&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;72&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 750000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;919FEC05-8320-9A90-E053-6C04A8C0A300&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2019-08-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;14&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 775000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;93E6821E-9734-40FD-E053-6B04A8C0C1DF&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2019-12-20&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;54&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 660000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;9DBAD221-FDE1-6EB3-E053-6B04A8C0F257&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2020-11-23&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;36&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 707000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;BEF7EBBF-1807-7A76-E053-6B04A8C092F7&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2021-02-09&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;84&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 650000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;C3C3F9B6-0A18-362B-E053-6B04A8C03ACC&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2021-06-25&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;26&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 822577,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;D22473F4-C079-7B40-E053-6C04A8C0A630&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2021-08-19&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;52&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 767500,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;D707E535-A787-0AD9-E053-6B04A8C067CC&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2022-06-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;58&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 790000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;E53EDD2D-FF4B-83EC-E053-6B04A8C03A59&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2022-12-16&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;10&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 575000,
+        &quot;property_type&quot;: &quot;flat-maisonette&quot;,
+        &quot;saon&quot;: &quot;GROUND FLOOR FLAT&quot;,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;237B17FD-9534-22AC-E063-4804A8C0EA3A&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2023-02-22&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;56&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 765000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;FAC30767-52E4-5E20-E053-4704A8C004EE&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Additional price paid transaction&quot;,
+        &quot;date&quot;: &quot;2024-01-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;24&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 580000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;1061746E-DA3D-3C34-E063-4804A8C0F9E7&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2024-02-07&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;48&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 765000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;1C3E72FE-69CC-F410-E063-4804A8C0DFA6&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2025-03-28&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;24&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 685000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;4C1B673F-6587-D8EA-E063-4704A8C0BF7D&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2025-09-17&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;22&quot;,
+        &quot;postcode&quot;: &quot;N3 2QN&quot;,
+        &quot;price&quot;: 865000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;ROSEMARY AVENUE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;42C129E4-E043-60A9-E063-4804A8C0C25D&quot;
+      }
+    ],
+    &quot;sales&quot;: [],
+    &quot;scope&quot;: &quot;address_no_sale&quot;,
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;latitude&quot;: 51.5965,
+  &quot;liverpool_st_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Fast (35-45m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 27,
+    &quot;route_summary&quot;: &quot;Northern line (Bank branch) direct to Moorgate (27 min) + 4 min Elizabeth line link to Liverpool St&quot;,
+    &quot;secondary_route&quot;: &quot;&quot;,
+    &quot;station_distance_miles&quot;: 0.518,
+    &quot;station_name&quot;: &quot;Finchley Central&quot;,
+    &quot;total_commute_minutes&quot;: 42,
+    &quot;transfer_minutes&quot;: 4,
+    &quot;transit_line&quot;: &quot;London Underground (Northern line - Bank branch)&quot;,
+    &quot;walk_time_minutes&quot;: 11
+  },
+  &quot;living_rooms&quot;: 2,
+  &quot;longitude&quot;: -0.185118,
+  &quot;nearest_station&quot;: &quot;Finchley Central&quot;,
+  &quot;nice_to_haves&quot;: [
+    {
+      &quot;detail&quot;: &quot;Not mentioned; UK EPCs do not record domestic cooling&quot;,
+      &quot;label&quot;: &quot;Air conditioning&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned in the listing or EPC&quot;,
+      &quot;label&quot;: &quot;Underfloor heating&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;No aspect stated in the listing, floor-plan or photos&quot;,
+      &quot;label&quot;: &quot;South-facing garden&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned and no overhead glazing seen in photos&quot;,
+      &quot;label&quot;: &quot;Sun roof / lantern in living areas&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Floorplan shows 2 bedrooms on the ground floor&quot;,
+      &quot;label&quot;: &quot;Ground-floor bedroom&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Largest living area is 13.1 ft (Living Room, floor-plan) \u2014 below the 15 ft mark&quot;,
+      &quot;label&quot;: &quot;Wide living room&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Living Room measures 14.8 x 13.1 ft (194 sq ft) on the floor plan, a separate room from the Reception Room \u2014 room for a smaller screen or fewer seats; at that size it holds a 141-inch screen with the front row 9 ft from it, 1 recliner row of 5 across (11.3 ft of frontage, a modular sectional run), 5 seats&quot;,
+      &quot;label&quot;: &quot;Home theatre potential&quot;,
+      &quot;status&quot;: &quot;photo-hint&quot;
+    }
+  ],
+  &quot;overall_verdict&quot;: &quot;Secondary Assessment Needed: Low scores across multiple dimensions.&quot;,
+  &quot;planning_summary&quot;: {
+    &quot;applications&quot;: [],
+    &quot;properties&quot;: [
+      {
+        &quot;key&quot;: &quot;NC23C100DT005&quot;,
+        &quot;text&quot;: &quot;50 Rosemary Avenue London N3 2QN&quot;,
+        &quot;url&quot;: &quot;https://publicaccess.barnet.gov.uk/online-applications/propertyDetails.do?activeTab=summary&amp;keyVal=NC23C100DT005&quot;
+      }
+    ],
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;price_display&quot;: &quot;\u00a3850,000&quot;,
+  &quot;price_per_sq_ft&quot;: null,
+  &quot;property_id&quot;: &quot;71010143&quot;,
+  &quot;property_images&quot;: [
+    &quot;https://lid.zoocdn.com/u/1024/768/248b4be66bbfecfde6e843e563ee515f9bfca25c.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/d4c765c77170407ae64c47175228d38163bea28e.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/fb2a1ed5d401a3d71b9d1b80963708308def354e.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/adeccf6df242176138633051ab97f2c4767a95b9.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/d6ca67e59d7c571e0e3d6c43f8ab0d268aaa47eb.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/db6b76fe04db2235b65ce1a8b59ac88755f4b00b.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/afb2be2076e912bc083e7cb15123fe5f3950a7d8.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/e99efd493421e9a2047377b6ddd8bf99d3ac633e.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/fb0b79f8c33fd2c8fff3140fe1ca05694369aae4.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/0e1a7006eab41fe2f929df192993da34a3733c42.jpg&quot;
+  ],
+  &quot;property_type&quot;: &quot;3 bed semi-detached house for sale&quot;,
+  &quot;size_sq_ft&quot;: null,
+  &quot;size_sq_m&quot;: null,
+  &quot;station_distance_miles&quot;: 0.52,
+  &quot;station_distance_source&quot;: &quot;routed&quot;,
+  &quot;tenure&quot;: &quot;Freehold&quot;,
+  &quot;walk_time_minutes&quot;: 11
+}</pre>
+  </details>
+
+  <div class="foot"><div><a href="lee-close-barnet-en5.html">← Lee Close</a></div><div><a href="longland-drive-totteridge-london-n20.html">→ Longland Drive</a></div></div>
+
+  <p class="note" style="margin-top:26px">Generated 2026-10-02 from
+  <code>reviews/property_reviews.json</code>. Map data &copy;
+  <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</p>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
+<script>window.__PINS__ = [{"id": "71010143", "lat": 51.5965, "lon": -0.185118, "addr": "Rosemary Avenue", "price": "\u00a3850,000", "sqft": "\u2014", "epc": "D", "score": 39.6, "colour": "#a8322d", "tags": [], "tag_html": "", "href": "#"}];</script>
+<script>window.__SLIDES__ = ["https://lid.zoocdn.com/u/1024/768/248b4be66bbfecfde6e843e563ee515f9bfca25c.jpg", "https://lid.zoocdn.com/u/1024/768/d4c765c77170407ae64c47175228d38163bea28e.jpg", "https://lid.zoocdn.com/u/1024/768/fb2a1ed5d401a3d71b9d1b80963708308def354e.jpg", "https://lid.zoocdn.com/u/1024/768/adeccf6df242176138633051ab97f2c4767a95b9.jpg", "https://lid.zoocdn.com/u/1024/768/d6ca67e59d7c571e0e3d6c43f8ab0d268aaa47eb.jpg", "https://lid.zoocdn.com/u/1024/768/db6b76fe04db2235b65ce1a8b59ac88755f4b00b.jpg", "https://lid.zoocdn.com/u/1024/768/afb2be2076e912bc083e7cb15123fe5f3950a7d8.jpg", "https://lid.zoocdn.com/u/1024/768/e99efd493421e9a2047377b6ddd8bf99d3ac633e.jpg", "https://lid.zoocdn.com/u/1024/768/fb0b79f8c33fd2c8fff3140fe1ca05694369aae4.jpg", "https://lid.zoocdn.com/u/1024/768/0e1a7006eab41fe2f929df192993da34a3733c42.jpg"];</script>
+<script>
+(function () {
+  var el = document.getElementById('map');
+  if (!el || typeof L === 'undefined') { return; }
+  var data = window.__PINS__ || [];
+  if (!data.length || data[0].lat === null) { el.style.display = 'none'; return; }
+  var map = L.map('map', { scrollWheelZoom: false, dragging: false,
+                           doubleClickZoom: false, boxZoom: false,
+                           keyboard: false, zoomControl: false });
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  var group = L.featureGroup().addTo(map);
+  data.forEach(function (p) {
+    if (p.lat === null) { return; }
+    L.circleMarker([p.lat, p.lon], { radius: 10, color: '#ffffff', weight: 3,
+                                     fillColor: p.colour, fillOpacity: 0.95 }).addTo(group);
+  });
+  if (group.getBounds().isValid()) { map.fitBounds(group.getBounds().pad(0.35)); }
+  L.control.attribution({ prefix: false }).addTo(map);
+})();
+</script>
+<script>
+(function () {
+  var shots = window.__SLIDES__ || [];
+  var img = document.getElementById('slide-img');
+  var link = document.getElementById('slide-link');
+  var prev = document.getElementById('slide-prev');
+  var next = document.getElementById('slide-next');
+  var num = document.getElementById('slide-n');
+  if (!img || !link || shots.length < 2) {
+    if (prev) { prev.disabled = true; }
+    if (next) { next.disabled = true; }
+    return;
+  }
+  var at = 0;
+
+  function show(i) {
+    at = (i + shots.length) % shots.length;
+    img.src = shots[at];
+    img.alt = 'Listing photo ' + (at + 1) + ' of ' + shots.length +
+              ' — open full size';
+    link.href = shots[at];
+    if (num) { num.textContent = String(at + 1); }
+  }
+
+  // Only the neighbours are warmed: a 34-photo listing at 136 KB each is
+  // 4.6 MB if the whole gallery is fetched up front, for images the reader may
+  // never scroll to.
+  function warm() {
+    [at + 1, at - 1].forEach(function (k) {
+      var j = (k + shots.length) % shots.length;
+      if (j !== at) { new Image().src = shots[j]; }
+    });
+  }
+
+  prev.addEventListener('click', function () { show(at - 1); warm(); });
+  next.addEventListener('click', function () { show(at + 1); warm(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) { return; }
+    if (e.key === 'ArrowLeft') { show(at - 1); warm(); }
+    if (e.key === 'ArrowRight') { show(at + 1); warm(); }
+  });
+  show(0);
+  warm();
+})();
+</script>
+</body></html>
