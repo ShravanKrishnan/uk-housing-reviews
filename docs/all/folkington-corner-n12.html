@@ -448,7 +448,7 @@
 }</pre>
   </details>
 
-  <div class="foot"><div><a href="longland-drive-totteridge-london-n20-2.html">← Longland Drive</a></div><div><a href="manor-road-barnet-en5.html">→ Manor Road</a></div></div>
+  <div class="foot"><div><a href="southway-totteridge-n20.html">← Southway</a></div><div><a href="manor-road-barnet-en5.html">→ Manor Road</a></div></div>
 
   <p class="note" style="margin-top:26px">Generated 2026-10-02 from
   <code>reviews/property_reviews.json</code>. Map data &copy;
@@ -458,6 +458,7 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
 <script>window.__PINS__ = [{"id": "74398698", "lat": 51.614029, "lon": -0.198491, "addr": "Folkington Corner N12", "price": "\u00a31,175,000", "sqft": "2,100", "epc": "E", "score": 29.2, "colour": "#a8322d", "tags": [], "tag_html": "", "href": "#"}];</script>
 <script>window.__SLIDES__ = ["https://lid.zoocdn.com/u/1024/768/f90cab7a90b41045767ac6c639a198988ee78608.jpg", "https://lid.zoocdn.com/u/1024/768/3054b75ce1225a9f2bd5374e3e4bb5339542f104.jpg", "https://lid.zoocdn.com/u/1024/768/244e19ee7d2dfe7bac325b3c14a71698bb3fde3f.jpg", "https://lid.zoocdn.com/u/1024/768/3f9138118e84a7c99f041a99a483905318b65f12.jpg", "https://lid.zoocdn.com/u/1024/768/971e7b79482bb13d9ae84f3d9f416345d9a22abb.jpg", "https://lid.zoocdn.com/u/1024/768/463157a0790fb1fd19a688ceaac7faf61664f971.jpg", "https://lid.zoocdn.com/u/1024/768/f8064a6dbe6f39a5e103b2b3ee7b425778ba8f5a.jpg", "https://lid.zoocdn.com/u/1024/768/edff8a62f8acd688cd955e1aff4e77e55f84601c.jpg", "https://lid.zoocdn.com/u/1024/768/0ccf8103bb0f1f961584a09c55be69339dfba32c.jpg", "https://lid.zoocdn.com/u/1024/768/7c4990138eb8bb1bacb1e8498262bee22d19c100.jpg", "https://lid.zoocdn.com/u/1024/768/a3c1d8b7ac12414c37c7bea2a55729bce12d8b35.jpg", "https://lid.zoocdn.com/u/1024/768/8b052d1b78f3fd245d962ce9ffa57affe645b8d5.jpg", "https://lid.zoocdn.com/u/1024/768/148de26e7698d2ac3eff7a381a4ebd7bcab322fe.jpg", "https://lid.zoocdn.com/u/1024/768/c99455086cfcf65f865984425119c1be855ccc09.jpg", "https://lid.zoocdn.com/u/1024/768/ea9c7ab00a5d86ca08cc85353bff7f6b66127e7b.jpg", "https://lid.zoocdn.com/u/1024/768/7b1fcd8242f29c783703de472454295ead899f97.jpg", "https://lid.zoocdn.com/u/1024/768/21fca4151f46a0017f19732d1eb43f5b9288c84d.jpg", "https://lid.zoocdn.com/u/1024/768/62a11f54a5045bebb904b83d0878b12d664627ee.jpg", "https://lid.zoocdn.com/u/1024/768/34ad405e19a17538a7477fea03785d01047ff941.jpg"];</script>
+<script>window.__SLIDES_HI__ = "2400/1800";</script>
 <script>
 (function () {
   var el = document.getElementById('map');
@@ -484,6 +485,7 @@
 <script>
 (function () {
   var shots = window.__SLIDES__ || [];
+  var hiSize = window.__SLIDES_HI__ || '';
   var img = document.getElementById('slide-img');
   var link = document.getElementById('slide-link');
   var prev = document.getElementById('slide-prev');
@@ -523,6 +525,16 @@
   // Clicking the frame opens the overlay rather than navigating to the raw
   // image; without JS the <a href> still opens the image directly, so the
   // control is never inert.
+  //
+  // The inline frame is ~440px tall, so the gallery rung is plenty there. The
+  // overlay fills the viewport (up to ~1600px wide), where that rung is soft,
+  // so it loads the top rung — derived from the same URL, which is why there is
+  // no second payload. A non-CDN URL simply does not match and is left alone.
+  function hiRes(url) {
+    if (!hiSize) { return url; }
+    return url.replace(/\/u\/\d+\/\d+\//, '/u/' + hiSize + '/');
+  }
+
   var lb = document.getElementById('lightbox');
   var lbImg = document.getElementById('lb-img');
   var lbNum = document.getElementById('lb-n');
@@ -534,13 +546,13 @@
   function lbShow(i) {
     lbAt = (i + shots.length) % shots.length;
     if (lbImg) {
-      lbImg.src = shots[lbAt];
+      lbImg.src = hiRes(shots[lbAt]);
       lbImg.alt = 'Listing photo ' + (lbAt + 1) + ' of ' + shots.length;
     }
     if (lbNum) { lbNum.textContent = String(lbAt + 1); }
     if (shots.length > 1) {
-      new Image().src = shots[(lbAt + 1) % shots.length];
-      new Image().src = shots[(lbAt - 1 + shots.length) % shots.length];
+      new Image().src = hiRes(shots[(lbAt + 1) % shots.length]);
+      new Image().src = hiRes(shots[(lbAt - 1 + shots.length) % shots.length]);
     }
   }
   function openLb(i) {

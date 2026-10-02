@@ -12,7 +12,7 @@
   <h1>Dale Grove</h1>
   <p class="sub">Dale Grove, London N12</p>
   <nav class="crumbs"><a href="../index.html">← Back to the map</a> &middot;
-  <a href="../index.html#all-rank-180">Rank #180 of All properties</a></nav>
+  <a href="../index.html#all-rank-179">Rank #179 of All properties</a></nav>
 </div></header>
 
 <div class="wrap">
@@ -23,7 +23,7 @@
         <span class="badge tag-value">Strong Value</span>
       </div>
       <div style="font-size:13px;color:var(--muted)">
-        180 of 190 &middot; score 30.5
+        179 of 190 &middot; score 30.5
       </div>
     </div>
     <div class="verdict">Secondary Assessment Needed: Low scores across multiple dimensions.</div>
@@ -553,7 +553,7 @@
 }</pre>
   </details>
 
-  <div class="foot"><div><a href="lansdowne-road-finchley-london-n3.html">← Lansdowne Road</a></div><div><a href="derwent-avenue-east-barnet-en4.html">→ Derwent Avenue</a></div></div>
+  <div class="foot"><div><a href="holdenhurst-avenue-london-n12.html">← Holdenhurst Avenue</a></div><div><a href="derwent-avenue-east-barnet-en4.html">→ Derwent Avenue</a></div></div>
 
   <p class="note" style="margin-top:26px">Generated 2026-10-02 from
   <code>reviews/property_reviews.json</code>. Map data &copy;
@@ -563,6 +563,7 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
 <script>window.__PINS__ = [{"id": "70944357", "lat": 51.613236, "lon": -0.179544, "addr": "Dale Grove", "price": "\u00a3750,000", "sqft": "\u2014", "epc": "?", "score": 30.5, "colour": "#a8322d", "tags": ["Strong Value"], "tag_html": "<span class=\"badge tag-value\">Strong Value<\/span>", "href": "#"}];</script>
 <script>window.__SLIDES__ = ["https://lid.zoocdn.com/u/1024/768/9dc62f2dab0f99fda019a4452b1fce76d5db70bf.jpg"];</script>
+<script>window.__SLIDES_HI__ = "2400/1800";</script>
 <script>
 (function () {
   var el = document.getElementById('map');
@@ -589,6 +590,7 @@
 <script>
 (function () {
   var shots = window.__SLIDES__ || [];
+  var hiSize = window.__SLIDES_HI__ || '';
   var img = document.getElementById('slide-img');
   var link = document.getElementById('slide-link');
   var prev = document.getElementById('slide-prev');
@@ -628,6 +630,16 @@
   // Clicking the frame opens the overlay rather than navigating to the raw
   // image; without JS the <a href> still opens the image directly, so the
   // control is never inert.
+  //
+  // The inline frame is ~440px tall, so the gallery rung is plenty there. The
+  // overlay fills the viewport (up to ~1600px wide), where that rung is soft,
+  // so it loads the top rung — derived from the same URL, which is why there is
+  // no second payload. A non-CDN URL simply does not match and is left alone.
+  function hiRes(url) {
+    if (!hiSize) { return url; }
+    return url.replace(/\/u\/\d+\/\d+\//, '/u/' + hiSize + '/');
+  }
+
   var lb = document.getElementById('lightbox');
   var lbImg = document.getElementById('lb-img');
   var lbNum = document.getElementById('lb-n');
@@ -639,13 +651,13 @@
   function lbShow(i) {
     lbAt = (i + shots.length) % shots.length;
     if (lbImg) {
-      lbImg.src = shots[lbAt];
+      lbImg.src = hiRes(shots[lbAt]);
       lbImg.alt = 'Listing photo ' + (lbAt + 1) + ' of ' + shots.length;
     }
     if (lbNum) { lbNum.textContent = String(lbAt + 1); }
     if (shots.length > 1) {
-      new Image().src = shots[(lbAt + 1) % shots.length];
-      new Image().src = shots[(lbAt - 1 + shots.length) % shots.length];
+      new Image().src = hiRes(shots[(lbAt + 1) % shots.length]);
+      new Image().src = hiRes(shots[(lbAt - 1 + shots.length) % shots.length]);
     }
   }
   function openLb(i) {

@@ -12,7 +12,7 @@
   <h1>20 Derwent Crescent N20</h1>
   <p class="sub">20 Derwent Crescent N20</p>
   <nav class="crumbs"><a href="../index.html">← Back to the map</a> &middot;
-  <a href="../index.html#all-rank-150">Rank #150 of All properties</a></nav>
+  <a href="../index.html#all-rank-153">Rank #153 of All properties</a></nav>
 </div></header>
 
 <div class="wrap">
@@ -23,7 +23,7 @@
         
       </div>
       <div style="font-size:13px;color:var(--muted)">
-        150 of 190 &middot; score 38.1
+        153 of 190 &middot; score 38.1
       </div>
     </div>
     <div class="verdict">Secondary Assessment Needed: Low scores across multiple dimensions.</div>
@@ -448,7 +448,7 @@
 }</pre>
   </details>
 
-  <div class="foot"><div><a href="the-crescent-new-southgate-n11.html">← The Crescent</a></div><div><a href="dudley-road-finchley-london-n3.html">→ Dudley Road</a></div></div>
+  <div class="foot"><div><a href="the-crescent-new-southgate-n11.html">← The Crescent</a></div><div><a href="fitzjohn-avenue-barnet-en5-2.html">→ Fitzjohn Avenue</a></div></div>
 
   <p class="note" style="margin-top:26px">Generated 2026-10-02 from
   <code>reviews/property_reviews.json</code>. Map data &copy;
@@ -458,6 +458,7 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
 <script>window.__PINS__ = [{"id": "72123373", "lat": 51.622636, "lon": -0.175283, "addr": "20 Derwent Crescent N20", "price": "\u00a3950,000", "sqft": "\u2014", "epc": "D", "score": 38.1, "colour": "#a8322d", "tags": [], "tag_html": "", "href": "#"}];</script>
 <script>window.__SLIDES__ = ["https://lid.zoocdn.com/u/1024/768/611c863a6db8e22e13b3511940b1889bcc78bef6.jpg", "https://lid.zoocdn.com/u/1024/768/d50f0b98a7d79cc5f41be62d569c0ff0f8cfb075.jpg", "https://lid.zoocdn.com/u/1024/768/9f39f02300ab274132c727ef7305c1f6d5e9a6f9.jpg", "https://lid.zoocdn.com/u/1024/768/e2d941bd55e2b0892086794c856f09dc8e360889.jpg", "https://lid.zoocdn.com/u/1024/768/d5b5a239958e7a6e99b7961f3c3fd3400633329b.jpg", "https://lid.zoocdn.com/u/1024/768/91f2bea4cdfba09b2301586323b64669c2e260b6.jpg"];</script>
+<script>window.__SLIDES_HI__ = "2400/1800";</script>
 <script>
 (function () {
   var el = document.getElementById('map');
@@ -484,6 +485,7 @@
 <script>
 (function () {
   var shots = window.__SLIDES__ || [];
+  var hiSize = window.__SLIDES_HI__ || '';
   var img = document.getElementById('slide-img');
   var link = document.getElementById('slide-link');
   var prev = document.getElementById('slide-prev');
@@ -523,6 +525,16 @@
   // Clicking the frame opens the overlay rather than navigating to the raw
   // image; without JS the <a href> still opens the image directly, so the
   // control is never inert.
+  //
+  // The inline frame is ~440px tall, so the gallery rung is plenty there. The
+  // overlay fills the viewport (up to ~1600px wide), where that rung is soft,
+  // so it loads the top rung — derived from the same URL, which is why there is
+  // no second payload. A non-CDN URL simply does not match and is left alone.
+  function hiRes(url) {
+    if (!hiSize) { return url; }
+    return url.replace(/\/u\/\d+\/\d+\//, '/u/' + hiSize + '/');
+  }
+
   var lb = document.getElementById('lightbox');
   var lbImg = document.getElementById('lb-img');
   var lbNum = document.getElementById('lb-n');
@@ -534,13 +546,13 @@
   function lbShow(i) {
     lbAt = (i + shots.length) % shots.length;
     if (lbImg) {
-      lbImg.src = shots[lbAt];
+      lbImg.src = hiRes(shots[lbAt]);
       lbImg.alt = 'Listing photo ' + (lbAt + 1) + ' of ' + shots.length;
     }
     if (lbNum) { lbNum.textContent = String(lbAt + 1); }
     if (shots.length > 1) {
-      new Image().src = shots[(lbAt + 1) % shots.length];
-      new Image().src = shots[(lbAt - 1 + shots.length) % shots.length];
+      new Image().src = hiRes(shots[(lbAt + 1) % shots.length]);
+      new Image().src = hiRes(shots[(lbAt - 1 + shots.length) % shots.length]);
     }
   }
   function openLb(i) {

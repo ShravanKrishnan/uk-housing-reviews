@@ -798,6 +798,7 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
 <script>window.__PINS__ = [{"id": "73341394", "lat": 51.653017, "lon": -0.189797, "addr": "Meadway", "price": "\u00a3750,000", "sqft": "1,271", "epc": "D", "score": 53.4, "colour": "#b96016", "tags": ["Strong Value", "Great Outdoor Space"], "tag_html": "<span class=\"badge tag-value\">Strong Value<\/span><span class=\"badge tag-outdoor\">Great Outdoor Space<\/span>", "href": "#"}];</script>
 <script>window.__SLIDES__ = ["https://lid.zoocdn.com/u/1024/768/d2596119473bddd1a70b7689a3154b658d98791d.jpg", "https://lid.zoocdn.com/u/1024/768/525d4e0335060d18ddb310b747739760d0d62b3f.jpg", "https://lid.zoocdn.com/u/1024/768/cffa59c1a01fdd6d253663fe2f8355b4ecd8bb23.jpg", "https://lid.zoocdn.com/u/1024/768/fc4cdf525be4f868721ad3da68a3f6260782287b.jpg", "https://lid.zoocdn.com/u/1024/768/f07b7c750f6f7a1d5d63e9eddd9d88562ad8aec5.jpg", "https://lid.zoocdn.com/u/1024/768/c5374da346ad9956fcf1b7ae4f10a6b9c1d007d7.jpg", "https://lid.zoocdn.com/u/1024/768/df3bf41a82b47d036f2f88c78c0a03ea1691b220.jpg", "https://lid.zoocdn.com/u/1024/768/3a29ca80ebd0b1a9f1d0d4e19038118f1247f0a9.jpg", "https://lid.zoocdn.com/u/1024/768/2d1a4189536fb5559e76b47116a9938776d8421c.jpg", "https://lid.zoocdn.com/u/1024/768/cc07e2fcbd82b36cecb1a7548ba3ae6793433654.jpg", "https://lid.zoocdn.com/u/1024/768/0422df864d60f33e4a54011c73b34ad7de3cce55.jpg", "https://lid.zoocdn.com/u/1024/768/9f454289342b7e38e8b2410babdfc7d1cf331895.jpg", "https://lid.zoocdn.com/u/1024/768/975d14518fe4bc33be6f39ca2f7ea8e03e226a84.jpg", "https://lid.zoocdn.com/u/1024/768/a5fd1d30e1778a11a088de2e716437465c6870a0.jpg", "https://lid.zoocdn.com/u/1024/768/f1e4b8c98cc718ebbb1c39165d9917eb54876183.jpg", "https://lid.zoocdn.com/u/1024/768/1cdf3dbd51017f5da67fbb0c039845090fe236ad.jpg", "https://lid.zoocdn.com/u/1024/768/575dcdd5ed4b1ca44e547bbbd046abb1f3dcebe3.jpg", "https://lid.zoocdn.com/u/1024/768/7658d8a67b5e66c76b4f1ecd216405cc9ca76fe4.jpg", "https://lid.zoocdn.com/u/1024/768/1a91e17b0c5afd16419fb201217de38ee4c7c4d6.jpg", "https://lid.zoocdn.com/u/1024/768/44b2b9a68552d24025d47b354345edda2ea29f22.jpg", "https://lid.zoocdn.com/u/1024/768/290709e3e68547e33b758c656e0e31b695e2fcf2.jpg", "https://lid.zoocdn.com/u/1024/768/c3babd8bb09318a9cc24b5fb9a65a2c0d53a1d4b.jpg", "https://lid.zoocdn.com/u/1024/768/1c7dd8a6a22891071d1d32ff13d42cdb6af446b1.jpg", "https://lid.zoocdn.com/u/1024/768/150866d845db7075ddc82fe297da697d3a7c0cc6.jpg", "https://lid.zoocdn.com/u/1024/768/3188e6dd09c1bc01b481c3d400a0d13dc23ba77a.jpg", "https://lid.zoocdn.com/u/1024/768/c6d3a911a331d34be2c4f3f8e9aefd2d7cd2fd82.jpg", "https://lid.zoocdn.com/u/1024/768/5b6bf64fe8befb86c1e29c926715604326ea9d12.jpg", "https://lid.zoocdn.com/u/1024/768/d26c28eca62336c2ac6ed93f28e718a941c3b8bf.jpg", "https://lid.zoocdn.com/u/1024/768/0339bed150ce4ead290b331af97af7b29c6dcc8c.jpg", "https://lid.zoocdn.com/u/1024/768/73aaf78869e250c2957538f2432e272c9de415ff.jpg", "https://lid.zoocdn.com/u/1024/768/8a069c24c0ff799c2b43c688746680823cc084a2.jpg", "https://lid.zoocdn.com/u/1024/768/b206378bf17942769a87a2ced6cf567e6084840d.jpg", "https://lid.zoocdn.com/u/1024/768/f12bc3152d4230c146e1a9475b6a536ad6fdcd4c.jpg", "https://lid.zoocdn.com/u/1024/768/0565db9cd0950f346450f934b81b41cb0495a926.jpg"];</script>
+<script>window.__SLIDES_HI__ = "2400/1800";</script>
 <script>
 (function () {
   var el = document.getElementById('map');
@@ -824,6 +825,7 @@
 <script>
 (function () {
   var shots = window.__SLIDES__ || [];
+  var hiSize = window.__SLIDES_HI__ || '';
   var img = document.getElementById('slide-img');
   var link = document.getElementById('slide-link');
   var prev = document.getElementById('slide-prev');
@@ -863,6 +865,16 @@
   // Clicking the frame opens the overlay rather than navigating to the raw
   // image; without JS the <a href> still opens the image directly, so the
   // control is never inert.
+  //
+  // The inline frame is ~440px tall, so the gallery rung is plenty there. The
+  // overlay fills the viewport (up to ~1600px wide), where that rung is soft,
+  // so it loads the top rung — derived from the same URL, which is why there is
+  // no second payload. A non-CDN URL simply does not match and is left alone.
+  function hiRes(url) {
+    if (!hiSize) { return url; }
+    return url.replace(/\/u\/\d+\/\d+\//, '/u/' + hiSize + '/');
+  }
+
   var lb = document.getElementById('lightbox');
   var lbImg = document.getElementById('lb-img');
   var lbNum = document.getElementById('lb-n');
@@ -874,13 +886,13 @@
   function lbShow(i) {
     lbAt = (i + shots.length) % shots.length;
     if (lbImg) {
-      lbImg.src = shots[lbAt];
+      lbImg.src = hiRes(shots[lbAt]);
       lbImg.alt = 'Listing photo ' + (lbAt + 1) + ' of ' + shots.length;
     }
     if (lbNum) { lbNum.textContent = String(lbAt + 1); }
     if (shots.length > 1) {
-      new Image().src = shots[(lbAt + 1) % shots.length];
-      new Image().src = shots[(lbAt - 1 + shots.length) % shots.length];
+      new Image().src = hiRes(shots[(lbAt + 1) % shots.length]);
+      new Image().src = hiRes(shots[(lbAt - 1 + shots.length) % shots.length]);
     }
   }
   function openLb(i) {

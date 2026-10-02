@@ -12,7 +12,7 @@
   <h1>Ibsley Way</h1>
   <p class="sub">Ibsley Way, Cockfosters EN4</p>
   <nav class="crumbs"><a href="../index.html">← Back to the map</a> &middot;
-  <a href="../index.html#all-rank-141">Rank #141 of All properties</a></nav>
+  <a href="../index.html#all-rank-144">Rank #144 of All properties</a></nav>
 </div></header>
 
 <div class="wrap">
@@ -23,7 +23,7 @@
         <span class="badge tag-value">Strong Value</span>
       </div>
       <div style="font-size:13px;color:var(--muted)">
-        141 of 190 &middot; score 38.9
+        144 of 190 &middot; score 38.9
       </div>
     </div>
     <div class="verdict">Secondary Assessment Needed: Low scores across multiple dimensions.</div>
@@ -850,7 +850,7 @@
 }</pre>
   </details>
 
-  <div class="foot"><div><a href="oxford-gardens-whetstone-london-greater-london-n20.html">← Oxford Gardens</a></div><div><a href="vincent-close-barnet-en5.html">→ Vincent Close</a></div></div>
+  <div class="foot"><div><a href="southover-woodside-park-n12.html">← Southover</a></div><div><a href="vincent-close-barnet-en5.html">→ Vincent Close</a></div></div>
 
   <p class="note" style="margin-top:26px">Generated 2026-10-02 from
   <code>reviews/property_reviews.json</code>. Map data &copy;
@@ -860,6 +860,7 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
 <script>window.__PINS__ = [{"id": "73745243", "lat": 51.64896, "lon": -0.15921, "addr": "Ibsley Way", "price": "\u00a3619,950", "sqft": "893", "epc": "D", "score": 38.9, "colour": "#a8322d", "tags": ["Strong Value"], "tag_html": "<span class=\"badge tag-value\">Strong Value<\/span>", "href": "#"}];</script>
 <script>window.__SLIDES__ = ["https://lid.zoocdn.com/u/1024/768/169637d07caed21e0282052a4e9d5a22a1ac9502.jpg", "https://lid.zoocdn.com/u/1024/768/0ba03c763f6129f38f6dde2bb70fd38a460524a8.jpg", "https://lid.zoocdn.com/u/1024/768/98cf994ba6467abbf0d484741b8038c45c443a28.jpg", "https://lid.zoocdn.com/u/1024/768/f26e5fe43391f7b99043a115edf7eb2ceb2cdf23.jpg", "https://lid.zoocdn.com/u/1024/768/dde501dcf77d90e3aaa393e0075c97d6641fe35d.jpg", "https://lid.zoocdn.com/u/1024/768/64d0c5ccfd2921abf714e65af20cc36029234e68.jpg", "https://lid.zoocdn.com/u/1024/768/f179a19f7ca11fbf22c19d99ab4d1b2d0ac7984a.jpg", "https://lid.zoocdn.com/u/1024/768/d14e469a6f2e46cba2cbe503a20a93ea1afcf644.jpg", "https://lid.zoocdn.com/u/1024/768/5d0c7171d85ed6d2911891ac4ced2545ef9c27d6.jpg", "https://lid.zoocdn.com/u/1024/768/45abb8d1ec3f82759dc5eeebc1e2a96c1b560112.jpg", "https://lid.zoocdn.com/u/1024/768/06a9e9f4fddd12355e64f6fb94d6156d5d3d1392.jpg", "https://lid.zoocdn.com/u/1024/768/dd178e51876101b99d64305acae5d35b6c8e1fb8.jpg", "https://lid.zoocdn.com/u/1024/768/eb76683dd0d88e6b5d1130a1218b3c057718b5ad.jpg", "https://lid.zoocdn.com/u/1024/768/36ef79dcdc50ab4bc34ce853f47c6f88049d107a.jpg", "https://lid.zoocdn.com/u/1024/768/265b08a595186002061fba66b58eaedb65245b83.jpg", "https://lid.zoocdn.com/u/1024/768/3e71ef7346b7433b63ec526b5791f941d0372ce1.jpg", "https://lid.zoocdn.com/u/1024/768/2f5c3a17622520a63cef6755bede1e1cfc14c206.jpg", "https://lid.zoocdn.com/u/1024/768/1c8f50ba8eb331e49c1b4ea3a52c2b3a6bac502b.jpg", "https://lid.zoocdn.com/u/1024/768/292d73147f332d3d057682fd2eca86cd23f62a1f.jpg", "https://lid.zoocdn.com/u/1024/768/47f317422be51a1a258ecf9e9b475dec8b185f96.jpg"];</script>
+<script>window.__SLIDES_HI__ = "2400/1800";</script>
 <script>
 (function () {
   var el = document.getElementById('map');
@@ -886,6 +887,7 @@
 <script>
 (function () {
   var shots = window.__SLIDES__ || [];
+  var hiSize = window.__SLIDES_HI__ || '';
   var img = document.getElementById('slide-img');
   var link = document.getElementById('slide-link');
   var prev = document.getElementById('slide-prev');
@@ -925,6 +927,16 @@
   // Clicking the frame opens the overlay rather than navigating to the raw
   // image; without JS the <a href> still opens the image directly, so the
   // control is never inert.
+  //
+  // The inline frame is ~440px tall, so the gallery rung is plenty there. The
+  // overlay fills the viewport (up to ~1600px wide), where that rung is soft,
+  // so it loads the top rung — derived from the same URL, which is why there is
+  // no second payload. A non-CDN URL simply does not match and is left alone.
+  function hiRes(url) {
+    if (!hiSize) { return url; }
+    return url.replace(/\/u\/\d+\/\d+\//, '/u/' + hiSize + '/');
+  }
+
   var lb = document.getElementById('lightbox');
   var lbImg = document.getElementById('lb-img');
   var lbNum = document.getElementById('lb-n');
@@ -936,13 +948,13 @@
   function lbShow(i) {
     lbAt = (i + shots.length) % shots.length;
     if (lbImg) {
-      lbImg.src = shots[lbAt];
+      lbImg.src = hiRes(shots[lbAt]);
       lbImg.alt = 'Listing photo ' + (lbAt + 1) + ' of ' + shots.length;
     }
     if (lbNum) { lbNum.textContent = String(lbAt + 1); }
     if (shots.length > 1) {
-      new Image().src = shots[(lbAt + 1) % shots.length];
-      new Image().src = shots[(lbAt - 1 + shots.length) % shots.length];
+      new Image().src = hiRes(shots[(lbAt + 1) % shots.length]);
+      new Image().src = hiRes(shots[(lbAt - 1 + shots.length) % shots.length]);
     }
   }
   function openLb(i) {

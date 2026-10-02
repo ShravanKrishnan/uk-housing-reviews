@@ -899,6 +899,7 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
 <script>window.__PINS__ = [{"id": "70593927", "lat": 51.656282, "lon": -0.182966, "addr": "Hadley Road", "price": "\u00a31,300,000", "sqft": "2,429", "epc": "D", "score": 49.7, "colour": "#b5531c", "tags": ["Beautifully Presented"], "tag_html": "<span class=\"badge tag-presentation\">Beautifully Presented<\/span>", "href": "#"}];</script>
 <script>window.__SLIDES__ = ["https://lid.zoocdn.com/u/1024/768/3d6142a39142412f541ce95a47c7945aecaf3c0f.jpg", "https://lid.zoocdn.com/u/1024/768/734fbbbdea69d69f3b041870692345a93ac0afe8.jpg", "https://lid.zoocdn.com/u/1024/768/489c5f376c64c5292ae1e6e5bfeea2a48609be88.jpg", "https://lid.zoocdn.com/u/1024/768/e22a85bd7a763f62108cbf5ac99446fde7237695.jpg", "https://lid.zoocdn.com/u/1024/768/d33b14a2a63a548998f94cc948dae4ecc4ff8c59.jpg", "https://lid.zoocdn.com/u/1024/768/a3bf5d602fdc09304d4156e72421385a54136b25.jpg", "https://lid.zoocdn.com/u/1024/768/f111aadb9c709fb3f9c03e47fa23938da3303605.jpg", "https://lid.zoocdn.com/u/1024/768/77220b1131b3efd9615aa1c5ab9e6f9761933ee9.jpg", "https://lid.zoocdn.com/u/1024/768/d12785f83df4da1d4cbce5fa7c6dbcdf1cdf33bd.jpg", "https://lid.zoocdn.com/u/1024/768/283337fda01d86fc4c97a6aff290bfd7a27cab5d.jpg", "https://lid.zoocdn.com/u/1024/768/bd6f5aa83a7ee21e65280963ae1b91b229ec368b.jpg", "https://lid.zoocdn.com/u/1024/768/bb81e7aae12b83ccbdc198a5b30e61af5f94e24e.jpg", "https://lid.zoocdn.com/u/1024/768/49ca498ffb57c8cdb8153f21db21fbfd6d785eda.jpg", "https://lid.zoocdn.com/u/1024/768/8cd4fa7860f768bf4adb90e0a5649f77b6475914.jpg", "https://lid.zoocdn.com/u/1024/768/79d405aa0a49271fbf7e7656b40984beed4e4714.jpg", "https://lid.zoocdn.com/u/1024/768/2e7032c1c0b7d5878bd5249f28f56db0885ff1fb.jpg", "https://lid.zoocdn.com/u/1024/768/a1e5b020e6856510caa2819b41c338e66cd911a2.jpg", "https://lid.zoocdn.com/u/1024/768/84230f58f8687615515e9b9bfb7fef0a1486c17c.jpg", "https://lid.zoocdn.com/u/1024/768/084f06dc52aa5533a22f4bf6a69134334fbc01b5.jpg"];</script>
+<script>window.__SLIDES_HI__ = "2400/1800";</script>
 <script>
 (function () {
   var el = document.getElementById('map');
@@ -925,6 +926,7 @@
 <script>
 (function () {
   var shots = window.__SLIDES__ || [];
+  var hiSize = window.__SLIDES_HI__ || '';
   var img = document.getElementById('slide-img');
   var link = document.getElementById('slide-link');
   var prev = document.getElementById('slide-prev');
@@ -964,6 +966,16 @@
   // Clicking the frame opens the overlay rather than navigating to the raw
   // image; without JS the <a href> still opens the image directly, so the
   // control is never inert.
+  //
+  // The inline frame is ~440px tall, so the gallery rung is plenty there. The
+  // overlay fills the viewport (up to ~1600px wide), where that rung is soft,
+  // so it loads the top rung — derived from the same URL, which is why there is
+  // no second payload. A non-CDN URL simply does not match and is left alone.
+  function hiRes(url) {
+    if (!hiSize) { return url; }
+    return url.replace(/\/u\/\d+\/\d+\//, '/u/' + hiSize + '/');
+  }
+
   var lb = document.getElementById('lightbox');
   var lbImg = document.getElementById('lb-img');
   var lbNum = document.getElementById('lb-n');
@@ -975,13 +987,13 @@
   function lbShow(i) {
     lbAt = (i + shots.length) % shots.length;
     if (lbImg) {
-      lbImg.src = shots[lbAt];
+      lbImg.src = hiRes(shots[lbAt]);
       lbImg.alt = 'Listing photo ' + (lbAt + 1) + ' of ' + shots.length;
     }
     if (lbNum) { lbNum.textContent = String(lbAt + 1); }
     if (shots.length > 1) {
-      new Image().src = shots[(lbAt + 1) % shots.length];
-      new Image().src = shots[(lbAt - 1 + shots.length) % shots.length];
+      new Image().src = hiRes(shots[(lbAt + 1) % shots.length]);
+      new Image().src = hiRes(shots[(lbAt - 1 + shots.length) % shots.length]);
     }
   }
   function openLb(i) {

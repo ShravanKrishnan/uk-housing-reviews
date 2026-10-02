@@ -575,6 +575,7 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
 <script>window.__PINS__ = [{"id": "74164010", "lat": 51.627502, "lon": -0.171657, "addr": "Ainsworth Close", "price": "\u00a31,375,000", "sqft": "1,759", "epc": "B", "score": 62.7, "colour": "#ab7715", "tags": ["Modern Systems", "Beautifully Presented", "Great Outdoor Space"], "tag_html": "<span class=\"badge tag-systems\">Modern Systems<\/span><span class=\"badge tag-presentation\">Beautifully Presented<\/span><span class=\"badge tag-outdoor\">Great Outdoor Space<\/span>", "href": "#"}];</script>
 <script>window.__SLIDES__ = ["https://lid.zoocdn.com/u/1024/768/1d5406c8393981df490c729fb11b6aab94ad56fd.jpg", "https://lid.zoocdn.com/u/1024/768/4119f8e980e395e3358a400be6d94c6da83f3f35.jpg", "https://lid.zoocdn.com/u/1024/768/8cb99abf61e5258470e342356535eb12085a5646.jpg", "https://lid.zoocdn.com/u/1024/768/fa4065ed21f99358db8b53d8720b4bdfc7eaf6da.jpg", "https://lid.zoocdn.com/u/1024/768/aceb78dff54ea3520419603426aabfe1ffab89e7.jpg", "https://lid.zoocdn.com/u/1024/768/1ed032f8102f444ff17c0141b5ddb6f71e715eb2.jpg", "https://lid.zoocdn.com/u/1024/768/a91b44e7eedb564ac945afc97260172d959ff77c.jpg", "https://lid.zoocdn.com/u/1024/768/7f339d1d3ea0a25b4873544521c683c6b4a70f85.jpg", "https://lid.zoocdn.com/u/1024/768/f820d34cdb501018eb3edc2bbc245a527174fe17.jpg", "https://lid.zoocdn.com/u/1024/768/4e19c0f44462eb641576d54e7ecc174193374e19.jpg", "https://lid.zoocdn.com/u/1024/768/6d57f7667377b6cb1ce5065003eda5d016bcadd6.jpg", "https://lid.zoocdn.com/u/1024/768/860a49332a6d82877f609a6063cb2d137933b027.jpg", "https://lid.zoocdn.com/u/1024/768/4fac5226b4d627c000cbfca770477d17cbfe0efd.jpg", "https://lid.zoocdn.com/u/1024/768/ddd0337a5a53ba87fc0ff28ace6c40f468e1bcaa.jpg", "https://lid.zoocdn.com/u/1024/768/bffdfa802c41c58f7977c43bf7809fec750c9f4f.jpg", "https://lid.zoocdn.com/u/1024/768/eeb513b69f2f6a521735ede444866b91b5f1110f.jpg", "https://lid.zoocdn.com/u/1024/768/1c76b2cdac285de4745ff02904548d9c90c66661.jpg", "https://lid.zoocdn.com/u/1024/768/c1aa5289e2b341ed19d0f820f7494c33fb68980e.jpg", "https://lid.zoocdn.com/u/1024/768/bcb36a07e318a3b075e901923714b3333d2de64e.jpg", "https://lid.zoocdn.com/u/1024/768/a49d70d25efb97313605871abfd67a3fcc53ed69.jpg", "https://lid.zoocdn.com/u/1024/768/5c1211a13ce74173459e56fbedbdd8ff3af52fc1.jpg", "https://lid.zoocdn.com/u/1024/768/7037408dd9fc4a4ae0de21f58b076fd25917c354.jpg", "https://lid.zoocdn.com/u/1024/768/6dcb8edf486ca17ec49321808834ec78a2552dab.jpg"];</script>
+<script>window.__SLIDES_HI__ = "2400/1800";</script>
 <script>
 (function () {
   var el = document.getElementById('map');
@@ -601,6 +602,7 @@
 <script>
 (function () {
   var shots = window.__SLIDES__ || [];
+  var hiSize = window.__SLIDES_HI__ || '';
   var img = document.getElementById('slide-img');
   var link = document.getElementById('slide-link');
   var prev = document.getElementById('slide-prev');
@@ -640,6 +642,16 @@
   // Clicking the frame opens the overlay rather than navigating to the raw
   // image; without JS the <a href> still opens the image directly, so the
   // control is never inert.
+  //
+  // The inline frame is ~440px tall, so the gallery rung is plenty there. The
+  // overlay fills the viewport (up to ~1600px wide), where that rung is soft,
+  // so it loads the top rung — derived from the same URL, which is why there is
+  // no second payload. A non-CDN URL simply does not match and is left alone.
+  function hiRes(url) {
+    if (!hiSize) { return url; }
+    return url.replace(/\/u\/\d+\/\d+\//, '/u/' + hiSize + '/');
+  }
+
   var lb = document.getElementById('lightbox');
   var lbImg = document.getElementById('lb-img');
   var lbNum = document.getElementById('lb-n');
@@ -651,13 +663,13 @@
   function lbShow(i) {
     lbAt = (i + shots.length) % shots.length;
     if (lbImg) {
-      lbImg.src = shots[lbAt];
+      lbImg.src = hiRes(shots[lbAt]);
       lbImg.alt = 'Listing photo ' + (lbAt + 1) + ' of ' + shots.length;
     }
     if (lbNum) { lbNum.textContent = String(lbAt + 1); }
     if (shots.length > 1) {
-      new Image().src = shots[(lbAt + 1) % shots.length];
-      new Image().src = shots[(lbAt - 1 + shots.length) % shots.length];
+      new Image().src = hiRes(shots[(lbAt + 1) % shots.length]);
+      new Image().src = hiRes(shots[(lbAt - 1 + shots.length) % shots.length]);
     }
   }
   function openLb(i) {
