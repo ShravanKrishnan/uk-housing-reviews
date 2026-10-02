@@ -108,6 +108,8 @@ ul.plist a.row:hover { background: #f0f7f4; }
 .page-ind { font-size: 13px; color: var(--muted); margin-left: 6px; }
 .empty-note { color: var(--muted); font-style: italic; }
 .chip-note { font-size: 12px; color: var(--muted); margin: 0 0 10px; }
+/* A recorded price drop on the New tab: readable, not shouty. */
+.reduced { font-style: normal; font-weight: 650; color: #b3261e; }
 
 /* ---- index toolbar: tabs left, filters right ---- */
 .toolbar { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 12px; margin: 18px 0 0; }

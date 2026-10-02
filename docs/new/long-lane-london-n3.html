@@ -1,0 +1,1500 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Long Lane — review</title>
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <h1>Long Lane</h1>
+  <p class="sub">Long Lane, London N3</p>
+  <nav class="crumbs"><a href="../index.html">← Back to the map</a> &middot;
+  <a href="../index.html#new-rank-46">Rank #46 of New</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="panel">
+    <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between">
+      <div>
+        <span class="pill" style="background:#a8322d">45.1 Score</span>
+        
+      </div>
+      <div style="font-size:13px;color:var(--muted)">
+        46 of 71 &middot; score 45.1
+      </div>
+    </div>
+    <div class="verdict">Proceed with Caution: Moderate scores, verify key items during survey.</div>
+  </div>
+
+  <h3>At a glance</h3>
+  <div class="grid"><div class="stat"><div class="k">Asking price</div><div class="v">£875,000</div></div><div class="stat"><div class="k">Property type</div><div class="v">3 bed semi-detached house for sale</div></div><div class="stat"><div class="k">Tenure</div><div class="v">Freehold</div></div><div class="stat"><div class="k">Size</div><div class="v">— sq ft / — m²</div></div><div class="stat"><div class="k">Price per sq ft</div><div class="v">£—</div></div><div class="stat"><div class="k">Bedrooms</div><div class="v">3</div></div><div class="stat"><div class="k">Bathrooms</div><div class="v">3</div></div><div class="stat"><div class="k">Living rooms</div><div class="v">2</div></div><div class="stat"><div class="k">EPC (current / potential)</div><div class="v">C / B</div></div><div class="stat"><div class="k">Nearest station</div><div class="v">Finchley Central · 0.7 mi · ~14 min walk</div></div><div class="stat wide"><div class="k">Commute to Liverpool St</div><div class="v">45 min (Northern line (Bank branch) direct to Moorgate (27 min) + 4 min Elizabeth line link to Liverpool St)</div></div><div class="stat wide"><div class="k">Commute to King&#x27;s Cross</div><div class="v">37 min (Northern line direct to King&#x27;s Cross St Pancras (23 min))</div></div></div>
+
+  <h3>Nice-to-haves</h3>
+  <div class="panel">
+    <table class="nice">
+      <thead><tr><th>Signal</th><th>Status</th><th>Detail</th></tr></thead>
+      <tbody><tr><td>Air conditioning</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned; UK EPCs do not record domestic cooling</td></tr><tr><td>Underfloor heating</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned in the listing or EPC</td></tr><tr><td>South-facing garden</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>No aspect stated in the listing, floor-plan or photos</td></tr><tr><td>Sun roof / lantern in living areas</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>Not mentioned and no overhead glazing seen in photos</td></tr><tr><td>Ground-floor bedroom</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Floorplan shows 1 bedroom on the ground floor (Bedroom)</td></tr><tr><td>Wide living room</td><td><span class="nh-status nh-plan_verified">plan-verified</span></td><td>Lounge measures 17.8 ft at its widest (floor-plan) — clears the 15 ft mark</td></tr><tr><td>Home theatre potential</td><td><span class="nh-status nh-not_stated">not-stated</span></td><td>No cinema or media room mentioned, and no other room on the plan is large enough to be one</td></tr></tbody>
+    </table>
+  </div>
+
+<div class="panel"><h2>Photos — 18</h2><div class="slides" id="slides"><div class="slide-frame"><a id="slide-link" href="https://lid.zoocdn.com/u/1024/768/0f49dedb86cb1cafb83785c617b23100d316c355.jpg" rel="noopener"><img id="slide-img" src="https://lid.zoocdn.com/u/1024/768/0f49dedb86cb1cafb83785c617b23100d316c355.jpg" alt="Listing photo 1 of 18 — open full screen" loading="lazy"></a><button type="button" class="slide-nav prev" id="slide-prev" aria-label="Previous photo">&#8249;</button><button type="button" class="slide-nav next" id="slide-next" aria-label="Next photo">&#8250;</button><span class="slide-badge"><span id="slide-n">1</span> / 18</span></div></div><p class="note" style="margin-top:8px">Arrow keys page through the gallery; click a photo for the full-screen slideshow. These are the listing's own photographs, at the highest resolution its image host serves.</p></div><div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo slideshow" hidden><button type="button" class="lb-close" id="lb-close" aria-label="Close slideshow">&times;</button><button type="button" class="lb-nav prev" id="lb-prev" aria-label="Previous photo">&#8249;</button><img id="lb-img" alt=""><button type="button" class="lb-nav next" id="lb-next" aria-label="Next photo">&#8250;</button><span class="lb-badge"><span id="lb-n">1</span> / 18</span></div>
+
+  <div class="layout">
+    <div class="panel sticky">
+      <h2>Where it is</h2>
+      <div id="map" style="height:330px;border-radius:8px"></div>
+      <p class="note" style="margin-top:10px">
+        Pin is the listing's own coordinates. Map tiles are OpenStreetMap.
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=51.600712,-0.183149" rel="noopener">Open in Google Maps →</a>
+        &middot; <a href="https://www.openstreetmap.org/?mlat=51.600712&amp;mlon=-0.183149#map=18/51.600712/-0.183149" rel="noopener">Open in OpenStreetMap →</a>
+        &middot; <a href="https://www.zoopla.co.uk/for-sale/details/72210563/" rel="noopener">Zoopla listing →</a>
+      </p>
+    </div>
+    <div class="panel">
+      <h2>Floorplan analysis</h2>
+      <a href="https://lid.zoocdn.com/u/2400/1800/50a23aad7e93fddaddd0608287c16356b2ebe396.jpg" rel="noopener"><img class="plan" src="https://lid.zoocdn.com/u/2400/1800/50a23aad7e93fddaddd0608287c16356b2ebe396.jpg" alt="Floor plan for Long Lane, London N3" loading="lazy"></a><p class="note">12 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are listed without one. <a href="https://lid.zoocdn.com/u/2400/1800/50a23aad7e93fddaddd0608287c16356b2ebe396.jpg" rel="noopener">Open the full-size plan →</a></p><table class="nice compact"><thead><tr><th>Room</th><th>Type</th><th>Floor</th><th>Dimensions</th><th>Area</th></tr></thead><tbody><tr><td>Office</td><td>study</td><td>ground</td><td class="num">23.4 &times; 10.4 ft</td><td class="num">243 sq ft</td></tr><tr><td>En-Suite</td><td>bathroom</td><td>ground</td><td class="num">9 &times; 5.8 ft</td><td class="num">52 sq ft</td></tr><tr><td>Bedroom 4</td><td>bedroom</td><td>—</td><td class="num">15.8 &times; 10.6 ft</td><td class="num">167 sq ft</td></tr><tr><td>Kitchen</td><td>kitchen</td><td>—</td><td class="num">20 &times; 10.4 ft</td><td class="num">208 sq ft</td></tr><tr><td>Dining Room</td><td>dining</td><td>—</td><td class="num">15.8 &times; 6.9 ft</td><td class="num">109 sq ft</td></tr><tr><td>Bathroom</td><td>bathroom</td><td>—</td><td class="num">not printed</td><td class="num">—</td></tr><tr><td>Bedroom 3</td><td>bedroom</td><td>—</td><td class="num">12.8 &times; 12.3 ft</td><td class="num">157 sq ft</td></tr><tr><td>Hallway</td><td>circulation</td><td>—</td><td class="num">not printed</td><td class="num">—</td></tr><tr><td>Landing</td><td>circulation</td><td>—</td><td class="num">not printed</td><td class="num">—</td></tr><tr><td>Lounge</td><td>living</td><td>—</td><td class="num">28.2 &times; 17.8 ft</td><td class="num">502 sq ft</td></tr><tr><td>Bedroom 2</td><td>bedroom</td><td>—</td><td class="num">17.8 &times; 12.8 ft</td><td class="num">228 sq ft</td></tr><tr><td>Bedroom</td><td>bedroom</td><td>ground</td><td class="num">17 &times; 10.9 ft</td><td class="num">185 sq ft</td></tr></tbody></table>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-top:22px">
+    <h2>Score breakdown — 45.1/100</h2>
+    <div class="bar-row with-evidence"><span class="lbl">Location &amp; transport</span><span class="bar"><i style="width:55.0%;background:#a8322d"></i></span><span class="num">11.0</span><ul class="ticks compact"><li><span class="tick">✓</span>Nearest station Finchley Central 14 min walk (0.68 mi routed walk) (+3)</li><li><span class="tick">✓</span>Walkable station Finchley Central 14 min walk (+1.5)</li><li><span class="tick">✓</span>1 transit line within walk — Northern via Finchley Central 14 min walk — broad Central London access (+1)</li><li><span class="tick">✓</span>Night Tube / 24h service at Finchley Central (+1.5)</li><li><span class="tick">✓</span>Good Liverpool St commute: ~45 mins door-to-concourse via Finchley Central (14m walk + 27m rail) (+2)</li><li><span class="tick">✓</span>King&#x27;s Cross St Pancras commute ~37 mins via Finchley Central (+2)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Space, scale &amp; layout</span><span class="bar"><i style="width:69.5%;background:#a8322d"></i></span><span class="num">13.9</span><ul class="ticks compact"><li><span class="tick">✓</span>Square footage unstated in listing data (+3.9)</li><li><span class="tick">✓</span>Superb bathroom provision (3 baths for 3 beds) (+3)</li><li><span class="tick">✓</span>Two or more reception rooms (2) (+1)</li><li><span class="tick">✓</span>Wide living room: Lounge 17.8 ft (floorplan) (+3)</li><li><span class="tick">✓</span>Ground-floor bedroom confirmed on floorplan: 1 (Bedroom) (+3)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Financial efficiency</span><span class="bar"><i style="width:54.7%;background:#a8322d"></i></span><span class="num">8.2</span><ul class="ticks compact"><li><span class="tick">✓</span>Price per sq ft not computable (+3.75 of 7.5 base)</li><li><span class="tick">✓</span>£875,000 asking price (+4.4 of 7.5)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Technical &amp; EPC</span><span class="bar"><i style="width:60.0%;background:#a8322d"></i></span><span class="num">12.0</span><ul class="ticks compact"><li><span class="tick">✓</span>EPC Band C (7) + no secondary heating (1) + wall insulation (3) + insulated roof (2) + high-performance glazing (1.75) (+10 of 10)</li><li><span class="tick">✓</span>EPC: pitched roof with accessible loft (pitched, 350 mm loft insulation) — scope for a simple loft extension (structural survey still required) (+2)</li></ul></div><div class="bar-row with-evidence"><span class="lbl">Observed presentation</span><span class="bar"><i style="width:0.0%;background:#a8322d"></i></span><span class="num">0.0</span><p class="note compact">No evidence detected for this component — it scores on the absence of contrary findings.</p></div><div class="bar-row with-evidence"><span class="lbl">Garden &amp; outdoor</span><span class="bar"><i style="width:0.0%;background:#a8322d"></i></span><span class="num">0.0</span><p class="note compact">No evidence detected for this component — it scores on the absence of contrary findings.</p></div>
+    <p class="note">The combined score rewards location, space, financial efficiency,
+    technical specification, observed presentation, and garden quality. Every line
+    lists the evidence that earned it, so a component cannot be read as a verdict
+    without the reason attached.</p>
+  </div>
+
+  <h3>Land Registry</h3>
+  <div class="panel">
+    <p><strong>No sale attributed to this address — a house number is known, but no Land Registry record matches it, i.e. the house has not transacted.</strong></p>
+    <p>£375/sq ft median (range £42–£787), from 24 of 73 local sales (33% priced). <span class="note">Floor area is borrowed from the EPC extract (epc_bulk total_floor_area) because sale records carry none; small samples are heavy-tailed, so the median is used and withheld below 5 priced sales.</span></p>
+    <p class="note">73 raw sale record(s) exist in this postcode. They are the neighbourhood's history, not this home's, and are deliberately not presented as its own.</p>
+    <p class="note">Scope <code>address_no_sale</code> — sale history is only ever
+    attributed to this home when a house number was derived and matched.</p>
+  </div>
+
+  <h3>Planning</h3>
+  <div class="panel"><p class="note">Planning lookup status: <code>error</code>. No planning history is asserted for this property.</p></div>
+
+  <div style="margin-top:22px">
+    <div class="panel"><h2>Photographic evidence reviewed for the score</h2><p class="note">Points are awarded only for detected listing, EPC, or photographic evidence, and each component above lists what it found. Systems without such evidence score zero and are omitted rather than listed as inspection tasks. These notes record what the photos did and did not show.</p><ul class="ticks"><li>9 room dimensions read from plan-image text (OCR)</li></ul></div>
+  </div>
+
+  <div class="gaps"><strong>What is not verified here</strong><ul><li>Floor area (sq ft) missing — price/sqft and space scoring use fallbacks</li><li>No Land Registry sale recorded for this address in the price-paid window — the house has not transacted, so there is no comparable sale history</li><li>Enrichment fetch failed: planning</li></ul></div>
+
+  <details class="raw">
+    <summary>Raw review record (JSON)</summary>
+    <pre>{
+  &quot;asking_price&quot;: 875000,
+  &quot;bathrooms&quot;: 3,
+  &quot;bedrooms&quot;: 3,
+  &quot;combined_score&quot;: {
+    &quot;detected_features&quot;: [
+      &quot;Nearest station Finchley Central 14 min walk (0.68 mi routed walk) (+3)&quot;,
+      &quot;Walkable station Finchley Central 14 min walk (+1.5)&quot;,
+      &quot;1 transit line within walk \u2014 Northern via Finchley Central 14 min walk \u2014 broad Central London access (+1)&quot;,
+      &quot;Night Tube / 24h service at Finchley Central (+1.5)&quot;,
+      &quot;Good Liverpool St commute: ~45 mins door-to-concourse via Finchley Central (14m walk + 27m rail) (+2)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~37 mins via Finchley Central (+2)&quot;,
+      &quot;Square footage unstated in listing data (+3.9)&quot;,
+      &quot;Superb bathroom provision (3 baths for 3 beds) (+3)&quot;,
+      &quot;Two or more reception rooms (2) (+1)&quot;,
+      &quot;Wide living room: Lounge 17.8 ft (floorplan) (+3)&quot;,
+      &quot;Ground-floor bedroom confirmed on floorplan: 1 (Bedroom) (+3)&quot;,
+      &quot;Price per sq ft not computable (+3.75 of 7.5 base)&quot;,
+      &quot;\u00a3875,000 asking price (+4.4 of 7.5)&quot;,
+      &quot;EPC Band C (7) + no secondary heating (1) + wall insulation (3) + insulated roof (2) + high-performance glazing (1.75) (+10 of 10)&quot;,
+      &quot;EPC: pitched roof with accessible loft (pitched, 350 mm loft insulation) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;
+    ],
+    &quot;evidence&quot;: {
+      &quot;financial_efficiency&quot;: [
+        &quot;Price per sq ft not computable (+3.75 of 7.5 base)&quot;,
+        &quot;\u00a3875,000 asking price (+4.4 of 7.5)&quot;
+      ],
+      &quot;location_transport&quot;: [
+        &quot;Nearest station Finchley Central 14 min walk (0.68 mi routed walk) (+3)&quot;,
+        &quot;Walkable station Finchley Central 14 min walk (+1.5)&quot;,
+        &quot;1 transit line within walk \u2014 Northern via Finchley Central 14 min walk \u2014 broad Central London access (+1)&quot;,
+        &quot;Night Tube / 24h service at Finchley Central (+1.5)&quot;,
+        &quot;Good Liverpool St commute: ~45 mins door-to-concourse via Finchley Central (14m walk + 27m rail) (+2)&quot;,
+        &quot;King&#x27;s Cross St Pancras commute ~37 mins via Finchley Central (+2)&quot;
+      ],
+      &quot;space_layout&quot;: [
+        &quot;Square footage unstated in listing data (+3.9)&quot;,
+        &quot;Superb bathroom provision (3 baths for 3 beds) (+3)&quot;,
+        &quot;Two or more reception rooms (2) (+1)&quot;,
+        &quot;Wide living room: Lounge 17.8 ft (floorplan) (+3)&quot;,
+        &quot;Ground-floor bedroom confirmed on floorplan: 1 (Bedroom) (+3)&quot;
+      ],
+      &quot;technical_epc&quot;: [
+        &quot;EPC Band C (7) + no secondary heating (1) + wall insulation (3) + insulated roof (2) + high-performance glazing (1.75) (+10 of 10)&quot;,
+        &quot;EPC: pitched roof with accessible loft (pitched, 350 mm loft insulation) \u2014 scope for a simple loft extension (structural survey still required) (+2)&quot;
+      ]
+    },
+    &quot;financial_efficiency&quot;: 8.2,
+    &quot;garden_outdoor&quot;: 0.0,
+    &quot;location_transport&quot;: 11.0,
+    &quot;notes&quot;: [
+      &quot;Nearest station Finchley Central 14 min walk (0.68 mi routed walk) (+3)&quot;,
+      &quot;Walkable station Finchley Central 14 min walk (+1.5)&quot;,
+      &quot;1 transit line within walk \u2014 Northern via Finchley Central 14 min walk \u2014 broad Central London access (+1)&quot;,
+      &quot;Night Tube / 24h service at Finchley Central (+1.5)&quot;,
+      &quot;Good Liverpool St commute: ~45 mins door-to-concourse via Finchley Central (14m walk + 27m rail) (+2)&quot;,
+      &quot;King&#x27;s Cross St Pancras commute ~37 mins via Finchley Central (+2)&quot;,
+      &quot;Square footage unstated in listing data (+3.9)&quot;,
+      &quot;Superb bathroom provision (3 baths for 3 beds) (+3)&quot;,
+      &quot;Two or more reception rooms (2) (+1)&quot;,
+      &quot;EPC Band C&quot;
+    ],
+    &quot;observed_presentation&quot;: 0.0,
+    &quot;space_layout&quot;: 13.9,
+    &quot;tags&quot;: [],
+    &quot;technical_epc&quot;: 12.0,
+    &quot;total_score&quot;: 45.1,
+    &quot;vision_facts&quot;: [
+      &quot;9 room dimensions read from plan-image text (OCR)&quot;
+    ]
+  },
+  &quot;data_gaps&quot;: [
+    &quot;Floor area (sq ft) missing \u2014 price/sqft and space scoring use fallbacks&quot;,
+    &quot;No Land Registry sale recorded for this address in the price-paid window \u2014 the house has not transacted, so there is no comparable sale history&quot;,
+    &quot;Enrichment fetch failed: planning&quot;
+  ],
+  &quot;epc_potential&quot;: &quot;B&quot;,
+  &quot;epc_rating&quot;: &quot;C&quot;,
+  &quot;first_seen_at&quot;: &quot;2026-10-02T16:22:43+00:00&quot;,
+  &quot;floorplan_image_url&quot;: &quot;https://lid.zoocdn.com/u/2400/1800/50a23aad7e93fddaddd0608287c16356b2ebe396.jpg&quot;,
+  &quot;floorplan_rooms&quot;: [
+    {
+      &quot;area_sq_ft&quot;: 243,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;study&quot;,
+      &quot;label&quot;: &quot;Office&quot;,
+      &quot;length_ft&quot;: 23.4,
+      &quot;width_ft&quot;: 10.4
+    },
+    {
+      &quot;area_sq_ft&quot;: 52,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;bathroom&quot;,
+      &quot;label&quot;: &quot;En-Suite&quot;,
+      &quot;length_ft&quot;: 9.0,
+      &quot;width_ft&quot;: 5.8
+    },
+    {
+      &quot;area_sq_ft&quot;: 167,
+      &quot;floor&quot;: null,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 4&quot;,
+      &quot;length_ft&quot;: 15.8,
+      &quot;width_ft&quot;: 10.6
+    },
+    {
+      &quot;area_sq_ft&quot;: 208,
+      &quot;floor&quot;: null,
+      &quot;kind&quot;: &quot;kitchen&quot;,
+      &quot;label&quot;: &quot;Kitchen&quot;,
+      &quot;length_ft&quot;: 20.0,
+      &quot;width_ft&quot;: 10.4
+    },
+    {
+      &quot;area_sq_ft&quot;: 109,
+      &quot;floor&quot;: null,
+      &quot;kind&quot;: &quot;dining&quot;,
+      &quot;label&quot;: &quot;Dining Room&quot;,
+      &quot;length_ft&quot;: 15.8,
+      &quot;width_ft&quot;: 6.9
+    },
+    {
+      &quot;area_sq_ft&quot;: null,
+      &quot;floor&quot;: null,
+      &quot;kind&quot;: &quot;bathroom&quot;,
+      &quot;label&quot;: &quot;Bathroom&quot;,
+      &quot;length_ft&quot;: null,
+      &quot;width_ft&quot;: null
+    },
+    {
+      &quot;area_sq_ft&quot;: 157,
+      &quot;floor&quot;: null,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 3&quot;,
+      &quot;length_ft&quot;: 12.8,
+      &quot;width_ft&quot;: 12.3
+    },
+    {
+      &quot;area_sq_ft&quot;: null,
+      &quot;floor&quot;: null,
+      &quot;kind&quot;: &quot;circulation&quot;,
+      &quot;label&quot;: &quot;Hallway&quot;,
+      &quot;length_ft&quot;: null,
+      &quot;width_ft&quot;: null
+    },
+    {
+      &quot;area_sq_ft&quot;: null,
+      &quot;floor&quot;: null,
+      &quot;kind&quot;: &quot;circulation&quot;,
+      &quot;label&quot;: &quot;Landing&quot;,
+      &quot;length_ft&quot;: null,
+      &quot;width_ft&quot;: null
+    },
+    {
+      &quot;area_sq_ft&quot;: 502,
+      &quot;floor&quot;: null,
+      &quot;kind&quot;: &quot;living&quot;,
+      &quot;label&quot;: &quot;Lounge&quot;,
+      &quot;length_ft&quot;: 28.2,
+      &quot;width_ft&quot;: 17.8
+    },
+    {
+      &quot;area_sq_ft&quot;: 228,
+      &quot;floor&quot;: null,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom 2&quot;,
+      &quot;length_ft&quot;: 17.8,
+      &quot;width_ft&quot;: 12.8
+    },
+    {
+      &quot;area_sq_ft&quot;: 185,
+      &quot;floor&quot;: &quot;ground&quot;,
+      &quot;kind&quot;: &quot;bedroom&quot;,
+      &quot;label&quot;: &quot;Bedroom&quot;,
+      &quot;length_ft&quot;: 17.0,
+      &quot;width_ft&quot;: 10.9
+    }
+  ],
+  &quot;full_address&quot;: &quot;Long Lane, London N3&quot;,
+  &quot;kings_cross_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Fast (35-45m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 23,
+    &quot;route_summary&quot;: &quot;Northern line direct to King&#x27;s Cross St Pancras (23 min)&quot;,
+    &quot;secondary_route&quot;: &quot;Mill Hill East (1.622 mi, ~33m walk) \u2794 London Underground (Northern line - Mill Hill East branch) (37m rail) = ~70m total&quot;,
+    &quot;station_distance_miles&quot;: 0.677,
+    &quot;station_name&quot;: &quot;Finchley Central&quot;,
+    &quot;total_commute_minutes&quot;: 37,
+    &quot;transfer_minutes&quot;: 0,
+    &quot;transit_line&quot;: &quot;London Underground (Northern line - Bank branch)&quot;,
+    &quot;walk_time_minutes&quot;: 14
+  },
+  &quot;land_registry_summary&quot;: {
+    &quot;area_benchmark&quot;: {
+      &quot;area_source&quot;: &quot;epc_bulk total_floor_area&quot;,
+      &quot;coverage_pct&quot;: 33,
+      &quot;high_gbp_sqft&quot;: 787,
+      &quot;low_gbp_sqft&quot;: 42,
+      &quot;median_gbp_sqft&quot;: 375,
+      &quot;of_sales&quot;: 73,
+      &quot;sample&quot;: 24
+    },
+    &quot;number_known&quot;: true,
+    &quot;postcode_sales&quot;: [
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1995-09-22&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;150&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 87500,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;42F8892C-F034-4E6C-9330-87679CC43E4E&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1996-05-01&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;90&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 81500,
+        &quot;property_type&quot;: &quot;flat-maisonette&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;F3DC8A34-9B01-45C2-90AF-008502A18E7A&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1996-05-03&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;100&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 107500,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;F68B8BA2-C2A2-42FD-AB91-3589A5DA1F9F&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1996-07-10&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;90A&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 59000,
+        &quot;property_type&quot;: &quot;flat-maisonette&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;9ACE8746-510F-4FFC-98E1-8980AFE15490&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1996-11-27&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;140&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 78000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;DC937BC7-1F1F-4941-B9AB-15F46FDEC7B9&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1997-06-12&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;126&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 10000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;2A289E9E-2EDA-CDC8-E050-A8C063054829&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1997-10-23&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;152&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 104000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;D929FF5D-9BA8-4788-8788-B9291E1C71C7&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1997-12-19&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;112&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 75000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;22EFBF9C-AFCB-426A-9806-73C8013473C7&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1998-12-18&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;152&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 107000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;E435B142-F14B-4C5B-A506-01BF7EE855E7&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1999-03-25&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;98&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 162500,
+        &quot;property_type&quot;: &quot;detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;D5049B7B-7078-4FE2-AB7F-AEDC7B09F4C7&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;1999-10-22&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;110&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 135000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;C5142316-F6D6-4945-98AF-1DB0644DBD2F&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2000-07-31&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;162&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 150500,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;E885DEB4-B6E5-43D9-828F-5D70E126567B&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2000-08-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;136&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 166000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;106F6304-5565-438F-9909-4BDAC4BABE0F&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2001-03-21&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;92&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 231000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;D4AECA02-F980-4B5E-8D8B-60CD54D4BF9D&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2001-09-14&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;90A&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 187250,
+        &quot;property_type&quot;: &quot;flat-maisonette&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;A113F600-010C-4E12-8E3B-0A6FA7FFE66C&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2001-11-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;158&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 185000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;2BBD0860-4E9C-449A-B43F-392AF59F3746&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2001-12-20&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;152&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 188450,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;0318AEBF-CAD9-4ADB-AB13-4F9C00C51A31&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2003-12-18&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;102 - 104&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 204000,
+        &quot;property_type&quot;: &quot;flat-maisonette&quot;,
+        &quot;saon&quot;: &quot;FLAT 6&quot;,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;67FBDF51-7051-41D6-8E2A-31E4D67ED0DF&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2004-04-08&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;102 - 104&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 175000,
+        &quot;property_type&quot;: &quot;flat-maisonette&quot;,
+        &quot;saon&quot;: &quot;FLAT 3&quot;,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;E2A7591D-7E7C-4489-A8AA-495F6B74DAA3&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2004-06-09&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;148&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 120000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;4E3CB91F-D562-4087-AE5B-AE79A33CB4ED&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2004-07-23&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;110&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 265000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;31266AC1-D5BD-4B10-9C10-7CE5E4FB64AB&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2005-03-24&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;128&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 210000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;1CC2868E-DA6D-4A88-8D7F-DA357CBE9885&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2005-05-16&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;148&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 220000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;D5614217-9823-486B-8644-143E0E1F23C9&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2005-08-19&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;136&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 270000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;AE737CA5-5C7D-476D-BD6F-2A726F603D70&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2005-09-02&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;144&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 167000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;4D1C349B-BA93-4EC2-A78C-45C55A239E0D&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2006-01-10&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;150&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 273000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;D49E7210-9DE8-4C23-B395-31506B6F1DA0&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2006-04-07&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;152&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 262500,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;65B5E7C6-1973-4BA2-A0A3-9CD22EFBC573&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2006-07-12&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;134&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 245000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;DBBAE36C-E114-48E4-8430-6F8BB8CC71C0&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2006-11-17&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;138&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 280000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;9B9DB716-38F4-47E5-ADE5-1A6F5C99C546&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2007-01-24&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;150&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 318500,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;85AD2929-275A-473C-A2E8-8A6111D4797C&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2007-05-25&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;158&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 286500,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;E95E0FAF-9DA2-4709-B0E1-E38C9CFE110C&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2007-05-31&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;146&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 277000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;0FC1C1F5-2BA2-4899-94DF-CBC196329B4D&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2007-08-09&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;102 - 104&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 264950,
+        &quot;property_type&quot;: &quot;flat-maisonette&quot;,
+        &quot;saon&quot;: &quot;FLAT 6&quot;,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;DE8A9E86-1D37-4E7B-B262-25C4F5131CF9&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2007-09-27&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;110&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 340000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;D01B164C-1AEC-4267-BB97-B1879596B8BF&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2007-10-04&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;102 - 104&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 185000,
+        &quot;property_type&quot;: &quot;flat-maisonette&quot;,
+        &quot;saon&quot;: &quot;FLAT 3&quot;,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;14D3FF5D-BF81-481E-980C-61AE3F083A1B&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2007-11-21&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;100&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 800000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;73CB168C-D163-43F3-95B5-06D01842AF5A&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2009-09-11&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;150&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 338000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;68F671A2-8CE1-4B37-B839-38A67A536D5A&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2010-01-29&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;152&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 300000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;239E9A4A-2257-488E-9A96-C5206723F40A&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2010-02-12&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;146&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 339950,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;5001BAF2-F15D-4328-8D18-FF8CE4C857D7&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2010-03-16&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;102 - 104&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 172000,
+        &quot;property_type&quot;: &quot;flat-maisonette&quot;,
+        &quot;saon&quot;: &quot;FLAT 3&quot;,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;C01343C7-ACF6-45D3-B5CB-8288E01E9A4D&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2011-10-31&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;158&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 343000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;A6854A6B-09A1-4707-9569-0182DF81882B&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2011-11-04&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;144&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 429000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;157AE3BA-FE2C-41A5-9679-0F7CBB7D29B9&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2012-01-20&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;136&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 355000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;70B3EAB1-416F-4976-815B-AD2B5D101291&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2012-04-05&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;102 - 104&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 278000,
+        &quot;property_type&quot;: &quot;flat-maisonette&quot;,
+        &quot;saon&quot;: &quot;FLAT 6&quot;,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;2F748217-22ED-4B0B-B7D6-7026E9A0CDC0&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2012-08-24&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;134&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 415000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;F409DAE7-91D3-4DFA-A620-1B3F47052E2D&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2014-06-27&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;96&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 557000,
+        &quot;property_type&quot;: &quot;semi-detached&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;A0FB8774-C2C5-491A-A485-A37139E7E3CF&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2014-09-12&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;154&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 400000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;0D5E42EE-293E-48A8-9C66-BAE6DF723631&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2014-09-26&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;140&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 460000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;46D4FA00-267E-4BCF-A8F8-D885B6CC3F1F&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2014-11-25&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;150&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 465000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;36555CC2-F8E8-49EC-922B-85A4155D23C4&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2014-12-19&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;116&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 413000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;0CD103D0-6D6F-49A6-B1D0-42DD61C78A4A&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Additional price paid transaction&quot;,
+        &quot;date&quot;: &quot;2015-11-19&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;160&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 500000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;25EA59F9-F764-4D50-E050-A8C0630562D0&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2015-11-24&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;142&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 445000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;288DCE29-7078-E510-E050-A8C06205480E&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-02-09&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;118&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 550000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;2FD36065-CAE4-4BF8-E050-A8C0620562B1&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-06-02&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;152&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 560500,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;369DFB15-F9B9-3A19-E050-A8C0620518C6&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-07-07&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;136&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 562500,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;3B7E0B90-2DFF-EA99-E050-A8C062057E77&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Additional price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-09-29&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;164&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 375000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;42A5A70A-2487-56E8-E050-A8C06205331E&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Additional price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-11-29&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;164&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 444000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;453D27A3-E461-EF91-E050-A8C0630574D7&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2016-12-14&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;110&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 580000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;47844C80-1031-8986-E050-A8C063056488&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-02-17&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;158&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 530000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;4E95D757-A185-EDA1-E050-A8C0630539E2&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Additional price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-03-24&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;140&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 545500,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;4E95D758-26DA-EDA1-E050-A8C0630539E2&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-05-26&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;102 - 104&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 450000,
+        &quot;property_type&quot;: &quot;flat-maisonette&quot;,
+        &quot;saon&quot;: &quot;FLAT 6&quot;,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;50F18102-A6EA-9FD5-E050-A8C063054923&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2017-06-19&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;138&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 550500,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;55BDCAE6-3A56-521D-E053-6B04A8C0DD7A&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2019-01-15&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;112&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 540000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;80E1AA98-60FE-7BF8-E053-6C04A8C00BF2&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Additional price paid transaction&quot;,
+        &quot;date&quot;: &quot;2019-07-19&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;168&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 10000,
+        &quot;property_type&quot;: &quot;other&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Leasehold&quot;,
+        &quot;transaction_id&quot;: &quot;8F1B26BE-7C6C-53DB-E053-6C04A8C03649&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2019-10-03&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;150&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 579000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;965B6D91-A610-95E4-E053-6C04A8C07729&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2021-11-12&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;136&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 590000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;DBA933F9-BD42-669D-E053-6B04A8C0AD56&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2022-05-12&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;142&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 570000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;EA3278AA-38BA-2676-E053-6B04A8C015F8&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2023-06-09&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;164&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 630000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;045A1898-D060-9A24-E063-4804A8C048EA&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2024-04-19&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;112&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 680000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;2131FCF6-416D-86E8-E063-4804A8C0372B&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2024-08-30&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;154&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 520000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;237B17FE-3A3F-22AC-E063-4804A8C0EA3A&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Additional price paid transaction&quot;,
+        &quot;date&quot;: &quot;2024-09-26&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;100&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 1460000,
+        &quot;property_type&quot;: &quot;other&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;3B5CE842-9D4A-EE3A-E063-4804A8C0D6F1&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2024-12-18&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;164&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 625000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;34222872-8C41-4D2B-E063-4704A8C07853&quot;
+      },
+      {
+        &quot;category&quot;: &quot;Standard price paid transaction&quot;,
+        &quot;date&quot;: &quot;2024-12-18&quot;,
+        &quot;new_build&quot;: false,
+        &quot;paon&quot;: &quot;164&quot;,
+        &quot;postcode&quot;: &quot;N3 2HX&quot;,
+        &quot;price&quot;: 630000,
+        &quot;property_type&quot;: &quot;terraced&quot;,
+        &quot;saon&quot;: null,
+        &quot;street&quot;: &quot;LONG LANE&quot;,
+        &quot;tenure&quot;: &quot;Freehold&quot;,
+        &quot;transaction_id&quot;: &quot;402A3A66-216F-A7DF-E063-4804A8C0B80D&quot;
+      }
+    ],
+    &quot;sales&quot;: [],
+    &quot;scope&quot;: &quot;address_no_sale&quot;,
+    &quot;status&quot;: &quot;ok&quot;
+  },
+  &quot;last_seen_at&quot;: &quot;2026-10-02T16:35:25+00:00&quot;,
+  &quot;latitude&quot;: 51.600712,
+  &quot;liverpool_st_commute&quot;: {
+    &quot;commute_rating&quot;: &quot;Fast (35-45m)&quot;,
+    &quot;is_direct&quot;: true,
+    &quot;rail_time_minutes&quot;: 27,
+    &quot;route_summary&quot;: &quot;Northern line (Bank branch) direct to Moorgate (27 min) + 4 min Elizabeth line link to Liverpool St&quot;,
+    &quot;secondary_route&quot;: &quot;&quot;,
+    &quot;station_distance_miles&quot;: 0.677,
+    &quot;station_name&quot;: &quot;Finchley Central&quot;,
+    &quot;total_commute_minutes&quot;: 45,
+    &quot;transfer_minutes&quot;: 4,
+    &quot;transit_line&quot;: &quot;London Underground (Northern line - Bank branch)&quot;,
+    &quot;walk_time_minutes&quot;: 14
+  },
+  &quot;living_rooms&quot;: 2,
+  &quot;longitude&quot;: -0.183149,
+  &quot;nearest_station&quot;: &quot;Finchley Central&quot;,
+  &quot;nice_to_haves&quot;: [
+    {
+      &quot;detail&quot;: &quot;Not mentioned; UK EPCs do not record domestic cooling&quot;,
+      &quot;label&quot;: &quot;Air conditioning&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned in the listing or EPC&quot;,
+      &quot;label&quot;: &quot;Underfloor heating&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;No aspect stated in the listing, floor-plan or photos&quot;,
+      &quot;label&quot;: &quot;South-facing garden&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Not mentioned and no overhead glazing seen in photos&quot;,
+      &quot;label&quot;: &quot;Sun roof / lantern in living areas&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Floorplan shows 1 bedroom on the ground floor (Bedroom)&quot;,
+      &quot;label&quot;: &quot;Ground-floor bedroom&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;Lounge measures 17.8 ft at its widest (floor-plan) \u2014 clears the 15 ft mark&quot;,
+      &quot;label&quot;: &quot;Wide living room&quot;,
+      &quot;status&quot;: &quot;plan-verified&quot;
+    },
+    {
+      &quot;detail&quot;: &quot;No cinema or media room mentioned, and no other room on the plan is large enough to be one&quot;,
+      &quot;label&quot;: &quot;Home theatre potential&quot;,
+      &quot;status&quot;: &quot;not-stated&quot;
+    }
+  ],
+  &quot;overall_verdict&quot;: &quot;Proceed with Caution: Moderate scores, verify key items during survey.&quot;,
+  &quot;planning_summary&quot;: {
+    &quot;error&quot;: &quot;persistent 429&quot;,
+    &quot;status&quot;: &quot;error&quot;
+  },
+  &quot;prev_price&quot;: null,
+  &quot;price_changed_at&quot;: null,
+  &quot;price_display&quot;: &quot;\u00a3875,000&quot;,
+  &quot;price_per_sq_ft&quot;: null,
+  &quot;property_id&quot;: &quot;72210563&quot;,
+  &quot;property_images&quot;: [
+    &quot;https://lid.zoocdn.com/u/1024/768/0f49dedb86cb1cafb83785c617b23100d316c355.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/391861ecf8849455c1c365dc0ec47649eed1a904.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/f373ecdf9c3c18ddb0e3b4d3c2467f2b869db572.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/db496cf2355ec3e4109a60de8c2e862292cca204.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/0e5b5e034d104df49592104ecf234213be3659ff.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/1ab203168ca6244e15a52303e9f478bb83295f34.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/c90e764382b02142de439cdf486f804df59bb07c.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/4213766087c14c1b4e12d9f59d6b9bcc065f862d.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/83b5cb2b67a4eb6477529b505baa4244580b64fc.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/0d650066e732c8d736c177e5a3f274677aa7e619.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/79150daf4aa033fbe9cec6fd3618a213309cdd35.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/66765aedd520db98159bd240d62898edaad8a46f.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/5f3e1b889baf1a172b8f31fc0026037b8ff37fa3.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/29cd55253e828a3413b195e70c59d95a4e3ef800.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/c0e6bec81f9e6457dcb728f482d59e9059fce600.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/970cb248d1da7457be28053428b87e34e757e6d4.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/3988c46f05e3779ee5c425315ea72b9afb6bb9db.jpg&quot;,
+    &quot;https://lid.zoocdn.com/u/1024/768/1a7ac07199ed070c7b32277bd02f1982c2078325.jpg&quot;
+  ],
+  &quot;property_type&quot;: &quot;3 bed semi-detached house for sale&quot;,
+  &quot;size_sq_ft&quot;: null,
+  &quot;size_sq_m&quot;: null,
+  &quot;station_distance_miles&quot;: 0.68,
+  &quot;station_distance_source&quot;: &quot;routed&quot;,
+  &quot;tenure&quot;: &quot;Freehold&quot;,
+  &quot;walk_time_minutes&quot;: 14
+}</pre>
+  </details>
+
+  <div class="foot"><div><a href="southway-london-n20.html">← Southway</a></div><div><a href="cyprus-avenue-london-n3.html">→ Cyprus Avenue</a></div></div>
+
+  <p class="note" style="margin-top:26px">Generated 2026-10-02 from
+  <code>reviews/property_reviews.json</code>. Map data &copy;
+  <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</p>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous"></script>
+<script>window.__PINS__ = [{"id": "72210563", "lat": 51.600712, "lon": -0.183149, "addr": "Long Lane", "price": "\u00a3875,000", "sqft": "\u2014", "epc": "C", "score": 45.1, "colour": "#af4324", "tags": [], "tag_html": "", "href": "#"}];</script>
+<script>window.__SLIDES__ = ["https://lid.zoocdn.com/u/1024/768/0f49dedb86cb1cafb83785c617b23100d316c355.jpg", "https://lid.zoocdn.com/u/1024/768/391861ecf8849455c1c365dc0ec47649eed1a904.jpg", "https://lid.zoocdn.com/u/1024/768/f373ecdf9c3c18ddb0e3b4d3c2467f2b869db572.jpg", "https://lid.zoocdn.com/u/1024/768/db496cf2355ec3e4109a60de8c2e862292cca204.jpg", "https://lid.zoocdn.com/u/1024/768/0e5b5e034d104df49592104ecf234213be3659ff.jpg", "https://lid.zoocdn.com/u/1024/768/1ab203168ca6244e15a52303e9f478bb83295f34.jpg", "https://lid.zoocdn.com/u/1024/768/c90e764382b02142de439cdf486f804df59bb07c.jpg", "https://lid.zoocdn.com/u/1024/768/4213766087c14c1b4e12d9f59d6b9bcc065f862d.jpg", "https://lid.zoocdn.com/u/1024/768/83b5cb2b67a4eb6477529b505baa4244580b64fc.jpg", "https://lid.zoocdn.com/u/1024/768/0d650066e732c8d736c177e5a3f274677aa7e619.jpg", "https://lid.zoocdn.com/u/1024/768/79150daf4aa033fbe9cec6fd3618a213309cdd35.jpg", "https://lid.zoocdn.com/u/1024/768/66765aedd520db98159bd240d62898edaad8a46f.jpg", "https://lid.zoocdn.com/u/1024/768/5f3e1b889baf1a172b8f31fc0026037b8ff37fa3.jpg", "https://lid.zoocdn.com/u/1024/768/29cd55253e828a3413b195e70c59d95a4e3ef800.jpg", "https://lid.zoocdn.com/u/1024/768/c0e6bec81f9e6457dcb728f482d59e9059fce600.jpg", "https://lid.zoocdn.com/u/1024/768/970cb248d1da7457be28053428b87e34e757e6d4.jpg", "https://lid.zoocdn.com/u/1024/768/3988c46f05e3779ee5c425315ea72b9afb6bb9db.jpg", "https://lid.zoocdn.com/u/1024/768/1a7ac07199ed070c7b32277bd02f1982c2078325.jpg"];</script>
+<script>window.__SLIDES_HI__ = "2400/1800";</script>
+<script>
+(function () {
+  var el = document.getElementById('map');
+  if (!el || typeof L === 'undefined') { return; }
+  var data = window.__PINS__ || [];
+  if (!data.length || data[0].lat === null) { el.style.display = 'none'; return; }
+  var map = L.map('map', { scrollWheelZoom: false, dragging: false,
+                           doubleClickZoom: false, boxZoom: false,
+                           keyboard: false, zoomControl: false });
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  var group = L.featureGroup().addTo(map);
+  data.forEach(function (p) {
+    if (p.lat === null) { return; }
+    L.circleMarker([p.lat, p.lon], { radius: 10, color: '#ffffff', weight: 3,
+                                     fillColor: p.colour, fillOpacity: 0.95 }).addTo(group);
+  });
+  if (group.getBounds().isValid()) { map.fitBounds(group.getBounds().pad(0.35)); }
+  L.control.attribution({ prefix: false }).addTo(map);
+})();
+</script>
+<script>
+(function () {
+  var shots = window.__SLIDES__ || [];
+  var hiSize = window.__SLIDES_HI__ || '';
+  var img = document.getElementById('slide-img');
+  var link = document.getElementById('slide-link');
+  var prev = document.getElementById('slide-prev');
+  var next = document.getElementById('slide-next');
+  var num = document.getElementById('slide-n');
+  if (!img || !link || !shots.length) { return; }
+  var at = 0;
+
+  function show(i) {
+    at = (i + shots.length) % shots.length;
+    img.src = shots[at];
+    img.alt = 'Listing photo ' + (at + 1) + ' of ' + shots.length +
+              ' — open full screen';
+    link.href = shots[at];
+    if (num) { num.textContent = String(at + 1); }
+  }
+
+  // Only the neighbours are warmed: a 34-photo listing at 136 KB each is
+  // 4.6 MB if the whole gallery is fetched up front, for images the reader may
+  // never scroll to.
+  function warm() {
+    [at + 1, at - 1].forEach(function (k) {
+      var j = (k + shots.length) % shots.length;
+      if (j !== at) { new Image().src = shots[j]; }
+    });
+  }
+
+  if (shots.length < 2) {
+    if (prev) { prev.disabled = true; }
+    if (next) { next.disabled = true; }
+  } else {
+    prev.addEventListener('click', function () { show(at - 1); warm(); });
+    next.addEventListener('click', function () { show(at + 1); warm(); });
+  }
+
+  // -- full-screen slideshow ------------------------------------------------
+  // Clicking the frame opens the overlay rather than navigating to the raw
+  // image; without JS the <a href> still opens the image directly, so the
+  // control is never inert.
+  //
+  // The inline frame is ~440px tall, so the gallery rung is plenty there. The
+  // overlay fills the viewport (up to ~1600px wide), where that rung is soft,
+  // so it loads the top rung — derived from the same URL, which is why there is
+  // no second payload. A non-CDN URL simply does not match and is left alone.
+  function hiRes(url) {
+    if (!hiSize) { return url; }
+    return url.replace(/\/u\/\d+\/\d+\//, '/u/' + hiSize + '/');
+  }
+
+  var lb = document.getElementById('lightbox');
+  var lbImg = document.getElementById('lb-img');
+  var lbNum = document.getElementById('lb-n');
+  var lbClose = document.getElementById('lb-close');
+  var lbPrev = document.getElementById('lb-prev');
+  var lbNext = document.getElementById('lb-next');
+  var lbAt = 0, lbOpen = false;
+
+  function lbShow(i) {
+    lbAt = (i + shots.length) % shots.length;
+    if (lbImg) {
+      lbImg.src = hiRes(shots[lbAt]);
+      lbImg.alt = 'Listing photo ' + (lbAt + 1) + ' of ' + shots.length;
+    }
+    if (lbNum) { lbNum.textContent = String(lbAt + 1); }
+    if (shots.length > 1) {
+      new Image().src = hiRes(shots[(lbAt + 1) % shots.length]);
+      new Image().src = hiRes(shots[(lbAt - 1 + shots.length) % shots.length]);
+    }
+  }
+  function openLb(i) {
+    if (!lb) { return; }
+    lb.hidden = false;
+    lbOpen = true;
+    document.body.classList.add('lb-open');
+    lbShow(i);
+    if (lbClose) { lbClose.focus(); }
+  }
+  function closeLb() {
+    if (!lb) { return; }
+    lb.hidden = true;
+    lbOpen = false;
+    document.body.classList.remove('lb-open');
+    show(lbAt);
+    link.focus();
+  }
+  if (lb) {
+    if (shots.length < 2) {
+      if (lbPrev) { lbPrev.disabled = true; }
+      if (lbNext) { lbNext.disabled = true; }
+    }
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
+      openLb(at);
+    });
+    if (lbClose) { lbClose.addEventListener('click', closeLb); }
+    if (lbPrev) { lbPrev.addEventListener('click', function () { lbShow(lbAt - 1); }); }
+    if (lbNext) { lbNext.addEventListener('click', function () { lbShow(lbAt + 1); }); }
+    // A click on the backdrop (not on the image or a control) closes it.
+    lb.addEventListener('click', function (e) {
+      if (e.target === lb) { closeLb(); }
+    });
+  }
+
+  document.addEventListener('keydown', function (e) {
+    if (e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) { return; }
+    if (lbOpen) {
+      if (e.key === 'Escape') { closeLb(); }
+      if (e.key === 'ArrowLeft') { lbShow(lbAt - 1); }
+      if (e.key === 'ArrowRight') { lbShow(lbAt + 1); }
+      return;
+    }
+    if (e.key === 'ArrowLeft') { show(at - 1); warm(); }
+    if (e.key === 'ArrowRight') { show(at + 1); warm(); }
+  });
+  show(0);
+  warm();
+})();
+</script>
+</body></html>
