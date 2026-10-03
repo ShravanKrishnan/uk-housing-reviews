@@ -226,10 +226,19 @@ function portfolio() {
       var all = this.rowEls(tab);
       var matched = this.matches(tab);
       var ordered = this.sortRows(all);
-      var pages = Math.max(1, Math.ceil(matched.length / PAGE_SIZE));
+      // The page must be a slice of the **sorted** matches. Sorting only the DOM
+      // reorders the rows correctly but leaves the page showing whichever ten
+      // the previous order happened to put first — so `price-asc` would start
+      // at the wrong end of the range, and the members would change with the
+      // sort that ran before it. Invisible under the default score sort, where
+      // `matches()` already returns the server's score order.
+      var isMatch = {};
+      matched.forEach(function (li) { isMatch[li.id] = true; });
+      var matchedInOrder = ordered.filter(function (li) { return isMatch[li.id]; });
+      var pages = Math.max(1, Math.ceil(matchedInOrder.length / PAGE_SIZE));
       if (this.page[tab] > pages) { this.page[tab] = pages; }
       var at = this.page[tab];
-      var slice = matched.slice((at - 1) * PAGE_SIZE, at * PAGE_SIZE);
+      var slice = matchedInOrder.slice((at - 1) * PAGE_SIZE, at * PAGE_SIZE);
       var onPage = {};
       slice.forEach(function (li) { onPage[li.id] = true; });
 
