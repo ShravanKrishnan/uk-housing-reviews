@@ -47,7 +47,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 
 ### Floorplan Analysis
 
-![Floor plan for Burlington Rise, East Barnet EN4](https://lid.zoocdn.com/u/1024/768/500e3d7c0b95dbedc0595f3e5e6863ffb8bf9f16.jpg)
+![Floor plan for Burlington Rise, East Barnet EN4](https://lid.zoocdn.com/u/2400/1800/500e3d7c0b95dbedc0595f3e5e6863ffb8bf9f16.jpg)
 
 *13 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are shown without one.*
 
@@ -132,7 +132,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 
 ### Floorplan Analysis
 
-![Floor plan for Rolfe Close, Barnet EN4](https://lid.zoocdn.com/u/1024/768/1274e4110be8cec9fa0537b7f12bc95c7baa1875.jpg)
+![Floor plan for Rolfe Close, Barnet EN4](https://lid.zoocdn.com/u/2400/1800/1274e4110be8cec9fa0537b7f12bc95c7baa1875.jpg)
 
 *15 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are shown without one.*
 
@@ -215,7 +215,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 
 ### Floorplan Analysis
 
-![Floor plan for Belmont Avenue, Cockfosters EN4](https://lid.zoocdn.com/u/1024/768/17730a551677c7314f6a9ec328085d74846adb9f.jpg)
+![Floor plan for Belmont Avenue, Cockfosters EN4](https://lid.zoocdn.com/u/2400/1800/17730a551677c7314f6a9ec328085d74846adb9f.jpg)
 
 *18 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are shown without one.*
 
@@ -305,7 +305,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 
 ### Floorplan Analysis
 
-![Floor plan for Park Road, New Barnet EN4](https://lid.zoocdn.com/u/1024/768/7dff4c7fe0983f7468534bfd48bbea5f23468797.jpg)
+![Floor plan for Park Road, New Barnet EN4](https://lid.zoocdn.com/u/2400/1800/7dff4c7fe0983f7468534bfd48bbea5f23468797.jpg)
 
 *16 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are shown without one.*
 
@@ -393,7 +393,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 
 ### Floorplan Analysis
 
-![Floor plan for Maryrose Way, Oakleigh Park N20](https://lid.zoocdn.com/u/1024/768/775391af66ad4a678ae5f2248bd0723d74623365.jpg)
+![Floor plan for Maryrose Way, Oakleigh Park N20](https://lid.zoocdn.com/u/2400/1800/775391af66ad4a678ae5f2248bd0723d74623365.jpg)
 
 *10 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are shown without one.*
 
@@ -475,7 +475,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 
 ### Floorplan Analysis
 
-![Floor plan for Gloucester Road, Barnet EN5](https://lid.zoocdn.com/u/1024/768/2f23289a98d6f15a59af5f70b45b3fb275eab603.jpg)
+![Floor plan for Gloucester Road, Barnet EN5](https://lid.zoocdn.com/u/2400/1800/2f23289a98d6f15a59af5f70b45b3fb275eab603.jpg)
 
 *12 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are shown without one.*
 
@@ -553,7 +553,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 
 ### Floorplan Analysis
 
-![Floor plan for Hadley Road, New Barnet, Hertfordshire EN5](https://lid.zoocdn.com/u/1024/768/217168ddb04449ade462369f32f50403adcabc18.jpg)
+![Floor plan for Hadley Road, New Barnet, Hertfordshire EN5](https://lid.zoocdn.com/u/2400/1800/217168ddb04449ade462369f32f50403adcabc18.jpg)
 
 *15 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are shown without one.*
 
@@ -640,7 +640,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 
 ### Floorplan Analysis
 
-![Floor plan for Manor Road, Barnet EN5](https://lid.zoocdn.com/u/1024/768/a6b1653d00cd87f3720ccc001224244c736709ec.jpg)
+![Floor plan for Manor Road, Barnet EN5](https://lid.zoocdn.com/u/2400/1800/a6b1653d00cd87f3720ccc001224244c736709ec.jpg)
 
 *9 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are shown without one.*
 
@@ -716,7 +716,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 
 ### Floorplan Analysis
 
-![Floor plan for Ainsworth Close, Whetstone N20](https://lid.zoocdn.com/u/1024/768/31ca399a5075d87fd4add2b5d2a41eda96d57ec3.jpg)
+![Floor plan for Ainsworth Close, Whetstone N20](https://lid.zoocdn.com/u/2400/1800/31ca399a5075d87fd4add2b5d2a41eda96d57ec3.jpg)
 
 *11 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are shown without one.*
 
@@ -794,7 +794,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 
 ### Floorplan Analysis
 
-![Floor plan for Well Grove, Whetstone N20](https://lid.zoocdn.com/u/1024/768/6d1c25e6857875fc30b7f76184d04e6e834832ae.jpg)
+![Floor plan for Well Grove, Whetstone N20](https://lid.zoocdn.com/u/2400/1800/6d1c25e6857875fc30b7f76184d04e6e834832ae.jpg)
 
 *9 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are shown without one.*
 
@@ -876,7 +876,7 @@ Evaluated **11** properties against combined quality and technical indicators.
 
 ### Floorplan Analysis
 
-![Floor plan for Meadway, Barnet EN5](https://lid.zoocdn.com/u/1024/768/42104e740e8860ae8dc969e9b0f13941d032d7df.jpg)
+![Floor plan for Meadway, Barnet EN5](https://lid.zoocdn.com/u/2400/1800/42104e740e8860ae8dc969e9b0f13941d032d7df.jpg)
 
 *8 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are shown without one.*
 
