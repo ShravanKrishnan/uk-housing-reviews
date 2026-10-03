@@ -73,6 +73,10 @@ h3 { font-size: 14px; margin: 22px 0 8px; color: var(--muted);
 .badge.tag-presentation { color: #c2437f; border-color: #c2437f; background: #fdeef4; }
 .badge.tag-outdoor { color: #c05a2e; border-color: #c05a2e; background: #fdefe8; }
 .badge + .badge { margin-left: 6px; }
+/* An off-market listing. Deliberately a flat grey: it should read as a caveat
+   on the row, not compete with the strength badges beside it. */
+.badge.archived { color: #5c6672; border-color: #c9d1d9; background: #eef1f4;
+                  font-weight: 600; }
 .swatch-gradient { background: linear-gradient(90deg, #a8322d, #c2760a, #1a7f5a); }
 
 /* ---- property list ---- */
