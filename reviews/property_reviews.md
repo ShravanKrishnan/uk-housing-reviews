@@ -12,11 +12,11 @@ Evaluated **13** properties against combined quality and technical indicators.
 | 6 | **Maryrose Way** | £1,150,000 | 2,015.0 | £571 | E | **56.3** | Great Transport Links, Generous Space & Layout, Great Outdoor Space |
 | 7 | **Manor Road** | £1,450,000 | 2,352.0 | £616 | C | **55.4** | Modern Systems, Great Outdoor Space |
 | 8 | **Meadway** | £750,000 | 1,271.0 | £590 | D | **53.4** | Strong Value, Great Outdoor Space |
-| 9 | **Park Road** | £1,300,000 | 2,471.0 | £526 | C | **50.9** | - |
-| 10 | **Hadley Road** | £1,300,000 | 2,429.0 | £535 | D | **49.7** | Beautifully Presented |
-| 11 | **Rolfe Close** | £1,000,000 | 1,881.8 | £531 | D | **48.1** | Strong Value |
-| 12 | **15 Allandale Crescent** | £775,000 | - | - | C | **34.3** | Strong Value |
-| 13 | **22 Courthouse Gardens** | £2,000,000 | - | - | - | **33.8** | Great Transport Links |
+| 9 | **22 Courthouse Gardens** | £2,000,000 | 2,442.0 | £819 | - | **52.9** | Great Transport Links |
+| 10 | **Park Road** | £1,300,000 | 2,471.0 | £526 | C | **50.9** | - |
+| 11 | **Hadley Road** | £1,300,000 | 2,429.0 | £535 | D | **49.7** | Beautifully Presented |
+| 12 | **Rolfe Close** | £1,000,000 | 1,881.8 | £531 | D | **48.1** | Strong Value |
+| 13 | **15 Allandale Crescent** | £775,000 | 1,288.0 | £602 | C | **44.5** | Strong Value |
 
 
 ---
@@ -930,21 +930,17 @@ Evaluated **13** properties against combined quality and technical indicators.
 
 > **⚠️ Missing Data** — review scored with incomplete source data:
 >
-> - Street name missing
-> - Floor area (sq ft) missing — price/sqft and space scoring use fallbacks
-> - EPC assessed-systems evidence withheld — a house number is known but the register holds no certificate for it
 > - EPC rating missing
-> - No floor plan analysed — room dimensions, the wide living room, ground-floor bedroom and theatre checks all score on plan evidence
 >
 
 ### Key Property Metrics
 
 | Attribute | Value | Attribute | Value |
 | :--- | :--- | :--- | :--- |
-| **Asking Price** | £2,000,000 | **Price / Sq Ft** | N/A |
+| **Asking Price** | £2,000,000 | **Price / Sq Ft** | £819/sq ft |
 | **Property Type** | 5 bed semi-detached house for sale | **Tenure** | Freehold |
 | **Bedrooms / Baths** | 5 beds / 4 baths | **Living Rooms** | 3 reception(s) |
-| **Total Floor Area** | Not stated | **EPC Rating** | Band Unspecified |
+| **Total Floor Area** | 2,442.0 sq ft | **EPC Rating** | Band Unspecified |
 | **Liverpool St Commute** | ~43 mins via West Finchley (door-to-concourse) | **King's Cross Commute** | ~35 mins via West Finchley (door-to-concourse) |
 | **Nearest Station** | West Finchley (0.5 mi, ~10 min walk) | **Zoopla ID** | [67944208](https://www.zoopla.co.uk/for-sale/details/67944208/) |
 
@@ -954,38 +950,60 @@ Evaluated **13** properties against combined quality and technical indicators.
 | :--- | :--- | :--- |
 | **Air conditioning** | not-stated | Not mentioned; UK EPCs do not record domestic cooling |
 | **Underfloor heating** | not-stated | Not mentioned in the listing or EPC |
-| **South-facing garden** | not-stated | No aspect stated in the listing, floor-plan or photos |
-| **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
+| **South-facing garden** | photo-hint | Photos suggest south — confirm with a compass |
+| **Sun roof / lantern in living areas** | photo-hint | skylight seen in a living-area photo (room unverified) |
 | **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
-| **Wide living room** | not-stated | No living or dining room with printed dimensions on the floor plan |
-| **Home theatre potential** | not-stated | No cinema or media room mentioned, and no other room on the plan is large enough to be one |
+| **Wide living room** | plan-verified | Reception Room measures 24.7 ft at its widest (floor-plan) — clears the 15 ft mark |
+| **Home theatre potential** | photo-hint | Lounge measures 15.9 x 12.9 ft (205 sq ft) on the floor plan, a separate room from the Reception Room — room for a smaller screen or fewer seats; at that size it holds a 107-inch screen with the front row 8.9 ft from it, 1 recliner row of 5 across (12.4 ft of frontage, a modular sectional run), 5 seats |
 
 ### Floorplan Analysis
 
 ![Floor plan for 22 Courthouse Gardens, London N3 1PX](https://lid.zoocdn.com/u/2400/1800/bc9ceb4ebefa1bbcb2cdbd3e1c6b118c7905f57b.png)
 
-The plan image is shown, but its room text could not be read (plan-image OCR found no room labels or dimensions), so no room-level checks are scored.
+*16 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are shown without one.*
+
+| Room | Type | Floor | Dimensions | Area |
+| :--- | :--- | :--- | :---: | ---: |
+| Garden | garden | — | not printed | — |
+| Bedroom | bedroom | — | 19.8 × 12.5 ft | 248 sq ft |
+| En-Suite | bathroom | — | 10.8 × 9.4 ft | 102 sq ft |
+| Kitchen | kitchen | — | not printed | — |
+| Bathroom | bathroom | — | 12.2 × 7.6 ft | 93 sq ft |
+| Reception Room | living | — | 34.9 × 24.7 ft | 862 sq ft |
+| Bedroom | bedroom | — | 12 × 5.9 ft | 71 sq ft |
+| Bedroom | bedroom | — | 16 × 10.6 ft | 170 sq ft |
+| Utility | utility | — | not printed | — |
+| Landing | circulation | — | 9.9 × 8.9 ft | 88 sq ft |
+| WC | bathroom | — | not printed | — |
+| WC | bathroom | — | not printed | — |
+| Hallway | circulation | — | 12.8 × 9.2 ft | 118 sq ft |
+| Lounge | living | — | 15.9 × 12.9 ft | 205 sq ft |
+| Bedroom | bedroom | — | 16.6 × 11.1 ft | 184 sq ft |
+| Bedroom | bedroom | — | not printed | — |
 
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [########----------------]  33.8 / 100
+  Combined Property Score : [#############-----------]  52.9 / 100
 ```
 
 | Component | Score | Max | Evidence that earned it |
 | :--- | :---: | :---: | :--- |
 | **Location & transport** | **14.0** | 20 | • Nearest station West Finchley 10 min walk (0.50 mi routed walk) (+4)<br>• 2 stations within 0.8 mi — West Finchley 10 min walk, Woodside Park 12 min walk — commuting resilience (+3.5)<br>• 1 transit line within walk — Northern via West Finchley 10 min walk, +1 more — broad Central London access (+1)<br>• Night Tube / 24h service at West Finchley, Woodside Park (+1.5)<br>• Good Liverpool St commute: ~43 mins door-to-concourse via West Finchley (10m walk + 29m rail) (+2)<br>• King's Cross St Pancras commute ~35 mins via West Finchley (+2) |
-| **Space, scale & layout** | **10.0** | 20 | • Square footage unstated in listing data (+6)<br>• Superb bathroom provision (4 baths for 5 beds) (+3)<br>• Two or more reception rooms (3) (+1) |
-| **Financial efficiency** | **5.8** | 15 | • Price per sq ft not computable (+3.75 of 7.5 base)<br>• £2,000,000 asking price (+2 of 7.5) |
-| **Technical & EPC** | **4.0** | 20 | • Band unattributed (4 base) (+4 of 10) |
-| **Observed presentation** | **0.0** | 13 | _no evidence detected — scores on the absence of contrary findings_ |
-| **Garden & outdoor** | **0.0** | 12 | _no evidence detected — scores on the absence of contrary findings_ |
-| **Total** | **33.8** | 100 | Not stated, 5 beds, band N/A |
+| **Space, scale & layout** | **12.5** | 20 | • Square footage taken from floor plan (image analysis)<br>• Generous proportions: 2,442.0 sq ft total (488 sq ft/bed) (+5.5)<br>• Superb bathroom provision (4 baths for 5 beds) (+3)<br>• Two or more reception rooms (3) (+1)<br>• Wide living room: Reception Room 24.7 ft (floorplan) (+3) |
+| **Financial efficiency** | **4.7** | 15 | • £819 per sq ft on 2,442 sq ft (+2.7 of 7.5)<br>• £2,000,000 asking price (+2 of 7.5) |
+| **Technical & EPC** | **12.0** | 20 | • Band unattributed (4 base) (+4 of 10)<br>• Roof glazing seen in photos: skylight (+5)<br>• Dormer / mansard roof extension visible (image analysis) (+3) |
+| **Observed presentation** | **7.7** | 13 | • Presented finish observed as refurbished in listing photographs (image analysis) (+4.7 of 6)<br>• Exterior & garden rated attractive in listing photographs (image analysis) (+3 of 3) |
+| **Garden & outdoor** | **2.0** | 12 | • Garden not dimensioned on the plan — size unscored<br>• Paved terrace / entertaining space visible in photos (image analysis) (+2) |
+| **Total** | **52.9** | 100 | 2,442.0 sq ft, 5 beds, band N/A |
 
-### Land Registry Transaction History
-
-- **Last Recorded Sale**: £1,475,000 on `2024-11-12`
-- **Local Neighbourhood Benchmark**: £304/sq ft across 11 sales with a known floor area
+**Photographic evidence reviewed for the score:**
+- 28 property photo(s) analysed by local vision model (Qwen3-VL)
+- Photographic-evidence score: 42.0/100 (high confidence; condition 30/35, kitchen/bath 0/20, glazing 0/20, structure 5/15, legibility 7/10)
+- Floor-plan internal area read from the plan: 2,442 sq ft (scoring measure)
+- 10 room dimensions read from plan-image text (OCR)
+- Condition tier inferred from photos: refurbished
+- Not captured in the photos: bathrooms, bedrooms, extension evidence, garden aspect, kitchen, living rooms (…)
 
 
 ---
@@ -993,22 +1011,14 @@ The plan image is shown, but its room text could not be read (plan-image OCR fou
 ## Property Review: 15 Allandale Crescent, Potters Bar EN6 2JY
 > **Strengths**: `Strong Value`
 
-> **⚠️ Missing Data** — review scored with incomplete source data:
->
-> - Street name missing
-> - Floor area (sq ft) missing — price/sqft and space scoring use fallbacks
-> - EPC assessed-systems evidence withheld — a house number is known but the register holds no certificate for it
-> - No floor plan analysed — room dimensions, the wide living room, ground-floor bedroom and theatre checks all score on plan evidence
->
-
 ### Key Property Metrics
 
 | Attribute | Value | Attribute | Value |
 | :--- | :--- | :--- | :--- |
-| **Asking Price** | £775,000 | **Price / Sq Ft** | N/A |
-| **Property Type** | 4 bed bungalow for sale | **Tenure** | Chain free |
+| **Asking Price** | £775,000 | **Price / Sq Ft** | £602/sq ft |
+| **Property Type** | 4 bed bungalow for sale | **Tenure** | Freehold |
 | **Bedrooms / Baths** | 4 beds / 2 baths | **Living Rooms** | 2 reception(s) |
-| **Total Floor Area** | Not stated | **EPC Rating** | Band C |
+| **Total Floor Area** | 1,288.0 sq ft | **EPC Rating** | Band C |
 | **Liverpool St Commute** | ~43 mins via Potters Bar (door-to-concourse) | **King's Cross Commute** | ~33 mins via Potters Bar (door-to-concourse) |
 | **Nearest Station** | Potters Bar (0.52 mi, ~11 min walk) | **Zoopla ID** | [69172893](https://www.zoopla.co.uk/for-sale/details/69172893/) |
 
@@ -1019,33 +1029,45 @@ The plan image is shown, but its room text could not be read (plan-image OCR fou
 | **Air conditioning** | not-stated | Not mentioned; UK EPCs do not record domestic cooling |
 | **Underfloor heating** | not-stated | Not mentioned in the listing or EPC |
 | **South-facing garden** | stated | Described as west-facing (not south) |
-| **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
+| **Sun roof / lantern in living areas** | photo-hint | roof lantern seen in a living-area photo (room unverified) |
 | **Ground-floor bedroom** | stated | Bungalow — every bedroom is on the ground floor |
-| **Wide living room** | not-stated | No living or dining room with printed dimensions on the floor plan |
+| **Wide living room** | plan-verified | Largest living area is 12.5 ft (Living Room, floor-plan) — below the 15 ft mark |
 | **Home theatre potential** | not-stated | No cinema or media room mentioned, and no other room on the plan is large enough to be one |
 
 ### Floorplan Analysis
 
 ![Floor plan for 15 Allandale Crescent, Potters Bar EN6 2JY](https://lid.zoocdn.com/u/2400/1800/95997453d145971edfcf5b2c2c690f66b4de2192.jpg)
 
-The plan image is shown, but its room text could not be read (plan-image OCR found no room labels or dimensions), so no room-level checks are scored.
+*5 rooms read off the plan. Areas are the printed sides multiplied; rooms the plan did not dimension are shown without one.*
+
+| Room | Type | Floor | Dimensions | Area |
+| :--- | :--- | :--- | :---: | ---: |
+| Living Room | living | — | 14.8 × 12.5 ft | 185 sq ft |
+| Bedroom 2 | bedroom | — | 13.4 × 11.8 ft | 158 sq ft |
+| Bedroom 1 | bedroom | — | 15 × 11.5 ft | 172 sq ft |
+| Bedroom 4 | bedroom | — | 10.7 × 8.5 ft | 91 sq ft |
+| Bedroom 3 | bedroom | — | 13.4 × 9.8 ft | 131 sq ft |
 
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [########----------------]  34.3 / 100
+  Combined Property Score : [###########-------------]  44.5 / 100
 ```
 
 | Component | Score | Max | Evidence that earned it |
 | :--- | :---: | :---: | :--- |
 | **Location & transport** | **10.5** | 20 | • Nearest station Potters Bar 11 min walk (0.52 mi routed walk) (+4)<br>• Walkable station Potters Bar 11 min walk (+1.5)<br>• 1 transit line within walk — Great Northern via Potters Bar 11 min walk — broad Central London access (+1)<br>• Good Liverpool St commute: ~43 mins door-to-concourse via Potters Bar (11m walk + 28m rail) (+2)<br>• King's Cross St Pancras commute ~33 mins via Potters Bar (+2) |
-| **Space, scale & layout** | **8.2** | 20 | • Square footage unstated in listing data (+5.2)<br>• Well balanced bathroom ratio (2 baths for 4 beds) (+2)<br>• Two or more reception rooms (2) (+1) |
-| **Financial efficiency** | **8.6** | 15 | • Price per sq ft not computable (+3.75 of 7.5 base)<br>• £775,000 asking price (+4.8 of 7.5) |
-| **Technical & EPC** | **7.0** | 20 | • EPC Band C (7) (+7 of 10) |
-| **Observed presentation** | **0.0** | 13 | _no evidence detected — scores on the absence of contrary findings_ |
-| **Garden & outdoor** | **0.0** | 12 | _no evidence detected — scores on the absence of contrary findings_ |
-| **Total** | **34.3** | 100 | Not stated, 4 beds, band C |
+| **Space, scale & layout** | **5.5** | 20 | • Square footage taken from floor plan (image analysis)<br>• Compact floorplate: 1,288.0 sq ft total (322 sq ft/bed) (+2.5)<br>• Well balanced bathroom ratio (2 baths for 4 beds) (+2)<br>• Two or more reception rooms (2) (+1)<br>• Living room width: 12.5 ft (below 15 ft) |
+| **Financial efficiency** | **8.8** | 15 | • £602 per sq ft on 1,288 sq ft (+4 of 7.5)<br>• £775,000 asking price (+4.8 of 7.5) |
+| **Technical & EPC** | **12.0** | 20 | • EPC Band C (7) (+7 of 10)<br>• Roof glazing seen in photos: roof lantern (+5) |
+| **Observed presentation** | **7.7** | 13 | • Presented finish observed as refurbished in listing photographs (image analysis) (+4.7 of 6)<br>• Exterior & garden rated attractive in listing photographs (image analysis) (+3 of 3) |
+| **Garden & outdoor** | **0.0** | 12 | • Garden not dimensioned on the plan — size unscored |
+| **Total** | **44.5** | 100 | 1,288.0 sq ft, 4 beds, band C |
 
-### Land Registry Transaction History
-
-- **Last Recorded Sale**: £740,000 on `2025-07-01`
+**Photographic evidence reviewed for the score:**
+- 19 property photo(s) analysed by local vision model (Qwen3-VL)
+- Photographic-evidence score: 39.9/100 (high confidence; condition 30/35, kitchen/bath 0/20, glazing 3/20, structure 0/15, legibility 6.9/10)
+- Floor-plan internal area read from the plan: 1,288 sq ft (scoring measure)
+- 5 room dimensions read from plan-image text (OCR)
+- Condition tier inferred from photos: refurbished
+- Not captured in the photos: bathroom, bathrooms, bedrooms, extension evidence, garden aspect, kitchen (…)
