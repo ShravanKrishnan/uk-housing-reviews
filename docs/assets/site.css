@@ -252,48 +252,50 @@ ul.ticks li { margin: 4px 0; }
 .bar-row .tick { color: var(--accent); margin-right: 6px; }
 
 /* ---- score breakdown: summary + per-section sub-score cards ---------------
-   The summary is the index; each card is one section's sub-breakdown. A
-   sub-part shows the points it earned against the ceiling the rubric sets for
-   it, so "11.0 / 12" at the section level is explained row by row below it. */
-.score-summary { margin: 4px 0 16px; }
-.score-summary .ss-row { display: grid; grid-template-columns: 175px 1fr 78px;
-                         gap: 10px; align-items: center; margin: 5px 0;
+   The summary is the index; each card is one section's sub-breakdown. Bars are
+   coloured by fill ratio (red→amber→green), so a section reads at a glance and
+   "11.0 / 12" is explained row by row beneath it. */
+.score-summary { margin: 6px 0 18px; }
+.score-summary .ss-row { display: grid; grid-template-columns: 180px minmax(0, 1fr) 84px;
+                         gap: 12px; align-items: center; margin: 6px 0;
                          font-size: 12.5px; }
 .score-summary .ss-name { color: var(--muted); }
 .score-summary .ss-bar { height: 7px; background: var(--line);
                          border-radius: 4px; overflow: hidden; }
 .score-summary .ss-bar > i { display: block; height: 100%; }
 .score-summary .ss-pts { text-align: right; font-weight: 600;
-                         font-variant-numeric: tabular-nums; }
-.score-summary .ss-total { border-top: 1px solid var(--line); margin-top: 9px;
-                           padding-top: 9px; font-weight: 700; }
-.score-summary .ss-total .ss-name { color: var(--fg); }
+                         font-variant-numeric: tabular-nums; white-space: nowrap; }
+.score-summary .ss-total { border-top: 1px solid var(--line); margin-top: 10px;
+                           padding-top: 10px; font-weight: 700; }
+.score-summary .ss-total .ss-name { color: var(--ink); }
 .score-summary .ss-total .ss-pts { font-size: 13.5px; }
 
-.score-card { border: 1px solid var(--line); border-radius: 10px;
-              padding: 12px 14px; margin: 12px 0; }
+.score-card { background: var(--panel); border: 1px solid var(--line);
+              border-radius: 10px; padding: 14px 16px; margin: 12px 0; }
 .score-card .sc-head { display: flex; justify-content: space-between;
                        align-items: baseline; gap: 12px; }
 .score-card .sc-name { font-weight: 700; font-size: 14px; }
-.score-card .sc-score { font-weight: 700; font-variant-numeric: tabular-nums;
-                        white-space: nowrap; }
+.score-card .sc-score { font-weight: 700; font-size: 15px;
+                        font-variant-numeric: tabular-nums; white-space: nowrap; }
 .score-card .sc-cap-num { color: var(--muted); font-weight: 600; font-size: 12px; }
-.score-card .sc-bar { height: 8px; background: var(--line); border-radius: 4px;
-                      overflow: hidden; margin: 8px 0 10px; }
+.score-card .sc-bar { height: 9px; background: var(--line); border-radius: 5px;
+                      overflow: hidden; margin: 10px 0 12px; }
 .score-card .sc-bar > i { display: block; height: 100%; }
-.sc-parts { width: 100%; border-collapse: collapse; font-size: 13px; }
-.sc-parts td { padding: 3px 0; vertical-align: middle; }
-.sc-parts td.p-label { padding-right: 12px; }
-.sc-parts td.p-bar { width: 96px; }
-.sc-parts td.p-bar span { display: block; height: 6px; background: var(--line);
-                          border-radius: 3px; overflow: hidden; }
-.sc-parts td.p-bar span > i { display: block; height: 100%; }
-.sc-parts td.p-pts { width: 80px; text-align: right; white-space: nowrap;
-                     font-variant-numeric: tabular-nums; font-weight: 600; }
-.sc-parts td.p-pts .p-max { color: var(--muted); font-weight: 500; }
-.sc-parts tr.p-note td.p-label { color: var(--muted); }
-.sc-parts tr.p-note td.p-pts { color: var(--muted); font-weight: 500; }
-.sc-cap { margin: 10px 0 0; padding: 6px 10px; background: #fdf6e8;
+
+.sc-parts { font-size: 13px; }
+.sp-row { display: grid; grid-template-columns: minmax(0, 1fr) 96px 84px;
+          gap: 12px; align-items: center; padding: 5px 0; }
+.sp-row + .sp-row { border-top: 1px solid rgba(226, 230, 234, .6); }
+.sp-row .p-label { min-width: 0; }
+.sp-row .p-bar > span { display: block; height: 6px; background: var(--line);
+                        border-radius: 3px; overflow: hidden; }
+.sp-row .p-bar > span > i { display: block; height: 100%; }
+.sp-row .p-pts { text-align: right; white-space: nowrap;
+                 font-variant-numeric: tabular-nums; font-weight: 600; }
+.sp-row .p-pts .p-max { color: var(--muted); font-weight: 500; }
+.sp-row.p-note .p-label { color: var(--muted); }
+.sp-row.p-note .p-pts { color: var(--muted); font-weight: 500; }
+.sc-cap { margin: 12px 0 0; padding: 7px 11px; background: #fdf6e8;
           border: 1px solid #ecd9ae; border-radius: 6px; font-size: 12.5px; }
 .note.compact { margin: 2px 0 0; font-size: 12px; }
 ul.ticks.compact { font-size: 12.5px; margin: 2px 0 0; padding-left: 20px; }
@@ -380,8 +382,9 @@ details.raw pre { background: var(--panel); border: 1px solid var(--line);
   /* Sub-score cards: drop the mini bar on a phone so the label and the
      earned / max figure keep a readable line. The section bar still carries
      the ratio, and the summary keeps its bars because it is three columns. */
-  .sc-parts td.p-bar { display: none; }
-  .score-summary .ss-row { grid-template-columns: 1fr 62px; }
+  .sp-row { grid-template-columns: minmax(0, 1fr) auto; gap: 8px; }
+  .sp-row .p-bar { display: none; }
+  .score-summary .ss-row { grid-template-columns: minmax(0, 1fr) 88px; }
   .score-summary .ss-bar { display: none; }
   .slide-frame { height: 240px; }
   table.nice { font-size: 12.5px; }
