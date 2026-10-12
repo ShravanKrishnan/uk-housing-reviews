@@ -250,6 +250,9 @@ ul.plist a.row {
   color: var(--ink); box-shadow: var(--shadow-sm);
 }
 .ctl input { width: 78px; }
+/* A house price is six or seven digits, so the price pair needs more room than
+   the score and size inputs it sits beside. */
+.ctl input.price-input { width: 96px; }
 
 /* ---- full-screen photo slideshow (detail page) ---- */
 .lightbox {
