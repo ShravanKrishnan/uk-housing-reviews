@@ -4,19 +4,19 @@ Evaluated **13** properties against combined quality and technical indicators.
 
 | Rank | Address | Price | Size | £/sqft | EPC | Score | Strengths |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| 1 | **Burlington Rise** | £1,175,000 | 2,088.0 | £563 | C | **77.7** | Generous Space & Layout, Modern Systems, Beautifully Presented, Great Outdoor Space |
-| 2 | **22 Courthouse Gardens** | £2,000,000 | 2,442.0 | £819 | C | **77.2** | Great Transport Links, Generous Space & Layout, Modern Systems, Beautifully Presented, Great Outdoor Space |
-| 3 | **Well Grove** | £1,450,000 | 2,229.0 | £650 | B | **71.2** | Generous Space & Layout, Modern Systems, Great Outdoor Space |
-| 4 | **Ainsworth Close** | £1,375,000 | 1,759.0 | £782 | B | **65.0** | Modern Systems, Beautifully Presented, Great Outdoor Space |
-| 5 | **Gloucester Road** | £1,250,000 | 1,760.0 | £710 | D | **63.3** | Great Transport Links, Great Outdoor Space |
-| 6 | **15 Allandale Crescent** | £775,000 | 1,288.0 | £602 | C | **62.0** | Strong Value, Modern Systems, Beautifully Presented, Great Outdoor Space |
-| 7 | **Belmont Avenue** | £1,250,000 | 2,175.0 | £575 | D | **60.2** | Modern Systems |
-| 8 | **Maryrose Way** | £1,150,000 | 2,015.0 | £571 | E | **58.3** | Great Transport Links, Generous Space & Layout, Great Outdoor Space |
-| 9 | **Park Road** | £1,300,000 | 2,471.0 | £526 | C | **57.0** | - |
-| 10 | **Manor Road** | £1,450,000 | 2,352.0 | £616 | C | **53.9** | Modern Systems, Great Outdoor Space |
-| 11 | **Rolfe Close** | £1,000,000 | 1,881.8 | £531 | D | **53.6** | Strong Value, Modern Systems |
-| 12 | **Meadway** | £750,000 | 1,271.0 | £590 | D | **50.4** | Strong Value, Great Outdoor Space |
-| 13 | **Hadley Road** | £1,300,000 | 2,429.0 | £535 | D | **48.2** | - |
+| 1 | **22 Courthouse Gardens** | £2,000,000 | 2,442.0 | £819 | C | **80.6** | Great Transport Links, Generous Space & Layout, Modern Systems, Beautifully Presented, Great Outdoor Space |
+| 2 | **Burlington Rise** | £1,175,000 | 2,088.0 | £563 | C | **80.2** | Generous Space & Layout, Modern Systems, Beautifully Presented, Great Outdoor Space |
+| 3 | **Well Grove** | £1,450,000 | 2,229.0 | £650 | B | **76.2** | Generous Space & Layout, Modern Systems, Great Outdoor Space |
+| 4 | **Ainsworth Close** | £1,375,000 | 1,759.0 | £782 | B | **68.0** | Modern Systems, Beautifully Presented, Great Outdoor Space |
+| 5 | **Gloucester Road** | £1,250,000 | 1,760.0 | £710 | D | **65.4** | Great Transport Links, Great Outdoor Space |
+| 6 | **15 Allandale Crescent** | £775,000 | 1,288.0 | £602 | C | **63.6** | Strong Value, Modern Systems, Beautifully Presented, Great Outdoor Space |
+| 7 | **Park Road** | £1,300,000 | 2,471.0 | £526 | C | **60.0** | - |
+| 8 | **Belmont Avenue** | £1,250,000 | 2,175.0 | £575 | D | **59.3** | Modern Systems |
+| 9 | **Maryrose Way** | £1,150,000 | 2,015.0 | £571 | E | **57.7** | Great Transport Links, Generous Space & Layout, Great Outdoor Space |
+| 10 | **Manor Road** | £1,450,000 | 2,352.0 | £616 | C | **55.1** | Modern Systems, Great Outdoor Space |
+| 11 | **Rolfe Close** | £1,000,000 | 1,881.8 | £531 | D | **54.2** | Strong Value, Modern Systems |
+| 12 | **Hadley Road** | £1,300,000 | 2,429.0 | £535 | D | **51.2** | - |
+| 13 | **Meadway** | £750,000 | 1,271.0 | £590 | D | **48.4** | Strong Value, Great Outdoor Space |
 
 
 ---
@@ -71,7 +71,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [###################-----]  77.7 / 100
+  Combined Property Score : [###################-----]  80.2 / 100
 ```
 
 | Section | Sub-part | Earned | Max |
@@ -87,21 +87,22 @@ Evaluated **13** properties against combined quality and technical indicators.
 |  | Two or more reception rooms (2) | +1 | 1 |
 |  | Wide living room: Dining Room 15.0 ft (floorplan) | +3 | 3 |
 |  | No ground-floor bedroom, but a second ground-floor sitting room (Sitting Room 21.1 x 11.4 ft) gives the same downstairs space | +3 | 3 |
-| **Financial efficiency**<br>`7.7 / 15` | £563 per sq ft on 2,088 sq ft | +4.2 | 7.5 |
-|  | £1,175,000 asking price | +3.5 | 7.5 |
+| **Financial efficiency**<br>`5.2 / 10` | £563 per sq ft on 2,088 sq ft | +2.8 | 5 |
+|  | £1,175,000 asking price | +2.4 | 5 |
 | **Technical & EPC**<br>`20.0 / 20` | EPC Band C (7) + no secondary heating (1) + insulated roof (2) + double glazing (1) | +10 | 10 |
 |  | EPC assessed 2015-03-09: certificate expired — points scored as stated |  |  |
 |  | Roof glazing seen in photos: skylight | +5 | 5 |
 |  | EPC: pitched roof with accessible loft (pitched, 350 mm loft insulation) — scope for a simple loft extension (structural survey still required) | +2 | 4 |
 |  | Architectural glazing / roof lantern visible in photos (image analysis) | +3 | 3 |
-| **Observed presentation**<br>`11.5 / 13` | Presented finish observed as showroom in listing photographs (image analysis) | +6 | 6 |
-|  | Kitchen & bathroom spec rated premium in listing photographs (image analysis) | +4 | 4 |
+| **Observed presentation**<br>`16.5 / 18` | Presented finish observed as showroom in listing photographs (image analysis) | +8 | 8 |
+|  | Kitchen finish rated high end in listing photographs (image analysis) | +4 | 4 |
+|  | Bathroom finish rated high end in listing photographs (image analysis) | +3 | 3 |
 |  | Exterior & garden rated standard in listing photographs (image analysis) | +1.5 | 3 |
 | **Garden & outdoor**<br>`11.0 / 12` | Outbuilding present | +2 | 2 |
 |  | Medium garden: 1,660 sq ft on plan | +3 | 4 |
 |  | Garden runs down the side of the house, front to rear (floor plan) | +4 | 4 |
 |  | Paved terrace / entertaining space visible in photos (image analysis) | +2 | 2 |
-| **Total** | **77.7 / 100** |  |  |
+| **Total** | **80.2 / 100** |  |  |
 
 **Photographic evidence reviewed for the score:**
 - 22 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -178,7 +179,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [#############-----------]  53.6 / 100
+  Combined Property Score : [#############-----------]  54.2 / 100
 ```
 
 | Section | Sub-part | Earned | Max |
@@ -194,17 +195,18 @@ Evaluated **13** properties against combined quality and technical indicators.
 |  | Two or more reception rooms (3) | +1 | 1 |
 |  | Dedicated utility room present | +1 | 1 |
 |  | Living room width: 12.8 ft (below 15 ft) |  |  |
-| **Financial efficiency**<br>`8.5 / 15` | £531 per sq ft on 1,882 sq ft | +4.5 | 7.5 |
-|  | £1,000,000 asking price | +4 | 7.5 |
+| **Financial efficiency**<br>`5.7 / 10` | £531 per sq ft on 1,882 sq ft | +3 | 5 |
+|  | £1,000,000 asking price | +2.7 | 5 |
 | **Technical & EPC**<br>`15.5 / 20` | EPC Band D (4.5) + no secondary heating (1) + insulated roof (2) + double glazing (1) | +8.5 | 10 |
 |  | Roof glazing seen in photos: skylight | +5 | 5 |
 |  | EPC: pitched roof with accessible loft (pitched, 270 mm loft insulation) — scope for a simple loft extension (structural survey still required) | +2 | 4 |
-| **Observed presentation**<br>`6.1 / 13` | Presented finish observed as partially modernised in listing photographs (image analysis) | +2.6 | 6 |
-|  | Kitchen & bathroom spec rated standard in listing photographs (image analysis) | +2 | 4 |
+| **Observed presentation**<br>`9.5 / 18` | Presented finish observed as partially modernised in listing photographs (image analysis) | +3.5 | 8 |
+|  | Kitchen finish rated mid in listing photographs (image analysis) | +2.5 | 4 |
+|  | Bathroom finish rated mid in listing photographs (image analysis) | +2 | 3 |
 |  | Exterior & garden rated standard in listing photographs (image analysis) | +1.5 | 3 |
 | **Garden & outdoor**<br>`4.0 / 12` | Garden not dimensioned on the plan — size unscored |  |  |
 |  | Gated side access / independent rear pathway (image analysis) | +4 | 4 |
-| **Total** | **53.6 / 100** |  |  |
+| **Total** | **54.2 / 100** |  |  |
 
 **Photographic evidence reviewed for the score:**
 - 17 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -279,7 +281,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [##############----------]  60.2 / 100
+  Combined Property Score : [##############----------]  59.3 / 100
 ```
 
 | Section | Sub-part | Earned | Max |
@@ -295,18 +297,18 @@ Evaluated **13** properties against combined quality and technical indicators.
 |  | Superb bathroom provision (3 baths for 4 beds) | +3 | 3 |
 |  | Two or more reception rooms (3) | +1 | 1 |
 |  | Living room width: 14.5 ft (below 15 ft) |  |  |
-| **Financial efficiency**<br>`7.5 / 15` | £575 per sq ft on 2,175 sq ft | +4.1 | 7.5 |
-|  | £1,250,000 asking price | +3.4 | 7.5 |
+| **Financial efficiency**<br>`5.0 / 10` | £575 per sq ft on 2,175 sq ft | +2.8 | 5 |
+|  | £1,250,000 asking price | +2.2 | 5 |
 | **Technical & EPC**<br>`20.0 / 20` | EPC Band D (4.5) + no secondary heating (1) + insulated roof (2) + double glazing (1) | +8.5 | 10 |
 |  | Underfloor heating present | +5 | 5 |
 |  | Air conditioning present | +5 | 5 |
 |  | Dormer / mansard roof extension visible (image analysis) | +3 | 3 |
 |  | _Sub-parts earn 21.5 in total — component capped at 20_ |  |  |
-| **Observed presentation**<br>`6.2 / 13` | Presented finish observed as refurbished in listing photographs (image analysis) | +4.7 | 6 |
+| **Observed presentation**<br>`7.8 / 18` | Presented finish observed as refurbished in listing photographs (image analysis) | +6.3 | 8 |
 |  | Exterior & garden rated standard in listing photographs (image analysis) | +1.5 | 3 |
 | **Garden & outdoor**<br>`5.0 / 12` | Medium garden: 1,454 sq ft on plan | +3 | 4 |
 |  | Paved terrace / entertaining space visible in photos (image analysis) | +2 | 2 |
-| **Total** | **60.2 / 100** |  |  |
+| **Total** | **59.3 / 100** |  |  |
 
 **Photographic evidence reviewed for the score:**
 - 32 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -383,7 +385,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [##############----------]  57.0 / 100
+  Combined Property Score : [##############----------]  60.0 / 100
 ```
 
 | Section | Sub-part | Earned | Max |
@@ -401,17 +403,18 @@ Evaluated **13** properties against combined quality and technical indicators.
 |  | Ground floor guest WC present | +1 | 1 |
 |  | Living room width: 12.6 ft (below 15 ft) |  |  |
 |  | Ground-floor bedroom confirmed on floorplan: 1 (Bedroom 5) | +3 | 3 |
-| **Financial efficiency**<br>`7.8 / 15` | £526 per sq ft on 2,471 sq ft | +4.5 | 7.5 |
-|  | £1,300,000 asking price | +3.3 | 7.5 |
+| **Financial efficiency**<br>`5.2 / 10` | £526 per sq ft on 2,471 sq ft | +3 | 5 |
+|  | £1,300,000 asking price | +2.2 | 5 |
 | **Technical & EPC**<br>`12.0 / 20` | EPC Band C (7) + wall insulation (3) + insulated roof (2) + double glazing (1) | +10 | 10 |
 |  | EPC: pitched roof with accessible loft (pitched, 75 mm loft insulation) — scope for a simple loft extension (structural survey still required) | +2 | 4 |
-| **Observed presentation**<br>`8.2 / 13` | Presented finish observed as refurbished in listing photographs (image analysis) | +4.7 | 6 |
-|  | Kitchen & bathroom spec rated standard in listing photographs (image analysis) | +2 | 4 |
+| **Observed presentation**<br>`13.8 / 18` | Presented finish observed as refurbished in listing photographs (image analysis) | +6.3 | 8 |
+|  | Kitchen finish rated high end in listing photographs (image analysis) | +4 | 4 |
+|  | Bathroom finish rated mid in listing photographs (image analysis) | +2 | 3 |
 |  | Exterior & garden rated standard in listing photographs (image analysis) | +1.5 | 3 |
 | **Garden & outdoor**<br>`6.0 / 12` | Garden not dimensioned on the plan — size unscored |  |  |
 |  | Gated side access / independent rear pathway (image analysis) | +4 | 4 |
 |  | Paved terrace / entertaining space visible in photos (image analysis) | +2 | 2 |
-| **Total** | **57.0 / 100** |  |  |
+| **Total** | **60.0 / 100** |  |  |
 
 **Photographic evidence reviewed for the score:**
 - 29 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -482,7 +485,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [##############----------]  58.3 / 100
+  Combined Property Score : [##############----------]  57.7 / 100
 ```
 
 | Section | Sub-part | Earned | Max |
@@ -498,17 +501,19 @@ Evaluated **13** properties against combined quality and technical indicators.
 |  | Two or more reception rooms (2) | +1 | 1 |
 |  | Wide living room: Sitting Room 17.7 ft (floorplan) | +3 | 3 |
 |  | Ground-floor bedroom confirmed on floorplan: 1 (Bedroom) | +3 | 3 |
-| **Financial efficiency**<br>`7.8 / 15` | £571 per sq ft on 2,015 sq ft | +4.2 | 7.5 |
-|  | £1,150,000 asking price | +3.6 | 7.5 |
+| **Financial efficiency**<br>`5.2 / 10` | £571 per sq ft on 2,015 sq ft | +2.8 | 5 |
+|  | £1,150,000 asking price | +2.4 | 5 |
 | **Technical & EPC**<br>`7.5 / 20` | EPC Band E (2.5) + insulated roof (2) + double glazing (1) | +5.5 | 10 |
 |  | EPC: pitched roof with accessible loft (pitched, insulated (assumed)) — scope for a simple loft extension (structural survey still required) | +2 | 4 |
-| **Observed presentation**<br>`1.5 / 13` | Exterior & garden rated standard in listing photographs (image analysis) | +1.5 | 3 |
+| **Observed presentation**<br>`3.5 / 18` | Kitchen finish rated basic in listing photographs (image analysis) | +1 | 4 |
+|  | Bathroom finish rated basic in listing photographs (image analysis) | +1 | 3 |
+|  | Exterior & garden rated standard in listing photographs (image analysis) | +1.5 | 3 |
 | **Garden & outdoor**<br>`12.0 / 12` | South-facing garden confirmed | +4 | 4 |
 |  | Large garden: 3,401 sq ft on plan | +4 | 4 |
 |  | Garden runs down the side of the house, front to rear (floor plan) | +4 | 4 |
 |  | Paved terrace / entertaining space visible in photos (image analysis) | +2 | 2 |
 |  | _Sub-parts earn 14 in total — component capped at 12_ |  |  |
-| **Total** | **58.3 / 100** |  |  |
+| **Total** | **57.7 / 100** |  |  |
 
 **Photographic evidence reviewed for the score:**
 - 21 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -531,7 +536,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 
 > **⚠️ Missing Data** — review scored with incomplete source data:
 >
-> - EPC certificate from the live register, not the open-data extract — the UPRN is not covered by the downloaded constituency extract, so add that constituency to data/address_numbers.json's sourcing to make it a UPRN-keyed match
+> - EPC certificate from the live register, not the open-data extract — the UPRN is not covered by the downloaded constituency extract, so add that constituency's extract to data/EPC bulk csv/ to make it a UPRN-keyed match
 >
 
 ### Key Property Metrics
@@ -581,7 +586,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [###############---------]  63.3 / 100
+  Combined Property Score : [################--------]  65.4 / 100
 ```
 
 | Section | Sub-part | Earned | Max |
@@ -599,19 +604,20 @@ Evaluated **13** properties against combined quality and technical indicators.
 |  | Ground floor guest WC present | +1 | 1 |
 |  | Wide living room: Living Room 16.7 ft (floorplan) | +3 | 3 |
 |  | No ground-floor bedroom, but a second ground-floor sitting room (Lounge 10.2 x 9.6 ft) gives the same downstairs space | +3 | 3 |
-| **Financial efficiency**<br>`6.7 / 15` | £710 per sq ft on 1,760 sq ft | +3.3 | 7.5 |
-|  | £1,250,000 asking price | +3.4 | 7.5 |
+| **Financial efficiency**<br>`4.4 / 10` | £710 per sq ft on 1,760 sq ft | +2.2 | 5 |
+|  | £1,250,000 asking price | +2.2 | 5 |
 | **Technical & EPC**<br>`12.0 / 20` | EPC Band D (4.5) + wall insulation (3) + insulated roof (2) + double glazing (1) | +10 | 10 |
 |  | EPC assessed 31 July 2009: certificate expired — points scored as stated |  |  |
 |  | EPC: pitched roof with accessible loft (pitched, 300 mm loft insulation) — scope for a simple loft extension (structural survey still required) | +2 | 4 |
-| **Observed presentation**<br>`6.1 / 13` | Presented finish observed as partially modernised in listing photographs (image analysis) | +2.6 | 6 |
-|  | Kitchen & bathroom spec rated standard in listing photographs (image analysis) | +2 | 4 |
+| **Observed presentation**<br>`10.5 / 18` | Presented finish observed as partially modernised in listing photographs (image analysis) | +3.5 | 8 |
+|  | Kitchen finish rated mid in listing photographs (image analysis) | +2.5 | 4 |
+|  | Bathroom finish rated high end in listing photographs (image analysis) | +3 | 3 |
 |  | Exterior & garden rated standard in listing photographs (image analysis) | +1.5 | 3 |
 | **Garden & outdoor**<br>`12.0 / 12` | Outbuilding present | +2 | 2 |
 |  | Large garden: 2,421 sq ft on plan | +4 | 4 |
 |  | Gated side access / independent rear pathway (image analysis) | +4 | 4 |
 |  | Paved terrace / entertaining space visible in photos (image analysis) | +2 | 2 |
-| **Total** | **63.3 / 100** |  |  |
+| **Total** | **65.4 / 100** |  |  |
 
 **Photographic evidence reviewed for the score:**
 - 25 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -681,7 +687,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [############------------]  48.2 / 100
+  Combined Property Score : [############------------]  51.2 / 100
 ```
 
 | Section | Sub-part | Earned | Max |
@@ -695,18 +701,19 @@ Evaluated **13** properties against combined quality and technical indicators.
 |  | Superb bathroom provision (3 baths for 3 beds) | +3 | 3 |
 |  | Two or more reception rooms (4) | +1 | 1 |
 |  | Living room width: 11.9 ft (below 15 ft) |  |  |
-| **Financial efficiency**<br>`7.7 / 15` | £535 per sq ft on 2,429 sq ft | +4.4 | 7.5 |
-|  | £1,300,000 asking price | +3.3 | 7.5 |
+| **Financial efficiency**<br>`5.1 / 10` | £535 per sq ft on 2,429 sq ft | +2.9 | 5 |
+|  | £1,300,000 asking price | +2.2 | 5 |
 | **Technical & EPC**<br>`14.8 / 20` | EPC Band D (4.5) + no secondary heating (1) + insulated roof (2) + partial glazing (0.25) | +7.8 | 10 |
 |  | EPC assessed 2016-05-26: certificate expired — points scored as stated |  |  |
 |  | Air conditioning present | +5 | 5 |
 |  | EPC: pitched roof with accessible loft (pitched, 100 mm loft insulation) — scope for a simple loft extension (structural survey still required) | +2 | 4 |
-| **Observed presentation**<br>`8.2 / 13` | Presented finish observed as refurbished in listing photographs (image analysis) | +4.7 | 6 |
-|  | Kitchen & bathroom spec rated standard in listing photographs (image analysis) | +2 | 4 |
+| **Observed presentation**<br>`13.8 / 18` | Presented finish observed as refurbished in listing photographs (image analysis) | +6.3 | 8 |
+|  | Kitchen finish rated high end in listing photographs (image analysis) | +4 | 4 |
+|  | Bathroom finish rated mid in listing photographs (image analysis) | +2 | 3 |
 |  | Exterior & garden rated standard in listing photographs (image analysis) | +1.5 | 3 |
 | **Garden & outdoor**<br>`2.0 / 12` | Garden not dimensioned on the plan — size unscored |  |  |
 |  | Paved terrace / entertaining space visible in photos (image analysis) | +2 | 2 |
-| **Total** | **48.2 / 100** |  |  |
+| **Total** | **51.2 / 100** |  |  |
 
 **Photographic evidence reviewed for the score:**
 - 20 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -779,7 +786,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [#############-----------]  53.9 / 100
+  Combined Property Score : [#############-----------]  55.1 / 100
 ```
 
 | Section | Sub-part | Earned | Max |
@@ -793,18 +800,19 @@ Evaluated **13** properties against combined quality and technical indicators.
 |  | Under-bathroomed (2 bath for 5 beds - morning bottlenecks likely) | +0.5 | 3 |
 |  | Two or more reception rooms (4) | +1 | 1 |
 |  | Wide living room: Reception Room 19.2 ft (floorplan) | +3 | 3 |
-| **Financial efficiency**<br>`6.8 / 15` | £616 per sq ft on 2,352 sq ft | +3.9 | 7.5 |
-|  | £1,450,000 asking price | +2.9 | 7.5 |
+| **Financial efficiency**<br>`4.6 / 10` | £616 per sq ft on 2,352 sq ft | +2.6 | 5 |
+|  | £1,450,000 asking price | +2 | 5 |
 | **Technical & EPC**<br>`17.0 / 20` | EPC Band C (7) + no secondary heating (1) + wall insulation (3) + insulated roof (2) + double glazing (1) | +10 | 10 |
 |  | Underfloor heating present | +5 | 5 |
 |  | EPC: pitched roof with accessible loft (pitched, 250 mm loft insulation) — scope for a simple loft extension (structural survey still required) | +2 | 4 |
-| **Observed presentation**<br>`6.1 / 13` | Presented finish observed as partially modernised in listing photographs (image analysis) | +2.6 | 6 |
-|  | Kitchen & bathroom spec rated standard in listing photographs (image analysis) | +2 | 4 |
+| **Observed presentation**<br>`9.5 / 18` | Presented finish observed as partially modernised in listing photographs (image analysis) | +3.5 | 8 |
+|  | Kitchen finish rated mid in listing photographs (image analysis) | +2.5 | 4 |
+|  | Bathroom finish rated mid in listing photographs (image analysis) | +2 | 3 |
 |  | Exterior & garden rated standard in listing photographs (image analysis) | +1.5 | 3 |
 | **Garden & outdoor**<br>`10.0 / 12` | Large garden: 4,117 sq ft on plan | +4 | 4 |
 |  | Gated side access / independent rear pathway (image analysis) | +4 | 4 |
 |  | Paved terrace / entertaining space visible in photos (image analysis) | +2 | 2 |
-| **Total** | **53.9 / 100** |  |  |
+| **Total** | **55.1 / 100** |  |  |
 
 **Photographic evidence reviewed for the score:**
 - 26 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -871,7 +879,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [################--------]  65.0 / 100
+  Combined Property Score : [################--------]  68.0 / 100
 ```
 
 | Section | Sub-part | Earned | Max |
@@ -888,18 +896,19 @@ Evaluated **13** properties against combined quality and technical indicators.
 |  | Two or more reception rooms (3) | +1 | 1 |
 |  | Living room width: 11.6 ft (below 15 ft) |  |  |
 |  | Ground-floor bedrooms confirmed on floorplan: 2 | +3 | 3 |
-| **Financial efficiency**<br>`6.0 / 15` | £782 per sq ft on 1,759 sq ft | +2.9 | 7.5 |
-|  | £1,375,000 asking price | +3.1 | 7.5 |
+| **Financial efficiency**<br>`4.0 / 10` | £782 per sq ft on 1,759 sq ft | +1.9 | 5 |
+|  | £1,375,000 asking price | +2.1 | 5 |
 | **Technical & EPC**<br>`16.0 / 20` | EPC Band B (9) + no secondary heating (1) + zone control (1.5) + insulated roof (2) + insulated floor (2) + high-performance glazing (1.75) | +10 | 10 |
 |  | Dormer / mansard roof extension visible (image analysis) | +3 | 3 |
 |  | Architectural glazing / roof lantern visible in photos (image analysis) | +3 | 3 |
-| **Observed presentation**<br>`13.0 / 13` | Presented finish observed as showroom in listing photographs (image analysis) | +6 | 6 |
-|  | Kitchen & bathroom spec rated premium in listing photographs (image analysis) | +4 | 4 |
+| **Observed presentation**<br>`18.0 / 18` | Presented finish observed as showroom in listing photographs (image analysis) | +8 | 8 |
+|  | Kitchen finish rated high end in listing photographs (image analysis) | +4 | 4 |
+|  | Bathroom finish rated high end in listing photographs (image analysis) | +3 | 3 |
 |  | Exterior & garden rated attractive in listing photographs (image analysis) | +3 | 3 |
 | **Garden & outdoor**<br>`9.0 / 12` | Medium garden: 1,568 sq ft on plan | +3 | 4 |
 |  | Gated side access / independent rear pathway (image analysis) | +4 | 4 |
 |  | Paved terrace / entertaining space visible in photos (image analysis) | +2 | 2 |
-| **Total** | **65.0 / 100** |  |  |
+| **Total** | **68.0 / 100** |  |  |
 
 **Photographic evidence reviewed for the score:**
 - 24 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -967,7 +976,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [#################-------]  71.2 / 100
+  Combined Property Score : [##################------]  76.2 / 100
 ```
 
 | Section | Sub-part | Earned | Max |
@@ -983,19 +992,22 @@ Evaluated **13** properties against combined quality and technical indicators.
 |  | Two or more reception rooms (2) | +1 | 1 |
 |  | Wide living room: Sitting Room 25.4 ft (floorplan) | +3 | 3 |
 |  | Ground-floor bedroom confirmed on floorplan: 1 (Bedroom) | +3 | 3 |
-| **Financial efficiency**<br>`6.5 / 15` | £651 per sq ft on 2,229 sq ft | +3.6 | 7.5 |
-|  | £1,450,000 asking price | +2.9 | 7.5 |
-| **Technical & EPC**<br>`18.0 / 20` | EPC Band B (9) + no secondary heating (1) + zone control (1.5) + insulated roof (2) + insulated floor (2) + high-performance glazing (1.75) | +10 | 10 |
+| **Financial efficiency**<br>`4.4 / 10` | £651 per sq ft on 2,229 sq ft | +2.4 | 5 |
+|  | £1,450,000 asking price | +2 | 5 |
+| **Technical & EPC**<br>`20.0 / 20` | EPC Band B (9) + no secondary heating (1) + zone control (1.5) + insulated roof (2) + insulated floor (2) + high-performance glazing (1.75) | +10 | 10 |
 |  | Underfloor heating present | +5 | 5 |
 |  | Dormer / mansard roof extension visible (image analysis) | +3 | 3 |
-| **Observed presentation**<br>`8.2 / 13` | Presented finish observed as refurbished in listing photographs (image analysis) | +4.7 | 6 |
-|  | Kitchen & bathroom spec rated standard in listing photographs (image analysis) | +2 | 4 |
+|  | Architectural glazing / roof lantern visible in photos (image analysis) | +3 | 3 |
+|  | _Sub-parts earn 21 in total — component capped at 20_ |  |  |
+| **Observed presentation**<br>`13.3 / 18` | Presented finish observed as refurbished in listing photographs (image analysis) | +6.3 | 8 |
+|  | Kitchen finish rated mid in listing photographs (image analysis) | +2.5 | 4 |
+|  | Bathroom finish rated high end in listing photographs (image analysis) | +3 | 3 |
 |  | Exterior & garden rated standard in listing photographs (image analysis) | +1.5 | 3 |
 | **Garden & outdoor**<br>`12.0 / 12` | Outbuilding present | +2 | 2 |
 |  | Large garden: 3,178 sq ft on plan | +4 | 4 |
 |  | Gated side access / independent rear pathway (image analysis) | +4 | 4 |
 |  | Paved terrace / entertaining space visible in photos (image analysis) | +2 | 2 |
-| **Total** | **71.2 / 100** |  |  |
+| **Total** | **76.2 / 100** |  |  |
 
 **Photographic evidence reviewed for the score:**
 - 21 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -1066,7 +1078,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [############------------]  50.4 / 100
+  Combined Property Score : [############------------]  48.4 / 100
 ```
 
 | Section | Sub-part | Earned | Max |
@@ -1082,18 +1094,18 @@ Evaluated **13** properties against combined quality and technical indicators.
 |  | Under-bathroomed (1 bath for 3 beds - morning bottlenecks likely) | +0.5 | 3 |
 |  | Ground floor guest WC present | +1 | 1 |
 |  | Living room width: 13.3 ft (below 15 ft) |  |  |
-| **Financial efficiency**<br>`8.8 / 15` | £590 per sq ft on 1,271 sq ft | +4 | 7.5 |
-|  | £750,000 asking price | +4.8 | 7.5 |
+| **Financial efficiency**<br>`5.9 / 10` | £590 per sq ft on 1,271 sq ft | +2.7 | 5 |
+|  | £750,000 asking price | +3.2 | 5 |
 | **Technical & EPC**<br>`8.5 / 20` | EPC Band D (4.5) + no secondary heating (1) + double glazing (1) | +6.5 | 10 |
 |  | EPC: pitched roof with accessible loft (pitched, no insulation) — scope for a simple loft extension (structural survey still required) | +2 | 4 |
-| **Observed presentation**<br>`4.1 / 13` | Presented finish observed as partially modernised in listing photographs (image analysis) | +2.6 | 6 |
+| **Observed presentation**<br>`5.0 / 18` | Presented finish observed as partially modernised in listing photographs (image analysis) | +3.5 | 8 |
 |  | Exterior & garden rated standard in listing photographs (image analysis) | +1.5 | 3 |
 | **Garden & outdoor**<br>`12.0 / 12` | South-facing garden confirmed | +4 | 4 |
 |  | Large garden: 2,605 sq ft on plan | +4 | 4 |
 |  | Gated side access / independent rear pathway (image analysis) | +4 | 4 |
 |  | Paved terrace / entertaining space visible in photos (image analysis) | +2 | 2 |
 |  | _Sub-parts earn 14 in total — component capped at 12_ |  |  |
-| **Total** | **50.4 / 100** |  |  |
+| **Total** | **48.4 / 100** |  |  |
 
 **Photographic evidence reviewed for the score:**
 - 35 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -1165,7 +1177,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [###################-----]  77.2 / 100
+  Combined Property Score : [###################-----]  80.6 / 100
 ```
 
 | Section | Sub-part | Earned | Max |
@@ -1182,21 +1194,22 @@ Evaluated **13** properties against combined quality and technical indicators.
 |  | Two or more reception rooms (3) | +1 | 1 |
 |  | Wide living room: Reception Room 24.7 ft (floorplan) | +3 | 3 |
 |  | No ground-floor bedroom, but a second ground-floor sitting room (Lounge 15.9 x 12.9 ft) (floor inferred from the plan layout) gives the same downstairs space | +3 | 3 |
-| **Financial efficiency**<br>`4.7 / 15` | £819 per sq ft on 2,442 sq ft | +2.7 | 7.5 |
-|  | £2,000,000 asking price | +2 | 7.5 |
+| **Financial efficiency**<br>`3.1 / 10` | £819 per sq ft on 2,442 sq ft | +1.8 | 5 |
+|  | £2,000,000 asking price | +1.3 | 5 |
 | **Technical & EPC**<br>`20.0 / 20` | EPC Band C (7) + no secondary heating (1) + zone control (1.5) + wall insulation (3) + insulated roof (2) + double glazing (1) | +10 | 10 |
 |  | Underfloor heating present | +5 | 5 |
 |  | Roof glazing seen in photos: skylight | +5 | 5 |
 |  | Dormer / mansard roof extension visible (image analysis) | +3 | 3 |
 |  | Architectural glazing / roof lantern visible in photos (image analysis) | +3 | 3 |
 |  | _Sub-parts earn 26 in total — component capped at 20_ |  |  |
-| **Observed presentation**<br>`13.0 / 13` | Presented finish observed as showroom in listing photographs (image analysis) | +6 | 6 |
-|  | Kitchen & bathroom spec rated premium in listing photographs (image analysis) | +4 | 4 |
+| **Observed presentation**<br>`18.0 / 18` | Presented finish observed as showroom in listing photographs (image analysis) | +8 | 8 |
+|  | Kitchen finish rated high end in listing photographs (image analysis) | +4 | 4 |
+|  | Bathroom finish rated high end in listing photographs (image analysis) | +3 | 3 |
 |  | Exterior & garden rated attractive in listing photographs (image analysis) | +3 | 3 |
 | **Garden & outdoor**<br>`10.0 / 12` | Large garden: at least 2,430 sq ft (98 ft deep x the house's 25 ft width floor) on plan | +4 | 4 |
 |  | Garden runs down the side of the house, front to rear (floor plan) | +4 | 4 |
 |  | Paved terrace / entertaining space visible in photos (image analysis) | +2 | 2 |
-| **Total** | **77.2 / 100** |  |  |
+| **Total** | **80.6 / 100** |  |  |
 
 **Photographic evidence reviewed for the score:**
 - 28 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -1218,7 +1231,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 
 > **⚠️ Missing Data** — review scored with incomplete source data:
 >
-> - EPC certificate from the live register, not the open-data extract — the UPRN is not covered by the downloaded constituency extract, so add that constituency to data/address_numbers.json's sourcing to make it a UPRN-keyed match
+> - EPC certificate from the live register, not the open-data extract — the UPRN is not covered by the downloaded constituency extract, so add that constituency's extract to data/EPC bulk csv/ to make it a UPRN-keyed match
 >
 
 ### Key Property Metrics
@@ -1261,7 +1274,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [###############---------]  62.0 / 100
+  Combined Property Score : [###############---------]  63.6 / 100
 ```
 
 | Section | Sub-part | Earned | Max |
@@ -1277,17 +1290,18 @@ Evaluated **13** properties against combined quality and technical indicators.
 |  | Two or more reception rooms (2) | +1 | 1 |
 |  | Living room width: 12.5 ft (below 15 ft) |  |  |
 |  | Ground-floor bedrooms confirmed on floorplan: 4 (floor inferred from the plan layout) | +3 | 3 |
-| **Financial efficiency**<br>`8.8 / 15` | £602 per sq ft on 1,288 sq ft | +4 | 7.5 |
-|  | £775,000 asking price | +4.8 | 7.5 |
+| **Financial efficiency**<br>`5.8 / 10` | £602 per sq ft on 1,288 sq ft | +2.6 | 5 |
+|  | £775,000 asking price | +3.2 | 5 |
 | **Technical & EPC**<br>`15.0 / 20` | EPC Band C (7) + no secondary heating (1) + insulated roof (2) + insulated floor (2) + double glazing (1) | +10 | 10 |
 |  | Roof glazing seen in photos: roof lantern | +5 | 5 |
-| **Observed presentation**<br>`10.2 / 13` | Presented finish observed as refurbished in listing photographs (image analysis) | +4.7 | 6 |
-|  | Kitchen & bathroom spec rated premium in listing photographs (image analysis) | +4 | 4 |
+| **Observed presentation**<br>`14.8 / 18` | Presented finish observed as refurbished in listing photographs (image analysis) | +6.3 | 8 |
+|  | Kitchen finish rated high end in listing photographs (image analysis) | +4 | 4 |
+|  | Bathroom finish rated high end in listing photographs (image analysis) | +3 | 3 |
 |  | Exterior & garden rated standard in listing photographs (image analysis) | +1.5 | 3 |
 | **Garden & outdoor**<br>`9.0 / 12` | Medium garden: at least 1,125 sq ft (90 ft deep x the house's 12 ft width floor) on plan | +3 | 4 |
 |  | Gated side access / independent rear pathway (image analysis) | +4 | 4 |
 |  | Paved terrace / entertaining space visible in photos (image analysis) | +2 | 2 |
-| **Total** | **62.0 / 100** |  |  |
+| **Total** | **63.6 / 100** |  |  |
 
 **Photographic evidence reviewed for the score:**
 - 19 property photo(s) analysed by local vision model (Qwen3-VL)
