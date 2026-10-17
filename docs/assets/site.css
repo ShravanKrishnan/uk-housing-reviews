@@ -22,6 +22,8 @@
   --fav: #b98200;
   --fav-soft: #fff8e6;
   --fav-line: #e9cf8a;
+  /* Zoopla's brand purple, for the out-link badge only. */
+  --zoopla: #8046f4;
   --r-sm: 8px; --r: 12px; --r-lg: 16px;
   --shadow-sm: 0 1px 2px rgba(16, 24, 40, .06);
   --shadow: 0 1px 3px rgba(16, 24, 40, .10), 0 1px 2px rgba(16, 24, 40, .06);
@@ -367,6 +369,45 @@ img.plan { display: block; width: 100%; max-height: 300px; object-fit: contain;
 ul.ticks { margin: 6px 0 0; padding-left: 18px; font-size: 13.5px; }
 ul.ticks li { margin: 4px 0; }
 
+/* ---- price history: Zoopla's timeline as a vertical rail ---------------- */
+ul.timeline { list-style: none; margin: 6px 0 0; padding: 0; }
+.tl-item {
+  position: relative; display: grid; grid-template-columns: 92px minmax(0, 1fr) auto;
+  gap: 4px 14px; align-items: baseline; padding: 10px 0 10px 18px;
+}
+/* The rail runs down the left edge; it is trimmed at the first and last row so
+   it does not dangle past the timeline. A lone event shows no rail at all. */
+.tl-item::before {
+  content: ""; position: absolute; left: 4px; top: 0; bottom: 0;
+  width: 2px; background: var(--line);
+}
+.tl-item:first-child::before { top: 15px; }
+.tl-item:last-child::before { bottom: calc(100% - 23px); }
+.tl-item:only-child::before { display: none; }
+.tl-badge {
+  grid-column: 1; grid-row: 1; justify-self: start; white-space: nowrap;
+  padding: 2px 10px; border-radius: 999px; font-size: 12px; font-weight: 650;
+  border: 1px solid currentColor; color: var(--muted);
+  background: color-mix(in srgb, currentColor 13%, transparent);
+}
+.tl-reduced .tl-badge { color: var(--accent-ink); }
+.tl-increased .tl-badge { color: var(--danger); }
+.tl-sold .tl-badge { color: var(--link); }
+.tl-date { grid-column: 2; grid-row: 1; font-weight: 650; }
+.tl-price { grid-column: 3; grid-row: 1; text-align: right; font-weight: 700;
+            font-variant-numeric: tabular-nums; white-space: nowrap; }
+.tl-change { grid-column: 3; grid-row: 2; text-align: right; font-size: 12.5px;
+             font-variant-numeric: tabular-nums; white-space: nowrap; }
+.tl-change.down { color: var(--accent-ink); }
+.tl-change.up { color: var(--danger); }
+@media (max-width: 700px) {
+  .tl-item { grid-template-columns: minmax(0, 1fr) auto; }
+  .tl-badge { grid-column: 1; grid-row: 1; }
+  .tl-date { grid-column: 1; grid-row: 2; }
+  .tl-price { grid-column: 2; grid-row: 1; }
+  .tl-change { grid-column: 2; grid-row: 2; }
+}
+
 /* ---- score breakdown: summary + per-section sub-score cards ---------------
    The summary is the index; each card is one section's sub-breakdown. Bars are
    coloured by fill ratio (red→amber→green), so a section reads at a glance and
@@ -461,7 +502,9 @@ details.raw pre { background: var(--surface-2); border: 1px solid var(--line);
                   border-radius: var(--r-sm); padding: 12px; overflow: auto; }
 
 /* ---- detail score hero: a circular gauge beside the verdict --------------- */
-.score-hero { display: grid; grid-template-columns: 132px 1fr; gap: 20px;
+/* Three columns once the Zoopla badge is present (gauge, verdict, out-links);
+   the third collapses to zero width when a listing has no Zoopla URL. */
+.score-hero { display: grid; grid-template-columns: 132px 1fr auto; gap: 20px;
               align-items: center; margin-bottom: 4px; }
 @media (max-width: 620px) {
   .score-hero { grid-template-columns: 1fr; justify-items: start; gap: 12px; }
@@ -480,6 +523,31 @@ details.raw pre { background: var(--surface-2); border: 1px solid var(--line);
 .hero-meta .verdict { margin: 0 0 10px; }
 .hero-meta .badges { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
 .hero-meta .rankline { font-size: 13px; color: var(--muted); margin-top: 8px; }
+
+/* Zoopla's own out-links, grouped in one brand-purple badge at the top of the
+   review -- the advert the review is and the dwelling's price history, where a
+   reader goes next. The brand purple is the one place the site borrows a third
+   party's colour, so it is a token like every other accent. */
+.hero-links { align-self: start; justify-self: end; }
+.zoopla-badge {
+  display: inline-flex; flex-direction: column; gap: 7px; min-width: 196px;
+  padding: 12px 16px; border-radius: var(--r);
+  background: var(--zoopla); color: #fff; box-shadow: var(--shadow-sm);
+}
+.zoopla-word { font-size: 16px; font-weight: 800; letter-spacing: -0.02em;
+               line-height: 1; }
+.zoopla-links { display: flex; flex-direction: column; gap: 5px; }
+.zoopla-links a {
+  align-self: flex-start; color: #fff; font-size: 13px; font-weight: 600;
+  text-decoration: none; padding-bottom: 1px;
+  border-bottom: 1px solid rgba(255, 255, 255, .45);
+}
+.zoopla-links a:hover { border-bottom-color: #fff; }
+/* Stacked under the verdict on a phone, the badge aligns with everything else
+   rather than floating right. Declared after the base rule so it wins. */
+@media (max-width: 620px) {
+  .hero-links { justify-self: start; }
+}
 
 /* ---- map cluster (leaflet.markercluster) ---------------------------------- */
 .marker-cluster { border-radius: 50%;

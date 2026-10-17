@@ -4,19 +4,19 @@ Evaluated **13** properties against combined quality and technical indicators.
 
 | Rank | Address | Price | Size | £/sqft | EPC | Score | Strengths |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| 1 | **22 Courthouse Gardens** | £2,000,000 | 2,442.0 | £819 | C | **78.1** | Great Transport Links, Generous Space & Layout, Modern Systems, Beautifully Presented, Great Outdoor Space |
-| 2 | **Burlington Rise** | £1,175,000 | 2,088.0 | £563 | C | **76.0** | Generous Space & Layout, Modern Systems, Beautifully Presented, Great Outdoor Space |
-| 3 | **Well Grove** | £1,450,000 | 2,229.0 | £650 | B | **73.7** | Generous Space & Layout, Modern Systems, Great Outdoor Space |
-| 4 | **Belmont Avenue** | £1,250,000 | 2,175.0 | £575 | D | **65.3** | Modern Systems |
-| 5 | **Ainsworth Close** | £1,375,000 | 1,759.0 | £782 | B | **65.3** | Modern Systems, Great Outdoor Space |
-| 6 | **Gloucester Road** | £1,250,000 | 1,760.0 | £710 | D | **60.4** | Great Transport Links, Great Outdoor Space |
-| 7 | **15 Allandale Crescent** | £775,000 | 1,288.0 | £602 | C | **60.1** | Strong Value, Modern Systems |
-| 8 | **Meadway** | £750,000 | 1,271.0 | £590 | D | **57.4** | Strong Value, Great Outdoor Space |
-| 9 | **Maryrose Way** | £1,150,000 | 2,015.0 | £571 | E | **56.7** | Great Transport Links, Generous Space & Layout, Great Outdoor Space |
-| 10 | **Hadley Road** | £1,300,000 | 2,429.0 | £535 | D | **56.2** | Modern Systems |
-| 11 | **Park Road** | £1,300,000 | 2,471.0 | £526 | C | **53.2** | - |
-| 12 | **Manor Road** | £1,450,000 | 2,352.0 | £616 | C | **51.1** | Modern Systems |
-| 13 | **Rolfe Close** | £1,000,000 | 1,881.8 | £531 | D | **46.7** | Strong Value, Modern Systems |
+| 1 | **Burlington Rise** | £1,175,000 | 2,088.0 | £563 | C | **79.2** | Generous Space & Layout, Modern Systems, Beautifully Presented, Great Outdoor Space |
+| 2 | **22 Courthouse Gardens** | £2,000,000 | 2,442.0 | £819 | C | **78.1** | Great Transport Links, Generous Space & Layout, Modern Systems, Beautifully Presented, Great Outdoor Space |
+| 3 | **Well Grove** | £1,450,000 | 2,229.0 | £650 | B | **76.9** | Generous Space & Layout, Modern Systems, Beautifully Presented, Great Outdoor Space |
+| 4 | **Belmont Avenue** | £1,250,000 | 2,175.0 | £575 | D | **69.3** | Modern Systems, Beautifully Presented |
+| 5 | **Gloucester Road** | £1,250,000 | 1,760.0 | £710 | D | **65.7** | Great Transport Links, Beautifully Presented, Great Outdoor Space |
+| 6 | **Meadway** | £750,000 | 1,271.0 | £590 | D | **64.2** | Strong Value, Modern Systems, Great Outdoor Space |
+| 7 | **Ainsworth Close** | £1,375,000 | 1,759.0 | £782 | B | **63.8** | Modern Systems |
+| 8 | **15 Allandale Crescent** | £775,000 | 1,288.0 | £602 | C | **61.3** | Strong Value, Modern Systems, Beautifully Presented |
+| 9 | **Maryrose Way** | £1,150,000 | 2,015.0 | £571 | E | **57.7** | Great Transport Links, Generous Space & Layout |
+| 10 | **Park Road** | £1,300,000 | 2,471.0 | £526 | C | **57.5** | Beautifully Presented |
+| 11 | **Hadley Road** | £1,300,000 | 2,429.0 | £535 | D | **55.2** | Beautifully Presented |
+| 12 | **Manor Road** | £1,450,000 | 2,352.0 | £616 | C | **54.1** | Modern Systems |
+| 13 | **Rolfe Close** | £1,000,000 | 1,881.8 | £531 | D | **53.7** | Strong Value, Modern Systems |
 
 
 ---
@@ -71,7 +71,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [##################------]  76.0 / 100
+  Combined Property Score : [###################-----]  79.2 / 100
 ```
 
 | Section | Sub-part | Earned | Max |
@@ -94,22 +94,22 @@ Evaluated **13** properties against combined quality and technical indicators.
 |  | Roof glazing seen in photos: skylight | +5 | 5 |
 |  | EPC: pitched roof with accessible loft (pitched, 350 mm loft insulation) — scope for a simple loft extension (structural survey still required) | +2 | 4 |
 |  | Architectural glazing / roof lantern visible in photos (image analysis) | +3 | 3 |
-| **Observed presentation**<br>`14.8 / 18` | Presented finish observed as refurbished in listing photographs (image analysis) | +6.3 | 8 |
+| **Observed presentation**<br>`18.0 / 18` | Presented finish observed as showroom in listing photographs (image analysis) | +8 | 8 |
 |  | Kitchen finish rated high end in listing photographs (image analysis) | +4 | 4 |
 |  | Bathroom finish rated high end in listing photographs (image analysis) | +3 | 3 |
-|  | Exterior & garden rated standard in listing photographs (image analysis) | +1.5 | 3 |
+|  | Exterior & garden rated attractive in listing photographs (image analysis) | +3 | 3 |
 | **Garden & outdoor**<br>`8.5 / 12` | Outbuilding present | +2 | 2 |
 |  | Medium garden: 1,660 sq ft on plan | +3 | 4 |
-|  | Designed paved terrace — porcelain paving, rattan lounge seating, rattan dining table and chairs (image analysis) | +3.5 | 3.5 |
-| **Total** | **76.0 / 100** |  |  |
+|  | Designed paved terrace — natural stone paving, raised brick planters, rendered screen wall with metal artwork panels (image analysis) | +3.5 | 3.5 |
+| **Total** | **79.2 / 100** |  |  |
 
 **Photographic evidence reviewed for the score:**
 - 22 property photo(s) analysed by local vision model (Qwen3-VL)
-- Photographic-evidence score: 69.0/100 (high confidence; condition 30/35, kitchen/bath 20/20, glazing 13/20, structure 0/15, legibility 6/10)
+- Photographic-evidence score: 74.0/100 (medium confidence; condition 35/35, kitchen/bath 20/20, glazing 13/20, structure 0/15, legibility 6/10)
 - Floor-plan internal area read from the plan: 2,088 sq ft (scoring measure); printed total 2,340 sq ft includes outbuilding/garage space and is not scored
 - 10 room dimensions read from plan-image text (OCR)
-- Condition tier inferred from photos: refurbished
-- Not captured in the photos: boiler and heating system, cellar/basement, electrical wiring and consumer unit, floor plan and room dimensions, loft or attic space, plumbing and drainage (…)
+- Condition tier inferred from photos: showroom
+- Not captured in the photos: boiler and heating system, electric wiring and consumer unit, exposed structural steelwork, garage, garden orientation / sun aspect, loft space (…)
 
 ### Land Registry Transaction History
 
@@ -178,7 +178,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [###########-------------]  46.7 / 100
+  Combined Property Score : [#############-----------]  53.7 / 100
 ```
 
 | Section | Sub-part | Earned | Max |
@@ -199,19 +199,21 @@ Evaluated **13** properties against combined quality and technical indicators.
 | **Technical & EPC**<br>`15.5 / 20` | EPC Band D (4.5) + no secondary heating (1) + insulated roof (2) + double glazing (1) | +8.5 | 10 |
 |  | Roof glazing seen in photos: roof lantern | +5 | 5 |
 |  | EPC: pitched roof with accessible loft (pitched, 270 mm loft insulation) — scope for a simple loft extension (structural survey still required) | +2 | 4 |
-| **Observed presentation**<br>`6.0 / 18` | Kitchen finish rated mid in listing photographs (image analysis) | +2.5 | 4 |
+| **Observed presentation**<br>`11.0 / 18` | Presented finish observed as partially modernised in listing photographs (image analysis) | +3.5 | 8 |
+|  | Kitchen finish rated mid in listing photographs (image analysis) | +2.5 | 4 |
 |  | Bathroom finish rated mid in listing photographs (image analysis) | +2 | 3 |
-|  | Exterior & garden rated standard in listing photographs (image analysis) | +1.5 | 3 |
-| **Garden & outdoor**<br>`0.0 / 12` | Garden not dimensioned on the plan — size unscored |  |  |
-| **Total** | **46.7 / 100** |  |  |
+|  | Exterior & garden rated attractive in listing photographs (image analysis) | +3 | 3 |
+| **Garden & outdoor**<br>`2.0 / 12` | Garden not dimensioned on the plan — size unscored |  |  |
+|  | Paved terrace / entertaining space visible in photos (image analysis) | +2 | 2 |
+| **Total** | **53.7 / 100** |  |  |
 
 **Photographic evidence reviewed for the score:**
 - 17 property photo(s) analysed by local vision model (Qwen3-VL)
-- Photographic-evidence score: 39.7/100 (high confidence; condition 12/35, kitchen/bath 13/20, glazing 9/20, structure 0/15, legibility 5.7/10)
+- Photographic-evidence score: 49.7/100 (medium confidence; condition 22/35, kitchen/bath 13/20, glazing 9/20, structure 0/15, legibility 5.7/10)
 - Floor-plan internal area read from the plan: 1,882 sq ft (scoring measure); printed total 2,224 sq ft includes outbuilding/garage space and is not scored
 - 7 room dimensions read from plan-image text (OCR)
-- Condition tier inferred from photos: dated
-- Not captured in the photos: appliance brands, boiler/heating system and age, boundary ownership, electrical certification, floorplan dimensions and room layout, garden orientation/aspect (…)
+- Condition tier inferred from photos: partially modernised
+- Not captured in the photos: appliance brands, boiler and heating system, electrical and plumbing services, floor plan of remaining rooms, garage interior, garden orientation and aspect (…)
 - Advertised size does not match the floor-plan measure (2,566 vs 1,881.8 sq ft on plan) — the plan figure is used
 
 ### Land Registry Transaction History
@@ -223,7 +225,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ---
 
 ## Property Review: Belmont Avenue, Cockfosters EN4
-> **Strengths**: `Modern Systems`
+> **Strengths**: `Modern Systems` · `Beautifully Presented`
 
 ### Key Property Metrics
 
@@ -242,7 +244,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 | :--- | :--- | :--- |
 | **Air conditioning** | stated | Mentioned in the listing |
 | **Underfloor heating** | stated | Attested on the EPC certificate |
-| **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden north (not south) |
+| **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden west (not south) |
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
 | **Wide living room** | plan-verified | Largest living area is 14.5 ft (Lounge, floor-plan) — below the 15 ft mark |
@@ -278,7 +280,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [################--------]  65.3 / 100
+  Combined Property Score : [#################-------]  69.3 / 100
 ```
 
 | Section | Sub-part | Earned | Max |
@@ -301,21 +303,21 @@ Evaluated **13** properties against combined quality and technical indicators.
 |  | Air conditioning present | +5 | 5 |
 |  | Dormer / mansard roof extension visible (image analysis) | +3 | 3 |
 |  | _Sub-parts earn 21.5 in total — component capped at 20_ |  |  |
-| **Observed presentation**<br>`12.3 / 18` | Presented finish observed as refurbished in listing photographs (image analysis) | +6.3 | 8 |
-|  | Kitchen finish rated mid in listing photographs (image analysis) | +2.5 | 4 |
-|  | Bathroom finish rated mid in listing photographs (image analysis) | +2 | 3 |
-|  | Exterior & garden rated standard in listing photographs (image analysis) | +1.5 | 3 |
+| **Observed presentation**<br>`16.3 / 18` | Presented finish observed as refurbished in listing photographs (image analysis) | +6.3 | 8 |
+|  | Kitchen finish rated high end in listing photographs (image analysis) | +4 | 4 |
+|  | Bathroom finish rated high end in listing photographs (image analysis) | +3 | 3 |
+|  | Exterior & garden rated attractive in listing photographs (image analysis) | +3 | 3 |
 | **Garden & outdoor**<br>`6.5 / 12` | Medium garden: 1,454 sq ft on plan | +3 | 4 |
-|  | Designed paved terrace — natural stone crazy paving, brick paving, brick piers (image analysis) | +3.5 | 3.5 |
-| **Total** | **65.3 / 100** |  |  |
+|  | Designed paved terrace — natural stone flagstone paving, brick paving, brick piers (image analysis) | +3.5 | 3.5 |
+| **Total** | **69.3 / 100** |  |  |
 
 **Photographic evidence reviewed for the score:**
 - 32 property photo(s) analysed by local vision model (Qwen3-VL)
-- Photographic-evidence score: 57.0/100 (high confidence; condition 30/35, kitchen/bath 13/20, glazing 3/20, structure 5/15, legibility 6/10)
+- Photographic-evidence score: 64.0/100 (high confidence; condition 30/35, kitchen/bath 20/20, glazing 3/20, structure 5/15, legibility 6/10)
 - Floor-plan internal area read from the plan: 2,175 sq ft (scoring measure)
 - 18 room dimensions read from plan-image text (OCR)
 - Condition tier inferred from photos: refurbished
-- Not captured in the photos: boiler and heating system, boundaries, tenure and legal documentation, drainage and below-ground services, electrical wiring and consumer unit, extension structural evidence (no exposed steelwork visible), floor plan and true room dimensions (…)
+- Not captured in the photos: boiler, heating and electrics, garden orientation/aspect, ground-floor extension evidence (no rsj or glazed opening shown), roof structure and loft space, underfloor heating
 
 ### Land Registry Transaction History
 
@@ -326,7 +328,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ---
 
 ## Property Review: Park Road, New Barnet EN4
-> **Strengths**: _none — no section cleared its bar_
+> **Strengths**: `Beautifully Presented`
 
 > **⚠️ Missing Data** — review scored with incomplete source data:
 >
@@ -350,7 +352,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 | :--- | :--- | :--- |
 | **Air conditioning** | not-stated | Not mentioned; UK EPCs do not record domestic cooling |
 | **Underfloor heating** | not-stated | Not mentioned in the listing or EPC |
-| **South-facing garden** | not-stated | No aspect stated in the listing, floor-plan or photos |
+| **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden north-east (not south) |
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | plan-verified | Floorplan shows 1 bedroom on the ground floor (Bedroom 5) |
 | **Wide living room** | plan-verified | Largest living area is 12.6 ft (Living Room, floor-plan) — below the 15 ft mark |
@@ -384,7 +386,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [#############-----------]  53.2 / 100
+  Combined Property Score : [##############----------]  57.5 / 100
 ```
 
 | Section | Sub-part | Earned | Max |
@@ -406,21 +408,21 @@ Evaluated **13** properties against combined quality and technical indicators.
 |  | £1,300,000 asking price | +2.2 | 5 |
 | **Technical & EPC**<br>`12.0 / 20` | EPC Band C (7) + wall insulation (3) + insulated roof (2) + double glazing (1) | +10 | 10 |
 |  | EPC: pitched roof with accessible loft (pitched, 75 mm loft insulation) — scope for a simple loft extension (structural survey still required) | +2 | 4 |
-| **Observed presentation**<br>`9.5 / 18` | Presented finish observed as partially modernised in listing photographs (image analysis) | +3.5 | 8 |
-|  | Kitchen finish rated mid in listing photographs (image analysis) | +2.5 | 4 |
+| **Observed presentation**<br>`15.3 / 18` | Presented finish observed as refurbished in listing photographs (image analysis) | +6.3 | 8 |
+|  | Kitchen finish rated high end in listing photographs (image analysis) | +4 | 4 |
 |  | Bathroom finish rated mid in listing photographs (image analysis) | +2 | 3 |
-|  | Exterior & garden rated standard in listing photographs (image analysis) | +1.5 | 3 |
-| **Garden & outdoor**<br>`3.5 / 12` | Garden not dimensioned on the plan — size unscored |  |  |
-|  | Designed paved terrace — concrete slabs, brick paving/edging, brick retaining walls and steps (image analysis) | +3.5 | 3.5 |
-| **Total** | **53.2 / 100** |  |  |
+|  | Exterior & garden rated attractive in listing photographs (image analysis) | +3 | 3 |
+| **Garden & outdoor**<br>`2.0 / 12` | Garden not dimensioned on the plan — size unscored |  |  |
+|  | Paved terrace / entertaining space visible in photos (image analysis) | +2 | 2 |
+| **Total** | **57.5 / 100** |  |  |
 
 **Photographic evidence reviewed for the score:**
 - 29 property photo(s) analysed by local vision model (Qwen3-VL)
-- Photographic-evidence score: 44.0/100 (medium confidence; condition 22/35, kitchen/bath 13/20, glazing 3/20, structure 0/15, legibility 6/10)
+- Photographic-evidence score: 57.0/100 (high confidence; condition 30/35, kitchen/bath 18/20, glazing 3/20, structure 0/15, legibility 6/10)
 - Floor-plan internal area read from the plan: 2,471 sq ft (scoring measure)
 - 16 room dimensions read from plan-image text (OCR)
-- Condition tier inferred from photos: partially modernised
-- Not captured in the photos: boiler, heating type and age, electric security gates, electrical installation and consumer unit, epc rating, exact garden orientation/aspect, floor plan and room dimensions (…)
+- Condition tier inferred from photos: refurbished
+- Not captured in the photos: epc, extension evidence, garage interior, garden aspect/orientation, loft conversion structural evidence (roof windows seen in converted bedroom only, no dormer visible), roof condition (…)
 
 ### Land Registry Transaction History
 
@@ -431,7 +433,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ---
 
 ## Property Review: Maryrose Way, Oakleigh Park N20
-> **Strengths**: `Great Transport Links` · `Generous Space & Layout` · `Great Outdoor Space`
+> **Strengths**: `Great Transport Links` · `Generous Space & Layout`
 
 > **⚠️ Missing Data** — review scored with incomplete source data:
 >
@@ -455,7 +457,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 | :--- | :--- | :--- |
 | **Air conditioning** | not-stated | Not mentioned; UK EPCs do not record domestic cooling |
 | **Underfloor heating** | not-stated | Not mentioned in the listing or EPC |
-| **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden south (listing silent) |
+| **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden west (not south) |
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | plan-verified | Floorplan shows 1 bedroom on the ground floor (Bedroom) |
 | **Wide living room** | plan-verified | Sitting Room measures 17.7 ft at its widest (floor-plan) — clears the 15 ft mark |
@@ -483,7 +485,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [##############----------]  56.7 / 100
+  Combined Property Score : [##############----------]  57.7 / 100
 ```
 
 | Section | Sub-part | Earned | Max |
@@ -503,21 +505,21 @@ Evaluated **13** properties against combined quality and technical indicators.
 |  | £1,150,000 asking price | +2.4 | 5 |
 | **Technical & EPC**<br>`7.5 / 20` | EPC Band E (2.5) + insulated roof (2) + double glazing (1) | +5.5 | 10 |
 |  | EPC: pitched roof with accessible loft (pitched, insulated (assumed)) — scope for a simple loft extension (structural survey still required) | +2 | 4 |
-| **Observed presentation**<br>`4.5 / 18` | Kitchen finish rated basic in listing photographs (image analysis) | +1 | 4 |
+| **Observed presentation**<br>`9.5 / 18` | Presented finish observed as partially modernised in listing photographs (image analysis) | +3.5 | 8 |
+|  | Kitchen finish rated basic in listing photographs (image analysis) | +1 | 4 |
 |  | Bathroom finish rated mid in listing photographs (image analysis) | +2 | 3 |
-|  | Exterior & garden rated standard in listing photographs (image analysis) | +1.5 | 3 |
-| **Garden & outdoor**<br>`10.0 / 12` | South-facing garden confirmed | +4 | 4 |
-|  | Large garden: 3,401 sq ft on plan | +4 | 4 |
+|  | Exterior & garden rated attractive in listing photographs (image analysis) | +3 | 3 |
+| **Garden & outdoor**<br>`6.0 / 12` | Large garden: 3,401 sq ft on plan | +4 | 4 |
 |  | Paved terrace / entertaining space visible in photos (image analysis) | +2 | 2 |
-| **Total** | **56.7 / 100** |  |  |
+| **Total** | **57.7 / 100** |  |  |
 
 **Photographic evidence reviewed for the score:**
 - 21 property photo(s) analysed by local vision model (Qwen3-VL)
-- Photographic-evidence score: 29.0/100 (high confidence; condition 12/35, kitchen/bath 8/20, glazing 3/20, structure 0/15, legibility 6/10)
+- Photographic-evidence score: 39.0/100 (high confidence; condition 22/35, kitchen/bath 8/20, glazing 3/20, structure 0/15, legibility 6/10)
 - Floor-plan internal area read from the plan: 2,015 sq ft (scoring measure); printed total 2,514 sq ft includes outbuilding/garage space and is not scored
 - 9 room dimensions read from plan-image text (OCR)
-- Condition tier inferred from photos: dated
-- Not captured in the photos: appliance brands, boiler and heating system condition, damp, timber or structural condition, electrical and plumbing condition, epc, extension/structural alteration evidence (…)
+- Condition tier inferred from photos: partially modernised
+- Not captured in the photos: boiler/service records, electrics and plumbing age, extension evidence, floor plan/proportions, garage interior, loft/attic space (…)
 - Advertised size does not match the floor-plan measure (2,514 vs 2,015.0 sq ft on plan) — the plan figure is used
 
 ### Land Registry Transaction History
@@ -528,7 +530,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ---
 
 ## Property Review: Gloucester Road, Barnet EN5
-> **Strengths**: `Great Transport Links` · `Great Outdoor Space`
+> **Strengths**: `Great Transport Links` · `Beautifully Presented` · `Great Outdoor Space`
 
 > **⚠️ Missing Data** — review scored with incomplete source data:
 >
@@ -582,7 +584,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [##############----------]  60.4 / 100
+  Combined Property Score : [################--------]  65.7 / 100
 ```
 
 | Section | Sub-part | Earned | Max |
@@ -605,22 +607,22 @@ Evaluated **13** properties against combined quality and technical indicators.
 | **Technical & EPC**<br>`12.0 / 20` | EPC Band D (4.5) + wall insulation (3) + insulated roof (2) + double glazing (1) | +10 | 10 |
 |  | EPC assessed 31 July 2009: certificate expired — points scored as stated |  |  |
 |  | EPC: pitched roof with accessible loft (pitched, 300 mm loft insulation) — scope for a simple loft extension (structural survey still required) | +2 | 4 |
-| **Observed presentation**<br>`9.5 / 18` | Presented finish observed as partially modernised in listing photographs (image analysis) | +3.5 | 8 |
+| **Observed presentation**<br>`14.8 / 18` | Presented finish observed as refurbished in listing photographs (image analysis) | +6.3 | 8 |
 |  | Kitchen finish rated mid in listing photographs (image analysis) | +2.5 | 4 |
-|  | Bathroom finish rated mid in listing photographs (image analysis) | +2 | 3 |
-|  | Exterior & garden rated standard in listing photographs (image analysis) | +1.5 | 3 |
+|  | Bathroom finish rated high end in listing photographs (image analysis) | +3 | 3 |
+|  | Exterior & garden rated attractive in listing photographs (image analysis) | +3 | 3 |
 | **Garden & outdoor**<br>`8.0 / 12` | Outbuilding present | +2 | 2 |
 |  | Large garden: 2,421 sq ft on plan | +4 | 4 |
 |  | Paved terrace / entertaining space visible in photos (image analysis) | +2 | 2 |
-| **Total** | **60.4 / 100** |  |  |
+| **Total** | **65.7 / 100** |  |  |
 
 **Photographic evidence reviewed for the score:**
 - 25 property photo(s) analysed by local vision model (Qwen3-VL)
-- Photographic-evidence score: 44.0/100 (high confidence; condition 22/35, kitchen/bath 13/20, glazing 3/20, structure 0/15, legibility 6/10)
+- Photographic-evidence score: 54.0/100 (medium confidence; condition 30/35, kitchen/bath 15/20, glazing 3/20, structure 0/15, legibility 6/10)
 - Floor-plan internal area read from the plan: 1,760 sq ft (scoring measure)
 - 12 room dimensions read from plan-image text (OCR)
-- Condition tier inferred from photos: partially modernised
-- Not captured in the photos: boiler and heating system, boundary ownership and title plans, electrical wiring and consumer unit, epc rating, floor plan and room dimensions, garage (…)
+- Condition tier inferred from photos: refurbished
+- Not captured in the photos: boiler and heating system, electrical installation age, epc, floor plan, garage interior, garden orientation (…)
 
 ### Land Registry Transaction History
 
@@ -630,7 +632,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ---
 
 ## Property Review: Hadley Road, New Barnet, Hertfordshire EN5
-> **Strengths**: `Modern Systems`
+> **Strengths**: `Beautifully Presented`
 
 ### Key Property Metrics
 
@@ -650,7 +652,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 | **Air conditioning** | stated | Mentioned in the listing |
 | **Underfloor heating** | not-stated | Not mentioned in the listing or EPC |
 | **South-facing garden** | not-stated | No aspect stated in the listing, floor-plan or photos |
-| **Sun roof / lantern in living areas** | photo-hint | skylight over kitchen/dining area seen in a living-area photo (room unverified) |
+| **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
 | **Wide living room** | plan-verified | Largest living area is 11.9 ft (Dining Room, floor-plan) — below the 15 ft mark |
 | **Home theatre potential** | photo-hint | Living Room measures 15.4 x 10.3 ft (159 sq ft) on the floor plan, a separate room from the Living Room — room for a smaller screen or fewer seats; at that size it holds a 76-inch screen with the front row 6.3 ft from it, 1 recliner row of 5 across (11.9 ft of frontage, a modular sectional run), 5 seats |
@@ -682,7 +684,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [#############-----------]  56.2 / 100
+  Combined Property Score : [#############-----------]  55.2 / 100
 ```
 
 | Section | Sub-part | Earned | Max |
@@ -698,26 +700,25 @@ Evaluated **13** properties against combined quality and technical indicators.
 |  | Living room width: 11.9 ft (below 15 ft) |  |  |
 | **Financial efficiency**<br>`5.1 / 10` | £535 per sq ft on 2,429 sq ft | +2.9 | 5 |
 |  | £1,300,000 asking price | +2.2 | 5 |
-| **Technical & EPC**<br>`19.8 / 20` | EPC Band D (4.5) + no secondary heating (1) + insulated roof (2) + partial glazing (0.25) | +7.8 | 10 |
+| **Technical & EPC**<br>`14.8 / 20` | EPC Band D (4.5) + no secondary heating (1) + insulated roof (2) + partial glazing (0.25) | +7.8 | 10 |
 |  | EPC assessed 2016-05-26: certificate expired — points scored as stated |  |  |
 |  | Air conditioning present | +5 | 5 |
-|  | Roof glazing seen in photos: skylight over kitchen/dining area | +5 | 5 |
 |  | EPC: pitched roof with accessible loft (pitched, 100 mm loft insulation) — scope for a simple loft extension (structural survey still required) | +2 | 4 |
-| **Observed presentation**<br>`12.3 / 18` | Presented finish observed as refurbished in listing photographs (image analysis) | +6.3 | 8 |
-|  | Kitchen finish rated mid in listing photographs (image analysis) | +2.5 | 4 |
-|  | Bathroom finish rated mid in listing photographs (image analysis) | +2 | 3 |
-|  | Exterior & garden rated standard in listing photographs (image analysis) | +1.5 | 3 |
+| **Observed presentation**<br>`16.3 / 18` | Presented finish observed as refurbished in listing photographs (image analysis) | +6.3 | 8 |
+|  | Kitchen finish rated high end in listing photographs (image analysis) | +4 | 4 |
+|  | Bathroom finish rated high end in listing photographs (image analysis) | +3 | 3 |
+|  | Exterior & garden rated attractive in listing photographs (image analysis) | +3 | 3 |
 | **Garden & outdoor**<br>`3.5 / 12` | Garden not dimensioned on the plan — size unscored |  |  |
-|  | Designed paved terrace — dark paving (material not clearly legible), outdoor dining table and chairs, metal railings (image analysis) | +3.5 | 3.5 |
-| **Total** | **56.2 / 100** |  |  |
+|  | Designed paved terrace — grey paving slabs, brick retaining wall, raised terrace (image analysis) | +3.5 | 3.5 |
+| **Total** | **55.2 / 100** |  |  |
 
 **Photographic evidence reviewed for the score:**
 - 20 property photo(s) analysed by local vision model (Qwen3-VL)
-- Photographic-evidence score: 52.0/100 (medium confidence; condition 30/35, kitchen/bath 13/20, glazing 3/20, structure 0/15, legibility 6/10)
+- Photographic-evidence score: 59.0/100 (high confidence; condition 30/35, kitchen/bath 20/20, glazing 3/20, structure 0/15, legibility 6/10)
 - Floor-plan internal area read from the plan: 2,429 sq ft (scoring measure); printed total 2,611 sq ft includes outbuilding/garage space and is not scored
 - 15 room dimensions read from plan-image text (OCR)
 - Condition tier inferred from photos: refurbished
-- Not captured in the photos: appliance brand names, boiler, heating and hot water system, boundary ownership and dimensions, damp, timber or structural condition, electrics, wiring and consumer unit, epc and floorplan accuracy (…)
+- Not captured in the photos: garage interior, garden orientation/aspect, loft space, services and epc condition, structural/extension works evidence, underfloor heating
 
 ### Land Registry Transaction History
 
@@ -752,7 +753,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 | :--- | :--- | :--- |
 | **Air conditioning** | not-stated | Not mentioned; UK EPCs do not record domestic cooling |
 | **Underfloor heating** | stated | Attested on the EPC certificate |
-| **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden north (not south) |
+| **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden east (not south) |
 | **Sun roof / lantern in living areas** | not-stated | Not mentioned and no overhead glazing seen in photos |
 | **Ground-floor bedroom** | not-stated | No ground-floor bedroom or convertible room mentioned |
 | **Wide living room** | plan-verified | Reception Room measures 19.2 ft at its widest (floor-plan) — clears the 15 ft mark |
@@ -782,7 +783,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [############------------]  51.1 / 100
+  Combined Property Score : [#############-----------]  54.1 / 100
 ```
 
 | Section | Sub-part | Earned | Max |
@@ -801,21 +802,21 @@ Evaluated **13** properties against combined quality and technical indicators.
 | **Technical & EPC**<br>`17.0 / 20` | EPC Band C (7) + no secondary heating (1) + wall insulation (3) + insulated roof (2) + double glazing (1) | +10 | 10 |
 |  | Underfloor heating present | +5 | 5 |
 |  | EPC: pitched roof with accessible loft (pitched, 250 mm loft insulation) — scope for a simple loft extension (structural survey still required) | +2 | 4 |
-| **Observed presentation**<br>`9.5 / 18` | Presented finish observed as partially modernised in listing photographs (image analysis) | +3.5 | 8 |
-|  | Kitchen finish rated mid in listing photographs (image analysis) | +2.5 | 4 |
+| **Observed presentation**<br>`12.5 / 18` | Presented finish observed as partially modernised in listing photographs (image analysis) | +3.5 | 8 |
+|  | Kitchen finish rated high end in listing photographs (image analysis) | +4 | 4 |
 |  | Bathroom finish rated mid in listing photographs (image analysis) | +2 | 3 |
-|  | Exterior & garden rated standard in listing photographs (image analysis) | +1.5 | 3 |
+|  | Exterior & garden rated attractive in listing photographs (image analysis) | +3 | 3 |
 | **Garden & outdoor**<br>`6.0 / 12` | Large garden: 4,117 sq ft on plan | +4 | 4 |
 |  | Paved terrace / entertaining space visible in photos (image analysis) | +2 | 2 |
-| **Total** | **51.1 / 100** |  |  |
+| **Total** | **54.1 / 100** |  |  |
 
 **Photographic evidence reviewed for the score:**
 - 26 property photo(s) analysed by local vision model (Qwen3-VL)
-- Photographic-evidence score: 44.0/100 (high confidence; condition 22/35, kitchen/bath 13/20, glazing 3/20, structure 0/15, legibility 6/10)
+- Photographic-evidence score: 49.0/100 (medium confidence; condition 22/35, kitchen/bath 18/20, glazing 3/20, structure 0/15, legibility 6/10)
 - Floor-plan internal area read from the plan: 2,352 sq ft (scoring measure); printed total 2,471 sq ft includes outbuilding/garage space and is not scored
 - 12 room dimensions read from plan-image text (OCR)
 - Condition tier inferred from photos: partially modernised
-- Not captured in the photos: boiler and heating system, boundary ownership and side access, damp, timber or structural defects, electrical installation and consumer unit, extension structural evidence (no exposed steelwork shown), floor plan and room dimensions (…)
+- Not captured in the photos: appliance brand markings, boiler and services, loft/dormer conversion, office, overhead roof glazing in living areas, rear garden orientation (…)
 
 ### Land Registry Transaction History
 
@@ -826,7 +827,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ---
 
 ## Property Review: Ainsworth Close, Whetstone N20
-> **Strengths**: `Modern Systems` · `Great Outdoor Space`
+> **Strengths**: `Modern Systems`
 
 ### Key Property Metrics
 
@@ -874,7 +875,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [################--------]  65.3 / 100
+  Combined Property Score : [###############---------]  63.8 / 100
 ```
 
 | Section | Sub-part | Earned | Max |
@@ -902,9 +903,9 @@ Evaluated **13** properties against combined quality and technical indicators.
 |  | Kitchen finish rated mid in listing photographs (image analysis) | +2.5 | 4 |
 |  | Bathroom finish rated mid in listing photographs (image analysis) | +2 | 3 |
 |  | Exterior & garden rated standard in listing photographs (image analysis) | +1.5 | 3 |
-| **Garden & outdoor**<br>`8.0 / 12` | Medium garden: 1,568 sq ft on plan | +3 | 4 |
-|  | Outstanding paved terrace — porcelain paving, patterned ceramic tiles, pergola (image analysis) | +5 | 5 |
-| **Total** | **65.3 / 100** |  |  |
+| **Garden & outdoor**<br>`6.5 / 12` | Medium garden: 1,568 sq ft on plan | +3 | 4 |
+|  | Designed paved terrace — large-format porcelain paving, light stone-effect paving, timber pergola (image analysis) | +3.5 | 3.5 |
+| **Total** | **63.8 / 100** |  |  |
 
 **Photographic evidence reviewed for the score:**
 - 24 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -912,7 +913,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 - Floor-plan internal area read from the plan: 1,759 sq ft (scoring measure); printed total 1,982 sq ft includes outbuilding/garage space and is not scored
 - 11 room dimensions read from plan-image text (OCR)
 - Condition tier inferred from photos: refurbished
-- Not captured in the photos: boiler and heating system, boundary and tenure documentation, electrical wiring and consumer unit, epc rating, garage interior, garden orientation/aspect (…)
+- Not captured in the photos: appliance brand names, bathroom sanitaryware brand names, boiler/heating system, drainage and services, electrics and epc, garden orientation/aspect (…)
 
 ### Land Registry Transaction History
 
@@ -923,7 +924,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ---
 
 ## Property Review: Well Grove, Whetstone N20
-> **Strengths**: `Generous Space & Layout` · `Modern Systems` · `Great Outdoor Space`
+> **Strengths**: `Generous Space & Layout` · `Modern Systems` · `Beautifully Presented` · `Great Outdoor Space`
 
 ### Key Property Metrics
 
@@ -943,7 +944,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 | **Air conditioning** | not-stated | Not mentioned; UK EPCs do not record domestic cooling |
 | **Underfloor heating** | stated | Attested on the EPC certificate |
 | **South-facing garden** | plan-verified | Floor-plan north arrow puts the garden north (not south) |
-| **Sun roof / lantern in living areas** | photo-hint | glass conservatory roof seen in a living-area photo (room unverified) |
+| **Sun roof / lantern in living areas** | photo-hint | Glazing seen in photos (room unverified) |
 | **Ground-floor bedroom** | plan-verified | Floorplan shows 1 bedroom on the ground floor (Bedroom) |
 | **Wide living room** | plan-verified | Sitting Room measures 25.4 ft at its widest (floor-plan) — clears the 15 ft mark |
 | **Home theatre potential** | photo-hint | Study measures 15.3 x 11.6 ft (177 sq ft) on the floor plan, a separate room from the Sitting Room — room for a smaller screen or fewer seats; at that size it holds a 91-inch screen with the front row 7.6 ft from it, 1 recliner row of 5 across (11.8 ft of frontage, a modular sectional run), 5 seats |
@@ -972,7 +973,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [##################------]  73.7 / 100
+  Combined Property Score : [##################------]  76.9 / 100
 ```
 
 | Section | Sub-part | Earned | Max |
@@ -992,26 +993,25 @@ Evaluated **13** properties against combined quality and technical indicators.
 |  | £1,450,000 asking price | +2 | 5 |
 | **Technical & EPC**<br>`20.0 / 20` | EPC Band B (9) + no secondary heating (1) + zone control (1.5) + insulated roof (2) + insulated floor (2) + high-performance glazing (1.75) | +10 | 10 |
 |  | Underfloor heating present | +5 | 5 |
-|  | Roof glazing seen in photos: glass conservatory roof | +5 | 5 |
-|  | Dormer / mansard roof extension visible (image analysis) | +3 | 3 |
+|  | EPC: room-in-roof conversion recorded (average thermal transmittance 0.12 w/m²k) | +4 | 4 |
 |  | Architectural glazing / roof lantern visible in photos (image analysis) | +3 | 3 |
-|  | _Sub-parts earn 26 in total — component capped at 20_ |  |  |
-| **Observed presentation**<br>`13.3 / 18` | Presented finish observed as refurbished in listing photographs (image analysis) | +6.3 | 8 |
-|  | Kitchen finish rated mid in listing photographs (image analysis) | +2.5 | 4 |
+|  | _Sub-parts earn 22 in total — component capped at 20_ |  |  |
+| **Observed presentation**<br>`18.0 / 18` | Presented finish observed as showroom in listing photographs (image analysis) | +8 | 8 |
+|  | Kitchen finish rated high end in listing photographs (image analysis) | +4 | 4 |
 |  | Bathroom finish rated high end in listing photographs (image analysis) | +3 | 3 |
-|  | Exterior & garden rated standard in listing photographs (image analysis) | +1.5 | 3 |
-| **Garden & outdoor**<br>`9.5 / 12` | Outbuilding present | +2 | 2 |
+|  | Exterior & garden rated attractive in listing photographs (image analysis) | +3 | 3 |
+| **Garden & outdoor**<br>`8.0 / 12` | Outbuilding present | +2 | 2 |
 |  | Large garden: 3,178 sq ft on plan | +4 | 4 |
-|  | Designed paved terrace — timber decking, timber railings, steps (image analysis) | +3.5 | 3.5 |
-| **Total** | **73.7 / 100** |  |  |
+|  | Paved terrace / entertaining space visible in photos (image analysis) | +2 | 2 |
+| **Total** | **76.9 / 100** |  |  |
 
 **Photographic evidence reviewed for the score:**
 - 21 property photo(s) analysed by local vision model (Qwen3-VL)
-- Photographic-evidence score: 69.0/100 (high confidence; condition 30/35, kitchen/bath 15/20, glazing 13/20, structure 5/15, legibility 6/10)
+- Photographic-evidence score: 80.0/100 (high confidence; condition 35/35, kitchen/bath 20/20, glazing 19/20, structure 0/15, legibility 6/10)
 - Floor-plan internal area read from the plan: 2,229 sq ft (scoring measure); printed total 3,099 sq ft includes outbuilding/garage space and is not scored
 - 11 room dimensions read from plan-image text (OCR)
-- Condition tier inferred from photos: refurbished
-- Not captured in the photos: boiler/heating system, boundary ownership and title matters, damp/structural condition, electrical installation and consumer unit, floor areas and room dimensions, garage (…)
+- Condition tier inferred from photos: showroom
+- Not captured in the photos: boiler/heating system, damp/structural condition, electrics, garden orientation, outbuilding interior, roof condition
 - Advertised size does not match the floor-plan measure (3,099 vs 2,229.0 sq ft on plan) — the plan figure is used
 
 ### Land Registry Transaction History
@@ -1023,7 +1023,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ---
 
 ## Property Review: Meadway, Barnet EN5
-> **Strengths**: `Strong Value` · `Great Outdoor Space`
+> **Strengths**: `Strong Value` · `Modern Systems` · `Great Outdoor Space`
 
 > **⚠️ Missing Data** — review scored with incomplete source data:
 >
@@ -1048,7 +1048,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 | **Air conditioning** | not-stated | Not mentioned; UK EPCs do not record domestic cooling |
 | **Underfloor heating** | not-stated | Not mentioned in the listing or EPC |
 | **South-facing garden** | plan-verified | Listing says south-east-facing; the floor-plan north arrow agrees |
-| **Sun roof / lantern in living areas** | photo-hint | skylight above the kitchen/dining area (conservatory also has full glazed roof panels) seen in a living-area photo (room unverified) |
+| **Sun roof / lantern in living areas** | photo-hint | glazed conservatory roof seen in a living-area photo (room unverified) |
 | **Ground-floor bedroom** | stated | Bungalow — every bedroom is on the ground floor |
 | **Wide living room** | plan-verified | Largest living area is 13.3 ft (Reception Room, floor-plan) — below the 15 ft mark |
 | **Home theatre potential** | not-stated | No cinema or media room mentioned, and no other room on the plan is large enough to be one |
@@ -1074,7 +1074,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [##############----------]  57.4 / 100
+  Combined Property Score : [###############---------]  64.2 / 100
 ```
 
 | Section | Sub-part | Earned | Max |
@@ -1092,25 +1092,26 @@ Evaluated **13** properties against combined quality and technical indicators.
 |  | Living room width: 13.3 ft (below 15 ft) |  |  |
 | **Financial efficiency**<br>`5.9 / 10` | £590 per sq ft on 1,271 sq ft | +2.7 | 5 |
 |  | £750,000 asking price | +3.2 | 5 |
-| **Technical & EPC**<br>`13.5 / 20` | EPC Band D (4.5) + no secondary heating (1) + double glazing (1) | +6.5 | 10 |
-|  | Roof glazing seen in photos: skylight above the kitchen/dining area (conservatory also has full glazed roof panels) | +5 | 5 |
+| **Technical & EPC**<br>`17.5 / 20` | EPC Band D (4.5) + no secondary heating (1) + double glazing (1) | +6.5 | 10 |
+|  | Roof glazing seen in photos: glazed conservatory roof | +5 | 5 |
 |  | EPC: pitched roof with accessible loft (pitched, no insulation) — scope for a simple loft extension (structural survey still required) | +2 | 4 |
-| **Observed presentation**<br>`9.5 / 18` | Presented finish observed as partially modernised in listing photographs (image analysis) | +3.5 | 8 |
+|  | Visible structural steelwork (RSJ) in open-plan space (image analysis) | +4 | 4 |
+| **Observed presentation**<br>`13.8 / 18` | Presented finish observed as refurbished in listing photographs (image analysis) | +6.3 | 8 |
 |  | Kitchen finish rated mid in listing photographs (image analysis) | +2.5 | 4 |
 |  | Bathroom finish rated mid in listing photographs (image analysis) | +2 | 3 |
-|  | Exterior & garden rated standard in listing photographs (image analysis) | +1.5 | 3 |
-| **Garden & outdoor**<br>`11.5 / 12` | South-facing garden confirmed | +4 | 4 |
+|  | Exterior & garden rated attractive in listing photographs (image analysis) | +3 | 3 |
+| **Garden & outdoor**<br>`10.0 / 12` | South-facing garden confirmed | +4 | 4 |
 |  | Large garden: 2,605 sq ft on plan | +4 | 4 |
-|  | Designed paved terrace — concrete slabs, timber decking, railed garden lamp post (image analysis) | +3.5 | 3.5 |
-| **Total** | **57.4 / 100** |  |  |
+|  | Paved terrace / entertaining space visible in photos (image analysis) | +2 | 2 |
+| **Total** | **64.2 / 100** |  |  |
 
 **Photographic evidence reviewed for the score:**
 - 35 property photo(s) analysed by local vision model (Qwen3-VL)
-- Photographic-evidence score: 45.0/100 (high confidence; condition 22/35, kitchen/bath 13/20, glazing 3/20, structure 0/15, legibility 7/10)
+- Photographic-evidence score: 64.0/100 (high confidence; condition 30/35, kitchen/bath 13/20, glazing 3/20, structure 12/15, legibility 6/10)
 - Floor-plan total read from the plan: 1,271 sq ft
 - 9 room dimensions read from plan-image text (OCR)
-- Condition tier inferred from photos: partially modernised
-- Not captured in the photos: electrical, heating and boiler age/service history, epc data, extension / structural alteration evidence (no exposed steel or plans), floor plan and room dimensions, garden orientation (south-facing claim), loft conversion or building-regulations documentation (…)
+- Condition tier inferred from photos: refurbished
+- Not captured in the photos: any en-suite or additional bathroom beyond those photographed, damp, timber or structural defects, electrical, heating and drainage services condition, garden depth measurement, loft insulation and eaves storage, property orientation (south-facing claim) (…)
 
 ### Land Registry Transaction History
 
@@ -1141,7 +1142,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 | **Air conditioning** | not-stated | Not mentioned; UK EPCs do not record domestic cooling |
 | **Underfloor heating** | stated | Attested on the EPC certificate |
 | **South-facing garden** | not-stated | No aspect stated in the listing, floor-plan or photos |
-| **Sun roof / lantern in living areas** | photo-hint | skylight (three flat roof windows over the open-plan living/kitchen area) seen in a living-area photo (room unverified) |
+| **Sun roof / lantern in living areas** | photo-hint | flat rooflights over kitchen/living area seen in a living-area photo (room unverified) |
 | **Second ground-floor sitting room** | plan-verified | No ground-floor bedroom, but the plan shows a second sitting room — Lounge, 15.9 x 12.9 ft — which serves the same downstairs space |
 | **Wide living room** | plan-verified | Reception Room measures 24.7 ft at its widest (floor-plan) — clears the 15 ft mark |
 | **Home theatre potential** | photo-hint | Lounge measures 15.9 x 12.9 ft (205 sq ft) on the floor plan, a separate room from the Reception Room — room for a smaller screen or fewer seats; at that size it holds a 107-inch screen with the front row 8.9 ft from it, 1 recliner row of 5 across (12.4 ft of frontage, a modular sectional run), 5 seats |
@@ -1195,7 +1196,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 |  | £2,000,000 asking price | +1.3 | 5 |
 | **Technical & EPC**<br>`20.0 / 20` | EPC Band C (7) + no secondary heating (1) + zone control (1.5) + wall insulation (3) + insulated roof (2) + double glazing (1) | +10 | 10 |
 |  | Underfloor heating present | +5 | 5 |
-|  | Roof glazing seen in photos: skylight (three flat roof windows over the open-plan living/kitchen area) | +5 | 5 |
+|  | Roof glazing seen in photos: flat rooflights over kitchen/living area | +5 | 5 |
 |  | Dormer / mansard roof extension visible (image analysis) | +3 | 3 |
 |  | Architectural glazing / roof lantern visible in photos (image analysis) | +3 | 3 |
 |  | _Sub-parts earn 26 in total — component capped at 20_ |  |  |
@@ -1204,7 +1205,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 |  | Bathroom finish rated high end in listing photographs (image analysis) | +3 | 3 |
 |  | Exterior & garden rated attractive in listing photographs (image analysis) | +3 | 3 |
 | **Garden & outdoor**<br>`7.5 / 12` | Large garden: at least 2,430 sq ft (98 ft deep x the house's 25 ft width floor) | +4 | 4 |
-|  | Designed paved terrace — large-format paving slabs, raised rendered planters, steps up to lawn (image analysis) | +3.5 | 3.5 |
+|  | Designed paved terrace — large-format paving slabs, steps to lawn, raised rendered planters (image analysis) | +3.5 | 3.5 |
 | **Total** | **78.1 / 100** |  |  |
 
 **Photographic evidence reviewed for the score:**
@@ -1213,7 +1214,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 - Floor-plan total read from the plan: 2,442 sq ft
 - 10 room dimensions read from plan-image text (OCR)
 - Condition tier inferred from photos: showroom
-- Not captured in the photos: driveway/parking, electrical and services certification, floor plan and room dimensions, front elevation and frontage, garden orientation/aspect, heating system and boiler (…)
+- Not captured in the photos: boiler/services, driveway/parking, front elevation, garage, roof covering condition, storage/loft space
 
 ### Land Registry Transaction History
 
@@ -1223,7 +1224,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ---
 
 ## Property Review: 15 Allandale Crescent, Potters Bar EN6 2JY
-> **Strengths**: `Strong Value` · `Modern Systems`
+> **Strengths**: `Strong Value` · `Modern Systems` · `Beautifully Presented`
 
 > **⚠️ Missing Data** — review scored with incomplete source data:
 >
@@ -1270,7 +1271,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [##############----------]  60.1 / 100
+  Combined Property Score : [###############---------]  61.3 / 100
 ```
 
 | Section | Sub-part | Earned | Max |
@@ -1290,21 +1291,21 @@ Evaluated **13** properties against combined quality and technical indicators.
 |  | £775,000 asking price | +3.2 | 5 |
 | **Technical & EPC**<br>`15.0 / 20` | EPC Band C (7) + no secondary heating (1) + insulated roof (2) + insulated floor (2) + double glazing (1) | +10 | 10 |
 |  | Roof glazing seen in photos: roof lantern | +5 | 5 |
-| **Observed presentation**<br>`13.8 / 18` | Presented finish observed as refurbished in listing photographs (image analysis) | +6.3 | 8 |
+| **Observed presentation**<br>`16.5 / 18` | Presented finish observed as showroom in listing photographs (image analysis) | +8 | 8 |
 |  | Kitchen finish rated high end in listing photographs (image analysis) | +4 | 4 |
-|  | Bathroom finish rated mid in listing photographs (image analysis) | +2 | 3 |
+|  | Bathroom finish rated high end in listing photographs (image analysis) | +3 | 3 |
 |  | Exterior & garden rated standard in listing photographs (image analysis) | +1.5 | 3 |
-| **Garden & outdoor**<br>`6.5 / 12` | Medium garden: at least 1,125 sq ft (90 ft deep x the house's 12 ft width floor) | +3 | 4 |
-|  | Designed paved terrace — stone paving slabs, timber decking, outdoor dining set (image analysis) | +3.5 | 3.5 |
-| **Total** | **60.1 / 100** |  |  |
+| **Garden & outdoor**<br>`5.0 / 12` | Medium garden: at least 1,125 sq ft (90 ft deep x the house's 12 ft width floor) | +3 | 4 |
+|  | Paved terrace / entertaining space visible in photos (image analysis) | +2 | 2 |
+| **Total** | **61.3 / 100** |  |  |
 
 **Photographic evidence reviewed for the score:**
 - 19 property photo(s) analysed by local vision model (Qwen3-VL)
-- Photographic-evidence score: 62.9/100 (high confidence; condition 30/35, kitchen/bath 18/20, glazing 9/20, structure 0/15, legibility 5.9/10)
+- Photographic-evidence score: 69.9/100 (medium confidence; condition 35/35, kitchen/bath 20/20, glazing 9/20, structure 0/15, legibility 5.9/10)
 - Floor-plan total read from the plan: 1,288 sq ft
 - 5 room dimensions read from plan-image text (OCR)
-- Condition tier inferred from photos: refurbished
-- Not captured in the photos: appliance brands, boiler/heating system, electrical and plumbing services, epc or legal/tenure documents, garden orientation, loft space
+- Condition tier inferred from photos: showroom
+- Not captured in the photos: boiler and heating system, electrical installation, epc, floor plan, garden orientation, loft (…)
 
 ### Land Registry Transaction History
 
