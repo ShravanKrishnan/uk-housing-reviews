@@ -208,6 +208,9 @@ ul.plist a.row {
   font-size: 12px; font-weight: 700;
   display: inline-flex; align-items: center; justify-content: center;
 }
+/* `contain`, like the gallery frame: the sheet never crops a photograph. */
+.plist .thumb { flex: 0 0 auto; width: 62px; height: 46px; object-fit: contain;
+  border-radius: 7px; border: 1px solid var(--line); background: var(--surface-2); }
 .plist .addr { font-weight: 650; font-size: 15.5px; flex: 1 1 0; min-width: 0;
                letter-spacing: -0.01em; }
 /* Each meta line takes a row of its own rather than sharing one. */
@@ -593,6 +596,7 @@ details.raw pre { background: var(--surface-2); border: 1px solid var(--line);
 
   /* The score takes its own line above the address at this width. */
   .plist .scores { flex: 1 1 100%; order: -1; margin-bottom: 2px; }
+  .plist .thumb { width: 48px; height: 36px; }
   .plist .addr { font-size: 15px; }
 
   /* Sub-score cards: drop the mini bar on a phone so the label and the
