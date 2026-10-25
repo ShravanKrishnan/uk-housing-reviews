@@ -269,29 +269,26 @@ ul.plist a.row {
 .reduced { font-style: normal; font-weight: 650; color: var(--danger); }
 
 /* ---- index toolbar: tabs left, filters right ---- */
-/* Two tiers: search and sort rest on one line; the numeric bars live behind
-   one disclosure, so the toolbar never becomes a run of eight equal controls.
-   The counts and units live on the chips, not on the labels. */
+/* Two tiers: search and sort rest on one line; the numeric bars open from one
+   button as a full-width band beneath it. A popover anchored to that button hung
+   over the list's own heading, and the chips rode along the action line. */
+.toolbar > .tabs { flex: 1 1 100%; }
 .filters { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-left: auto; }
-.filters .prop-search { flex: 1 1 260px; }
+.filters .prop-search { flex: 1 1 260px; max-width: 420px; }
 .filters-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
-.filters-panel { position: relative; }
-.filters-panel > summary {
-  list-style: none; cursor: pointer; user-select: none;
-  display: inline-flex; align-items: center; gap: 4px;
+.filter-toggle {
+  display: inline-flex; align-items: center; gap: 4px; cursor: pointer;
   padding: 8px 12px; border: 1px solid var(--line); border-radius: 10px;
-  background: var(--panel); color: var(--ink); font-size: 13px; font-weight: 600;
-  box-shadow: var(--shadow-sm);
+  background: var(--panel); color: var(--ink); font: inherit; font-size: 13px;
+  font-weight: 600; box-shadow: var(--shadow-sm);
 }
-.filters-panel > summary::-webkit-details-marker { display: none; }
-.filters-panel[open] > summary { border-color: var(--accent); color: var(--accent); }
+.filter-toggle:hover { border-color: var(--line-strong); }
 .filter-count { color: var(--accent); font-weight: 700; }
 .filter-fields {
-  position: absolute; right: 0; top: calc(100% + 8px); z-index: 40;
+  margin-top: 12px; padding: 16px;
   display: grid; grid-template-columns: repeat(3, minmax(168px, 1fr)); gap: 14px 18px;
-  padding: 16px; min-width: min(660px, 92vw);
   background: var(--panel); border: 1px solid var(--line-strong);
-  border-radius: var(--r); box-shadow: var(--shadow-md);
+  border-radius: var(--r); box-shadow: var(--shadow-sm);
 }
 /* Label above, control below, so every field lines up and no label floats
    between two pills. */
@@ -310,7 +307,7 @@ ul.plist a.row {
   border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
 .filters-clear { background: none; border: 0; padding: 6px 2px; cursor: pointer;
   font: inherit; font-size: 12.5px; color: var(--accent); text-decoration: underline; }
-.chips-active { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 0; }
+.chips-active { flex: 1 1 100%; display: flex; flex-wrap: wrap; gap: 8px; margin-top: 2px; }
 .chip-active { display: inline-flex; align-items: center; gap: 6px; cursor: pointer;
   font: inherit; font-size: 12px; font-weight: 600; color: var(--ink);
   padding: 5px 9px; border-radius: 999px; border: 1px solid var(--line-strong);
@@ -651,8 +648,7 @@ details.raw pre { background: var(--surface-2); border: 1px solid var(--line);
 
   /* The score takes its own line above the address at this width. */
   .plist .scores { flex: 1 1 100%; order: -1; margin-bottom: 2px; }
-  .filter-fields { position: static; grid-template-columns: repeat(2, 1fr);
-    min-width: 0; margin-top: 8px; box-shadow: none; }
+  .filter-fields { grid-template-columns: repeat(2, 1fr); }
   ul.plist a.row { grid-template-columns: 1fr; }
   .plist .row-media { border-right: 0; border-bottom: 1px solid var(--line);
     border-radius: var(--r) var(--r) 0 0; }
