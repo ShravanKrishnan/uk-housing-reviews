@@ -272,8 +272,11 @@ ul.plist a.row {
 /* Two tiers: search and sort rest on one line; the numeric bars open from one
    button as a full-width band beneath it. A popover anchored to that button hung
    over the list's own heading, and the chips rode along the action line. */
-.toolbar > .tabs { flex: 1 1 100%; }
-.filters { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-left: auto; }
+/* The filters take their own line so the tab pill group stays compact — the
+   `.tabs` element carries the grey pill background, so forcing *it* to 100%
+   turned the tabs into a full-width bar. */
+.filters { display: flex; flex-wrap: wrap; align-items: center; gap: 10px;
+  flex: 1 1 100%; margin-left: 0; }
 .filters .prop-search { flex: 1 1 260px; max-width: 420px; }
 .filters-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
 .filter-toggle {
