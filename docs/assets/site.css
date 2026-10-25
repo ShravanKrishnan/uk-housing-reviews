@@ -285,7 +285,7 @@ ul.plist a.row {
 .filter-toggle:hover { border-color: var(--line-strong); }
 .filter-count { color: var(--accent); font-weight: 700; }
 .filter-fields {
-  margin-top: 12px; padding: 16px;
+  flex: 1 1 100%; margin-top: 12px; padding: 16px;
   display: grid; grid-template-columns: repeat(3, minmax(168px, 1fr)); gap: 14px 18px;
   background: var(--panel); border: 1px solid var(--line-strong);
   border-radius: var(--r); box-shadow: var(--shadow-sm);
