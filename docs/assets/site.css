@@ -185,7 +185,8 @@ h3 { font-size: 12.5px; font-weight: 650; margin: 26px 0 10px; color: var(--mute
 /* An off-market listing. Deliberately neutral: it should read as a caveat
    on the row, not compete with the strength badges beside it. */
 .badge.archived { color: var(--muted); background: var(--surface-2); font-weight: 600; }
-.swatch-gradient { background: linear-gradient(90deg, #a8322d, #c2760a, #1a7f5a); }
+/* The same five stops as _PIN_STOPS, so the legend cannot drift from the pins. */
+.swatch-gradient { background: linear-gradient(90deg, #e11d48, #f97316, #eab308, #65a30d, #15803d); }
 
 /* ---- property list (cards) ---- */
 ul.plist { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 10px; }
@@ -608,13 +609,15 @@ details.raw pre { background: var(--surface-2); border: 1px solid var(--line);
 }
 
 /* ---- map cluster (leaflet.markercluster) ---------------------------------- */
+/* Clusters are deliberately *off* the score ramp: they count listings, not
+   score them. They used the accent teal, which read as a green score pin. */
 .marker-cluster { border-radius: 50%;
-                  background: color-mix(in srgb, var(--accent) 22%, transparent); }
+                  background: color-mix(in srgb, var(--ink) 18%, transparent); }
 .marker-cluster div {
   width: 100%; height: 100%; border-radius: 50%; display: flex;
   align-items: center; justify-content: center;
-  background: color-mix(in srgb, var(--accent) 55%, var(--panel));
-  border: 2px solid var(--panel); color: var(--ink);
+  background: color-mix(in srgb, var(--ink) 74%, var(--panel));
+  border: 2px solid var(--panel); color: var(--panel);
   font-weight: 700; font-size: 12px; font-variant-numeric: tabular-nums;
   box-shadow: var(--shadow-sm);
 }
