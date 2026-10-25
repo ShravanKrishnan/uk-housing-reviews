@@ -8,10 +8,10 @@ Evaluated **13** properties against combined quality and technical indicators.
 | 2 | **22 Courthouse Gardens** | £2,000,000 | 2,442.0 | £819 | C | **78.1** | Great Transport Links, Generous Space & Layout, Modern Systems, Beautifully Presented, Great Outdoor Space |
 | 3 | **Well Grove** | £1,450,000 | 2,229.0 | £650 | B | **76.9** | Generous Space & Layout, Modern Systems, Beautifully Presented, Great Outdoor Space |
 | 4 | **Belmont Avenue** | £1,250,000 | 2,175.0 | £575 | D | **69.3** | Modern Systems, Beautifully Presented |
-| 5 | **Gloucester Road** | £1,250,000 | 1,760.0 | £710 | D | **65.7** | Great Transport Links, Beautifully Presented, Great Outdoor Space |
-| 6 | **Meadway** | £750,000 | 1,271.0 | £590 | D | **64.2** | Strong Value, Modern Systems, Great Outdoor Space |
-| 7 | **Ainsworth Close** | £1,375,000 | 1,759.0 | £782 | B | **63.8** | Modern Systems |
-| 8 | **15 Allandale Crescent** | £775,000 | 1,288.0 | £602 | C | **61.3** | Strong Value, Modern Systems, Beautifully Presented |
+| 5 | **Gloucester Road** | £1,250,000 | 1,760.0 | £710 | D | **65.2** | Great Transport Links, Beautifully Presented, Great Outdoor Space |
+| 6 | **Ainsworth Close** | £1,375,000 | 1,759.0 | £782 | B | **63.8** | Modern Systems |
+| 7 | **Meadway** | £750,000 | 1,271.0 | £590 | D | **61.2** | Strong Value, Modern Systems, Great Outdoor Space |
+| 8 | **15 Allandale Crescent** | £775,000 | 1,288.0 | £602 | C | **60.3** | Strong Value, Modern Systems, Beautifully Presented |
 | 9 | **Maryrose Way** | £1,150,000 | 2,015.0 | £571 | E | **57.7** | Great Transport Links, Generous Space & Layout |
 | 10 | **Park Road** | £1,300,000 | 2,471.0 | £526 | C | **57.5** | Beautifully Presented |
 | 11 | **Hadley Road** | £1,300,000 | 2,429.0 | £535 | D | **55.2** | Beautifully Presented |
@@ -584,7 +584,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [################--------]  65.7 / 100
+  Combined Property Score : [################--------]  65.2 / 100
 ```
 
 | Section | Sub-part | Earned | Max |
@@ -595,9 +595,9 @@ Evaluated **13** properties against combined quality and technical indicators.
 |  | Night Tube / 24h service at High Barnet | +1.5 | 1.5 |
 |  | Good Liverpool St commute: ~43 mins door-to-concourse via New Barnet (13m walk + 26m rail) | +2 | 3 |
 |  | King's Cross St Pancras commute ~32 mins via New Barnet | +2 | 2 |
-| **Space, scale & layout**<br>`12.5 / 20` | Square footage taken from floor plan (image analysis) |  |  |
+| **Space, scale & layout**<br>`12.0 / 20` | Square footage taken from floor plan (image analysis) |  |  |
 |  | Standard room sizing: 1,760.0 sq ft total (440 sq ft/bed) | +4 | 7 |
-|  | Under-bathroomed (1 bath for 4 beds - morning bottlenecks likely) | +0.5 | 3 |
+|  | Single bathroom for 4 bedrooms - no bathroom provision points | +0 | 3 |
 |  | Two or more reception rooms (2) | +1 | 1 |
 |  | Ground floor guest WC present | +1 | 1 |
 |  | Wide living room: Living Room 16.7 ft (floorplan) | +3 | 3 |
@@ -614,7 +614,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 | **Garden & outdoor**<br>`8.0 / 12` | Outbuilding present | +2 | 2 |
 |  | Large garden: 2,421 sq ft on plan | +4 | 4 |
 |  | Paved terrace / entertaining space visible in photos (image analysis) | +2 | 2 |
-| **Total** | **65.7 / 100** |  |  |
+| **Total** | **65.2 / 100** |  |  |
 
 **Photographic evidence reviewed for the score:**
 - 25 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -794,7 +794,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 |  | King's Cross St Pancras commute ~49 mins via High Barnet | +1 | 2 |
 | **Space, scale & layout**<br>`10.0 / 20` | Square footage taken from floor plan (image analysis) |  |  |
 |  | Generous proportions: 2,352.0 sq ft total (470 sq ft/bed) | +5.5 | 7 |
-|  | Under-bathroomed (2 bath for 5 beds - morning bottlenecks likely) | +0.5 | 3 |
+|  | Under-bathroomed (2 baths for 5 beds - morning bottlenecks likely) | +0.5 | 3 |
 |  | Two or more reception rooms (4) | +1 | 1 |
 |  | Wide living room: Reception Room 19.2 ft (floorplan) | +3 | 3 |
 | **Financial efficiency**<br>`4.6 / 10` | £616 per sq ft on 2,352 sq ft | +2.6 | 5 |
@@ -1074,7 +1074,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [###############---------]  64.2 / 100
+  Combined Property Score : [###############---------]  61.2 / 100
 ```
 
 | Section | Sub-part | Earned | Max |
@@ -1085,9 +1085,9 @@ Evaluated **13** properties against combined quality and technical indicators.
 |  | Night Tube / 24h service at High Barnet | +1.5 | 1.5 |
 |  | Moderate Liverpool St commute: ~50 mins door-to-concourse via High Barnet (10m walk + 36m rail) | +1.5 | 3 |
 |  | King's Cross St Pancras commute ~40 mins via New Barnet | +2 | 2 |
-| **Space, scale & layout**<br>`5.5 / 20` | Square footage taken from floor plan (image analysis) |  |  |
-|  | Standard room sizing: 1,271.0 sq ft total (424 sq ft/bed) | +4 | 7 |
-|  | Under-bathroomed (1 bath for 3 beds - morning bottlenecks likely) | +0.5 | 3 |
+| **Space, scale & layout**<br>`2.5 / 20` | Square footage taken from floor plan (image analysis) |  |  |
+|  | Standard room sizing: 1,271.0 sq ft total (424 sq ft/bed) - under 1,700 sq ft the size award is capped | +1.5 | 7 |
+|  | Single bathroom for 3 bedrooms - no bathroom provision points | +0 | 3 |
 |  | Ground floor guest WC present | +1 | 1 |
 |  | Living room width: 13.3 ft (below 15 ft) |  |  |
 | **Financial efficiency**<br>`5.9 / 10` | £590 per sq ft on 1,271 sq ft | +2.7 | 5 |
@@ -1103,7 +1103,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 | **Garden & outdoor**<br>`10.0 / 12` | South-facing garden confirmed | +4 | 4 |
 |  | Large garden: 2,605 sq ft on plan | +4 | 4 |
 |  | Paved terrace / entertaining space visible in photos (image analysis) | +2 | 2 |
-| **Total** | **64.2 / 100** |  |  |
+| **Total** | **61.2 / 100** |  |  |
 
 **Photographic evidence reviewed for the score:**
 - 35 property photo(s) analysed by local vision model (Qwen3-VL)
@@ -1271,7 +1271,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 ### Score Breakdown
 
 ```text
-  Combined Property Score : [###############---------]  61.3 / 100
+  Combined Property Score : [##############----------]  60.3 / 100
 ```
 
 | Section | Sub-part | Earned | Max |
@@ -1281,8 +1281,8 @@ Evaluated **13** properties against combined quality and technical indicators.
 |  | 1 transit line within walk — Great Northern via Potters Bar 11 min walk — broad Central London access | +1 | 2.5 |
 |  | Good Liverpool St commute: ~43 mins door-to-concourse via Potters Bar (11m walk + 28m rail) | +2 | 3 |
 |  | King's Cross St Pancras commute ~33 mins via Potters Bar | +2 | 2 |
-| **Space, scale & layout**<br>`8.5 / 20` | Square footage taken from floor plan (image analysis) |  |  |
-|  | Compact floorplate: 1,288.0 sq ft total (322 sq ft/bed) | +2.5 | 7 |
+| **Space, scale & layout**<br>`7.5 / 20` | Square footage taken from floor plan (image analysis) |  |  |
+|  | Compact floorplate: 1,288.0 sq ft total (322 sq ft/bed) - under 1,700 sq ft the size award is capped | +1.5 | 7 |
 |  | Well balanced bathroom ratio (2 baths for 4 beds) | +2 | 3 |
 |  | Two or more reception rooms (2) | +1 | 1 |
 |  | Living room width: 12.5 ft (below 15 ft) |  |  |
@@ -1297,7 +1297,7 @@ Evaluated **13** properties against combined quality and technical indicators.
 |  | Exterior & garden rated standard in listing photographs (image analysis) | +1.5 | 3 |
 | **Garden & outdoor**<br>`5.0 / 12` | Medium garden: at least 1,125 sq ft (90 ft deep x the house's 12 ft width floor) | +3 | 4 |
 |  | Paved terrace / entertaining space visible in photos (image analysis) | +2 | 2 |
-| **Total** | **61.3 / 100** |  |  |
+| **Total** | **60.3 / 100** |  |  |
 
 **Photographic evidence reviewed for the score:**
 - 19 property photo(s) analysed by local vision model (Qwen3-VL)
