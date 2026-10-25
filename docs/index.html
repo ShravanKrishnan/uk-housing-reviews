@@ -29,7 +29,7 @@
 
 <div class="wrap" id="main" x-data="portfolio()">
   <div id="map" role="application" aria-label="Map of reviewed properties"></div>
-  <div class="legend"><span><i class="swatch swatch-gradient"></i>Pin colour = total score (red→amber→green)</span></div><div class="toolbar" hidden><div class="tabs" role="tablist"><button type="button" role="tab" class="tab" data-tab="fav" x-on:click="selectTab('fav')" x-bind:aria-selected="tab === 'fav'">Favourites (13)</button><button type="button" role="tab" class="tab" data-tab="all" x-on:click="selectTab('all')" x-bind:aria-selected="tab === 'all'">All properties (236)</button></div><div class="filters"><input type="search" class="prop-search" x-model="query" placeholder="Search street, area or postcode" aria-label="Search properties by street, area or postcode"><label class="ctl fav-ctl"><input type="checkbox" x-model="favsOnly" aria-label="Show only properties you saved">&#9733; Saved only</label><label class="ctl">Sort<select x-model="sort" aria-label="Sort the list"><option value="score">Score (best first)</option><option value="newest">Newest listed</option><option value="price-asc">Price (low to high)</option><option value="price-desc">Price (high to low)</option><option value="size">Size (largest first)</option><option value="psf">Best &pound; per sq ft</option></select></label><label class="ctl">Score<input type="number" x-model="minScore" min="0" max="100" step="1" inputmode="numeric" placeholder="min" aria-label="Minimum score"><span>&ndash;</span><input type="number" x-model="maxScore" min="0" max="100" step="1" inputmode="numeric" placeholder="max" aria-label="Maximum score"></label><label class="ctl">Size sq ft<input type="number" x-model="minSqft" min="0" step="50" inputmode="numeric" placeholder="min" aria-label="Minimum size in square feet"><span>&ndash;</span><input type="number" x-model="maxSqft" min="0" step="50" inputmode="numeric" placeholder="max" aria-label="Maximum size in square feet"></label><label class="ctl">Baths<input type="number" x-model="minBaths" min="0" step="1" inputmode="numeric" placeholder="min" aria-label="Minimum number of bathrooms"></label><label class="ctl">Garden sq ft<input type="number" x-model="minGarden" min="0" step="50" inputmode="numeric" placeholder="min" aria-label="Minimum garden size in square feet"></label><label class="ctl">Price &pound;<input type="number" class="price-input" x-model="minPrice" min="0" step="1000" inputmode="numeric" placeholder="min" aria-label="Minimum price in pounds"><span>&ndash;</span><input type="number" class="price-input" x-model="maxPrice" min="0" step="1000" inputmode="numeric" placeholder="max" aria-label="Maximum price in pounds"></label><label class="ctl">Listed<select x-model="listedWithin" aria-label="Only listings Zoopla published within"><option value="0">Any time</option><option value="7">Last 7 days</option><option value="30">Last 30 days</option><option value="90">Last 90 days</option><option value="180">Last 6 months</option><option value="365">Last 12 months</option></select></label></div></div>
+  <div class="legend"><span><i class="swatch swatch-gradient"></i>Pin colour = total score (red→amber→green)</span></div><div class="toolbar" hidden><div class="tabs" role="tablist"><button type="button" role="tab" class="tab" data-tab="fav" x-on:click="selectTab('fav')" x-bind:aria-selected="tab === 'fav'">Favourites (13)</button><button type="button" role="tab" class="tab" data-tab="all" x-on:click="selectTab('all')" x-bind:aria-selected="tab === 'all'">All properties (236)</button></div><div class="filters"><input type="search" class="prop-search" x-model="query" placeholder="Search street, area or postcode" aria-label="Search properties by street, area or postcode"><div class="filters-actions"><label class="ctl fav-ctl"><input type="checkbox" x-model="favsOnly" aria-label="Show only properties you saved">&#9733; Saved only</label><label class="ctl">Sort<select x-model="sort" aria-label="Sort the list"><option value="score">Score (best first)</option><option value="newest">Newest listed</option><option value="price-asc">Price (low to high)</option><option value="price-desc">Price (high to low)</option><option value="size">Size (largest first)</option><option value="psf">Best &pound; per sq ft</option></select></label><details class="filters-panel" @click.outside="$el.open = false"><summary class="filter-toggle" aria-label="Show filters">Filters<span class="filter-count" x-show="activeFilters().length" x-text="' ' + activeFilters().length"></span></summary><div class="filter-fields"><label class="field">Score<span class="pair"><input type="number" x-model="minScore" min="0" step="50" inputmode="numeric" placeholder="min" aria-label="Minimum score"><span>&ndash;</span><input type="number" x-model="maxScore" min="0" step="50" inputmode="numeric" placeholder="max" aria-label="Maximum score"></span></label><label class="field">Size (sq ft)<span class="pair"><input type="number" x-model="minSqft" min="0" step="50" inputmode="numeric" placeholder="min" aria-label="Minimum size in square feet"><span>&ndash;</span><input type="number" x-model="maxSqft" min="0" step="50" inputmode="numeric" placeholder="max" aria-label="Maximum size in square feet"></span></label><label class="field">Baths<span class="pair"><input type="number" x-model="minBaths" min="0" step="1" inputmode="numeric" placeholder="min" aria-label="Minimum number of bathrooms"></span></label><label class="field">Garden (sq ft)<span class="pair"><input type="number" x-model="minGarden" min="0" step="50" inputmode="numeric" placeholder="min" aria-label="Minimum garden size in square feet"></span></label><label class="field">Price (&pound;)<span class="pair"><input type="number" class="price-input" x-model="minPrice" min="0" step="1000" inputmode="numeric" placeholder="min" aria-label="Minimum price in pounds"><span>&ndash;</span><input type="number" class="price-input" x-model="maxPrice" min="0" step="1000" inputmode="numeric" placeholder="max" aria-label="Maximum price in pounds"></span></label><label class="field">Listed<select x-model="listedWithin" aria-label="Only listings Zoopla published within"><option value="0">Any time</option><option value="7">Last 7 days</option><option value="30">Last 30 days</option><option value="90">Last 90 days</option><option value="180">Last 6 months</option><option value="365">Last 12 months</option></select></label></div></details><button type="button" class="filters-clear" x-show="activeFilters().length" @click="clearFilters()">Clear all</button></div></div><div class="chips-active" x-show="activeFilters().length"><template x-for="f in activeFilters()" :key="f.key"><button type="button" class="chip-active" @click="clearFilter(f.key)"><span x-text="f.label"></span><span class="chip-x" aria-hidden="true">&#10005;</span></button></template></div></div>
 
   <div class="panel" style="margin-top:22px">
     <h2>Ranked portfolio</h2>
@@ -292,6 +292,70 @@ function portfolio() {
         if (cutoff && (!f.listed || f.listed < cutoff)) { return false; }
         return true;
       });
+    },
+
+    // What is actually narrowing the list, as removable chips. Reading the state
+    // means the bar can never claim to be unfiltered while a bar is applied.
+    activeFilters() {
+      var self = this;
+      var out = [];
+      var numeric = [
+        ['minScore', 'Score ≥ '], ['maxScore', 'Score ≤ '],
+        ['minSqft', 'Size ≥ '], ['maxSqft', 'Size ≤ ']
+      ];
+      numeric.forEach(function (pair) {
+        var v = self[pair[0]];
+        if (v !== '' && v !== null && v !== undefined) {
+          var unit = pair[0].indexOf('Sqft') >= 0 ? ' sq ft' : '';
+          out.push({ key: pair[0], label: pair[1] + v + unit });
+        }
+      });
+      if (this.minBaths !== '' && this.minBaths !== null) {
+        out.push({ key: 'minBaths', label: 'Baths ≥ ' + this.minBaths });
+      }
+      if (this.minGarden !== '' && this.minGarden !== null) {
+        out.push({ key: 'minGarden', label: 'Garden ≥ ' + this.minGarden + ' sq ft' });
+      }
+      ['minPrice', 'maxPrice'].forEach(function (key) {
+        var v = self[key];
+        if (v !== '' && v !== null && v !== undefined && !isNaN(parseFloat(v))) {
+          out.push({ key: key, label: (key === 'minPrice' ? 'Price ≥ £' : 'Price ≤ £')
+            + Number(v).toLocaleString('en-GB') });
+        }
+      });
+      if (this.listedWithin && this.listedWithin !== '0') {
+        out.push({ key: 'listedWithin', label: 'Listed in ' + this.listedWithin + ' days' });
+      }
+      (this.tags[this.tab] || []).forEach(function (tag) {
+        out.push({ key: 'tag:' + tag, label: tag });
+      });
+      if (this.favsOnly) { out.push({ key: 'favsOnly', label: 'Saved only' }); }
+      var q = (this.query || '').trim();
+      if (q) { out.push({ key: 'query', label: '“' + q + '”' }); }
+      return out;
+    },
+
+    clearFilter(key) {
+      if (key === 'favsOnly') { this.favsOnly = false; }
+      else if (key === 'query') { this.query = ''; }
+      else if (key.indexOf('tag:') === 0) {
+        var tag = key.slice(4);
+        this.tags[this.tab] = (this.tags[this.tab] || []).filter(function (t) { return t !== tag; });
+      } else if (key === 'listedWithin') { this.listedWithin = '0'; }
+      else { this[key] = ''; }
+      this.page[this.tab] = 1;
+      this.apply();
+    },
+
+    clearFilters() {
+      var self = this;
+      ['minScore', 'maxScore', 'minSqft', 'maxSqft', 'minBaths', 'minGarden',
+       'minPrice', 'maxPrice', 'query'].forEach(function (k) { self[k] = ''; });
+      this.listedWithin = '0';
+      this.favsOnly = false;
+      this.tags[this.tab] = [];
+      this.page[this.tab] = 1;
+      this.apply();
     },
 
     sortRows(list) {
