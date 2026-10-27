@@ -56,6 +56,10 @@
   --shadow-md: 0 10px 28px -14px rgba(0, 0, 0, .8);
 }
 * { box-sizing: border-box; }
+/* Cross-fade between the plain multi-page navigations (index <-> detail,
+   prev/next) with no client-side router. Browsers without view transitions
+   ignore the at-rule and navigate exactly as before. */
+@view-transition { navigation: auto; }
 /* Alpine removes this the moment it takes over. Without JS it stays, which is
    what keeps the toolbar and chips invisible rather than inert. */
 [x-cloak] { display: none !important; }
@@ -123,6 +127,10 @@ nav.crumbs a { text-decoration: none; }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
+  /* `*` does not match view-transition pseudo-elements, so name them. */
+  ::view-transition-group(*), ::view-transition-old(*), ::view-transition-new(*) {
+    animation: none !important;
+  }
 }
 
 /* ---- map ---- */
