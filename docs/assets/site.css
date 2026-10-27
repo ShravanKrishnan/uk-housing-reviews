@@ -215,11 +215,16 @@ ul.plist a.row {
   background: var(--surface-2); border-right: 1px solid var(--line);
   border-radius: var(--r) 0 0 var(--r);
 }
-.plist .row-photo { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: contain; }
+/* The width/height attributes reserve layout space before the sheet loads, but
+   `height` on an <img> is also a presentational hint: without `height: auto` it
+   wins over `aspect-ratio` and letterboxes the 3:2 photo inside a 430px-tall
+   media panel. `auto` lets the attribute-set intrinsic ratio (and the aspect
+   ratio) size it, so the panel stays as tall as the photo. */
+.plist .row-photo { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: contain; }
 /* No photo: keep the panel's shape rather than collapsing the card. */
 .plist .row-photo-empty { height: 100%; min-height: 120px; }
 .plist .row-body {
-  display: flex; flex-wrap: wrap; align-items: baseline;
+  display: flex; flex-wrap: wrap; align-items: baseline; align-content: flex-start;
   column-gap: 12px; padding: 14px 16px;
 }
 .rank {
