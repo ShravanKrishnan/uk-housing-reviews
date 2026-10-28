@@ -21,6 +21,9 @@
       "station_distance_miles": 0.1,
       "walk_time_minutes": 2,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Oakleigh Park"
+      ],
       "latitude": 51.63752,
       "longitude": -0.164131,
       "date_published": "2026-09-30T10:26:32",
@@ -873,6 +876,9 @@
       "station_distance_miles": 0.79,
       "walk_time_minutes": 16,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "High Barnet"
+      ],
       "latitude": 51.646021,
       "longitude": -0.205244,
       "date_published": "2026-09-29T23:50:39",
@@ -1909,6 +1915,9 @@
       "station_distance_miles": 0.56,
       "walk_time_minutes": 12,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park"
+      ],
       "latitude": 51.617454,
       "longitude": -0.192548,
       "date_published": "2026-09-29T14:28:30",
@@ -2918,6 +2927,9 @@
       "station_distance_miles": 0.67,
       "walk_time_minutes": 14,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "High Barnet"
+      ],
       "latitude": 51.654812,
       "longitude": -0.188013,
       "date_published": "2026-05-15T09:02:13",
@@ -3714,6 +3726,9 @@
       "station_distance_miles": 0.35,
       "walk_time_minutes": 7,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "High Barnet"
+      ],
       "latitude": 51.649124,
       "longitude": -0.197479,
       "date_published": "2026-09-28T16:16:15",
@@ -4680,6 +4695,7 @@
       "station_distance_miles": 1.16,
       "walk_time_minutes": 24,
       "station_distance_source": "routed",
+      "walkable_stations": [],
       "latitude": 51.640399,
       "longitude": -0.185367,
       "date_published": "2026-09-25T15:59:29",
@@ -5469,6 +5485,9 @@
       "station_distance_miles": 0.74,
       "walk_time_minutes": 15,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "High Barnet"
+      ],
       "latitude": 51.645229,
       "longitude": -0.187556,
       "date_published": "2026-09-25T13:52:37",
@@ -6348,6 +6367,10 @@
       "station_distance_miles": 0.62,
       "walk_time_minutes": 13,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park",
+        "Totteridge & Whetstone"
+      ],
       "latitude": 51.62405,
       "longitude": -0.181076,
       "date_published": "2026-09-25T12:55:05",
@@ -7263,6 +7286,9 @@
       "station_distance_miles": 0.52,
       "walk_time_minutes": 11,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "High Barnet"
+      ],
       "latitude": 51.652382,
       "longitude": -0.190039,
       "date_published": "2026-09-25T07:58:14",
@@ -8133,6 +8159,9 @@
       "station_distance_miles": 0.78,
       "walk_time_minutes": 16,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "High Barnet"
+      ],
       "latitude": 51.652217,
       "longitude": -0.208552,
       "date_published": "2026-06-09T18:19:28",
@@ -9035,6 +9064,9 @@
       "station_distance_miles": 0.37,
       "walk_time_minutes": 8,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Oakleigh Park"
+      ],
       "latitude": 51.633177,
       "longitude": -0.163377,
       "date_published": "2023-11-20T16:33:44",
@@ -9644,6 +9676,9 @@
       "station_distance_miles": 0.67,
       "walk_time_minutes": 14,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "High Barnet"
+      ],
       "latitude": 51.654817,
       "longitude": -0.187993,
       "date_published": "2026-09-23T05:29:46",
@@ -10400,6 +10435,9 @@
       "station_distance_miles": 0.67,
       "walk_time_minutes": 14,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "High Barnet"
+      ],
       "latitude": 51.652409,
       "longitude": -0.186802,
       "date_published": "2026-09-22T17:00:04",
@@ -11295,6 +11333,9 @@
       "station_distance_miles": 0.32,
       "walk_time_minutes": 7,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Oakleigh Park"
+      ],
       "latitude": 51.637775,
       "longitude": -0.161331,
       "date_published": "2026-09-19T12:49:49",
@@ -11937,6 +11978,9 @@
       "station_distance_miles": 0.74,
       "walk_time_minutes": 15,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park"
+      ],
       "latitude": 51.621157,
       "longitude": -0.173575,
       "date_published": "2026-09-18T13:31:35",
@@ -13050,6 +13094,7 @@
       "station_distance_miles": 0.83,
       "walk_time_minutes": 17,
       "station_distance_source": "routed",
+      "walkable_stations": [],
       "latitude": 51.64122,
       "longitude": -0.187142,
       "date_published": "2026-09-18T13:30:08",
@@ -14023,6 +14068,9 @@
       "station_distance_miles": 0.36,
       "walk_time_minutes": 8,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Barnet"
+      ],
       "latitude": 51.648525,
       "longitude": -0.178285,
       "date_published": "2026-09-17T10:10:55",
@@ -14574,6 +14622,7 @@
       "station_distance_miles": 0.94,
       "walk_time_minutes": 19,
       "station_distance_source": "routed",
+      "walkable_stations": [],
       "latitude": 51.628671,
       "longitude": -0.161168,
       "date_published": "2026-09-16T08:38:41",
@@ -15382,6 +15431,9 @@
       "station_distance_miles": 0.66,
       "walk_time_minutes": 14,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park"
+      ],
       "latitude": 51.62471,
       "longitude": -0.186451,
       "date_published": "2026-09-14T10:02:41",
@@ -16327,6 +16379,9 @@
       "station_distance_miles": 0.74,
       "walk_time_minutes": 15,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "High Barnet"
+      ],
       "latitude": 51.643871,
       "longitude": -0.185552,
       "date_published": "2026-09-11T12:49:08",
@@ -17163,6 +17218,9 @@
       "station_distance_miles": 0.43,
       "walk_time_minutes": 9,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Barnet"
+      ],
       "latitude": 51.653151,
       "longitude": -0.176528,
       "date_published": "2024-07-30T12:17:17",
@@ -18782,6 +18840,9 @@
       "station_distance_miles": 0.58,
       "walk_time_minutes": 12,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Oakleigh Park"
+      ],
       "latitude": 51.630259,
       "longitude": -0.162822,
       "date_published": "2024-09-20T14:58:55",
@@ -19943,6 +20004,9 @@
       "station_distance_miles": 0.23,
       "walk_time_minutes": 5,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Oakleigh Park"
+      ],
       "latitude": 51.638573,
       "longitude": -0.162606,
       "date_published": "2026-05-15T14:19:12",
@@ -20740,6 +20804,9 @@
       "station_distance_miles": 0.52,
       "walk_time_minutes": 11,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park"
+      ],
       "latitude": 51.623473,
       "longitude": -0.184291,
       "date_published": "2026-07-29T09:53:28",
@@ -21433,6 +21500,9 @@
       "station_distance_miles": 1.1,
       "walk_time_minutes": 22,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Barnet"
+      ],
       "latitude": 51.648769,
       "longitude": -0.160016,
       "date_published": "2025-03-13T10:18:50",
@@ -22034,6 +22104,9 @@
       "station_distance_miles": 0.64,
       "walk_time_minutes": 13,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "High Barnet"
+      ],
       "latitude": 51.645275,
       "longitude": -0.185002,
       "date_published": "2025-04-28T12:30:48",
@@ -22699,6 +22772,9 @@
       "station_distance_miles": 0.68,
       "walk_time_minutes": 14,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Barnet"
+      ],
       "latitude": 51.650665,
       "longitude": -0.183242,
       "date_published": "2025-06-24T15:03:37",
@@ -23520,6 +23596,7 @@
       "station_distance_miles": 0.95,
       "walk_time_minutes": 19,
       "station_distance_source": "routed",
+      "walkable_stations": [],
       "latitude": 51.656282,
       "longitude": -0.182966,
       "date_published": "2025-06-25T13:07:29",
@@ -24490,6 +24567,9 @@
       "station_distance_miles": 0.61,
       "walk_time_minutes": 13,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "High Barnet"
+      ],
       "latitude": 51.647615,
       "longitude": -0.202849,
       "date_published": "2025-09-11T06:25:42",
@@ -25387,6 +25467,9 @@
       "station_distance_miles": 0.49,
       "walk_time_minutes": 10,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Barnet"
+      ],
       "latitude": 51.650411,
       "longitude": -0.163241,
       "date_published": "2025-09-11T15:17:30",
@@ -25977,6 +26060,7 @@
       "station_distance_miles": 0.94,
       "walk_time_minutes": 19,
       "station_distance_source": "routed",
+      "walkable_stations": [],
       "latitude": 51.655527,
       "longitude": -0.182975,
       "date_published": "2026-05-18T14:21:21",
@@ -27061,6 +27145,9 @@
       "station_distance_miles": 0.54,
       "walk_time_minutes": 11,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "High Barnet"
+      ],
       "latitude": 51.645097,
       "longitude": -0.189688,
       "date_published": "2025-10-04T14:12:26",
@@ -27826,6 +27913,9 @@
       "station_distance_miles": 0.3,
       "walk_time_minutes": 6,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Oakleigh Park"
+      ],
       "latitude": 51.634903,
       "longitude": -0.16875,
       "date_published": "2025-10-09T15:16:52",
@@ -28354,6 +28444,10 @@
       "station_distance_miles": 0.5,
       "walk_time_minutes": 10,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Oakleigh Park",
+        "New Barnet"
+      ],
       "latitude": 51.643481,
       "longitude": -0.167749,
       "date_published": "2026-08-06T09:58:39",
@@ -28976,6 +29070,9 @@
       "station_distance_miles": 0.76,
       "walk_time_minutes": 16,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Oakleigh Park"
+      ],
       "latitude": 51.644688,
       "longitude": -0.158555,
       "date_published": "2025-11-28T11:04:40",
@@ -29931,6 +30028,10 @@
       "station_distance_miles": 0.66,
       "walk_time_minutes": 14,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Oakleigh Park",
+        "New Barnet"
+      ],
       "latitude": 51.6431,
       "longitude": -0.176029,
       "date_published": "2026-07-21T15:02:01",
@@ -30695,6 +30796,9 @@
       "station_distance_miles": 0.66,
       "walk_time_minutes": 14,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Oakleigh Park"
+      ],
       "latitude": 51.640483,
       "longitude": -0.177143,
       "date_published": "2026-01-06T17:01:15",
@@ -31395,6 +31499,10 @@
       "station_distance_miles": 0.35,
       "walk_time_minutes": 7,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Oakleigh Park",
+        "New Barnet"
+      ],
       "latitude": 51.641305,
       "longitude": -0.165919,
       "date_published": "2025-08-25T21:11:15",
@@ -32735,6 +32843,9 @@
       "station_distance_miles": 0.43,
       "walk_time_minutes": 9,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Barnet"
+      ],
       "latitude": 51.6505,
       "longitude": -0.165167,
       "date_published": "2026-01-24T10:06:19",
@@ -34329,6 +34440,7 @@
       "station_distance_miles": 0.83,
       "walk_time_minutes": 17,
       "station_distance_source": "routed",
+      "walkable_stations": [],
       "latitude": 51.639444,
       "longitude": -0.179625,
       "date_published": "2026-01-27T11:05:04",
@@ -34968,6 +35080,9 @@
       "station_distance_miles": 0.64,
       "walk_time_minutes": 13,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Barnet"
+      ],
       "latitude": 51.649846,
       "longitude": -0.161244,
       "date_published": "2026-01-27T12:38:33",
@@ -35562,6 +35677,9 @@
       "station_distance_miles": 0.31,
       "walk_time_minutes": 7,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Oakleigh Park"
+      ],
       "latitude": 51.636554,
       "longitude": -0.160945,
       "date_published": "2026-02-10T17:49:51",
@@ -36592,6 +36710,9 @@
       "station_distance_miles": 0.47,
       "walk_time_minutes": 10,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Oakleigh Park"
+      ],
       "latitude": 51.641064,
       "longitude": -0.164112,
       "date_published": "2026-02-23T09:41:53",
@@ -37108,6 +37229,9 @@
       "station_distance_miles": 0.92,
       "walk_time_minutes": 19,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "High Barnet"
+      ],
       "latitude": 51.643466,
       "longitude": -0.183974,
       "date_published": "2026-03-04T12:10:34",
@@ -37768,6 +37892,9 @@
       "station_distance_miles": 0.18,
       "walk_time_minutes": 4,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Oakleigh Park"
+      ],
       "latitude": 51.635185,
       "longitude": -0.166799,
       "date_published": "2026-03-06T10:29:24",
@@ -38496,6 +38623,9 @@
       "station_distance_miles": 0.57,
       "walk_time_minutes": 12,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park"
+      ],
       "latitude": 51.622882,
       "longitude": -0.191662,
       "date_published": "2026-03-19T12:02:35",
@@ -39199,6 +39329,9 @@
       "station_distance_miles": 0.78,
       "walk_time_minutes": 16,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park"
+      ],
       "latitude": 51.621315,
       "longitude": -0.172856,
       "date_published": "2026-03-20T10:59:28",
@@ -40230,6 +40363,9 @@
       "station_distance_miles": 0.5,
       "walk_time_minutes": 10,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Totteridge & Whetstone"
+      ],
       "latitude": 51.629695,
       "longitude": -0.182685,
       "date_published": "2026-08-06T10:41:43",
@@ -40911,6 +41047,9 @@
       "station_distance_miles": 0.38,
       "walk_time_minutes": 8,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Oakleigh Park"
+      ],
       "latitude": 51.634651,
       "longitude": -0.160797,
       "date_published": "2026-10-15T07:58:36",
@@ -42005,6 +42144,9 @@
       "station_distance_miles": 0.39,
       "walk_time_minutes": 8,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Barnet"
+      ],
       "latitude": 51.64905,
       "longitude": -0.166885,
       "date_published": "2026-04-22T08:09:56",
@@ -42945,6 +43087,9 @@
       "station_distance_miles": 0.82,
       "walk_time_minutes": 17,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park"
+      ],
       "latitude": 51.626419,
       "longitude": -0.184363,
       "date_published": "2026-04-22T08:35:56",
@@ -43926,6 +44071,9 @@
       "station_distance_miles": 0.57,
       "walk_time_minutes": 12,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Oakleigh Park"
+      ],
       "latitude": 51.635945,
       "longitude": -0.173912,
       "date_published": "2026-04-22T12:46:44",
@@ -45290,6 +45438,9 @@
       "station_distance_miles": 0.4,
       "walk_time_minutes": 8,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "High Barnet"
+      ],
       "latitude": 51.653097,
       "longitude": -0.196324,
       "date_published": "2026-04-22T13:49:44",
@@ -46021,6 +46172,9 @@
       "station_distance_miles": 0.53,
       "walk_time_minutes": 11,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Barnet"
+      ],
       "latitude": 51.650909,
       "longitude": -0.162678,
       "date_published": "2026-04-23T11:42:34",
@@ -46752,6 +46906,9 @@
       "station_distance_miles": 0.83,
       "walk_time_minutes": 17,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Oakleigh Park"
+      ],
       "latitude": 51.635143,
       "longitude": -0.174433,
       "date_published": "2026-04-23T15:53:28",
@@ -47948,6 +48105,9 @@
       "station_distance_miles": 0.63,
       "walk_time_minutes": 13,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "High Barnet"
+      ],
       "latitude": 51.647542,
       "longitude": -0.202931,
       "date_published": "2026-04-24T15:30:43",
@@ -48863,6 +49023,9 @@
       "station_distance_miles": 0.55,
       "walk_time_minutes": 11,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Barnet"
+      ],
       "latitude": 51.651012,
       "longitude": -0.180321,
       "date_published": "2026-04-28T15:03:52",
@@ -50211,6 +50374,9 @@
       "station_distance_miles": 0.62,
       "walk_time_minutes": 13,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Oakleigh Park"
+      ],
       "latitude": 51.63271,
       "longitude": -0.157393,
       "date_published": "2026-10-10T13:08:39",
@@ -51252,6 +51418,7 @@
       "station_distance_miles": 0.98,
       "walk_time_minutes": 20,
       "station_distance_source": "routed",
+      "walkable_stations": [],
       "latitude": 51.640832,
       "longitude": -0.182919,
       "date_published": "2026-05-08T12:29:35",
@@ -51765,6 +51932,9 @@
       "station_distance_miles": 0.58,
       "walk_time_minutes": 12,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "High Barnet"
+      ],
       "latitude": 51.654964,
       "longitude": -0.197287,
       "date_published": "2026-05-09T10:33:19",
@@ -52796,6 +52966,9 @@
       "station_distance_miles": 0.4,
       "walk_time_minutes": 8,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Oakleigh Park"
+      ],
       "latitude": 51.633999,
       "longitude": -0.16101,
       "date_published": "2026-04-10T10:07:27",
@@ -54029,6 +54202,10 @@
       "station_distance_miles": 0.69,
       "walk_time_minutes": 14,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Oakleigh Park",
+        "Totteridge & Whetstone"
+      ],
       "latitude": 51.631302,
       "longitude": -0.1719,
       "date_published": "2024-07-24T10:21:04",
@@ -55112,6 +55289,9 @@
       "station_distance_miles": 0.29,
       "walk_time_minutes": 6,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Oakleigh Park"
+      ],
       "latitude": 51.638699,
       "longitude": -0.16188,
       "date_published": "2026-04-18T11:25:17",
@@ -55896,6 +56076,7 @@
       "station_distance_miles": 0.8,
       "walk_time_minutes": 16,
       "station_distance_source": "routed",
+      "walkable_stations": [],
       "latitude": 51.625687,
       "longitude": -0.174711,
       "date_published": "2026-05-11T14:49:31",
@@ -57008,6 +57189,10 @@
       "station_distance_miles": 0.55,
       "walk_time_minutes": 11,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Barnet",
+        "Oakleigh Park"
+      ],
       "latitude": 51.644449,
       "longitude": -0.173028,
       "date_published": "2026-05-12T12:39:17",
@@ -57632,6 +57817,9 @@
       "station_distance_miles": 0.57,
       "walk_time_minutes": 12,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park"
+      ],
       "latitude": 51.623607,
       "longitude": -0.179736,
       "date_published": "2026-05-12T14:30:19",
@@ -58212,6 +58400,9 @@
       "station_distance_miles": 0.58,
       "walk_time_minutes": 12,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park"
+      ],
       "latitude": 51.623631,
       "longitude": -0.186357,
       "date_published": "2026-05-14T00:44:36",
@@ -58760,6 +58951,10 @@
       "station_distance_miles": 0.67,
       "walk_time_minutes": 14,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Barnet",
+        "Oakleigh Park"
+      ],
       "latitude": 51.644215,
       "longitude": -0.164405,
       "date_published": "2026-08-06T09:58:42",
@@ -59874,6 +60069,9 @@
       "station_distance_miles": 0.44,
       "walk_time_minutes": 9,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Oakleigh Park"
+      ],
       "latitude": 51.639057,
       "longitude": -0.173677,
       "date_published": "2026-07-24T09:38:36",
@@ -60861,6 +61059,9 @@
       "station_distance_miles": 0.4,
       "walk_time_minutes": 8,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Barnet"
+      ],
       "latitude": 51.646187,
       "longitude": -0.173975,
       "date_published": "2026-05-27T16:30:42",
@@ -61579,6 +61780,7 @@
       "station_distance_miles": 0.94,
       "walk_time_minutes": 19,
       "station_distance_source": "routed",
+      "walkable_stations": [],
       "latitude": 51.656642,
       "longitude": -0.184247,
       "date_published": "2026-05-27T17:14:08",
@@ -62476,6 +62678,10 @@
       "station_distance_miles": 0.69,
       "walk_time_minutes": 14,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Oakleigh Park",
+        "Totteridge & Whetstone"
+      ],
       "latitude": 51.633683,
       "longitude": -0.173541,
       "date_published": "2026-05-29T11:16:15",
@@ -63230,6 +63436,9 @@
       "station_distance_miles": 0.66,
       "walk_time_minutes": 14,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park"
+      ],
       "latitude": 51.623844,
       "longitude": -0.192553,
       "date_published": "2026-06-01T11:11:10",
@@ -63890,6 +64099,9 @@
       "station_distance_miles": 0.45,
       "walk_time_minutes": 9,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park"
+      ],
       "latitude": 51.621443,
       "longitude": -0.190212,
       "date_published": "2026-06-02T13:09:09",
@@ -64554,6 +64766,10 @@
       "station_distance_miles": 0.59,
       "walk_time_minutes": 12,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park",
+        "Totteridge & Whetstone"
+      ],
       "latitude": 51.623734,
       "longitude": -0.181891,
       "date_published": "2026-06-05T09:49:47",
@@ -65349,6 +65565,9 @@
       "station_distance_miles": 0.53,
       "walk_time_minutes": 11,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Totteridge & Whetstone"
+      ],
       "latitude": 51.631336,
       "longitude": -0.18393,
       "date_published": "2026-06-05T11:34:30",
@@ -66032,6 +66251,7 @@
       "station_distance_miles": 0.86,
       "walk_time_minutes": 18,
       "station_distance_source": "routed",
+      "walkable_stations": [],
       "latitude": 51.648331,
       "longitude": -0.204359,
       "date_published": "2026-06-19T10:36:56",
@@ -66700,6 +66920,9 @@
       "station_distance_miles": 0.67,
       "walk_time_minutes": 14,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park"
+      ],
       "latitude": 51.616177,
       "longitude": -0.196003,
       "date_published": "2026-06-22T13:54:32",
@@ -67363,6 +67586,9 @@
       "station_distance_miles": 0.43,
       "walk_time_minutes": 9,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Totteridge & Whetstone"
+      ],
       "latitude": 51.630825,
       "longitude": -0.181913,
       "date_published": "2026-06-25T07:48:27",
@@ -68013,6 +68239,7 @@
       "station_distance_miles": 1.02,
       "walk_time_minutes": 21,
       "station_distance_source": "routed",
+      "walkable_stations": [],
       "latitude": 51.656388,
       "longitude": -0.182059,
       "date_published": "2026-06-27T08:17:06",
@@ -68770,6 +68997,9 @@
       "station_distance_miles": 0.79,
       "walk_time_minutes": 16,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park"
+      ],
       "latitude": 51.61761,
       "longitude": -0.19663,
       "date_published": "2026-06-29T10:36:31",
@@ -69617,6 +69847,10 @@
       "station_distance_miles": 0.48,
       "walk_time_minutes": 10,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Oakleigh Park",
+        "New Barnet"
+      ],
       "latitude": 51.641491,
       "longitude": -0.173253,
       "date_published": "2026-06-29T12:32:34",
@@ -70733,6 +70967,9 @@
       "station_distance_miles": 0.71,
       "walk_time_minutes": 15,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Barnet"
+      ],
       "latitude": 51.64765,
       "longitude": -0.161129,
       "date_published": "2026-06-30T09:07:38",
@@ -71400,6 +71637,7 @@
       "station_distance_miles": 0.82,
       "walk_time_minutes": 17,
       "station_distance_source": "routed",
+      "walkable_stations": [],
       "latitude": 51.641224,
       "longitude": -0.187369,
       "date_published": "2026-06-30T09:32:31",
@@ -72308,6 +72546,9 @@
       "station_distance_miles": 0.4,
       "walk_time_minutes": 8,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Totteridge & Whetstone"
+      ],
       "latitude": 51.628733,
       "longitude": -0.178923,
       "date_published": "2026-03-05T09:11:34",
@@ -73386,6 +73627,10 @@
       "station_distance_miles": 0.43,
       "walk_time_minutes": 9,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Oakleigh Park",
+        "New Barnet"
+      ],
       "latitude": 51.642109,
       "longitude": -0.171942,
       "date_published": "2026-07-15T10:33:55",
@@ -74155,6 +74400,9 @@
       "station_distance_miles": 0.33,
       "walk_time_minutes": 7,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Barnet"
+      ],
       "latitude": 51.650779,
       "longitude": -0.169174,
       "date_published": "2026-07-16T09:29:55",
@@ -75929,6 +76177,9 @@
       "station_distance_miles": 0.35,
       "walk_time_minutes": 7,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Oakleigh Park"
+      ],
       "latitude": 51.633182,
       "longitude": -0.163903,
       "date_published": "2026-07-17T08:46:54",
@@ -76579,6 +76830,9 @@
       "station_distance_miles": 0.46,
       "walk_time_minutes": 10,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "High Barnet"
+      ],
       "latitude": 51.647496,
       "longitude": -0.197541,
       "date_published": "2026-07-18T14:52:38",
@@ -77449,6 +77703,10 @@
       "station_distance_miles": 0.69,
       "walk_time_minutes": 14,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Oakleigh Park",
+        "New Barnet"
+      ],
       "latitude": 51.643402,
       "longitude": -0.174708,
       "date_published": "2026-07-23T11:53:47",
@@ -78233,6 +78491,10 @@
       "station_distance_miles": 0.8,
       "walk_time_minutes": 16,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Oakleigh Park",
+        "Totteridge & Whetstone"
+      ],
       "latitude": 51.634798,
       "longitude": -0.174195,
       "date_published": "2026-07-30T13:37:55",
@@ -79564,6 +79826,9 @@
       "station_distance_miles": 0.74,
       "walk_time_minutes": 15,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Cockfosters"
+      ],
       "latitude": 51.648814,
       "longitude": -0.159096,
       "date_published": "2026-07-31T07:01:20",
@@ -80542,6 +80807,9 @@
       "station_distance_miles": 0.5,
       "walk_time_minutes": 10,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "High Barnet"
+      ],
       "latitude": 51.649024,
       "longitude": -0.201725,
       "date_published": "2026-08-04T13:45:18",
@@ -81512,6 +81780,10 @@
       "station_distance_miles": 0.79,
       "walk_time_minutes": 16,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park",
+        "Totteridge & Whetstone"
+      ],
       "latitude": 51.625655,
       "longitude": -0.185038,
       "date_published": "2026-08-05T15:37:58",
@@ -82536,6 +82808,7 @@
       "station_distance_miles": 0.84,
       "walk_time_minutes": 17,
       "station_distance_source": "routed",
+      "walkable_stations": [],
       "latitude": 51.656385,
       "longitude": -0.185817,
       "date_published": "2026-08-12T12:18:07",
@@ -83172,6 +83445,9 @@
       "station_distance_miles": 0.44,
       "walk_time_minutes": 9,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "High Barnet"
+      ],
       "latitude": 51.646284,
       "longitude": -0.189912,
       "date_published": "2026-08-14T16:16:25",
@@ -83871,6 +84147,7 @@
       "station_distance_miles": 0.89,
       "walk_time_minutes": 18,
       "station_distance_source": "routed",
+      "walkable_stations": [],
       "latitude": 51.628768,
       "longitude": -0.156093,
       "date_published": "2026-08-20T14:09:12",
@@ -84709,6 +84986,10 @@
       "station_distance_miles": 0.54,
       "walk_time_minutes": 11,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "High Barnet",
+        "New Barnet"
+      ],
       "latitude": 51.647508,
       "longitude": -0.186418,
       "date_published": "2026-08-20T14:51:52",
@@ -85340,6 +85621,9 @@
       "station_distance_miles": 0.54,
       "walk_time_minutes": 11,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Oakleigh Park"
+      ],
       "latitude": 51.640756,
       "longitude": -0.175725,
       "date_published": "2026-08-25T16:01:56",
@@ -86174,6 +86458,10 @@
       "station_distance_miles": 0.64,
       "walk_time_minutes": 13,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Barnet",
+        "High Barnet"
+      ],
       "latitude": 51.647324,
       "longitude": -0.183083,
       "date_published": "2026-08-26T12:25:27",
@@ -86981,6 +87269,10 @@
       "station_distance_miles": 0.58,
       "walk_time_minutes": 12,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Barnet",
+        "Oakleigh Park"
+      ],
       "latitude": 51.644003,
       "longitude": -0.172941,
       "date_published": "2026-09-01T07:29:46",
@@ -87617,6 +87909,9 @@
       "station_distance_miles": 0.34,
       "walk_time_minutes": 7,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park"
+      ],
       "latitude": 51.621288,
       "longitude": -0.184909,
       "date_published": "2026-09-02T08:32:32",
@@ -89176,6 +89471,7 @@
       "station_distance_miles": 0.85,
       "walk_time_minutes": 17,
       "station_distance_source": "routed",
+      "walkable_stations": [],
       "latitude": 51.6326,
       "longitude": -0.153232,
       "date_published": "2026-09-02T10:16:14",
@@ -89770,6 +90066,9 @@
       "station_distance_miles": 0.75,
       "walk_time_minutes": 15,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Totteridge & Whetstone"
+      ],
       "latitude": 51.627502,
       "longitude": -0.171657,
       "date_published": "2026-09-07T13:44:20",
@@ -90403,6 +90702,7 @@
       "station_distance_miles": 0.84,
       "walk_time_minutes": 17,
       "station_distance_source": "routed",
+      "walkable_stations": [],
       "latitude": 51.655917,
       "longitude": -0.184983,
       "date_published": "2026-09-07T15:28:06",
@@ -91046,6 +91346,10 @@
       "station_distance_miles": 0.72,
       "walk_time_minutes": 15,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Barnet",
+        "High Barnet"
+      ],
       "latitude": 51.649379,
       "longitude": -0.185383,
       "date_published": "2026-09-08T12:45:26",
@@ -91838,6 +92142,9 @@
       "station_distance_miles": 0.3,
       "walk_time_minutes": 6,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "High Barnet"
+      ],
       "latitude": 51.64955,
       "longitude": -0.19665,
       "date_published": "2026-09-10T14:02:08",
@@ -92736,6 +93043,9 @@
       "station_distance_miles": 0.56,
       "walk_time_minutes": 12,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Barnet"
+      ],
       "latitude": 51.647078,
       "longitude": -0.163633,
       "date_published": "2026-09-10T14:59:01",
@@ -93598,6 +93908,9 @@
       "station_distance_miles": 0.74,
       "walk_time_minutes": 15,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Cockfosters"
+      ],
       "latitude": 51.64896,
       "longitude": -0.15921,
       "date_published": "2026-08-06T09:58:43",
@@ -94469,6 +94782,9 @@
       "station_distance_miles": 0.48,
       "walk_time_minutes": 10,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Totteridge & Whetstone"
+      ],
       "latitude": 51.628105,
       "longitude": -0.177912,
       "date_published": "2026-10-02T12:55:19",
@@ -95649,6 +95965,9 @@
       "station_distance_miles": 0.36,
       "walk_time_minutes": 8,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Barnet"
+      ],
       "latitude": 51.647167,
       "longitude": -0.176277,
       "date_published": "2026-10-02T10:42:20",
@@ -96131,6 +96450,10 @@
       "station_distance_miles": 0.31,
       "walk_time_minutes": 7,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "West Finchley",
+        "Finchley Central"
+      ],
       "latitude": 51.606344,
       "longitude": -0.190029,
       "date_published": "2026-10-01T11:55:13",
@@ -96816,6 +97139,9 @@
       "station_distance_miles": 0.7,
       "walk_time_minutes": 14,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Barnet"
+      ],
       "latitude": 51.648607,
       "longitude": -0.161857,
       "date_published": "2026-01-19T10:21:05",
@@ -97544,6 +97870,9 @@
       "station_distance_miles": 0.72,
       "walk_time_minutes": 15,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Barnet"
+      ],
       "latitude": 51.652465,
       "longitude": -0.161984,
       "date_published": "2026-07-02T15:13:00",
@@ -98399,6 +98728,7 @@
       "station_distance_miles": 1.24,
       "walk_time_minutes": 25,
       "station_distance_source": "routed",
+      "walkable_stations": [],
       "latitude": 51.614029,
       "longitude": -0.198491,
       "date_published": "2026-10-02T10:27:03",
@@ -98906,6 +99236,10 @@
       "station_distance_miles": 0.63,
       "walk_time_minutes": 13,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park",
+        "West Finchley"
+      ],
       "latitude": 51.611396,
       "longitude": -0.182583,
       "date_published": "2026-09-28T10:38:06",
@@ -99687,6 +100021,12 @@
       "station_distance_miles": 0.37,
       "walk_time_minutes": 8,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Bounds Green",
+        "Bowes Park",
+        "New Southgate",
+        "Arnos Grove"
+      ],
       "latitude": 51.610374,
       "longitude": -0.127939,
       "date_published": "2026-05-22T01:04:36",
@@ -100372,6 +100712,9 @@
       "station_distance_miles": 0.42,
       "walk_time_minutes": 9,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Finchley Central"
+      ],
       "latitude": 51.597261,
       "longitude": -0.186709,
       "date_published": "2026-09-24T11:47:23",
@@ -101378,6 +101721,10 @@
       "station_distance_miles": 0.75,
       "walk_time_minutes": 15,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Finchley Central",
+        "West Finchley"
+      ],
       "latitude": 51.608461,
       "longitude": -0.197463,
       "date_published": "2026-09-23T14:26:35",
@@ -102324,6 +102671,10 @@
       "station_distance_miles": 0.58,
       "walk_time_minutes": 12,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "West Finchley",
+        "Woodside Park"
+      ],
       "latitude": 51.609912,
       "longitude": -0.192414,
       "date_published": "2026-09-22T12:28:18",
@@ -103124,6 +103475,9 @@
       "station_distance_miles": 0.6,
       "walk_time_minutes": 12,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Southgate"
+      ],
       "latitude": 51.61148,
       "longitude": -0.148937,
       "date_published": "2026-09-18T16:35:21",
@@ -103953,6 +104307,9 @@
       "station_distance_miles": 0.48,
       "walk_time_minutes": 10,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Finchley Central"
+      ],
       "latitude": 51.596992,
       "longitude": -0.185874,
       "date_published": "2026-09-17T08:22:19",
@@ -104895,6 +105252,11 @@
       "station_distance_miles": 0.45,
       "walk_time_minutes": 9,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Bounds Green",
+        "Bowes Park",
+        "New Southgate"
+      ],
       "latitude": 51.608757,
       "longitude": -0.131287,
       "date_published": "2026-09-16T11:12:06",
@@ -106041,6 +106403,10 @@
       "station_distance_miles": 0.4,
       "walk_time_minutes": 8,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Mill Hill East",
+        "Finchley Central"
+      ],
       "latitude": 51.605221,
       "longitude": -0.206306,
       "date_published": "2024-05-13T15:40:04",
@@ -106677,6 +107043,10 @@
       "station_distance_miles": 0.79,
       "walk_time_minutes": 16,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Finchley Central",
+        "West Finchley"
+      ],
       "latitude": 51.607839,
       "longitude": -0.197996,
       "date_published": "2026-03-26T14:12:39",
@@ -107608,6 +107978,9 @@
       "station_distance_miles": 0.79,
       "walk_time_minutes": 16,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Finchley Central"
+      ],
       "latitude": 51.59305,
       "longitude": -0.197786,
       "date_published": "2025-12-26T10:29:32",
@@ -108367,6 +108740,10 @@
       "station_distance_miles": 0.22,
       "walk_time_minutes": 5,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "West Finchley",
+        "Finchley Central"
+      ],
       "latitude": 51.607982,
       "longitude": -0.18695,
       "date_published": "2026-08-18T10:37:00",
@@ -109138,6 +109515,10 @@
       "station_distance_miles": 0.78,
       "walk_time_minutes": 16,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Finchley Central",
+        "West Finchley"
+      ],
       "latitude": 51.607907,
       "longitude": -0.197688,
       "date_published": "2026-01-05T12:02:36",
@@ -109987,6 +110368,10 @@
       "station_distance_miles": 0.6,
       "walk_time_minutes": 12,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "West Finchley",
+        "Woodside Park"
+      ],
       "latitude": 51.610909,
       "longitude": -0.193122,
       "date_published": "2025-06-27T13:09:09",
@@ -110962,6 +111347,9 @@
       "station_distance_miles": 0.71,
       "walk_time_minutes": 15,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Southgate"
+      ],
       "latitude": 51.6143,
       "longitude": -0.153834,
       "date_published": "2025-07-18T12:13:10",
@@ -112305,6 +112693,9 @@
       "station_distance_miles": 0.52,
       "walk_time_minutes": 11,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Finchley Central"
+      ],
       "latitude": 51.5965,
       "longitude": -0.185118,
       "date_published": "2025-08-08T16:54:37",
@@ -113291,6 +113682,10 @@
       "station_distance_miles": 0.48,
       "walk_time_minutes": 10,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Finchley Central",
+        "West Finchley"
+      ],
       "latitude": 51.605411,
       "longitude": -0.193285,
       "date_published": "2025-09-26T09:32:57",
@@ -113850,6 +114245,10 @@
       "station_distance_miles": 0.42,
       "walk_time_minutes": 9,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Arnos Grove",
+        "New Southgate"
+      ],
       "latitude": 51.618939,
       "longitude": -0.138613,
       "date_published": "2025-12-01T15:54:01",
@@ -114508,6 +114907,9 @@
       "station_distance_miles": 0.66,
       "walk_time_minutes": 14,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Finchley Central"
+      ],
       "latitude": 51.597484,
       "longitude": -0.204442,
       "date_published": "2025-12-26T10:39:49",
@@ -115510,6 +115912,9 @@
       "station_distance_miles": 0.68,
       "walk_time_minutes": 14,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Finchley Central"
+      ],
       "latitude": 51.600712,
       "longitude": -0.183149,
       "date_published": "2026-01-19T14:01:53",
@@ -116969,6 +117374,7 @@
       "station_distance_miles": 0.93,
       "walk_time_minutes": 19,
       "station_distance_source": "routed",
+      "walkable_stations": [],
       "latitude": 51.626573,
       "longitude": -0.189387,
       "date_published": "2026-09-03T10:29:35",
@@ -117773,6 +118179,10 @@
       "station_distance_miles": 0.44,
       "walk_time_minutes": 9,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Mill Hill East",
+        "Finchley Central"
+      ],
       "latitude": 51.604715,
       "longitude": -0.203786,
       "date_published": "2026-03-18T13:44:50",
@@ -118541,6 +118951,10 @@
       "station_distance_miles": 0.77,
       "walk_time_minutes": 16,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "West Finchley",
+        "Finchley Central"
+      ],
       "latitude": 51.604934,
       "longitude": -0.180826,
       "date_published": "2026-03-25T17:08:35",
@@ -119198,6 +119612,10 @@
       "station_distance_miles": 0.64,
       "walk_time_minutes": 13,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park",
+        "West Finchley"
+      ],
       "latitude": 51.613534,
       "longitude": -0.187361,
       "date_published": "2026-03-31T20:06:17",
@@ -120061,6 +120479,9 @@
       "station_distance_miles": 0.88,
       "walk_time_minutes": 18,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park"
+      ],
       "latitude": 51.614219,
       "longitude": -0.193111,
       "date_published": "2026-06-26T12:06:25",
@@ -120758,6 +121179,9 @@
       "station_distance_miles": 0.75,
       "walk_time_minutes": 15,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park"
+      ],
       "latitude": 51.61315,
       "longitude": -0.174001,
       "date_published": "2026-04-27T13:45:16",
@@ -121383,6 +121807,9 @@
       "station_distance_miles": 0.57,
       "walk_time_minutes": 12,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park"
+      ],
       "latitude": 51.616062,
       "longitude": -0.175097,
       "date_published": "2026-10-15T18:58:00",
@@ -122072,6 +122499,9 @@
       "station_distance_miles": 0.49,
       "walk_time_minutes": 10,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park"
+      ],
       "latitude": 51.6161,
       "longitude": -0.190465,
       "date_published": "2026-04-30T09:19:56",
@@ -122807,6 +123237,7 @@
       "station_distance_miles": 1.25,
       "walk_time_minutes": 25,
       "station_distance_source": "routed",
+      "walkable_stations": [],
       "latitude": 51.616901,
       "longitude": -0.16335,
       "date_published": "2026-02-04T08:47:46",
@@ -123435,6 +123866,10 @@
       "station_distance_miles": 0.53,
       "walk_time_minutes": 11,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Finchley Central",
+        "Mill Hill East"
+      ],
       "latitude": 51.602814,
       "longitude": -0.201948,
       "date_published": "2026-05-11T14:24:10",
@@ -124092,6 +124527,9 @@
       "station_distance_miles": 0.56,
       "walk_time_minutes": 12,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Southgate"
+      ],
       "latitude": 51.611178,
       "longitude": -0.148,
       "date_published": "2026-05-12T12:26:27",
@@ -124743,6 +125181,9 @@
       "station_distance_miles": 0.51,
       "walk_time_minutes": 11,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Southgate"
+      ],
       "latitude": 51.615653,
       "longitude": -0.149533,
       "date_published": "2026-05-12T16:29:35",
@@ -125811,6 +126252,7 @@
       "station_distance_miles": 1.25,
       "walk_time_minutes": 25,
       "station_distance_source": "routed",
+      "walkable_stations": [],
       "latitude": 51.614192,
       "longitude": -0.198734,
       "date_published": "2026-05-18T09:07:55",
@@ -126426,6 +126868,10 @@
       "station_distance_miles": 0.51,
       "walk_time_minutes": 11,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Finchley Central",
+        "West Finchley"
+      ],
       "latitude": 51.604759,
       "longitude": -0.187078,
       "date_published": "2026-06-01T08:52:29",
@@ -127172,6 +127618,10 @@
       "station_distance_miles": 0.49,
       "walk_time_minutes": 10,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park",
+        "West Finchley"
+      ],
       "latitude": 51.613504,
       "longitude": -0.182628,
       "date_published": "2026-06-02T13:39:44",
@@ -127980,6 +128430,10 @@
       "station_distance_miles": 0.65,
       "walk_time_minutes": 13,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Finchley Central",
+        "West Finchley"
+      ],
       "latitude": 51.607479,
       "longitude": -0.19552,
       "date_published": "2026-06-02T19:19:25",
@@ -128666,6 +129120,9 @@
       "station_distance_miles": 0.6,
       "walk_time_minutes": 12,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Southgate"
+      ],
       "latitude": 51.617983,
       "longitude": -0.149207,
       "date_published": "2026-06-23T12:11:33",
@@ -129413,6 +129870,9 @@
       "station_distance_miles": 0.71,
       "walk_time_minutes": 15,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Finchley Central"
+      ],
       "latitude": 51.597596,
       "longitude": -0.205666,
       "date_published": "2026-06-23T13:09:26",
@@ -130392,6 +130852,9 @@
       "station_distance_miles": 0.78,
       "walk_time_minutes": 16,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "West Finchley"
+      ],
       "latitude": 51.606075,
       "longitude": -0.179375,
       "date_published": "2026-06-25T15:44:40",
@@ -131310,6 +131773,7 @@
       "station_distance_miles": 0.81,
       "walk_time_minutes": 17,
       "station_distance_source": "routed",
+      "walkable_stations": [],
       "latitude": 51.608662,
       "longitude": -0.177996,
       "date_published": "2026-06-30T13:54:17",
@@ -132114,6 +132578,10 @@
       "station_distance_miles": 0.61,
       "walk_time_minutes": 13,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Finchley Central",
+        "Mill Hill East"
+      ],
       "latitude": 51.60235,
       "longitude": -0.203576,
       "date_published": "2026-10-08T10:44:00",
@@ -132919,6 +133387,10 @@
       "station_distance_miles": 0.25,
       "walk_time_minutes": 5,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park",
+        "West Finchley"
+      ],
       "latitude": 51.615497,
       "longitude": -0.18353,
       "date_published": "2026-07-08T11:12:00",
@@ -133888,6 +134360,9 @@
       "station_distance_miles": 0.23,
       "walk_time_minutes": 5,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Finchley Central"
+      ],
       "latitude": 51.598766,
       "longitude": -0.190891,
       "date_published": "2026-07-16T15:18:05",
@@ -134930,6 +135405,10 @@
       "station_distance_miles": 0.55,
       "walk_time_minutes": 11,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Finchley Central",
+        "West Finchley"
+      ],
       "latitude": 51.60441,
       "longitude": -0.186208,
       "date_published": "2026-07-16T19:12:31",
@@ -135726,6 +136205,7 @@
       "station_distance_miles": 0.84,
       "walk_time_minutes": 17,
       "station_distance_source": "routed",
+      "walkable_stations": [],
       "latitude": 51.596631,
       "longitude": -0.208148,
       "date_published": "2026-10-09T08:32:59",
@@ -136583,6 +137063,10 @@
       "station_distance_miles": 0.59,
       "walk_time_minutes": 12,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Finchley Central",
+        "West Finchley"
+      ],
       "latitude": 51.606791,
       "longitude": -0.194854,
       "date_published": "2026-07-17T13:43:50",
@@ -137727,6 +138211,9 @@
       "station_distance_miles": 0.67,
       "walk_time_minutes": 14,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "High Barnet"
+      ],
       "latitude": 51.645263,
       "longitude": -0.19854,
       "date_published": "2026-07-24T07:13:20",
@@ -138493,6 +138980,9 @@
       "station_distance_miles": 0.6,
       "walk_time_minutes": 12,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Finchley Central"
+      ],
       "latitude": 51.595262,
       "longitude": -0.190969,
       "date_published": "2026-07-27T08:25:37",
@@ -139171,6 +139661,10 @@
       "station_distance_miles": 0.56,
       "walk_time_minutes": 12,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "West Finchley",
+        "Finchley Central"
+      ],
       "latitude": 51.607388,
       "longitude": -0.190875,
       "date_published": "2026-07-31T10:23:52",
@@ -140022,6 +140516,9 @@
       "station_distance_miles": 0.75,
       "walk_time_minutes": 15,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Finchley Central"
+      ],
       "latitude": 51.594417,
       "longitude": -0.201231,
       "date_published": "2026-07-31T11:39:46",
@@ -140864,6 +141361,9 @@
       "station_distance_miles": 0.77,
       "walk_time_minutes": 16,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Finchley Central"
+      ],
       "latitude": 51.592837,
       "longitude": -0.19139,
       "date_published": "2026-08-06T08:41:57",
@@ -141625,6 +142125,11 @@
       "station_distance_miles": 0.46,
       "walk_time_minutes": 10,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "West Finchley",
+        "Finchley Central",
+        "Woodside Park"
+      ],
       "latitude": 51.608676,
       "longitude": -0.190774,
       "date_published": "2026-08-24T09:21:54",
@@ -142464,6 +142969,9 @@
       "station_distance_miles": 0.47,
       "walk_time_minutes": 10,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Finchley Central"
+      ],
       "latitude": 51.597042,
       "longitude": -0.185812,
       "date_published": "2026-08-27T08:57:20",
@@ -143350,6 +143858,7 @@
       "station_distance_miles": 0.85,
       "walk_time_minutes": 17,
       "station_distance_source": "routed",
+      "walkable_stations": [],
       "latitude": 51.627522,
       "longitude": -0.188454,
       "date_published": "2026-08-27T11:31:05",
@@ -144121,6 +144630,10 @@
       "station_distance_miles": 0.42,
       "walk_time_minutes": 9,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Arnos Grove",
+        "New Southgate"
+      ],
       "latitude": 51.619366,
       "longitude": -0.137323,
       "date_published": "2026-09-04T14:44:12",
@@ -144752,6 +145265,10 @@
       "station_distance_miles": 0.33,
       "walk_time_minutes": 7,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Arnos Grove",
+        "New Southgate"
+      ],
       "latitude": 51.618134,
       "longitude": -0.13701,
       "date_published": "2026-09-05T12:33:05",
@@ -145518,6 +146035,9 @@
       "station_distance_miles": 0.64,
       "walk_time_minutes": 13,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Cockfosters"
+      ],
       "latitude": 51.651134,
       "longitude": -0.158482,
       "date_published": "2026-09-07T15:43:19",
@@ -146312,6 +146832,11 @@
       "station_distance_miles": 0.44,
       "walk_time_minutes": 9,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Bounds Green",
+        "Bowes Park",
+        "New Southgate"
+      ],
       "latitude": 51.608285,
       "longitude": -0.130785,
       "date_published": "2026-09-08T09:42:11",
@@ -147008,6 +147533,9 @@
       "station_distance_miles": 0.63,
       "walk_time_minutes": 13,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Southgate"
+      ],
       "latitude": 51.617245,
       "longitude": -0.150573,
       "date_published": "2026-09-09T23:47:31",
@@ -147470,6 +147998,9 @@
       "station_distance_miles": 0.62,
       "walk_time_minutes": 13,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Finchley Central"
+      ],
       "latitude": 51.595648,
       "longitude": -0.200325,
       "date_published": "2026-09-11T10:53:54",
@@ -148634,6 +149165,9 @@
       "station_distance_miles": 0.64,
       "walk_time_minutes": 13,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park"
+      ],
       "latitude": 51.613236,
       "longitude": -0.179544,
       "date_published": "2025-08-01T13:22:34",
@@ -149206,6 +149740,9 @@
       "station_distance_miles": 0.77,
       "walk_time_minutes": 16,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park"
+      ],
       "latitude": 51.622636,
       "longitude": -0.175283,
       "date_published": "2026-01-07T11:29:23",
@@ -149654,6 +150191,9 @@
       "station_distance_miles": 0.46,
       "walk_time_minutes": 10,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Barnet"
+      ],
       "latitude": 51.65192,
       "longitude": -0.167691,
       "date_published": "2026-10-03T05:43:03",
@@ -150521,6 +151061,9 @@
       "station_distance_miles": 0.59,
       "walk_time_minutes": 12,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Barnet"
+      ],
       "latitude": 51.651956,
       "longitude": -0.181201,
       "date_published": "2026-10-04T10:44:56",
@@ -151332,6 +151875,11 @@
       "station_distance_miles": 0.41,
       "walk_time_minutes": 9,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "West Finchley",
+        "Woodside Park",
+        "Finchley Central"
+      ],
       "latitude": 51.608996,
       "longitude": -0.190153,
       "date_published": "2026-10-05T13:14:04",
@@ -152133,6 +152681,9 @@
       "station_distance_miles": 0.66,
       "walk_time_minutes": 14,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Cockfosters"
+      ],
       "latitude": 51.65031,
       "longitude": -0.158615,
       "date_published": "2026-10-06T13:52:28",
@@ -152882,6 +153433,9 @@
       "station_distance_miles": 0.5,
       "walk_time_minutes": 10,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "High Barnet"
+      ],
       "latitude": 51.64976,
       "longitude": -0.201294,
       "date_published": "2026-10-07T08:38:06",
@@ -153775,6 +154329,9 @@
       "station_distance_miles": 0.74,
       "walk_time_minutes": 15,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "High Barnet"
+      ],
       "latitude": 51.644079,
       "longitude": -0.185854,
       "date_published": "2026-09-16T13:34:10",
@@ -154544,6 +155101,9 @@
       "station_distance_miles": 0.24,
       "walk_time_minutes": 5,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Oakleigh Park"
+      ],
       "latitude": 51.639474,
       "longitude": -0.162572,
       "date_published": "2026-07-24T16:52:11",
@@ -155419,6 +155979,9 @@
       "station_distance_miles": 0.58,
       "walk_time_minutes": 12,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "High Barnet"
+      ],
       "latitude": 51.653474,
       "longitude": -0.186911,
       "date_published": "2026-06-23T16:12:28",
@@ -156248,6 +156811,9 @@
       "station_distance_miles": 0.72,
       "walk_time_minutes": 15,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Barnet"
+      ],
       "latitude": 51.64373,
       "longitude": -0.179933,
       "date_published": "2026-10-08T12:20:43",
@@ -156860,6 +157426,9 @@
       "station_distance_miles": 0.54,
       "walk_time_minutes": 11,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park"
+      ],
       "latitude": 51.619815,
       "longitude": -0.190955,
       "date_published": "2026-10-08T11:32:42",
@@ -157627,6 +158196,9 @@
       "station_distance_miles": 0.43,
       "walk_time_minutes": 9,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Barnet"
+      ],
       "latitude": 51.647636,
       "longitude": -0.178384,
       "date_published": "2026-10-09T17:21:28",
@@ -158456,6 +159028,9 @@
       "station_distance_miles": 0.38,
       "walk_time_minutes": 8,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "High Barnet"
+      ],
       "latitude": 51.652986,
       "longitude": -0.19673,
       "date_published": "2026-10-09T14:41:33",
@@ -159118,6 +159693,11 @@
       "station_distance_miles": 0.5,
       "walk_time_minutes": 10,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "West Finchley",
+        "Finchley Central",
+        "Woodside Park"
+      ],
       "latitude": 51.609034,
       "longitude": -0.19131,
       "date_published": "2026-10-09T10:56:40",
@@ -159952,6 +160532,10 @@
       "station_distance_miles": 0.66,
       "walk_time_minutes": 14,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Barnet",
+        "High Barnet"
+      ],
       "latitude": 51.648561,
       "longitude": -0.184326,
       "date_published": "2026-10-09T08:43:07",
@@ -160867,6 +161451,7 @@
       "station_distance_miles": 0.89,
       "walk_time_minutes": 18,
       "station_distance_source": "routed",
+      "walkable_stations": [],
       "latitude": 51.628506,
       "longitude": -0.157708,
       "date_published": "2026-10-07T14:31:12",
@@ -162063,6 +162648,9 @@
       "station_distance_miles": 0.77,
       "walk_time_minutes": 16,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "High Barnet"
+      ],
       "latitude": 51.649261,
       "longitude": -0.204308,
       "date_published": "2026-09-25T17:58:18",
@@ -162797,6 +163385,9 @@
       "station_distance_miles": 0.37,
       "walk_time_minutes": 8,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Barnet"
+      ],
       "latitude": 51.648856,
       "longitude": -0.17929,
       "date_published": "2026-10-09T14:38:39",
@@ -163300,6 +163891,9 @@
       "station_distance_miles": 0.49,
       "walk_time_minutes": 10,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "High Barnet"
+      ],
       "latitude": 51.653345,
       "longitude": -0.19488,
       "date_published": "2026-04-23T14:32:56",
@@ -163947,6 +164541,9 @@
       "station_distance_miles": 0.75,
       "walk_time_minutes": 15,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Finchley Central"
+      ],
       "latitude": 51.592999,
       "longitude": -0.192,
       "date_published": "2026-10-13T14:35:58",
@@ -164814,6 +165411,9 @@
       "station_distance_miles": 0.61,
       "walk_time_minutes": 13,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Totteridge & Whetstone"
+      ],
       "latitude": 51.628983,
       "longitude": -0.184563,
       "date_published": "2026-10-13T13:20:48",
@@ -165595,6 +166195,10 @@
       "station_distance_miles": 0.79,
       "walk_time_minutes": 16,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park",
+        "West Finchley"
+      ],
       "latitude": 51.613387,
       "longitude": -0.193329,
       "date_published": "2026-10-13T10:32:30",
@@ -166226,6 +166830,9 @@
       "station_distance_miles": 0.49,
       "walk_time_minutes": 10,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Barnet"
+      ],
       "latitude": 51.652308,
       "longitude": -0.167814,
       "date_published": "2026-10-14T14:13:08",
@@ -167033,6 +167640,7 @@
       "station_distance_miles": 0.86,
       "walk_time_minutes": 18,
       "station_distance_source": "routed",
+      "walkable_stations": [],
       "latitude": 51.638496,
       "longitude": -0.17694,
       "date_published": "2026-10-23T13:44:26",
@@ -167864,6 +168472,10 @@
       "station_distance_miles": 0.69,
       "walk_time_minutes": 14,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Totteridge & Whetstone",
+        "Oakleigh Park"
+      ],
       "latitude": 51.630203,
       "longitude": -0.169632,
       "date_published": "2026-10-14T10:23:37",
@@ -168504,6 +169116,9 @@
       "station_distance_miles": 0.57,
       "walk_time_minutes": 12,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park"
+      ],
       "latitude": 51.617485,
       "longitude": -0.192649,
       "date_published": "2026-10-14T08:18:47",
@@ -169482,6 +170097,10 @@
       "station_distance_miles": 0.65,
       "walk_time_minutes": 13,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Finchley Central",
+        "West Finchley"
+      ],
       "latitude": 51.601679,
       "longitude": -0.186752,
       "date_published": "2026-10-15T09:58:28",
@@ -170405,6 +171024,9 @@
       "station_distance_miles": 0.75,
       "walk_time_minutes": 15,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "West Finchley"
+      ],
       "latitude": 51.607042,
       "longitude": -0.179463,
       "date_published": "2026-10-15T09:57:23",
@@ -171130,6 +171752,7 @@
       "station_distance_miles": 0.89,
       "walk_time_minutes": 18,
       "station_distance_source": "routed",
+      "walkable_stations": [],
       "latitude": 51.592934,
       "longitude": -0.195375,
       "date_published": "2026-10-16T16:16:26",
@@ -172056,6 +172679,10 @@
       "station_distance_miles": 0.52,
       "walk_time_minutes": 11,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Totteridge & Whetstone",
+        "Oakleigh Park"
+      ],
       "latitude": 51.632451,
       "longitude": -0.176652,
       "date_published": "2026-08-14T09:22:41",
@@ -173134,6 +173761,10 @@
       "station_distance_miles": 0.67,
       "walk_time_minutes": 14,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Barnet",
+        "High Barnet"
+      ],
       "latitude": 51.648836,
       "longitude": -0.184753,
       "date_published": "2026-10-16T12:27:43",
@@ -173884,6 +174515,9 @@
       "station_distance_miles": 0.53,
       "walk_time_minutes": 11,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Finchley Central"
+      ],
       "latitude": 51.596282,
       "longitude": -0.195418,
       "date_published": "2026-10-16T09:04:44",
@@ -174697,6 +175331,10 @@
       "station_distance_miles": 0.4,
       "walk_time_minutes": 8,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Oakleigh Park",
+        "New Barnet"
+      ],
       "latitude": 51.641992,
       "longitude": -0.17037,
       "date_published": "2026-04-02T17:35:20",
@@ -175579,6 +176217,9 @@
       "station_distance_miles": 0.69,
       "walk_time_minutes": 14,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Finchley Central"
+      ],
       "latitude": 51.594684,
       "longitude": -0.184937,
       "date_published": "2026-10-17T09:27:43",
@@ -176357,6 +176998,9 @@
       "station_distance_miles": 0.66,
       "walk_time_minutes": 14,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park"
+      ],
       "latitude": 51.624718,
       "longitude": -0.186437,
       "date_published": "2026-10-22T16:20:11",
@@ -177358,6 +178002,9 @@
       "station_distance_miles": 0.52,
       "walk_time_minutes": 11,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park"
+      ],
       "latitude": 51.621738,
       "longitude": -0.19201,
       "date_published": "2026-10-22T12:22:53",
@@ -178127,6 +178774,9 @@
       "station_distance_miles": 0.77,
       "walk_time_minutes": 16,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Finchley Central"
+      ],
       "latitude": 51.594469,
       "longitude": -0.201644,
       "date_published": "2026-10-22T07:46:41",
@@ -178958,6 +179608,9 @@
       "station_distance_miles": 0.6,
       "walk_time_minutes": 12,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park"
+      ],
       "latitude": 51.616204,
       "longitude": -0.1943,
       "date_published": "2026-10-21T08:29:37",
@@ -179673,6 +180326,7 @@
       "station_distance_miles": 0.95,
       "walk_time_minutes": 19,
       "station_distance_source": "routed",
+      "walkable_stations": [],
       "latitude": 51.630001,
       "longitude": -0.16083,
       "date_published": "2026-10-20T15:03:13",
@@ -180485,6 +181139,9 @@
       "station_distance_miles": 0.21,
       "walk_time_minutes": 5,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "High Barnet"
+      ],
       "latitude": 51.651706,
       "longitude": -0.195299,
       "date_published": "2026-10-20T13:19:36",
@@ -181383,6 +182040,9 @@
       "station_distance_miles": 0.65,
       "walk_time_minutes": 13,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Arnos Grove"
+      ],
       "latitude": 51.621558,
       "longitude": -0.139642,
       "date_published": "2026-10-19T11:11:58",
@@ -182062,6 +182722,9 @@
       "station_distance_miles": 0.51,
       "walk_time_minutes": 11,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Finchley Central"
+      ],
       "latitude": 51.595428,
       "longitude": -0.192494,
       "date_published": "2026-09-28T11:34:02",
@@ -183071,6 +183734,10 @@
       "station_distance_miles": 0.27,
       "walk_time_minutes": 6,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Arnos Grove",
+        "New Southgate"
+      ],
       "latitude": 51.615181,
       "longitude": -0.13674,
       "date_published": "2026-09-17T08:04:20",
@@ -184257,6 +184924,9 @@
       "station_distance_miles": 0.73,
       "walk_time_minutes": 15,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "High Barnet"
+      ],
       "latitude": 51.655517,
       "longitude": -0.206388,
       "date_published": "2026-10-20T14:23:24",
@@ -185338,6 +186008,9 @@
       "station_distance_miles": 0.71,
       "walk_time_minutes": 15,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "West Finchley"
+      ],
       "latitude": 51.608028,
       "longitude": -0.180076,
       "date_published": "2026-10-27T17:20:11",
@@ -186218,6 +186891,9 @@
       "station_distance_miles": 0.14,
       "walk_time_minutes": 3,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Oakleigh Park"
+      ],
       "latitude": 51.635978,
       "longitude": -0.166924,
       "date_published": "2026-10-27T16:25:24",
@@ -186978,6 +187654,7 @@
       "station_distance_miles": 0.81,
       "walk_time_minutes": 17,
       "station_distance_source": "routed",
+      "walkable_stations": [],
       "latitude": 51.628537,
       "longitude": -0.189142,
       "date_published": "2026-10-27T11:15:45",
@@ -187588,6 +188265,9 @@
       "station_distance_miles": 0.58,
       "walk_time_minutes": 12,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "Woodside Park"
+      ],
       "latitude": 51.617889,
       "longitude": -0.192754,
       "date_published": "2026-10-27T08:54:05",
@@ -188571,6 +189251,10 @@
       "station_distance_miles": 0.46,
       "walk_time_minutes": 10,
       "station_distance_source": "routed",
+      "walkable_stations": [
+        "New Barnet",
+        "Oakleigh Park"
+      ],
       "latitude": 51.644587,
       "longitude": -0.172062,
       "date_published": "2026-10-27T23:50:48",
